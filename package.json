@@ -1,21 +1,21 @@
 {
   "name": "cromwellhaus-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "cromwellhaus.com — Ryan Cromwell's blog",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "check-links": "node scripts/check-links.mjs _site"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "type": "module",
-  "private": "true",
+  "private": true,
   "devDependencies": {
     "@11ty/eleventy": "^3.1.8",
     "@11ty/eleventy-plugin-rss": "^3.1.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

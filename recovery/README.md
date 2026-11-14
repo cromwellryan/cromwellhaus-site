@@ -25,6 +25,8 @@ Gaps:
 
 ## Re-running
 
+Run from this `recovery/` directory. The output lands in `content/`; copy `content/posts`, `content/pages` and `content/images` into `../src/` to update the site. `../src/posts` is the source of truth once you start editing posts there; re-extracting would overwrite those edits, so diff before copying.
+
 ```
 python3 -I scripts/select_captures.py cdx/domain.txt cdx/feedburner.txt > cdx/fetch.tsv
 python3 -I scripts/fetch.py cdx/fetch.tsv raw          # ~75 min; Wayback rate-limits hard
