@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build once, MSDeploy all over the place | Ryan Cromwell</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php">
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="http://cromwellhaus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Build once, MSDeploy all over the place Comments Feed" href="http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='isola-style-css'  href='http://cromwellhaus.com/wp-content/themes/isola/style.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='isola-source-sans-pro-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700%2C300italic%2C400italic%2C600italic%2C700italic&#038;subset=latin%2Clatin-ext&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://cromwellhaus.com/wp-content/themes/isola/genericons/genericons.css?ver=3.0.3' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v5.5.2 - Universal disabled - https://www.monsterinsights.com/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-4332588-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Better than your average programmer&hellip;' href='http://cromwellhaus.com/2012/04/better-than-your-average-programmer/' />
+<link rel='next' title='Beyond the Agile Programmer: Innovative Teams' href='http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/' />
+<meta name="generator" content="WordPress 4.6.1" />
+<link rel="canonical" href="http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/" />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=1146' />
+<link rel="alternate" type="application/json+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2012%2F05%2Fbuild-once-msdeploy-all-over-the-place%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2012%2F05%2Fbuild-once-msdeploy-all-over-the-place%2F&#038;format=xml" />
+<meta property="og:title" content="Build once, MSDeploy all over the place" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:url" content="http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="There are about 3 dozen ways to automate web app deployment.&#160; All have their candy and their evil.&#160; MSDeploy is one of the more intense tools, but if you don’t collapse at the command line syntax you’ll find it can be pretty sweet. It’s rather easy to create a basic package, but step beyond the &hellip;" /></head>
+
+<body class="single single-post postid-1146 single-format-standard">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-inner">
+			<div class="site-branding">
+				<button id="menu-toggle" class="toggle">
+					<svg version="1.1" class="menu-toggle-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+						<g id="menu">
+							<g>
+								<rect x="3" y="4" width="18" height="3"/>
+								<rect x="3" y="10" width="18" height="3"/>
+								<rect x="3" y="16" width="18" height="3"/>
+							</g>
+						</g>
+					</svg>
+					<span class="screen-reader-text">Primary Menu</span>
+				</button>
+				<h1 class="site-title"><a href="http://cromwellhaus.com/" rel="home">Ryan Cromwell</a></h1>
+				<h2 class="site-description">Big vision. Small changes.  Learn by shipping.</h2>
+			</div>
+
+			<div id="site-search" class="header-search">
+				<div class="header-search-form">
+					<form role="search" method="get" class="search-form" action="http://cromwellhaus.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<span class="search-icon">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+			<g id="search">
+				<path class="icon" d="M15.846,13.846C16.573,12.742,17,11.421,17,10c0-3.866-3.134-7-7-7s-7,3.134-7,7s3.134,7,7,7
+					c1.421,0,2.742-0.427,3.846-1.154L19,21l2-2L15.846,13.846z M10,15c-2.761,0-5-2.238-5-5c0-2.761,2.239-5,5-5c2.762,0,5,2.239,5,5
+					C15,12.762,12.762,15,10,15z"/>
+			</g>
+		</svg>
+	</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:" />
+	</label>
+	<input type="submit" class="search-submit" value="Search" />
+</form>				</div><!-- .header-search-form -->
+			</div><!-- #site-navigation -->
+		</div><!-- .site-header-inner -->
+	</header><!-- #masthead -->
+
+	<div id="toggle-sidebar">
+		<button id="menu-close">
+			<span class="screen-reader-text">Close Menu</span>
+		</button>
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="menu-wrapper">
+				<div class="menu"><ul><li ><a href="http://cromwellhaus.com/">Home</a></li><li class="page_item page-item-834"><a href="http://cromwellhaus.com/about/">Bio</a></li><li class="page_item page-item-801"><a href="http://cromwellhaus.com/presentations/">Presentations</a></li></ul></div>
+			</div>
+		</nav><!-- #site-navigation -->
+			</div>
+
+	
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-1146" class="post-1146 post type-post status-publish format-standard hentry category-uncategorized tag-code">
+	<header class="entry-header">
+		<h1 class="entry-title">Build once, MSDeploy all over the place</h1>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+					<p>There are about 3 dozen ways to automate web app deployment.&#160; All have their candy and their evil.&#160; MSDeploy is one of the more intense tools, but if you don’t collapse at the command line syntax you’ll find it can be pretty sweet.</p>
+<p>It’s rather easy to create a basic package, but step beyond the basics and the story isn’t laid out clearly before you.&#160; Many jump on the Config Transform wagon, building 9 versions of their app for each environment they may target.&#160; Transforms look good at first, but then you’re compiling your app 20 times and it just get’s annoying.&#160; I’d much rather build once and specify the parameter transformations at deploy time.&#160; That’s what I’ve got for you today.</p>
+<p>Here I’ll walk you through creating custom parameters for deploy time change via MSDeploy.</p>
+<p>I’m using an ASP.Net MVC 4 Internet Project, but it’s not critical.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb.png" width="224" height="244" /></a></p>
+<h1></h1>
+<p><strong>Environment Specific Settings</strong></p>
+<p>To emulate an environment specific setting, I’ve added appsetting <em>EnvironmentImIn.</em>&#160; I’ll commit this with the Get Latest and Go™ value of <em>LocalDev.&#160; </em></p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image1.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb1.png" width="231" height="244" /></a><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image2.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb2.png" width="225" height="244" /></a></p>
+<p>&#160;</p>
+<p><strong>Building the Package (Manually)</strong></p>
+<p>Right click the project MVC project and click <em>Build Deployment Package</em>.&#160; </p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image3.png"><img style="background-image: none; border-right-width: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb3.png" width="244" height="89" /></a></p>
+<p>This will create your package as a folder with a series of files under &lt;Project&gt;\obj\package.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image4.png"><img style="background-image: none; border-right-width: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb4.png" width="189" height="244" /></a></p>
+<p>Great, but we don’t deploy from dev machines ‘cause we have a habit of installing crazy stuff.&#160; You should…</p>
+<p><strong>Build the Package (Automation)</strong></p>
+<p>ASP.Net project files, being MSBuild files, have a target called <em>Package.</em>&#160; This will first compile the project and then generate the package folder just like VS did above (<a href="http://vishaljoshi.blogspot.com/2009/02/web-packaging-creating-web-packages.html" target="_blank">Details</a>).&#160; You can adapt this with ease to TFS, TeamCity, etc.<a href="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML46e20cf.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="SNAGHTML46e20cf" border="0" alt="SNAGHTML46e20cf" src="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML46e20cf_thumb.png" width="644" height="327" /></a></p>
+<p><strong>Deployment Parameters</strong></p>
+<p>MSDeploy uses a parameters.xml file to determine what is “changeable” at deploy time.&#160; This file is consumed at package <u>creation</u> time.&#160; I consider this a good thing since you end up committing the file and are explicit about what’s changeable.&#160; </p>
+<p>If you look in the .zip file in your package directory you’ll find a default parameters.xml.&#160; This is because VS/MSBuild makes <a href="http://vishaljoshi.blogspot.com/2010/07/web-deploy-parameterization-in-action.html" target="_blank">certain things changeable by default</a>.&#160; If you drop a parameters.xml file into your project root, MSBuild will use that.&#160; Coolio.&#160; Here’s ours:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image5.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb5.png" width="644" height="278" /></a></p>
+<p>Vishal Joshi does all the hard work of explaining what the elements all mean <a href="http://vishaljoshi.blogspot.com/2010/07/web-deploy-parameterization-in-action.html" target="_blank">here</a>.&#160; Vishal is the man!&#160; What we’re doing is adding a parameter EnvironmentImIn, giving it a description, and then telling MSDeploy how to find the entry.&#160; Beware, there be regex in them thar hills. </p>
+<p>&#160;</p>
+<p><strong>Changeable Package Settings</strong></p>
+<p>If you build your Deployment Package now (msbuild /t:Package) you’ll find the *.SetParameters.xml file now contains our <em>EnvironmentImIn</em> setting where before it only had IIS Web Application Name and DefaultConnection.&#160; Saweeet!</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image6.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb6.png" width="644" height="198" /></a></p>
+<p>The *.zip file will also have a parameters.xml file like this:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image7.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb7.png" width="644" height="261" /></a></p>
+<p><strong>Deployment (IIS Manager)</strong></p>
+<p>I find many deployment teams like to do their magic manually.&#160; These are often the infrastructure or a Release management group.&#160; They spurn the console at their own peril.&#160; IIS is cool with that though.&#160; </p>
+<p>You can import packages through IIS Manager and you’ll be presented a UI to change your setting.&#160; #huzzuh!</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML4c25a19.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="SNAGHTML4c25a19" border="0" alt="SNAGHTML4c25a19" src="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML4c25a19_thumb.png" width="644" height="469" /></a></p>
+<p>Set it to “Staging” and Finish click Finish results in:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML66b5a51.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="SNAGHTML66b5a51" border="0" alt="SNAGHTML66b5a51" src="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML66b5a51_thumb.png" width="644" height="442" /></a></p>
+<p><strong>Deployment (Command line)</strong></p>
+<p>One of the convenient pieces created for you by msbuild /t:Package is the <em>MSDeploySample.deploy.cmd</em> file.&#160; It helps parse parameters and construct the not so straight forward msdeploy.exe command line.</p>
+<p>If you don’t want to mess with msdeploy.exe directly, you can customize the SetParameters.xml file and just run the cmd file like this:</p>
+<blockquote><p>MSDeploySample.deploy.cmd [/T|/Y]</p>
+</blockquote>
+<p>/T means tell me what’s gonna happen, but don’ t actually do anything yet.</p>
+<p>/Y is for the big kids.&#160; Applies the changes.</p>
+<p>&#160;</p>
+<p>The alternative is to supply –setParam like this</p>
+<blockquote><p><font color="#000000">–setParam:EnvironmentImIn=Staging</font></p>
+</blockquote>
+<p>Easiest way to construct an MSDeploy.exe command line is to use the .cmd and modify what it gives you.&#160; Look <a href="http://technet.microsoft.com/en-us/library/dd569084(WS.10).aspx#BKMK_ParameterKindSettings" target="_blank">here</a> for detailed –setParam options.</p>
+					</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="entry-meta">
+			<span class="posted-on"><a href="http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/" rel="bookmark"><time class="entry-date published" datetime="2012-05-02T14:05:43+00:00">May 2, 2012</time><time class="updated" datetime="2012-05-02T21:15:31+00:00">May 2, 2012</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://cromwellhaus.com/author/cromwellryan/">cromwellryan</a></span></span>		</div><!-- .entry-meta -->
+				<span class="tags-links">
+			<a href="http://cromwellhaus.com/tag/code/" rel="tag">Code</a>		</span>
+		
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+				<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Post navigation</h1>
+		<div class="nav-links">
+			<div class="nav-previous"><a href="http://cromwellhaus.com/2012/04/better-than-your-average-programmer/" rel="prev"><span class="meta-nav">&larr;</span> Better than your average programmer&hellip;</a></div><div class="nav-next"><a href="http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/" rel="next">Beyond the Agile Programmer: Innovative Teams <span class="meta-nav">&rarr;</span></a></div>		</div><!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+			
+<div id="disqus_thread">
+            <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-296">
+        <div id="dsq-comment-header-296" class="dsq-comment-header">
+            <cite id="dsq-cite-296">
+                <span id="dsq-author-user-296">K. Montgomery</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-296" class="dsq-comment-body">
+            <div id="dsq-comment-message-296" class="dsq-comment-message"><p>Ryan,</p>
+<p>Sorry for the off-topic comment here. Your blog post about &#8220;The WPF Mindset&#8221; appears to be partially unavailable: the images in the post are unavailable, as is the source. I was wondering if there was any way to obtain the source, at least. I can put together something from what is available on the webpage, but the implementation of IMultiValueConverter is only available from source.</p>
+<p>Thanks,</p>
+<p>Keith Montgomery</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment byuser comment-author-cromwellryan bypostauthor odd alt depth-2" id="dsq-comment-305">
+        <div id="dsq-comment-header-305" class="dsq-comment-header">
+            <cite id="dsq-cite-305">
+                <a id="dsq-author-user-305" href="http://cromwellhaus.com" target="_blank" rel="nofollow">cromwellryan</a>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-305" class="dsq-comment-body">
+            <div id="dsq-comment-message-305" class="dsq-comment-message"><p>Yeah, that happened in the move from Community Server to WordPress a few years ago.  I didn&#8217;t realize it at the time and didn&#8217;t save the images.  I really should recreate them, because it continues to be the #1 post from search and SO.  Thanks for the kick in the rear.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even depth-2" id="dsq-comment-321">
+        <div id="dsq-comment-header-321" class="dsq-comment-header">
+            <cite id="dsq-cite-321">
+                <span id="dsq-author-user-321">cromwellryan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-321" class="dsq-comment-body">
+            <div id="dsq-comment-message-321" class="dsq-comment-message"><p>K. I lost some of that going from Community Server to WordPress and didn&#8217;t realize it in time.  I&#8217;ve put some of it back together, but not the converter&#8230;. yet.  If you still need some help I&#8217;ll do what I can.  I can&#8217;t find the original map so that makes part of the process hard :/  Let me know and I&#8217;ll bump it up the list if you still need it.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-340">
+        <div id="dsq-comment-header-340" class="dsq-comment-header">
+            <cite id="dsq-cite-340">
+                <span id="dsq-author-user-340">Srinivas Prodduturi</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-340" class="dsq-comment-body">
+            <div id="dsq-comment-message-340" class="dsq-comment-message"><p>How do you perform the same for a Windows Service project that doesn&#8217;t have a Package/Publish option? Could you also shed some light on how I can get my TFS thats using the Default Template to generate the package and execute using MSDeploy with tempAgent? </p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-430">
+        <div id="dsq-comment-header-430" class="dsq-comment-header">
+            <cite id="dsq-cite-430">
+                <a id="dsq-author-user-430" href="http://twitter.com/kingdango" target="_blank" rel="nofollow">Aaron King</a>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-430" class="dsq-comment-body">
+            <div id="dsq-comment-message-430" class="dsq-comment-message"><p>Ryan, this is precisely what I was looking for.  I&#8217;m going through my second (or third) continuous delivery roll out and I want to switch from having to Build+Config for each environment to simply Build once and Deploy+Config for each environment.  THANKS!!!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-447">
+        <div id="dsq-comment-header-447" class="dsq-comment-header">
+            <cite id="dsq-cite-447">
+                <span id="dsq-author-user-447">Alex Jamrozek</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-447" class="dsq-comment-body">
+            <div id="dsq-comment-message-447" class="dsq-comment-message"><p>m/ metal. I&#8217;ve been doing auto deploys with CruiseControl/NAnt &amp; TFS for years and have always copped out to x/robocopy and service/app pool utility libraries. thanks for the candid and helpful post!</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-475">
+        <div id="dsq-comment-header-475" class="dsq-comment-header">
+            <cite id="dsq-cite-475">
+                <span id="dsq-author-user-475">Kirill Bykov</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-475" class="dsq-comment-body">
+            <div id="dsq-comment-message-475" class="dsq-comment-message"><p>I&#8217;ve spent a day and I can&#8217;t figure out why my Parameters.xml is being ignored :-((</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-477">
+        <div id="dsq-comment-header-477" class="dsq-comment-header">
+            <cite id="dsq-cite-477">
+                <span id="dsq-author-user-477">cromwellryan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-477" class="dsq-comment-body">
+            <div id="dsq-comment-message-477" class="dsq-comment-message"><p>if you can gist what you&#8217;re trying to do i&#8217;ll take a look.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+var disqus_url = 'http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/';
+var disqus_identifier = '1146 http://cromwellhaus.com/?p=1146';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'cromwellhaus';
+var disqus_title = "Build once, MSDeploy all over the place";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=1146';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="http://wordpress.org/">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: Isola by <a href="http://wordpress.com/themes/isola/" rel="designer">WordPress.com</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'cromwellhaus';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/isola/js/isola.js?ver=20140623'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/isola/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/isola/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/comment-reply.min.js?ver=4.6.1'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2016-12-30 15:59:51 by W3 Total Cache -->

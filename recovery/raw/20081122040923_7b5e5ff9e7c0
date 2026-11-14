@@ -1,0 +1,293 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="robots" content="index,follow" />
+<meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="GENERATOR" content="CommunityServer 2008 (Build: 30417.1769)" />
+<link rel="pingback" href="http://cromwellhaus.com/blogs/ryanc/pingback.aspx" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/print.css?SectionID=11" type="text/css" media="print" />
+	<link rel="stylesheet" href="/themes/blogs/Elemental/style/air.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	Silverlight: .Net for the masses - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjI3NjA3NjAzZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUbY3RsMDAkY3RsMDckY3RsMDAkU2VhcmNoQm94BS5jdGwwMCRNYWluJGN0bDA5JGN0bDAyJGN0bDAyJGN0bDAyJGNoa1JlbWVtYmVyrPq8ygQbIeWf5xTLDz1TbEmtppM=" />
+</div>
+
+
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4S7ZBPAVw9PwaqA6uS0FfwGf3Hm9m6m-bY3jx8ehHgPE1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4LztMjwM-SqBR5_anrX2l2HqgE4lVEbuAeBVlAAPF2Jk1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4qw7uaC3LpM50bK3H8VCJ_tVhk9B3VUiQp-tSztnY6fE1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4dI2CKwjWiWdwrBqDrsqy7rWQN5-5uEWsypWfk5ThPqg1&amp;t=633501542161978064" type="text/javascript"></script>
+
+    			
+
+    <div id="masthead">
+        <div id="welcome" align="right">
+            
+        <a href="/login.aspx?ReturnUrl=%2fblogs%2fryanc%2farchive%2f2007%2f05%2f01%2fsilverlight-net-for-the-masses.aspx">Sign in </a>
+         | <a href="/user/CreateUser.aspx?ReturnUrl=">Join</a>
+        | <a href="http://dev.communityserver.com/r.ashx?K&amp;siteurl=weblogs.weblogpostName">Help</a>
+     
+
+
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="container">
+	        <div id="header">
+                <div id="title">
+                    <div id="SearchSideBar">    
+                        <div id="search">
+                                <input name="ctl00$ctl07$ctl00$SearchBox" type="text" id="ctl00_ctl07_ctl00_SearchBox" class="searchBox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event);" />
+                                <a id="ctl00_ctl07_ctl00_SearchButton" href="javascript:__doPostBack('ctl00$ctl07$ctl00$SearchButton','')">Search</a>
+                            </div>
+                    </div>
+                    <h1><a class="headermaintitle" href="/blogs/ryanc/default.aspx">Ryan Cromwell</a></h1>                                                
+                    <p id="tagline">Aimless musings of a keyboard masher.</p>
+                </div>
+                <div id="nav">                        
+                    <div id="SubscriptionsSideBar">
+                        <div id="subscriptions">
+                            <ul>
+                                <li><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li>
+	                            <li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li>
+						        
+                            </ul>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="/blogs/ryanc/default.aspx">Home</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <div id="contentmargin"></div>
+                <div id="contentwrapper">
+                    <div id="sidebar-a">
+                    
+                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Tags</h3>
+	                                    <div id="TagSideBar"><ul class="SidebarTagCloud">
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Oracle/default.aspx" rel="tag">Oracle</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/VMWare/default.aspx" rel="tag">VMWare</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                            </div>
+	                                    
+	                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Archives</h3>
+	                                    <div id="ArchiveSideBar">
+<ul>
+<li><a href="/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                            </div>
+	                                    
+	                            
+
+	                    
+                    </div>
+                    <div id="content"><div id="content2">
+	                    
+
+    
+
+    <div class="post">
+        <div class="posthead">
+            <h2 class="pageTitle">Silverlight: .Net for the masses</h2>
+            Posted 
+            <a href="/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx">Tuesday, May 01, 2007 10:25 AM</a>                
+            by
+			<a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+        </div>
+        <p>While up in Redmond for the <a href="http://cromwellhaus.com/blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1.aspx">WPF Bootcamp</a>, we had a short time to work with some of the WPF/E, now <a title="Silverlight" href="http://msdn.microsoft.com/silverlight/">Silverlight</a>,&nbsp;team members.&nbsp; At the time&nbsp;Silverlight&nbsp;didn&#39;t make a whole lot of sense in our strategy.&nbsp; That said, I hope everyone sees the great potential that comes from some of the features surrounding <a href="http://go.microsoft.com/fwlink/?linkid=89145&amp;clcid=0x409">Silverlight 1.1</a>&nbsp;specifically.</p> <p>Let&#39;s put this into context. Over the last couple of years, true web-based applications have really started to take shape.&nbsp; I&#39;m talking <a href="http://docs.google.com/">Google Docs &amp; Spreadsheets</a>, <a href="http://local.yahoo.com">Yahoo! Local</a>, <a href="http://pipes.yahoo.com/pipes/">Yahoo! Pipes</a>&nbsp;and not YouTube, which is a glorified photo sharing site.&nbsp; A bevy of <a href="http://ajaxpatterns.org/wiki/index.php?title=AJAXFrameworks">AJAX toolkits</a>&nbsp;have attempted to fill the enormous development gap between LCD-JavaScript and C#, Java, VB, Ruby, and Python, but there is only so much one can do with JavaScript before you go crazy.</p> <p>Now imagine some &quot;real&quot; applications that actually attempt to provide a full feature set which accentuates an existing web model.&nbsp; My favorite example is <a href="http://www.shutterfly.com/studio/overviews.jsp">Shutterfly Studio</a>.&nbsp; They probably could have given you 20% of the Collage functionality with some goofy JavaScript or lots of uploading and postbacks, but how long would you wait around for your photos to upload while trying out different layouts?&nbsp; Not long I&#39;d imagine.&nbsp; This is where Silverlight comes in.</p> <p>Silverlight takes the untold story of Java and actually runs with it by providing a consolidated branch of the full .Net CLR, including JITter, Garbage-Collector, BCL, Threading namespace, Network stack and more.&nbsp; Well this is all well and good, but why not just use Flash?&nbsp; Well, if you want to deploy a Flash application, you are forced to use <a href="http://en.wikipedia.org/wiki/Talk:ActionScript/rewrite">ActionScript</a>, which doesn&#39;t provide nearly the feature set of .Net nor is it useful in any other environment other than Flash, so your experience is isolated.&nbsp; Flash also doesn&#39;t provide the huge WCF communications platform for secure, transport independent communications, WPF for rich interactive media, and one of the most powerful IDE platforms in <a href="http://msdn.microsoft.com/vstudio/eula.aspx?id=c8bf88e7-841c-43fd-c63d-379943617f36">Visual Studio.</a></p> <p>Imagine&nbsp;starting your&nbsp;family collage&nbsp;with <a href="http://www.shutterfly.com/studio/overviews.jsp">Shutterfly Studio</a>&nbsp;at home on your laptop, getting to work in the morning and flipping through real layouts with your pictures at work (lunch of course) and then sending your parents a link to the catalog of pictures where they can browse any layout and order their own version of the collage?&nbsp; No Shutterfly Studio desktop icon or Start Menu shortcut.&nbsp; Just a one time 20 second download of the Silverlight CLR - yeah the Silverlight CLR is only 4mb.&nbsp; That&#39;s what removing 90% of the&nbsp;<a href="http://msdn2.microsoft.com/en-us/library/system.drawing.color_members.aspx">named color members in System.Drawing.Color</a> and asking people to look up the HEX value.</p> <p>Have fun.</p><div style="clear:both;"></div>
+        
+
+        <div class="postfoot">
+            	
+                                    
+            <div class="em"><span id="ctl00_Main_ctl08_ctl01">Filed under: <a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a>, <a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a>, <a href="/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></span><input type="hidden" name="ctl00$Main$ctl08$ctl01" id="ctl00_Main_ctl08_ctl01_State" value="nochange" /></div>
+        </div>    
+    </div>
+    
+    
+            
+                    <a name="Comments"></a>
+                    <h3>Comments</h3>
+                    <div id="comments">
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx#740">#</a>
+				            <span>re: Silverlight: .Net for the masses</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Tuesday, September 02, 2008 4:30 PM
+			                by <a title="notfueloKinue" rel="nofollow" href="http://payday-loans-az.blogspot.com">notfueloKinue</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>hey :-) </p>
+<p>its very unconventional point of view. </p>
+<p>Good post. </p>
+<p>realy gj </p>
+<p>thx :-)</p>
+<div style="clear:both;"></div></p>
+                        </div>
+                    </div>
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx#753">#</a>
+				            <span>re: Silverlight: .Net for the masses</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Friday, October 10, 2008 11:09 AM
+			                by <a title="rinkostfx" rel="nofollow" href="http://www.rinkost.ru/partner/fordoc">rinkostfx</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>Предлагаю Вам научиться зарабатывать на интернет торгах Форекс.</p>
+<p>Практиковаться можно на демо или центовых счетах, все наглядно показано в рисунках.</p>
+<p>Бесплатные конкурсы. Forex счета любые: USD, RUB, EURO, от 0,01 лота и от 0,1 доллара. Различные потоковые новости, в т.ч. и в программе. Отличная партнерская программа. Кредитование трейдеров. Создай свой постоянный поток денег. Компания Ринкост - отличные условия для трейдинга: www.rinkost.ru/partner/fordoc</p>
+<div style="clear:both;"></div></p>
+                        </div>
+                    </div>
+                
+                    </div>
+                
+            
+            
+            
+            
+                    <div id="commentform">
+                    <h3>Leave a Comment</h3>
+	                    <dl>
+	                        <div id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RegisteredWrapper">
+	
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle">Title</label> <em>(required)</em>&nbsp;</dt>
+	                        <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbTitle" type="text" value="re: Silverlight: .Net for the masses" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle" class="smallbox" /></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameTitle"><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName">Name:</label> <em>(required)</em>&nbsp;</dt>
+                            <dd id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameDesc"><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbName" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName" class="smallbox" /></dd>
+
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl">Website:</label> <em>(optional</em>)</dt>
+                            <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbUrl" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl" class="smallbox" /></dd>
+                            
+</div>
+                            
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment">Comments</label> <em>(required)</em>&nbsp;</dt>
+                            <dd><textarea name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbComment" rows="5" cols="25" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment"></textarea></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RememberWrapper"><input id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember" type="checkbox" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$chkRemember" /><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember">Remember Me?</label></dt>
+               
+                            <dt><input type="submit" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit&quot;, &quot;&quot;, true, &quot;CreateCommentForm&quot;, &quot;&quot;, false, false))" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_btnSubmit" /></dt>
+	                    </dl>
+                    </div>
+                    
+        
+        
+                    </div></div>
+                    <div id="contentfooter">&nbsp;</div>
+		        </div>
+                <div id="footer">
+                    
+				        
+    				    
+				        
+				                <a href="http://communityserver.com/" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						    
+
+                        
+    					
+				    
+                </div>
+            </div>        
+        </div>
+    
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://cromwellhaus.com/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx"
+dc:identifier="http://cromwellhaus.com/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx"
+dc:title="Silverlight: .Net for the masses"
+trackback:ping="http://cromwellhaus.com/blogs/ryanc/trackback.ashx?PostID=179" />
+</rdf:RDF>
+-->
+<script src="http://feeds.feedburner.com/~s/RyanCromwell?i=http://cromwellhaus.com/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$ctl07$ctl00$SearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01_State','ctl00_Main_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

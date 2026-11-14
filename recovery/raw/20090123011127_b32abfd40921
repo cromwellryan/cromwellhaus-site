@@ -1,0 +1,482 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="robots" content="index,follow" />
+<meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="GENERATOR" content="CommunityServer 2008 (Build: 30417.1769)" />
+<link rel="pingback" href="http://cromwellhaus.com/blogs/ryanc/pingback.aspx" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/print.css?SectionID=11" type="text/css" media="print" />
+	<link rel="stylesheet" href="/themes/blogs/Elemental/style/air.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	The WPF Mindset - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjI3NjA3NjAzZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUbY3RsMDAkY3RsMDckY3RsMDAkU2VhcmNoQm94BS5jdGwwMCRNYWluJGN0bDA5JGN0bDAyJGN0bDAyJGN0bDAyJGNoa1JlbWVtYmVyrPq8ygQbIeWf5xTLDz1TbEmtppM=" />
+</div>
+
+
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4S7ZBPAVw9PwaqA6uS0FfwGf3Hm9m6m-bY3jx8ehHgPE1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4LztMjwM-SqBR5_anrX2l2HqgE4lVEbuAeBVlAAPF2Jk1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4qw7uaC3LpM50bK3H8VCJ_tVhk9B3VUiQp-tSztnY6fE1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4dI2CKwjWiWdwrBqDrsqy7rWQN5-5uEWsypWfk5ThPqg1&amp;t=633501542161978064" type="text/javascript"></script>
+
+    			
+
+    <div id="masthead">
+        <div id="welcome" align="right">
+            
+        <a href="/login.aspx?ReturnUrl=%2fblogs%2fryanc%2farchive%2f2008%2f11%2f03%2fthe-wpf-mindset.aspx">Sign in </a>
+         | <a href="/user/CreateUser.aspx?ReturnUrl=">Join</a>
+        | <a href="http://dev.communityserver.com/r.ashx?K&amp;siteurl=weblogs.weblogpostName">Help</a>
+     
+
+
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="container">
+	        <div id="header">
+                <div id="title">
+                    <div id="SearchSideBar">    
+                        <div id="search">
+                                <input name="ctl00$ctl07$ctl00$SearchBox" type="text" id="ctl00_ctl07_ctl00_SearchBox" class="searchBox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event);" />
+                                <a id="ctl00_ctl07_ctl00_SearchButton" href="javascript:__doPostBack('ctl00$ctl07$ctl00$SearchButton','')">Search</a>
+                            </div>
+                    </div>
+                    <h1><a class="headermaintitle" href="/blogs/ryanc/default.aspx">Ryan Cromwell</a></h1>                                                
+                    <p id="tagline">Aimless musings of a keyboard masher.</p>
+                </div>
+                <div id="nav">                        
+                    <div id="SubscriptionsSideBar">
+                        <div id="subscriptions">
+                            <ul>
+                                <li><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li>
+	                            <li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li>
+						        
+                            </ul>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="/blogs/ryanc/default.aspx">Home</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <div id="contentmargin"></div>
+                <div id="contentwrapper">
+                    <div id="sidebar-a">
+                    
+                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Tags</h3>
+	                                    <div id="TagSideBar"><ul class="SidebarTagCloud">
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Oracle/default.aspx" rel="tag">Oracle</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/VMWare/default.aspx" rel="tag">VMWare</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                            </div>
+	                                    
+	                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Archives</h3>
+	                                    <div id="ArchiveSideBar">
+<ul>
+<li><a href="/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                            </div>
+	                                    
+	                            
+
+	                    
+                    </div>
+                    <div id="content"><div id="content2">
+	                    
+
+    
+
+    <div class="post">
+        <div class="posthead">
+            <h2 class="pageTitle">The WPF Mindset</h2>
+            Posted 
+            <a href="/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx">Monday, November 03, 2008 12:38 PM</a>                
+            by
+			<a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+        </div>
+        <p>WPF is awesome, but it requires the developer to make a pretty big shift in their thinking of UI.&#160; I’ve had a hard time explaining this to people, but last week, I had an opportunity to work through an example with <a href="http://blogger.forgottenskies.com/">Steve Gentile</a>.&#160; That’s the basis of this walkthrough.</p>  <p>&#160;</p>  <h2>The Scenerio</h2>  <p>Steve has an ASP.Net website he maintains called <a href="http://www.forgottenskies.com/">ForgottenSkies.com</a>.&#160; One of the pages displays a map from the game with events that were captured from the server.&#160; You can see the ASP.Net version <a href="http://www.forgottenskies.com/ForgottenWars/FSWarMap.aspx">here</a>.&#160; Steve was looking to create a Silverlight version of this page.</p>  <p><strong>The Wrong Mindset</strong></p>  <p>The initial response from most developers would be to put an image on the “form” and then figure out a way to place some composite control or other image that would denote each event’s location.&#160; If they had the inclination they might use the DataContext, but they likely would also iterate each Event in some collection and manually place these controls within some container.&#160; I believe Steve was trying to place them into a really big grid with lots of Rows and Columns to represent the Latitude and Longitude of the map.</p>  <h2>The WPF Mindset</h2>  <p>Decomposing this scenario is vital to using WPF properly.&#160; When it comes down to it, the map is really just a way to visualize a collection of Events. If we wanted we could easily make this a list, couldn’t we?&#160; So lets start there:</p>  <p>For the purposes of this demo, the Window.DataContext is set to an instance of an AttackService, which looks like the following:</p>  <pre style="border-bottom:#cecece 1px solid;border-left:#cecece 1px solid;padding-bottom:5px;background-color:#fbfbfb;min-height:40px;padding-left:5px;width:650px;padding-right:5px;overflow:auto;border-top:#cecece 1px solid;border-right:#cecece 1px solid;padding-top:5px;"><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">public</span> <span style="color:#0000ff;">class</span> AttackService
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">{
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">public</span> ObservableCollection&lt;Attack&gt; Attacks { <span style="color:#0000ff;">get</span>; <span style="color:#0000ff;">private</span> <span style="color:#0000ff;">set</span>; }
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">public</span> <span style="color:#0000ff;">int</span> MapSize { <span style="color:#0000ff;">get</span>; <span style="color:#0000ff;">set</span>; }
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"></pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">public</span> AttackService()
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    {
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        <span style="color:#0000ff;">this</span>.MapSize = 160;
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        <span style="color:#0000ff;">this</span>.Attacks = <span style="color:#0000ff;">new</span> ObservableCollection&lt;Attack&gt;();
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"></pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        Random random = <span style="color:#0000ff;">new</span> Random();
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"></pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        <span style="color:#0000ff;">for</span>(<span style="color:#0000ff;">int</span> index =0; index &lt; 10;index++)
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        {
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">            var attack = <span style="color:#0000ff;">new</span> Attack
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">            {
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                Description = <span style="color:#0000ff;">string</span>.Format(&quot;<span style="color:#8b0000;">Attack {0}</span>&quot;, index),
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                Latitude = random.Next(0, MapSize),
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                Longitude = random.Next(0, MapSize),
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                Type = (AttackType)random.Next(0, 2)
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">            };
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"></pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"></pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">            <span style="color:#0000ff;">this</span>.Attacks.Add(attack);
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        }
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    }
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">}</pre></pre>
+
+<p></p>
+
+<p>Our goal is to display the Attacks collection, so let’s do that:</p>
+
+<pre style="border-bottom:#cecece 1px solid;border-left:#cecece 1px solid;padding-bottom:5px;background-color:#fbfbfb;min-height:40px;padding-left:5px;width:650px;padding-right:5px;overflow:auto;border-top:#cecece 1px solid;border-right:#cecece 1px solid;padding-top:5px;"><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Window</span> <span style="color:#ff0000;">x</span>:<span style="color:#ff0000;">Class</span>=<span style="color:#0000ff;">&quot;WpfApplication1.Window1&quot;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#ff0000;">xmlns</span>=<span style="color:#0000ff;">&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#ff0000;">xmlns</span>:<span style="color:#ff0000;">x</span>=<span style="color:#0000ff;">&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot;</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Grid</span><span style="color:#0000ff;">&gt;</span>        
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">ListView</span> <span style="color:#ff0000;">ItemsSource</span>=<span style="color:#0000ff;">&quot;{Binding Attacks}&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Grid</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Window</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"></pre></pre>
+
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_357ED79C.png"><img style="display:inline;margin-left:0px;margin-right:0px;" title="image" border="0" alt="image" align="left" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_4616D28A.png" width="160" height="171" /></a>We have a ListView which has it’s ItemsSource bound to our Attacks collection.&#160; Nothing special.&#160; WPF doesn’t know how to display an Attack class so if we would just see a 10 instances of our class name listed.&#160; We’ll get there though.</p>
+
+<p>&#160;</p>
+
+<p>For starters, lets look at these as if they were listed in a table (or GridView). To do this, we’ll tell the ListView to use a style, <em>attacksList</em>.&#160; We’ll place this style definition in our Window’s Resources collection for convenience of our demo. </p>
+
+<pre style="border-bottom:#cecece 1px solid;border-left:#cecece 1px solid;padding-bottom:5px;background-color:#fbfbfb;min-height:40px;padding-left:5px;width:650px;padding-right:5px;overflow:auto;border-top:#cecece 1px solid;border-right:#cecece 1px solid;padding-top:5px;"><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Window</span> <span style="color:#ff0000;">x</span>:<span style="color:#ff0000;">Class</span>=<span style="color:#0000ff;">&quot;WpfApplication1.Window1&quot;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#ff0000;">xmlns</span>=<span style="color:#0000ff;">&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#ff0000;">xmlns</span>:<span style="color:#ff0000;">x</span>=<span style="color:#0000ff;">&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot;</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Window.Resources</span><span style="color:#0000ff;">&gt;</span>        
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Style</span> <span style="color:#ff0000;">x</span>:<span style="color:#ff0000;">Key</span>=<span style="color:#0000ff;">&quot;attacksList&quot;</span> <span style="color:#ff0000;">TargetType</span>=<span style="color:#0000ff;">&quot;ListView&quot;</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">            <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Setter</span> <span style="color:#ff0000;">Property</span>=<span style="color:#0000ff;">&quot;View&quot;</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Setter.Value</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">GridView</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                        <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">GridViewColumn</span> <span style="color:#ff0000;">DisplayMemberBinding</span>=<span style="color:#0000ff;">&quot;{Binding Description}&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                        <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">GridViewColumn</span> <span style="color:#ff0000;">Header</span>=<span style="color:#0000ff;">&quot;Latitude&quot;</span> <span style="color:#ff0000;">DisplayMemberBinding</span>=<span style="color:#0000ff;">&quot;{Binding Latitude}&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                        <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">GridViewColumn</span> <span style="color:#ff0000;">Header</span>=<span style="color:#0000ff;">&quot;Longitude&quot;</span> <span style="color:#ff0000;">DisplayMemberBinding</span>=<span style="color:#0000ff;">&quot;{Binding Longitude}&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                    <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">GridView</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Setter.Value</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">            <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Setter</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Style</span><span style="color:#0000ff;">&gt;</span>        
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Window.Resources</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Grid</span><span style="color:#0000ff;">&gt;</span>        
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">ListView</span> <span style="color:#ff0000;">x</span>:<span style="color:#ff0000;">Name</span>=<span style="color:#0000ff;">&quot;attacksList&quot;</span> <span style="color:#ff0000;">ItemsSource</span>=<span style="color:#0000ff;">&quot;{Binding Attacks}&quot;</span> <span style="color:#ff0000;">Style</span>=<span style="color:#0000ff;">&quot;{StaticResource attacksList}&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Grid</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Window</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"></pre></pre>
+
+<p></p>
+
+<p></p>
+
+<p>What we’ve done is given ourselves a way to set values or properties on the ListView.&#160; <a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image6_5F00_7253596E.png"><img style="display:inline;margin-left:0px;margin-right:0px;" title="image" border="0" alt="image" align="right" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image6_5F00_thumb_5F00_74ACDB6C.png" width="149" height="183" /></a>For the sample you see here, we set the type of View for the ListView to be a GridView.&#160; </p>
+
+<p><strong></strong></p>
+
+<p><strong></strong></p>
+
+<h2>The Map</h2>
+
+<p>The ultimate visualization of this information is to display it contextually in a map.&#160; It’s important to remember that this is still a list, we just want to visualize the list differently.&#160; To do this we need to change our <em>attacksListStyle</em>.</p>
+
+<pre style="border-bottom:#cecece 1px solid;border-left:#cecece 1px solid;padding-bottom:5px;background-color:#fbfbfb;min-height:40px;padding-left:5px;width:674px;padding-right:5px;height:454px;overflow:auto;border-top:#cecece 1px solid;border-right:#cecece 1px solid;padding-top:5px;"><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Style</span> <span style="color:#ff0000;">x</span>:<span style="color:#ff0000;">Key</span>=<span style="color:#0000ff;">&quot;attacksList&quot;</span> <span style="color:#ff0000;">TargetType</span>=<span style="color:#0000ff;">&quot;ListView&quot;</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Setter</span> <span style="color:#ff0000;">Property</span>=<span style="color:#0000ff;">&quot;ItemsPanel&quot;</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Setter.Value</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">            <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">ItemsPanelTemplate</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Canvas</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Canvas.Background</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                        <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">ImageBrush</span> <span style="color:#ff0000;">ImageSource</span>=<span style="color:#0000ff;">&quot;Images\Map.jpg&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                    <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Canvas.Background</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">                <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Canvas</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">            <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">ItemsPanelTemplate</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">        <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Setter.Value</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Setter</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Setter</span> <span style="color:#ff0000;">Property</span>=<span style="color:#0000ff;">&quot;ItemContainerStyle&quot;</span> <span style="color:#ff0000;">Value</span>=<span style="color:#0000ff;">&quot;{StaticResource attackContainerStyle}&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Style</span><span style="color:#0000ff;">&gt;</span></pre></pre>
+
+<p>Instead of setting the View of our ListView, we are now setting the ItemsPanel to a Canvas.&#160; This tells the ListView to place all of the items its charged with listing into the Canvas.&#160; We have chosen canvas, because we will want to place each item via coordinates (X/Y, Left/Type) rather than stacking, row/column, etc.&#160; The background of our Canvas is going to be a JPG version of our map.&#160; Backgrounds and Foregrounds are always brushes, so we are using an ImageBrush to draw our map on the Canvas background.</p>
+
+<p>The second property we are setting is the <em>ItemContainerStyle </em>to the <em>attackContainerStyle</em>.&#160; The ListView places each item into a container rather than displaying it directly.&#160; In order to place it correctly, we need to set the Top and Left properties of this ItemContainer.</p>
+
+<pre style="border-bottom:#cecece 1px solid;border-left:#cecece 1px solid;padding-bottom:5px;background-color:#fbfbfb;min-height:40px;padding-left:5px;width:650px;padding-right:5px;overflow:auto;border-top:#cecece 1px solid;border-right:#cecece 1px solid;padding-top:5px;"><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Style</span> <span style="color:#ff0000;">x</span>:<span style="color:#ff0000;">Key</span>=<span style="color:#0000ff;">&quot;attackContainerStyle&quot;</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Setter</span> <span style="color:#ff0000;">Property</span>=<span style="color:#0000ff;">&quot;Canvas.Top&quot;</span> <span style="color:#ff0000;">Value</span>=<span style="color:#0000ff;">&quot;{Binding Latitude}&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Setter</span> <span style="color:#ff0000;">Property</span>=<span style="color:#0000ff;">&quot;Canvas.Left&quot;</span> <span style="color:#ff0000;">Value</span>=<span style="color:#0000ff;">&quot;{Binding Longitude}&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">Style</span><span style="color:#0000ff;">&gt;</span></pre></pre>
+
+<p>This binds the Canvas.Top and Canvas.Left <a href="http://msdn.microsoft.com/en-us/library/ms752914.aspx">DependencyProperties</a> to the Attack.Latitude and Attack.Longitude properties respectively.&#160; To bring this together, we have our ListView bound to a collection of Attacks and the ItemContainer contains each Attack and has its DataContext set to that Attack it is meant to contain.</p>
+
+<p>At this point we have most of what we want.&#160; <a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_33322913.png"><img style="display:inline;" title="image" border="0" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_4BA17AC9.png" width="310" height="214" /></a>Each little black image you see below represents an attack.&#160; This is done by setting the DataTemplate for the Attack type.</p>
+
+<pre style="border-bottom:#cecece 1px solid;border-left:#cecece 1px solid;padding-bottom:5px;background-color:#fbfbfb;min-height:40px;padding-left:5px;width:379px;padding-right:5px;height:105px;overflow:auto;border-top:#cecece 1px solid;border-right:#cecece 1px solid;padding-top:5px;"><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;</span><span style="color:#800000;">DataTemplate</span> <span style="color:#ff0000;">DataType</span>=<span style="color:#0000ff;">&quot;{x:Type local:Attack}&quot;</span><span style="color:#0000ff;">&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;">    <span style="color:#0000ff;">&lt;</span><span style="color:#800000;">Image</span> <span style="color:#ff0000;">Source</span>=<span style="color:#0000ff;">&quot;Images\AlliedTerritory.gif&quot;</span> <span style="color:#0000ff;">/&gt;</span>
+</pre><pre style="background-color:#fbfbfb;margin:0em;width:100%;font-family:consolas,&#39;Courier New&#39;,courier,monospace;font-size:12px;"><span style="color:#0000ff;">&lt;/</span><span style="color:#800000;">DataTemplate</span><span style="color:#0000ff;">&gt;</span></pre></pre>
+
+<p></p>
+
+<p>The problem you will find is that if you allow the Window to be scaled beyond the size of the map size as it existed when creating the Attack Latitude and Longitude, the points on the map will not scale or move with the map.&#160; I dealt with this by implementing an <a href="http://msdn.microsoft.com/en-us/library/system.windows.data.imultivalueconverter.aspx">IMultiValueConverter</a>.&#160; I won’t go into it here as it doesn’t pertain to our Mindset discussion, but I’ve included it in the attacked source code.</p>
+
+<h2>Summary</h2>
+
+<p>If you come into WPF trying to create cool graphics or visualizations from the outset, you will miss the power and productivity of the platform.&#160; WPF and the oft-sited Designer/Developer scenario actually thrive when you begin to simplify your application into the basics and then apply visualizations.</p>
+
+<p>Get the source for this project here:&#160; <a href="http://cromwellhaus.com/samples/mapaslistview.zip">Source Code</a>.&#160; The Xaml for this is literally only 67 lines with spaces.&#160; There is 1 line of custom code in code behind, and you saw the AttackService above.&#160; It’s dead simple.</p><div style="clear:both;"></div>
+        
+
+        <div class="postfoot">
+            	
+                                    
+            <div class="em"><span id="ctl00_Main_ctl08_ctl01">Filed under: <a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></span><input type="hidden" name="ctl00$Main$ctl08$ctl01" id="ctl00_Main_ctl08_ctl01_State" value="nochange" /></div>
+        </div>    
+    </div>
+    
+    
+            
+                    <a name="Comments"></a>
+                    <h3>Comments</h3>
+                    <div id="comments">
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx#803">#</a>
+				            <span>re: The WPF Mindset</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Tuesday, January 06, 2009 1:48 PM
+			                by <a title="Christopher Bennage" rel="nofollow" href="http://www.bluespire.com/blogs">Christopher Bennage</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>Excellent example. </p>
+<p>This is something that I saying a lot lately. In fact, I told someone today that it might be harder to learn WPF if you have a WinForms background than otherwise.</p>
+<div style="clear:both;"></div></p>
+                        </div>
+                    </div>
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx#804">#</a>
+				            <span>The WPF Mindset</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Tuesday, January 06, 2009 2:11 PM
+			                by <a title="TrackBack" rel="nofollow" href="http://www.dotnetkicks.com/wpf/The_WPF_Mindset">DotNetKicks.com</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>You&#39;ve been kicked (a good thing) - Trackback from DotNetKicks.com</p>
+</p>
+                        </div>
+                    </div>
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx#806">#</a>
+				            <span>Ryan Cromwell on &quot;The WPF Mindset&quot;</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Wednesday, January 07, 2009 4:21 PM
+			                by <a title="TrackBack" rel="nofollow" href="http://blogs.windowsclient.net/featured/archive/2009/01/07/Ryan-Cromwell-WPF-Mindset.aspx">WindowsClient.net Featured Blog Posts</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>WPF is awesome, but it requires the developer to make a pretty big shift in their thinking of UI. I’ve had a hard time explaining this to people, but last week, I had an opportunity to work through an example with Steve Gentile. That’s the basis of this</p>
+</p>
+                        </div>
+                    </div>
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx#807">#</a>
+				            <span>re: The WPF Mindset</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Thursday, January 08, 2009 11:23 PM
+			                by <a title="Zemien" rel="nofollow" href="http://zemien.blogspot.com">Zemien</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>I&#39;m suffering this exact problem. My background in WinForms is preventing me from wrapping my head around WPF and making it do what I want.</p>
+<p>Any good books that can help shift my mindset? This article helped a bit, but I need some more guidance and explanations.</p>
+<div style="clear:both;"></div></p>
+                        </div>
+                    </div>
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx#808">#</a>
+				            <span>re: The WPF Mindset</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Friday, January 09, 2009 10:21 AM
+			                by <a title="Brent Schooley" rel="nofollow" href="http://www.codesnack.com">Brent Schooley</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>Crazy how there are a lot of us thinking about this all at the same time. &nbsp;I have been preaching this lately to my team and the other teams where I work. &nbsp;I&#39;m going to be posting a similar article on CodeSnack soon at <a rel="nofollow" target="_new" href="http://www.codesnack.com">http://www.codesnack.com</a>. &nbsp;Great article by the way!</p>
+<p>Brent</p>
+<div style="clear:both;"></div></p>
+                        </div>
+                    </div>
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx#809">#</a>
+				            <span>Dew Drop - January 10, 2009 | Alvin Ashcraft's Morning Dew</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Saturday, January 10, 2009 1:28 PM
+			                by <a title="TrackBack" rel="nofollow" href="http://www.alvinashcraft.com/2009/01/10/dew-drop-january-10-2009/">Dew Drop - January 10, 2009 | Alvin Ashcraft&#39;s Morning Dew</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>Pingback from &nbsp;Dew Drop - January 10, 2009 | Alvin Ashcraft&#39;s Morning Dew</p>
+</p>
+                        </div>
+                    </div>
+                
+                    </div>
+                
+            
+            
+            
+            
+                    <div id="commentform">
+                    <h3>Leave a Comment</h3>
+	                    <dl>
+	                        <div id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RegisteredWrapper">
+	
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle">Title</label> <em>(required)</em>&nbsp;</dt>
+	                        <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbTitle" type="text" value="re: The WPF Mindset" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle" class="smallbox" /></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameTitle"><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName">Name:</label> <em>(required)</em>&nbsp;</dt>
+                            <dd id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameDesc"><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbName" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName" class="smallbox" /></dd>
+
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl">Website:</label> <em>(optional</em>)</dt>
+                            <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbUrl" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl" class="smallbox" /></dd>
+                            
+</div>
+                            
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment">Comments</label> <em>(required)</em>&nbsp;</dt>
+                            <dd><textarea name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbComment" rows="5" cols="25" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment"></textarea></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RememberWrapper"><input id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember" type="checkbox" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$chkRemember" /><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember">Remember Me?</label></dt>
+               
+                            <dt><input type="submit" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit&quot;, &quot;&quot;, true, &quot;CreateCommentForm&quot;, &quot;&quot;, false, false))" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_btnSubmit" /></dt>
+	                    </dl>
+                    </div>
+                    
+        
+        
+                    </div></div>
+                    <div id="contentfooter">&nbsp;</div>
+		        </div>
+                <div id="footer">
+                    
+				        
+    				    
+				        
+				                <a href="http://communityserver.com/" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						    
+
+                        
+    					
+				    
+                </div>
+            </div>        
+        </div>
+    
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://cromwellhaus.com/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx"
+dc:identifier="http://cromwellhaus.com/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx"
+dc:title="The WPF Mindset"
+trackback:ping="http://cromwellhaus.com/blogs/ryanc/trackback.ashx?PostID=765" />
+</rdf:RDF>
+-->
+<script src="http://feeds.feedburner.com/~s/RyanCromwell?i=http://cromwellhaus.com/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$ctl07$ctl00$SearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01_State','ctl00_Main_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Definition of Done Discovery &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.post p.post-date,.post p.post-author{display:none;}
+.block-content{width:960px;max-width:960px;}
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Definition of Done Discovery Comments Feed" href="http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/feed/" />
+<link rel='stylesheet' id='gsc_style-css'  href='http://blog.cromwellhaus.com/wp-content/plugins/google-custom-search/css/smoothness/jquery-ui-1.7.3.custom.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gsc_style_search_bar-css'  href='http://www.google.com/cse/style/look/minimalist.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gsc_style_search_bar_more-css'  href='http://blog.cromwellhaus.com/wp-content/plugins/google-custom-search/css/gsc.css?ver=3.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-content/plugins/google-custom-search/js/gsc.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.google.com/jsapi?ver=3.3.1'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Your Test Suite Sucks&hellip; do it again' href='http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/' />
+<link rel='next' title='Time box: A Holistic View on Sprints and Iterations' href='http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/' />
+<meta name="generator" content="WordPress 3.3.1, fitted with the WordPress Mobile Pack 1.2.4" />
+<link rel='canonical' href='http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/' />
+<link rel='shortlink' href='http://blog.cromwellhaus.com/?p=947' />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/"><span>Presentation Abstracts</span></a>
+<ul class='children'>
+	<li class="page_item page-item-909"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/missing-pieces-the-road-from-agile-enthusiast-to-agile-team-member/"><span>Missing Pieces: The Road from Agile Enthusiast to Agile Team Member</span></a></li>
+</ul>
+</li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/" rel="prev">Your Test Suite Sucks&hellip; do it again</a></div>
+          <div class="alignright"><a href="http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/" rel="next">Time box: A Holistic View on Sprints and Iterations</a> &raquo;</div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-947" class="post-947 post type-post status-publish format-standard hentry category-agile category-coaching category-craftsmanship category-scrum">
+           <h2 class="post-title">Definition of Done Discovery</h2>
+              <div class="post-content clearfix">
+    	       <p>One of the important aspects of Scrum and the more fundamental concept incremental delivery is building <em>Done</em> software each iteration.&#160; There are a lot of holes in that statement, but that makes sense; <a href="http://www.scrum.org/scrumguides/">Scrum is full of holes</a>… on purpose.&#160; If you want answers rather than a framework built for learning, Agile ain’t for you.</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="right" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image_thumb.png" width="244" height="184" /></a>Having a clear, well understood and explicit Definition of Done that everyone, including your product owner and surrounding teams accept is very important to growing quality and capabilities consciously.&#160; Underlying any Definition of Done is the expectation that the useful (for another day) software is ready for consumption by those who asked for it.</p>
+<p>As a new team, discovering your initial definition of done can be surprisingly challenging.&#160; Certainly we can come up with things that we want to do and I say go for it!&#160; Only inspection at regular intervals can tell us for sure where we are and what the impact has been.&#160; But there are some things we can do to help make this decision more effectively.&#160; And it doesn’t take long.&#160; 30 minutes… maybe.</p>
+<h6>Circles and Soup</h6>
+<p><a href="http://innovationgames.com/">Innovations Games</a> has a fantastic activity with many applications called <a href="http://innovationgames.com/circles-and-soup/">Circles and Soup</a> (sometimes called <a href="https://matthewbussa.wordpress.com/2010/09/08/the-soup-experiment/">The Soup</a>).&#160; I’ve used this to help a pissed off team focus their energy, but it’s also very helpful in creating an initial Definition of Done that is truly attainable.</p>
+<p>You should read the <a href="http://innovationgames.com/circles-and-soup/">full instructions</a>, but suffice it to say the team will categorize those activities both historically done (i.e. architecture review) and potential (i.e. TDD) that must or should be accomplished to deliver into: Things They Control, Things They Influence, or The Soup (things they have no control or influence over).&#160; This is immediately actionable information, but also a roadmap to move items into the teams control.&#160; Share this with your <a href="http://netmap.wordpress.com/">organization and advocates</a>.</p>
+<p>A Definition of Done, something that they agree will <u>always</u> be completed before calling a feature or story or product backlog item done, which includes activities outside of the team’s control is risky or foolish.&#160; You should control your own destiny as best as possible.&#160; How can a team ever feel at all confident in their own <a href="http://elegantcode.com/2011/07/21/the-scrum-guide-2011/">forecasts</a> otherwise.</p>
+<h6>-ilities</h6>
+<p>In the <a href="http://www.scrum.org/professionalscrumdeveloper/">Professional Scrum Developer</a> course we talk about and spend a few minutes brainstorming attributes that define quality.&#160; We call these ‘ilities’.&#160; Things like <em>maintainability, supportability, reliability, performance-ability.</em>&#160; Ok I made that last one up, but you get the idea.&#160; It’s a big list too.&#160; </p>
+<p>Very few people will argue that missing an -ility negatively influences the quality of an application. Which –ilities are most important, though, depends on many factors.&#160; Type of application, type of user, industry, etc.</p>
+<p>What I like to do as a facilitator for this activity:</p>
+<ol>
+<li>Ask the team to break up in pairs or individuals for 5 minutes.&#160; Write every attribute that affects your impression of any application you’ve ever used on a sticky.&#160; </li>
+<li>Then come together, remove duplicates and put them on the wall for another 5 minutes (usually less).&#160; This creates discussion about what people intended or experiences.&#160; Often another -ility or two will be discovered.</li>
+<li>Use <a href="http://martinfowler.com/bliki/DotVoting.html">dot voting</a> or some other form of ranking to figure out which –ilities are most important to this application.</li>
+</ol>
+<h6></h6>
+<h6>Putting it together</h6>
+<p>You should now have a good idea of what the team has true ownership of and what is most important to build a great application for the intended customer.</p>
+<p>With the results on either side of a whiteboard or giant sticky, choose a few activities which correlate the important –ilities and the activities in the team’s control to determine an actionable, checkbox-able list of things you feel will assure each feature and sprint produces Done software.</p>
+<p>Each iteration you have the opportunity to review these artifacts or recreate them to evolve your Definition of Done from good to great.</p>
+              </div>
+                                          <p class="post-metadata">
+                    This entry was posted on January 4, 2012, 3:32 pm and is filed under <a href="http://blog.cromwellhaus.com/category/agile/" title="View all posts in Agile" rel="category tag">Agile</a>, <a href="http://blog.cromwellhaus.com/category/coaching/" title="View all posts in Coaching" rel="category tag">Coaching</a>, <a href="http://blog.cromwellhaus.com/category/craftsmanship/" title="View all posts in Craftsmanship" rel="category tag">Craftsmanship</a>, <a href="http://blog.cromwellhaus.com/category/scrum/" title="View all posts in Scrum" rel="category tag">Scrum</a>. You can follow any responses to this entry through <a href="http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/';
+    var disqus_identifier = '947 http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cromwellhaus';
+    var disqus_title = "Definition of Done Discovery";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            DISQUS.request.get('?cf_action=sync_comments&post_id=947');
+        });
+                    };
+    var facebookXdReceiverPath = 'http://blog.cromwellhaus.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/blog.cromwellhaus.com\/2012\/01\/definition-of-done-discovery\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+        dsq.src = 'http' + '://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.72';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+    
+    
+    	<div id="cse-search-form53" style="width: 100%;">Loading</div>
+	<script type="text/javascript">
+      google.load('search', '1', {language : 'en_US'});
+      google.setOnLoadCallback(function() {
+        var customSearchControl = new google.search.CustomSearchControl('');
+        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+        customSearchControl.enableAds('2496164227');
+				
+        var options = new google.search.DrawOptions();
+        options.setSearchFormRoot('cse-search-form53');
+        options.setAutoComplete(true);
+    
+        customSearchControl.draw('dialog', options);
+        customSearchControl.setSearchCompleteCallback(this, CallBackDisplayDialog);	
+      }, true);
+     
+      // establish a keep callback
+		function CallBackDisplayDialog(result) {
+			jQuery('#dialog').dialog('open');
+//			$('#dialog').dialog('open');
+		}
+    </script>
+<!-- open dialog. For debug purposes
+        <p><a href="#" id="dialog_link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-newwin"></span>Open Dialog</a></p>
+-->
+        <!-- ui-dialog -->
+
+        <div id="dialog" title="Search Results">
+            <p></p>
+        </div>
+    
+ </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 18 queries. 0.398 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+<p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/?wpmp_switcher=mobile'>Switch to our mobile site</a></p><script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.mouse.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.resizable.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.draggable.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.button.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.position.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.dialog.min.js?ver=1.8.16'></script>
+</body>
+</html>
+

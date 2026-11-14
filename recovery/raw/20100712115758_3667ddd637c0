@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Scrolling Multiple Content Areas with a single ScrollBar in WPF &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Scrolling Multiple Content Areas with a single ScrollBar in WPF Comments Feed" href="http://blog.cromwellhaus.com/index.php/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/feed/" />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<link rel='start' title='Dayton-Cincinnati Code Camp' href='http://blog.cromwellhaus.com/index.php/2005/12/dayton-cincinnati-code-camp/' />
+<link rel='prev' title='STUFF &amp; FOR XML PATH' href='http://blog.cromwellhaus.com/index.php/2009/03/stuff-amp-for-xml-path/' />
+<link rel='next' title='Scaling ItemsControl Items for Explicit Visible Items in WPF' href='http://blog.cromwellhaus.com/index.php/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-544"><a href="http://blog.cromwellhaus.com/index.php/lap-around-wpf/" title="Lap Around WPF">Lap Around WPF</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+	
+		<div class="post-731 post hentry category-wpf" id="post-731">
+			<h1>Scrolling Multiple Content Areas with a single ScrollBar in WPF</h1>
+			<small class="meta">
+  			<span class="alignleft">
+          March 12th, 2009 by ryan            			</span>
+        <a href="#comments" class="alignright button-style" rel="nofollow">Leave a reply &raquo;</a>
+      </small>
+
+			<div class="entry">
+				<p>I struggled to solve a UI dilemma while at my current client.&#160; For various reasons, we came across a situation in which we needed to scroll two areas of the view based on a single Scrollbar.&#160; You can see what we were attempting and finally achieved <a href="http://code.cromwellhaus.com/ScrollingMultipleAreasWithOneScrollbar/ScrollingMultipleAreasWithOneScrollbar.xbap" target="_blank">here</a>.</p>
+<p>The end result is smooth, yet not quite intuitive so I thought I would share the results and steps taken.&#160; The idea is to use a surrogate <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.scrollviewer.aspx">ScrollViewer</a> as the source for the offset of a <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.translatetransform.aspx">TranslateTransform</a> being applied to content within a seperate <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.scrollviewer.aspx">ScrollViewer</a>.</p>
+<p>Unfortunately, the offset values exposed by the ScrollViewer are both readonly and opposite in force to which we would need to apply to the surrogate.&#160; That is, if we scroll 20 units to the right on our ScrollViewer, we would need to offset the surrogate ScrollViewer by that amount in the opposite direction.&#160; To resolve this problem, we use an IValueConverter to multiple the offset by –1.</p>
+<p>Here we can see the Xaml used to layout and hookup this scenario:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 640px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">StackPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">ScrollViewer</span> <span style="color: #ff0000">HorizontalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Hidden&quot;</span> <span style="color: #ff0000">VerticalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Hidden&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">Grid</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #800000">Grid.RenderTransform</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">TranslateTransform</span> <span style="color: #ff0000">X</span>=<span style="color: #0000ff">&quot;{Binding ElementName=mainScroller, Path=HorizontalOffset, Converter={StaticResource multiplyConv}, ConverterParameter=-1}&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Grid.RenderTransform</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #008000">&lt;!-- Content Scrolled by another goes here --&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Grid</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ScrollViewer</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">ScrollViewer</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Name</span>=<span style="color: #0000ff">&quot;mainScroller&quot;</span> <span style="color: #ff0000">HorizontalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span> <span style="color: #ff0000">VerticalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #008000">&lt;!-- Content Scrolled on its own accord goes here--&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ScrollViewer</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">StackPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+</pre>
+<p>You can see that we have two ScrollViewers and the one which will be controlled (versus the controller) has a container element with a <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.translatetransform.aspx">TranslateTransform</a> applied to its RenderTransform property.&#160; This is what we will be using to move the controlled content in the opposite direction of the ScrollBar.</p>
+<p>If you find that your content for each are not the same size, you can always use a <a href="http://msdn.microsoft.com/en-us/library/system.windows.data.multibinding.aspx">MultiBinding</a> to accomodate the relative scrolling distance as applied to the offset.</p>
+<p>You can find the source to the sample Xbap <a href="http://code.cromwellhaus.com/ScrollingMultipleAreasWithOneScrollbar/ScrollingMultipleAreasWithOneScrollbar.zip">here</a>.</p>
+				
+      	<ul class="previousnext clearfix">
+      		<li class="previous_post"><a href="http://blog.cromwellhaus.com/index.php/2009/03/stuff-amp-for-xml-path/"><span>Previous Entry:</span> STUFF &amp; FOR XML PATH</a></li>      		<li class="next_post"><a href="http://blog.cromwellhaus.com/index.php/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/"><span>Next Entry:</span> Scaling ItemsControl Items for Explicit Visible Items in WPF</a></li>      	</ul>
+			</div>
+			
+			<div class="postmetadata">
+			  <p class="categories">
+			    Posted in <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+  			        <p class="infos">
+						You can follow any responses to this entry through the <a href="http://blog.cromwellhaus.com/index.php/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/feed/" rel="nofollow">RSS 2.0 Feed</a>. 
+
+													You can <a href="#respond">leave a response</a> , or <a href="http://blog.cromwellhaus.com/index.php/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/trackback/" rel="trackback nofollow">trackback</a> from your own site.
+
+											</p>
+				</div>
+
+      <div class="something">
+  Advertisement		
+  <div class="somethingspecial">
+      </div>
+</div>
+		</div>
+
+  	
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+
+  <div id="respond">
+    <h3>Leave a Reply</h3>
+    <div class="cancel-comment-reply">
+    	    	<a rel="nofollow" id="cancel-comment-reply-link" href="/index.php/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf#respond" style="display:none;">Click here to cancel reply.</a>    	
+    </div>
+  
+    
+  <form action="http://blog.cromwellhaus.com/wp-comments-post.php" method="post" id="commentform">
+  
+    
+  <div class="respond-left">
+    <p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+    <label for="author">Name (required)</label></p>
+    
+    <p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+    <label for="email">Mail (will not be published) (required)</label></p>
+    
+    <p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+    <label for="url">Website</label></p>
+  </div>
+  
+    
+  <!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+  
+  <div class="respond-right">
+    <textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea>
+    <p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+    <input type='hidden' name='comment_post_ID' value='731' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+    </p>
+      </div>
+  
+  </form>
+  
+    </div>
+
+  	 
+
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+<li>
+	<ul class="sb-tools clearfix">
+		<li class="previous-post"><a href="http://blog.cromwellhaus.com/index.php/2009/03/stuff-amp-for-xml-path/"><span>Previous Entry</span> STUFF &amp; FOR XML PATH</a></li>		<li class="next-post"><a href="http://blog.cromwellhaus.com/index.php/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/"><span>Next Entry</span> Scaling ItemsControl Items for Explicit Visible Items in WPF</a></li>	</ul>	
+</li>
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+	
+</ul>
+
+<ul class="group">
+  
+    
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

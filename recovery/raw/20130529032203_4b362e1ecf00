@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title> Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://cromwellhaus.com/wp-content/themes/arclite-old/favicon.ico" />
+
+
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-4332588-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<style type="text/css">
+@import "http://cromwellhaus.com/wp-content/themes/arclite-old/style.css";
+@import "http://cromwellhaus.com/wp-content/themes/arclite-old/options/side-green.css";
+@import "http://cromwellhaus.com/wp-content/themes/arclite-old/options/content-default.css";
+@import "http://cromwellhaus.com/wp-content/themes/arclite-old/options/header-default.css";
+.post p.post-date,.post p.post-author{display:none;}
+.block-content{width:960px;max-width:960px;}
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://cromwellhaus.com/wp-content/themes/arclite-old/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+
+</head>
+<body class="home">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink" class="current_page_item"><a class="fadeThis" href="http://cromwellhaus.com" title="You are Home"><span>Home</span></a></li>
+                    <li class="page_item page-item-834"><a class="fadeThis" href="http://cromwellhaus.com/about/"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://cromwellhaus.com/presentations/"><span>Presentations</span></a></li>
+<li class="page_item page-item-1347"><a class="fadeThis" href="http://cromwellhaus.com/events/"><span>Upcoming Events</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              
+        <!-- post -->
+        <div id="post-1400" class="post-1400 post type-post status-publish format-standard hentry category-uncategorized">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://cromwellhaus.com/2013/04/moving-blob-storage-between-azure-subscriptions/" rel="bookmark" title="Permanent Link: Moving Blob Storage Between Azure Subscriptions">Moving Blob Storage Between Azure Subscriptions</a></h3>
+           <p class="post-date">
+            <span class="month">Apr</span>
+            <span class="day">10</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://cromwellhaus.com/2013/04/moving-blob-storage-between-azure-subscriptions/#comments" class="comments"  title="Comment on Moving Blob Storage Between Azure Subscriptions"><span class="dsq-postid" rel="1400 http://cromwellhaus.com/?p=1400">2 Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>We recently had some delays getting some Azure accounts coordinated for a client and chose to use a team subscription instead.  After some work, the delays were resolved and we had the client managed subscription in place. The work done using the team subscription included uploading many gigabytes of sysprepped Virtual Machine images that would [...]</p>
+
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+        <!-- post -->
+        <div id="post-1395" class="post-1395 post type-post status-publish format-standard hentry category-uncategorized tag-agile">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://cromwellhaus.com/2013/03/release-cadence-youre-not-agile-if-youre-not-shipping/" rel="bookmark" title="Permanent Link: Release Cadence: You&rsquo;re Not Agile If You&rsquo;re Not Shipping">Release Cadence: You&rsquo;re Not Agile If You&rsquo;re Not Shipping</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">8</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://cromwellhaus.com/2013/03/release-cadence-youre-not-agile-if-youre-not-shipping/#respond" class="comments"  title="Comment on Release Cadence: You&rsquo;re Not Agile If You&rsquo;re Not Shipping"><span class="dsq-postid" rel="1395 http://cromwellhaus.com/?p=1395">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>I’ve spent the last 3 years exploring the in’s and out’s of different Agile frameworks and methodologies.  I’ve worked with large commercial firms, government contractors, and small ISVs to adopt one set of Agile practices or another. In the beginning things are generally amazing.  There’s a new level of transparency, excitement and shared motivation.  At [...]</p>
+
+                      <p class="tags"> Tags: <a href="http://cromwellhaus.com/tag/agile/" rel="tag">Agile</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+        <!-- post -->
+        <div id="post-1386" class="post-1386 post type-post status-publish format-standard hentry category-uncategorized tag-code">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://cromwellhaus.com/2013/01/creating-an-offline-web-platform-installer-for-service-bus-1-0/" rel="bookmark" title="Permanent Link: Creating an Offline Web Platform Installer for Service Bus 1.0">Creating an Offline Web Platform Installer for Service Bus 1.0</a></h3>
+           <p class="post-date">
+            <span class="month">Jan</span>
+            <span class="day">2</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://cromwellhaus.com/2013/01/creating-an-offline-web-platform-installer-for-service-bus-1-0/#comments" class="comments"  title="Comment on Creating an Offline Web Platform Installer for Service Bus 1.0"><span class="dsq-postid" rel="1386 http://cromwellhaus.com/?p=1386">1 Comment</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>One of my clients is evaluating a number of Service Bus tools.&#160; One of those includes the Azure Service Bus which is now available for on-premise deployment. Service Bus 1.0 is available only through Web Platform Installer at this time and it’s not readily apparent how you might use WPI for a network isolated environment.&#160; [...]</p>
+
+                      <p class="tags"> Tags: <a href="http://cromwellhaus.com/tag/code/" rel="tag">Code</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+        <!-- post -->
+        <div id="post-1364" class="post-1364 post type-post status-publish format-standard hentry category-uncategorized tag-agile">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://cromwellhaus.com/2012/10/adaptive-problems-require-responding-to-change-over-following-a-plan/" rel="bookmark" title="Permanent Link: Adaptive Problems Require Responding to Change Over Following a Plan">Adaptive Problems Require Responding to Change Over Following a Plan</a></h3>
+           <p class="post-date">
+            <span class="month">Oct</span>
+            <span class="day">22</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://cromwellhaus.com/2012/10/adaptive-problems-require-responding-to-change-over-following-a-plan/#comments" class="comments"  title="Comment on Adaptive Problems Require Responding to Change Over Following a Plan"><span class="dsq-postid" rel="1364 http://cromwellhaus.com/?p=1364">2 Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Feedback was recently posed on the Scrum.org community forums regarding the Webster-ish definition provided for Scrum by Ken and Jeff.  If you don’t recall from the Scrum Guide, the Scrum Overview definition reads: Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value. Mario Čop, in [...]</p>
+
+                      <p class="tags"> Tags: <a href="http://cromwellhaus.com/tag/agile/" rel="tag">Agile</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+       
+        <!-- post -->
+        <div id="post-1357" class="post-1357 post type-post status-publish format-standard hentry category-uncategorized tag-agile">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://cromwellhaus.com/2012/09/scrum-fundamentals-recording-available/" rel="bookmark" title="Permanent Link: Scrum Fundamentals Recording Available">Scrum Fundamentals Recording Available</a></h3>
+           <p class="post-date">
+            <span class="month">Sep</span>
+            <span class="day">27</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://cromwellhaus.com/2012/09/scrum-fundamentals-recording-available/#comments" class="comments"  title="Comment on Scrum Fundamentals Recording Available"><span class="dsq-postid" rel="1357 http://cromwellhaus.com/?p=1357">2 Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Leading up to an open enrollment Professional Scrum Foundations on October 10th, I gave a 1 hour lunch webinar on the fundamentals of Agile and Scrum.  I’ve just published this out on Youtube for anyone to watch.  Let me know what you think. &nbsp; &nbsp; tl;dr There is a lot of misinformation out there that [...]</p>
+
+                      <p class="tags"> Tags: <a href="http://cromwellhaus.com/tag/agile/" rel="tag">Agile</a></p>
+                    </div>
+
+        </div>
+        <!-- /post -->
+
+
+           <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'cromwellhaus';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+
+       <div class="navigation" id="pagenavi">
+               <div class="alignleft"><a href="http://cromwellhaus.com/page/2/" >&laquo; Older Entries</a></div>
+        <div class="alignright"></div>
+        <div class="clear"></div>
+              </div>
+       
+      </div>
+     </div>
+     <!-- /first column -->
+          
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 13 queries. 0.367 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2013-05-28 21:56:12 by W3 Total Cache -->

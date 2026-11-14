@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>June &raquo; 2007 &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for June, 2007</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-684 post hentry category-net category-wpf">
+			<h2 id="post-684"><a href="http://blog.cromwellhaus.com/index.php/2007/06/wpf-scaletransform-direction/" rel="bookmark" title="Permanent Link to WPF ScaleTransform Direction">WPF ScaleTransform Direction</a></h2>
+			<small class="meta">June 28th, 2007 </small>
+
+			<div class="entry">
+				<p>The key to scaling your WPF elements in a specific direction other than down and to the right are the CenterX and CenterY properties of the <a href="http://www.google.com/url?sa=t&amp;ct=res&amp;cd=1&amp;url=http%3A%2F%2Fmsdn2.microsoft.com%2Fen-us%2Flibrary%2Fsystem.windows.media.scaletransform.aspx&amp;ei=x8yDRrPcA5_KetKXwe4B&amp;usg=AFQjCNFexsnPG0flPExSE8V_uU4hCDxjyQ&amp;sig2=4PL2OhCWOfTTeQ0dzQzBfA">ScaleTransform</a>.&nbsp; It&#8217;s easy enough to set these manually, but that&#8217;s just lazy and asking for long term trouble.&nbsp; Instead, decide how you want it to animate and bind it to something.&nbsp; For instance, I have a touch screen keyboard I&#8217;m working on that I&#8217;d like to animate Up and to the Right when you are holding down the key.&nbsp; Here&#8217;s how I did it:</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">Page</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">xmlns</span><span style="color: rgb(0,0,255)">=</span>'<span style="color: rgb(0,0,255)">http://schemas.microsoft.com/winfx/2006/xaml/presentation</span>'<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">xmlns:x</span><span style="color: rgb(0,0,255)">=</span>'<span style="color: rgb(0,0,255)">http://schemas.microsoft.com/winfx/2006/xaml</span>'<span style="color: rgb(0,0,255)">&gt;
+  &lt;</span><span style="color: rgb(128,0,0)">Button</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Margin</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">5,5,5,5</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Width</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">50</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Height</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">50</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">x:Name</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">btnKey</span>"<span style="color: rgb(0,0,255)">&gt;
+</span>    My Button
+<span style="color: rgb(0,0,255)">    &lt;</span><span style="color: rgb(128,0,0)">Button.RenderTransform</span><span style="color: rgb(0,0,255)">&gt;
+      &lt;</span><span style="color: rgb(128,0,0)">ScaleTransform</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">x:Name</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">buttonscale</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">ScaleX</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">1</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">ScaleY</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">1</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">CenterX</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">0</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">CenterY</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding ElementName=btnKey, Path=ActualHeight}</span>"<span style="color: rgb(0,0,255)"> /&gt;
+    &lt;/</span><span style="color: rgb(128,0,0)">Button.RenderTransform</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;</span><span style="color: rgb(128,0,0)">Button.Triggers</span><span style="color: rgb(0,0,255)">&gt;
+      &lt;</span><span style="color: rgb(128,0,0)">EventTrigger</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">RoutedEvent</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">Button.Click</span>"<span style="color: rgb(0,0,255)">&gt;
+        &lt;</span><span style="color: rgb(128,0,0)">BeginStoryboard</span><span style="color: rgb(0,0,255)">&gt;
+          &lt;</span><span style="color: rgb(128,0,0)">Storyboard</span><span style="color: rgb(0,0,255)">&gt;
+            &lt;</span><span style="color: rgb(128,0,0)">DoubleAnimation</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Storyboard.TargetName</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">buttonscale</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Storyboard.TargetProperty</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">(ScaleTransform.ScaleX)</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">To</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">1.5</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Duration</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">0:0:0.25</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">AutoReverse</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">True</span>"<span style="color: rgb(0,0,255)">/&gt;
+            &lt;</span><span style="color: rgb(128,0,0)">DoubleAnimation</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Storyboard.TargetName</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">buttonscale</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Storyboard.TargetProperty</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">(ScaleTransform.ScaleY)</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">To</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">1.5</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Duration</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">0:0:0.25</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">AutoReverse</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">True</span>"<span style="color: rgb(0,0,255)">/&gt;
+          &lt;/</span><span style="color: rgb(128,0,0)">Storyboard</span><span style="color: rgb(0,0,255)">&gt;
+        &lt;/</span><span style="color: rgb(128,0,0)">BeginStoryboard</span><span style="color: rgb(0,0,255)">&gt;
+      &lt;/</span><span style="color: rgb(128,0,0)">EventTrigger</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;/</span><span style="color: rgb(128,0,0)">Button.Triggers</span><span style="color: rgb(0,0,255)">&gt;
+  &lt;/</span><span style="color: rgb(128,0,0)">Button</span><span style="color: rgb(0,0,255)">&gt;
+&lt;/</span><span style="color: rgb(128,0,0)">Page</span><span style="color: rgb(0,0,255)">&gt;</span></pre>
+</blockquote>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p>The key is that I bound the CenterX proeprty to the button&#8217;s <em>ActualHeight </em>property.&nbsp; If you wanted to scale from some midpoint though, you&#8217;ll have to specify a Converter in your bind syntax.&nbsp; This Converter technique is often cited in the ubiquitous <a href="http://learnwpf.com/Posts/Post.aspx?postId=9b745fe8-7d51-4d01-a8c7-f31083c4be94">&#8220;Reflection trick&#8221;</a>.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/06/wpf-scaletransform-direction/#comments" title="Comment on WPF ScaleTransform Direction">2 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-683 post hentry category-powershell">
+			<h2 id="post-683"><a href="http://blog.cromwellhaus.com/index.php/2007/06/powershell-profile-on-roaming-profile/" rel="bookmark" title="Permanent Link to PowerShell Profile on Roaming Profile">PowerShell Profile on Roaming Profile</a></h2>
+			<small class="meta">June 27th, 2007 </small>
+
+			<div class="entry">
+				<p>NOTE:&nbsp;Impatience&nbsp;just leads to&nbsp;frustration.</p>
+<p>When I first starting playing with PowerShell here at the office, I was all excited to start adding little cmdlets to my personal profile and add to my stellar productivity (tongue firmly planted in check).&nbsp; This would hopefully reduce the net loss incurred by my learning PowerShell in the first place.&nbsp; </p>
+<p>So I took the first step and created my empty profile:</p>
+<blockquote><p><em>ps&gt; notepad $profile</em></p>
+</blockquote>
+<p>and added a nice little cmdlet to send email.&nbsp; This will replace that exe tool I&#8217;ve always used to send emails in batch files or just whenever I need to at the command prompt.</p>
+<blockquote><p><em>$defaultSendMailHost = &#8220;emcrs71&#8243;<br />$defaultSendMailFrom = <a href="mailto:email@email.com">email@email.com</a> </em>
+<p><em>function send-mail( [string] $to, [string] $subject, [string] $body )<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp; $smtp = new-object System.Net.Mail.SmtpClient<br />&nbsp;&nbsp;&nbsp;&nbsp; $smtp.Host = $defaultSendMailHost<br />&nbsp;&nbsp;&nbsp;&nbsp; $email = new-object System.Net.Mail.MailMessage<br />&nbsp;&nbsp;&nbsp;&nbsp; $email.From = $defaultSendMailFrom<br />&nbsp;&nbsp;&nbsp;&nbsp; $email.To.Add( $to )<br />&nbsp;&nbsp;&nbsp;&nbsp; $email.Subject = $subject<br />&nbsp;&nbsp;&nbsp;&nbsp; $email.Body = $body<br />&nbsp;&nbsp;&nbsp;&nbsp; $smtp.Send( $email )<br />}</em></p>
+</blockquote>
+<p>Start it up again and WHAM&#8230;&nbsp;</p>
+<blockquote><p><font face="Courier" color="#ff0000">File \\&lt;server&gt;\&lt;username&gt;\My Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1&nbsp;cannot be loaded. The file \\&lt;server&gt;\&lt;username&gt;\My Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1 is not digitally signed. The script will not execute on the system. Please see &#8220;get-help about_signing&#8221; for more details.</font></p>
+</blockquote>
+<p>Sign <em>my </em>scripts?!&nbsp; How dare you!&nbsp; I was too annoyed to deal with it and took the ever so appalling step of changing the PowerShell Short cut to point to a local folder on my C drive.&nbsp; Please don&#8217;t stop reading as I&#8217;ve learned from my mistakes and have rectified my ways.</p>
+<p>A few weeks later I ran across the <a href="http://www.codeplex.com/PowerShellCX/">PowerShell Community Extensions</a>, which I highly recommend PowerShell-er install and, in fact, replaced my send-mail cmdlet above.&nbsp; PSCX has an option to install it&#8217;s own profile which I chose, but after that I started receiving the Digital Signing guff.&nbsp; </p>
+<p>In the end, I did what any good PowerShell-er with a growing Profile should do.&nbsp; I created a cmdlet to sign my profile.&nbsp; Now I can open PS, type edit-profile (or use my ep alias), save it, and hit sign-profile (sp alias) and I&#8217;m good to go.&nbsp; Here it is: </p>
+<blockquote><p>function edit-profile()<br />{<br />&nbsp;&nbsp;&nbsp; notepad $profile<br />}
+<p>function sign-profile()<br />{<br />&nbsp;&nbsp;&nbsp; dir $Profiledir\*.ps1 | foreach-object { sign-script $_.FullName }<br />}
+<p>function sign-script( $scriptsource ) <br />{<br />&nbsp;&nbsp;&nbsp; get-item $scriptsource <br />&nbsp;&nbsp;&nbsp; Set-AuthenticodeSignature $scriptsource @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0]<br />}
+<p>set-alias sm Send-SmtpMail<br />set-alias ep edit-profile<br />set-alias sp sign-profile</p>
+</blockquote>
+<p>Now there is a little part I left out and that&#8217;s creating yourself a certificate, but <a href="http://www.hanselman.com/blog/">Scott Hanselman</a> has a very good <a href="http://www.hanselman.com/blog/SigningPowerShellScripts.aspx">post</a> that will walk you through this.</p>
+<p><a href="http://technorati.com/claim/rgidkvtvc8" rel="me">Technorati Profile</a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/06/powershell-profile-on-roaming-profile/#respond" title="Comment on PowerShell Profile on Roaming Profile">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/powershell/" title="View all posts in Powershell" rel="category tag">Powershell</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-682 post hentry category-net category-wpf">
+			<h2 id="post-682"><a href="http://blog.cromwellhaus.com/index.php/2007/06/bind-to-method-within-a-datatemplate/" rel="bookmark" title="Permanent Link to Bind to Method within a DataTemplate">Bind to Method within a DataTemplate</a></h2>
+			<small class="meta">June 12th, 2007 </small>
+
+			<div class="entry">
+				<p>One of my play projects with WPF is a photo viewer for the <a href="http://cromwellhaus.com/photos">pictures</a> we put out on <a href="http://cromwellhaus.com">http://cromwellhaus.com</a>.&nbsp; One of the views is a montage of the latest photos with a random&nbsp;RotateTransform Angle&nbsp;applied to each image&#8217;s RenderTransform.&nbsp; Getting the view itself set up as cake, but when I attempted to apply the random angle to each image, it wasn&#8217;t so random.</p>
+<p>Here&#8217;s what happened and how to actually accomplish such a task:</p>
+<p>I started out with an ItemsControl, rather than a ListView as most examples show, using a UniformGrid as the ItemsPanel.</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">ItemsControl</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">ItemTemplate</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{StaticResource photoItem}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">ItemsSource</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding Source={StaticResource dpPhotos}, XPath=/rss/channel/item}</span>"<span style="color: rgb(0,0,255)">&gt;
+  &lt;</span><span style="color: rgb(128,0,0)">ItemsControl.ItemsPanel</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;</span><span style="color: rgb(128,0,0)">ItemsPanelTemplate</span><span style="color: rgb(0,0,255)">&gt;
+      &lt;</span><span style="color: rgb(128,0,0)">UniformGrid</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">HorizontalAlignment</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">Stretch</span>"<span style="color: rgb(0,0,255)">  </span><span style="color: rgb(255,0,0)">VerticalAlignment</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">Stretch</span>"<span style="color: rgb(0,0,255)"> /&gt;
+    &lt;/</span><span style="color: rgb(128,0,0)">ItemsPanelTemplate</span><span style="color: rgb(0,0,255)">&gt;
+  &lt;/</span><span style="color: rgb(128,0,0)">ItemsControl.ItemsPanel</span><span style="color: rgb(0,0,255)">&gt;
+&lt;/</span><span style="color: rgb(128,0,0)">ItemsControl</span><span style="color: rgb(0,0,255)">&gt;</span></pre>
+<p><a href="http://11011.net/software/vspaste"></a></p></blockquote>
+<p>I bound the ItemsSource to an XmlDataProvider pointing to the photos <a href="http://cromwellhaus.com/photos/baby/pictures_rss.aspx?Tags=Ryan+Jr&amp;AndTags=1">RSS feed for Ryan Jr. pictures</a>.&nbsp; </p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">XmlDataProvider</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">x:Key</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">dpPhotos</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Source</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">http://cromwellhaus.com/photos/baby/pictures_rss.aspx?Tags=Ryan+Jr</span><span style="color: rgb(255,0,0)">&amp;amp;</span><span style="color: rgb(0,0,255)">AndTags=1</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">XmlNamespaceManager</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{StaticResource rssMapping}</span>"<span style="color: rgb(0,0,255)">/&gt;</span></pre>
+<p><a href="http://11011.net/software/vspaste"></a></p></blockquote>
+<p>I run our site using <a href="http://get.communityserver.org/express.aspx">Community Server 2007 Express Edition</a>&nbsp;which provides&nbsp;RSS meta extensions for more detailed feeds.&nbsp; This required that I apply an <a href="http://msdn2.microsoft.com/en-us/library/system.xml.xmlnamespacemanager.aspx">XmlNamespaceManager</a> to define these extension namespaces.&nbsp; That&#8217;s what this is for: </p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">XmlNamespaceMappingCollection</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">x:Key</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">rssMapping</span>"<span style="color: rgb(0,0,255)">&gt;
+  &lt;</span><span style="color: rgb(128,0,0)">XmlNamespaceMapping</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Uri</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">http://search.yahoo.com/mrss</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Prefix</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">media</span>"<span style="color: rgb(0,0,255)"> /&gt;
+&lt;/</span><span style="color: rgb(128,0,0)">XmlNamespaceMappingCollection</span><span style="color: rgb(0,0,255)">&gt;</span></pre>
+<p><a href="http://11011.net/software/vspaste"></a></p></blockquote>
+<p>Here is the DataTemplate used by the ItemsControl to display/render each image.&nbsp; You&#8217;ll see this referred to in above as {StaticResource photoItem}: </p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">DataTemplate</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">x:Key</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">photoItem</span>"<span style="color: rgb(0,0,255)">&gt;
+  &lt;</span><span style="color: rgb(128,0,0)">Image</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Margin</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">12,12,12,12</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Source</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding Mode=Default, XPath=media:thumbnail/@url}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">ToolTip</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding XPath=title}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Width</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding Mode=Default, XPath=media:thumbnail/@width}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Height</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding Mode=Default, XPath=media:thumbnail/@height}</span>"<span style="color: rgb(0,0,255)"> /&gt;
+&lt;/</span><span style="color: rgb(128,0,0)">DataTemplate</span><span style="color: rgb(0,0,255)">&gt;</span></pre>
+</blockquote>
+<p>You can see the use of the XmlNamespaceMapping in the XPath=<em>media:</em>thumbnail/@url.&nbsp; That had me stumped for a few seconds, but opening the project up in <a href="http://www.microsoft.com/Expression/products/overview.aspx?key=blend">Expression Blend</a>&nbsp;and re-adding the XmlDataProvider created the Mappings for me.&nbsp; (Sidebar: VS 2008 does do this for you &#8211; thank goodness) </p>
+<p>At this point, we are displaying thumbnails and we are certainly aware that I make poor color choices, but we&#8217;re on our way. </p>
+<p><a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/BindtoMethodwithinaDataTemplate_CB86/image_2.png" atomicselection="true"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="480" alt="Almost there..." src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/BindtoMethodwithinaDataTemplate_CB86/image_thumb_1.png" width="508" border="0"></a> </p>
+<p><strong>Applying the RotateTransform </strong>is easy&#8230; </p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">Image</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Margin</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">12,12,12,12</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Source</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding Mode=Default, XPath=media:thumbnail/@url}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">ToolTip</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding XPath=title}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Width</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding Mode=Default, XPath=media:thumbnail/@width}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Height</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding Mode=Default, XPath=media:thumbnail/@height}</span>"<span style="color: rgb(0,0,255)">&gt;
+  &lt;</span><span style="color: rgb(128,0,0)">Image.RenderTransform</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;</span><span style="color: rgb(128,0,0)">RotateTransform</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Angle</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">10</span>"<span style="color: rgb(0,0,255)"> /&gt;
+  &lt;/</span><span style="color: rgb(128,0,0)">Image.RenderTransform</span><span style="color: rgb(0,0,255)">&gt;
+&lt;/</span><span style="color: rgb(128,0,0)">Image</span><span style="color: rgb(0,0,255)">&gt;
+</span></pre>
+</blockquote>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p>&#8230;and it&#8217;s almost as easy to use the <a href="http://www.google.com/url?sa=t&amp;ct=res&amp;cd=1&amp;url=http%3A%2F%2Fmsdn2.microsoft.com%2Fen-us%2Flibrary%2Fsystem.random.aspx&amp;ei=I-BuRpy4K5TSgwSd7LzRBA&amp;usg=AFQjCNH7kwYGhG5DHJPSH49s3FQbKjrKZA&amp;sig2=fMHOOh5R2_XhBt2qEkxLPw">System.Random</a>&nbsp;class to generate the angle.&nbsp; Just add the following ObjectDataProvider as a Window or&nbsp;Application&nbsp;Resource and bind the Angle property to it: </p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">ObjectDataProvider</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">x:Key</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">randomAngle</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">ObjectType</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{x:Type system:Random}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">MethodName</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">Next</span>"<span style="color: rgb(0,0,255)">&gt;
+  &lt;</span><span style="color: rgb(128,0,0)">ObjectDataProvider.MethodParameters</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;</span>-12<span style="color: rgb(0,0,255)">&lt;/</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;</span>12<span style="color: rgb(0,0,255)">&lt;/</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;
+  &lt;/</span><span style="color: rgb(128,0,0)">ObjectDataProvider.MethodParameters</span><span style="color: rgb(0,0,255)">&gt;
+&lt;/</span><span style="color: rgb(128,0,0)">ObjectDataProvider</span><span style="color: rgb(0,0,255)">&gt;</span></pre>
+<p><a href="http://11011.net/software/vspaste"></a></p></blockquote>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">...</span></pre>
+<pre class="code"><span style="color: rgb(0,0,255)"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">RotateTransform</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">Angle</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{Binding Source={StaticResource randomAngle}</span>"<span style="color: rgb(0,0,255)"> /&gt;</span></span></pre>
+</blockquote>
+<p>Well when you do this, you&#8217;ll find that you get the same Angle for every image.&nbsp; This is because you are actually binding to a single instance of the ObjectDataProvider.&nbsp; To resolve this we actually have to embed the ODP in the transform itself as so:</p>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">RotateTransform</span><span style="color: rgb(0,0,255)">&gt;
+  &lt;</span><span style="color: rgb(128,0,0)">RotateTransform.Angle</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;</span><span style="color: rgb(128,0,0)">Binding</span><span style="color: rgb(0,0,255)">&gt;
+      &lt;</span><span style="color: rgb(128,0,0)">Binding.Source</span><span style="color: rgb(0,0,255)">&gt;
+        &lt;</span><span style="color: rgb(128,0,0)">ObjectDataProvider</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">ObjectType</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{x:Type system:Random}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">MethodName</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">Next</span>"<span style="color: rgb(0,0,255)">&gt;
+          &lt;</span><span style="color: rgb(128,0,0)">ObjectDataProvider.MethodParameters</span><span style="color: rgb(0,0,255)">&gt;
+            &lt;</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;</span>-12<span style="color: rgb(0,0,255)">&lt;/</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;
+            &lt;</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;</span>12<span style="color: rgb(0,0,255)">&lt;/</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;
+          &lt;/</span><span style="color: rgb(128,0,0)">ObjectDataProvider.MethodParameters</span><span style="color: rgb(0,0,255)">&gt;
+        &lt;/</span><span style="color: rgb(128,0,0)">ObjectDataProvider</span><span style="color: rgb(0,0,255)">&gt;
+      &lt;/</span><span style="color: rgb(128,0,0)">Binding.Source</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;/</span><span style="color: rgb(128,0,0)">Binding</span><span style="color: rgb(0,0,255)">&gt;
+  &lt;/</span><span style="color: rgb(128,0,0)">RotateTransform.Angle</span><span style="color: rgb(0,0,255)">&gt;
+&lt;/</span><span style="color: rgb(128,0,0)">RotateTransform</span><span style="color: rgb(0,0,255)">&gt;</span></pre>
+</blockquote>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p><em>Tada!</em><a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/BindtoMethodwithinaDataTemplate_CB86/image_4.png" atomicselection="true"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="480" alt="image" src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/BindtoMethodwithinaDataTemplate_CB86/image_thumb_3.png" width="508" border="0"></a> </p>
+<p>Now you will find that your angle&#8217;s aren&#8217;t terribly &#8220;Random&#8221;.&nbsp; This is because you are actually asking for a new instance of the Random class each time.&nbsp; You can tell the ODP within the DataTemplate to use the same instance each time by adding this to the Window Resources:</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">ObjectDataProvider</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">x:Key</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">randomAngle</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">ObjectType</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{x:Type system:Random}</span>"<span style="color: rgb(0,0,255)">/&gt;</span></pre>
+</blockquote>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p>and modifying the Angle binding to the following, telling the transform ODP to use a specific resource instance rather than just giving it a type to instantiate each time.</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(128,0,0)">ObjectDataProvider</span><span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)"><strong><u><em>ObjectInstance</em></u></strong></span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">{StaticResource randomAngle}</span>"<span style="color: rgb(0,0,255)"> </span><span style="color: rgb(255,0,0)">MethodName</span><span style="color: rgb(0,0,255)">=</span>"<span style="color: rgb(0,0,255)">Next</span>"<span style="color: rgb(0,0,255)">&gt;
+  &lt;</span><span style="color: rgb(128,0,0)">ObjectDataProvider.MethodParameters</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;</span>-12<span style="color: rgb(0,0,255)">&lt;/</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;
+    &lt;</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;</span>12<span style="color: rgb(0,0,255)">&lt;/</span><span style="color: rgb(128,0,0)">system:Int32</span><span style="color: rgb(0,0,255)">&gt;
+  &lt;/</span><span style="color: rgb(128,0,0)">ObjectDataProvider.MethodParameters</span><span style="color: rgb(0,0,255)">&gt;
+&lt;/</span><span style="color: rgb(128,0,0)">ObjectDataProvider</span><span style="color: rgb(0,0,255)">&gt;</span></pre>
+</blockquote>
+<p>You can download a mini-version used to write this post <a title="WPFBindToMethodExample" href="http://cromwellhaus.com/files/folders/wpf/entry192.aspx">here</a>.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/06/bind-to-method-within-a-datatemplate/#comments" title="Comment on Bind to Method within a DataTemplate">2 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for June, 2007.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

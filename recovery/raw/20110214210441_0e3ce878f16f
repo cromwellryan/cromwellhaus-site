@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>WPF &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.06 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	// End of Google Analytics for WordPress by Yoast v4.0
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.box .the-content { padding: 0px; }
+.br .the-content {align: center; }
+.box .tl, .box .tr, .box .wrapleft { background: none; }
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; WPF Category Feed" href="http://blog.cromwellhaus.com/category/wpf/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com/' />
+<meta name="generator" content="WordPress 3.0.4" />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/" title="Bio"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/" title="Presentation Abstracts"><span>Presentation Abstracts</span></a></li>
+<li class="page_item page-item-757"><a class="fadeThis" href="http://blog.cromwellhaus.com/dayton-code-coffee/" title="Dayton Code &amp; Coffee"><span>Dayton Code &amp; Coffee</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+                                <h1 class="pagetitle">Archive for category WPF</h1>
+        
+        
+        <!-- post -->
+        <div id="post-790" class="post-790 post type-post hentry category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2010/07/advanced-wpf-listbox-scenario-representing-and-selecting-an-xml-hierarchy/" rel="bookmark" title="Permanent Link: Advanced WPF ListBox Scenario: Representing and Selecting an XML Hierarchy">Advanced WPF ListBox Scenario: Representing and Selecting an XML Hierarchy</a></h3>
+           <p class="post-date">
+            <span class="month">Jul</span>
+            <span class="day">22</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2010/07/advanced-wpf-listbox-scenario-representing-and-selecting-an-xml-hierarchy/#respond" class="comments"  title="Comment on Advanced WPF ListBox Scenario: Representing and Selecting an XML Hierarchy"><span class="dsq-postid" rel="790 http://blog.cromwellhaus.com/index.php/2010/07/advanced-wpf-listbox-scenario-representing-and-selecting-an-xml-hierarchy/">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>I’ve never found a use for the XmlDataProvider natively in Xaml for a shipping app, but today a @malevy had a situation that sounded interesting.  He has an Xml document structured as follows: &lt;Owners&gt;     &lt;Owner name=”&#8217;”&gt;         &lt;Pet name=”” /&gt;         &lt;Pet name=”” /&gt;     &lt;Owner name=””&gt;     … &lt;/Owners&gt; He wanted to be [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-775" class="post-775 post type-post hentry category-silverlight category-speaking category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2010/04/sketchflow-from-concept-to-production/" rel="bookmark" title="Permanent Link: SketchFlow: From Concept to Production">SketchFlow: From Concept to Production</a></h3>
+           <p class="post-date">
+            <span class="month">Apr</span>
+            <span class="day">16</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/silverlight/" title="View all posts in Silverlight" rel="category tag">Silverlight</a>, <a href="http://blog.cromwellhaus.com/category/speaking/" title="View all posts in Speaking" rel="category tag">Speaking</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2010/04/sketchflow-from-concept-to-production/#respond" class="comments"  title="Comment on SketchFlow: From Concept to Production"><span class="dsq-postid" rel="775 http://blog.cromwellhaus.com/index.php/2010/04/sketchflow-from-concept-to-production/">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>I had a great time in Frankfort, KY yesterday.&#160; We had a great turnout for the Expression SketchFlow: From Concept to Production session.&#160; It is incredibly encouraging to see so many interested in building great, well designed apps for all industries and clients (even your LOB apps!). Thanks again for those who made it.&#160; You [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-774" class="post-774 post type-post hentry category-silverlight category-speaking category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2010/04/kentucky-briefings-april-15th-and-22nd/" rel="bookmark" title="Permanent Link: Kentucky Briefings April 15th and 22nd">Kentucky Briefings April 15th and 22nd</a></h3>
+           <p class="post-date">
+            <span class="month">Apr</span>
+            <span class="day">5</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/silverlight/" title="View all posts in Silverlight" rel="category tag">Silverlight</a>, <a href="http://blog.cromwellhaus.com/category/speaking/" title="View all posts in Speaking" rel="category tag">Speaking</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2010/04/kentucky-briefings-april-15th-and-22nd/#respond" class="comments"  title="Comment on Kentucky Briefings April 15th and 22nd"><span class="dsq-postid" rel="774 http://blog.cromwellhaus.com/index.php/2010/04/kentucky-briefings-april-15th-and-22nd/">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Along with a great cast of MS partners, evangelists, specialists and more I will be bringing Sketchflow to the Frankfort, KY area Thursday, April 15th.&#160; This will be Session I with Session II scheduled for April 22nd.&#160; You can learn about everything from Forefront Suite to Silverlight to Windows Phone 7 and, of-course, Sketchflow.&#160; You [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-773" class="post-773 post type-post hentry category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2010/03/grouping-is-crazy-easy-in-wpf/" rel="bookmark" title="Permanent Link: Grouping is crazy easy in WPF">Grouping is crazy easy in WPF</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">18</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2010/03/grouping-is-crazy-easy-in-wpf/#respond" class="comments"  title="Comment on Grouping is crazy easy in WPF"><span class="dsq-postid" rel="773 http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Lots of people struggle with grouping data and when they do, the brut force method normally takes over and we start creating some crazy super structure to organize data and then do something like put a List inside of a List or a Grid inside of a list.&#160; Just think of how many times you [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-743" class="post-743 post type-post hentry category-ioc category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/10/registering-wpf-views-with-windsor-fluent-api/" rel="bookmark" title="Permanent Link: Registering WPF &#8220;Views&#8221; with Windsor Fluent API">Registering WPF &#8220;Views&#8221; with Windsor Fluent API</a></h3>
+           <p class="post-date">
+            <span class="month">Oct</span>
+            <span class="day">26</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/ioc/" title="View all posts in IoC" rel="category tag">IoC</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2009/10/registering-wpf-views-with-windsor-fluent-api/#respond" class="comments"  title="Comment on Registering WPF &#8220;Views&#8221; with Windsor Fluent API"><span class="dsq-postid" rel="743 http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>I’ve had this nagging issue for some time now with WPF views that are registered for an interface.&#160; The Views themselves are WPF UserControls: namespace SomeApp.Views { public partial class SearchView : UserControl, ISearchView { public SearchView() { InitializeComponent(); } private void InitializeComponent() { throw new NotImplementedException(); } } } &#160; I would love to [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-737" class="post-737 post type-post hentry category-net category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/07/property-undo-redo-support/" rel="bookmark" title="Permanent Link: Property Undo/Redo Support">Property Undo/Redo Support</a></h3>
+           <p class="post-date">
+            <span class="month">Jul</span>
+            <span class="day">4</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2009/07/property-undo-redo-support/#respond" class="comments"  title="Comment on Property Undo/Redo Support"><span class="dsq-postid" rel="737 /blogs/ryanc/archive/2009/07/04/property-undo-redo-support.aspx">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Undo/Redo support is one of those golden features that really differentiate a client app from many web apps.&#160; There have been a number of methods/techniques to provide this support that I’ve run across from brute force, to the memento pattern, but none that lit any fire for me. Here’s my answer to the problem using [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-732" class="post-732 post type-post hentry category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/" rel="bookmark" title="Permanent Link: Scaling ItemsControl Items for Explicit Visible Items in WPF">Scaling ItemsControl Items for Explicit Visible Items in WPF</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">12</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/#respond" class="comments"  title="Comment on Scaling ItemsControl Items for Explicit Visible Items in WPF"><span class="dsq-postid" rel="732 /blogs/ryanc/archive/2009/03/12/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf.aspx">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Another part of the overall solution we were trying to come up with in conjunction my previous post on Scrolling Multiple Content Areas, we also needed to come up with a way to only show X number of items in the visible region of an ItemsControl wrapped in a ScrollViewer.&#160; This was more tricky than [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-731" class="post-731 post type-post hentry category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/" rel="bookmark" title="Permanent Link: Scrolling Multiple Content Areas with a single ScrollBar in WPF">Scrolling Multiple Content Areas with a single ScrollBar in WPF</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">12</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/#respond" class="comments"  title="Comment on Scrolling Multiple Content Areas with a single ScrollBar in WPF"><span class="dsq-postid" rel="731 /blogs/ryanc/archive/2009/03/12/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf.aspx">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>I struggled to solve a UI dilemma while at my current client.&#160; For various reasons, we came across a situation in which we needed to scroll two areas of the view based on a single Scrollbar.&#160; You can see what we were attempting and finally achieved here. The end result is smooth, yet not quite [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-729" class="post-729 post type-post hentry category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2008/11/the-wpf-mindset/" rel="bookmark" title="Permanent Link: The WPF Mindset">The WPF Mindset</a></h3>
+           <p class="post-date">
+            <span class="month">Nov</span>
+            <span class="day">3</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2008/11/the-wpf-mindset/#respond" class="comments"  title="Comment on The WPF Mindset"><span class="dsq-postid" rel="729 /blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>WPF is awesome, but it requires the developer to make a pretty big shift in their thinking of UI.&#160; I’ve had a hard time explaining this to people, but last week, I had an opportunity to work through an example with Steve Gentile.&#160; That’s the basis of this walkthrough. &#160; The Scenerio Steve has an [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-715" class="post-715 post type-post hentry category-net category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2008/07/why-wpf-this-is-why/" rel="bookmark" title="Permanent Link: Why WPF?  This is why&#8230;">Why WPF?  This is why&#8230;</a></h3>
+           <p class="post-date">
+            <span class="month">Jul</span>
+            <span class="day">2</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2008/07/why-wpf-this-is-why/#respond" class="comments"  title="Comment on Why WPF?  This is why&#8230;"><span class="dsq-postid" rel="715 /blogs/ryanc/archive/2008/07/02/why-wpf-this-is-why.aspx">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>http://dnrtv.com/default.aspx?showID=115 Just awesome!&nbsp; I didn&#8217;t see anything far fetched other than they must have a great designer on staff.&nbsp; I wonder if the designer was doing the Blend work?</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        	<script type="text/javascript">
+	// <![CDATA[
+		var disqus_shortname = 'cromwellhaus';
+		var disqus_domain = 'disqus.com';
+		(function () {
+			var nodes = document.getElementsByTagName('span');
+			for (var i = 0, url; i < nodes.length; i++) {
+				if (nodes[i].className.indexOf('dsq-postid') != -1) {
+					nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+					url = nodes[i].parentNode.href.split('#', 1);
+					if (url.length == 1) url = url[0];
+					else url = url[1]
+					nodes[i].parentNode.href = url + '#disqus_thread';
+				}
+			}
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = 'http://' + disqus_domain + '/forums/' + disqus_shortname + '/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	//]]>
+	</script>
+
+        <div class="navigation" id="pagenavi">
+                 <div class="alignleft"><a href="http://blog.cromwellhaus.com/category/wpf/page/2/" >&laquo; Older Entries</a></div>
+         <div class="alignright"></div>
+         <div class="clear"></div>
+                </div>
+        
+      </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+        <li class="block">
+     <div class="info-text">
+            <p>You are currently browsing the archives for the WPF category.</p>
+
+           </div>
+    </li>
+    
+    
+    <li class="block widget widget_text" id="text-3"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>What I have to say&#8230;</span></h4></div>			<div class="textwidget"><script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#382a1d',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ebe6d8',
+      color: '#000000',
+      links: '#0070bb'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().setUser('cromwellryan').start();
+</script></div>
+		</div></div></div></div></div></div> </div></li> </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 11 queries. 0.703 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+

@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Setting up a Virtual PC Domain &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Setting up a Virtual PC Domain Comments Feed" href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/feed/" />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<link rel='start' title='Dayton-Cincinnati Code Camp' href='http://blog.cromwellhaus.com/index.php/2005/12/dayton-cincinnati-code-camp/' />
+<link rel='prev' title='Did you know?  Screenshots of Virtual PC Instances' href='http://blog.cromwellhaus.com/index.php/2008/07/did-you-know-screenshots-of-virtual-pc-instances/' />
+<link rel='next' title='Video Conferencing Code of Conduct' href='http://blog.cromwellhaus.com/index.php/2008/07/video-conferencing-code-of-conduct/' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-544"><a href="http://blog.cromwellhaus.com/index.php/lap-around-wpf/" title="Lap Around WPF">Lap Around WPF</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+	
+		<div class="post-717 post hentry category-networking category-virtual-pc" id="post-717">
+			<h1>Setting up a Virtual PC Domain</h1>
+			<small class="meta">
+  			<span class="alignleft">
+          July 7th, 2008 by ryan            			</span>
+        <a href="#comments" class="alignright button-style" rel="nofollow">Leave a reply &raquo;</a>
+      </small>
+
+			<div class="entry">
+				<p>I do a lot of demos and Virtual PC 2007 is a mainstay in my arsenal for those demos.&nbsp; I&#8217;ve used VMWare Server (the free one) and it is very nice, but I run an x64 OS and VMWare had neglected to sign certain emulation drives which caused me enough headache that I ditched it for the easy of VPC.&nbsp; </p>
+<p>I mentioned using <a href="http://cromwellhaus.com/blogs/ryanc/archive/2008/06/13/sysprep-your-virtual-pc-images.aspx">Syspreping</a> for my VPC library prior which saves me a ton of time, but one of the things I&#8217;ve always started but never finished was setting up a Virtual Domain.&nbsp; Well this weekend, I finished things up and I&#8217;m happy to say, it wasn&#8217;t that bad.&nbsp; </p>
+<p>Here&#8217;s what I did:</p>
+<p><strong>Create My Domain Controller Machine</strong> by copying a Syspreped Window 2008 Server harddrive image and creating a new Virtual PC using an existing hard drive.&nbsp; About 120 seconds later I have a free standing vanilla server ready to roll.</p>
+<p><strong><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_8.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="174" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_3.png" width="240" align="right" border="0"></a>Configure Network Adapter(s) </strong>by specifying <em>Local Only</em> in the VPC&#8217;s Network Settings.&nbsp; </p>
+<p>At this point you&#8217;ll want to log into VPC if you haven&#8217;t already.&nbsp; We&#8217;ll want to isolate our domain and let each of the workstation VPC&#8217;s communicate with the domain controller by going into the Network Adapter&#8217;s properties.&nbsp; Our little domain network is going to be rather isolated.&nbsp; To accomplish this, we will specify a specific Subnet and IP address range.&nbsp; Here is what I&#8217;ve used for mine:</p>
+<blockquote><p>IP Range: 192.168.8.1 &#8211; 254 (where 192.168.8.1 is my domain controller IP)<br />Subnet Mask: 255.255.248.0<br />Gateway: 192.168.8.1 (DC/DNS server)<br />Primary DNS: 192.168.8.1 (DC/DNS server)</p>
+</blockquote>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_4.png"><strong><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="205" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_1.png" width="244" align="right" border="0"></strong></a><strong> Setting up Active Directory</strong> is a breeze if you do it the easy way.&nbsp; Of course, I did it the easy way the last time.&nbsp; (Note to self: when just learning, take the defaults).&nbsp; Windows Server 2003 and 2008 have this concept of Roles.&nbsp; A server can fill one or more roles which are the conglomeration of settings, services, etc to do something more abstract&#8230; like be a DC.&nbsp; We are going to add the role <em>Active Directory Domain Services</em>.&nbsp;&nbsp; </p>
+<p>After the Add Role wizard does it&#8217;s thing, you actually &#8220;promote&#8221; the machine to a DC by running dcpromo.exe (Start, dcpromo, Enter).&nbsp; This is where you make your selections, which in this case, I&#8217;ve chosen:</p>
+<blockquote><p>Create a new domain in a new forest<br />FQDN: vpc.com</p>
+</blockquote>
+<p>You&#8217;ll want to let the machine also be a DNS server.&nbsp; This is where I screwed up the first time.&nbsp; Don&#8217;t get scared here, with our networking settings this domain we&#8217;re setting up won&#8217;t touch your corporate domain or anything crazy like that.</p>
+<p>Let the Wizard do it&#8217;s thing and reboot when it is complete.</p>
+<p>Your Active Directory Domain Controller is ready to roll.&nbsp; Great job. </p>
+<p><strong>Adding Workstations </strong>is a matter of adding a Computer entry into the <em>Active Directory Users and Computers</em> console and then actually adding the computer to the domain.&nbsp; You&#8217;ll find the AD Users and Computers MMC console in Administrative Tools.&nbsp; Once you&#8217;ve added a computer entry, log into another VPC instance which has the same Network Adapter settings as above (different IP of course .2, .3, etc) and add the machine to the domain (vpc.com) in my case.&nbsp; </p>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_10.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_4.png" width="222" align="right" border="0"></a>Here&#8217;s a quick screen capture of my Network Adapter on the Workstation I added to the domain.</p>
+<p>It&#8217;s great being able to demo Enterprise software this way or test things like integrated authentication for intranet applications. </p>
+				
+      	<ul class="previousnext clearfix">
+      		<li class="previous_post"><a href="http://blog.cromwellhaus.com/index.php/2008/07/did-you-know-screenshots-of-virtual-pc-instances/"><span>Previous Entry:</span> Did you know?  Screenshots of Virtual PC Instances</a></li>      		<li class="next_post"><a href="http://blog.cromwellhaus.com/index.php/2008/07/video-conferencing-code-of-conduct/"><span>Next Entry:</span> Video Conferencing Code of Conduct</a></li>      	</ul>
+			</div>
+			
+			<div class="postmetadata">
+			  <p class="categories">
+			    Posted in <a href="http://blog.cromwellhaus.com/index.php/category/networking/" title="View all posts in Networking" rel="category tag">Networking</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+  			        <p class="infos">
+						You can follow any responses to this entry through the <a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/feed/" rel="nofollow">RSS 2.0 Feed</a>. 
+
+													You can <a href="#respond">leave a response</a> , or <a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/trackback/" rel="trackback nofollow">trackback</a> from your own site.
+
+											</p>
+				</div>
+
+      <div class="something">
+  Advertisement		
+  <div class="somethingspecial">
+      </div>
+</div>
+		</div>
+
+  	
+<!-- You can start editing here. -->
+
+
+  <div class="comments-header clearfix">
+  	<h3 id="comments">3 comments</h3>
+    <div class="comments-header-meta">
+      <a href="#respond">Add your comment</a>
+      <!--
+      |
+      <a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/trackback/" rel="trackback">trackback</a>
+      -->
+    </div>
+
+  </div> <!-- comments-header -->
+
+
+	<div class="navigation">
+						
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+
+  <ol class="commentlist">
+  		<li class="comment even thread-even depth-1" id="comment-493">
+				<div id="div-comment-493" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=32' class='avatar avatar-32 photo avatar-default' height='32' width='32' />		<cite class="fn">Andre</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/comment-page-1/#comment-493">February 28, 2009 at 3:49 am</a></div>
+
+		<p>Excellent<br />
+thanks really help</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-494">
+				<div id="div-comment-494" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=32' class='avatar avatar-32 photo avatar-default' height='32' width='32' />		<cite class="fn"><a href='http://fandang-o.blogspot.com' rel='external nofollow' class='url'>Rick</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/comment-page-1/#comment-494">March 7, 2009 at 8:11 am</a></div>
+
+		<p>Thanks for this wonderful explanation. My dc had some sort of problem connecting to other v machines, now works fine. so thanks again. PS. all other reviews on this i found online are inaccurate.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-495">
+				<div id="div-comment-495" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=32' class='avatar avatar-32 photo avatar-default' height='32' width='32' />		<cite class="fn">cromwellryan</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/comment-page-1/#comment-495">March 7, 2009 at 6:04 pm</a></div>
+
+		<p>@Rick Glad to help.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+  </ol>
+
+
+	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+
+	
+	
+
+
+
+
+
+
+
+  <div id="respond">
+    <h3>Leave a Reply</h3>
+    <div class="cancel-comment-reply">
+    	    	<a rel="nofollow" id="cancel-comment-reply-link" href="/index.php/2008/07/setting-up-a-virtual-pc-domain#respond" style="display:none;">Click here to cancel reply.</a>    	
+    </div>
+  
+    
+  <form action="http://blog.cromwellhaus.com/wp-comments-post.php" method="post" id="commentform">
+  
+    
+  <div class="respond-left">
+    <p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+    <label for="author">Name (required)</label></p>
+    
+    <p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+    <label for="email">Mail (will not be published) (required)</label></p>
+    
+    <p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+    <label for="url">Website</label></p>
+  </div>
+  
+    
+  <!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+  
+  <div class="respond-right">
+    <textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea>
+    <p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+    <input type='hidden' name='comment_post_ID' value='717' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+    </p>
+      </div>
+  
+  </form>
+  
+    </div>
+
+  	 
+
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+<li>
+	<ul class="sb-tools clearfix">
+		<li class="previous-post"><a href="http://blog.cromwellhaus.com/index.php/2008/07/did-you-know-screenshots-of-virtual-pc-instances/"><span>Previous Entry</span> Did you know?  Screenshots of Virtual PC Instances</a></li>		<li class="next-post"><a href="http://blog.cromwellhaus.com/index.php/2008/07/video-conferencing-code-of-conduct/"><span>Next Entry</span> Video Conferencing Code of Conduct</a></li>	</ul>	
+</li>
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+	
+</ul>
+
+<ul class="group">
+  
+    
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

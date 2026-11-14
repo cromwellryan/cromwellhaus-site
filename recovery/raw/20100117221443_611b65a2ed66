@@ -1,0 +1,521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>July &raquo; 2008 &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for July, 2008</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-720 post hentry category-net">
+			<h2 id="post-720"><a href="http://blog.cromwellhaus.com/index.php/2008/07/why-plain-old-linq-is-so-powerful/" rel="bookmark" title="Permanent Link to Why Plain Old LINQ is so powerful">Why Plain Old LINQ is so powerful</a></h2>
+			<small class="meta">July 31st, 2008 </small>
+
+			<div class="entry">
+				<p><a href="http://www.interact-sw.co.uk/iangblog/" target="_blank">Ian Griffiths</a> posted a <a href="http://www.interact-sw.co.uk/iangblog/2008/07/30/linq-box-aggregation" target="_blank">great example</a> of how powerful and cool LINQ is when used in everyday code (it&#8217;s not all about databases people).</p>
+<p>If you haven&#8217;t started to learn how to incorporate this awesome toolset into your daily coding life, you&#8217;re killing yourself.&nbsp; No excuses.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/why-plain-old-linq-is-so-powerful/#comments" title="Comment on Why Plain Old LINQ is so powerful">1 comment</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-719 post hentry category-net">
+			<h2 id="post-719"><a href="http://blog.cromwellhaus.com/index.php/2008/07/roadblock-to-mocking-unit-tests/" rel="bookmark" title="Permanent Link to Roadblock to Mocking Unit Tests">Roadblock to Mocking Unit Tests</a></h2>
+			<small class="meta">July 15th, 2008 </small>
+
+			<div class="entry">
+				<p>I&#8217;ve been a faithful unit tester for a few years now.&nbsp; I may not do everything by the book (I think end-to-end unit tests are helpful), but I do get good coverage most of the time.&nbsp; That said, I&#8217;ve found myself unable to use any of the Mock frameworks out there, because I don&#8217;t use your typical Dependency Injection pattern.&nbsp; That is, I don&#8217;t like &#8220;building up&#8221; very freaking instance with all the &#8220;Provider&#8221; or &#8220;Service&#8221; interfaces I&#8217;m might need in the possible life of a business object.&nbsp; Yes, if your Customer class is only going to create or save an Order, it feels OK, but my objects are busy dude, so I&#8217;d need the longest constructor of all time.</p>
+<p>I prefer <a href="http://search.live.com/results.aspx?q=dependency+resolution+mock&amp;form=QBRE" target="_blank">Dependency Resolution</a>.&nbsp; I don&#8217;t use any fancy framework, I just use a good old, DI.Resolve&lt;IBusyBee&gt;() and go about my business.&nbsp; It works wonderfully, it&#8217;s light-weight (cause I don&#8217;t use configuration based DI frameworks), and it&#8217;s my baby.</p>
+<p>That said, it&#8217;s also been the roadblock to my mocking foray.&nbsp; That was, until I &#8220;got it&#8221; today.&nbsp; Long story short, here&#8217;s how I roll:</p>
+<p><strong>Create a Mock DI Container&#8230;</strong></p>
+<pre class="code"><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">IDIContainer</span>&gt; mockContainer = <span style="color: blue">new </span><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">IDIContainer</span>&gt;();</pre>
+<p><strong>Create the Injected Mock instances&#8230;</strong></p>
+<p><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">INotificationManager</span>&gt; mockNotifMgr = <span style="color: blue">new</span><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">INotificationManager</span>&gt;();<br /><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">IRepository</span>&gt; mockRepository = <span style="color: blue">new</span><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">IRepository</span>&gt;();</p>
+<p><strong>Tell the mock IDIContainer to return the mock instances when asked&#8230;</strong></p>
+<pre class="code">mockContainer.Expect(c =&gt; c.Resolve&lt;<span style="color: #2b91af">INotificationManager</span>&gt;(<span style="color: blue">null</span>)).Returns(mockNotifMgr.Object);
+mockContainer.Expect(c =&gt; c.Resolve&lt;<span style="color: #2b91af">IRepository</span>&gt;(<span style="color: blue">null</span>)).Returns(mockRepository.Object);
+</pre>
+<p><strong>Mock your heart out&#8230;</strong></p>
+<pre class="code">mockNotifMgr.Expect(mgr =&gt; mgr.NotifyEmailConfirmation(<span style="color: #2b91af">It</span>.IsAny&lt;<span style="color: #2b91af">Member</span>&gt;())).AtMostOnce();
+</pre>
+<pre class="code"><span style="color: #2b91af">Member</span>.Register(<span style="color: #a31515">"username"</span>, <span style="color: #a31515">"firstname"</span>, <span style="color: #a31515">"lastname"</span>, <span style="color: #a31515">"ryan@myus.com"</span>);
+
+mockContainer.VerifyAll();
+mockNotifMgr.VerifyAll();
+</pre>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p>I&#8217;m very happy to have finally jumped on the Moq bandwagon as it will certainly make some unit tests much easier to write.&nbsp; Maybe I&#8217;ll even do the test first part more faithfully now.&nbsp; </p>
+<p>FYI, I use my own DI framework which is just a glorified HashTable.&nbsp; It works for me and it is quick.&nbsp; <a href="http://moq.googlecode.com/" target="_blank">Moq</a> has also become my Mock framework of choice for no good reason other than I downloaded it first.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/roadblock-to-mocking-unit-tests/#comments" title="Comment on Roadblock to Mocking Unit Tests">14 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-718 post hentry category-uncategorized">
+			<h2 id="post-718"><a href="http://blog.cromwellhaus.com/index.php/2008/07/video-conferencing-code-of-conduct/" rel="bookmark" title="Permanent Link to Video Conferencing Code of Conduct">Video Conferencing Code of Conduct</a></h2>
+			<small class="meta">July 7th, 2008 </small>
+
+			<div class="entry">
+				<p>My team uses <a href="http://www.oovoo.com/">ooVoo</a> for video conferencing our Daily Scrum.&nbsp; It&#8217;s been great and very reliable.&nbsp; My only complaint is a lack of whiteboard or desktop sharing, but we&#8217;ve overcome these obstacles with other tools (see <a href="https://connect.microsoft.com/site/sitehome.aspx?SiteID=94&amp;wa=wsignin1.0">SharedView</a>).&nbsp; Over the months, I&#8217;ve come to acquire an expectation of what the experience should be like and, from that, a Code of Conduct.&nbsp; Here it is:</p>
+<p><strong>Don&#8217;t Be a Slob</strong> &#8211; Just cause you&#8217;re in your bedroom or PJ&#8217;s doesn&#8217;t mean I want to know about it.&nbsp; Put a decent shirt on and brush your hair.&nbsp; Same goes for yawning, coughing, and every other table manner.&nbsp; Cover your mouth, mute the Mic, whatever.</p>
+<p><strong>Have a Headset</strong> &#8211; I&#8217;m sure some guy out there is ecstatic about the next step in the evolution of the speaker phone, but they still suck in comparison to a headset and Mic that are placed against their corresponding body part.&nbsp; You&#8217;re laptop&#8217;s built in speaker and Mic are no better, so fork out the 10 bucks and get a cheap headset you cheap-arse.</p>
+<p><strong>Go Full or Go Home</strong> &#8211; I&#8217;m glad your torrents are racing, but your video looks like the corner of your head just entered the Atari zone.&nbsp; Stop downloading the latest SUSE iso for a few minutes and give me your full bandwidth attention.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/video-conferencing-code-of-conduct/#respond" title="Comment on Video Conferencing Code of Conduct">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-717 post hentry category-networking category-virtual-pc">
+			<h2 id="post-717"><a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/" rel="bookmark" title="Permanent Link to Setting up a Virtual PC Domain">Setting up a Virtual PC Domain</a></h2>
+			<small class="meta">July 7th, 2008 </small>
+
+			<div class="entry">
+				<p>I do a lot of demos and Virtual PC 2007 is a mainstay in my arsenal for those demos.&nbsp; I&#8217;ve used VMWare Server (the free one) and it is very nice, but I run an x64 OS and VMWare had neglected to sign certain emulation drives which caused me enough headache that I ditched it for the easy of VPC.&nbsp; </p>
+<p>I mentioned using <a href="http://cromwellhaus.com/blogs/ryanc/archive/2008/06/13/sysprep-your-virtual-pc-images.aspx">Syspreping</a> for my VPC library prior which saves me a ton of time, but one of the things I&#8217;ve always started but never finished was setting up a Virtual Domain.&nbsp; Well this weekend, I finished things up and I&#8217;m happy to say, it wasn&#8217;t that bad.&nbsp; </p>
+<p>Here&#8217;s what I did:</p>
+<p><strong>Create My Domain Controller Machine</strong> by copying a Syspreped Window 2008 Server harddrive image and creating a new Virtual PC using an existing hard drive.&nbsp; About 120 seconds later I have a free standing vanilla server ready to roll.</p>
+<p><strong><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_8.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="174" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_3.png" width="240" align="right" border="0"></a>Configure Network Adapter(s) </strong>by specifying <em>Local Only</em> in the VPC&#8217;s Network Settings.&nbsp; </p>
+<p>At this point you&#8217;ll want to log into VPC if you haven&#8217;t already.&nbsp; We&#8217;ll want to isolate our domain and let each of the workstation VPC&#8217;s communicate with the domain controller by going into the Network Adapter&#8217;s properties.&nbsp; Our little domain network is going to be rather isolated.&nbsp; To accomplish this, we will specify a specific Subnet and IP address range.&nbsp; Here is what I&#8217;ve used for mine:</p>
+<blockquote><p>IP Range: 192.168.8.1 &#8211; 254 (where 192.168.8.1 is my domain controller IP)<br />Subnet Mask: 255.255.248.0<br />Gateway: 192.168.8.1 (DC/DNS server)<br />Primary DNS: 192.168.8.1 (DC/DNS server)</p>
+</blockquote>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_4.png"><strong><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="205" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_1.png" width="244" align="right" border="0"></strong></a><strong> Setting up Active Directory</strong> is a breeze if you do it the easy way.&nbsp; Of course, I did it the easy way the last time.&nbsp; (Note to self: when just learning, take the defaults).&nbsp; Windows Server 2003 and 2008 have this concept of Roles.&nbsp; A server can fill one or more roles which are the conglomeration of settings, services, etc to do something more abstract&#8230; like be a DC.&nbsp; We are going to add the role <em>Active Directory Domain Services</em>.&nbsp;&nbsp; </p>
+<p>After the Add Role wizard does it&#8217;s thing, you actually &#8220;promote&#8221; the machine to a DC by running dcpromo.exe (Start, dcpromo, Enter).&nbsp; This is where you make your selections, which in this case, I&#8217;ve chosen:</p>
+<blockquote><p>Create a new domain in a new forest<br />FQDN: vpc.com</p>
+</blockquote>
+<p>You&#8217;ll want to let the machine also be a DNS server.&nbsp; This is where I screwed up the first time.&nbsp; Don&#8217;t get scared here, with our networking settings this domain we&#8217;re setting up won&#8217;t touch your corporate domain or anything crazy like that.</p>
+<p>Let the Wizard do it&#8217;s thing and reboot when it is complete.</p>
+<p>Your Active Directory Domain Controller is ready to roll.&nbsp; Great job. </p>
+<p><strong>Adding Workstations </strong>is a matter of adding a Computer entry into the <em>Active Directory Users and Computers</em> console and then actually adding the computer to the domain.&nbsp; You&#8217;ll find the AD Users and Computers MMC console in Administrative Tools.&nbsp; Once you&#8217;ve added a computer entry, log into another VPC instance which has the same Network Adapter settings as above (different IP of course .2, .3, etc) and add the machine to the domain (vpc.com) in my case.&nbsp; </p>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_10.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_4.png" width="222" align="right" border="0"></a>Here&#8217;s a quick screen capture of my Network Adapter on the Workstation I added to the domain.</p>
+<p>It&#8217;s great being able to demo Enterprise software this way or test things like integrated authentication for intranet applications. </p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/#comments" title="Comment on Setting up a Virtual PC Domain">3 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/networking/" title="View all posts in Networking" rel="category tag">Networking</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-716 post hentry category-virtual-pc">
+			<h2 id="post-716"><a href="http://blog.cromwellhaus.com/index.php/2008/07/did-you-know-screenshots-of-virtual-pc-instances/" rel="bookmark" title="Permanent Link to Did you know?  Screenshots of Virtual PC Instances">Did you know?  Screenshots of Virtual PC Instances</a></h2>
+			<small class="meta">July 7th, 2008 </small>
+
+			<div class="entry">
+				<p>If you are running a VPC instance and you&#8217;d like to take a screenshot of something on the VPC, did you know you can do that without any photo editing hassle?</p>
+<p>Simply make sure you aren&#8217;t &#8220;in&#8221; the VPC (hit the right Alt key if you are).&nbsp; Now click and drag a square around the portion of the VM you want to capture.&nbsp; CTRL+C or Edit -&gt; Copy will capture the section to the clipboard and you can paste it wherever.&nbsp; </p>
+<p>Nice touch.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/did-you-know-screenshots-of-virtual-pc-instances/#respond" title="Comment on Did you know?  Screenshots of Virtual PC Instances">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-715 post hentry category-net category-wpf">
+			<h2 id="post-715"><a href="http://blog.cromwellhaus.com/index.php/2008/07/why-wpf-this-is-why/" rel="bookmark" title="Permanent Link to Why WPF?  This is why&#8230;">Why WPF?  This is why&#8230;</a></h2>
+			<small class="meta">July 2nd, 2008 </small>
+
+			<div class="entry">
+				<p><a title="http://dnrtv.com/default.aspx?showID=115" href="http://dnrtv.com/default.aspx?showID=115">http://dnrtv.com/default.aspx?showID=115</a></p>
+<p>Just awesome!&nbsp; I didn&#8217;t see anything far fetched other than they must have a great designer on staff.&nbsp; I wonder if the designer was doing the Blend work?</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/why-wpf-this-is-why/#respond" title="Comment on Why WPF?  This is why&#8230;">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-714 post hentry category-net">
+			<h2 id="post-714"><a href="http://blog.cromwellhaus.com/index.php/2008/07/visitor-pattern-with-anonymous-methods/" rel="bookmark" title="Permanent Link to Visitor Pattern with Anonymous Methods">Visitor Pattern with Anonymous Methods</a></h2>
+			<small class="meta">July 2nd, 2008 </small>
+
+			<div class="entry">
+				<p>I don&#8217;t often have the need to implement the <a href="http://www.dofactory.com/Patterns/PatternVisitor.aspx">Visitor Pattern</a>, but today I was that day.&nbsp; I looked around really quick for an example of how to do this with <a href="http://msdn.microsoft.com/en-us/library/bb397687.aspx">Lambda Expressions</a> and <a href="http://msdn.microsoft.com/en-us/library/0yw3tz5k.aspx">Anonymous Methods</a>, which seemed like they were the way to go.&nbsp; It may be that my search skills have deteriorated right along with my sense of style, but I didn&#8217;t find much.</p>
+<p>I played around for a few minutes and here is what I came up with:</p>
+<blockquote>
+<div class="csharpcode">
+<div class="csharpcode">
+<div class="csharpcode">
+<pre class="code"><span style="color: #0000ff;">public abstract class </span><span style="color: #2b91af;">CarBase
+</span>{
+    <span style="color: #0000ff;">public void </span>Visit(<span style="color: #2b91af;">Action</span>&lt;<span style="color: #2b91af;">CarBase</span>&gt; action)
+    {
+        <span style="color: #0000ff;">if </span>(action != <span style="color: #0000ff;">null</span>)
+            action(<span style="color: #0000ff;">this</span>);
+    }
+}
+
+<span style="color: #0000ff;">public class </span><span style="color: #2b91af;">BigCar </span>: <span style="color: #2b91af;">CarBase
+</span>{
+    <span style="color: #0000ff;">public void </span>RunOverLittleCar()
+    {
+        <span style="color: #2b91af;">Console</span>.WriteLine(<span style="color: #a31515;">"Me smash little car!"</span>);
+    }
+}
+
+<span style="color: #0000ff;">public class </span><span style="color: #2b91af;">LittleCar </span>: <span style="color: #2b91af;">CarBase
+</span>{
+    <span style="color: #0000ff;">public virtual void </span>RunAwayFromBigCar()
+    {
+        <span style="color: #2b91af;">Console</span>.WriteLine(<span style="color: #a31515;">"Go Faster!"</span>);
+    }
+}
+
+<span style="color: #0000ff;">public class </span><span style="color: #2b91af;">EcoCar </span>: <span style="color: #2b91af;">LittleCar
+</span>{
+    <span style="color: #0000ff;">public override void </span>RunAwayFromBigCar()
+    {
+        <span style="color: #2b91af;">Console</span>.WriteLine(<span style="color: #a31515;">"Ouch."</span>);
+    }
+}</pre>
+<pre class="code"><span style="color: #0000ff;">class </span><span style="color: #2b91af;">Program
+</span>{
+    <span style="color: #0000ff;">static void </span>Main(<span style="color: #0000ff;">string</span>[] args)
+    {
+        <span style="color: #2b91af;">IList</span>&lt;<span style="color: #2b91af;">CarBase</span>&gt; cars = <span style="color: #0000ff;">new </span><span style="color: #2b91af;">List</span>&lt;<span style="color: #2b91af;">CarBase</span>&gt;(<span style="color: #0000ff;">new </span><span style="color: #2b91af;">CarBase</span>[] {
+                                                                <span style="color: #0000ff;">new </span><span style="color: #2b91af;">BigCar</span>(),
+                                                                <span style="color: #0000ff;">new </span><span style="color: #2b91af;">LittleCar</span>(),
+                                                                <span style="color: #0000ff;">new </span><span style="color: #2b91af;">EcoCar</span>()
+                                                              });
+        <span style="color: #0000ff;">foreach </span>(<span style="color: #2b91af;">CarBase </span>car <span style="color: #0000ff;">in </span>cars)
+        {
+            car.Visit(<span style="color: #0000ff;">delegate</span>(<span style="color: #2b91af;">CarBase </span>c)
+            {
+                <span style="color: #0000ff;">if </span>(c <span style="color: #0000ff;">is </span><span style="color: #2b91af;">BigCar</span>)
+                    ((<span style="color: #2b91af;">BigCar</span>)c).RunOverLittleCar();
+                <span style="color: #0000ff;">else if </span>(c <span style="color: #0000ff;">is </span><span style="color: #2b91af;">LittleCar</span>)
+                    ((<span style="color: #2b91af;">LittleCar</span>)c).RunAwayFromBigCar();
+                <span style="color: #0000ff;">else if </span>(c <span style="color: #0000ff;">is </span><span style="color: #2b91af;">EcoCar</span>)
+                    ((<span style="color: #2b91af;">EcoCar</span>)c).RunAwayFromBigCar();
+            });
+        }
+
+        <span style="color: #0000ff;">if </span>(<span style="color: #2b91af;">Debugger</span>.IsAttached)
+            <span style="color: #2b91af;">Console</span>.ReadLine();
+    }
+}</pre>
+</div>
+</div>
+</div>
+</blockquote>
+<p><style type="text/css"></style>
+<style type="text/css"></style>
+</p>
+<p>In many implementations of the visitor pattern there is an adapter or actual Visitor interface and implementation class which is passed into the Visit() method.&nbsp; This is just smooth.</p>
+<p>My visit method above is a little big to look good as a lambda expression, though maybe I just don&#8217;t have the eye for it.&nbsp; </p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/visitor-pattern-with-anonymous-methods/#respond" title="Comment on Visitor Pattern with Anonymous Methods">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-713 post hentry category-net category-visual-studio">
+			<h2 id="post-713"><a href="http://blog.cromwellhaus.com/index.php/2008/07/virtual-property-c-code-snippet/" rel="bookmark" title="Permanent Link to Virtual Property C# Code Snippet">Virtual Property C# Code Snippet</a></h2>
+			<small class="meta">July 2nd, 2008 </small>
+
+			<div class="entry">
+				<p>For those of you who use NHibernate you may find this convenient, if you don&#8217;t already have your own.&nbsp; Below is a C# code snippet for creating a public virtual property (code and file are both there).&nbsp; Just put it in your <em>&lt;Visual Studio 2005/2008&gt;\Code Snippets\Visual C#\My Code Snippets</em> folder and you&#8217;re off and running.&nbsp; No restart required.</p>
+<p><strong><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Components.PostAttachments/00.00.00.06.84/propv.snippet">File</a></strong></p>
+<p><strong>Code</strong></p>
+<blockquote>
+<pre class="code"><span style="color: blue">&lt;?</span><span style="color: #a31515">xml </span><span style="color: red">version</span><span style="color: blue">=</span>"<span style="color: blue">1.0</span>" <span style="color: red">encoding</span><span style="color: blue">=</span>"<span style="color: blue">utf-8</span>" <span style="color: blue">?&gt;
+&lt;</span><span style="color: #a31515">CodeSnippets  </span><span style="color: red">xmlns</span><span style="color: blue">=</span>"<span style="color: blue">http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet</span>"<span style="color: blue">&gt;
+    &lt;</span><span style="color: #a31515">CodeSnippet </span><span style="color: red">Format</span><span style="color: blue">=</span>"<span style="color: blue">1.0.0</span>"<span style="color: blue">&gt;
+        &lt;</span><span style="color: #a31515">Header</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Title</span><span style="color: blue">&gt;</span>propv<span style="color: blue">&lt;/</span><span style="color: #a31515">Title</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Shortcut</span><span style="color: blue">&gt;</span>propv<span style="color: blue">&lt;/</span><span style="color: #a31515">Shortcut</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Description</span><span style="color: blue">&gt;</span>Code snippet for an automatically implemented virtual property<span style="color: blue">&lt;/</span><span style="color: #a31515">Description</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Author</span><span style="color: blue">&gt;</span>Microsoft Corporation<span style="color: blue">&lt;/</span><span style="color: #a31515">Author</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">SnippetTypes</span><span style="color: blue">&gt;
+                &lt;</span><span style="color: #a31515">SnippetType</span><span style="color: blue">&gt;</span>Expansion<span style="color: blue">&lt;/</span><span style="color: #a31515">SnippetType</span><span style="color: blue">&gt;
+            &lt;/</span><span style="color: #a31515">SnippetTypes</span><span style="color: blue">&gt;
+        &lt;/</span><span style="color: #a31515">Header</span><span style="color: blue">&gt;
+        &lt;</span><span style="color: #a31515">Snippet</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Declarations</span><span style="color: blue">&gt;
+                &lt;</span><span style="color: #a31515">Literal</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">ID</span><span style="color: blue">&gt;</span>type<span style="color: blue">&lt;/</span><span style="color: #a31515">ID</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">ToolTip</span><span style="color: blue">&gt;</span>Property type<span style="color: blue">&lt;/</span><span style="color: #a31515">ToolTip</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">Default</span><span style="color: blue">&gt;</span>int<span style="color: blue">&lt;/</span><span style="color: #a31515">Default</span><span style="color: blue">&gt;
+                &lt;/</span><span style="color: #a31515">Literal</span><span style="color: blue">&gt;
+                &lt;</span><span style="color: #a31515">Literal</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">ID</span><span style="color: blue">&gt;</span>property<span style="color: blue">&lt;/</span><span style="color: #a31515">ID</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">ToolTip</span><span style="color: blue">&gt;</span>Property name<span style="color: blue">&lt;/</span><span style="color: #a31515">ToolTip</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">Default</span><span style="color: blue">&gt;</span>MyProperty<span style="color: blue">&lt;/</span><span style="color: #a31515">Default</span><span style="color: blue">&gt;
+                &lt;/</span><span style="color: #a31515">Literal</span><span style="color: blue">&gt;
+            &lt;/</span><span style="color: #a31515">Declarations</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Code </span><span style="color: red">Language</span><span style="color: blue">=</span>"<span style="color: blue">csharp</span>"<span style="color: blue">&gt;&lt;![CDATA[</span><span style="color: gray">public virtual $type$ $property$ { get; set; }$end$</span><span style="color: blue">]]&gt;
+            &lt;/</span><span style="color: #a31515">Code</span><span style="color: blue">&gt;
+        &lt;/</span><span style="color: #a31515">Snippet</span><span style="color: blue">&gt;
+    &lt;/</span><span style="color: #a31515">CodeSnippet</span><span style="color: blue">&gt;
+&lt;/</span><span style="color: #a31515">CodeSnippets</span><span style="color: blue">&gt;</span></pre>
+<pre class="code"><span style="color: blue"></span> </pre>
+<pre class="code"><span style="color: blue"></span> </pre>
+</blockquote>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/virtual-property-c-code-snippet/#respond" title="Comment on Virtual Property C# Code Snippet">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/visual-studio/" title="View all posts in Visual Studio" rel="category tag">Visual Studio</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-712 post hentry category-uncategorized">
+			<h2 id="post-712"><a href="http://blog.cromwellhaus.com/index.php/2008/07/backup-your-site/" rel="bookmark" title="Permanent Link to Backup Your Site">Backup Your Site</a></h2>
+			<small class="meta">July 1st, 2008 </small>
+
+			<div class="entry">
+				<p>So last night I was restructuring my hosting infrastructure (read: moving folders around) and managed to delete the folder that hosts most of my sites.&nbsp; I got that nasty sinking feeling in the pit of my stomach.&nbsp; I was able to get things back up, but my hosting provider, which is normally pretty responsive and helpful, took FOREVER to respond to my restore request.&nbsp; </p>
+<p>Immediately after that I set up a scheduled job on my home machine to pull down a rar of the site each night.&nbsp; It&#8217;s hard to get good help these days.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/backup-your-site/#respond" title="Comment on Backup Your Site">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-711 post hentry category-software-reviews">
+			<h2 id="post-711"><a href="http://blog.cromwellhaus.com/index.php/2008/07/jing/" rel="bookmark" title="Permanent Link to Jing">Jing</a></h2>
+			<small class="meta">July 1st, 2008 </small>
+
+			<div class="entry">
+				<p><a href="http://jing.cromwellhaus.com/2008-07-01_1427.swf">http://jing.cromwellhaus.com/2008-07-01_1427.swf</a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/jing/#respond" title="Comment on Jing">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for July, 2008.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Registering WPF &#8220;Views&#8221; with Windsor Fluent API &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.0.11 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.box .the-content { padding: 0px; }
+.br .the-content {align: center; }
+.box .tl, .box .tr, .box .wrapleft { background: none; }
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Registering WPF &#8220;Views&#8221; with Windsor Fluent API Comments Feed" href="http://blog.cromwellhaus.com/2009/10/registering-wpf-views-with-windsor-fluent-api/feed/" />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.4.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com/' />
+<link rel='start' title='Dayton-Cincinnati Code Camp' href='http://blog.cromwellhaus.com/2005/12/dayton-cincinnati-code-camp/' />
+<link rel='prev' title='Wake up: Code &amp; Coffee tomorrow morning' href='http://blog.cromwellhaus.com/2009/09/wake-up-code-amp-coffee-tomorrow-morning/' />
+<link rel='next' title='Size versus Duration' href='http://blog.cromwellhaus.com/2009/10/size-versus-duration/' />
+<meta name="generator" content="WordPress 3.1.1" />
+<link rel='canonical' href='http://blog.cromwellhaus.com/2009/10/registering-wpf-views-with-windsor-fluent-api/' />
+<link rel='shortlink' href='http://blog.cromwellhaus.com/?p=743' />
+<link rel="stylesheet" href="http://disqus.com/stylesheets/cromwellhaus/disqus.css?v=2.0" type="text/css" media="screen" />
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/" title="Bio"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/" title="Presentation Abstracts"><span>Presentation Abstracts</span></a></li>
+<li class="page_item page-item-757"><a class="fadeThis" href="http://blog.cromwellhaus.com/dayton-code-coffee/" title="Dayton Code &amp; Coffee"><span>Dayton Code &amp; Coffee</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://blog.cromwellhaus.com/2009/09/wake-up-code-amp-coffee-tomorrow-morning/" rel="prev">Wake up: Code &amp; Coffee tomorrow morning</a></div>
+          <div class="alignright"><a href="http://blog.cromwellhaus.com/2009/10/size-versus-duration/" rel="next">Size versus Duration</a> &raquo;</div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-743" class="post-743 post type-post status-publish format-standard hentry category-ioc category-wpf">
+           <h2 class="post-title">Registering WPF &#8220;Views&#8221; with Windsor Fluent API</h2>
+              <div class="post-content clearfix">
+    	       <p>I’ve had this nagging issue for some time now with WPF views that are registered for an interface.&#160; The Views themselves are WPF UserControls:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 550px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"><span style="color: #0000ff">namespace</span> SomeApp.Views
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">{
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">public</span> partial <span style="color: #0000ff">class</span> SearchView : UserControl, ISearchView
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    {
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">public</span> SearchView()
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        {
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            InitializeComponent();
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        }
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"></pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">private</span> <span style="color: #0000ff">void</span> InitializeComponent()
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        {
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">throw</span> <span style="color: #0000ff">new</span> NotImplementedException();
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        }
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    }
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">}
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"></pre>
+</pre>
+<p>&#160;</p>
+<p>I would love to have registered all views in one go by simply adding:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 550px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">container.Register(AllTypes
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                       .FromAssembly(assembly)
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                       .Where(x =&gt; x.Name.EndsWith(&quot;<span style="color: #8b0000">View</span>&quot;))
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                       .WithService.FirstInterface());</pre>
+</pre>
+<p>&#160;</p>
+<p>Unfortunately, this registers my Views for <em>System.Windows.Media.Composition.DUCE+IResource</em> implementations which I really couldn’t care less about.&#160; The interface I’m looking for is the “nearest” interface for lack of a better term.&#160; Fortunately, Windsor lets us provide a delegate selector for the interface.&#160; Here’s what I’m using now:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 550px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">container.Register(AllTypes
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                       .FromAssembly(assembly)
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                       .Where(x =&gt; x.Name.EndsWith(suffix))
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                       .WithService.Select((t, bt) =&gt;
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                               {
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                                   var serviceType = t
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                                       .GetInterfaces()
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                                       .Where(x =&gt; x.FullName.StartsWith(&quot;<span style="color: #8b0000">SomeApp</span>&quot;))
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                                       .FirstOrDefault();
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"></pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                                   <span style="color: #0000ff">if</span> (serviceType != <span style="color: #0000ff">null</span>)
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                                       <span style="color: #0000ff">return</span> <span style="color: #0000ff">new</span>[] {serviceType};
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                                   <span style="color: #0000ff">else</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                                       <span style="color: #0000ff">return</span> <span style="color: #0000ff">new</span>[] {t};
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                               }));</pre>
+</pre>
+<p>&#160;</p>
+<blockquote>
+<p>Use <em>Select versus FirstInterface</em> allows us to provide back the Service type(s?) that this class is implementing.&#160; The StartsWith is obviously fragile, but I’m green right now, so I’ll see you on the other side.</p>
+</blockquote>
+              </div>
+                                          <p class="post-metadata">
+                    This entry was posted on October 26, 2009, 12:06 am and is filed under <a href="http://blog.cromwellhaus.com/category/ioc/" title="View all posts in IoC" rel="category tag">IoC</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>. You can follow any responses to this entry through <a href="http://blog.cromwellhaus.com/2009/10/registering-wpf-views-with-windsor-fluent-api/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://blog.cromwellhaus.com/2009/10/registering-wpf-views-with-windsor-fluent-api/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+					<div id="dsq-content">
+			<ul id="dsq-comments">
+					<li id="dsq-comment-78">
+					<div id="dsq-comment-header-78" class="dsq-comment-header">
+						<cite id="dsq-cite-78">
+	http://blogger.forgottenskies.com/?p=574							<span id="dsq-author-user-78">Fantastic Friday &ndash; Links, thoughts and more&hellip;! &laquo; { null != Steve }</span>
+							</cite>
+					</div>
+					<div id="dsq-comment-body-78" class="dsq-comment-body">
+						<div id="dsq-comment-message-78" class="dsq-comment-message"><p>[...] Registering WPF “Views” with Windsor Fluent API [...]</p>
+</div>
+					</div>
+				</li>
+				</ul>
+		</div>
+	</div>
+
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	var disqus_url = 'http://blog.cromwellhaus.com/2009/10/registering-wpf-views-with-windsor-fluent-api/ ';
+	var disqus_identifier = '743 http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/';
+	var disqus_container_id = 'disqus_thread';
+	var disqus_domain = 'disqus.com';
+	var disqus_shortname = 'cromwellhaus';
+	var disqus_title = "Registering WPF &#8220;Views&#8221; with Windsor Fluent API";
+		var disqus_config = function () {
+	    var config = this; // Access to the config object
+
+	    /* 
+	       All currently supported events:
+	        * preData — fires just before we request for initial data
+	        * preInit - fires after we get initial data but before we load any dependencies
+	        * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+	        * afterRender - fires when template is rendered but before we show it
+	        * onReady - everything is done
+	     */
+
+		config.callbacks.preData.push(function() {
+			// clear out the container (its filled for SEO/legacy purposes)
+			document.getElementById(disqus_container_id).innerHTML = '';
+		});
+				config.callbacks.onReady.push(function() {
+			// sync comments in the background so we don't block the page
+			DISQUS.request.get('?cf_action=sync_comments&post_id=743');
+		});
+					};
+	var facebookXdReceiverPath = 'http://blog.cromwellhaus.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	var DsqLocal = {
+		'trackbacks': [
+			{
+				'author_name':	"Fantastic Friday &ndash; Links, thoughts and more&hellip;! &laquo; { null != Steve }",
+				'author_url':	"http:\/\/blogger.forgottenskies.com\/?p=574",
+				'date':			"12\/04\/2009 11:23 AM",
+				'excerpt':		"[...] Registering WPF “Views” with Windsor Fluent API [...] ",
+				'type':			"pingback"			}
+		],
+		'trackback_url': "http:\/\/blog.cromwellhaus.com\/2009\/10\/registering-wpf-views-with-windsor-fluent-api\/trackback\/"	};
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+	dsq.async = true;
+	dsq.src = 'http://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.61';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+    
+    
+    <li class="block widget widget_text" id="text-3"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>What I have to say&#8230;</span></h4></div>			<div class="textwidget"><script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#382a1d',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ebe6d8',
+      color: '#000000',
+      links: '#0070bb'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().setUser('cromwellryan').start();
+</script></div>
+		</div></div></div></div></div></div> </div></li><li class="block widget widget_links" id="linkcat-2"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>Blogroll</span></h4></div>
+	<ul class='xoxo blogroll'>
+<li><a href="http://cincycleancoders.com/" rel="me" title="Exploring Patterns, Practices, and Tools for Sustainable Code">Cincy Clean Coders</a></li>
+
+	</ul>
+</div></div></div></div></div></div> </div></li>
+ </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 19 queries. 0.382 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+

@@ -1,0 +1,344 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="robots" content="noindex,follow" />
+<meta name="GENERATOR" content="CommunityServer 2008.5 SP1 (Build: 31106.3070)" />
+<link rel="shortcut icon" type="image/ico" href="/sites/cromwellhaus.com/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell - All Comments (RSS 2.0)" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs//rsscomments.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Announcements (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/announcements/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Comments (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/comments/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Activities (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/activities/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Friends Activity (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/activities/friendrss.aspx"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/sites/cromwellhaus.com/Themes/Blogs/gold%20coast/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/sites/cromwellhaus.com/themes/blogs/Gold%20Coast/style/light.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/sites/cromwellhaus.com/Themes/Blogs/gold%20coast/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	July 2008 - Posts - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTk3MjUzMjY0OGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFQ2N0bDAwJFNpZGVCYXIkY3RsMDAkY3RsMDEkY3RsMDAkY3RsMDEkY3RsMDEkY3RsMDAkV2VibG9nU2VhcmNoSW5wdXQn7fqwKTIK+lgOs1YTjZV+6xdPoQ==" />
+</div>
+
+
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=wM0irm-WQ7ZJYSsSbqCSLpjoNsoAmKaNiIQT-J7xczSPOz7KpFCD_6PSZPM0BjvPak8GD4kRkTz8D0J3BmMT-JY2qjAIY4ty5vc4J-bcANnOFELy6CNds8IUWd9epu2N8gVJNk6L8aZPrwxXK-80_Q2&amp;t=634091021949508870" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=7s9wh4NaPREpM2EpYApohsKp4Fvs-bt20T6fo0wTnXvc7_D-ORETeVoMM7RAbxfqhCos3QiwLaa6yz2cKQWdxf4sx28Vg0SOk35yr3r6pUE1&amp;t=634091022003504140" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=7s9wh4NaPREpM2EpYApohsKp4Fvs-bt20T6fo0wTnXvc7_D-ORETeVoMM7RAbxfqOG9J7VwAppXOtNsk4T5T07zn1LUQ7Ff79CbBKogHLOw1&amp;t=634091022003504140" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=7s9wh4NaPREpM2EpYApohsKp4Fvs-bt20T6fo0wTnXvc7_D-ORETeVoMM7RAbxfqr3eOb4OA_mAs_x7EwlGlRoSI3ZPgQG_YLNGcNzS-m0M1&amp;t=634091022003504140" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=7s9wh4NaPREpM2EpYApohsKp4Fvs-bt20T6fo0wTnXvc7_D-ORETeVoMM7RAbxfqKhnTCnkiQ8zjG2IbSA7GHxkO7O8lQHv3YIIKxtkPQlc1&amp;t=634091022003504140" type="text/javascript"></script>
+
+    			
+
+        <div id="container">
+            <div id="header">
+                <h2><a href="/sites/cromwellhaus.com/blogs/ryanc/default.aspx">Ryan Cromwell</a></h2>
+                <p id="tagline">Aimless musings of a keyboard masher.</p>
+            </div>
+            <div id="wrapper">
+		        <div id="content">
+                    
+    
+    
+            
+            <h2 id="titleWrapper" class="pageTitle">July 2008 - Posts</h2>
+            
+        
+    
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/31/why-plain-old-linq-is-so-powerful.aspx">Why Plain Old LINQ is so powerful</a>
+                </dt>
+                <dd>
+                    <p><a href="http://www.interact-sw.co.uk/iangblog/" target="_blank">Ian Griffiths</a> posted a <a href="http://www.interact-sw.co.uk/iangblog/2008/07/30/linq-box-aggregation" target="_blank">great example</a> of how powerful and cool LINQ is when used in everyday code (it&#39;s not all about databases people).</p> <p>If you haven&#39;t started to learn how to incorporate this awesome toolset into your daily coding life, you&#39;re killing yourself.&nbsp; No excuses.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/31/why-plain-old-linq-is-so-powerful.aspx">07-31-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/31/why-plain-old-linq-is-so-powerful.aspx#comments">2 comment(s)</a>
+			                    
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl02_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl02$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl02_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/15/roadblock-to-mocking-unit-tests.aspx">Roadblock to Mocking Unit Tests</a>
+                </dt>
+                <dd>
+                    <p>I&#39;ve been a faithful unit tester for a few years now.&nbsp; I may not do everything by the book (I think end-to-end unit tests are helpful), but I do get good coverage most of the time.&nbsp; That said, I&#39;ve found myself unable to use any of the Mock frameworks out there, because I don&#39;t use your typical Dependency Injection pattern.&nbsp; That is, I don&#39;t like &quot;building up&quot; very freaking instance with all the &quot;Provider&quot; or &quot;Service&quot; interfaces I&#39;m might need in the possible life of a business object.&nbsp; Yes, if your Customer class is only going to create or save an Order, it feels OK, but my objects are busy dude, so I&#39;d need the longest constructor of all time.</p> <p>I prefer <a href="http://search.live.com/results.aspx?q=dependency+resolution+mock&amp;form=QBRE" target="_blank">Dependency Resolution</a>.&nbsp; I don&#39;t use any fancy framework, I just use a good old, DI.Resolve&lt;IBusyBee&gt;() and go about my business.&nbsp; It works wonderfully, it&#39;s light-weight (cause I don&#39;t use configuration based DI frameworks), and it&#39;s my baby.</p> <p>That said, it&#39;s also been the roadblock to my mocking foray.&nbsp; That was, until I &quot;got it&quot; today.&nbsp; Long story short, here&#39;s how I roll:</p> <p><strong>Create a Mock DI Container...</strong></p><pre class="code"><span style="color:#2b91af;">Mock</span>&lt;<span style="color:#2b91af;">IDIContainer</span>&gt; mockContainer = <span style="color:blue;">new </span><span style="color:#2b91af;">Mock</span>&lt;<span style="color:#2b91af;">IDIContainer</span>&gt;();</pre>
+<p><strong>Create the Injected Mock instances...</strong></p>
+<p><span style="color:#2b91af;">Mock</span>&lt;<span style="color:#2b91af;">INotificationManager</span>&gt; mockNotifMgr = <span style="color:blue;">new</span><span style="color:#2b91af;">Mock</span>&lt;<span style="color:#2b91af;">INotificationManager</span>&gt;();<br /><span style="color:#2b91af;">Mock</span>&lt;<span style="color:#2b91af;">IRepository</span>&gt; mockRepository = <span style="color:blue;">new</span><span style="color:#2b91af;">Mock</span>&lt;<span style="color:#2b91af;">IRepository</span>&gt;();</p>
+<p><strong>Tell the mock IDIContainer to return the mock instances when asked...</strong></p><pre class="code">mockContainer.Expect(c =&gt; c.Resolve&lt;<span style="color:#2b91af;">INotificationManager</span>&gt;(<span style="color:blue;">null</span>)).Returns(mockNotifMgr.Object);
+mockContainer.Expect(c =&gt; c.Resolve&lt;<span style="color:#2b91af;">IRepository</span>&gt;(<span style="color:blue;">null</span>)).Returns(mockRepository.Object);
+</pre>
+<p><strong>Mock your heart out...</strong></p><pre class="code">mockNotifMgr.Expect(mgr =&gt; mgr.NotifyEmailConfirmation(<span style="color:#2b91af;">It</span>.IsAny&lt;<span style="color:#2b91af;">Member</span>&gt;())).AtMostOnce();
+</pre><pre class="code"><span style="color:#2b91af;">Member</span>.Register(<span style="color:#a31515;">&quot;username&quot;</span>, <span style="color:#a31515;">&quot;firstname&quot;</span>, <span style="color:#a31515;">&quot;lastname&quot;</span>, <span style="color:#a31515;">&quot;ryan@myus.com&quot;</span>);
+
+mockContainer.VerifyAll();
+mockNotifMgr.VerifyAll();
+</pre><a href="http://11011.net/software/vspaste"></a>
+<p>I&#39;m very happy to have finally jumped on the Moq bandwagon as it will certainly make some unit tests much easier to write.&nbsp; Maybe I&#39;ll even do the test first part more faithfully now.&nbsp; </p>
+<p>FYI, I use my own DI framework which is just a glorified HashTable.&nbsp; It works for me and it is quick.&nbsp; <a href="http://moq.googlecode.com/" target="_blank">Moq</a> has also become my Mock framework of choice for no good reason other than I downloaded it first.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/15/roadblock-to-mocking-unit-tests.aspx">07-15-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/15/roadblock-to-mocking-unit-tests.aspx#comments">14 comment(s)</a>
+			                    
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl03_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl03$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl03_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/07/video-conferencing-code-of-conduct.aspx">Video Conferencing Code of Conduct</a>
+                </dt>
+                <dd>
+                    <p>My team uses <a href="http://www.oovoo.com/">ooVoo</a> for video conferencing our Daily Scrum.&nbsp; It&#39;s been great and very reliable.&nbsp; My only complaint is a lack of whiteboard or desktop sharing, but we&#39;ve overcome these obstacles with other tools (see <a href="https://connect.microsoft.com/site/sitehome.aspx?SiteID=94&amp;wa=wsignin1.0">SharedView</a>).&nbsp; Over the months, I&#39;ve come to acquire an expectation of what the experience should be like and, from that, a Code of Conduct.&nbsp; Here it is:</p> <p><strong>Don&#39;t Be a Slob</strong> - Just cause you&#39;re in your bedroom or PJ&#39;s doesn&#39;t mean I want to know about it.&nbsp; Put a decent shirt on and brush your hair.&nbsp; Same goes for yawning, coughing, and every other table manner.&nbsp; Cover your mouth, mute the Mic, whatever.</p> <p><strong>Have a Headset</strong> - I&#39;m sure some guy out there is ecstatic about the next step in the evolution of the speaker phone, but they still suck in comparison to a headset and Mic that are placed against their corresponding body part.&nbsp; You&#39;re laptop&#39;s built in speaker and Mic are no better, so fork out the 10 bucks and get a cheap headset you cheap-***.</p> <p><strong>Go Full or Go Home</strong> - I&#39;m glad your torrents are racing, but your video looks like the corner of your head just entered the Atari zone.&nbsp; Stop downloading the latest SUSE iso for a few minutes and give me your full bandwidth attention.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/07/video-conferencing-code-of-conduct.aspx">07-07-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/07/video-conferencing-code-of-conduct.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/07/setting-up-a-virtual-pc-domain.aspx">Setting up a Virtual PC Domain</a>
+                </dt>
+                <dd>
+                    <p>I do a lot of demos and Virtual PC 2007 is a mainstay in my arsenal for those demos.&nbsp; I&#39;ve used VMWare Server (the free one) and it is very nice, but I run an x64 OS and VMWare had neglected to sign certain emulation drives which caused me enough headache that I ditched it for the easy of VPC.&nbsp; </p> <p>I mentioned using <a href="http://cromwellhaus.com/blogs/ryanc/archive/2008/06/13/sysprep-your-virtual-pc-images.aspx">Syspreping</a> for my VPC library prior which saves me a ton of time, but one of the things I&#39;ve always started but never finished was setting up a Virtual Domain.&nbsp; Well this weekend, I finished things up and I&#39;m happy to say, it wasn&#39;t that bad.&nbsp; </p> <p>Here&#39;s what I did:</p> <p><strong>Create My Domain Controller Machine</strong> by copying a Syspreped Window 2008 Server harddrive image and creating a new Virtual PC using an existing hard drive.&nbsp; About 120 seconds later I have a free standing vanilla server ready to roll.</p> <p><strong><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_8.png"><img style="border-right:0px;border-top:0px;border-left:0px;border-bottom:0px;" height="174" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_3.png" width="240" align="right" border="0" /></a>Configure Network Adapter(s) </strong>by specifying <em>Local Only</em> in the VPC&#39;s Network Settings.&nbsp; </p> <p>At this point you&#39;ll want to log into VPC if you haven&#39;t already.&nbsp; We&#39;ll want to isolate our domain and let each of the workstation VPC&#39;s communicate with the domain controller by going into the Network Adapter&#39;s properties.&nbsp; Our little domain network is going to be rather isolated.&nbsp; To accomplish this, we will specify a specific Subnet and IP address range.&nbsp; Here is what I&#39;ve used for mine:</p> <blockquote> <p>IP Range: 192.168.8.1 - 254 (where 192.168.8.1 is my domain controller IP)<br />Subnet Mask: 255.255.248.0<br />Gateway: 192.168.8.1 (DC/DNS server)<br />Primary DNS: 192.168.8.1 (DC/DNS server)</p></blockquote> <p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_4.png"><strong><img style="border-right:0px;border-top:0px;border-left:0px;border-bottom:0px;" height="205" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_1.png" width="244" align="right" border="0" /></strong></a><strong> Setting up Active Directory</strong> is a breeze if you do it the easy way.&nbsp; Of course, I did it the easy way the last time.&nbsp; (Note to self: when just learning, take the defaults).&nbsp; Windows Server 2003 and 2008 have this concept of Roles.&nbsp; A server can fill one or more roles which are the conglomeration of settings, services, etc to do something more abstract... like be a DC.&nbsp; We are going to add the role <em>Active Directory Domain Services</em>.&nbsp;&nbsp; </p> <p>After the Add Role wizard does it&#39;s thing, you actually &quot;promote&quot; the machine to a DC by running dcpromo.exe (Start, dcpromo, Enter).&nbsp; This is where you make your selections, which in this case, I&#39;ve chosen:</p> <blockquote> <p>Create a new domain in a new forest<br />FQDN: vpc.com</p></blockquote> <p>You&#39;ll want to let the machine also be a DNS server.&nbsp; This is where I screwed up the first time.&nbsp; Don&#39;t get scared here, with our networking settings this domain we&#39;re setting up won&#39;t touch your corporate domain or anything crazy like that.</p> <p>Let the Wizard do it&#39;s thing and reboot when it is complete.</p> <p>Your Active Directory Domain Controller is ready to roll.&nbsp; Great job. </p> <p><strong>Adding Workstations </strong>is a matter of adding a Computer entry into the <em>Active Directory Users and Computers</em> console and then actually adding the computer to the domain.&nbsp; You&#39;ll find the AD Users and Computers MMC console in Administrative Tools.&nbsp; Once you&#39;ve added a computer entry, log into another VPC instance which has the same Network Adapter settings as above (different IP of course .2, .3, etc) and add the machine to the domain (vpc.com) in my case.&nbsp; </p> <p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_10.png"><img style="border-right:0px;border-top:0px;border-left:0px;border-bottom:0px;" height="244" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_4.png" width="222" align="right" border="0" /></a>Here&#39;s a quick screen capture of my Network Adapter on the Workstation I added to the domain.</p> <p>It&#39;s great being able to demo Enterprise software this way or test things like integrated authentication for intranet applications. </p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/07/setting-up-a-virtual-pc-domain.aspx">07-07-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/07/setting-up-a-virtual-pc-domain.aspx#comments">3 comment(s)</a>
+			                    
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl05_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a>, <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl05$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl05_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/07/did-you-know-screenshots-of-virtual-pc-instances.aspx">Did you know?  Screenshots of Virtual PC Instances</a>
+                </dt>
+                <dd>
+                    <p>If you are running a VPC instance and you&#39;d like to take a screenshot of something on the VPC, did you know you can do that without any photo editing hassle?</p> <p>Simply make sure you aren&#39;t &quot;in&quot; the VPC (hit the right Alt key if you are).&nbsp; Now click and drag a square around the portion of the VM you want to capture.&nbsp; CTRL+C or Edit -&gt; Copy will capture the section to the clipboard and you can paste it wherever.&nbsp; </p> <p>Nice touch.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/07/did-you-know-screenshots-of-virtual-pc-instances.aspx">07-07-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07/07/did-you-know-screenshots-of-virtual-pc-instances.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl06_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl06$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl06_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+    More Posts <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07.aspx?PageIndex=2">Next page &raquo;</a>
+       
+        
+                </div>
+            </div>
+            <div id="subcontent-a">
+                
+                    
+                    
+                            
+                                    <div>
+                                    <h4 class="sideheader">Syndication</h4>
+                                <ul class='CommonSidebarList'><li class="rss"><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li><li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/rsscomments.aspx">RSS for Comments</a></li></ul>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Search</h4>
+                                <input name="ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchInput" type="text" id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchInput" class="searchbox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event);" /><a id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton" class="searchbutton" href="javascript:__doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')">Go</a>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/default.aspx">Tags</a></h4>
+                                <div id="TagSideBar"><ul class="CommonSidebarTagCloud">
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Code/default.aspx" rel="tag">Code</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/community/default.aspx" rel="tag">community</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Languages/default.aspx" rel="tag">Languages</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Nerd+Dinner/default.aspx" rel="tag">Nerd Dinner</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/WCF/default.aspx" rel="tag">WCF</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Community</h4>
+                                <div id="NavSideBar">
+<ul>
+<li><a href="/sites/cromwellhaus.com/">Home</a></li><li><a href="/sites/cromwellhaus.com/blogs/">Blogs</a></li><li><a href="/sites/cromwellhaus.com/media/">Media</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Archives</h4>
+                                <div id="ArchiveSideBar">
+<ul>
+<li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/09.aspx">September 2009 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/08.aspx">August 2009 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/07.aspx">July 2009 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/04.aspx">April 2009 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/03.aspx">March 2009 (6)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Twitter</h4>
+                                <div id="twtr-profile-widget"></div>
+<p>
+
+
+
+</p>
+                                    </div>
+                                
+                        
+                        
+                
+     
+                
+                <div id="contentfooter">&nbsp;</div>
+            </div>
+            <div id="footer">
+                
+				    
+				    
+				    
+				            <a href="http://communityserver.com/" target="_blank"><img src="/sites/cromwellhaus.com/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						
+
+                    
+					
+				
+            </div>
+        </div> 
+    
+<script src="http://feeds.feedburner.com/~s/RyanCromwell" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/sites/cromwellhaus.com/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false,true);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl02_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl02_ctl08_ctl01','ctl00_Main_EntryItems_ctl02_ctl08_ctl01','ctl00_Main_EntryItems_ctl02_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl03_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl03_ctl08_ctl01','ctl00_Main_EntryItems_ctl03_ctl08_ctl01','ctl00_Main_EntryItems_ctl03_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl05_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl05_ctl08_ctl01','ctl00_Main_EntryItems_ctl05_ctl08_ctl01','ctl00_Main_EntryItems_ctl05_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl06_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl06_ctl08_ctl01','ctl00_Main_EntryItems_ctl06_ctl08_ctl01','ctl00_Main_EntryItems_ctl06_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

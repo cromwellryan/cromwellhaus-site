@@ -1,0 +1,983 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title> Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home  current_page_item "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-801"><a href="http://blog.cromwellhaus.com/index.php/presentations/" title="Presentation Abstracts">Presentation Abstracts</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+      
+      
+			<div class="post-811 post hentry category-scrum category-tfs category-uncategorized" id="post-811">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2010/09/event-team-foundation-server-2010-overview-with-scrum/" rel="bookmark" title="Permanent Link to Event: Team Foundation Server 2010 Overview with SCRUM">Event: Team Foundation Server 2010 Overview with SCRUM</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            September 2nd, 2010 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2010/09/event-team-foundation-server-2010-overview-with-scrum/#comments" class="alignright button-style" rel="nofollow">
+            No comments &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p>Our previous <a href="http://blog.cromwellhaus.com/index.php/2010/05/event-tfs-2010-overview-scrum-integration-june-22-23/">Columbus TFS Event</a> had such a wonderful turnout and response that we’ve decided to go on the road to Kentucky in a few weeks.  I’m happy to have <a href="http://twitter.com/ddotterer">Dave Dotterer</a> of Kizan as my partner in crime.  Dave is a great TFS resource and it’ll be awesome to have his insight for the audience.  The agenda is similar, but we found in Columbus that we ran out of time.  To solve this we will be starting sharp at 8:15am on September 23rd and 24th.</p>
+<p>A big thanks to Danilo Casino of Microsoft for putting this together and inviting both Dave and I.  Also a big thanks to the Kentucky Administrative Office of the Courts (desperately in need of a nickname) for lending their facilities.  They continue to be a big supporter of the development community in that area.  Other states’ organizations would be wise to follow their lead.</p>
+<p>Registration can be found <a href="https://msevents.microsoft.com/CUI/EventDetail.aspx?EventID=1032458702&amp;Culture=en-US">here</a>.</p>
+<p>Directions can be found <a href="http://www.bing.com/maps/OneClickDirections.aspx?rtp=%7epos.qbv44x7xyrzv_100+Mill+Creek+Park%2c+Frankfort%2c+KY+40601-9230___a_&amp;rsd=38.1481200456619_-84.897488951683__the+south+(on+US-127+N)%7e38.1730806827545_-84.7827172279358__the+east+(on+I-64+W)%7e38.1584411859512_-84.9009704589844__the+west+(on+I-64+E)%7e38.1824201345444_-84.8169904947281__US-60+%2f+Versailles+Rd&amp;&amp;rtv=0">here</a>.</p>
+<p>The agenda is much the same, though we will make a greater effort to include Lab Management on the second day:</p>
+<h4><strong>Day 1 &#8211; September 23, 2010</strong></h4>
+<p><strong>Welcome time: 8:15 AM</strong></p>
+<p><strong>Introductions/Kick Off: 8:30</strong></p>
+<ul>
+<li>Mike Gresley, Microsoft</li>
+</ul>
+<p><strong>VS2010 Business Value Overview</strong></p>
+<ul>
+<li>Statistics</li>
+<li>People/Process/Tools</li>
+</ul>
+<p><strong>Why Process</strong></p>
+<ul>
+<li>Process discussion, Scrumdamentals</li>
+<li>Review Visual Studio Scrum Template</li>
+</ul>
+<p><strong>Lunch </strong>(Many restaurants north of I-64)</p>
+<p><strong>Team Explorer overview</strong></p>
+<ul>
+<li>Customizing VS2010</li>
+<li>Connecting to TFS</li>
+<li>Work Items Overview</li>
+<li>Documents Overview</li>
+<li>Reports Overview</li>
+<li>Build Overview</li>
+<li>SharePoint</li>
+<li>Web Access</li>
+</ul>
+<p><strong>Project Management</strong></p>
+<ul>
+<li>Requirement Gathering</li>
+<li>Planning</li>
+</ul>
+<h4><strong>Day 2 &#8211; September 24, 2010</strong></h4>
+<p><strong>Team Build</strong></p>
+<ul>
+<li>Setting CI</li>
+<li>Branch/Merge</li>
+<li>Deployment</li>
+</ul>
+<p><strong>Architecture Tools</strong></p>
+<ul>
+<li>Overview</li>
+<li>Hotfix</li>
+</ul>
+<p><strong>Development</strong></p>
+<ul>
+<li>TDD</li>
+<li>Code Tools/Analysis/IntelliTrace …</li>
+<li>Layer Diagrams</li>
+</ul>
+<p><strong>Database Tools</strong></p>
+<ul>
+<li>Schema Management</li>
+<li>Data Management</li>
+<li>Testing</li>
+<li>Deployment</li>
+</ul>
+<p><strong>Lunch</strong></p>
+<p><strong>Test Manager</strong></p>
+<ul>
+<li>Setup</li>
+<li>Running</li>
+<li>Report</li>
+</ul>
+<p><strong>Reports </strong></p>
+<ul>
+<li>Excel Reports</li>
+<li>Dashboard</li>
+<li>SSRS</li>
+</ul>
+<p><strong>Team Lab Management </strong>(Time Permitting)</p>
+<p><strong>Retrospective </strong>(30 minutes)</p>
+<p> </p>
+<p>Look forward to seeing everyone there!</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2010/09/event-team-foundation-server-2010-overview-with-scrum/#comments" rel="nofollow">No comments &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/scrum/" title="View all posts in Scrum" rel="category tag">Scrum</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/tfs/" title="View all posts in TFS" rel="category tag">TFS</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+			<div class="post-798 post hentry category-net category-community" id="post-798">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2010/08/where-did-alt-net-go/" rel="bookmark" title="Permanent Link to Where did Alt.Net go?">Where did Alt.Net go?</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            August 11th, 2010 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2010/08/where-did-alt-net-go/#comments" class="alignright button-style" rel="nofollow">
+            2 comments &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p>These last few weeks have seen a flurry of emotions from the .Net community.&#160; It appears that a few product releases and a presumptive priority change for IronRuby have caused the world to come crashing down and passengers of the .Net ship to jump overboard.&#160; I’m glad I don’t work for these emotionally unstable individuals, because if we had any debate (I’m aggressive and loud) I’d be concerned they would run from the room crying or worse yet, quit (seems more likely from the rhetoric I hear).&#160; If this is what the Alt.Net community is made of then OSS in the world of .Net has absolutely no chance and the outside OSS world should fear their new recruits.</p>
+<p>During the late ‘90s and early 2000s immense business systems where built on the powerhouse platform known as Microsoft Office.&#160; Having worked, well, at all, I’ve seen first hand the ugly, but quite impressive apps built by accountants and marketiers (mark it down, that’s my word) generating great revenues or savings for their companies.&#160; I have replied to requests to “make that an enterprise web app” with “that will fail miserably, keep using it.”&#160; The apps are a disaster waiting to happen themselves, but that’s why we have enterprise backup systems.&#160; It’s just not worth the IT Department’s time to rebuild Excel when it is perfectly suited for their purpose.</p>
+<p>In come WebMatrix, LightSaber, I mean LightSwitch, and all the other “low-end” tools.&#160; These are obviously a trend that show Microsoft is abandoning the “high-end” developer (are we really that pompous that we consider ourselves “high-end”, get over yourself you geek.&#160; I bet they make more cash per feature than you).&#160; Or could it be that they are making up for the fact that the last great act of feature development shown by Microsoft to the “low-end”, revenue generating, feature shipping developer is the <em><u>Ribbon Bar</u></em>.&#160; I guess you could add SharePoint in there, but I won’t bate you.&#160; </p>
+<p>Since 2002, we’ve seen 4 iterations of Silverlight, 4 versions of the Framework, WPF, WCF, the rise of PnP, 5 versions of Visual Studio, Azure, Hyper-V, Team Foundation Server (like it or not), and a dearth of other tools in the same time that <a href="http://en.wikipedia.org/wiki/Microsoft_Excel#Excel_2000">Excel has received</a>… drum role… the Ribbon.&#160; Yes there are nicer icons to represent values and you can make prettier tables or charts, but seriously they still use VBA!&#160; In that same time period we’ve seen 2, count them, 2 releases of&#160; the platform on which many businesses survive.</p>
+<p>So yes, Microsoft has thrown the Excel and Access productivity worker (not lowend developer) a bone.&#160; They’ve made it easier for you to say, “Sorry, I don’t do Master-Details forms.&#160; Here’s WebMatrix, call me when you want to ship.”&#160; Get over it, start an OSS project or, if you liked it so much, help the IronRuby team build that platform up.&#160; Whatever you do, stop whining and do something.</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2010/08/where-did-alt-net-go/#comments" rel="nofollow">2 comments &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/community/" title="View all posts in Community" rel="category tag">Community</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+			<div class="post-796 post hentry category-scrum" id="post-796">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2010/08/bonus-features-and-the-art-of-sustainable-pace/" rel="bookmark" title="Permanent Link to Bonus Features and The Art of Sustainable Pace">Bonus Features and The Art of Sustainable Pace</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            August 2nd, 2010 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2010/08/bonus-features-and-the-art-of-sustainable-pace/#comments" class="alignright button-style" rel="nofollow">
+            No comments &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p>Engaged, passionate team members are the base of any great <a href="http://www.scrum.org/">Scrum</a> team or any Agile team for that matter.&#160; Without passion and without engagement, quality is a burden and continual team introspection demands dragging lumber up hill.&#160; There is a downside to passion at times and it’s the dream of every Product Owner.</p>
+<p>We’ve all been in that euphoric place in which evenings slip away as we code up the next great feature or experience, our children peering into the windows of our office as we work 14 hour days to play.&#160; We’re coders, we love this stuff.&#160; At our <a href="http://www.scrum.org/scrumguides/">Sprint Review</a>, we bask in the glory of our Stakeholders’ and Product Owner’s praises ensuring them it was nothing.&#160; During our Sprint Review, though, we reveal that we’ve just increased our velocity from 50 story points to 75 story points.&#160; Incredible!&#160; Stakeholders’ and the Product Owner are now confident we will have at least 60 story points completed in the next sprint, probably 75 though if we aren’t interrupted (something we’ve always been asking for).</p>
+<p>Unfortunately, in the next sprint the Product Owner presents the Product Backlog item for Miles the accountant to add in an export button with a spinning fire “Please Wait” icon so he can report last month’s TPS metrics.&#160; Bummed out, we work at our more natural pace (or drag our feet while mumbling expletives about “Real Business Value”).&#160; </p>
+<p>Sound familiar?</p>
+<p>I’m all for passion and cool features, I get excited and pull all-nighters myself.&#160; Unfortunately, as you just saw, they they tend to unnaturally inflate our velocity, setting us up for failure in following sprints.&#160; More over, as the saying goes <em>there is no such thing as a free lunch or bonus features</em>.&#160; Every line of code you write must be maintained going forward.&#160; That includes fixing bugs and unforeseen technical debt accrued as a result of the new feature.&#160; (Opinion: Unlike monetary debt, technical debt is rarely known or acknowledged when created).&#160; </p>
+<p>The principals and practices of Scrum help us to create a <a href="http://www.scrum.org/scrumguides/">sustainable pace</a> and there are practices to enable passionate developers while also maintaining a sustainable pace.&#160; Often times these exciting features are accepted into a sprint as Stretch Goals.&#160; They don’t “<em>have</em>” to be completed, but it would be cool if they were.&#160; This is a slippery slope and, arguably, an <a href="http://en.wikipedia.org/wiki/Anti-pattern">anti-pattern</a>.&#160; If you must scratch that itch, even in your “own time” (that doesn’t exist, by the way), leave it in your own branch and keep it there until the PBI comes up.&#160; You could well have lowered the risk of the PBI or increased the cost/benefit analysis in some other way, but until it is selected by the Product Owner it is not an important enough feature to accrue the side-affects created.</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2010/08/bonus-features-and-the-art-of-sustainable-pace/#comments" rel="nofollow">No comments &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/scrum/" title="View all posts in Scrum" rel="category tag">Scrum</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+			<div class="post-790 post hentry category-wpf" id="post-790">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2010/07/advanced-wpf-listbox-scenario-representing-and-selecting-an-xml-hierarchy/" rel="bookmark" title="Permanent Link to Advanced WPF ListBox Scenario: Representing and Selecting an XML Hierarchy">Advanced WPF ListBox Scenario: Representing and Selecting an XML Hierarchy</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            July 22nd, 2010 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2010/07/advanced-wpf-listbox-scenario-representing-and-selecting-an-xml-hierarchy/#comments" class="alignright button-style" rel="nofollow">
+            No comments &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p>I’ve never found a use for the XmlDataProvider natively in Xaml for a shipping app, but today a <a href="http://www.twitter.com/malevy">@malevy</a> had a situation that sounded interesting.  He has an Xml document structured as follows:</p>
+<blockquote><p>&lt;Owners&gt;</p>
+<p>    &lt;Owner name=”&#8217;”&gt;</p>
+<p>        &lt;Pet name=”” /&gt;</p>
+<p>        &lt;Pet name=”” /&gt;</p>
+<p>    &lt;Owner name=””&gt;</p>
+<p>    …</p>
+<p>&lt;/Owners&gt;</p></blockquote>
+<p>He wanted to be able to represent this hierarchy in a ListBox, but actually select from the Pets.  Bonus points for the egregious expander as the owner container.  In the end it was a combination of XmlDataProvider pointing to the Pet nodes, a CollectionViewSource using a GroupDescription which walked up the XPath to Owner\@name, and the ListBox using an Expander as it’s GroupStyle container.</p>
+<p> </p>
+<p>Here is what it looks like in the end:</p>
+<p><a href="http://content.cromwellhaus.com/c1a9495f0ce8_A464/image.png"><img class="wlDisabledImage" style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="image" src="http://content.cromwellhaus.com/c1a9495f0ce8_A464/image_thumb.png" border="0" alt="image" width="216" height="168" /></a></p>
+<p> </p>
+<p>Here’s the <a href="http://code.cromwellhaus.com/ListBoxExpanderWithXML.zip">source</a>.</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2010/07/advanced-wpf-listbox-scenario-representing-and-selecting-an-xml-hierarchy/#comments" rel="nofollow">No comments &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+			<div class="post-787 post hentry category-net category-testing category-visual-studio" id="post-787">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2010/07/resharper-test-runner-and-mstest-projects/" rel="bookmark" title="Permanent Link to ReSharper Test Runner and MSTest Projects">ReSharper Test Runner and MSTest Projects</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            July 21st, 2010 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2010/07/resharper-test-runner-and-mstest-projects/#comments" class="alignright button-style" rel="nofollow">
+            No comments &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p>One of my biggest irritants with the Unit Testing ecosystem is that each runner does things a little different. <a href="http://gallio.org/">Gallio</a> has helped solve this to some extent, but even that hasn’t solved all the problems that come with content or resource file deployments, coverage settings, etc.&#160; Gallio’s goal is noble if not arrogant, become the <em>Runner to Rule Them All.</em>&#160; </p>
+<p>Unlikely.<em>&#160; </em></p>
+<p><a href="http://www.jetbrains.com/resharper/index.html">ReSharper</a>, on the other hand, has taken the Switzerland approach and tries to be true to each testing frameworks settings and run modes.&#160; It has a gap in regards to MSTest at this point, though.&#160; (Who uses MSTest you say?&#160; Lots of people.&#160; You wanted unit testing to become common place, remember?&#160; Stop complaining.)&#160; ReSharper gives you this nasty warning when running your MSTests with Code Coverage enabled.</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" class="wlDisabledImage" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image_thumb.png" width="281" height="169" /></a></p>
+<p>See MSTest is actually pretty sweet when it comes to data capture.&#160; It might not be blazing fast, but it lets you capture an awful lot of information in different situations.&#160; In order to support those different situations nicely there is this file type called Test Settings (*.testsettings).&#160; <a href="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image1.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" class="wlDisabledImage" title="image" border="0" alt="image" align="right" src="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image_thumb1.png" width="244" height="182" /></a>Test Settings files live in your solution folder and you can have a bunch of them.&#160; In fact, Visual Studio 2010 gives you two by default: Local.testsettings and TraceAndTestImpact.testsettings.&#160; </p>
+<p>Local.testsettings doesn’t capture anything by default, but one of the first thing everyone tends to look for when running tests is <a href="http://en.wikipedia.org/wiki/Code_coverage">code coverage</a>.&#160; Since Local.testsettings are their default and people don’t realize you can change your active test settings they open Local.testsettings, choose Data and Diagnostics and check Code Coverage (and probably other things that sound interesting).</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image2.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" class="wlDisabledImage" title="Enabling Code Coverage in Data and Diagnostics of Local.testsettings" border="0" alt="Enable Code Coverage in Data and Diagnostics of Local.testsettings" src="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image_thumb2.png" width="244" height="221" /></a></p>
+<p>Now you’ve eliminated Resharper as a Test Runner.&#160; But you don’t have too!&#160; Remember how I said you can have a bunch of those .testsettings files and eluded to the fact that one can be made <em>Active.</em>&#160; Here’s what you’re going to do:</p>
+<ol>
+<li>Right click the Solution Items folder (don’t put them in a different solution folder, VS doesn’t like that, sorry).</li>
+<li>Click Add –&gt; New Item </li>
+<li>Under Installed Templates (VS 2010) select Test Settings.</li>
+<li>Name the new file ReSharper.testsettings (or whatever makes you happy really) and click ok.</li>
+</ol>
+<p>The Test Settings editor dialog will come up, but you don’t need to change a thing if you don’t want or need.&#160; Data and Diagnostics will be empty which is good for ReSharper.&#160; At this point, you can go to the Test menu option, open Select Active Test Settings and choose your new settings (ReSharper.testsettings in our example).</p>
+<p>That’s it, use ReSharper all you like.&#160; There are some other nice things that ReSharper will do for you in regards to abiding by deployment options for content files and things like that, but we’ll save that for a different day.&#160; <a href="http://screencast.com/t/NWQwYWVj" target="_blank">Here’s a quick video</a> that highlights everything I’ve outlined here.</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2010/07/resharper-test-runner-and-mstest-projects/#comments" rel="nofollow">No comments &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/testing/" title="View all posts in Testing" rel="category tag">Testing</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/visual-studio/" title="View all posts in Visual Studio" rel="category tag">Visual Studio</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+			<div class="post-777 post hentry category-tfs" id="post-777">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2010/05/event-tfs-2010-overview-scrum-integration-june-22-23/" rel="bookmark" title="Permanent Link to Event: TFS 2010 Overview, Scrum integration: June 22-23">Event: TFS 2010 Overview, Scrum integration: June 22-23</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            May 19th, 2010 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2010/05/event-tfs-2010-overview-scrum-integration-june-22-23/#comments" class="alignright button-style" rel="nofollow">
+            No comments &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p><font color="#800000">[Updated: An offline, PDF agenda is available <a href="http://samples.cromwellhaus.com/OH SDLC2010 Agenda Ver 1.pdf">here</a>]</font></p>
+<p>Around a month from now <a href="http://twitter.com/leshka">Alexei Govorine</a> of Quick Solutions and I will be leading a free, two day event diving into Team Foundation Server 2010 and its uses within a Scrum development organization.&#160; This is my first year being a part of this event, but Alexei has a number of years under his belt now.&#160; The agenda is quite aggressive, which will certainly be to the benefit of the audience.&#160; I highly encourage those evaluating Team Foundation Server as well as those looking to get the most out of an existing Team Foundation Server deployment to <a href="https://www.microsoftusevents.com/TFS/Default.aspx">come be part of this event</a>.&#160; An agenda is available below (<a href="http://samples.cromwellhaus.com/OH SDLC2010 Agenda Ver 1.pdf">offline PDF version here</a>) and you can <a href="https://www.microsoftusevents.com/TFS/Default.aspx">register here</a>.</p>
+<h4>Agenda</h4>
+<table border="1" cellspacing="0" cellpadding="2" width="200">
+<tbody>
+<tr>
+<td valign="top" width="200"><strong>Day 1 · June 22nd</strong></td>
+<td valign="top" width="200"><strong>Day 2 · June 23rd</strong></td>
+</tr>
+<tr>
+<td valign="top" width="200">Keynote</td>
+<td valign="top" width="200">Development Practices</td>
+</tr>
+<tr>
+<td valign="top" width="200">Business Value Overview</td>
+<td valign="top" width="200">Database Tools</td>
+</tr>
+<tr>
+<td valign="top" width="200">Why Process</td>
+<td valign="top" width="200">Team Build</td>
+</tr>
+<tr>
+<td valign="top" width="200">&#160;</td>
+<td valign="top" width="200">&#160;</td>
+</tr>
+<tr>
+<td valign="top" width="200" align="right">Lunch</td>
+<td valign="top" width="200">&#160;</td>
+</tr>
+<tr>
+<td valign="top" width="200">&#160;</td>
+<td valign="top" width="200">&#160;</td>
+</tr>
+<tr>
+<td valign="top" width="200">Team Explorer</td>
+<td valign="top" width="200">Test Manager</td>
+</tr>
+<tr>
+<td valign="top" width="200">Project Management</td>
+<td valign="top" width="200">Reports</td>
+</tr>
+<tr>
+<td valign="top" width="200">Architecture Tools</td>
+<td valign="top" width="200">Retrospective</td>
+</tr>
+</tbody>
+</table>
+<p>&#160;</p>
+<p>If there are questions or you have topics you feel strongly about covering hit me up on Twitter <a href="http://twitter.com/cromwellryan">@cromwellryan</a>.</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2010/05/event-tfs-2010-overview-scrum-integration-june-22-23/#comments" rel="nofollow">No comments &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/tfs/" title="View all posts in TFS" rel="category tag">TFS</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+			<div class="post-775 post hentry category-silverlight category-speaking category-wpf" id="post-775">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2010/04/sketchflow-from-concept-to-production/" rel="bookmark" title="Permanent Link to SketchFlow: From Concept to Production">SketchFlow: From Concept to Production</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            April 16th, 2010 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2010/04/sketchflow-from-concept-to-production/#comments" class="alignright button-style" rel="nofollow">
+            No comments &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p>I had a great time in Frankfort, KY yesterday.&#160; We had a great turnout for the Expression <a href="http://expression.microsoft.com/en-us/ee722034.aspx" target="_blank">SketchFlow</a>: From Concept to Production session.&#160; It is incredibly encouraging to see so many interested in building great, well designed apps for all industries and clients (even your LOB apps!).</p>
+<p>Thanks again for those who made it.&#160; You can find the slides and SketchFlow solution <a href="http://code.cromwellhaus.com/Expression Sketchflow - From Concept to Production.zip" target="_blank">here</a>.</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2010/04/sketchflow-from-concept-to-production/#comments" rel="nofollow">No comments &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/silverlight/" title="View all posts in Silverlight" rel="category tag">Silverlight</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/speaking/" title="View all posts in Speaking" rel="category tag">Speaking</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+			<div class="post-774 post hentry category-silverlight category-speaking category-wpf" id="post-774">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2010/04/kentucky-briefings-april-15th-and-22nd/" rel="bookmark" title="Permanent Link to Kentucky Briefings April 15th and 22nd">Kentucky Briefings April 15th and 22nd</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            April 5th, 2010 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2010/04/kentucky-briefings-april-15th-and-22nd/#comments" class="alignright button-style" rel="nofollow">
+            No comments &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p>Along with a great cast of MS partners, evangelists, specialists and more I will be bringing <a href="http://expression.microsoft.com/en-us/ee722034.aspx" target="_blank">Sketchflow</a> to the Frankfort, KY area Thursday, April 15th.&#160; This will be Session I with Session II scheduled for April 22nd.&#160; You can learn about everything from <a href="http://www.microsoft.com/forefront/clientsecurity/en/us/default.aspx" target="_blank">Forefront Suite</a> to <a href="http://www.microsoft.com/silverlight/" target="_blank">Silverlight</a> to <a href="http://www.windowsphone7series.com/" target="_blank">Windows Phone 7</a> and, of-course, <a href="http://expression.microsoft.com/en-us/ee722034.aspx" target="_blank">Sketchflow</a>.&#160; </p>
+<p>You can find registration and session schedules in <a href="http://samples.cromwellhaus.com/KY Briefings April Ver 1.2.pdf" target="_blank">here (pdf)</a>.</p>
+<p>Looking forward to seeing everyone there.</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2010/04/kentucky-briefings-april-15th-and-22nd/#comments" rel="nofollow">No comments &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/silverlight/" title="View all posts in Silverlight" rel="category tag">Silverlight</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/speaking/" title="View all posts in Speaking" rel="category tag">Speaking</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+			<div class="post-773 post hentry category-wpf" id="post-773">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/" rel="bookmark" title="Permanent Link to Grouping is crazy easy in WPF">Grouping is crazy easy in WPF</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            March 18th, 2010 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/#comments" class="alignright button-style" rel="nofollow">
+            3 comments &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p>Lots of people struggle with grouping data and when they do, the brut force method normally takes over and we start creating some crazy super structure to organize data and then do something like put a List inside of a List or a Grid inside of a list.&#160; Just think of how many times you tried to put a <a href="http://www.bing.com/search?q=gridview+inside+repeater&amp;go=&amp;form=QBLH&amp;qs=n">GridView inside of a Repeater</a> back when we didn’t know about jQuery or MVC and WebForms were all we knew.</p>
+<p>Well it turns out WPF (and Silverlight 4.0) make this crazy easy.&#160; It’s why the <a href="http://msdn.microsoft.com/en-us/library/system.windows.data.collectionviewsource.aspx">CollectionViewSource</a> class exists.&#160; The thing people don’t realize is that you don’t have to change anything about your data structure to make this work well (most times) and your designer (you have one right?) can make the decision on how best to display the information.</p>
+<p>&#160;</p>
+<h5>Step 1: Get Yourself Some Data</h5>
+<p>Don’t go crazy trying to group your data in your view model with Linq statements or anything like that.&#160; You don’t (likely) need it.&#160; Just get a list of your Animals with the necessary attributes for display in normal IEnumerable form.</p>
+<p>Here’s how I’m doing to get my data for the sample:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 650px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">Page</span> <span style="color: #ff0000">xmlns</span>=<span style="color: #0000ff">&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;</span> <span style="color: #ff0000">xmlns</span>:<span style="color: #ff0000">x</span>=<span style="color: #0000ff">&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Page.Resources</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">XmlDataProvider</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Key</span>=<span style="color: #0000ff">&quot;data&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #c71585">x</span>:<span style="color: #800000">XData</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animals</span> <span style="color: #ff0000">xmlns</span>=<span style="color: #0000ff">&quot;&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Dory&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Fish&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Felix&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Fluffy&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Jake&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Snake&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Mittens&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Murtle&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Turtle&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Nemo&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Fish&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Rex&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Rover&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Toonces&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Animals</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #c71585">x</span>:<span style="color: #800000">XData</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">XmlDataProvider</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Page.Resources</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">Page</span><span style="color: #0000ff">&gt;</span></pre>
+</pre>
+<h5>Step 2: Group The Data with CollectionViewSource</h5>
+<p>We need to remember that Xaml is just a way to instantiate classes.&#160; Knowing that, we can create a CollectionViewSource right in our xaml like this:</p>
+<p>&#160;</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 650px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">Page</span> <span style="color: #ff0000">xmlns</span>=<span style="color: #0000ff">&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;</span> <span style="color: #ff0000">xmlns</span>:<span style="color: #ff0000">x</span>=<span style="color: #0000ff">&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Page.Resources</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">XmlDataProvider</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Key</span>=<span style="color: #0000ff">&quot;data&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #c71585">x</span>:<span style="color: #800000">XData</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animals</span> <span style="color: #ff0000">xmlns</span>=<span style="color: #0000ff">&quot;&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Dory&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Fish&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Felix&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Fluffy&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Jake&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Snake&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Mittens&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Murtle&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Turtle&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Nemo&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Fish&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Rex&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Rover&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Toonces&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Animals</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #c71585">x</span>:<span style="color: #800000">XData</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">XmlDataProvider</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">CollectionViewSource</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Key</span>=<span style="color: #0000ff">&quot;animalsBySpecies&quot;</span> <span style="color: #ff0000">Source</span>=<span style="color: #0000ff">&quot;{Binding Source={StaticResource data}, XPath=Animals/Animal}&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #800000">CollectionViewSource.GroupDescriptions</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">PropertyGroupDescription</span> <span style="color: #ff0000">PropertyName</span>=<span style="color: #0000ff">&quot;@Species&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">CollectionViewSource.GroupDescriptions</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">CollectionViewSource</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Page.Resources</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">Page</span><span style="color: #0000ff">&gt;</span></pre>
+</pre>
+<p>&#160;</p>
+<h5>Step 3: Show The Data</h5>
+<p>This is where the fun happens.&#160; We take something as simple as a ListView or, simplier yet, the ItemsControl and we hook it up to our CollectionViewSource like this:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 650px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">Page</span> <span style="color: #ff0000">xmlns</span>=<span style="color: #0000ff">&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;</span> <span style="color: #ff0000">xmlns</span>:<span style="color: #ff0000">x</span>=<span style="color: #0000ff">&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Page.Resources</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">XmlDataProvider</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Key</span>=<span style="color: #0000ff">&quot;data&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #c71585">x</span>:<span style="color: #800000">XData</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animals</span> <span style="color: #ff0000">xmlns</span>=<span style="color: #0000ff">&quot;&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Dory&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Fish&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Felix&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Fluffy&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Jake&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Snake&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Mittens&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Murtle&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Turtle&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Nemo&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Fish&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Rex&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Rover&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Toonces&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Animals</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #c71585">x</span>:<span style="color: #800000">XData</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">XmlDataProvider</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">CollectionViewSource</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Key</span>=<span style="color: #0000ff">&quot;animalsBySpecies&quot;</span> <span style="color: #ff0000">Source</span>=<span style="color: #0000ff">&quot;{Binding Source={StaticResource data}, XPath=Animals/Animal}&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #800000">CollectionViewSource.GroupDescriptions</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">PropertyGroupDescription</span> <span style="color: #ff0000">PropertyName</span>=<span style="color: #0000ff">&quot;@Species&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">CollectionViewSource.GroupDescriptions</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">CollectionViewSource</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Page.Resources</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">DockPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">ScrollViewer</span> <span style="color: #ff0000">DockPanel</span>.<span style="color: #ff0000">Dock</span>=<span style="color: #0000ff">&quot;Bottom&quot;</span> <span style="color: #ff0000">VerticalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #800000">ItemsControl</span> <span style="color: #ff0000">ItemsSource</span>=<span style="color: #0000ff">&quot;{Binding Source={StaticResource animalsBySpecies}}&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">ItemsControl.ItemTemplate</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">DataTemplate</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                        <span style="color: #0000ff">&lt;</span><span style="color: #800000">TextBlock</span> <span style="color: #ff0000">Text</span>=<span style="color: #0000ff">&quot;{Binding XPath=@name}&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">DataTemplate</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ItemsControl.ItemTemplate</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ItemsControl</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ScrollViewer</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">DockPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">Page</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"></pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"></pre>
+</pre>
+<p>This doesn’t give us anything we couldn’t do before:<a href="http://blog.cromwellhaus.com/wp-content/uploads/2010/03/image.png"><img style="border-bottom: 0px; border-left: 0px; margin: 25px 0px 0px 5px; display: inline; border-top: 0px; border-right: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2010/03/image_thumb.png" width="150" height="227" /></a>&#160; </p>
+</p>
+<p>So how do we represent this grouping?&#160; </p>
+<h5>Step 3: Display the Grouping</h5>
+<p>Easy, we define the GroupStyle.&#160; There is an awful lot we can do here, but we’ll go with putting each into a GroupBox with the Header being the Species.</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 650px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">Page</span> <span style="color: #ff0000">xmlns</span>=<span style="color: #0000ff">&quot;http://schemas.microsoft.com/winfx/2006/xaml/presentation&quot;</span> <span style="color: #ff0000">xmlns</span>:<span style="color: #ff0000">x</span>=<span style="color: #0000ff">&quot;http://schemas.microsoft.com/winfx/2006/xaml&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Page.Resources</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">XmlDataProvider</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Key</span>=<span style="color: #0000ff">&quot;data&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #c71585">x</span>:<span style="color: #800000">XData</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animals</span> <span style="color: #ff0000">xmlns</span>=<span style="color: #0000ff">&quot;&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Dory&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Fish&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Felix&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Fluffy&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Jake&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Snake&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Mittens&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Murtle&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Turtle&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Nemo&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Fish&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Rex&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Rover&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Dog&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Animal</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;Toonces&quot;</span> <span style="color: #ff0000">Species</span>=<span style="color: #0000ff">&quot;Cat&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Animals</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #c71585">x</span>:<span style="color: #800000">XData</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">XmlDataProvider</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">CollectionViewSource</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Key</span>=<span style="color: #0000ff">&quot;animalsBySpecies&quot;</span> <span style="color: #ff0000">Source</span>=<span style="color: #0000ff">&quot;{Binding Source={StaticResource data}, XPath=Animals/Animal}&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #800000">CollectionViewSource.GroupDescriptions</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">PropertyGroupDescription</span> <span style="color: #ff0000">PropertyName</span>=<span style="color: #0000ff">&quot;@Species&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">CollectionViewSource.GroupDescriptions</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">CollectionViewSource</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Page.Resources</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">DockPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">ScrollViewer</span> <span style="color: #ff0000">DockPanel</span>.<span style="color: #ff0000">Dock</span>=<span style="color: #0000ff">&quot;Bottom&quot;</span> <span style="color: #ff0000">VerticalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #800000">ItemsControl</span> <span style="color: #ff0000">ItemsSource</span>=<span style="color: #0000ff">&quot;{Binding Source={StaticResource animalsBySpecies}}&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">ItemsControl.GroupStyle</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">GroupStyle</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                        <span style="color: #0000ff">&lt;</span><span style="color: #800000">GroupStyle.ContainerStyle</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                            <span style="color: #0000ff">&lt;</span><span style="color: #800000">Style</span> <span style="color: #ff0000">TargetType</span>=<span style="color: #0000ff">&quot;{x:Type GroupItem}&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                <span style="color: #0000ff">&lt;</span><span style="color: #800000">Setter</span> <span style="color: #ff0000">Property</span>=<span style="color: #0000ff">&quot;Template&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">Setter.Value</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                        <span style="color: #0000ff">&lt;</span><span style="color: #800000">ControlTemplate</span> <span style="color: #ff0000">TargetType</span>=<span style="color: #0000ff">&quot;{x:Type GroupItem}&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                            <span style="color: #0000ff">&lt;</span><span style="color: #800000">GroupBox</span> <span style="color: #ff0000">Header</span>=<span style="color: #0000ff">&quot;{Binding Name}&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                                <span style="color: #0000ff">&lt;</span><span style="color: #800000">ItemsPresenter</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">GroupBox</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ControlTemplate</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Setter.Value</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                                <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Setter</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Style</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">GroupStyle.ContainerStyle</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">GroupStyle</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffff00; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ItemsControl.GroupStyle</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">ItemsControl.ItemTemplate</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;</span><span style="color: #800000">DataTemplate</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                        <span style="color: #0000ff">&lt;</span><span style="color: #800000">TextBlock</span> <span style="color: #ff0000">Text</span>=<span style="color: #0000ff">&quot;{Binding XPath=@name}&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">DataTemplate</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">                <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ItemsControl.ItemTemplate</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ItemsControl</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ScrollViewer</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">DockPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">Page</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"></pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas, &#39;Courier New&#39;, courier, monospace; font-size: 12px"></pre>
+</pre>
+<p>&#160;</p>
+<p>We’ve told WPF, take all of the Groups out of the CollectionViewSource and put each into a Container (just like it would with individual items), that container being a GroupItem instead of a ListItem.&#160; Style the GroupItem such that its Template is a GroupBox with an ItemsPresenter inside to display each individual item.&#160; You can do a lot with this and it also works with the GridView form of a ListView.</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/#comments" rel="nofollow">3 comments &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+			<div class="post-768 post hentry category-tfs" id="post-768">
+				<h1><a href="http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/" rel="bookmark" title="Permanent Link to Source Control Smackdown 2009">Source Control Smackdown 2009</a></h1>
+				<small class="meta">
+          <span class="alignleft">
+            December 7th, 2009 by ryan                      </span>
+          <a href="http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/#comments" class="alignright button-style" rel="nofollow">
+            1 comment &#187;
+          </a>
+        </small>
+
+				<div class="entry">
+					<p>With all the hubbub around Git, TFS 2010, and others over the last year or so, the <a href="http://daytondevgroup.net/" target="_blank">Dayton .Net Developers Group</a> is hosting a panel event this Wednesday, December 9th, titled <a href="http://daytondevgroup.net/content/UpcomingMeetings.aspx" target="_blank">Source Control Smackdown 2009</a>.&#160; I have been lucky enough to be selected to represent TFS in a clash against SVN (<a href="http://bouncetadiss.blogspot.com/" target="_blank">Justin Kohnen</a>) and Git (<a href="http://fallenrogue.com/" target="_blank">Leon Gersing</a>).&#160; Please come down and share your experiences, learn some facts and enjoy the banter that will undoubtedly ensue.</p>
+<p>Find directions, contact information, panel member bios and other details on the <a href="http://daytondevgroup.net/content/UpcomingMeetings.aspx" target="_blank">Dayton .Net Developers Group site</a>.</p>
+				</div>
+
+				<div class="postmetadata clearfix">
+          <p class="commentslink alignright">
+            <a href="http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/#comments" rel="nofollow">1 comment &#187;</a>  
+          </p>
+				  <p class="categories">
+            Posted in <a href="http://blog.cromwellhaus.com/index.php/category/tfs/" title="View all posts in TFS" rel="category tag">TFS</a>          </p>
+				          </div>
+        
+              
+			</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"><a href="http://blog.cromwellhaus.com/index.php/page/2/" >&laquo; Older Entries</a></div>
+  			<div class="alignright"></div>
+		  		</div>
+
+
+	
+
+
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+	
+</ul>
+
+<ul class="group">
+  
+      <li class="pagenav"><div class="sb-title">Pages</div><ul><li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li>
+<li class="page_item page-item-801"><a href="http://blog.cromwellhaus.com/index.php/presentations/" title="Presentation Abstracts">Presentation Abstracts</a></li>
+<li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>
+</ul></li>    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2010/09/' title='September 2010'>September 2010</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2010/08/' title='August 2010'>August 2010</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2010/07/' title='July 2010'>July 2010</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2010/05/' title='May 2010'>May 2010</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2010/04/' title='April 2010'>April 2010</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2010/03/' title='March 2010'>March 2010</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+      <li class="categories"><div class="sb-title">Categories</div><ul>	<li class="cat-item cat-item-199"><a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts filed under .Net">.Net</a> (35)
+</li>
+	<li class="cat-item cat-item-200"><a href="http://blog.cromwellhaus.com/index.php/category/code/" title="View all posts filed under Code">Code</a> (1)
+</li>
+	<li class="cat-item cat-item-201"><a href="http://blog.cromwellhaus.com/index.php/category/community/" title="View all posts filed under Community">Community</a> (2)
+</li>
+	<li class="cat-item cat-item-202"><a href="http://blog.cromwellhaus.com/index.php/category/hardware/" title="View all posts filed under Hardware">Hardware</a> (1)
+</li>
+	<li class="cat-item cat-item-203"><a href="http://blog.cromwellhaus.com/index.php/category/iis/" title="View all posts filed under IIS">IIS</a> (1)
+</li>
+	<li class="cat-item cat-item-227"><a href="http://blog.cromwellhaus.com/index.php/category/ioc/" title="View all posts filed under IoC">IoC</a> (2)
+</li>
+	<li class="cat-item cat-item-204"><a href="http://blog.cromwellhaus.com/index.php/category/languages/" title="View all posts filed under Languages">Languages</a> (1)
+</li>
+	<li class="cat-item cat-item-205"><a href="http://blog.cromwellhaus.com/index.php/category/mvc/" title="View all posts filed under MVC">MVC</a> (4)
+</li>
+	<li class="cat-item cat-item-206"><a href="http://blog.cromwellhaus.com/index.php/category/nerd-dinner/" title="View all posts filed under Nerd Dinner">Nerd Dinner</a> (1)
+</li>
+	<li class="cat-item cat-item-207"><a href="http://blog.cromwellhaus.com/index.php/category/networking/" title="View all posts filed under Networking">Networking</a> (2)
+</li>
+	<li class="cat-item cat-item-208"><a href="http://blog.cromwellhaus.com/index.php/category/nhibernate/" title="View all posts filed under NHibernate">NHibernate</a> (3)
+</li>
+	<li class="cat-item cat-item-209"><a href="http://blog.cromwellhaus.com/index.php/category/oracle/" title="View all posts filed under Oracle">Oracle</a> (1)
+</li>
+	<li class="cat-item cat-item-210"><a href="http://blog.cromwellhaus.com/index.php/category/os/" title="View all posts filed under OS">OS</a> (1)
+</li>
+	<li class="cat-item cat-item-211"><a href="http://blog.cromwellhaus.com/index.php/category/performance/" title="View all posts filed under Performance">Performance</a> (4)
+</li>
+	<li class="cat-item cat-item-212"><a href="http://blog.cromwellhaus.com/index.php/category/personal/" title="View all posts filed under Personal">Personal</a> (4)
+</li>
+	<li class="cat-item cat-item-213"><a href="http://blog.cromwellhaus.com/index.php/category/powershell/" title="View all posts filed under Powershell">Powershell</a> (3)
+</li>
+	<li class="cat-item cat-item-228"><a href="http://blog.cromwellhaus.com/index.php/category/scrum/" title="View all posts filed under Scrum">Scrum</a> (4)
+</li>
+	<li class="cat-item cat-item-214"><a href="http://blog.cromwellhaus.com/index.php/category/silverlight/" title="View all posts filed under Silverlight">Silverlight</a> (4)
+</li>
+	<li class="cat-item cat-item-215"><a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts filed under Software Reviews">Software Reviews</a> (15)
+</li>
+	<li class="cat-item cat-item-229"><a href="http://blog.cromwellhaus.com/index.php/category/speaking/" title="View all posts filed under Speaking">Speaking</a> (2)
+</li>
+	<li class="cat-item cat-item-216"><a href="http://blog.cromwellhaus.com/index.php/category/speedy-rewards/" title="View all posts filed under Speedy Rewards">Speedy Rewards</a> (1)
+</li>
+	<li class="cat-item cat-item-217"><a href="http://blog.cromwellhaus.com/index.php/category/sql-server/" title="View all posts filed under SQL Server">SQL Server</a> (2)
+</li>
+	<li class="cat-item cat-item-230"><a href="http://blog.cromwellhaus.com/index.php/category/testing/" title="View all posts filed under Testing">Testing</a> (1)
+</li>
+	<li class="cat-item cat-item-218"><a href="http://blog.cromwellhaus.com/index.php/category/tfs/" title="View all posts filed under TFS">TFS</a> (7)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a> (19)
+</li>
+	<li class="cat-item cat-item-219"><a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts filed under Virtual PC">Virtual PC</a> (7)
+</li>
+	<li class="cat-item cat-item-220"><a href="http://blog.cromwellhaus.com/index.php/category/vista/" title="View all posts filed under Vista">Vista</a> (1)
+</li>
+	<li class="cat-item cat-item-221"><a href="http://blog.cromwellhaus.com/index.php/category/vista-sidebar/" title="View all posts filed under Vista Sidebar">Vista Sidebar</a> (1)
+</li>
+	<li class="cat-item cat-item-222"><a href="http://blog.cromwellhaus.com/index.php/category/visual-studio/" title="View all posts filed under Visual Studio">Visual Studio</a> (2)
+</li>
+	<li class="cat-item cat-item-223"><a href="http://blog.cromwellhaus.com/index.php/category/vmware/" title="View all posts filed under VMWare">VMWare</a> (1)
+</li>
+	<li class="cat-item cat-item-224"><a href="http://blog.cromwellhaus.com/index.php/category/wcf/" title="View all posts filed under WCF">WCF</a> (1)
+</li>
+	<li class="cat-item cat-item-225"><a href="http://blog.cromwellhaus.com/index.php/category/windsor/" title="View all posts filed under Windsor">Windsor</a> (2)
+</li>
+	<li class="cat-item cat-item-226"><a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts filed under WPF">WPF</a> (28)
+</li>
+</ul></li>  
+</ul>
+
+
+<ul class="group">
+
+          
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

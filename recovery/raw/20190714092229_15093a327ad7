@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments for Ryan Cromwell</title>
+	<atom:link href="http://cromwellhaus.com/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cromwellhaus.com</link>
+	<description>Big vision. Small changes.  Learn by shipping.</description>
+	<lastBuildDate>Mon, 29 Oct 2018 17:31:04 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.4</generator>
+	<item>
+		<title>Comment on Strategy Pattern with Castle Windsor by miguel</title>
+		<link>http://cromwellhaus.com/2009/10/strategy-pattern-with-castle-windsor/#comment-2958</link>
+		<dc:creator><![CDATA[miguel]]></dc:creator>
+		<pubDate>Mon, 29 Oct 2018 17:31:04 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/#comment-2958</guid>
+		<description><![CDATA[Great Stuff!! I&#039;d liketo see the sample code. thanks!!!]]></description>
+		<content:encoded><![CDATA[<p>Great Stuff!! I&#8217;d liketo see the sample code. thanks!!!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Binding to an Image Byte[] in WPF by JAG</title>
+		<link>http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-1415</link>
+		<dc:creator><![CDATA[JAG]]></dc:creator>
+		<pubDate>Fri, 13 Apr 2018 23:30:36 +0000</pubDate>
+		<guid isPermaLink="false">/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx#comment-1415</guid>
+		<description><![CDATA[hey buddy 
+just used you converter thanks, works well for  me. thanks again]]></description>
+		<content:encoded><![CDATA[<p>hey buddy<br />
+just used you converter thanks, works well for  me. thanks again</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Build once, MSDeploy all over the place by Sukanta</title>
+		<link>http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/#comment-603</link>
+		<dc:creator><![CDATA[Sukanta]]></dc:creator>
+		<pubDate>Thu, 06 Apr 2017 11:31:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1146#comment-603</guid>
+		<description><![CDATA[Hi Cromwell,
+Thanks for this post. 
+I would like to create application specific AppPool (e.g – Test) &#038; assign it to the website either by webdeploy package creation process (via setparameters.xml file). How to do that. I have tried below options, but still no luck. Appreciate your quick help on this
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OPTION 1
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action taken to resolve this issue: 
+------------------------------------------------------ 
+Created parameters.xml file in the same project and did the following changes. I can see that the AppPool Name is reflected in SetParameters.xml file. But, this AppPool is NOT created on IIS once the deployment is finished. 
+
+------------------------------------------------------ 
+parameters.xml
+------------------------------------------------------ 
+
+   
+    
+
+
+------------------------------------------------------ 
+DemoSample.SetParameters.xml
+------------------------------------------------------ 
+
+   
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OPTION 2
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Action taken to resolve this issue: 
+------------------------------------------------------ 
+I also added below MSBuild Commands in MSBUILD. No luck yet
+/p:IncludeIisSettings=true /p:IncludeAppPool=true 
+
+Thanks &#038; Regards,
+Sukanta Ghorui]]></description>
+		<content:encoded><![CDATA[<p>Hi Cromwell,<br />
+Thanks for this post.<br />
+I would like to create application specific AppPool (e.g – Test) &amp; assign it to the website either by webdeploy package creation process (via setparameters.xml file). How to do that. I have tried below options, but still no luck. Appreciate your quick help on this</p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+OPTION 1<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+Action taken to resolve this issue:<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+Created parameters.xml file in the same project and did the following changes. I can see that the AppPool Name is reflected in SetParameters.xml file. But, this AppPool is NOT created on IIS once the deployment is finished. </p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+parameters.xml<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; </p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+DemoSample.SetParameters.xml<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212; </p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+OPTION 2<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+Action taken to resolve this issue:<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+I also added below MSBuild Commands in MSBUILD. No luck yet<br />
+/p:IncludeIisSettings=true /p:IncludeAppPool=true </p>
+<p>Thanks &amp; Regards,<br />
+Sukanta Ghorui</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Restoring TFS 2012 to Sandbox by Rob Nicholson</title>
+		<link>http://cromwellhaus.com/2013/08/restoring-tfs-2012-to-sandbox/#comment-596</link>
+		<dc:creator><![CDATA[Rob Nicholson]]></dc:creator>
+		<pubDate>Sun, 01 Jan 2017 17:44:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1471#comment-596</guid>
+		<description><![CDATA[Thanks for this - very useful in learning how the process works. It&#039;s not exactly the most obvious and easy of processes when you have to recover a TFS system from a failed server.]]></description>
+		<content:encoded><![CDATA[<p>Thanks for this &#8211; very useful in learning how the process works. It&#8217;s not exactly the most obvious and easy of processes when you have to recover a TFS system from a failed server.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Restoring TFS 2012 to Sandbox by Salih E</title>
+		<link>http://cromwellhaus.com/2013/08/restoring-tfs-2012-to-sandbox/#comment-594</link>
+		<dc:creator><![CDATA[Salih E]]></dc:creator>
+		<pubDate>Tue, 28 Jun 2016 07:15:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1471#comment-594</guid>
+		<description><![CDATA[So Clear and so easy explanation, Thank you so much]]></description>
+		<content:encoded><![CDATA[<p>So Clear and so easy explanation, Thank you so much</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Restoring TFS 2012 to Sandbox by Salih E</title>
+		<link>http://cromwellhaus.com/2013/08/restoring-tfs-2012-to-sandbox/#comment-591</link>
+		<dc:creator><![CDATA[Salih E]]></dc:creator>
+		<pubDate>Wed, 30 Mar 2016 12:48:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1471#comment-591</guid>
+		<description><![CDATA[So clear, so easy thanks a lot, i search a lot of sources but i cant find as much as clear just like that.]]></description>
+		<content:encoded><![CDATA[<p>So clear, so easy thanks a lot, i search a lot of sources but i cant find as much as clear just like that.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on ASP.Net Web Api Integration Tests With Self Hosting by michael lang</title>
+		<link>http://cromwellhaus.com/2012/02/asp-net-web-api-integration-tests-with-self-hosting/#comment-586</link>
+		<dc:creator><![CDATA[michael lang]]></dc:creator>
+		<pubDate>Tue, 02 Feb 2016 06:04:00 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/?p=1040#comment-586</guid>
+		<description><![CDATA[Your images have broken]]></description>
+		<content:encoded><![CDATA[<p>Your images have broken</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Restoring TFS 2012 to Sandbox by Raymond</title>
+		<link>http://cromwellhaus.com/2013/08/restoring-tfs-2012-to-sandbox/#comment-585</link>
+		<dc:creator><![CDATA[Raymond]]></dc:creator>
+		<pubDate>Sat, 07 Nov 2015 00:35:00 +0000</pubDate>
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1471#comment-585</guid>
+		<description><![CDATA[Thanks for this, saved me a ton of heartache!]]></description>
+		<content:encoded><![CDATA[<p>Thanks for this, saved me a ton of heartache!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Binding to an Image Byte[] in WPF by Ryan Potratz</title>
+		<link>http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-579</link>
+		<dc:creator><![CDATA[Ryan Potratz]]></dc:creator>
+		<pubDate>Thu, 28 May 2015 12:34:00 +0000</pubDate>
+		<guid isPermaLink="false">/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx#comment-579</guid>
+		<description><![CDATA[Is there any code you could share that would expand this to include selecting an image file and writing it to the table?  I keep finding incomplete examples and being a newbie to this whole this I&#039;m strugling.
+
+Thanks A ton.]]></description>
+		<content:encoded><![CDATA[<p>Is there any code you could share that would expand this to include selecting an image file and writing it to the table?  I keep finding incomplete examples and being a newbie to this whole this I&#8217;m strugling.</p>
+<p>Thanks A ton.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Grouping is crazy easy in WPF by Ashley G</title>
+		<link>http://cromwellhaus.com/2010/03/grouping-is-crazy-easy-in-wpf/#comment-578</link>
+		<dc:creator><![CDATA[Ashley G]]></dc:creator>
+		<pubDate>Fri, 01 May 2015 18:43:00 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/#comment-578</guid>
+		<description><![CDATA[Great article!! This was super helpful.  I love how you highlighted each change.  It made it super easy to follow.  Thanks a bunch!]]></description>
+		<content:encoded><![CDATA[<p>Great article!! This was super helpful.  I love how you highlighted each change.  It made it super easy to follow.  Thanks a bunch!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

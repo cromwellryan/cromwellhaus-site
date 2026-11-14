@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ryan Cromwell</title>
+	<atom:link href="http://blog.cromwellhaus.com/index.php/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.cromwellhaus.com</link>
+	<description>Improving my craft...</description>
+	<lastBuildDate>Fri, 21 May 2010 13:07:21 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.8.4</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>Event: TFS 2010 Overview, Scrum integration: June 22-23</title>
+		<link>http://blog.cromwellhaus.com/index.php/2010/05/event-tfs-2010-overview-scrum-integration-june-22-23/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2010/05/event-tfs-2010-overview-scrum-integration-june-22-23/#comments</comments>
+		<pubDate>Thu, 20 May 2010 03:03:29 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[TFS]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2010/05/event-tfs-2010-overview-scrum-integration-june-22-23/</guid>
+		<description><![CDATA[[Updated: An offline, PDF agenda is available here]
+Around a month from now Alexei Govorine of Quick Solutions and I will be leading a free, two day event diving into Team Foundation Server 2010 and its uses within a Scrum development organization.&#160; This is my first year being a part of this event, but Alexei has [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2010/05/event-tfs-2010-overview-scrum-integration-june-22-23/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SketchFlow: From Concept to Production</title>
+		<link>http://blog.cromwellhaus.com/index.php/2010/04/sketchflow-from-concept-to-production/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2010/04/sketchflow-from-concept-to-production/#comments</comments>
+		<pubDate>Fri, 16 Apr 2010 12:25:24 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Silverlight]]></category>
+		<category><![CDATA[Speaking]]></category>
+		<category><![CDATA[WPF]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2010/04/sketchflow-from-concept-to-production/</guid>
+		<description><![CDATA[I had a great time in Frankfort, KY yesterday.&#160; We had a great turnout for the Expression SketchFlow: From Concept to Production session.&#160; It is incredibly encouraging to see so many interested in building great, well designed apps for all industries and clients (even your LOB apps!).
+Thanks again for those who made it.&#160; You can [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2010/04/sketchflow-from-concept-to-production/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Kentucky Briefings April 15th and 22nd</title>
+		<link>http://blog.cromwellhaus.com/index.php/2010/04/kentucky-briefings-april-15th-and-22nd/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2010/04/kentucky-briefings-april-15th-and-22nd/#comments</comments>
+		<pubDate>Mon, 05 Apr 2010 18:17:11 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Silverlight]]></category>
+		<category><![CDATA[Speaking]]></category>
+		<category><![CDATA[WPF]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2010/04/kentucky-briefings-april-15th-and-22nd/</guid>
+		<description><![CDATA[Along with a great cast of MS partners, evangelists, specialists and more I will be bringing Sketchflow to the Frankfort, KY area Thursday, April 15th.&#160; This will be Session I with Session II scheduled for April 22nd.&#160; You can learn about everything from Forefront Suite to Silverlight to Windows Phone 7 and, of-course, Sketchflow.&#160; 
+You [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2010/04/kentucky-briefings-april-15th-and-22nd/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Grouping is crazy easy in WPF</title>
+		<link>http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/#comments</comments>
+		<pubDate>Thu, 18 Mar 2010 17:40:41 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[WPF]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/</guid>
+		<description><![CDATA[Lots of people struggle with grouping data and when they do, the brut force method normally takes over and we start creating some crazy super structure to organize data and then do something like put a List inside of a List or a Grid inside of a list.&#160; Just think of how many times you [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Source Control Smackdown 2009</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/#comments</comments>
+		<pubDate>Mon, 07 Dec 2009 13:38:24 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[TFS]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/</guid>
+		<description><![CDATA[With all the hubbub around Git, TFS 2010, and others over the last year or so, the Dayton .Net Developers Group is hosting a panel event this Wednesday, December 9th, titled Source Control Smackdown 2009.&#160; I have been lucky enough to be selected to represent TFS in a clash against SVN (Justin Kohnen) and Git [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Dog Food II: Implementing Scrum with TFS</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/11/dog-food-ii-implementing-scrum-with-tfs/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/11/dog-food-ii-implementing-scrum-with-tfs/#comments</comments>
+		<pubDate>Fri, 13 Nov 2009 22:00:00 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[TFS]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/11/dog-food-ii-implementing-scrum-with-tfs/</guid>
+		<description><![CDATA[I want to thank all of those who took time out of their day to hang out at the Dog Food II conference in Columbus.&#160; Everything was a great success.&#160; A special thanks to Danilo Casino, Brian Prince, Jeff Blankenburg and everyone else who helped put the event together.&#160; 
+For those of you who attended [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/11/dog-food-ii-implementing-scrum-with-tfs/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Strategy Pattern with Castle Windsor</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/#comments</comments>
+		<pubDate>Fri, 30 Oct 2009 19:37:56 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[.Net]]></category>
+		<category><![CDATA[IoC]]></category>
+		<category><![CDATA[Windsor]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/</guid>
+		<description><![CDATA[One of the tangent patterns associated with isolation or Single Responsibility is the Strategy Pattern.  I use Castle Windsor as my IoC of choice and I had hoped there was some black magic built in to make the Strategy Pattern dead simple.  Turns out there is and there isn’t.
+What is the Strategy Pattern
+The strategy pattern [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Dog Food II Registration Open</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/#comments</comments>
+		<pubDate>Thu, 29 Oct 2009 16:55:41 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[TFS]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/</guid>
+		<description><![CDATA[Registration has opened for the 2nd Annual Dog Food conference in Columbus, OH.&#160; SDS is excited to be a sponsor and presenter this year and I hope you have a chance to come by and see some of the topics everyone has planned.&#160; I plan to be there as an observer both days and a [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>A Reminder Of Our Values</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/#comments</comments>
+		<pubDate>Wed, 28 Oct 2009 12:56:50 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Scrum]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/</guid>
+		<description><![CDATA[Steve Gentile recently had a thinking out loud moment by posting the Agile Manifest as a reminder to himself of what he values.&#160; It’s really important to constantly put these types of reminders in front of ourselves as we work in environments that don’t necessarily breed best practices.&#160; The contractual obligations of the business world [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Size versus Duration</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/#comments</comments>
+		<pubDate>Tue, 27 Oct 2009 14:30:00 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Scrum]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/</guid>
+		<description><![CDATA[Scrum introduces the concept of Story Points which most teams immediately misunderstand or discard.  The most elegant wrong explanation I’ve heard for not using story points was:
+“we never liked story points, because then we had to communicate and teach our customers a whole new currency.” 
+Fortunately, this isn’t true.  Unforunately, the reason many find story points [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

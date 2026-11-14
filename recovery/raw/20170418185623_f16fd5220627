@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scrolling Multiple Content Areas with a single ScrollBar in WPF | Ryan Cromwell</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php">
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="http://cromwellhaus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Scrolling Multiple Content Areas with a single ScrollBar in WPF Comments Feed" href="http://cromwellhaus.com/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='isola-style-css'  href='http://cromwellhaus.com/wp-content/themes/isola/style.css?ver=4.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='isola-source-sans-pro-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700%2C300italic%2C400italic%2C600italic%2C700italic&#038;subset=latin%2Clatin-ext&#038;ver=4.6.4' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://cromwellhaus.com/wp-content/themes/isola/genericons/genericons.css?ver=3.0.3' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v5.5.2 - Universal disabled - https://www.monsterinsights.com/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-4332588-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='STUFF &amp; FOR XML PATH' href='http://cromwellhaus.com/2009/03/stuff-amp-for-xml-path/' />
+<link rel='next' title='Scaling ItemsControl Items for Explicit Visible Items in WPF' href='http://cromwellhaus.com/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/' />
+<meta name="generator" content="WordPress 4.6.4" />
+<link rel="canonical" href="http://cromwellhaus.com/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/" />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=731' />
+<link rel="alternate" type="application/json+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2009%2F03%2Fscrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2009%2F03%2Fscrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf%2F&#038;format=xml" />
+<meta property="og:title" content="Scrolling Multiple Content Areas with a single ScrollBar in WPF" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:url" content="http://cromwellhaus.com/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="I struggled to solve a UI dilemma while at my current client.&#160; For various reasons, we came across a situation in which we needed to scroll two areas of the view based on a single Scrollbar.&#160; You can see what we were attempting and finally achieved here. The end result is smooth, yet not quite &hellip;" /></head>
+
+<body class="single single-post postid-731 single-format-standard">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-inner">
+			<div class="site-branding">
+				<button id="menu-toggle" class="toggle">
+					<svg version="1.1" class="menu-toggle-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+						<g id="menu">
+							<g>
+								<rect x="3" y="4" width="18" height="3"/>
+								<rect x="3" y="10" width="18" height="3"/>
+								<rect x="3" y="16" width="18" height="3"/>
+							</g>
+						</g>
+					</svg>
+					<span class="screen-reader-text">Primary Menu</span>
+				</button>
+				<h1 class="site-title"><a href="http://cromwellhaus.com/" rel="home">Ryan Cromwell</a></h1>
+				<h2 class="site-description">Big vision. Small changes.  Learn by shipping.</h2>
+			</div>
+
+			<div id="site-search" class="header-search">
+				<div class="header-search-form">
+					<form role="search" method="get" class="search-form" action="http://cromwellhaus.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<span class="search-icon">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+			<g id="search">
+				<path class="icon" d="M15.846,13.846C16.573,12.742,17,11.421,17,10c0-3.866-3.134-7-7-7s-7,3.134-7,7s3.134,7,7,7
+					c1.421,0,2.742-0.427,3.846-1.154L19,21l2-2L15.846,13.846z M10,15c-2.761,0-5-2.238-5-5c0-2.761,2.239-5,5-5c2.762,0,5,2.239,5,5
+					C15,12.762,12.762,15,10,15z"/>
+			</g>
+		</svg>
+	</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:" />
+	</label>
+	<input type="submit" class="search-submit" value="Search" />
+</form>				</div><!-- .header-search-form -->
+			</div><!-- #site-navigation -->
+		</div><!-- .site-header-inner -->
+	</header><!-- #masthead -->
+
+	<div id="toggle-sidebar">
+		<button id="menu-close">
+			<span class="screen-reader-text">Close Menu</span>
+		</button>
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="menu-wrapper">
+				<div class="menu"><ul><li ><a href="http://cromwellhaus.com/">Home</a></li><li class="page_item page-item-834"><a href="http://cromwellhaus.com/about/">Bio</a></li><li class="page_item page-item-801"><a href="http://cromwellhaus.com/presentations/">Presentations</a></li></ul></div>
+			</div>
+		</nav><!-- #site-navigation -->
+			</div>
+
+	
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-731" class="post-731 post type-post status-publish format-standard hentry category-wpf">
+	<header class="entry-header">
+		<h1 class="entry-title">Scrolling Multiple Content Areas with a single ScrollBar in WPF</h1>	</header><!-- .entry-header -->
+
+	
+	
+	<div class="entry-content">
+					<p>I struggled to solve a UI dilemma while at my current client.&#160; For various reasons, we came across a situation in which we needed to scroll two areas of the view based on a single Scrollbar.&#160; You can see what we were attempting and finally achieved <a href="http://code.cromwellhaus.com/ScrollingMultipleAreasWithOneScrollbar/ScrollingMultipleAreasWithOneScrollbar.xbap" target="_blank">here</a>.</p>
+<p>The end result is smooth, yet not quite intuitive so I thought I would share the results and steps taken.&#160; The idea is to use a surrogate <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.scrollviewer.aspx">ScrollViewer</a> as the source for the offset of a <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.translatetransform.aspx">TranslateTransform</a> being applied to content within a seperate <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.scrollviewer.aspx">ScrollViewer</a>.</p>
+<p>Unfortunately, the offset values exposed by the ScrollViewer are both readonly and opposite in force to which we would need to apply to the surrogate.&#160; That is, if we scroll 20 units to the right on our ScrollViewer, we would need to offset the surrogate ScrollViewer by that amount in the opposite direction.&#160; To resolve this problem, we use an IValueConverter to multiple the offset by –1.</p>
+<p>Here we can see the Xaml used to layout and hookup this scenario:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 640px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px"><pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">StackPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">ScrollViewer</span> <span style="color: #ff0000">HorizontalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Hidden&quot;</span> <span style="color: #ff0000">VerticalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Hidden&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">Grid</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #800000">Grid.RenderTransform</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">TranslateTransform</span> <span style="color: #ff0000">X</span>=<span style="color: #0000ff">&quot;{Binding ElementName=mainScroller, Path=HorizontalOffset, Converter={StaticResource multiplyConv}, ConverterParameter=-1}&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Grid.RenderTransform</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #008000">&lt;!-- Content Scrolled by another goes here --&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Grid</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ScrollViewer</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">ScrollViewer</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Name</span>=<span style="color: #0000ff">&quot;mainScroller&quot;</span> <span style="color: #ff0000">HorizontalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span> <span style="color: #ff0000">VerticalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #008000">&lt;!-- Content Scrolled on its own accord goes here--&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ScrollViewer</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">StackPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<p>You can see that we have two ScrollViewers and the one which will be controlled (versus the controller) has a container element with a <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.translatetransform.aspx">TranslateTransform</a> applied to its RenderTransform property.&#160; This is what we will be using to move the controlled content in the opposite direction of the ScrollBar.</p>
+<p>If you find that your content for each are not the same size, you can always use a <a href="http://msdn.microsoft.com/en-us/library/system.windows.data.multibinding.aspx">MultiBinding</a> to accomodate the relative scrolling distance as applied to the offset.</p>
+<p>You can find the source to the sample Xbap <a href="http://code.cromwellhaus.com/ScrollingMultipleAreasWithOneScrollbar/ScrollingMultipleAreasWithOneScrollbar.zip">here</a>.</p>
+					</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="entry-meta">
+			<span class="posted-on"><a href="http://cromwellhaus.com/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/" rel="bookmark"><time class="entry-date published" datetime="2009-03-12T04:21:26+00:00">March 12, 2009</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://cromwellhaus.com/author/cromwellryan/">cromwellryan</a></span></span>		</div><!-- .entry-meta -->
+		
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+				<nav class="navigation post-navigation" role="navigation">
+		<h1 class="screen-reader-text">Post navigation</h1>
+		<div class="nav-links">
+			<div class="nav-previous"><a href="http://cromwellhaus.com/2009/03/stuff-amp-for-xml-path/" rel="prev"><span class="meta-nav">&larr;</span> STUFF &amp; FOR XML PATH</a></div><div class="nav-next"><a href="http://cromwellhaus.com/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/" rel="next">Scaling ItemsControl Items for Explicit Visible Items in WPF <span class="meta-nav">&rarr;</span></a></div>		</div><!-- .nav-links -->
+	</nav><!-- .navigation -->
+	
+			
+<div id="disqus_thread">
+            <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-69">
+        <div id="dsq-comment-header-69" class="dsq-comment-header">
+            <cite id="dsq-cite-69">
+                <span id="dsq-author-user-69">Sky</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-69" class="dsq-comment-body">
+            <div id="dsq-comment-message-69" class="dsq-comment-message"><p>Just what i needed man, that was awesome! Good job</p>
+</div>
+        </div>
+
+    <ul class="children">
+    <li class="comment odd alt depth-2" id="dsq-comment-70">
+        <div id="dsq-comment-header-70" class="dsq-comment-header">
+            <cite id="dsq-cite-70">
+                <a id="dsq-author-user-70" href="http://blog.cromwellhaus.com" target="_blank" rel="nofollow">ryan</a>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-70" class="dsq-comment-body">
+            <div id="dsq-comment-message-70" class="dsq-comment-message"><p>Glad to hear it helped.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+</ul><!-- .children -->
+</li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-71">
+        <div id="dsq-comment-header-71" class="dsq-comment-header">
+            <cite id="dsq-cite-71">
+                <span id="dsq-author-user-71">Sky</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-71" class="dsq-comment-body">
+            <div id="dsq-comment-message-71" class="dsq-comment-message"><p>Yes, It helped &#8217;cause it was easy-to-understand and straight to the point. Thx from Italy</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-209">
+        <div id="dsq-comment-header-209" class="dsq-comment-header">
+            <cite id="dsq-cite-209">
+                <span id="dsq-author-user-209">B0bi79</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-209" class="dsq-comment-body">
+            <div id="dsq-comment-message-209" class="dsq-comment-message"><p>Cool, Thanks.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-268">
+        <div id="dsq-comment-header-268" class="dsq-comment-header">
+            <cite id="dsq-cite-268">
+                <span id="dsq-author-user-268">Takacs Albert</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-268" class="dsq-comment-body">
+            <div id="dsq-comment-message-268" class="dsq-comment-message"><p>Saved my life, man! Really. 😉</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-even depth-1" id="dsq-comment-577">
+        <div id="dsq-comment-header-577" class="dsq-comment-header">
+            <cite id="dsq-cite-577">
+                <span id="dsq-author-user-577">alex</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-577" class="dsq-comment-body">
+            <div id="dsq-comment-message-577" class="dsq-comment-message"><p>we didnt wrap the first item in a controller, just bound the grids horizontal scroller to the X element of the transform. only works intermittently with our client though.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+var disqus_url = 'http://cromwellhaus.com/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/';
+var disqus_identifier = '731 /blogs/ryanc/archive/2009/03/12/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf.aspx';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'cromwellhaus';
+var disqus_title = "Scrolling Multiple Content Areas with a single ScrollBar in WPF";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=731';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="http://wordpress.org/">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: Isola by <a href="http://wordpress.com/themes/isola/" rel="designer">WordPress.com</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'cromwellhaus';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/isola/js/isola.js?ver=20140623'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/isola/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/isola/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/comment-reply.min.js?ver=4.6.4'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=4.6.4'></script>
+
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2017-04-18 13:25:51 by W3 Total Cache -->

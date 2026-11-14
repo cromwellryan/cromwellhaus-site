@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php">
+
+	<title>Agile &#8211; Ryan Cromwell</title>
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="http://cromwellhaus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Agile Tag Feed" href="http://cromwellhaus.com/tag/agile/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.3.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.3.3';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-4332588-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-4332588-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css'  href='http://cromwellhaus.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='atomic-blocks-style-css'  href='http://cromwellhaus.com/wp-content/themes/atomic-blocks/style.css?ver=5.0.4' type='text/css' media='all' />
+<style id='atomic-blocks-style-inline-css' type='text/css'>
+
+
+	button,
+	input[type='button'],
+	input[type='submit'],
+	.button,
+	.page-numbers.current,
+	.page-numbers:hover,
+	#page #infinite-handle button,
+	#page #infinite-handle button:hover,
+	.comment-navigation a,
+	.su-button,
+	.mobile-navigation,
+	.toggle-active {
+	      background-color: #5a3fd6;
+	}
+
+	.entry-content p a,
+	.entry-content p a:hover,
+	.header-text a,
+	.header-text a:hover,
+	.entry-content .meta-list a,
+	.post-navigation a:hover .post-title,
+	.entry-header .entry-title a:hover,
+	#page .more-link:hover,
+	.site-footer a,
+	.main-navigation a:hover, 
+	.main-navigation ul li.current-menu-item a, 
+	.main-navigation ul li.current-page-item a {
+		color: #5a3fd6;
+	}
+
+	.entry-header .entry-title a:hover {
+		box-shadow: inset 0 -4px 0 #5a3fd6;
+	}
+
+	.entry-content p a,
+	.header-text a {
+		box-shadow: inset 0 -1px 0 #5a3fd6;
+	}
+
+	.entry-content p a:hover,
+	.header-text a:hover {
+		box-shadow: inset 0 -2px 0 #5a3fd6;
+	}
+
+	@media (min-width: 1000px) {
+		#primary {
+			width: 70%;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		body {
+			font-size: 20px;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		.entry-header .entry-title {
+			font-size: 50px;
+		}
+	}
+ 
+	h1, h2, h3, h4, h5, h6, body, button, 
+	input[type='button'],
+	input[type='reset'],
+	input[type='submit'],
+	.button,
+	#page #infinite-handle button {
+		font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+	}
+
+	
+</style>
+<link rel='stylesheet' id='atomic-blocks-fonts-css'  href='//fonts.googleapis.com/css?family=Muli%3A700%7CNunito+Sans%3A400%2C400i%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://cromwellhaus.com/wp-content/themes/atomic-blocks/inc/fontawesome/css/fontawesome-all.css?ver=5.0.12' type='text/css' media='screen' />
+<link rel='stylesheet' id='atomic-blocks-shared-styles-css'  href='http://cromwellhaus.com/wp-content/themes/atomic-blocks/common.css?ver=1.0' type='text/css' media='screen' />
+<style id='atomic-blocks-shared-styles-inline-css' type='text/css'>
+#editor .edit-post-visual-editor textarea.editor-post-title__input { font-size: 50px; }#editor .edit-post-visual-editor p { font-size: 20px; }
+		#editor .editor-rich-text__tinymce a { 
+			box-shadow: inset 0 -1px 0 #5a3fd6;
+			color: #5a3fd6;
+		}
+		#editor .editor-rich-text__tinymce a:hover,
+		.ab-block-post-grid h2 a:hover,
+		.ab-block-post-grid .ab-block-post-grid-link:hover {
+			color: #5a3fd6;
+			box-shadow: inset 0 -2px 0 #5a3fd6;
+		}
+</style>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"","inbound_paths":"","home_url":"http:\/\/cromwellhaus.com","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.3.3'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.4" />
+<meta property="og:title" content="Agile" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:url" content="http://cromwellhaus.com/tag/agile/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="Archive : Agile" /></head>
+
+<body class="archive tag tag-agile tag-49 featured-image-wide">
+
+<header id="masthead" class="site-header">
+	<div class="search-drawer" aria-expanded="false" role="region">
+		<div class="container">
+			<div class="drawer-search">
+				<div class="big-search">
+					
+<form role="search" method="get" class="searchform" action="http://cromwellhaus.com/">
+	<div>
+		<label class="screen-reader-text">Search for:</label>
+
+		<input type="text" value="" name="s" class="search-input" placeholder="Search here..." />
+
+		<button class="searchsubmit" type="submit">
+			<i class="fa fa-search"></i> <span>Search</span>
+		</button>
+	</div>
+</form>				</div>
+			</div>
+		</div><!-- .container -->
+	</div><!-- .drawer -->
+
+	<div class="top-navigation">
+		
+<div class="mobile-navigation">
+	<button class="menu-toggle button-toggle">
+		<span>
+			<i class="fa fa-bars"></i>
+			Menu		</span>
+		<span>
+			<i class="fa fa-times"></i>
+			Close		</span>
+	</button><!-- .overlay-toggle -->
+</div>
+
+<div class="drawer-wrap">
+	<div class="drawer drawer-menu-explore">
+		<nav id="drawer-navigation" class="drawer-navigation">
+			<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="http://cromwellhaus.com/about/">Bio</a></li>
+<li class="menu-item menu-item-search search-toggle"><i class="fa fa-search"></i><i class="fas fa-times"></i></li></ul></div>		</nav><!-- #site-navigation -->
+
+		
+<form role="search" method="get" class="searchform" action="http://cromwellhaus.com/">
+	<div>
+		<label class="screen-reader-text">Search for:</label>
+
+		<input type="text" value="" name="s" class="search-input" placeholder="Search here..." />
+
+		<button class="searchsubmit" type="submit">
+			<i class="fa fa-search"></i> <span>Search</span>
+		</button>
+	</div>
+</form>	</div><!-- .drawer -->
+</div>
+
+		<div class="container">
+			<div class="site-identity clear">
+				<!-- Site title and logo -->
+					<div class="site-title-wrap" itemscope itemtype="http://schema.org/Organization">
+		<!-- Use the Site Logo feature, if supported -->
+		
+		<div class="titles-wrap has-description">
+							<p class="site-title"><a href="http://cromwellhaus.com/" rel="home">Ryan Cromwell</a></p>
+ 			
+							<p class="site-description">Big vision. Small changes.  Learn by shipping.</p>
+					</div>
+	</div><!-- .site-title-wrap -->
+
+				<div class="top-navigation-right">
+					<!-- Main navigation -->
+					<nav id="site-navigation" class="main-navigation">
+						<div class="menu-menu-1-container"><ul id="menu-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="http://cromwellhaus.com/about/">Bio</a></li>
+<li class="menu-item menu-item-search search-toggle"><i class="fa fa-search"></i><i class="fas fa-times"></i></li></ul></div>					</nav><!-- .main-navigation -->
+				</div><!-- .top-navigation-right -->
+			</div><!-- .site-identity-->
+		</div><!-- .container -->
+	</div><!-- .top-navigation -->
+
+	<!-- Get the archive page titles -->
+			<div class="container text-container">
+			<div class="header-text">
+					<div class="page-titles">
+		<h1><span class="screen-reader-text">Tag: </span>Agile</h1>
+
+		
+	</div>
+
+				</div><!-- .header-text -->
+		</div><!-- .text-container -->
+	</header><!-- .site-header -->
+
+<div id="page" class="hfeed site container">
+	<div id="content" class="site-content">
+
+<section id="primary" class="content-area">
+	<main id="main" class="site-main">
+		<div id="post-wrap">
+			
+<article id="post-1395" class="post-1395 post type-post status-publish format-standard hentry category-uncategorized tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2013/03/release-cadence-youre-not-agile-if-youre-not-shipping/" rel="bookmark">Release Cadence: You&rsquo;re Not Agile If You&rsquo;re Not Shipping</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">March 8, 2013</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p>I’ve spent the last 3 years exploring the in’s and out’s of different Agile frameworks and methodologies.  I’ve worked with large commercial firms, government contractors, and small ISVs to adopt one set of Agile practices or another.</p>
+<p>In the beginning things are generally amazing.  There’s a new level of transparency, excitement and shared motivation.  At some point, though, the question always comes up: Are we ready to ship?</p>
+<p>This is the moment where organizations either head down the Scrum-erfall path or learn what Agile was meant to be:</p>
+<blockquote><p>…satisfy the customer<br />
+through early and continuous delivery<br />
+of valuable software.</p></blockquote>
+<p><strong>The Path to </strong><a href="http://scrum.org"><strong>Scrum</strong></a><strong>-erfall</strong></p>
+<p>Unfortunately, too many organizations have taken hold of the rules and ceremonies of Kanban, Scrum, XP, and the rest, but ignore these <a href="http://agilemanifesto.org/principles.html" target="_blank">two principles</a>:</p>
+<ul>
+<li>Working software is the primary measure of progress.</li>
+<li>Deliver working software frequently, from a couple of weeks to a couple of months, with a<br />
+preference to the shorter timescale.</li>
+</ul>
+<p><strong>Does Shipping Heal All Wounds?</strong></p>
+<p>On March 4th, I opened what I hope will replace the State of Agile report: <a href="http://releasecadencereport.com/" target="_blank">Release Cadence Report</a>.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/03/logo-vertical.png"><img style="background-image: none; float: right; padding-top: 0px; padding-left: 0px; margin: 4px 10px; display: inline; padding-right: 0px; border: 0px;" title="logo-vertical" alt="logo-vertical" src="http://cromwellhaus.com/wp-content/uploads/2013/03/logo-vertical_thumb.png" width="240" height="145" align="right" border="0" /></a>This survey and publication was created to refocus our industries attention back on shipping software frequently to the delight and benefit of our customers, team members, and companies.  It is an attempt to relieve our software developers of ineffective anecdotal stories of Facebook and Flickr shipping dozens of times per day.  Instead I want you to have the evidence to take to leaders in your organization so that you can have a serious conversation about the implications of release cadence.</p>
+<p>Please take 10 minutes and complete this survey and you will receive an early copy of the report.</p>
+<p align="left"><a href="http://releasecadencereport.com/survey/" target="_blank"><span style="font-size: large;">Take the Survey</span></a></p>
+<p>You can also get yourself or your organization listed as being part of this movement by referring your coworkers, peers, friend.  <a href="http://releasecadencereport.com/partnerships/" target="_blank">Sign up here</a> and be a part of bringing shipping back to Agile.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-1364" class="post-1364 post type-post status-publish format-standard hentry category-uncategorized tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2012/10/adaptive-problems-require-responding-to-change-over-following-a-plan/" rel="bookmark">Adaptive Problems Require Responding to Change Over Following a Plan</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">October 22, 2012</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p><a href="https://www.scrum.org/tabid/96/aft/191/" target="_blank">Feedback was recently posed</a> on the <a href="http://scrum.org" target="_blank">Scrum.org</a> community forums regarding the Webster-ish definition provided for Scrum by Ken and Jeff.  If you don’t recall from the <a href="https://www.scrum.org/Scrum-Guides" target="_blank">Scrum Guide</a>, the Scrum Overview definition reads:</p>
+<blockquote><p>Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.</p></blockquote>
+<p>Mario Čop, in his <a href="https://www.scrum.org/tabid/96/aft/191/" target="_blank">feedback</a>, suggests problems cannot be <em>adaptive.</em>  He provides some definitions of his own to remove the subjective influences around the words “adapt”, “adaptive” and “problem.”  In the end, Mario says:</p>
+<blockquote><p>I&#8217;d say that the process of solving problems can be adaptive. When solving problems you can have adaptive approach and adaptive execution of it, but it makes no sense saying that problems itself are adaptive.</p></blockquote>
+<p>Whether successfully conveyed or not, the intent is that complex problems are not always clearly understood.  As we approach and attempt to solve a complex problem, our understanding of that problem becomes clearer.  What this means is that as we examine a problem, our understanding of it adapts.  In this way we must reevaluate both the problem and the solution.  Continuous planning allows for this dynamic where a plan alone constrains learning.</p>
+<p>Scrum&#8217;s Sprint, <a href="http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/">as I&#8217;ve said before</a>, provides a balance between space for creative problem solving and focused decision making.  The outcome of a sprint allows us to reevaluate our understanding of the problem space and whether we are taking the product and organization in the appropriate direction.  Here we see how we can utilize the Scrum framework to embody the <a href="http://agilemanifesto.org/" target="_blank">Agile value</a> of <em>Responding to change over following a plan.</em></p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-1357" class="post-1357 post type-post status-publish format-standard hentry category-uncategorized tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2012/09/scrum-fundamentals-recording-available/" rel="bookmark">Scrum Fundamentals Recording Available</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">September 27, 2012</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p>Leading up to an open enrollment <a href="http://courses.scrum.org/classes/show/804" target="_blank">Professional Scrum Foundations</a> on October 10th, I gave a 1 hour lunch webinar on the fundamentals of Agile and <a href="http://scrum.org">Scrum</a>.  I’ve just <a href="http://www.youtube.com/watch?v=icudcQN79lg&amp;feature=youtu.be" target="_blank">published this out on Youtube</a> for anyone to watch.  Let me know what you think.</p>
+<p>&nbsp;</p>
+<div id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:2f836365-d7d0-4e4e-b90d-12daa8a69934" class="wlWriterEditableSmartContent" style="margin: 0px auto; width: 448px; display: block; float: none; padding: 0px;">
+<div><object width="448" height="252" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/icudcQN79lg?hl=en&amp;hd=1" /><embed width="448" height="252" type="application/x-shockwave-flash" src="http://www.youtube.com/v/icudcQN79lg?hl=en&amp;hd=1" /></object></div>
+</div>
+<p>&nbsp;</p>
+<p><strong>tl;dr</strong></p>
+<p>There is a lot of misinformation out there that comes with a strong movement like Agile. It’s been coopted by some, but the vast majority see these opportunities as a way to make sure the 8 hours they spend away from their families is <a href="http://cromwellhaus.com/2011/12/full-speed-ahead/" target="_blank">spent wisely</a>. <a href="https://twitter.com/cromwellryan/status/217687590692864000" target="_blank">That’s where I fit in.</a></p>
+<p>With that in mind, I believe very much that Scrum, like many things, can be used for both good and bad.  When used well, it provides a safe zone for sustainable, creative teamwork.  When used poorly, it sucks as bad if not worse than waterfall/ad-hoc.</p>
+<p>I don’t teach Scrum such that teams go back and simply use it to manage work.  Many don’t get beyond that, but in my courses, webinars, and conversations we talk about the human factors, theory, and sustainable practices that make Scrum work.  This is the legacy I want Deming, Scrum, Agility, and others to be remembered by.  Not <a href="http://jimhighsmith.com/2011/11/02/velocity-is-killing-agility/" target="_blank">velocity</a> and <a href="http://www.scrum.org/About/All-Articles/articleType/ArticleView/articleId/95/Commitment-vs-Forecast-A-subtle-but-important-change-to-Scrum" target="_blank">commitment</a>.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-1281" class="post-1281 post type-post status-publish format-standard hentry category-uncategorized tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2012/08/passive-aggressive-commit-messages/" rel="bookmark">Passive Aggressive Commit Messages</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">August 22, 2012</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p>If anyone tries to tell you Twitter is a waste of time, they have the wrong circle of followers.  Today I posted <a href="https://gist.github.com/3426969">this gist</a> somewhat facetiously asking if the following was an acceptable commit message.</p>
+<blockquote><p>Refactoring done earlier didn&#8217;t execute acceptance tests. This makes me wonder why we even have acceptance tests. The acceptance tests (and the bug they surfaced) are fixed. Ugh. Professionalism people. Please.</p></blockquote>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/08/image.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; float: right; padding-top: 0px; border-width: 0px;" title="image" src="http://cromwellhaus.com/wp-content/uploads/2012/08/image_thumb.png" alt="image" width="190" height="244" align="right" border="0" /></a>I say <em>somewhat facetiously</em>, because I actually copied it out of my almost submitted commit command. I was really close to sending it and that would have probably been the end of it.  It’s unlikely anyone would have noticed it, especially the person I was directing this passive aggressive comment towards.</p>
+<h6>Follow My Own Advice</h6>
+<p>I’ve blogged recently about recognizing signals (<a href="http://cromwellhaus.com/2012/07/failing-builds-arent-your-problem/" target="_blank">here</a> and <a href="http://cromwellhaus.com/2012/08/crickets-messages-are-only-useful-if-received/" target="_blank">here</a>).  Obviously, I’m not following my own advice.  I need to go and find out why this person doesn’t care about the acceptance tests and either convince them they are important or find a better way.</p>
+<h6></h6>
+<h6>Uncomfortable Part</h6>
+<p>Rather than be passive aggressive in silence, I need to have the discussion.  It’s not going to be comfortable, but I have something we can both agree on: we both want this to be successful.  If we can keep the conversation focused on the success of this project, we can find an understanding.  If I use the same tone in our conversation that I’m using in this commit message, well, it’s not going to go well.</p>
+<p>Fortunately, I wear big boy pants (when I go to the office) and I’m willing to get over a little uneasiness for the sake of my creation.  Do it a few times and it gets much easier.</p>
+<h6>Simple Solution</h6>
+<p>It turns out this was able to exist in our codebase for a few days, because we aren’t running our acceptance tests as part of the build. I plan to remedy that tomorrow.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-1181" class="post-1181 post type-post status-publish format-standard hentry category-uncategorized tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/" rel="bookmark">Beyond the Agile Programmer: Innovative Teams</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">June 13, 2012</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p>This past week, I had the opportunity to attend the Midwest UX conference in Columbus, Ohio. I was incredibly happy to see <a href="http://appliedis.com/">AIS</a> sponsor the event. While we work hand-in-hand with some great design teams for projects like the Vogue Archive and Rolling Stone Archive, getting directly involved in the UX/UI community is part of our attempt to bring this knowledge and experience in-house. (More on that to come!)</p>
+<p>Choosing sessions at a conference is rarely easy, but I knew immediately which session would start my day. Without any hesitation, I headed for <a href="http://lanyrd.com/2012/midwestux/stqzz/">Building a Design Culture</a> by <a href="http://www.twitter.com/bradcolbow">Brad Colbow</a>, the awesome <a href="http://bradcolbow.com/">Illustrator</a> and <a href="http://bradcolbow.com/archive/">comic</a>. Brad presented at CodeMash earlier in the year and he easily lived up to my expectations.</p>
+<p>In this session, Brad described his experiences as a designer engaged to build a great user experience in the context of a broader team.&#160; I was interested to see how Brad’s thoughts and experiences as a representative of the design community overlapped with those of the Agile community which has composed mostly of programmers.&#160; I wasn’t disappointed.</p>
+<p><b>The Execution Gap</b></p>
+<p>Maybe it’s the lack of even a single artistic bone in my body, but the word design suggests innovation; the creation of something new and exciting. Having personally worked with some amazing software designers and design firms, I relish the anticipation that comes with endless possibility and unbridled imagination.</p>
+<p>I’ve also experienced the drudgery of endless implementation, sheen-dulling corner cutting and pride-killing <a href="http://www.amazon.com/Who-Moved-My-Cheese-Amazing/dp/0399144463">Who Moved My Cheese</a> reviews. After months of hard work, the excitement of the filled a kickoff gathering has given way to finger pointing and, at times, ship jumping. </p>
+<p>It would seem that <u>the challenge is not innovative ideas</u>, but the <i>execution</i> of those ideas.&#160; </p>
+<blockquote>
+<p><i>Execution is everything. ~ Robert Jordan</i></p>
+</blockquote>
+<p>Brad is quite well known and respected for his design and artistic talents. No doubt he brings a lot to the table for a team or organization looking to bring a great experience to products.&#160; For this reason I find it quite telling (and entertaining) when he describes the engagement process like so:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/clip_image0012.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image001" border="0" alt="clip_image001" src="http://cromwellhaus.com/wp-content/uploads/2012/06/clip_image001_thumb2.png" width="640" height="479" /></a></p>
+<p>While Brad and his team may hand over pure gold, without his skill and eye on the in-flight product, the result is often a not-so-happy rendition. The gap, he points out, is <u>engagement with those executing</u> his designs in the medium of code.&#160; No doubt customers have a similar response when their ideas don’t quite live up to the gloss of a SOWs or project proposal.</p>
+<p>But how can we avoid such a letdown? How can we avoid the deterioration of our vision over time?</p>
+<p>How does <a href="http://scrum.org">Scrum</a> enable a culture of Innovation?</p>
+<p><b>Scrum Teams are Cross Functional</b></p>
+<p>Brad was quite open and honest in saying he does not have the answer. Instead, he shared his experiences. He’s found that the interests and practices of those championing Agile in these same organizations are in alignment with his own.</p>
+<p>In <a href="http://scrum.org">Scrum</a>, we explicitly call out the need for a cross-functional team. Scrum’s “Development Team consists of professionals who do the work of delivering a potentially     <br />releasable Increment of ‘Done’ product at the end of each Sprint.” (<a href="http://www.scrum.org/scrumguides/">Read more</a>) This is often in contrast to organizational structures based on skillset.</p>
+<p><b>Scrum Sprints are a Safety Zone</b></p>
+<p>In his 2005 <i><a href="http://www.jpb.com/creative/OrganisationalCreativityMorris.pdf">A Survey of Organizational Creativity</a></i>, Wayne Morris of New Zealand found that two of the top three Factors that facilitate or enhance organizational creativity are 1) Time, and 2) Space/resources to pursue ideas. Creativity, a necessary ingredient to innovation, demands space. Space to experiment, learn, fail, and refine. Space in time, environment, and pressure.</p>
+<p>Scrum maintains the <a href="http://scrum.org/scrumguides">Sprint</a> to act as both as risk mitigation and a safe zone for creativity. Within this <a href="http://en.wikipedia.org/wiki/Timeboxing1">timebox</a> the Development Team has full freedom and authority to attack a problem or goal with all its ingenuity knowing that at the end of the Sprint they must have a working product to demonstrate. Interesting that this simple concept can provide safe space, while also limiting the months of unproductive spin seen on traditional projects.</p>
+<p><strong>Create Your Culture of Innovative</strong></p>
+<p>By providing clear goals to teams composed of the skills necessary to bring a product to market, providing sufficient space to execute, and inspecting the actual, functioning results at regular intervals we can build a culture of sustained delivery and innovation.</p>
+<p>What would happen at your organization if you put together a team with Marketing, Programmer, Designer, and Sales all represented, and gave them a goal of delivering a working increment of software in 30 days which solved a profitable need? <a href="http://www.amazon.com/Software-30-Days-Customers-Competitors/dp/1118206665">It’s quite possible in fact</a>.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+		</div>
+
+		
+	<nav class="navigation pagination" role="navigation">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span aria-current='page' class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://cromwellhaus.com/tag/agile/page/2/'>2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://cromwellhaus.com/tag/agile/page/5/'>5</a>
+<a class="next page-numbers" href="http://cromwellhaus.com/tag/agile/page/2/">Next</a></div>
+	</nav>	</main><!-- #main -->
+</section><!-- #primary -->
+
+
+	</div><!-- #content -->
+</div><!-- #page .container -->
+
+<footer id="colophon" class="site-footer">
+	<div class="container">
+		
+		<div class="footer-bottom">
+			<div class="footer-tagline">
+				<div class="site-info">
+					Copyright Ryan Cromwell 2019				</div>
+			</div><!-- .footer-tagline -->
+
+					</div><!-- .footer-bottom -->
+	</div><!-- .container -->
+</footer><!-- #colophon -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var atomic_blocks_js_vars = {"ajaxurl":"http:\/\/cromwellhaus.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/atomic-blocks/js/atomic-blocks.js?ver=1.0'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/atomic-blocks/js/jquery.fitvids.js?ver=1.1'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=5.0.4'></script>
+
+</body>
+</html>

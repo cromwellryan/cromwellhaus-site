@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://cromwellhaus.com/xmlrpc.php">
+
+<title>Ryan Cromwell &#8211; Big vision. Small changes.  Learn by shipping.</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="https://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="https://cromwellhaus.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='gillian-style-css'  href='https://cromwellhaus.com/wp-content/themes/gillian/style.css?ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gillian-gf-droidsans-css'  href='//fonts.googleapis.com/css?family=Droid+Sans%3A400%2C700%2C300%2C400italic%2C700italic&#038;ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='gillian-gf-droidserif-css'  href='//fonts.googleapis.com/css?family=Droid+Serif%3A400%2C400italic%2C700%2C700italic&#038;ver=4.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://cromwellhaus.com/wp-content/themes/gillian/fontawesome/css/font-awesome.min.css?ver=4.8.5' type='text/css' media='all' />
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.8.5" />
+	<style type="text/css">
+		
+			</style>
+	</head>
+
+<body class="home blog hfeed">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	
+	<header id="masthead" class="site-header" role="banner" class="header-bar header-background-image" style="background-image: url('https://cromwellhaus.com/wp-content/themes/gillian/images/default.png')">
+		
+			
+		<div class="header-bar">
+			<div class="site-branding">
+									<h1 class="site-title"><a href="https://cromwellhaus.com/" rel="home">Ryan Cromwell</a></h1>
+									<p class="site-description">Big vision. Small changes.  Learn by shipping.</p>
+							</div><!-- .site-branding -->
+			
+			<div class="header-search">
+				
+<form role="search" method="get" class="search-form" action="https://cromwellhaus.com/">
+	<label for="search-form-5aa302aa5b211">
+		<span class="screen-reader-text">Search for</span>
+	</label>
+	<input type="search" id="search-form-5aa302aa5b211" class="search-field" placeholder="Search" value="" name="s" />
+	<button type="submit" class="search-submit"><span class="fa fa-search" aria-hidden="true"></span><span class="screen-reader-text">Search</span></button>
+</form>			</div> <!-- .header-search -->
+		</div> <!-- .header-bar -->
+
+		<nav id="site-navigation" class="main-navigation bottom-navigation" role="navigation" aria-label="Primary Navigation">
+		<div class="bottom-menu">
+			<button class="menu-toggle" aria-controls="bottom-menu" aria-expanded="false">Menu</button>
+			<div id="bottom-menu" class="menu"><ul>
+<li class="page_item page-item-834"><a href="https://cromwellhaus.com/about/">Bio</a></li>
+<li class="page_item page-item-801"><a href="https://cromwellhaus.com/presentations/">Presentations</a></li>
+</ul></div>
+		</div>
+		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+<article id="post-1555" class="post-1555 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header ">
+		<h2 class="entry-title"><a href="https://cromwellhaus.com/2017/08/architecting-the-progressive-web/" rel="bookmark">Architecting the Progressive Web</a></h2>		
+		<div class="entry-meta">
+			<p>by <a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></p><p><i class="fa fa-calendar-o" aria-hidden="true"></i>August 26, 2017</p><p><i class="fa fa-clock-o" aria-hidden="true"></i>12:09 am</p><p><i class="fa fa-comment" aria-hidden="true"></i><a href="https://cromwellhaus.com/2017/08/architecting-the-progressive-web/#respond">Leave a comment<span class="screen-reader-text"> on Architecting the Progressive Web</span></a></p><p><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://cromwellhaus.com/category/uncategorized/" rel="category tag">Uncategorized</a></p>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Building a great web is something the <a href="https://seesparkbox.com">Sparkbox</a> takes very personally. We built what we believe is one of the first RWD e-commerce sites. We constantly battle to improve performance while delivering a great experience, even <a href="https://twitter.com/cromwellryan/status/748328361441771521">for those with a terrible connection</a>. We know we will always be swimming up stream, but today, we believe we have a reasonable architecture for building a progressive web experience that is blazing fast and works for even the most lame devices and connections.</p>
+<p>The crazy thing about this architecture is that it&#8217;s not terribly interesting. Essentially, we let the web do it&#8217;s thing. Javascript not happing, because you stepped into an elevator or happen to run a super old version of IE (we made that choice)? No worries. We server render all the things, accept form POSTs for all mutating interactions, and serve up PNGs instead of SVGs. <a href="https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive">Time to First Interaction</a> a little slow? No problem &#8211; we&#8217;ll disable certain elements to save up for the important stuff.</p>
+<p>We&#8217;ve been exploring parts of this architecture for a few years now, but this past year we&#8217;ve been able to put it all together. Throughout the next year, we&#8217;re going to be sharing how we&#8217;ve done so in the hopes that we can spur on great experiences across the web.</p>
+	</div><!-- .entry-content -->
+</article><!-- #post-## -->
+
+<article id="post-1548" class="post-1548 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header ">
+		<h2 class="entry-title"><a href="https://cromwellhaus.com/2016/08/we-forgot-a-pull-request-when-splitting-a-repo/" rel="bookmark">We forgot a Pull Request when Splitting a Repo</a></h2>		
+		<div class="entry-meta">
+			<p>by <a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></p><p><i class="fa fa-calendar-o" aria-hidden="true"></i>August 31, 2016</p><p><i class="fa fa-clock-o" aria-hidden="true"></i>11:30 pm</p><p><i class="fa fa-comment" aria-hidden="true"></i><a href="https://cromwellhaus.com/2016/08/we-forgot-a-pull-request-when-splitting-a-repo/#respond">Leave a comment<span class="screen-reader-text"> on We forgot a Pull Request when Splitting a Repo</span></a></p><p><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://cromwellhaus.com/category/uncategorized/" rel="category tag">Uncategorized</a></p>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>We&#8217;re working on a little skunk works project at the office and it involved splitting a Github repository in two. After a successful split, I noticed we&#8217;d missed a PR that now impacts both repositories.</p>
+<p>My head went to <code>git format-patch &lt;sha&gt;</code>, but I didn&#8217;t recall an option to target a file spec and at first glance it generates a patch for every commit after that SHA.</p>
+<p><code>git show</code> on the other hand definitely advertises an option to filter<code>git show &lt;sha&gt; -- path/that/moved</code></p>
+<p>Format that as <code>--pretty=email</code> and you can direct the output to a patch for</p>
+<pre>git show --pretty=email &lt;sha&gt; -- path/that/moved&gt; pr-for-other-repo.patch
+</pre>
+<p>Now we can pull that into our other repo with <code> git am -3 pr-for-other-repo.patch</code>.</p>
+<p>Turns out that <code>-- path/that/moved</code> semantic does work with <code>git format-patch</code>. So in the end, we could have just used</p>
+<pre>git format-patch -1 -- path/that/moved
+git am -3 partial-pr.patch
+</pre>
+	</div><!-- .entry-content -->
+</article><!-- #post-## -->
+
+<article id="post-1538" class="post-1538 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header ">
+		<h2 class="entry-title"><a href="https://cromwellhaus.com/2016/01/startyourshift-how-to-make-the-web-better/" rel="bookmark">#startYourShift How to Make the Web Better</a></h2>		
+		<div class="entry-meta">
+			<p>by <a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></p><p><i class="fa fa-calendar-o" aria-hidden="true"></i>January 29, 2016</p><p><i class="fa fa-clock-o" aria-hidden="true"></i>2:06 pm</p><p><i class="fa fa-comment" aria-hidden="true"></i><a href="https://cromwellhaus.com/2016/01/startyourshift-how-to-make-the-web-better/#respond">Leave a comment<span class="screen-reader-text"> on #startYourShift How to Make the Web Better</span></a></p><p><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://cromwellhaus.com/category/uncategorized/" rel="category tag">Uncategorized</a></p>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>My contribution to <a href="https://twitter.com/startYourShift">theShift:</a> a writing project designed to help us produce and consume unique perspectives on topics relevant to the web industry.</p>
+<p><a href="https://twitter.com/hashtag/startYourShift"><img class="alignnone" src="https://www.dropbox.com/sh/pkm6qnumqwc73qo/AAAnPxEhE0r-D7yjIK3QQs4Ja/post-image_The-Shift_gray.jpg?raw=1" alt="a writing project designed to help us produce and consume unique perspectives on topics relevant to the web industry." width="798" height="525" /></a></p>
+<p>A little over 2 years ago I joined Sparkbox. The focus on community, learning, and teaching were all contributors to <a href="http://cromwellhaus.com/2013/10/hello-sparkbox/">that decision</a>. Today we have 4 apprentices (Cat, Bennett, Brittany, and Nate) sitting among our team, double the <a href="http://apprentices.seesparkbox.com#version-3">2014 cohort</a> and 1 more <a href="http://apprentices.seesparkbox.com#version-4">than 2015</a>. <a href="http://buildright.io/maker-series/">Build Right: Maker Series</a> is looking to broaden our horizons by looking beyond HTML, CSS, and even tech to talk about <a href="http://buildright.io/maker-series/2016/sara-chipps">wearables</a>, <a href="http://buildright.io/maker-series/2016/jason-harrison">physical health</a>, and <a href="http://buildright.io/maker-series/2016/jenn-lukas">getting things done</a>.</p>
+<p>At home, we ask of our 4 awesome kids to learn an instrument, play a sport, write books or comics, and learn the skills of Scouts. They fight us all the time, but we know that breadth and awareness is as much an ingredient to success as depth.</p>
+<p>Personally, I&#8217;ve found myself this last year &#8220;without the time&#8221; to explore things beyond my comfort zone. I&#8217;ve not shipped a personal project in over a year. This is my first personal blog post since <em>2014! </em>I&#8217;ve found a rut.</p>
+<p>The Web is a reflection of those building it &#8211; after all The Web is a collection rather than a singular item. As a matter of building a better web, I&#8217;d like to once again make the time to <a href="http://cromwellhaus.com/2012/01/expand-your-normal/">expand my normal</a> by looking outside the web.</p>
+	</div><!-- .entry-content -->
+</article><!-- #post-## -->
+
+<article id="post-1529" class="post-1529 post type-post status-publish format-standard hentry category-elixir">
+
+	
+	<header class="entry-header ">
+		<h2 class="entry-title"><a href="https://cromwellhaus.com/2014/04/installing-erlang-17-for-elixir-0-13-the-easy-way/" rel="bookmark">Installing Erlang 17 for Elixir 0.13 the easy way (Mac)</a></h2>		
+		<div class="entry-meta">
+			<p>by <a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></p><p><i class="fa fa-calendar-o" aria-hidden="true"></i>April 25, 2014</p><p><i class="fa fa-clock-o" aria-hidden="true"></i>1:34 am</p><p><i class="fa fa-comment" aria-hidden="true"></i><a href="https://cromwellhaus.com/2014/04/installing-erlang-17-for-elixir-0-13-the-easy-way/#comments">2 Comments<span class="screen-reader-text"> on Installing Erlang 17 for Elixir 0.13 the easy way (Mac)</span></a></p><p><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://cromwellhaus.com/category/elixir/" rel="category tag">elixir</a></p>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>As of Elixir 0.13, you&#8217;ll need to have Erlang 17 installed.  If you use brew to install erlang then elixir you&#8217;ll find this message awaiting you:</p>
+<pre class="p1">ERROR: OTP release R16B03-1 does not match required regex (17).*</pre>
+<p class="p1">The current Erlang brew formula is still at R16B03-1.  BUT! the development version IS 17.  So here you go:</p>
+<pre class="p1">brew install --devel erlang</pre>
+<p class="p1">I&#8217;m sure this will change soon, but until then this&#8217;ll get you going again.</p>
+	</div><!-- .entry-content -->
+</article><!-- #post-## -->
+
+<article id="post-1507" class="post-1507 post type-post status-publish format-standard hentry category-uncategorized">
+
+	
+	<header class="entry-header ">
+		<h2 class="entry-title"><a href="https://cromwellhaus.com/2013/11/find-contact-shortcut-in-skype-for-mac/" rel="bookmark">Find Contact Shortcut in Skype for Mac</a></h2>		
+		<div class="entry-meta">
+			<p>by <a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></p><p><i class="fa fa-calendar-o" aria-hidden="true"></i>November 26, 2013</p><p><i class="fa fa-clock-o" aria-hidden="true"></i>11:35 am</p><p><i class="fa fa-comment" aria-hidden="true"></i><a href="https://cromwellhaus.com/2013/11/find-contact-shortcut-in-skype-for-mac/#comments">3 Comments<span class="screen-reader-text"> on Find Contact Shortcut in Skype for Mac</span></a></p><p><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://cromwellhaus.com/category/uncategorized/" rel="category tag">Uncategorized</a></p>		</div><!-- .entry-meta -->
+			</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>It&#8217;s well understood that Skype does not advocate usability, but I won&#8217;t take it anymore.  They have <a href="https://support.skype.com/en/faq/FA12074/what-keyboard-shortcuts-can-i-use-with-skype-for-mac-os-x?&amp;site_preference=normal">some shortcuts</a>, but they&#8217;re pretty pitiful.</p>
+<p>I&#8217;m a left hand dominant shortcut-er.  Say what you will about me, but I can&#8217;t make my fingers use <code>CMD+OPTION+F</code> for finding a contact to start a new conversation.  So I created the following shortcut.<br />
+<a href="http://cromwellhaus.com/wp-content/uploads/2013/11/2013-11-26_11-28-45.png"><img class=" wp-image-1508 alignleft" alt="mac-skype-find-shortcut" src="http://cromwellhaus.com/wp-content/uploads/2013/11/2013-11-26_11-28-45.png" width="668" height="598" srcset="https://cromwellhaus.com/wp-content/uploads/2013/11/2013-11-26_11-28-45.png 668w, https://cromwellhaus.com/wp-content/uploads/2013/11/2013-11-26_11-28-45-300x268.png 300w" sizes="(max-width: 668px) 100vw, 668px" /></a></p>
+	</div><!-- .entry-content -->
+</article><!-- #post-## -->
+
+	<nav class="navigation pagination" role="navigation">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span class='page-numbers current'>1</span>
+<a class='page-numbers' href='https://cromwellhaus.com/page/2/'>2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='https://cromwellhaus.com/page/36/'>36</a>
+<a class="next page-numbers" href="https://cromwellhaus.com/page/2/">Next</a></div>
+	</nav>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+	
+		<aside id="footer-sidebar" class="widget-area" role="complementary" aria-label="Footer widgets">
+					</aside>
+	
+		<div class="site-info">
+			<p>&copy;
+			2018			<a href="https://cromwellhaus.com/" rel="home">Ryan Cromwell</a>
+			
+			<span class="sep"></span>
+			
+			<a href="https://wordpress.org/">Powered by WordPress</a>
+			
+			<span class="sep"></span>
+			
+			Theme: <a href="http://alexaweidinger.com/gillian">Gillian</a>		</div><!-- .site-info -->
+		
+		<div class="back-to-top">
+			<a href="#"><i class="fa fa-chevron-up" aria-hidden="true"><span class="screen-reader-text">Back to top</span></i></a>
+		</div>
+		
+		<div class="clearer"></div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-content/themes/gillian/js/mymasonry.js?ver=20160820'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-content/themes/gillian/js/navigation.js?ver=20151215'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-content/themes/gillian/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-content/themes/gillian/js/smooth-scroll.js?ver=20160820'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-content/themes/gillian/js/widget-img-links.js?ver=20160820'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=4.8.5'></script>
+
+</body>
+</html>

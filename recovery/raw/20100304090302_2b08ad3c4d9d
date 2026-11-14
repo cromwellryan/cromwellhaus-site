@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Virtual PC &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Virtual PC Category Feed" href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-544"><a href="http://blog.cromwellhaus.com/index.php/lap-around-wpf/" title="Lap Around WPF">Lap Around WPF</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for the &#8216;Virtual PC&#8217; category</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-738 post hentry category-os category-performance category-powershell category-virtual-pc">
+			<h2 id="post-738"><a href="http://blog.cromwellhaus.com/index.php/2009/07/1-reason-to-stick-with-windows-virtual-pc/" rel="bookmark" title="Permanent Link to 1 reason to stick with Windows Virtual PC">1 reason to stick with Windows Virtual PC</a></h2>
+			<small class="meta">July 10th, 2009 </small>
+
+			<div class="entry">
+				<p>For those who aren’t aware, Windows 7 (which I absolutely love) has the ability to mount and run native Virtual PC VHD’s.&#160; This is huge, but it <a href="http://www.hanselman.com/blog/LessVirtualMoreMachineWindows7AndTheMagicOfBootToVHD.aspx" target="_blank">isn’t exactly a cake walk</a>.&#160; That is until now!&#160; <a href="http://devhawk.net/#" target="_blank">DevHawk</a> has <a href="http://devhawk.net/2009/06/18/AddBcdVhdps1.aspx" target="_blank">provided a PowerShell script</a> to make life beautiful.&#160; Never complain about your Virtual machine performance again… get (all but disk) native performance.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2009/07/1-reason-to-stick-with-windows-virtual-pc/#comments" title="Comment on 1 reason to stick with Windows Virtual PC">2 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/os/" title="View all posts in OS" rel="category tag">OS</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/performance/" title="View all posts in Performance" rel="category tag">Performance</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/powershell/" title="View all posts in Powershell" rel="category tag">Powershell</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-728 post hentry category-software-reviews category-vmware category-virtual-pc">
+			<h2 id="post-728"><a href="http://blog.cromwellhaus.com/index.php/2008/10/why-vmware-over-virtual-pc/" rel="bookmark" title="Permanent Link to Why VMWare over Virtual PC">Why VMWare over Virtual PC</a></h2>
+			<small class="meta">October 21st, 2008 </small>
+
+			<div class="entry">
+				<p>I just found the reason why I’m going to slap down almost $200 bucks for VMWare Workstation over Virtual PC: Unity.&#160; I am using a coworkers VM to help on a project he’s been working on, but he uses VMWare and I use Virtual PC.&#160; Instead of buy a license I’m using <a href="http://www.vmware.com/products/player/">VMWare Player</a>.&#160; Well I found option under VMWare called Unity so of course I clicked it.&#160;&#160; Well it’s possibly the coolest thing I’ve seen ever.&#160; </p>
+<p>Here is my desktop with VMWare running as normal:</p>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_1A338E68.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="VMWare Normal" border="0" alt="VMWare Normal" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_6B212CC3.png" width="640" height="404" /></a> </p>
+<p>&#160;</p>
+<p>and here it is with Unity:</p>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_67BF951B.png"><img style="display: inline" title="image" border="0" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_14389F35.png" width="640" height="404" /></a></p>
+<p>All of the windows/applications that were active inside the VM are now native windows in my host.&#160; Also, when you go down to the start button, a second Start Button with the name of the VM becomes visible that allows you to start other apps in this same mode.&#160; I don’t care what you say, that’s just awesome.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/10/why-vmware-over-virtual-pc/#respond" title="Comment on Why VMWare over Virtual PC">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/vmware/" title="View all posts in VMWare" rel="category tag">VMWare</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-721 post hentry category-virtual-pc">
+			<h2 id="post-721"><a href="http://blog.cromwellhaus.com/index.php/2008/08/reason-29-for-using-virtual-machines/" rel="bookmark" title="Permanent Link to Reason #29 for using Virtual Machines">Reason #29 for using Virtual Machines</a></h2>
+			<small class="meta">August 6th, 2008 </small>
+
+			<div class="entry">
+				<p>Today I blew up a server.&nbsp; Couldn&#8217;t figure something out so I pushed every button I could find, flipped every switch and changed every setting.&nbsp; Nothing.&nbsp; So you know what I did, I deleted it, copied over a new <a href="http://cromwellhaus.com/blogs/ryanc/archive/2008/06/13/sysprep-your-virtual-pc-images.aspx" target="_blank">Sysprepped Hard Drive</a> and had a clean slate in about 5 minutes.</p>
+<p>I figured out my problem, by the way.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/08/reason-29-for-using-virtual-machines/#respond" title="Comment on Reason #29 for using Virtual Machines">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-717 post hentry category-networking category-virtual-pc">
+			<h2 id="post-717"><a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/" rel="bookmark" title="Permanent Link to Setting up a Virtual PC Domain">Setting up a Virtual PC Domain</a></h2>
+			<small class="meta">July 7th, 2008 </small>
+
+			<div class="entry">
+				<p>I do a lot of demos and Virtual PC 2007 is a mainstay in my arsenal for those demos.&nbsp; I&#8217;ve used VMWare Server (the free one) and it is very nice, but I run an x64 OS and VMWare had neglected to sign certain emulation drives which caused me enough headache that I ditched it for the easy of VPC.&nbsp; </p>
+<p>I mentioned using <a href="http://cromwellhaus.com/blogs/ryanc/archive/2008/06/13/sysprep-your-virtual-pc-images.aspx">Syspreping</a> for my VPC library prior which saves me a ton of time, but one of the things I&#8217;ve always started but never finished was setting up a Virtual Domain.&nbsp; Well this weekend, I finished things up and I&#8217;m happy to say, it wasn&#8217;t that bad.&nbsp; </p>
+<p>Here&#8217;s what I did:</p>
+<p><strong>Create My Domain Controller Machine</strong> by copying a Syspreped Window 2008 Server harddrive image and creating a new Virtual PC using an existing hard drive.&nbsp; About 120 seconds later I have a free standing vanilla server ready to roll.</p>
+<p><strong><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_8.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="174" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_3.png" width="240" align="right" border="0"></a>Configure Network Adapter(s) </strong>by specifying <em>Local Only</em> in the VPC&#8217;s Network Settings.&nbsp; </p>
+<p>At this point you&#8217;ll want to log into VPC if you haven&#8217;t already.&nbsp; We&#8217;ll want to isolate our domain and let each of the workstation VPC&#8217;s communicate with the domain controller by going into the Network Adapter&#8217;s properties.&nbsp; Our little domain network is going to be rather isolated.&nbsp; To accomplish this, we will specify a specific Subnet and IP address range.&nbsp; Here is what I&#8217;ve used for mine:</p>
+<blockquote><p>IP Range: 192.168.8.1 &#8211; 254 (where 192.168.8.1 is my domain controller IP)<br />Subnet Mask: 255.255.248.0<br />Gateway: 192.168.8.1 (DC/DNS server)<br />Primary DNS: 192.168.8.1 (DC/DNS server)</p>
+</blockquote>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_4.png"><strong><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="205" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_1.png" width="244" align="right" border="0"></strong></a><strong> Setting up Active Directory</strong> is a breeze if you do it the easy way.&nbsp; Of course, I did it the easy way the last time.&nbsp; (Note to self: when just learning, take the defaults).&nbsp; Windows Server 2003 and 2008 have this concept of Roles.&nbsp; A server can fill one or more roles which are the conglomeration of settings, services, etc to do something more abstract&#8230; like be a DC.&nbsp; We are going to add the role <em>Active Directory Domain Services</em>.&nbsp;&nbsp; </p>
+<p>After the Add Role wizard does it&#8217;s thing, you actually &#8220;promote&#8221; the machine to a DC by running dcpromo.exe (Start, dcpromo, Enter).&nbsp; This is where you make your selections, which in this case, I&#8217;ve chosen:</p>
+<blockquote><p>Create a new domain in a new forest<br />FQDN: vpc.com</p>
+</blockquote>
+<p>You&#8217;ll want to let the machine also be a DNS server.&nbsp; This is where I screwed up the first time.&nbsp; Don&#8217;t get scared here, with our networking settings this domain we&#8217;re setting up won&#8217;t touch your corporate domain or anything crazy like that.</p>
+<p>Let the Wizard do it&#8217;s thing and reboot when it is complete.</p>
+<p>Your Active Directory Domain Controller is ready to roll.&nbsp; Great job. </p>
+<p><strong>Adding Workstations </strong>is a matter of adding a Computer entry into the <em>Active Directory Users and Computers</em> console and then actually adding the computer to the domain.&nbsp; You&#8217;ll find the AD Users and Computers MMC console in Administrative Tools.&nbsp; Once you&#8217;ve added a computer entry, log into another VPC instance which has the same Network Adapter settings as above (different IP of course .2, .3, etc) and add the machine to the domain (vpc.com) in my case.&nbsp; </p>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_10.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_4.png" width="222" align="right" border="0"></a>Here&#8217;s a quick screen capture of my Network Adapter on the Workstation I added to the domain.</p>
+<p>It&#8217;s great being able to demo Enterprise software this way or test things like integrated authentication for intranet applications. </p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/setting-up-a-virtual-pc-domain/#comments" title="Comment on Setting up a Virtual PC Domain">3 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/networking/" title="View all posts in Networking" rel="category tag">Networking</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-716 post hentry category-virtual-pc">
+			<h2 id="post-716"><a href="http://blog.cromwellhaus.com/index.php/2008/07/did-you-know-screenshots-of-virtual-pc-instances/" rel="bookmark" title="Permanent Link to Did you know?  Screenshots of Virtual PC Instances">Did you know?  Screenshots of Virtual PC Instances</a></h2>
+			<small class="meta">July 7th, 2008 </small>
+
+			<div class="entry">
+				<p>If you are running a VPC instance and you&#8217;d like to take a screenshot of something on the VPC, did you know you can do that without any photo editing hassle?</p>
+<p>Simply make sure you aren&#8217;t &#8220;in&#8221; the VPC (hit the right Alt key if you are).&nbsp; Now click and drag a square around the portion of the VM you want to capture.&nbsp; CTRL+C or Edit -&gt; Copy will capture the section to the clipboard and you can paste it wherever.&nbsp; </p>
+<p>Nice touch.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/did-you-know-screenshots-of-virtual-pc-instances/#respond" title="Comment on Did you know?  Screenshots of Virtual PC Instances">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-709 post hentry category-virtual-pc">
+			<h2 id="post-709"><a href="http://blog.cromwellhaus.com/index.php/2008/06/sysprep-your-virtual-pc-images/" rel="bookmark" title="Permanent Link to SysPrep Your Virtual PC Images">SysPrep Your Virtual PC Images</a></h2>
+			<small class="meta">June 13th, 2008 </small>
+
+			<div class="entry">
+				<p>I create a lot of Virtual PC images, be they for demos, testing, or actual work.&nbsp; If you haven&#8217;t started using Virtual PC all the time, start.&nbsp; When you do, start syspreping your machines and you&#8217;ll save yourself a ton of time and find Virtual PC that much more useful.</p>
+<p><a href="http://www.windowsnetworking.com/articles_tutorials/Creating-Sysprep-Image-Library-Virtual-PC.html">Here</a> is a step-by-step guide.&nbsp; Run, do it now.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/06/sysprep-your-virtual-pc-images/#respond" title="Comment on SysPrep Your Virtual PC Images">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-706 post hentry category-networking category-virtual-pc">
+			<h2 id="post-706"><a href="http://blog.cromwellhaus.com/index.php/2008/03/virtual-pc-and-network-places/" rel="bookmark" title="Permanent Link to Virtual PC and Network Places">Virtual PC and Network Places</a></h2>
+			<small class="meta">March 21st, 2008 </small>
+
+			<div class="entry">
+				<p>I use Virtual PC a lot, especially for development.&nbsp; I try to emulate a mini-infrastructure of how I&#8217;ll be deploying my solutions, so no SQL Server on my box, no IIS on my box, etc.&nbsp; To support this I use <a href="http://blogs.msdn.com/virtual_pc_guy/">Virtual PC Guy&#8217;s</a>&nbsp;<a href="http://blogs.msdn.com/virtual_pc_guy/archive/2005/10/04/477195.aspx">steps</a> for enabling communication between my host and the VPC&#8217;s.&nbsp; If you are on an Active Directory environment this can have a pretty negative impact on name resolution, specifically when browsing through &#8220;My Network Places&#8221; (XP) or just &#8220;Network&#8221; (Vista).&nbsp; <a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/VirtualPCandNetworkPlaces_978C/image_4.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/VirtualPCandNetworkPlaces_978C/image_thumb_1.png" width="198" align="right" border="0"></a>If you are running into this and it bugs you, go into your Microsoft Loopback Adapter properties and disable/uncheck &#8220;Client for Microsoft Networks&#8221;.&nbsp; I personally disable everything except Virtual Machine Network Services and IPv4 since this just a small private network running on my computer.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/03/virtual-pc-and-network-places/#respond" title="Comment on Virtual PC and Network Places">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/networking/" title="View all posts in Networking" rel="category tag">Networking</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for the Virtual PC category.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    
+      <li class="categories"><div class="sb-title">Categories</div><ul>	<li class="cat-item cat-item-199"><a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts filed under .Net">.Net</a> (33)
+</li>
+	<li class="cat-item cat-item-200"><a href="http://blog.cromwellhaus.com/index.php/category/code/" title="View all posts filed under Code">Code</a> (1)
+</li>
+	<li class="cat-item cat-item-201"><a href="http://blog.cromwellhaus.com/index.php/category/community/" title="View all posts filed under Community">Community</a> (1)
+</li>
+	<li class="cat-item cat-item-202"><a href="http://blog.cromwellhaus.com/index.php/category/hardware/" title="View all posts filed under Hardware">Hardware</a> (1)
+</li>
+	<li class="cat-item cat-item-203"><a href="http://blog.cromwellhaus.com/index.php/category/iis/" title="View all posts filed under IIS">IIS</a> (1)
+</li>
+	<li class="cat-item cat-item-227"><a href="http://blog.cromwellhaus.com/index.php/category/ioc/" title="View all posts filed under IoC">IoC</a> (2)
+</li>
+	<li class="cat-item cat-item-204"><a href="http://blog.cromwellhaus.com/index.php/category/languages/" title="View all posts filed under Languages">Languages</a> (1)
+</li>
+	<li class="cat-item cat-item-205"><a href="http://blog.cromwellhaus.com/index.php/category/mvc/" title="View all posts filed under MVC">MVC</a> (4)
+</li>
+	<li class="cat-item cat-item-206"><a href="http://blog.cromwellhaus.com/index.php/category/nerd-dinner/" title="View all posts filed under Nerd Dinner">Nerd Dinner</a> (1)
+</li>
+	<li class="cat-item cat-item-207"><a href="http://blog.cromwellhaus.com/index.php/category/networking/" title="View all posts filed under Networking">Networking</a> (2)
+</li>
+	<li class="cat-item cat-item-208"><a href="http://blog.cromwellhaus.com/index.php/category/nhibernate/" title="View all posts filed under NHibernate">NHibernate</a> (3)
+</li>
+	<li class="cat-item cat-item-209"><a href="http://blog.cromwellhaus.com/index.php/category/oracle/" title="View all posts filed under Oracle">Oracle</a> (1)
+</li>
+	<li class="cat-item cat-item-210"><a href="http://blog.cromwellhaus.com/index.php/category/os/" title="View all posts filed under OS">OS</a> (1)
+</li>
+	<li class="cat-item cat-item-211"><a href="http://blog.cromwellhaus.com/index.php/category/performance/" title="View all posts filed under Performance">Performance</a> (4)
+</li>
+	<li class="cat-item cat-item-212"><a href="http://blog.cromwellhaus.com/index.php/category/personal/" title="View all posts filed under Personal">Personal</a> (4)
+</li>
+	<li class="cat-item cat-item-213"><a href="http://blog.cromwellhaus.com/index.php/category/powershell/" title="View all posts filed under Powershell">Powershell</a> (3)
+</li>
+	<li class="cat-item cat-item-228"><a href="http://blog.cromwellhaus.com/index.php/category/scrum/" title="View all posts filed under Scrum">Scrum</a> (2)
+</li>
+	<li class="cat-item cat-item-214"><a href="http://blog.cromwellhaus.com/index.php/category/silverlight/" title="View all posts filed under Silverlight">Silverlight</a> (2)
+</li>
+	<li class="cat-item cat-item-215"><a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts filed under Software Reviews">Software Reviews</a> (15)
+</li>
+	<li class="cat-item cat-item-216"><a href="http://blog.cromwellhaus.com/index.php/category/speedy-rewards/" title="View all posts filed under Speedy Rewards">Speedy Rewards</a> (1)
+</li>
+	<li class="cat-item cat-item-217"><a href="http://blog.cromwellhaus.com/index.php/category/sql-server/" title="View all posts filed under SQL Server">SQL Server</a> (2)
+</li>
+	<li class="cat-item cat-item-218"><a href="http://blog.cromwellhaus.com/index.php/category/tfs/" title="View all posts filed under TFS">TFS</a> (5)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a> (18)
+</li>
+	<li class="cat-item cat-item-219 current-cat"><a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts filed under Virtual PC">Virtual PC</a> (7)
+</li>
+	<li class="cat-item cat-item-220"><a href="http://blog.cromwellhaus.com/index.php/category/vista/" title="View all posts filed under Vista">Vista</a> (1)
+</li>
+	<li class="cat-item cat-item-221"><a href="http://blog.cromwellhaus.com/index.php/category/vista-sidebar/" title="View all posts filed under Vista Sidebar">Vista Sidebar</a> (1)
+</li>
+	<li class="cat-item cat-item-222"><a href="http://blog.cromwellhaus.com/index.php/category/visual-studio/" title="View all posts filed under Visual Studio">Visual Studio</a> (1)
+</li>
+	<li class="cat-item cat-item-223"><a href="http://blog.cromwellhaus.com/index.php/category/vmware/" title="View all posts filed under VMWare">VMWare</a> (1)
+</li>
+	<li class="cat-item cat-item-224"><a href="http://blog.cromwellhaus.com/index.php/category/wcf/" title="View all posts filed under WCF">WCF</a> (1)
+</li>
+	<li class="cat-item cat-item-225"><a href="http://blog.cromwellhaus.com/index.php/category/windsor/" title="View all posts filed under Windsor">Windsor</a> (2)
+</li>
+	<li class="cat-item cat-item-226"><a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts filed under WPF">WPF</a> (24)
+</li>
+</ul></li>  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

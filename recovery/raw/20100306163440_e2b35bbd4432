@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Binding to an Image Byte[] in WPF &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Binding to an Image Byte[] in WPF Comments Feed" href="http://blog.cromwellhaus.com/index.php/2007/07/binding-to-the-byte-of-an-image-in-wpf/feed/" />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<link rel='start' title='Dayton-Cincinnati Code Camp' href='http://blog.cromwellhaus.com/index.php/2005/12/dayton-cincinnati-code-camp/' />
+<link rel='prev' title='WPF ScaleTransform Direction' href='http://blog.cromwellhaus.com/index.php/2007/06/wpf-scaletransform-direction/' />
+<link rel='next' title='&quot;This problem is being researched&quot;' href='http://blog.cromwellhaus.com/index.php/2007/08/quot-this-problem-is-being-researched-quot/' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-544"><a href="http://blog.cromwellhaus.com/index.php/lap-around-wpf/" title="Lap Around WPF">Lap Around WPF</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+	
+		<div class="post-685 post hentry category-net category-wpf" id="post-685">
+			<h1>Binding to an Image Byte[] in WPF</h1>
+			<small class="meta">
+  			<span class="alignleft">
+          July 26th, 2007 by ryan            			</span>
+        <a href="#comments" class="alignright button-style" rel="nofollow">Leave a reply &raquo;</a>
+      </small>
+
+			<div class="entry">
+				<p>I&#8217;m working on a&nbsp;WPF app for my wife who coaches our local high school track team.&nbsp; One of the features she wanted was to have some images for different players and teams and, religious debate aside, I have chosen to save these in SQL Server 2005.&nbsp; I&#8217;m using <a href="http://www.hibernate.org/343.html" mce_href="http://www.hibernate.org/343.html">NHibernate</a>&nbsp;for all my data access which has been a great experience (my first).&nbsp; Impressively, NHibernate supports SQL Server <i>Image</i> columns via the inherent <i>Byte[]&nbsp;</i> type (See Section 5.1.9 of the <a href="http://www.hibernate.org/hib_docs/nhibernate/html/mapping.html" mce_href="http://www.hibernate.org/hib_docs/nhibernate/html/mapping.html">docs</a>).&nbsp; This made adding the Image to my classes <b>very</b> easy.&nbsp; </p>
+<p>Here&#8217;s a snippet of my class with the corresponding NHibernate Mapping Xml File:</p>
+<blockquote><pre class="code"><span style="color: rgb(0, 128, 0);">/* Class */</span>[<span style="color: rgb(0, 128, 128);">Serializable</span>]<span style="color: rgb(0, 0, 255);">public</span> <span style="color: rgb(0, 0, 255);">class</span> <span style="color: rgb(0, 128, 128);">Organization</span> : <span style="color: rgb(0, 128, 128);">INotifyPropertyChanged</span>{       <span style="color: rgb(0, 128, 0);">//...
+
+</span>    <span style="color: rgb(0, 0, 255);">public</span> <span style="color: rgb(0, 0, 255);">byte</span>[] Image    {        <span style="color: rgb(0, 0, 255);">get</span> { <span style="color: rgb(0, 0, 255);">return</span> _image; }        <span style="color: rgb(0, 0, 255);">set</span>        {            _image = <span style="color: rgb(0, 0, 255);">value</span>;            OnPropertyChanged(<span style="color: rgb(128, 0, 0);">"Image"</span>);        }    }
+
+    <span style="color: rgb(0, 128, 0);">//...</span>}  </pre>
+<pre class="code"><span style="color: rgb(0, 0, 255);">&lt;!--</span><span style="color: rgb(0, 128, 0);"> Mapping </span><span style="color: rgb(0, 0, 255);">--&gt;&lt;</span><span style="color: rgb(128, 0, 0);">hibernate-mapping</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">xmlns</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">urn:nhibernate-mapping-2.2</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">default-lazy</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">&gt;  &lt;</span><span style="color: rgb(128, 0, 0);">class</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Cromwell.MyApp.Organization, Cromwell.MyApp</span>"<span style="color: rgb(0, 0, 255);">          </span><span style="color: rgb(255, 0, 0);">table</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">dbo.Organization</span>"<span style="color: rgb(0, 0, 255);">&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">id</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Id</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Int32</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Id</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">unsaved-value</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">0</span>"<span style="color: rgb(0, 0, 255);">&gt;      &lt;</span><span style="color: rgb(128, 0, 0);">generator</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">class</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">native</span>"<span style="color: rgb(0, 0, 255);"> /&gt;    &lt;/</span><span style="color: rgb(128, 0, 0);">id</span><span style="color: rgb(0, 0, 255);">&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">many-to-one</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Type</span>"<span style="color: rgb(0, 0, 255);">                  </span><span style="color: rgb(255, 0, 0);">class</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Cromwell.MyApp.OrganizationType, Cromwell.MyApp</span>"<span style="color: rgb(0, 0, 255);">                  </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Type</span>"<span style="color: rgb(0, 0, 255);">                  </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">true</span>"<span style="color: rgb(0, 0, 255);">/&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Name</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">255</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Name</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">true</span>"<span style="color: rgb(0, 0, 255);">/&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Address1</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">255</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Address1</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Address2</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">255</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Address2</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">City</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">255</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">City</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">State</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">2</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">State</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">PostalCode</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">7</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">PostalCode</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Image</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Byte[]</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Image</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);"> /&gt;  &lt;/</span><span style="color: rgb(128, 0, 0);">class</span><span style="color: rgb(0, 0, 255);">&gt;&lt;/</span><span style="color: rgb(128, 0, 0);">hibernate-mapping</span><span style="color: rgb(0, 0, 255);">&gt;</span></pre>
+</blockquote>
+<p>The key to binding this Image property on my WPF forms is the Binding <a href="http://cromwellhaus.com/controlpanel/blogs/I%27m%20working%20on%20a%20WPF%20app%20for%20my%20wife%20who%20coaches%20our%20local%20high%20school%20track%20team.%20%20One%20of%20the%20features%20she%20wanted%20was%20to%20have%20some%20images%20for%20different%20players%20and%20teams%20and,%20religious%20debate%20aside,%20I%20have%20chosen%20to%20save%20these%20in%20SQL%20Server%202005.%20%20I%27m%20using%20NHibernate%20for%20all%20my%20data%20access%20which%20has%20been%20a%20great%20experience%20%28my%20first%29.%20%20Impressively,%20NHibernate%20supports%20SQL%20Server%20Image%20columns%20via%20the%20inherent%20Byte%5B%5D%20%20type%20%28See%20Section%205.1.9%20of%20the%20docs%29.%20%20This%20made%20adding%20the%20Image%20to%20my%20classes%20very%20easy.">Converter</a> property.&nbsp; This property allows you to specify any class which implements <a href="http://msdn2.microsoft.com/en-us/library/system.windows.data.ivalueconverter.aspx" mce_href="http://msdn2.microsoft.com/en-us/library/system.windows.data.ivalueconverter.aspx">System.Windows.Data.IValueConverter</a>&nbsp;to act as an intermediary between your bind data and WPF.&nbsp; In my case, the goal was to turn a byte[] property, Image, into a <a href="http://msdn2.microsoft.com/en-us/library/system.windows.media.imaging.bitmapimage.aspx" mce_href="http://msdn2.microsoft.com/en-us/library/system.windows.media.imaging.bitmapimage.aspx">BitmapImage</a> which the an <a href="http://msdn2.microsoft.com/en-us/library/ms746717.aspx" mce_href="http://msdn2.microsoft.com/en-us/library/ms746717.aspx">&lt;Image /&gt;</a> control/element can display.&nbsp; </p>
+<p>Here&#8217;s what I came up with:</p>
+<blockquote><pre class="code"><span style="color: rgb(0, 0, 255);">class</span> <span style="color: rgb(0, 128, 128);">BinaryImageConverter</span> : <span style="color: rgb(0, 128, 128);">IValueConverter</span>{    <span style="color: rgb(0, 0, 255);">object</span> <span style="color: rgb(0, 128, 128);">IValueConverter</span>.Convert( <span style="color: rgb(0, 0, 255);">object</span> value,         <span style="color: rgb(0, 128, 128);">Type</span> targetType,         <span style="color: rgb(0, 0, 255);">object</span> parameter,         System.Globalization.<span style="color: rgb(0, 128, 128);">CultureInfo</span> culture )    {        <span style="color: rgb(0, 0, 255);">if</span>(value != <span style="color: rgb(0, 0, 255);">null</span> &amp;&amp; value <span style="color: rgb(0, 0, 255);">is</span> <span style="color: rgb(0, 0, 255);">byte</span>[])        {            <span style="color: rgb(0, 0, 255);">byte</span>[] bytes = value <span style="color: rgb(0, 0, 255);">as</span> <span style="color: rgb(0, 0, 255);">byte</span>[];
+
+            <span style="color: rgb(0, 128, 128);">MemoryStream</span> stream = <span style="color: rgb(0, 0, 255);">new</span> <span style="color: rgb(0, 128, 128);">MemoryStream</span>( bytes );
+
+            <span style="color: rgb(0, 128, 128);">BitmapImage</span> image = <span style="color: rgb(0, 0, 255);">new</span> <span style="color: rgb(0, 128, 128);">BitmapImage</span>();            image.BeginInit();            image.StreamSource = stream;            image.EndInit();
+
+            <span style="color: rgb(0, 0, 255);">return</span> image;        }
+
+        <span style="color: rgb(0, 0, 255);">return</span> <span style="color: rgb(0, 0, 255);">null</span>;    }
+
+    <span style="color: rgb(0, 0, 255);">object</span> <span style="color: rgb(0, 128, 128);">IValueConverter</span>.ConvertBack( <span style="color: rgb(0, 0, 255);">object</span> value,         <span style="color: rgb(0, 128, 128);">Type</span> targetType,         <span style="color: rgb(0, 0, 255);">object</span> parameter,         System.Globalization.<span style="color: rgb(0, 128, 128);">CultureInfo</span> culture )    {        <span style="color: rgb(0, 0, 255);">throw</span> <span style="color: rgb(0, 0, 255);">new</span> <span style="color: rgb(0, 128, 128);">Exception</span>( <span style="color: rgb(128, 0, 0);">"The method or operation is not implemented."</span> );    }}</pre>
+<p><a href="http://11011.net/software/vspaste" mce_href="http://11011.net/software/vspaste"></a></p></blockquote>
+<p>Here&#8217;s how I used it in my WPF Page:</p>
+<blockquote><pre class="code"><span style="color: rgb(0, 0, 255);">&lt;</span><span style="color: rgb(128, 0, 0);">Page</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">x:Class</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Cromwell.MyApp.EditOrganization</span>"<span style="color: rgb(0, 0, 255);">    </span><span style="color: rgb(255, 0, 0);">...</span><span style="color: rgb(0, 0, 255);">      </span><span style="color: rgb(255, 0, 0);">xmlns:converts</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">clr-namespace:Cromwell.MyApp.Converters</span>"<span style="color: rgb(0, 0, 255);">    &gt;    &lt;</span><span style="color: rgb(128, 0, 0);">Page.Resources</span><span style="color: rgb(0, 0, 255);">&gt;      &lt;</span><span style="color: rgb(128, 0, 0);">converts:BinaryImageConverter</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">x:Key</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">imgConverter</span>"<span style="color: rgb(0, 0, 255);"> /&gt;    &lt;/</span><span style="color: rgb(128, 0, 0);">Page.Resources</span><span style="color: rgb(0, 0, 255);">&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">Grid</span><span style="color: rgb(0, 0, 255);">&gt;    &lt;!--</span><span style="color: rgb(0, 128, 0);"> Image Control </span><span style="color: rgb(0, 0, 255);">--&gt;    &lt;</span><span style="color: rgb(128, 0, 0);">Image</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">Source</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">{Binding Path=Image,                     Converter={StaticResource imgConverter}}</span>"<span style="color: rgb(0, 0, 255);">            </span><span style="color: rgb(255, 0, 0);">Stretch</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">UniformToFill</span>"<span style="color: rgb(0, 0, 255);">       </span><span style="color: rgb(255, 0, 0);">StretchDirection</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Both</span>"<span style="color: rgb(0, 0, 255);">&gt;      &lt;</span><span style="color: rgb(128, 0, 0);">Image.BitmapEffect</span><span style="color: rgb(0, 0, 255);">&gt;        &lt;</span><span style="color: rgb(128, 0, 0);">DropShadowBitmapEffect</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">Color</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Black</span>"<span style="color: rgb(0, 0, 255);"> /&gt;      &lt;/</span><span style="color: rgb(128, 0, 0);">Image.BitmapEffect</span><span style="color: rgb(0, 0, 255);">&gt;    &lt;/</span><span style="color: rgb(128, 0, 0);">Image</span><span style="color: rgb(0, 0, 255);">&gt;  &lt;/</span><span style="color: rgb(128, 0, 0);">Grid</span><span style="color: rgb(0, 0, 255);">&gt;&lt;/</span><span style="color: rgb(128, 0, 0);">Page</span><span style="color: rgb(0, 0, 255);">&gt;</span></pre>
+<p><a href="http://11011.net/software/vspaste" mce_href="http://11011.net/software/vspaste"></a><a href="http://11011.net/software/vspaste" mce_href="http://11011.net/software/vspaste"></a></p></blockquote>
+<p>I&#8217;m going to have to spend some time in the WPF profiler, but this is a big step.&nbsp; Pretty cool how simple it was and very clean.</p>
+				
+      	<ul class="previousnext clearfix">
+      		<li class="previous_post"><a href="http://blog.cromwellhaus.com/index.php/2007/06/wpf-scaletransform-direction/"><span>Previous Entry:</span> WPF ScaleTransform Direction</a></li>      		<li class="next_post"><a href="http://blog.cromwellhaus.com/index.php/2007/08/quot-this-problem-is-being-researched-quot/"><span>Next Entry:</span> &quot;This problem is being researched&quot;</a></li>      	</ul>
+			</div>
+			
+			<div class="postmetadata">
+			  <p class="categories">
+			    Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+  			        <p class="infos">
+						You can follow any responses to this entry through the <a href="http://blog.cromwellhaus.com/index.php/2007/07/binding-to-the-byte-of-an-image-in-wpf/feed/" rel="nofollow">RSS 2.0 Feed</a>. 
+
+													You can <a href="#respond">leave a response</a> , or <a href="http://blog.cromwellhaus.com/index.php/2007/07/binding-to-the-byte-of-an-image-in-wpf/trackback/" rel="trackback nofollow">trackback</a> from your own site.
+
+											</p>
+				</div>
+
+      <div class="something">
+  Advertisement		
+  <div class="somethingspecial">
+      </div>
+</div>
+		</div>
+
+  	
+<!-- You can start editing here. -->
+
+
+  <div class="comments-header clearfix">
+  	<h3 id="comments">4 comments</h3>
+    <div class="comments-header-meta">
+      <a href="#respond">Add your comment</a>
+      <!--
+      |
+      <a href="http://blog.cromwellhaus.com/index.php/2007/07/binding-to-the-byte-of-an-image-in-wpf/trackback/" rel="trackback">trackback</a>
+      -->
+    </div>
+
+  </div> <!-- comments-header -->
+
+
+	<div class="navigation">
+						
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+
+  <ol class="commentlist">
+  		<li class="comment even thread-even depth-1" id="comment-467">
+				<div id="div-comment-467" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=32' class='avatar avatar-32 photo avatar-default' height='32' width='32' />		<cite class="fn"><a href='http://blogs.infosys.com/microsoft' rel='external nofollow' class='url'>Atul Gupta</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://blog.cromwellhaus.com/index.php/2007/07/binding-to-the-byte-of-an-image-in-wpf/comment-page-1/#comment-467">February 13, 2008 at 9:31 am</a></div>
+
+		<p>This is good. Thanks</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-468">
+				<div id="div-comment-468" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=32' class='avatar avatar-32 photo avatar-default' height='32' width='32' />		<cite class="fn">carlos</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://blog.cromwellhaus.com/index.php/2007/07/binding-to-the-byte-of-an-image-in-wpf/comment-page-1/#comment-468">January 14, 2009 at 8:16 pm</a></div>
+
+		<p>can you put the source code please</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment even thread-even depth-1" id="comment-469">
+				<div id="div-comment-469" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://www.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=32' class='avatar avatar-32 photo avatar-default' height='32' width='32' />		<cite class="fn">cromwellryan</cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://blog.cromwellhaus.com/index.php/2007/07/binding-to-the-byte-of-an-image-in-wpf/comment-page-1/#comment-469">January 14, 2009 at 9:09 pm</a></div>
+
+		<p>I&#8217;ll do what I can.  All the code is above so you could pretty easily (couple minutes) copy and paste this into your own visual studio project.</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+		<li class="comment odd alt thread-odd thread-alt depth-1" id="comment-746">
+				<div id="div-comment-746" class="comment-body">
+				<div class="comment-author vcard">
+		<img alt='' src='http://www.gravatar.com/avatar/c5dec8179ac5374d3db5ad09d14f5752?s=32&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D32&amp;r=G' class='avatar avatar-32 photo' height='32' width='32' />		<cite class="fn"><a href='http://autokaufreak355.blogetery.com/2009/11/23/flash-loops-and-why-they-are-what-they-are-today/' rel='external nofollow' class='url'>Flashmob</a></cite> <span class="says">says:</span>		</div>
+
+		<div class="comment-meta commentmetadata"><a href="http://blog.cromwellhaus.com/index.php/2007/07/binding-to-the-byte-of-an-image-in-wpf/comment-page-1/#comment-746">December 3, 2009 at 10:32 am</a></div>
+
+		<p>Ive been researching this and I&#8217;ll have to agree</p>
+
+		<div class="reply">
+				</div>
+				</div>
+		</li>
+  </ol>
+
+
+	<div class="navigation">
+		<div class="alignleft"></div>
+		<div class="alignright"></div>
+	</div>
+
+	
+	
+
+
+
+
+
+
+
+  <div id="respond">
+    <h3>Leave a Reply</h3>
+    <div class="cancel-comment-reply">
+    	    	<a rel="nofollow" id="cancel-comment-reply-link" href="/index.php/2007/07/binding-to-the-byte-of-an-image-in-wpf#respond" style="display:none;">Click here to cancel reply.</a>    	
+    </div>
+  
+    
+  <form action="http://blog.cromwellhaus.com/wp-comments-post.php" method="post" id="commentform">
+  
+    
+  <div class="respond-left">
+    <p><input type="text" name="author" id="author" value="" size="22" tabindex="1" aria-required='true' />
+    <label for="author">Name (required)</label></p>
+    
+    <p><input type="text" name="email" id="email" value="" size="22" tabindex="2" aria-required='true' />
+    <label for="email">Mail (will not be published) (required)</label></p>
+    
+    <p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+    <label for="url">Website</label></p>
+  </div>
+  
+    
+  <!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+  
+  <div class="respond-right">
+    <textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea>
+    <p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+    <input type='hidden' name='comment_post_ID' value='685' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+    </p>
+      </div>
+  
+  </form>
+  
+    </div>
+
+  	 
+
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+<li>
+	<ul class="sb-tools clearfix">
+		<li class="previous-post"><a href="http://blog.cromwellhaus.com/index.php/2007/06/wpf-scaletransform-direction/"><span>Previous Entry</span> WPF ScaleTransform Direction</a></li>		<li class="next-post"><a href="http://blog.cromwellhaus.com/index.php/2007/08/quot-this-problem-is-being-researched-quot/"><span>Next Entry</span> &quot;This problem is being researched&quot;</a></li>	</ul>	
+</li>
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+	
+</ul>
+
+<ul class="group">
+  
+    
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

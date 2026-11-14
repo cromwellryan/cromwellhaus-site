@@ -1,0 +1,795 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>.Net &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; .Net Category Feed" href="http://blog.cromwellhaus.com/index.php/category/net/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-544"><a href="http://blog.cromwellhaus.com/index.php/lap-around-wpf/" title="Lap Around WPF">Lap Around WPF</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for the &#8216;.Net&#8217; category</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"><a href="http://blog.cromwellhaus.com/index.php/category/net/page/2/" >&laquo; Older Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-787 post hentry category-net category-testing category-visual-studio">
+			<h2 id="post-787"><a href="http://blog.cromwellhaus.com/index.php/2010/07/resharper-test-runner-and-mstest-projects/" rel="bookmark" title="Permanent Link to ReSharper Test Runner and MSTest Projects">ReSharper Test Runner and MSTest Projects</a></h2>
+			<small class="meta">July 21st, 2010 </small>
+
+			<div class="entry">
+				<p>One of my biggest irritants with the Unit Testing ecosystem is that each runner does things a little different. <a href="http://gallio.org/">Gallio</a> has helped solve this to some extent, but even that hasn’t solved all the problems that come with content or resource file deployments, coverage settings, etc.&#160; Gallio’s goal is noble if not arrogant, become the <em>Runner to Rule Them All.</em>&#160; </p>
+<p>Unlikely.<em>&#160; </em></p>
+<p><a href="http://www.jetbrains.com/resharper/index.html">ReSharper</a>, on the other hand, has taken the Switzerland approach and tries to be true to each testing frameworks settings and run modes.&#160; It has a gap in regards to MSTest at this point, though.&#160; (Who uses MSTest you say?&#160; Lots of people.&#160; You wanted unit testing to become common place, remember?&#160; Stop complaining.)&#160; ReSharper gives you this nasty warning when running your MSTests with Code Coverage enabled.</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" class="wlDisabledImage" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image_thumb.png" width="281" height="169" /></a></p>
+<p>See MSTest is actually pretty sweet when it comes to data capture.&#160; It might not be blazing fast, but it lets you capture an awful lot of information in different situations.&#160; In order to support those different situations nicely there is this file type called Test Settings (*.testsettings).&#160; <a href="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image1.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" class="wlDisabledImage" title="image" border="0" alt="image" align="right" src="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image_thumb1.png" width="244" height="182" /></a>Test Settings files live in your solution folder and you can have a bunch of them.&#160; In fact, Visual Studio 2010 gives you two by default: Local.testsettings and TraceAndTestImpact.testsettings.&#160; </p>
+<p>Local.testsettings doesn’t capture anything by default, but one of the first thing everyone tends to look for when running tests is <a href="http://en.wikipedia.org/wiki/Code_coverage">code coverage</a>.&#160; Since Local.testsettings are their default and people don’t realize you can change your active test settings they open Local.testsettings, choose Data and Diagnostics and check Code Coverage (and probably other things that sound interesting).</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image2.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" class="wlDisabledImage" title="Enabling Code Coverage in Data and Diagnostics of Local.testsettings" border="0" alt="Enable Code Coverage in Data and Diagnostics of Local.testsettings" src="http://blog.cromwellhaus.com/wp-content/uploads/2010/07/image_thumb2.png" width="244" height="221" /></a></p>
+<p>Now you’ve eliminated Resharper as a Test Runner.&#160; But you don’t have too!&#160; Remember how I said you can have a bunch of those .testsettings files and eluded to the fact that one can be made <em>Active.</em>&#160; Here’s what you’re going to do:</p>
+<ol>
+<li>Right click the Solution Items folder (don’t put them in a different solution folder, VS doesn’t like that, sorry).</li>
+<li>Click Add –&gt; New Item </li>
+<li>Under Installed Templates (VS 2010) select Test Settings.</li>
+<li>Name the new file ReSharper.testsettings (or whatever makes you happy really) and click ok.</li>
+</ol>
+<p>The Test Settings editor dialog will come up, but you don’t need to change a thing if you don’t want or need.&#160; Data and Diagnostics will be empty which is good for ReSharper.&#160; At this point, you can go to the Test menu option, open Select Active Test Settings and choose your new settings (ReSharper.testsettings in our example).</p>
+<p>That’s it, use ReSharper all you like.&#160; There are some other nice things that ReSharper will do for you in regards to abiding by deployment options for content files and things like that, but we’ll save that for a different day.&#160; <a href="http://screencast.com/t/NWQwYWVj" target="_blank">Here’s a quick video</a> that highlights everything I’ve outlined here.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2010/07/resharper-test-runner-and-mstest-projects/#respond" title="Comment on ReSharper Test Runner and MSTest Projects">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/testing/" title="View all posts in Testing" rel="category tag">Testing</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/visual-studio/" title="View all posts in Visual Studio" rel="category tag">Visual Studio</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-751 post hentry category-net category-ioc category-windsor">
+			<h2 id="post-751"><a href="http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/" rel="bookmark" title="Permanent Link to Strategy Pattern with Castle Windsor">Strategy Pattern with Castle Windsor</a></h2>
+			<small class="meta">October 30th, 2009 </small>
+
+			<div class="entry">
+				<p>One of the tangent patterns associated with isolation or <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle" target="_blank">Single Responsibility</a> is the <a href="http://en.wikipedia.org/wiki/Strategy_pattern" target="_blank">Strategy Pattern</a>.  I use <a href="http://www.castleproject.org/container/index.html" target="_blank">Castle Windsor</a> as my <a href="http://en.wikipedia.org/wiki/Inversion_of_control" target="_blank">IoC</a> of choice and I had hoped there was some black magic built in to make the Strategy Pattern dead simple.  Turns out there is and there isn’t.</p>
+<p><strong>What is the Strategy Pattern</strong></p>
+<p><span style="color: #2e2e2e;">The strategy pattern is a way of isolating what would often be found in a case statement.  The bland example being calculating Sales tax on an Order.  Each state and/or country has its own tax calculation and rather than</span></p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> <span style="color: #0000ff">public</span> <span style="color: #0000ff">void</span> Process(Order order) {</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span>     <span style="color: #0000ff">switch</span>(order.Country) {</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   3:</span>         <span style="color: #0000ff">case</span> <span style="color: #006080">"USA"</span>:</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   4:</span>             order.Total = order.Subtotal * .07;</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   5:</span>             <span style="color: #0000ff">break</span>;</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   6:</span>         <span style="color: #0000ff">case</span> <span style="color: #006080">"Canada"</span>:</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   7:</span>             order.Total = order.Subtotal * .0985;</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   8:</span>             <span style="color: #0000ff">break</span>;</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   9:</span>     }</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  10:</span> </pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  11:</span>     <span style="color: #008000">// ...</span></pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  12:</span> }</pre>
+</div>
+</div>
+<p>you should be breaking each calculation out into different ITaxStrategy implementations and consuming them like so:</p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> <span style="color: #0000ff">public</span> <span style="color: #0000ff">void</span> Process(Order order) {</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span>     var strategy = _taxStrategyFactory.GetStrategyForOrder(order);</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   3:</span> </pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   4:</span>     var salesTax = strategy.CalculateSalesTax(order);</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   5:</span> </pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   6:</span>     order.SalesTax = salesTax;</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   7:</span>     order.Total = order.SubTotal + order.SalesTax;</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   8:</span> }</pre>
+</div>
+</div>
+<p>The question remains, how to eliminate the conditional logic in TaxStrategyFactory determining <em>which</em> strategy is chosen.  The solution is to set up a convention for discovering the available strategies and delegating the criteria to the Strategy itself.</p>
+<p><strong>Discovery</strong></p>
+<p><span style="color: #2e2e2e;">The concept here is that we don’t have to “hook up” any new Tax Strategy to our Processing mechanism, we just “publish” new ones in a known way and they are picked up simply based on their existence.  This is often referred to as <a href="http://en.wikipedia.org/wiki/Convention_over_configuration" target="_blank">Convention Over Configuration</a>.  We accomplish this with Castle Windsor with the <a href="http://using.castleproject.org/display/IoC/Fluent+Registration+API" target="_blank">Fluent Registration API</a>:</span></p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> container</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span>     .Register(AllTypes</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   3:</span>                   .FromAssembly(Assembly.GetExecutingAssembly())</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   4:</span>                   .Where(x =&gt; x.Name.EndsWith(<span style="color: #006080">"Strategy"</span>))</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   5:</span>                   .WithService.FirstInterface());</pre>
+</div>
+</div>
+<p>This will register all classes found in the executing assembly which have the suffix “Strategy” as implementing the ITaxStrategy interface.  The second half of convention based discovery is consuming the ITaxStrategy implementations.  We can want to get all of these into the TaxStrategyFactory via a constructor array dependency:</p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> <span style="color: #0000ff">public</span> TaxStrategyFactory(<span style="color: #0000ff">params</span> ITaxStrategy[] taxStrategies)</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span> {</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   3:</span>     _taxStrategies = taxStrategies;</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   4:</span> }</pre>
+</div>
+</div>
+<p>Unfortunately, Windsor doesn’t support arrays as dependencies by default.  Windsor has the concept of Resolvers (a strategy implementation itself) and we are going to have to tell it about the ArrayResolver which knows how to, err, resolve array dependencies:</p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> container</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span>     .Kernel.Resolver.AddSubResolver(<span style="color: #0000ff">new</span> ArrayResolver(container.Kernel));</pre>
+</div>
+</div>
+<p>Cool, so put these all together in our registration code and we get:</p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> container</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span>     .Register(Component</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   3:</span>                   .For&lt;IOrderProcessor&gt;()</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   4:</span>                   .ImplementedBy&lt;OrderProcessor&gt;())</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   5:</span>     .Register(Component</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   6:</span>                   .For&lt;ITaxStrategyFactory&gt;()</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   7:</span>                   .ImplementedBy&lt;TaxStrategyFactory&gt;())</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   8:</span>     .Register(AllTypes</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   9:</span>                   .FromAssembly(Assembly.GetExecutingAssembly())</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  10:</span>                   .Where(x =&gt; x.Name.EndsWith(<span style="color: #006080">"Strategy"</span>))</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  11:</span>                   .WithService.FirstInterface());</pre>
+</div>
+</div>
+<p>At this point we can kick of the true discovery chain of events through:</p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> var processor = container.Resolve&lt;IOrderProcessor&gt;();</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span> </pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   3:</span> processor.Process(order);</pre>
+</div>
+</div>
+<p><strong>Delegating Criteria</strong></p>
+<p>So in OrderProcessor.Process we are asked the TaxStrategyFactory for the applicable ITaxStrategy implementation:</p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> var strategy = _taxStrategyFactory.GetStrategyForOrder(order);</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span> </pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   3:</span> var salesTax = strategy.CalculateSalesTax(order);</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   4:</span> </pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   5:</span> //...</pre>
+</div>
+</div>
+<p>  The question is, how did the factory determine which of the boundless implementations applies?  That’s the job of each ITaxStrategy itself.  Here’s the implementation of our factory:</p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> <span style="color: #0000ff">class</span> TaxStrategyFactory : ITaxStrategyFactory</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span> {</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   3:</span>     <span style="color: #0000ff">private</span> <span style="color: #0000ff">readonly</span> ITaxStrategy[] _taxStrategies;</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   4:</span> </pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   5:</span>     <span style="color: #0000ff">public</span> TaxStrategyFactory(<span style="color: #0000ff">params</span> ITaxStrategy[] taxStrategies)</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   6:</span>     {</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   7:</span>         _taxStrategies = taxStrategies;</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   8:</span>     }</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   9:</span> </pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  10:</span>     <span style="color: #0000ff">public</span> ITaxStrategy GetStrategyForOrder(Order order)</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  11:</span>     {</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  12:</span>         <span style="color: #0000ff">return</span> _taxStrategies.FirstOrDefault(x =&gt; x.IsApplicable(order));</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  13:</span>     }</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  14:</span> }</pre>
+</div>
+</div>
+<p>Notice how the TaxStrategyFactory depends on all of the ITaxStrategy implementations.  It then uses the ITaxStrategy.IsApplicable(Order) method as criteria for a FirstOrDefault call.  Here’s an example TaxStrategy for any Order with country “USA”:</p>
+<div style="line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; width: 97.5%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; cursor: text; border: gray 1px solid; padding: 4px;">
+<div style="line-height: 12pt; background-color: #f4f4f4; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;">
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   1:</span> <span style="color: #0000ff">public</span> <span style="color: #0000ff">class</span> USTaxStrategy : ITaxStrategy</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   2:</span>     {</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   3:</span>         <span style="color: #0000ff">private</span> <span style="color: #0000ff">static</span> <span style="color: #0000ff">readonly</span> IDictionary&lt;<span style="color: #0000ff">string</span>, <span style="color: #0000ff">double</span>&gt; TaxRates = <span style="color: #0000ff">new</span> Dictionary&lt;<span style="color: #0000ff">string</span>, <span style="color: #0000ff">double</span>&gt;()</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   4:</span>                                                                    {</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   5:</span>                                                                        {<span style="color: #006080">"OH"</span>, 7.0},</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   6:</span>                                                                        {<span style="color: #006080">"MI"</span>, 6.25},</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   7:</span>                                                                    };</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   8:</span>         <span style="color: #0000ff">public</span> <span style="color: #0000ff">double</span> CalculateSalesTax(Order order)</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">   9:</span>         {</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  10:</span>             var rate = TaxRates[order.State];</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  11:</span> </pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  12:</span>             <span style="color: #0000ff">return</span> (order.SubTotal * (rate / 100));</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  13:</span>         }</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  14:</span> </pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  15:</span>         <span style="color: #0000ff">public</span> <span style="color: #0000ff">bool</span> IsApplicable(Order order)</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  16:</span>         {</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  17:</span>             <span style="color: #0000ff">return</span> order.Country == <span style="color: #006080">"USA"</span>;</pre>
+<pre style="line-height: 12pt; background-color: #f4f4f4; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  18:</span>         }</pre>
+<pre style="line-height: 12pt; background-color: white; margin: 0em; width: 100%; font-family: consolas, &quot;Courier New&quot;, courier, monospace; color: black; font-size: 8pt; overflow: visible; border-style: none; padding: 0px;"><span style="color: #606060">  19:</span>     }</pre>
+</div>
+</div>
+<p><span style="color: #242626;"> </span></p>
+<p><span style="color: #242626;">You can download the sample project that goes along with this <a href="http://code.cromwellhaus.com/WindsorStrategySample.zip" target="_self">here</a>.</span></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/#comments" title="Comment on Strategy Pattern with Castle Windsor">2 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/ioc/" title="View all posts in IoC" rel="category tag">IoC</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/windsor/" title="View all posts in Windsor" rel="category tag">Windsor</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-737 post hentry category-net category-code category-wpf">
+			<h2 id="post-737"><a href="http://blog.cromwellhaus.com/index.php/2009/07/property-undo-redo-support/" rel="bookmark" title="Permanent Link to Property Undo/Redo Support">Property Undo/Redo Support</a></h2>
+			<small class="meta">July 4th, 2009 </small>
+
+			<div class="entry">
+				<p>Undo/Redo support is one of those golden features that really differentiate a client app from many web apps.&#160; There have been a number of methods/techniques to provide this support that I’ve run across from brute force, to the <a href="http://www.codeproject.com/KB/cs/generic_undo_redo.aspx" target="_blank">memento pattern</a>, but none that lit any fire for me.</p>
+<p>Here’s my answer to the problem using Anonymous methods and my first real attempt at creating (versus using) a Fluent Api.</p>
+<p>The most common scenario for Undo/Redu support is form completion.&#160; In your Domain or View Model this is often tied to Two Way bound properties.&#160; Take the simple Person class:</p>
+<div style="border-bottom: gray 1px solid; border-left: gray 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; border-top: gray 1px solid; cursor: text; border-right: gray 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">public</span> <span style="color: #0000ff">class</span> Person</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">{</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #0000ff">public</span> <span style="color: #0000ff">string</span> Name { get; set; }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #0000ff">public</span> DateTime BirthDate { get; set; }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">}</pre>
+</p></div>
+</div>
+<p>The question is how to provide undo/redo support for a form (WPF often in my case) bound to a Person.&#160; First, I create a ViewModel or Presenter for the Person class:</p>
+<div style="border-bottom: gray 1px solid; border-left: gray 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; border-top: gray 1px solid; cursor: text; border-right: gray 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">public</span> <span style="color: #0000ff">class</span> PersonViewModel : ViewModelBase</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">{</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #0000ff">private</span> <span style="color: #0000ff">readonly</span> Person _person;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">&#160;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #0000ff">public</span> PersonViewModel(Person person)</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        _person = person;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">&#160;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #0000ff">public</span> <span style="color: #0000ff">string</span> Name</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        get { <span style="color: #0000ff">return</span> _person.Name; }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        set</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">            _person.Name = <span style="color: #0000ff">value</span>;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">            OnPropertyChanged(<span style="color: #006080">&quot;Name&quot;</span>);</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">&#160;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #0000ff">public</span> DateTime BirthDate</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        get { <span style="color: #0000ff">return</span> _person.BirthDate; }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        set</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">            _person.BirthDate = <span style="color: #0000ff">value</span>;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">            OnPropertyChanged(<span style="color: #006080">&quot;BirthDate&quot;</span>);</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">            OnPropertyChanged(<span style="color: #006080">&quot;Age&quot;</span>);</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">&#160;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    <span style="color: #0000ff">public</span> <span style="color: #0000ff">int</span> Age</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        get</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">            var now = DateTime.Now;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">            var age = now.Year - _person.BirthDate.Year;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">&#160;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">            <span style="color: #0000ff">if</span> (now &lt; _person.BirthDate.AddYears(age))</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                age--;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">&#160;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">            <span style="color: #0000ff">return</span> age;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">}</pre>
+</p></div>
+</div>
+<p>Notice that we have a calculated property Age based on the BirthDate.&#160; Any time we change BirthDate we want to make sure to notify that the Age is also changed, obviously.&#160; </p>
+<p>Here is the Fluent way to register Undo/Redo support for our PersonViewModel.Name property:</p>
+<div style="border-bottom: gray 1px solid; border-left: gray 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; border-top: gray 1px solid; cursor: text; border-right: gray 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   1:</span> <span style="color: #0000ff">public</span> <span style="color: #0000ff">string</span> Name</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   2:</span> {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   3:</span>     get { <span style="color: #0000ff">return</span> _person.Name; }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   4:</span>     set</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   5:</span>     {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   6:</span>         var oldName = _person.Name;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   7:</span>&#160; </pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   8:</span>         _undoRedoManager</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   9:</span>             .WithUndo(() =&gt; _person.Name = oldName)</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">  10:</span>             .RepeatAfterBoth(() =&gt; OnPropertyChanged(<span style="color: #006080">&quot;Name&quot;</span>))</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">  11:</span>             .Do(() =&gt; _person.Name = <span style="color: #0000ff">value</span>);</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">  12:</span>     }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">  13:</span> }</pre>
+</p></div>
+</div>
+<p>Cool, but what is that doing?&#160; Well, it’s pretty simply.&#160; We are simply maintaining two queues; An Undo and a Redo queue.&#160; Here is the longer syntax, without the Fluent helper Api that makes that a little clearer:</p>
+<div style="border-bottom: gray 1px solid; border-left: gray 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; max-height: 200px; font-size: 8pt; overflow: auto; border-top: gray 1px solid; cursor: text; border-right: gray 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">public</span> <span style="color: #0000ff">string</span> Name</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">{</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    get { <span style="color: #0000ff">return</span> _person.Name; }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    set</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        var oldName = _person.Name;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">&#160;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">        _undoRedoManager.Push(() =&gt;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                                  {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                                      _person.Name = oldName;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                                      OnPropertyChanged(<span style="color: #006080">&quot;Name&quot;</span>);</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                                  },</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                                  () =&gt;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                                  {</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                                      _person.Name = <span style="color: #0000ff">value</span>;</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                                      OnPropertyChanged(<span style="color: #006080">&quot;Name&quot;</span>);</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">                                  });</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">    }</pre>
+<pre style="border-bottom-style: none; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: consolas, &#39;Courier New&#39;, courier, monospace; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">}</pre>
+</p></div>
+</div>
+<p>
+</p>
+<p>This may not seem like much more, but if your Repeat part is more than one line, it gets a bit fragile.&#160; Being able to specify the “After” stuff once is important.</p>
+<p>From here you can use the IUndoRedoManager.CanUndo(), IUndoRedoManager.CanRedo(), IUndoRedoManager.Redo() methods to go back and forth.&#160; Hook this up to your favorite ICommand implementation and you have most of what you might need. </p>
+<p>&#160;</p>
+<p><a href="http://code.cromwellhaus.com/cromwell.undoredo.zip" target="_blank">Here is the full project</a> with a WPF Sample and a VB sample.&#160; The VB version is a little ugly since it doesn’t support anonymous methods without a return, but it works.</p>
+<p>If you have suggestions (on the Fluent Api especially) let me know.&#160; I’d really like to hear them.</p></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2009/07/property-undo-redo-support/#respond" title="Comment on Property Undo/Redo Support">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/code/" title="View all posts in Code" rel="category tag">Code</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-720 post hentry category-net">
+			<h2 id="post-720"><a href="http://blog.cromwellhaus.com/index.php/2008/07/why-plain-old-linq-is-so-powerful/" rel="bookmark" title="Permanent Link to Why Plain Old LINQ is so powerful">Why Plain Old LINQ is so powerful</a></h2>
+			<small class="meta">July 31st, 2008 </small>
+
+			<div class="entry">
+				<p><a href="http://www.interact-sw.co.uk/iangblog/" target="_blank">Ian Griffiths</a> posted a <a href="http://www.interact-sw.co.uk/iangblog/2008/07/30/linq-box-aggregation" target="_blank">great example</a> of how powerful and cool LINQ is when used in everyday code (it&#8217;s not all about databases people).</p>
+<p>If you haven&#8217;t started to learn how to incorporate this awesome toolset into your daily coding life, you&#8217;re killing yourself.&nbsp; No excuses.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/why-plain-old-linq-is-so-powerful/#comments" title="Comment on Why Plain Old LINQ is so powerful">1 comment</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-719 post hentry category-net">
+			<h2 id="post-719"><a href="http://blog.cromwellhaus.com/index.php/2008/07/roadblock-to-mocking-unit-tests/" rel="bookmark" title="Permanent Link to Roadblock to Mocking Unit Tests">Roadblock to Mocking Unit Tests</a></h2>
+			<small class="meta">July 15th, 2008 </small>
+
+			<div class="entry">
+				<p>I&#8217;ve been a faithful unit tester for a few years now.&nbsp; I may not do everything by the book (I think end-to-end unit tests are helpful), but I do get good coverage most of the time.&nbsp; That said, I&#8217;ve found myself unable to use any of the Mock frameworks out there, because I don&#8217;t use your typical Dependency Injection pattern.&nbsp; That is, I don&#8217;t like &#8220;building up&#8221; very freaking instance with all the &#8220;Provider&#8221; or &#8220;Service&#8221; interfaces I&#8217;m might need in the possible life of a business object.&nbsp; Yes, if your Customer class is only going to create or save an Order, it feels OK, but my objects are busy dude, so I&#8217;d need the longest constructor of all time.</p>
+<p>I prefer <a href="http://search.live.com/results.aspx?q=dependency+resolution+mock&amp;form=QBRE" target="_blank">Dependency Resolution</a>.&nbsp; I don&#8217;t use any fancy framework, I just use a good old, DI.Resolve&lt;IBusyBee&gt;() and go about my business.&nbsp; It works wonderfully, it&#8217;s light-weight (cause I don&#8217;t use configuration based DI frameworks), and it&#8217;s my baby.</p>
+<p>That said, it&#8217;s also been the roadblock to my mocking foray.&nbsp; That was, until I &#8220;got it&#8221; today.&nbsp; Long story short, here&#8217;s how I roll:</p>
+<p><strong>Create a Mock DI Container&#8230;</strong></p>
+<pre class="code"><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">IDIContainer</span>&gt; mockContainer = <span style="color: blue">new </span><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">IDIContainer</span>&gt;();</pre>
+<p><strong>Create the Injected Mock instances&#8230;</strong></p>
+<p><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">INotificationManager</span>&gt; mockNotifMgr = <span style="color: blue">new</span><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">INotificationManager</span>&gt;();<br /><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">IRepository</span>&gt; mockRepository = <span style="color: blue">new</span><span style="color: #2b91af">Mock</span>&lt;<span style="color: #2b91af">IRepository</span>&gt;();</p>
+<p><strong>Tell the mock IDIContainer to return the mock instances when asked&#8230;</strong></p>
+<pre class="code">mockContainer.Expect(c =&gt; c.Resolve&lt;<span style="color: #2b91af">INotificationManager</span>&gt;(<span style="color: blue">null</span>)).Returns(mockNotifMgr.Object);
+mockContainer.Expect(c =&gt; c.Resolve&lt;<span style="color: #2b91af">IRepository</span>&gt;(<span style="color: blue">null</span>)).Returns(mockRepository.Object);
+</pre>
+<p><strong>Mock your heart out&#8230;</strong></p>
+<pre class="code">mockNotifMgr.Expect(mgr =&gt; mgr.NotifyEmailConfirmation(<span style="color: #2b91af">It</span>.IsAny&lt;<span style="color: #2b91af">Member</span>&gt;())).AtMostOnce();
+</pre>
+<pre class="code"><span style="color: #2b91af">Member</span>.Register(<span style="color: #a31515">"username"</span>, <span style="color: #a31515">"firstname"</span>, <span style="color: #a31515">"lastname"</span>, <span style="color: #a31515">"ryan@myus.com"</span>);
+
+mockContainer.VerifyAll();
+mockNotifMgr.VerifyAll();
+</pre>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p>I&#8217;m very happy to have finally jumped on the Moq bandwagon as it will certainly make some unit tests much easier to write.&nbsp; Maybe I&#8217;ll even do the test first part more faithfully now.&nbsp; </p>
+<p>FYI, I use my own DI framework which is just a glorified HashTable.&nbsp; It works for me and it is quick.&nbsp; <a href="http://moq.googlecode.com/" target="_blank">Moq</a> has also become my Mock framework of choice for no good reason other than I downloaded it first.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/roadblock-to-mocking-unit-tests/#comments" title="Comment on Roadblock to Mocking Unit Tests">14 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-715 post hentry category-net category-wpf">
+			<h2 id="post-715"><a href="http://blog.cromwellhaus.com/index.php/2008/07/why-wpf-this-is-why/" rel="bookmark" title="Permanent Link to Why WPF?  This is why&#8230;">Why WPF?  This is why&#8230;</a></h2>
+			<small class="meta">July 2nd, 2008 </small>
+
+			<div class="entry">
+				<p><a title="http://dnrtv.com/default.aspx?showID=115" href="http://dnrtv.com/default.aspx?showID=115">http://dnrtv.com/default.aspx?showID=115</a></p>
+<p>Just awesome!&nbsp; I didn&#8217;t see anything far fetched other than they must have a great designer on staff.&nbsp; I wonder if the designer was doing the Blend work?</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/why-wpf-this-is-why/#respond" title="Comment on Why WPF?  This is why&#8230;">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-714 post hentry category-net">
+			<h2 id="post-714"><a href="http://blog.cromwellhaus.com/index.php/2008/07/visitor-pattern-with-anonymous-methods/" rel="bookmark" title="Permanent Link to Visitor Pattern with Anonymous Methods">Visitor Pattern with Anonymous Methods</a></h2>
+			<small class="meta">July 2nd, 2008 </small>
+
+			<div class="entry">
+				<p>I don&#8217;t often have the need to implement the <a href="http://www.dofactory.com/Patterns/PatternVisitor.aspx">Visitor Pattern</a>, but today I was that day.&nbsp; I looked around really quick for an example of how to do this with <a href="http://msdn.microsoft.com/en-us/library/bb397687.aspx">Lambda Expressions</a> and <a href="http://msdn.microsoft.com/en-us/library/0yw3tz5k.aspx">Anonymous Methods</a>, which seemed like they were the way to go.&nbsp; It may be that my search skills have deteriorated right along with my sense of style, but I didn&#8217;t find much.</p>
+<p>I played around for a few minutes and here is what I came up with:</p>
+<blockquote>
+<div class="csharpcode">
+<div class="csharpcode">
+<div class="csharpcode">
+<pre class="code"><span style="color: #0000ff;">public abstract class </span><span style="color: #2b91af;">CarBase
+</span>{
+    <span style="color: #0000ff;">public void </span>Visit(<span style="color: #2b91af;">Action</span>&lt;<span style="color: #2b91af;">CarBase</span>&gt; action)
+    {
+        <span style="color: #0000ff;">if </span>(action != <span style="color: #0000ff;">null</span>)
+            action(<span style="color: #0000ff;">this</span>);
+    }
+}
+
+<span style="color: #0000ff;">public class </span><span style="color: #2b91af;">BigCar </span>: <span style="color: #2b91af;">CarBase
+</span>{
+    <span style="color: #0000ff;">public void </span>RunOverLittleCar()
+    {
+        <span style="color: #2b91af;">Console</span>.WriteLine(<span style="color: #a31515;">"Me smash little car!"</span>);
+    }
+}
+
+<span style="color: #0000ff;">public class </span><span style="color: #2b91af;">LittleCar </span>: <span style="color: #2b91af;">CarBase
+</span>{
+    <span style="color: #0000ff;">public virtual void </span>RunAwayFromBigCar()
+    {
+        <span style="color: #2b91af;">Console</span>.WriteLine(<span style="color: #a31515;">"Go Faster!"</span>);
+    }
+}
+
+<span style="color: #0000ff;">public class </span><span style="color: #2b91af;">EcoCar </span>: <span style="color: #2b91af;">LittleCar
+</span>{
+    <span style="color: #0000ff;">public override void </span>RunAwayFromBigCar()
+    {
+        <span style="color: #2b91af;">Console</span>.WriteLine(<span style="color: #a31515;">"Ouch."</span>);
+    }
+}</pre>
+<pre class="code"><span style="color: #0000ff;">class </span><span style="color: #2b91af;">Program
+</span>{
+    <span style="color: #0000ff;">static void </span>Main(<span style="color: #0000ff;">string</span>[] args)
+    {
+        <span style="color: #2b91af;">IList</span>&lt;<span style="color: #2b91af;">CarBase</span>&gt; cars = <span style="color: #0000ff;">new </span><span style="color: #2b91af;">List</span>&lt;<span style="color: #2b91af;">CarBase</span>&gt;(<span style="color: #0000ff;">new </span><span style="color: #2b91af;">CarBase</span>[] {
+                                                                <span style="color: #0000ff;">new </span><span style="color: #2b91af;">BigCar</span>(),
+                                                                <span style="color: #0000ff;">new </span><span style="color: #2b91af;">LittleCar</span>(),
+                                                                <span style="color: #0000ff;">new </span><span style="color: #2b91af;">EcoCar</span>()
+                                                              });
+        <span style="color: #0000ff;">foreach </span>(<span style="color: #2b91af;">CarBase </span>car <span style="color: #0000ff;">in </span>cars)
+        {
+            car.Visit(<span style="color: #0000ff;">delegate</span>(<span style="color: #2b91af;">CarBase </span>c)
+            {
+                <span style="color: #0000ff;">if </span>(c <span style="color: #0000ff;">is </span><span style="color: #2b91af;">BigCar</span>)
+                    ((<span style="color: #2b91af;">BigCar</span>)c).RunOverLittleCar();
+                <span style="color: #0000ff;">else if </span>(c <span style="color: #0000ff;">is </span><span style="color: #2b91af;">LittleCar</span>)
+                    ((<span style="color: #2b91af;">LittleCar</span>)c).RunAwayFromBigCar();
+                <span style="color: #0000ff;">else if </span>(c <span style="color: #0000ff;">is </span><span style="color: #2b91af;">EcoCar</span>)
+                    ((<span style="color: #2b91af;">EcoCar</span>)c).RunAwayFromBigCar();
+            });
+        }
+
+        <span style="color: #0000ff;">if </span>(<span style="color: #2b91af;">Debugger</span>.IsAttached)
+            <span style="color: #2b91af;">Console</span>.ReadLine();
+    }
+}</pre>
+</div>
+</div>
+</div>
+</blockquote>
+<p><style type="text/css"></style>
+<style type="text/css"></style>
+</p>
+<p>In many implementations of the visitor pattern there is an adapter or actual Visitor interface and implementation class which is passed into the Visit() method.&nbsp; This is just smooth.</p>
+<p>My visit method above is a little big to look good as a lambda expression, though maybe I just don&#8217;t have the eye for it.&nbsp; </p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/visitor-pattern-with-anonymous-methods/#respond" title="Comment on Visitor Pattern with Anonymous Methods">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-713 post hentry category-net category-visual-studio">
+			<h2 id="post-713"><a href="http://blog.cromwellhaus.com/index.php/2008/07/virtual-property-c-code-snippet/" rel="bookmark" title="Permanent Link to Virtual Property C# Code Snippet">Virtual Property C# Code Snippet</a></h2>
+			<small class="meta">July 2nd, 2008 </small>
+
+			<div class="entry">
+				<p>For those of you who use NHibernate you may find this convenient, if you don&#8217;t already have your own.&nbsp; Below is a C# code snippet for creating a public virtual property (code and file are both there).&nbsp; Just put it in your <em>&lt;Visual Studio 2005/2008&gt;\Code Snippets\Visual C#\My Code Snippets</em> folder and you&#8217;re off and running.&nbsp; No restart required.</p>
+<p><strong><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Components.PostAttachments/00.00.00.06.84/propv.snippet">File</a></strong></p>
+<p><strong>Code</strong></p>
+<blockquote>
+<pre class="code"><span style="color: blue">&lt;?</span><span style="color: #a31515">xml </span><span style="color: red">version</span><span style="color: blue">=</span>"<span style="color: blue">1.0</span>" <span style="color: red">encoding</span><span style="color: blue">=</span>"<span style="color: blue">utf-8</span>" <span style="color: blue">?&gt;
+&lt;</span><span style="color: #a31515">CodeSnippets  </span><span style="color: red">xmlns</span><span style="color: blue">=</span>"<span style="color: blue">http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet</span>"<span style="color: blue">&gt;
+    &lt;</span><span style="color: #a31515">CodeSnippet </span><span style="color: red">Format</span><span style="color: blue">=</span>"<span style="color: blue">1.0.0</span>"<span style="color: blue">&gt;
+        &lt;</span><span style="color: #a31515">Header</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Title</span><span style="color: blue">&gt;</span>propv<span style="color: blue">&lt;/</span><span style="color: #a31515">Title</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Shortcut</span><span style="color: blue">&gt;</span>propv<span style="color: blue">&lt;/</span><span style="color: #a31515">Shortcut</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Description</span><span style="color: blue">&gt;</span>Code snippet for an automatically implemented virtual property<span style="color: blue">&lt;/</span><span style="color: #a31515">Description</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Author</span><span style="color: blue">&gt;</span>Microsoft Corporation<span style="color: blue">&lt;/</span><span style="color: #a31515">Author</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">SnippetTypes</span><span style="color: blue">&gt;
+                &lt;</span><span style="color: #a31515">SnippetType</span><span style="color: blue">&gt;</span>Expansion<span style="color: blue">&lt;/</span><span style="color: #a31515">SnippetType</span><span style="color: blue">&gt;
+            &lt;/</span><span style="color: #a31515">SnippetTypes</span><span style="color: blue">&gt;
+        &lt;/</span><span style="color: #a31515">Header</span><span style="color: blue">&gt;
+        &lt;</span><span style="color: #a31515">Snippet</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Declarations</span><span style="color: blue">&gt;
+                &lt;</span><span style="color: #a31515">Literal</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">ID</span><span style="color: blue">&gt;</span>type<span style="color: blue">&lt;/</span><span style="color: #a31515">ID</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">ToolTip</span><span style="color: blue">&gt;</span>Property type<span style="color: blue">&lt;/</span><span style="color: #a31515">ToolTip</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">Default</span><span style="color: blue">&gt;</span>int<span style="color: blue">&lt;/</span><span style="color: #a31515">Default</span><span style="color: blue">&gt;
+                &lt;/</span><span style="color: #a31515">Literal</span><span style="color: blue">&gt;
+                &lt;</span><span style="color: #a31515">Literal</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">ID</span><span style="color: blue">&gt;</span>property<span style="color: blue">&lt;/</span><span style="color: #a31515">ID</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">ToolTip</span><span style="color: blue">&gt;</span>Property name<span style="color: blue">&lt;/</span><span style="color: #a31515">ToolTip</span><span style="color: blue">&gt;
+                    &lt;</span><span style="color: #a31515">Default</span><span style="color: blue">&gt;</span>MyProperty<span style="color: blue">&lt;/</span><span style="color: #a31515">Default</span><span style="color: blue">&gt;
+                &lt;/</span><span style="color: #a31515">Literal</span><span style="color: blue">&gt;
+            &lt;/</span><span style="color: #a31515">Declarations</span><span style="color: blue">&gt;
+            &lt;</span><span style="color: #a31515">Code </span><span style="color: red">Language</span><span style="color: blue">=</span>"<span style="color: blue">csharp</span>"<span style="color: blue">&gt;&lt;![CDATA[</span><span style="color: gray">public virtual $type$ $property$ { get; set; }$end$</span><span style="color: blue">]]&gt;
+            &lt;/</span><span style="color: #a31515">Code</span><span style="color: blue">&gt;
+        &lt;/</span><span style="color: #a31515">Snippet</span><span style="color: blue">&gt;
+    &lt;/</span><span style="color: #a31515">CodeSnippet</span><span style="color: blue">&gt;
+&lt;/</span><span style="color: #a31515">CodeSnippets</span><span style="color: blue">&gt;</span></pre>
+<pre class="code"><span style="color: blue"></span> </pre>
+<pre class="code"><span style="color: blue"></span> </pre>
+</blockquote>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/07/virtual-property-c-code-snippet/#respond" title="Comment on Virtual Property C# Code Snippet">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/visual-studio/" title="View all posts in Visual Studio" rel="category tag">Visual Studio</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-710 post hentry category-net category-nhibernate">
+			<h2 id="post-710"><a href="http://blog.cromwellhaus.com/index.php/2008/06/nhibernate-thinks-your-enum-is-dirty/" rel="bookmark" title="Permanent Link to NHibernate Thinks Your Enum is Dirty">NHibernate Thinks Your Enum is Dirty</a></h2>
+			<small class="meta">June 30th, 2008 </small>
+
+			<div class="entry">
+				<p>Get your head out of the gutter.</p>
+<p>It&#8217;s important to look at your mapping files closely when trying to diagnose unexpected results.&nbsp; One of our developers had recently added two properties to our big honkin&#8217; CustomerOrder entity.&nbsp; These both happened to be enumeration values, which are represented by Int values in the database.&nbsp; Of course, NHibernate mapping files (hbm&#8217;s) are from the POCO perspective, which means the &lt;property type=&#8221;&#8230;&#8221; /&gt;&nbsp; value should be the Enumeration&#8217;s themselves.&nbsp; If you use Int32, though, things will appear to work, but you&#8217;re actually causing NHibernate to do an incompatible type comparison during it&#8217;s &#8220;Dirty&#8221; checks.&nbsp; This will cause your lazily, loaded entities to be dirty as soon as you get them.</p>
+<p>So, be careful in reviewing your mappings, because it doesn&#8217;t take much to screw up something small that has a big impact.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/06/nhibernate-thinks-your-enum-is-dirty/#respond" title="Comment on NHibernate Thinks Your Enum is Dirty">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/nhibernate/" title="View all posts in NHibernate" rel="category tag">NHibernate</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-707 post hentry category-net">
+			<h2 id="post-707"><a href="http://blog.cromwellhaus.com/index.php/2008/04/quicky-visual-studio-projects-ou-can-toss-to-the-curb/" rel="bookmark" title="Permanent Link to Quicky Visual Studio Projects you can Toss to the Curb">Quicky Visual Studio Projects you can Toss to the Curb</a></h2>
+			<small class="meta">April 11th, 2008 </small>
+
+			<div class="entry">
+				<p>When I&#8217;m trying to explain things to people or just want to try something out really quick I&#8217;ll often create myself a temporary Visual Studio projects that I don&#8217;t intend to keep around.&nbsp; In fact, I have an entire Temp folder full of them.&nbsp; <a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/QuickyVisualStudioProjectsoucanTosstothe_9E91/image_2.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="146" alt="image" src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/QuickyVisualStudioProjectsoucanTosstothe_9E91/image_thumb.png" width="244" align="right" border="0"></a>I always loved that in the VB 6.0 IDE you could choose not to save your project at all and no remnant would exist if you chose not to save.&nbsp; Apparently you can do this in Visual Studio 2005 and 2008.&nbsp;&nbsp; Go into Tools -&gt; Options and select the <em>Projects and Solutions</em> node.&nbsp; Uncheck <em>Save ne<u>w</u> projects when created.</em>&nbsp; </p>
+<p>Bingo.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/04/quicky-visual-studio-projects-ou-can-toss-to-the-curb/#respond" title="Comment on Quicky Visual Studio Projects you can Toss to the Curb">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"><a href="http://blog.cromwellhaus.com/index.php/category/net/page/2/" >&laquo; Older Entries</a></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for the .Net category.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    
+      <li class="categories"><div class="sb-title">Categories</div><ul>	<li class="cat-item cat-item-199 current-cat"><a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts filed under .Net">.Net</a> (34)
+</li>
+	<li class="cat-item cat-item-200"><a href="http://blog.cromwellhaus.com/index.php/category/code/" title="View all posts filed under Code">Code</a> (1)
+</li>
+	<li class="cat-item cat-item-201"><a href="http://blog.cromwellhaus.com/index.php/category/community/" title="View all posts filed under Community">Community</a> (1)
+</li>
+	<li class="cat-item cat-item-202"><a href="http://blog.cromwellhaus.com/index.php/category/hardware/" title="View all posts filed under Hardware">Hardware</a> (1)
+</li>
+	<li class="cat-item cat-item-203"><a href="http://blog.cromwellhaus.com/index.php/category/iis/" title="View all posts filed under IIS">IIS</a> (1)
+</li>
+	<li class="cat-item cat-item-227"><a href="http://blog.cromwellhaus.com/index.php/category/ioc/" title="View all posts filed under IoC">IoC</a> (2)
+</li>
+	<li class="cat-item cat-item-204"><a href="http://blog.cromwellhaus.com/index.php/category/languages/" title="View all posts filed under Languages">Languages</a> (1)
+</li>
+	<li class="cat-item cat-item-205"><a href="http://blog.cromwellhaus.com/index.php/category/mvc/" title="View all posts filed under MVC">MVC</a> (4)
+</li>
+	<li class="cat-item cat-item-206"><a href="http://blog.cromwellhaus.com/index.php/category/nerd-dinner/" title="View all posts filed under Nerd Dinner">Nerd Dinner</a> (1)
+</li>
+	<li class="cat-item cat-item-207"><a href="http://blog.cromwellhaus.com/index.php/category/networking/" title="View all posts filed under Networking">Networking</a> (2)
+</li>
+	<li class="cat-item cat-item-208"><a href="http://blog.cromwellhaus.com/index.php/category/nhibernate/" title="View all posts filed under NHibernate">NHibernate</a> (3)
+</li>
+	<li class="cat-item cat-item-209"><a href="http://blog.cromwellhaus.com/index.php/category/oracle/" title="View all posts filed under Oracle">Oracle</a> (1)
+</li>
+	<li class="cat-item cat-item-210"><a href="http://blog.cromwellhaus.com/index.php/category/os/" title="View all posts filed under OS">OS</a> (1)
+</li>
+	<li class="cat-item cat-item-211"><a href="http://blog.cromwellhaus.com/index.php/category/performance/" title="View all posts filed under Performance">Performance</a> (4)
+</li>
+	<li class="cat-item cat-item-212"><a href="http://blog.cromwellhaus.com/index.php/category/personal/" title="View all posts filed under Personal">Personal</a> (4)
+</li>
+	<li class="cat-item cat-item-213"><a href="http://blog.cromwellhaus.com/index.php/category/powershell/" title="View all posts filed under Powershell">Powershell</a> (3)
+</li>
+	<li class="cat-item cat-item-228"><a href="http://blog.cromwellhaus.com/index.php/category/scrum/" title="View all posts filed under Scrum">Scrum</a> (3)
+</li>
+	<li class="cat-item cat-item-214"><a href="http://blog.cromwellhaus.com/index.php/category/silverlight/" title="View all posts filed under Silverlight">Silverlight</a> (4)
+</li>
+	<li class="cat-item cat-item-215"><a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts filed under Software Reviews">Software Reviews</a> (15)
+</li>
+	<li class="cat-item cat-item-229"><a href="http://blog.cromwellhaus.com/index.php/category/speaking/" title="View all posts filed under Speaking">Speaking</a> (2)
+</li>
+	<li class="cat-item cat-item-216"><a href="http://blog.cromwellhaus.com/index.php/category/speedy-rewards/" title="View all posts filed under Speedy Rewards">Speedy Rewards</a> (1)
+</li>
+	<li class="cat-item cat-item-217"><a href="http://blog.cromwellhaus.com/index.php/category/sql-server/" title="View all posts filed under SQL Server">SQL Server</a> (2)
+</li>
+	<li class="cat-item cat-item-230"><a href="http://blog.cromwellhaus.com/index.php/category/testing/" title="View all posts filed under Testing">Testing</a> (1)
+</li>
+	<li class="cat-item cat-item-218"><a href="http://blog.cromwellhaus.com/index.php/category/tfs/" title="View all posts filed under TFS">TFS</a> (6)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a> (18)
+</li>
+	<li class="cat-item cat-item-219"><a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts filed under Virtual PC">Virtual PC</a> (7)
+</li>
+	<li class="cat-item cat-item-220"><a href="http://blog.cromwellhaus.com/index.php/category/vista/" title="View all posts filed under Vista">Vista</a> (1)
+</li>
+	<li class="cat-item cat-item-221"><a href="http://blog.cromwellhaus.com/index.php/category/vista-sidebar/" title="View all posts filed under Vista Sidebar">Vista Sidebar</a> (1)
+</li>
+	<li class="cat-item cat-item-222"><a href="http://blog.cromwellhaus.com/index.php/category/visual-studio/" title="View all posts filed under Visual Studio">Visual Studio</a> (2)
+</li>
+	<li class="cat-item cat-item-223"><a href="http://blog.cromwellhaus.com/index.php/category/vmware/" title="View all posts filed under VMWare">VMWare</a> (1)
+</li>
+	<li class="cat-item cat-item-224"><a href="http://blog.cromwellhaus.com/index.php/category/wcf/" title="View all posts filed under WCF">WCF</a> (1)
+</li>
+	<li class="cat-item cat-item-225"><a href="http://blog.cromwellhaus.com/index.php/category/windsor/" title="View all posts filed under Windsor">Windsor</a> (2)
+</li>
+	<li class="cat-item cat-item-226"><a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts filed under WPF">WPF</a> (28)
+</li>
+</ul></li>  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

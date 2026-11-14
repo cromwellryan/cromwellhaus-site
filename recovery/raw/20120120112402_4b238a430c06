@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.1//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile11.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <head profile="http://gmpg.org/xfn/11">
+          <link href="http://blog.cromwellhaus.com/wp-content/themes/mobile_pack_base/style.css" rel="stylesheet" type="text/css" />
+        <link href="http://blog.cromwellhaus.com/wp-content/themes/mobile_pack_green/style.css" rel="stylesheet" type="text/css" />
+    <link href="http://blog.cromwellhaus.com/wp-content/themes/mobile_pack_base/style_structure.css" rel="stylesheet" type="text/css" />
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ryan Cromwell &#187; Blog Archive &#187; Definition of Done Discovery</title>
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://blog.cromwellhaus.com/feed/" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="http://blog.cromwellhaus.com/feed/rss/" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://blog.cromwellhaus.com/feed/atom/" />
+    <link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+    				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.2 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview'],['_trackPageLoadTime']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Definition of Done Discovery Comments Feed" href="http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/feed/" />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Your Test Suite Sucks&hellip; do it again' href='http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/' />
+<link rel='next' title='Time box: A Holistic View on Sprints and Iterations' href='http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/' />
+<meta name="generator" content="WordPress 3.3.1, fitted with the WordPress Mobile Pack 1.2.4" />
+<link rel='canonical' href='http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/' />
+<link rel='shortlink' href='http://blog.cromwellhaus.com/?p=947' />
+  </head>
+  <body class="base">  <div id="wrap">
+    <div id="header" style='height:auto'>
+      <p><a href="http://blog.cromwellhaus.com/"><strong>Ryan Cromwell</strong></a></p>
+      <p>Improving my craft&#8230;</p>
+    </div>
+    <div id="menu">
+                  <ul class="breadcrumbs">
+                              <li class="page_item"><a href="http://blog.cromwellhaus.com/" title=""></a></li>
+                            <li class="page_item page-item-834"><a href="http://blog.cromwellhaus.com/about/">Bio</a></li>
+<li class="page_item page-item-801"><a href="http://blog.cromwellhaus.com/presentations/">Presentation Abstracts</a></li>
+            </ul>
+              </div><div id='wrapper'><div id='content'><div class="post" id="post-947"><h1>Definition of Done Discovery</h1><p class="metadata">January 4th, 2012 by cromwellryan</p><div class="entry"><p>One of the important aspects of Scrum and the more fundamental concept incremental delivery is building <em>Done</em> software each iteration.&#160; There are a lot of holes in that statement, but that makes sense; <a href="http://www.scrum.org/scrumguides/">Scrum is full of holes</a>… on purpose.&#160; If you want answers rather than a framework built for learning, Agile ain’t for you.</p><p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image.png"><img title="image" alt="image" src='http://blog.cromwellhaus.com/wp-content/plugins/wordpress-mobile-pack/plugins/wpmp_transcoder/c/33676962b5f91e9ce548336ab6d28d6d.124.93.png'   /></a>Having a clear, well understood and explicit Definition of Done that everyone, including your product owner and surrounding teams accept is very important to growing quality and capabilities consciously.&#160; Underlying any Definition of Done is the expectation that the useful (for another day) software is ready for consumption by those who asked for it.</p><p>As a new team, discovering your initial definition of done can be surprisingly challenging.&#160; Certainly we can come up with things that we want to do and I say go for it!&#160; Only inspection at regular intervals can tell us for sure where we are and what the impact has been.&#160; But there are some things we can do to help make this decision more effectively.&#160; And it doesn’t take long.&#160; 30 minutes… maybe.</p><p><h6>Circles and Soup</h6></p><p><a href="http://innovationgames.com/">Innovations Games</a> has a fantastic activity with many applications called <a href="http://innovationgames.com/circles-and-soup/">Circles and Soup</a> (sometimes called <a href="https://matthewbussa.wordpress.com/2010/09/08/the-soup-experiment/">The Soup</a>).&#160; I’ve used this to help a pissed off team focus their energy, but it’s also very helpful in creating an initial Definition of Done that is truly attainable.</p><p>You should read the <a href="http://innovationgames.com/circles-and-soup/">full instructions</a>, but suffice it to say the team will categorize those activities both historically done (i.e. architecture review) and potential (i.e. TDD) that must or should be accomplished to deliver into: Things They Control, Things They Influence, or The Soup (things they have no control or influence over).&#160; This is immediately actionable information, but also a roadmap to move items into the teams control.&#160; Share this with your <a href="http://netmap.wordpress.com/">organization and advocates</a>.</p><p>A Definition of Done, something that they agree will <u>always</u> be completed before calling a feature or story or product backlog item done, which includes activities outside of the team’s control is risky or foolish.&#160; You should control your own destiny as best as possible.&#160; How can a team ever feel at all confident in their own <a href="http://elegantcode.com/2011/07/21/the-scrum-guide-2011/">forecasts</a> otherwise.</p><p><h6>-ilities</h6></p><p>In the <a href="http://www.scrum.org/professionalscrumdeveloper/">Professional Scrum Developer</a> course we talk about and spend a few minutes brainstorming attributes that define quality.&#160; We call these ‘ilities’.&#160; Things like <em>maintainability, supportability, reliability, performance-ability.</em>&#160; Ok I made that last one up, but you get the idea.&#160; It’s a big list too.&#160;</p><p>Very few people will argue that missing an -ility negatively influences the quality of an application. Which –ilities are most important, though, depends on many factors.&#160; Type of application, type of user, industry, etc.</p><p>What I like to do as a facilitator for this activity:</p><p><ol> <li>Ask the team to break up in pairs or individuals for 5 minutes.&#160; Write every attribute that affects your impression of any application you’ve ever used on a sticky.&#160; </li> <li>Then come together, remove duplicates and put them on the wall for another 5 minutes (usually less).&#160; This creates discussion about what people intended or experiences.&#160; Often another -ility or two will be discovered.</li> <li>Use <a href="http://martinfowler.com/bliki/DotVoting.html">dot voting</a> or some other form of ranking to figure out which –ilities are most important to this application.</li> </ol></p><p></p><p><h6>Putting it together</h6></p><p>You should now have a good idea of what the team has true ownership of and what is most important to build a great application for the intended customer.</p><p>Page 1 of 2 | <a href="http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/?wpmp_switcher=mobile&amp;wpmp_tp=1">Next page</a></p></div><p class="metadata">Posted in <a href="http://blog.cromwellhaus.com/category/agile/" title="View all posts in Agile" rel="category tag">Agile</a>, <a href="http://blog.cromwellhaus.com/category/coaching/" title="View all posts in Coaching" rel="category tag">Coaching</a>, <a href="http://blog.cromwellhaus.com/category/craftsmanship/" title="View all posts in Craftsmanship" rel="category tag">Craftsmanship</a>, <a href="http://blog.cromwellhaus.com/category/scrum/" title="View all posts in Scrum" rel="category tag">Scrum</a> | <a href="http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/#respond" title="Comment on Definition of Done Discovery"><span class="dsq-postid" rel="947 http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/">No comments</span></a></p><p class="metadata">Previous post: <a href="http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/" rel="prev">Your Test Suite Sucks&hellip; do it again</a><br />Next post: <a href="http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/" rel="next">Time box: A Holistic View on Sprints and Iterations</a></p>
+  </div>
+  <div id="sidebar"></div></div>
+
+      <div id="footer">
+                      <p>Powered by the <a href="http://wordpress.org/extend/plugins/wordpress-mobile-pack/">WordPress Mobile Pack</a> | Theme designed by <a href="http://ribot.co.uk">ribot</a></p>
+                    <p><a onclick='document.cookie="wpmp_switcher=desktop;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/?wpmp_switcher=desktop'>Switch to our desktop site</a></p>      </div>
+    </div>
+  </body>
+</html>

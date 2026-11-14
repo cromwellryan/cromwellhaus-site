@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11"><link rel="stylesheet" type="text/css" href="http://cromwellhaus.com/wp-content/w3tc/min/bdd48060.445c7a.css" media="all" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>MVC &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+
+
+
+
+.post p.post-date,.post p.post-author{display:none;}
+.block-content{width:960px;max-width:960px;}
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; MVC Category Feed" href="http://cromwellhaus.com/category/mvc/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.2" />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://cromwellhaus.com/about/"><span>Bio</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+                                <h1 class="pagetitle">Archive for category MVC</h1>
+        
+        
+        <!-- post -->
+        <div id="post-708" class="post-708 post type-post status-publish format-standard hentry category-mvc category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://cromwellhaus.com/2008/04/minimvc-for-wpf/" rel="bookmark" title="Permanent Link: MiniMVC for WPF">MiniMVC for WPF</a></h3>
+           <p class="post-date">
+            <span class="month">Apr</span>
+            <span class="day">24</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://cromwellhaus.com/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a>, <a href="http://cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://cromwellhaus.com/2008/04/minimvc-for-wpf/#comments" class="comments"  title="Comment on MiniMVC for WPF"><span class="dsq-postid" rel="708 /blogs/ryanc/archive/2008/04/24/minimvc-for-wpf.aspx">3 Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Tonight I presented for the Dayton .Net Developers Group on WPF.&nbsp; Unlike my previous Lap Around WPF @ CONDG which was meant as a beginners guide to WPF, this time we were skipping the basics and plunging into a framework I&#8217;ve dubbed MiniMVC.&nbsp; MiniMVC is, primarily, a set of DependencyProperties and custom ICommand&#8216;s which allow [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-703" class="post-703 post type-post status-publish format-standard hentry category-net category-mvc category-personal category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://cromwellhaus.com/2008/01/new-year-indeed/" rel="bookmark" title="Permanent Link: New Year Indeed">New Year Indeed</a></h3>
+           <p class="post-date">
+            <span class="month">Jan</span>
+            <span class="day">15</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://cromwellhaus.com/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a>, <a href="http://cromwellhaus.com/category/personal/" title="View all posts in Personal" rel="category tag">Personal</a>, <a href="http://cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://cromwellhaus.com/2008/01/new-year-indeed/#respond" class="comments"  title="Comment on New Year Indeed"><span class="dsq-postid" rel="703 /blogs/ryanc/archive/2008/01/15/new-year-indeed.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>It has been quite a New Year so far.&nbsp; As of today, Monday January 14th 2008, I have left Speedway and the Speedy Rewards™ team and found new employment with SDS Consulting and I have new eyes courtesy of Lasik Plus of Dayton.&nbsp; I&#8217;d say that&#8217;s a fairly ambitious first two weeks. I&#8217;m still working [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-702" class="post-702 post type-post status-publish format-standard hentry category-mvc">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://cromwellhaus.com/2007/12/asp-net-mvc-checkbox-boolean-value-mapping/" rel="bookmark" title="Permanent Link: ASP.Net MVC Checkbox/boolean Value Mapping">ASP.Net MVC Checkbox/boolean Value Mapping</a></h3>
+           <p class="post-date">
+            <span class="month">Dec</span>
+            <span class="day">20</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://cromwellhaus.com/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a> | <a href="http://cromwellhaus.com/2007/12/asp-net-mvc-checkbox-boolean-value-mapping/#comments" class="comments"  title="Comment on ASP.Net MVC Checkbox/boolean Value Mapping"><span class="dsq-postid" rel="702 /blogs/ryanc/archive/2007/12/20/asp-net-mvc-checkbox-boolean-value-mapping.aspx">1 Comment</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>In my quest to get my wpfstyle.com site written in the new ASP.Net MVC framework (day 3) I&#8217;ve run across a little issue that I&#8217;m sure will come up again. In my world, a checkbox always seemed to imply true/false or yes/no.&nbsp; In reality, it can mean a lot of things in an Html Form.&nbsp; [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-701" class="post-701 post type-post status-publish format-standard hentry category-net category-mvc">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://cromwellhaus.com/2007/12/asp-net-mvc-and-forms-authentication/" rel="bookmark" title="Permanent Link: ASP.Net MVC and Forms Authentication">ASP.Net MVC and Forms Authentication</a></h3>
+           <p class="post-date">
+            <span class="month">Dec</span>
+            <span class="day">19</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://cromwellhaus.com/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a> | <a href="http://cromwellhaus.com/2007/12/asp-net-mvc-and-forms-authentication/#comments" class="comments"  title="Comment on ASP.Net MVC and Forms Authentication"><span class="dsq-postid" rel="701 /blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx">11 Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>So last weekend I picked up the new ASP.Net 3.5 Extensions Preview CTP (and MVC Toolkit) from the ASP.Net team and I&#8217;m loving the MVC bits.&nbsp; I never could get in to MonoRail mainly because I&#8217;m a developer diva.&nbsp; I need intellisense, syntax highlighting, the whole deal.&nbsp; For a CTP, this release packs quite a [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+            <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'cromwellhaus';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+                        s.src = 'http' + '://' + 'disqus.com/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+
+        <div class="navigation" id="pagenavi">
+                 <div class="alignleft"></div>
+         <div class="alignright"></div>
+         <div class="clear"></div>
+                </div>
+        
+      </div>
+     </div>
+     <!-- /first column -->
+          
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 16 queries. 0.376 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk: basic
+Page Caching using disk: enhanced
+
+Served from: cromwellhaus.com @ 2012-06-01 00:33:06 -->

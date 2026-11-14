@@ -1,0 +1,245 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="robots" content="index,follow" />
+<meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="GENERATOR" content="CommunityServer 2008 (Build: 30417.1769)" />
+<link rel="pingback" href="http://cromwellhaus.com/blogs/ryanc/pingback.aspx" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/print.css?SectionID=11" type="text/css" media="print" />
+	<link rel="stylesheet" href="/themes/blogs/Elemental/style/air.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	Setting up a Virtual PC Domain - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/2008/07/07/setting-up-a-virtual-pc-domain.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjI3NjA3NjAzZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUbY3RsMDAkY3RsMDckY3RsMDAkU2VhcmNoQm94BS5jdGwwMCRNYWluJGN0bDA5JGN0bDAyJGN0bDAyJGN0bDAyJGNoa1JlbWVtYmVyrPq8ygQbIeWf5xTLDz1TbEmtppM=" />
+</div>
+
+
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4S7ZBPAVw9PwaqA6uS0FfwGf3Hm9m6m-bY3jx8ehHgPE1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4LztMjwM-SqBR5_anrX2l2HqgE4lVEbuAeBVlAAPF2Jk1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4qw7uaC3LpM50bK3H8VCJ_tVhk9B3VUiQp-tSztnY6fE1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4dI2CKwjWiWdwrBqDrsqy7rWQN5-5uEWsypWfk5ThPqg1&amp;t=633501542161978064" type="text/javascript"></script>
+
+    			
+
+    <div id="masthead">
+        <div id="welcome" align="right">
+            
+        <a href="/login.aspx?ReturnUrl=%2fblogs%2fryanc%2farchive%2f2008%2f07%2f07%2fsetting-up-a-virtual-pc-domain.aspx">Sign in </a>
+         | <a href="/user/CreateUser.aspx?ReturnUrl=">Join</a>
+        | <a href="http://dev.communityserver.com/r.ashx?K&amp;siteurl=weblogs.weblogpostName">Help</a>
+     
+
+
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="container">
+	        <div id="header">
+                <div id="title">
+                    <div id="SearchSideBar">    
+                        <div id="search">
+                                <input name="ctl00$ctl07$ctl00$SearchBox" type="text" id="ctl00_ctl07_ctl00_SearchBox" class="searchBox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event);" />
+                                <a id="ctl00_ctl07_ctl00_SearchButton" href="javascript:__doPostBack('ctl00$ctl07$ctl00$SearchButton','')">Search</a>
+                            </div>
+                    </div>
+                    <h1><a class="headermaintitle" href="/blogs/ryanc/default.aspx">Ryan Cromwell</a></h1>                                                
+                    <p id="tagline">Aimless musings of a keyboard masher.</p>
+                </div>
+                <div id="nav">                        
+                    <div id="SubscriptionsSideBar">
+                        <div id="subscriptions">
+                            <ul>
+                                <li><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li>
+	                            <li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li>
+						        
+                            </ul>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="/blogs/ryanc/default.aspx">Home</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <div id="contentmargin"></div>
+                <div id="contentwrapper">
+                    <div id="sidebar-a">
+                    
+                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Tags</h3>
+	                                    <div id="TagSideBar"><ul class="SidebarTagCloud">
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Oracle/default.aspx" rel="tag">Oracle</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/VMWare/default.aspx" rel="tag">VMWare</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                            </div>
+	                                    
+	                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Archives</h3>
+	                                    <div id="ArchiveSideBar">
+<ul>
+<li><a href="/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                            </div>
+	                                    
+	                            
+
+	                    
+                    </div>
+                    <div id="content"><div id="content2">
+	                    
+
+    
+
+    <div class="post">
+        <div class="posthead">
+            <h2 class="pageTitle">Setting up a Virtual PC Domain</h2>
+            Posted 
+            <a href="/blogs/ryanc/archive/2008/07/07/setting-up-a-virtual-pc-domain.aspx">Monday, July 07, 2008 4:38 PM</a>                
+            by
+			<a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+        </div>
+        <p>I do a lot of demos and Virtual PC 2007 is a mainstay in my arsenal for those demos.&nbsp; I&#39;ve used VMWare Server (the free one) and it is very nice, but I run an x64 OS and VMWare had neglected to sign certain emulation drives which caused me enough headache that I ditched it for the easy of VPC.&nbsp; </p> <p>I mentioned using <a href="http://cromwellhaus.com/blogs/ryanc/archive/2008/06/13/sysprep-your-virtual-pc-images.aspx">Syspreping</a> for my VPC library prior which saves me a ton of time, but one of the things I&#39;ve always started but never finished was setting up a Virtual Domain.&nbsp; Well this weekend, I finished things up and I&#39;m happy to say, it wasn&#39;t that bad.&nbsp; </p> <p>Here&#39;s what I did:</p> <p><strong>Create My Domain Controller Machine</strong> by copying a Syspreped Window 2008 Server harddrive image and creating a new Virtual PC using an existing hard drive.&nbsp; About 120 seconds later I have a free standing vanilla server ready to roll.</p> <p><strong><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_8.png"><img style="border-right:0px;border-top:0px;border-left:0px;border-bottom:0px;" height="174" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_3.png" width="240" align="right" border="0" /></a>Configure Network Adapter(s) </strong>by specifying <em>Local Only</em> in the VPC&#39;s Network Settings.&nbsp; </p> <p>At this point you&#39;ll want to log into VPC if you haven&#39;t already.&nbsp; We&#39;ll want to isolate our domain and let each of the workstation VPC&#39;s communicate with the domain controller by going into the Network Adapter&#39;s properties.&nbsp; Our little domain network is going to be rather isolated.&nbsp; To accomplish this, we will specify a specific Subnet and IP address range.&nbsp; Here is what I&#39;ve used for mine:</p> <blockquote> <p>IP Range: 192.168.8.1 - 254 (where 192.168.8.1 is my domain controller IP)<br />Subnet Mask: 255.255.248.0<br />Gateway: 192.168.8.1 (DC/DNS server)<br />Primary DNS: 192.168.8.1 (DC/DNS server)</p></blockquote> <p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_4.png"><strong><img style="border-right:0px;border-top:0px;border-left:0px;border-bottom:0px;" height="205" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_1.png" width="244" align="right" border="0" /></strong></a><strong> Setting up Active Directory</strong> is a breeze if you do it the easy way.&nbsp; Of course, I did it the easy way the last time.&nbsp; (Note to self: when just learning, take the defaults).&nbsp; Windows Server 2003 and 2008 have this concept of Roles.&nbsp; A server can fill one or more roles which are the conglomeration of settings, services, etc to do something more abstract... like be a DC.&nbsp; We are going to add the role <em>Active Directory Domain Services</em>.&nbsp;&nbsp; </p> <p>After the Add Role wizard does it&#39;s thing, you actually &quot;promote&quot; the machine to a DC by running dcpromo.exe (Start, dcpromo, Enter).&nbsp; This is where you make your selections, which in this case, I&#39;ve chosen:</p> <blockquote> <p>Create a new domain in a new forest<br />FQDN: vpc.com</p></blockquote> <p>You&#39;ll want to let the machine also be a DNS server.&nbsp; This is where I screwed up the first time.&nbsp; Don&#39;t get scared here, with our networking settings this domain we&#39;re setting up won&#39;t touch your corporate domain or anything crazy like that.</p> <p>Let the Wizard do it&#39;s thing and reboot when it is complete.</p> <p>Your Active Directory Domain Controller is ready to roll.&nbsp; Great job. </p> <p><strong>Adding Workstations </strong>is a matter of adding a Computer entry into the <em>Active Directory Users and Computers</em> console and then actually adding the computer to the domain.&nbsp; You&#39;ll find the AD Users and Computers MMC console in Administrative Tools.&nbsp; Once you&#39;ve added a computer entry, log into another VPC instance which has the same Network Adapter settings as above (different IP of course .2, .3, etc) and add the machine to the domain (vpc.com) in my case.&nbsp; </p> <p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_10.png"><img style="border-right:0px;border-top:0px;border-left:0px;border-bottom:0px;" height="244" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_4.png" width="222" align="right" border="0" /></a>Here&#39;s a quick screen capture of my Network Adapter on the Workstation I added to the domain.</p> <p>It&#39;s great being able to demo Enterprise software this way or test things like integrated authentication for intranet applications. </p><div style="clear:both;"></div>
+        
+
+        <div class="postfoot">
+            	
+                                    
+            <div class="em"><span id="ctl00_Main_ctl08_ctl01">Filed under: <a href="/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a>, <a href="/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></span><input type="hidden" name="ctl00$Main$ctl08$ctl01" id="ctl00_Main_ctl08_ctl01_State" value="nochange" /></div>
+        </div>    
+    </div>
+    
+    
+            
+            
+            
+            
+            
+                    <div id="commentform">
+                    <h3>Leave a Comment</h3>
+	                    <dl>
+	                        <div id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RegisteredWrapper">
+	
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle">Title</label> <em>(required)</em>&nbsp;</dt>
+	                        <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbTitle" type="text" value="re: Setting up a Virtual PC Domain" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle" class="smallbox" /></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameTitle"><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName">Name:</label> <em>(required)</em>&nbsp;</dt>
+                            <dd id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameDesc"><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbName" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName" class="smallbox" /></dd>
+
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl">Website:</label> <em>(optional</em>)</dt>
+                            <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbUrl" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl" class="smallbox" /></dd>
+                            
+</div>
+                            
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment">Comments</label> <em>(required)</em>&nbsp;</dt>
+                            <dd><textarea name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbComment" rows="5" cols="25" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment"></textarea></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RememberWrapper"><input id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember" type="checkbox" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$chkRemember" /><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember">Remember Me?</label></dt>
+               
+                            <dt><input type="submit" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit&quot;, &quot;&quot;, true, &quot;CreateCommentForm&quot;, &quot;&quot;, false, false))" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_btnSubmit" /></dt>
+	                    </dl>
+                    </div>
+                    
+        
+        
+                    </div></div>
+                    <div id="contentfooter">&nbsp;</div>
+		        </div>
+                <div id="footer">
+                    
+				        
+    				    
+				        
+				                <a href="http://communityserver.com/" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						    
+
+                        
+    					
+				    
+                </div>
+            </div>        
+        </div>
+    
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://cromwellhaus.com/blogs/ryanc/archive/2008/07/07/setting-up-a-virtual-pc-domain.aspx"
+dc:identifier="http://cromwellhaus.com/blogs/ryanc/archive/2008/07/07/setting-up-a-virtual-pc-domain.aspx"
+dc:title="Setting up a Virtual PC Domain"
+trackback:ping="http://cromwellhaus.com/blogs/ryanc/trackback.ashx?PostID=688" />
+</rdf:RDF>
+-->
+<script src="http://feeds.feedburner.com/~s/RyanCromwell?i=http://cromwellhaus.com/blogs/ryanc/archive/2008/07/07/setting-up-a-virtual-pc-domain.aspx" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$ctl07$ctl00$SearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01_State','ctl00_Main_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

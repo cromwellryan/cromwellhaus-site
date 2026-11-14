@@ -1,0 +1,239 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish.  It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="GENERATOR" content="CommunityServer 2007.1 (Build: 20917.1142)" />
+<link rel="pingback" href="http://cromwellhaus.com/blogs/ryanc/pingback.aspx" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/paperclip/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/paperclip/style/print.css?SectionID=11" type="text/css" media="print" />
+	<link rel="stylesheet" href="/themes/blogs/paperclip/style/summer.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/paperclip/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	PerformanceHelper.cs Update: Perfmon, Console, and Debug Output options - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/2007/10/26/performancehelper-cs-update-perfmon-console-and-debug-output-options.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNzgzNzk5NjRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBS5jdGwwMCRNYWluJGN0bDEwJGN0bDAyJGN0bDAyJGN0bDAyJGNoa1JlbWVtYmVy8WDzwh2+ZBSrNRIT5KbGtLQ/K/k=" />
+</div>
+
+
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4S7ZBPAVw9PwaqA6uS0FfwGf3Hm9m6m-bY3jx8ehHgPE1&amp;t=633374896895889088" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4LztMjwM-SqBR5_anrX2l2HqgE4lVEbuAeBVlAAPF2Jk1&amp;t=633374896895889088" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4qw7uaC3LpM50bK3H8VCJ_tVhk9B3VUiQp-tSztnY6fE1&amp;t=633374896895889088" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4dI2CKwjWiWdwrBqDrsqy7rWQN5-5uEWsypWfk5ThPqg1&amp;t=633374896895889088" type="text/javascript"></script>
+
+    			
+
+    <div id="masthead">
+	    <div id="userArea">
+	        <div id="welcome" class="welcome" align="right">
+	            
+        <a href="/login.aspx?ReturnUrl=%2fblogs%2fryanc%2farchive%2f2007%2f10%2f26%2fperformancehelper-cs-update-perfmon-console-and-debug-output-options.aspx">Sign in </a>
+         | <a href="/user/CreateUser.aspx?ReturnUrl=">Join</a>
+        | <a href="http://communityserver.org/r.ashx?K">Help</a>
+     
+
+
+	        </div>
+	        
+		    <div id="Search" align="right">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                    <tr><td>
+                        <input name="ctl00$ctl06$ctl00$SearchBox" type="text" id="ctl00_ctl06_ctl00_SearchBox" class="searchBox" Button="SearchButton" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" /> 
+                    </td><td>
+                        <span class="SearchButtonOuter"><a id="ctl00_ctl06_ctl00_SearchButton" class="SearchButton" href="javascript:__doPostBack('ctl00$ctl06$ctl00$SearchButton','')">Search</a></span>
+                    </td></tr>
+                    </table>		        
+                </div>
+	    </div>
+	    <div id="title">
+            <h1 class="headermaintitle">Ryan Cromwell</h1>
+            <div>Aimless musings of a keyboard masher.</div>
+        </div>
+    </div>
+
+    <div id="nav">
+	    <div id="navbar">
+		    <ul>
+		        <li><a href="/blogs/ryanc/default.aspx">Home</a></li>
+			    
+			    
+			    <li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+			    
+		        
+			    
+		    </ul>
+	    </div>
+    </div>
+    <div id="content">
+        <div id="leftmenu">
+            
+                
+                
+                
+                
+                <div id="RecentPosts"><h3>Recent Posts</h3>
+<ul>
+<li><a href="/blogs/ryanc/archive/2008/01/15/new-year-indeed.aspx">New Year Indeed</a></li><li><a href="/blogs/ryanc/archive/2007/12/20/asp-net-mvc-checkbox-boolean-value-mapping.aspx">ASP.Net MVC Checkbox/boolean Value Mapping</a></li><li><a href="/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx">ASP.Net MVC and Forms Authentication</a></li><li><a href="/blogs/ryanc/archive/2007/12/07/nhibernate-query-generator-installer-for-visual-studio-2008.aspx">NHibernate Query Generator Installer for Visual Studio 2008</a></li><li><a href="/blogs/ryanc/archive/2007/11/19/nhibernate-query-generator-with-visual-studio-2008.aspx">NHibernate Query Generator with Visual Studio 2008</a></li>
+</ul></div>
+                
+                
+                <div id="TagSideBar">
+                        <h3>Tags</h3>
+                    <ul class="SidebarTagCloud">
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Oracle/default.aspx" rel="tag">Oracle</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+              
+                
+                                
+                                
+                
+                <div id="NavSideBar"><h3>Navigation</h3>
+<ul>
+<li><a href="/">Home</a></li><li><a href="/blogs/">Blogs</a></li><li><a href="/photos/">Photos</a></li><li><a href="/files/">Downloads</a></li>
+</ul></div>
+                
+                
+                
+                
+                
+                
+                
+                <div id="ArchiveSideBar"><h3>Archives</h3>
+<ul>
+<li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div> 
+	        
+        </div>
+        <div id="main">
+	        
+    <div class="post">
+       <h2 class="pageTitle">PerformanceHelper.cs Update: Perfmon, Console, and Debug Output options</h2>
+
+       <p>I&#39;ve updated my <a href="http://cromwellhaus.com/files/folders/netcode/entry172.aspx">PerformanceHelper</a>&nbsp;class that I&#39;ll throw around certain code blocks to help trend or monitor performance.&nbsp; Before it was merely a <a href="http://msdn2.microsoft.com/en-us/library/system.diagnostics.performancecounter.aspx">PerformanceCounter</a>&nbsp;wrapper with a few metrics, but now you can specify Console, Debug and/or Perfmon.&nbsp; You do this by using an XOR (&nbsp;&#39;|&#39; ) in a new Constructor.&nbsp; Here&#39;s an example which outputs to Debug.WriteLine and PerfMon:</p> <blockquote><pre class="code"><span>for</span> (<span>int</span> index = 0; index &lt; 10; index++)
+{
+    <span>using</span> (<span>new</span> <span>PerformanceHelper</span>(<span>&quot;ConsoleSample&quot;</span>,
+        <span>&quot;Perfmon Sample&quot;</span>, <span>OutputOptions</span>.Debug | <span>OutputOptions</span>.Perfmon))
+    {
+        <span>Thread</span>.Sleep(500);
+    }
+}</pre></blockquote>
+<p>The method that does the Output to Console and Debug is marked&nbsp;as [<span>Conditional</span>(<span>&quot;DEBUG&quot;</span>)], because you really should have a better strategy for performance monitoring in production and you don&#39;t want that hit for each block that you wrapped. </p>
+<p>Note to Vista Developers:&nbsp; You will have problems creating custom performance counters at runtime based on registry access.&nbsp; To support this in a client based app, you will need to specify an application manifest and mark it with the following: &nbsp;</p>
+<blockquote><pre class="code"><span>&lt;requestedExecutionLevel  level=&quot;requireAdministrator&quot; /&gt;</span></pre></blockquote>For more information on application manifests, <a href="http://blogs.msdn.com/knom/archive/2007/06/11/vista-user-account-control-with-net.aspx">read this</a>.
+       
+
+        <div class="postfoot">
+            	
+            <span class="em">Posted:</span>
+            <a href="/blogs/ryanc/archive/2007/10/26/performancehelper-cs-update-perfmon-console-and-debug-output-options.aspx">Oct 26 2007, 10:36 PM</a>
+			by
+			<a href="/members/Ryan.aspx">Ryan</a> 
+			
+                    
+                    | with <a href="/blogs/ryanc/archive/2007/10/26/performancehelper-cs-update-perfmon-console-and-debug-output-options.aspx#comments">no comments</a>
+                
+            
+            
+            <div class="em"><span id="ctl00_Main_ctl09_ctl01">Filed under: <a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a>, <a href="/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></span><input type="hidden" name="ctl00$Main$ctl09$ctl01" id="ctl00_Main_ctl09_ctl01_State" value="nochange" /></div>
+        </div>    
+    </div>
+    
+    
+            
+                    <div id="comments">
+                    <a name="Comments"></a>
+                    <h2>Comments</h2>
+                
+                    <p>No Comments</p>
+                
+                    </div>
+                
+            
+            
+            
+            
+                    <fieldset id="commentform">
+                    <legend>Leave a Comment</legend>
+	                    <p />
+                        <div><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbTitle">Title</label> <em>(required)</em>&nbsp;</div>
+	                    <div><input name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$tbTitle" type="text" value="re: PerformanceHelper.cs Update: Perfmon, Console, and Debug Output options" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbTitle" class="smallbox" /></div>
+	                    <p />
+                        <div id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_NameTitle"><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbName">Name</label> <em>(required)</em>&nbsp;</div>
+                        <div id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_NameDesc"><input name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$tbName" type="text" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbName" class="smallbox" /></div>
+                        <p />
+                        <div><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbUrl">Your URL</label> <em>(optional</em>)</div>
+                        <div><input name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$tbUrl" type="text" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbUrl" class="smallbox" /></div>
+                        <p />
+                        <div><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbComment">Comments</label> <em>(required)</em>&nbsp;</div>
+                        <div><textarea name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$tbComment" rows="5" cols="25" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbComment"></textarea></div>
+	                    
+	                        <p />
+                            <div><input id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_chkRemember" type="checkbox" name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$chkRemember" /><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_chkRemember">Remember Me?</label></div>
+                        
+	                    <p />
+                        <input type="submit" name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl10$ctl02$ctl02$ctl02$btnSubmit&quot;, &quot;&quot;, true, &quot;CreateCommentForm&quot;, &quot;&quot;, false, false))" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_btnSubmit" />
+                    </fieldset>
+                
+        
+        
+        </div>
+        <div id="footer">
+	       
+			    
+			    
+			    
+			            <a href="http://communityserver.org/r.ashx?1" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+					
+
+                
+				
+			
+        </div>
+    </div>        
+        
+    
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://cromwellhaus.com/blogs/ryanc/archive/2007/10/26/performancehelper-cs-update-perfmon-console-and-debug-output-options.aspx"
+dc:identifier="http://cromwellhaus.com/blogs/ryanc/archive/2007/10/26/performancehelper-cs-update-perfmon-console-and-debug-output-options.aspx"
+dc:title="PerformanceHelper.cs Update: Perfmon, Console, and Debug Output options"
+trackback:ping="http://cromwellhaus.com/blogs/ryanc/trackback.ashx?PostID=329" />
+</rdf:RDF>
+-->
+<script src="http://feeds.feedburner.com/~s/RyanCromwell?i=http://cromwellhaus.com/blogs/ryanc/archive/2007/10/26/performancehelper-cs-update-perfmon-console-and-debug-output-options.aspx" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_ctl09_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_ctl09_ctl01','ctl00_Main_ctl09_ctl01','ctl00_Main_ctl09_ctl01_State','ctl00_Main_ctl09_ctl00',false,null,null,null);
+// ]]>
+</script></form>
+</body>
+</html>

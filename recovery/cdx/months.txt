@@ -1,0 +1,196 @@
+   "This problem is being researched"
+   #accus Saturday Schedule
+   1 reason to stick with Windows Virtual PC
+   A Reminder Of Our Values
+   Action(Of T) Lambdas in VB
+   Advanced WPF ListBox Scenario: Representing and Selecting an XML Hierarchy
+   ASP.Net MVC and Forms Authentication
+   ASP.Net MVC Checkbox/boolean Value Mapping
+   ASP.Net Unique Process Accounts
+   ASP.Net Web Api Integration Tests With Self Hosting
+   Awesome Tool of the Day: Baretail
+   Awesome Tool of the Day: StumbleUpon Firefox Add-On
+   Awesome Tool of the Day: WorkRave
+   Backup Your Site
+   Better Burndown: Forecasts that reflect the Cone of Uncertainty
+   Beyond the Agile Programmer: Innovative Teams
+   Bind to Method within a DataTemplate
+   Bio
+   Bonus Features and The Art of Sustainable Pace
+   Bringing down an Oracle 9i on Windows instance
+   Cin-Day Nerd Dinner
+   Cincinnati Clean Coders
+   Cincinnati Day of Agile Call for Speakers
+   Cincinnati Professional Scrum Developer .Net Course (Feb 21st)
+   Cincy Clean Coders – Code You Can Show Your Friends
+   Cincy Day Of Agile 2011 is Open for Registration
+   Classic Web 1.0...
+   Code Kata Constraints
+   CODNG – Lap Around WPF
+   Community Server and w.Bloggar Settings
+   Comparing Github Forks
+   Cone of Uncertainty Graphic with Events in Time
+   Create Github Gists without leaving Powershell
+   Crickets: Messages Are Only Useful If Received
+   Dayton Code & Coffee
+   Dayton-Cincinnati Code Camp
+   Dayton-Cincinnati Code Camp reflection...
+   Definition of Done Discovery
+   Determine Framework Version & Profile in a #NuGet Install.ps1
+   Did you know?  Screenshots of Virtual PC Instances
+   Dog Food II Registration Open
+   Double Super Secret Github Feature
+   Easy Github Code Reviews with diffgist in PsGist
+   Elixir needs at least 4 JSON parsers
+   Expand Your Normal
+   Expanding Quality Dev Practices: Clean Coders
+   Exporting Adobe Illustrator resources to WPF
+   Failing Builds Aren’t Your Problem
+   Feature Focused Javascript Apps
+   Free March Madness Video Feeds?  I'm so there!
+   Gates/Seinfeld Commercial
+   Good Books for the Softer Side of Agile
+   Google Gears
+   Greatest Overeager Design Decision: Assignment
+   Headless Javascript Testing with Visual Studio 2012 & Chutzpah Test Adapter
+   IIS 7 is so cool
+   Installation Guides
+   Jing
+   Kentucky Briefings April 15th and 22nd
+   Lap Around WPF
+   Lap Around WPF @ CONDG
+   libnotify support for expresso
+   Lightning Talk: Experiences with Feature Focused Apps
+   Microsoft Expression Blend available to from MSDN
+   MiniMVC for WPF
+   Missing Pieces: The Road from Agile Enthusiast to Agile Team Member
+   Mono hits the road
+   My Favorite Visual Studio 2012 Extensions
+   My Learning Elixir (erlang) Setup
+   New Year Goals refresh...
+   NHibernate 1.2.0.x versus 2.0.0.x
+   NHibernate Query Generator
+   NHibernate Query Generator Installer for Visual Studio 2008
+   NHibernate Query Generator with Visual Studio 2008
+   NHibernate Thinks Your Enum is Dirty
+   Notes
+   Outlook 2007 does the little things
+   Outlook 2007 Huge Performance Improvement
+   Passive Aggressive Commit Messages
+   PerformanceHelper for easy PerformanceCounter integration
+   PerformanceHelper.cs Update: Perfmon, Console, and Debug Output options
+   Personal Backup with Mozy
+   Powershell
+   PowerShell Profile on Roaming Profile
+   Presentation Abstracts
+   Presentations
+   Programming is not a craft… but you can be a craftsman
+   Property Undo/Redo Support
+   Quicky Visual Studio Projects you can Toss to the Curb
+   Real World Webcast Series for TFS 2010
+   Reason #29 for using Virtual Machines
+   Registering WPF “Views” with Windsor Fluent API
+   Rehearsal Dinner at Claddagh Pub
+   ReSharper Test Runner and MSTest Projects
+   Restoring TFS 2012 to Sandbox
+   Roadblock to Mocking Unit Tests
+   Rules of the Game: Effective Group Discussion
+   Scaling ItemsControl Items for Explicit Visible Items in WPF
+   Scrolling Multiple Content Areas with a single ScrollBar in WPF
+   Scrum Fundamentals Recording Available
+   Send me your TFS vNext Feedback for the MVP Summit
+   Setting up a Virtual PC Domain
+   Sign up for Southwest Ohio GiveCamp 2012
+   Signing your Powershell Profile Scripts
+   Silverlight: .Net for the masses
+   Size versus Duration
+   SketchFlow: From Concept to Production
+   So What's Your Windows Experience Score?
+   SQL Reporting Services Unattended Install Documentation Bug
+   SQL Server 2000 vs 2005 Lazy XML Validation
+   Strangest Support Call... EVER
+   Strategy Pattern with Castle Windsor
+   STUFF & FOR XML PATH
+   SysPrep Your Virtual PC Images
+   Terrible Exception message building custom Nuget VSIX Extension
+   TFS Screencasts - Part 1 - Create a Team Project
+   TFS Screencasts - Part 2 - Scrum For Team System Features
+   The multilingual family...
+   The Purpose of Katas
+   Time box: A Holistic View on Sprints and Iterations
+   Time box: Get-Stuff-Done Tool for Risk Reduction, Focus, and Decision Making
+   Time box: Safety zone for Creativity, Cleanliness, and Sausage Stuffing
+   Triangle Kata in Elixir using Erlang processes for Parallel Maps
+   Using HashDict.update for Keyed Reductions (aka group by) in Elixir
+   Vacation at your own peril!
+   Video Conferencing Code of Conduct
+   Virtual PC and Network Places
+   Virtual Property C# Code Snippet
+   Visitor Pattern with Anonymous Methods
+   Vista Sidebar Gadget Developer Experience
+   Visual Studio 2008 Beta 2, Team Explorer, and Codeplex
+   Visual Studio 2012 Quick Launch is Awesome!
+   Visual Studio Orcas Beta 1
+   “We’re Agile, We do Scrum”
+   What a Microsoft ALM MVP means to me?
+   Where did Alt.Net go?
+   Where Scrum and Craftsmanship Converge
+   Why Plain Old LINQ is so powerful
+   Why WPF?  This is why...
+   Windows Live Mail (Hotmail Kahuna) a work in progress.
+   Windows Live Mail (Hotmail Kahuna) is here!
+   Windows Live Messenger Beta
+   Windows Live Messenger Beta Invites
+   Windows Live Messenger Beta Update
+   WPF Bootcamp Day 1
+   WPF Bootcamp Day 1 – DataTemplates
+   WPF Bootcamp Day 1 - Expression
+   WPF Bootcamp Day 1 - Visual Studio "Orcas" Demo
+   WPF Bootcamp Day 2 - Blend
+   WPF Bootcamp Day 3 – FTP Problems from the Technology Center
+   WPF Bootcamp Day 3 - Hardware capability
+   WPF Controls TabIndex: Moving to the First Input Control
+   WPF ScaleTransform Direction
+   XamlXporter COMException Fix
+   XSL Transforms applied to XML namespaces
+   Your Test Suite Sucks… do it again
+2006-01
+2006-02
+2006-03
+2007-03
+2007-04
+2007-05
+2007-06
+2007-08
+2007-09
+2007-10
+2007-11
+2007-12
+2008-03
+2008-04
+2008-06
+2008-07
+2008-08
+2008-09
+2009-03
+2009-07
+2009-10
+2010-04
+2010-07
+2010-08
+2010-12
+2011-01
+2011-02
+2011-03
+2011-05
+2011-09
+2012-01
+2012-02
+2012-03
+2012-06
+2012-07
+2012-08
+2012-09
+2013-07
+2013-08
+null

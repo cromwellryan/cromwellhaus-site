@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11"><link rel="stylesheet" type="text/css" href="http://cromwellhaus.com/wp-content/w3tc/min/bdd48060.445c7a.css" media="all" />
+<script type="text/javascript" src="http://cromwellhaus.com/wp-content/w3tc/min/44aeb9f9.54723d.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>NHibernate Query Generator with Visual Studio 2008 &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+
+
+
+
+.post p.post-date,.post p.post-author{display:none;}
+.block-content{width:960px;max-width:960px;}
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; NHibernate Query Generator with Visual Studio 2008 Comments Feed" href="http://cromwellhaus.com/2007/11/nhibernate-query-generator-with-visual-studio-2008/feed/" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='NHibernate 1.2.0.x versus 2.0.0.x' href='http://cromwellhaus.com/2007/11/nhibernate-1-2-0-x-versus-2-0-0-x/' />
+<link rel='next' title='NHibernate Query Generator Installer for Visual Studio 2008' href='http://cromwellhaus.com/2007/12/nhibernate-query-generator-installer-for-visual-studio-2008/' />
+<meta name="generator" content="WordPress 3.4.1" />
+<link rel='canonical' href='http://cromwellhaus.com/2007/11/nhibernate-query-generator-with-visual-studio-2008/' />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=699' />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://cromwellhaus.com/about/"><span>Bio</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://cromwellhaus.com/2007/11/nhibernate-1-2-0-x-versus-2-0-0-x/" rel="prev">NHibernate 1.2.0.x versus 2.0.0.x</a></div>
+          <div class="alignright"><a href="http://cromwellhaus.com/2007/12/nhibernate-query-generator-installer-for-visual-studio-2008/" rel="next">NHibernate Query Generator Installer for Visual Studio 2008</a> &raquo;</div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-699" class="post-699 post type-post status-publish format-standard hentry category-nhibernate">
+           <h2 class="post-title">NHibernate Query Generator with Visual Studio 2008</h2>
+              <div class="post-content clearfix">
+    	       <p><a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/NHibernateQueryGeneratorwithVisualStudio_9F3F/image_1.png" mce_href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/NHibernateQueryGeneratorwithVisualStudio_9F3F/image_1.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="202" alt="Custom Tool Configuration" src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/NHibernateQueryGeneratorwithVisualStudio_9F3F/image_thumb_1.png" width="240" align="right" border="0" mce_src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/NHibernateQueryGeneratorwithVisualStudio_9F3F/image_thumb_1.png"></a> I&#8217;ve been using <a href="http://www.ayende.com/Blog/" mce_href="http://www.ayende.com/Blog/">Ayende&#8217;s</a> <a href="http://ayende.com/projects/downloads/nhibernate-query-generator.aspx" mce_href="http://ayende.com/projects/downloads/nhibernate-query-generator.aspx">NHibernate Query Generator</a> (NHQG) to help type-ify my NHibernate repository queries.&nbsp; One of the great +1&#8242;s of his tool is that you can apply it as a <a href="http://msdn.microsoft.com/msdnmag/issues/02/10/NETTopTen/#S9" mce_href="http://msdn.microsoft.com/msdnmag/issues/02/10/NETTopTen/#S9">Custom Tool</a> for your NHibernate mapping files right within Visual Studio.&nbsp;&nbsp; </p>
+<p>With this setup, every change to my mapping file is reflected in my typed NHibernate ICriteria instances.&nbsp; For those who work directly with Hibernate Expressions, look how clean my queries are:</p>
+<blockquote><pre class="code"><span style="color: rgb(0,128,0)">// Get it using the Id<br /></span><span style="color: rgb(0,0,255)">public</span> <span style="color: rgb(0,0,255)">static</span> <span style="color: rgb(43,145,175)">MyClass</span> GetById(<span style="color: rgb(0,0,255)">long</span> id)<br />{<br />    <span style="color: rgb(0,0,255)">return</span> <span style="color: rgb(43,145,175)">Repository</span>.Get&lt;<span style="color: rgb(43,145,175)"><span style="color: rgb(43,145,175)">MyClass</span></span>&gt;(<span style="color: rgb(43,145,175)">Where</span>.MyClass.Id == id);<br />}</pre>
+<p><a href="http://11011.net/software/vspaste" mce_href="http://11011.net/software/vspaste"></a>
+<pre class="code"><span style="color: rgb(0,128,0)">// Get those updated today<br /></span><span style="color: rgb(0,0,255)">public</span> <span style="color: rgb(0,0,255)">void</span> Example2()<br />{<br />    <span style="color: rgb(43,145,175)">IList</span>&lt;<span style="color: rgb(43,145,175)"><span style="color: rgb(43,145,175)">MyClass</span></span>&gt; cards = <span style="color: rgb(43,145,175)">Repository</span>.Find&lt;<span style="color: rgb(43,145,175)"><span style="color: rgb(43,145,175)">MyClass</span></span>&gt;(<span style="color: rgb(43,145,175)">Where</span>.MyClass.LastUpdated &gt;= <span style="color: rgb(43,145,175)">DateTime</span>.Today);<br />}<br /></pre>
+<p><a href="http://11011.net/software/vspaste" mce_href="http://11011.net/software/vspaste"></a></p></blockquote>
+<p><a href="http://11011.net/software/vspaste" mce_href="http://11011.net/software/vspaste"></a></p>
+<p>That&#8217;s just awesome!</p>
+<p>There&#8217;s a slight glitch though, his installer only registers the tool for Visual Studio 2005.&nbsp; I&#8217;m sure now that 2008 is RTM (I&#8217;ve been using Beta 2) he&#8217;ll soon have a new version out, but in the mean time, you can use these two .reg files:</p>
+<p><a href="http://cromwellhaus.com/files/folders/software/entry385.aspx" mce_href="http://cromwellhaus.com/files/folders/software/entry385.aspx">NHQG C# Custom Tool Registration</a></p>
+<p><a href="http://cromwellhaus.com/files/folders/software/entry386.aspx" mce_href="http://cromwellhaus.com/files/folders/software/entry386.aspx">NHQG VB Custom Tool Registration</a></p>
+              </div>
+                                          <p class="post-metadata">
+                    This entry was posted on November 19, 2007, 4:31 pm and is filed under <a href="http://cromwellhaus.com/category/nhibernate/" title="View all posts in NHibernate" rel="category tag">NHibernate</a>. You can follow any responses to this entry through <a href="http://cromwellhaus.com/2007/11/nhibernate-query-generator-with-visual-studio-2008/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://cromwellhaus.com/2007/11/nhibernate-query-generator-with-visual-studio-2008/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-23">
+        <div id="dsq-comment-header-23" class="dsq-comment-header">
+            <cite id="dsq-cite-23">
+                <span id="dsq-author-user-23">Knave</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-23" class="dsq-comment-body">
+            <div id="dsq-comment-message-23" class="dsq-comment-message"><p>Hi Ryan,</p>
+<p>I can&#8217;t seem to get the automated generation to work. It just creates a blank YourClass.hbm.cs file in the specified folder.</p>
+<p>I&#8217;ved installed the installer from Ayende&#8217;s site.</p>
+<p>Using: Nhibernate 2.0.1 + VS2008 SP1 here.</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-24">
+        <div id="dsq-comment-header-24" class="dsq-comment-header">
+            <cite id="dsq-cite-24">
+                <span id="dsq-author-user-24">cromwellryan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-24" class="dsq-comment-body">
+            <div id="dsq-comment-message-24" class="dsq-comment-message"><p>I haven&#8217;t tried the Query Generator with 2.0, but just the fact that it&#8217;s creating the hbm.cs file is telling us the generator is at least trying.  What version of the Generator are you using?  Did you build from trunk or download a release?</p>
+<p>If I remember correctly (not always a good bet), if your mapping file is invalid, it will leave a blank .cs file, but hopefully you&#8217;ve confirmed that.</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-25">
+        <div id="dsq-comment-header-25" class="dsq-comment-header">
+            <cite id="dsq-cite-25">
+                <span id="dsq-author-user-25">Knave</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-25" class="dsq-comment-body">
+            <div id="dsq-comment-message-25" class="dsq-comment-message"><p>Well, the trunk doesn&#8217;t seem to have the MSI installer code in it anymore.</p>
+<p>I&#8217;m currently using the console app from the trunk (built myself with latest Nhibernate version) and link via external tools function VS2008.</p>
+<p>It also doesn&#8217;t work when I overwrite the executable file (from the installer) with my own built version.</p>
+<p>Mapping files are valid, since they work fine when I used the latest built of the generator from the trunk. <img src='http://cromwellhaus.com/wp-includes/images/smilies/icon_sad.gif' alt=':(' class='wp-smiley' /> </p>
+</div>
+        </div>
+    </li>
+
+    </li>
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://cromwellhaus.com/2007/11/nhibernate-query-generator-with-visual-studio-2008/';
+    var disqus_identifier = '699 /blogs/ryanc/archive/2007/11/19/nhibernate-query-generator-with-visual-studio-2008.aspx';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cromwellhaus';
+    var disqus_title = "NHibernate Query Generator with Visual Studio 2008";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            DISQUS.request.get('?cf_action=sync_comments&post_id=699');
+        });
+                    };
+    var facebookXdReceiverPath = 'http://cromwellhaus.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/cromwellhaus.com\/2007\/11\/nhibernate-query-generator-with-visual-studio-2008\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+        dsq.src = 'http' + '://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.72';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+          
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 18 queries. 0.278 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk: basic
+Page Caching using disk: enhanced
+
+Served from: cromwellhaus.com @ 2012-07-16 23:04:14 -->

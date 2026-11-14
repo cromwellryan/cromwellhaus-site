@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>The Purpose of Katas &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.1.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview'],['_trackPageLoadTime']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.box .the-content { padding: 0px; }
+.br .the-content {align: center; }
+.box .tl, .box .tr, .box .wrapleft { background: none; }
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; The Purpose of Katas Comments Feed" href="http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/feed/" />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com/' />
+<link rel='start' title='Dayton-Cincinnati Code Camp' href='http://blog.cromwellhaus.com/2005/12/dayton-cincinnati-code-camp/' />
+<link rel='prev' title='What a Microsoft ALM MVP means to me?' href='http://blog.cromwellhaus.com/2011/01/what-a-microsoft-alm-mvp-means-to-me/' />
+<link rel='next' title='Programming is not a craft… but you can be a craftsman' href='http://blog.cromwellhaus.com/2011/01/programming-is-not-a-craft-but-you-can-be-a-craftsman/' />
+<meta name="generator" content="WordPress 3.2.1, fitted with the WordPress Mobile Pack 1.2.4" />
+<link rel='canonical' href='http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/' />
+<link rel='shortlink' href='http://blog.cromwellhaus.com/?p=858' />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/" title="Bio"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/" title="Presentation Abstracts"><span>Presentation Abstracts</span></a>
+<ul class='children'>
+	<li class="page_item page-item-909"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/missing-pieces-the-road-from-agile-enthusiast-to-agile-team-member/" title="Missing Pieces: The Road from Agile Enthusiast to Agile Team Member"><span>Missing Pieces: The Road from Agile Enthusiast to Agile Team Member</span></a></li>
+</ul>
+</li>
+<li class="page_item page-item-757"><a class="fadeThis" href="http://blog.cromwellhaus.com/dayton-code-coffee/" title="Dayton Code &amp; Coffee"><span>Dayton Code &amp; Coffee</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://blog.cromwellhaus.com/2011/01/what-a-microsoft-alm-mvp-means-to-me/" rel="prev">What a Microsoft ALM MVP means to me?</a></div>
+          <div class="alignright"><a href="http://blog.cromwellhaus.com/2011/01/programming-is-not-a-craft-but-you-can-be-a-craftsman/" rel="next">Programming is not a craft… but you can be a craftsman</a> &raquo;</div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-858" class="post-858 post type-post status-publish format-standard hentry category-craftsmanship">
+           <h2 class="post-title">The Purpose of Katas</h2>
+              <div class="post-content clearfix">
+    	       <p><a href="http://www.codemash.org">Codemash</a> 2011 has had a Coding Dojo dedicated to Katas.&#160; I don’t recall that last year, but I love it.&#160; While I was there, they were well coordinated also.&#160; Nimble Pros seemed to be organizing things and they kept suggesting people pair up as they walked in and finally coordinated a discussion, swapping out the projector from person to person.&#160; </p>
+<p>In and of themselves, the Kata problem is generally not terribly difficult.&#160; We’re talking about <a href="http://codingdojo.org/cgi-bin/wiki.pl?KataPotter">Harry Potter</a> and <a href="http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata">Bowling</a> for crying out loud.&#160; In fact, Uncle Bob goes so far as to say that “a kata is meant to be memorized.” </p>
+<p>But the problem is not point of a kata.&#160; Instead, &lt;robe&gt;it’s the journey&lt;/robe&gt; that we aspire towards.&#160; Every execution of a kata should start with a goal, an objective.&#160; That goal may be to investigate, understand and adopt another coders decision making process.&#160; Your goal, as it seems for many this week, may be to learn a language or language feature.&#160; Often the objective is to learn a new coding technique.&#160; </p>
+<p>Over the past few months, my objectives have often been related to streamlining my tooling techniques.&#160; I’ve used katas to learn Vim and a little Emacs.&#160; I’ve used katas to learn new ReSharper features.&#160; The Vim learning process resulted in much better use of Visual Studio, even installing the <a href="http://visualstudiogallery.msdn.microsoft.com/en-us/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329">VsVim</a> extension which I love.&#160; </p>
+<p>Today I used the Greed Kata to practice the <a href="http://cleancoder.posterous.com/the-transformation-priority-premise">Transformation Priority Premise</a> and I was very intruiged by the way my code evolved.&#160; It certainly took me down a path different than that others and the one I would have otherwise have chosen.</p>
+<p>So my suggestion to you in an attempt to make your sessions more productive… <strong>have a kata goal.</strong></p>
+              </div>
+                                          <p class="post-metadata">
+                    This entry was posted on January 14, 2011, 12:32 am and is filed under <a href="http://blog.cromwellhaus.com/category/craftsmanship/" title="View all posts in Craftsmanship" rel="category tag">Craftsmanship</a>. You can follow any responses to this entry through <a href="http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+                    <div id="dsq-content">
+            <ul id="dsq-comments">
+                    <li id="dsq-comment-116">
+                    <div id="dsq-comment-header-116" class="dsq-comment-header">
+                        <cite id="dsq-cite-116">
+    http://topsy.com/blog.cromwellhaus.com/2011/01/the-purpose-of-katas/?utm_source=pingback&#038;utm_campaign=L2                            <span id="dsq-author-user-116">Tweets that mention The Purpose of Katas « Ryan Cromwell &#8212; Topsy.com</span>
+                            </cite>
+                    </div>
+                    <div id="dsq-comment-body-116" class="dsq-comment-body">
+                        <div id="dsq-comment-message-116" class="dsq-comment-message"><p>[...] This post was mentioned on Twitter by Ryan Cromwell. Ryan Cromwell said: Blogged: The purpose of Katas: Codemash 2011 has had a Coding Dojo dedicated to Katas&#8230; <a href="http://bit.ly/eOrVEm" rel="nofollow">http://bit.ly/eOrVEm</a> [...]</p>
+</div>
+                    </div>
+                </li>
+                </ul>
+        </div>
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/';
+    var disqus_identifier = '858 http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cromwellhaus';
+    var disqus_title = "The Purpose of Katas";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+
+        /* 
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            DISQUS.request.get('?cf_action=sync_comments&post_id=858');
+        });
+                    };
+    var facebookXdReceiverPath = 'http://blog.cromwellhaus.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+            {
+                'author_name':    "Tweets that mention The Purpose of Katas « Ryan Cromwell -- Topsy.com",
+                'author_url':    "http:\/\/topsy.com\/blog.cromwellhaus.com\/2011\/01\/the-purpose-of-katas\/?utm_source=pingback&#038;utm_campaign=L2",
+                'date':            "01\/14\/2011 02:04 PM",
+                'excerpt':        "[...] This post was mentioned on Twitter by Ryan Cromwell. Ryan Cromwell said: Blogged: The purpose of Katas: Codemash 2011 ...",
+                'type':            "pingback"            }
+        ],
+        'trackback_url': "http:\/\/blog.cromwellhaus.com\/2011\/01\/the-purpose-of-katas\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.67';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+    
+    
+    <li class="block widget widget_text" id="text-3"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>What I have to say&#8230;</span></h4></div>			<div class="textwidget"><script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#382a1d',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ebe6d8',
+      color: '#000000',
+      links: '#0070bb'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().setUser('cromwellryan').start();
+</script></div>
+		</div></div></div></div></div></div> </div></li><li class="block widget widget_links" id="linkcat-2"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>Blogroll</span></h4></div>
+	<ul class='xoxo blogroll'>
+<li><a href="http://cincycleancoders.com/" rel="me" title="Exploring Patterns, Practices, and Tools for Sustainable Code">Cincy Clean Coders</a></li>
+
+	</ul>
+</div></div></div></div></div></div> </div></li>
+ </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 21 queries. 0.356 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+<p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/?wpmp_switcher=mobile'>Switch to our mobile site</a></p></body>
+</html>
+

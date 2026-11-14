@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php" />
+<title>Beyond the Agile Programmer: Innovative Teams &#8211; Ryan Cromwell</title>
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="http://cromwellhaus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Beyond the Agile Programmer: Innovative Teams Comments Feed" href="http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.3"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='pinboard-web-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic|Oswald:300,300italic,regular,italic,600,600italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='pinboard-css'  href='http://cromwellhaus.com/wp-content/themes/pinboard/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='http://cromwellhaus.com/wp-content/themes/pinboard/styles/colorbox.css' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-4332588-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by Yoast -->
+	<!--[if lt IE 9]>
+	<script src="http://cromwellhaus.com/wp-content/themes/pinboard/scripts/html5.js" type="text/javascript"></script>
+	<![endif]-->
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/ios-orientationchange-fix.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/jquery.colorbox-min.js'></script>
+<link rel='https://api.w.org/' href='http://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Build once, MSDeploy all over the place' href='http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/' />
+<link rel='next' title='Visual Studio 2012 Quick Launch is Awesome!' href='http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/' />
+<meta name="generator" content="WordPress 4.4.3" />
+<link rel="canonical" href="http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/" />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=1181' />
+<link rel="alternate" type="application/json+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2012%2F06%2Fbeyond-the-agile-programmer-innovative-teams%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2012%2F06%2Fbeyond-the-agile-programmer-innovative-teams%2F&#038;format=xml" />
+<meta property="og:title" content="Beyond the Agile Programmer: Innovative Teams" /><meta property="og:type" content="article" /><meta property="og:url" content="http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="This past week, I had the opportunity to attend the Midwest UX conference in Columbus, Ohio. I was incredibly happy to see AIS sponsor the event. While we work hand-in-hand with some great design teams for projects like the Vogue Archive and Rolling Stone Archive, getting directly involved in the &hellip;" /><script>
+/* <![CDATA[ */
+	jQuery(window).load(function() {
+			});
+	jQuery(document).ready(function($) {
+		$('#access .menu > li > a').each(function() {
+			var title = $(this).attr('title');
+			if(typeof title !== 'undefined' && title !== false) {
+				$(this).append('<br /> <span>'+title+'</span>');
+				$(this).removeAttr('title');
+			}
+		});
+		function pinboard_move_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-container', container).before(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-container', container).before(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-container', container).before(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-container', container).after(meta);
+			}
+		}
+		function pinboard_restore_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-header', container).after(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-header', container).after(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-header', container).after(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-header', container).append(meta);
+				else
+					$('.entry-header', container).html(meta.html());
+			}
+		}
+		if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+			// Viewport is greater than tablet: portrait
+		} else {
+			$('#content .hentry').each(function() {
+				pinboard_move_elements($(this));
+			});
+		}
+		$(window).resize(function() {
+			if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+									$('.page-template-template-full-width-php #content .hentry, .page-template-template-blog-full-width-php #content .hentry, .page-template-template-blog-four-col-php #content .hentry').each(function() {
+						pinboard_restore_elements($(this));
+					});
+							} else {
+				$('#content .hentry').each(function() {
+					pinboard_move_elements($(this));
+				});
+			}
+			if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+				var maxh = 0;
+				$('#access .menu > li > a').each(function() {
+					if(parseInt($(this).css('height'))>maxh) {
+						maxh = parseInt($(this).css('height'));
+					}
+				});
+				$('#access .menu > li > a').css('height', maxh);
+			} else {
+				$('#access .menu > li > a').css('height', 'auto');
+			}
+		});
+		if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+			var maxh = 0;
+			$('#access .menu > li > a').each(function() {
+				var title = $(this).attr('title');
+				if(typeof title !== 'undefined' && title !== false) {
+					$(this).append('<br /> <span>'+title+'</span>');
+					$(this).removeAttr('title');
+				}
+				if(parseInt($(this).css('height'))>maxh) {
+					maxh = parseInt($(this).css('height'));
+				}
+			});
+			$('#access .menu > li > a').css('height', maxh);
+							$('#access li').mouseenter(function() {
+					$(this).children('ul').css('display', 'none').stop(true, true).fadeIn(250).css('display', 'block').children('ul').css('display', 'none');
+				});
+				$('#access li').mouseleave(function() {
+					$(this).children('ul').stop(true, true).fadeOut(250).css('display', 'block');
+				});
+					} else {
+			$('#access li').each(function() {
+				if($(this).children('ul').length)
+					$(this).append('<span class="drop-down-toggle"><span class="drop-down-arrow"></span></span>');
+			});
+			$('.drop-down-toggle').click(function() {
+				$(this).parent().children('ul').slideToggle(250);
+			});
+		}
+				$('.entry-attachment audio, .entry-attachment video').mediaelementplayer({
+			videoWidth: '100%',
+			videoHeight: '100%',
+			audioWidth: '100%',
+			alwaysShowControls: true,
+			features: ['playpause','progress','tracks','volume'],
+			videoVolume: 'horizontal'
+		});
+		$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe[src*='wordpress.tv'], iframe[src*='www.dailymotion.com'], iframe[src*='blip.tv'], iframe[src*='www.viddler.com']"});
+	});
+	jQuery(window).load(function() {
+					jQuery('.entry-content a[href$=".jpg"],.entry-content a[href$=".jpeg"],.entry-content a[href$=".png"],.entry-content a[href$=".gif"],a.colorbox').colorbox({
+				maxWidth: '100%',
+				maxHeight: '100%',
+			});
+			});
+/* ]]> */
+</script>
+<style type="text/css">
+																																											.gist pre { text-align: left }</style>
+<style type="text/css">
+	#site-title a,
+	#site-description {
+		color:#333333;
+	}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://cromwellhaus.com/wp-content/themes/pinboard/images/bg.jpg'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+</head>
+
+<body class="single single-post postid-1181 single-format-standard custom-background page-template-template-full-width-php">
+	<div id="wrapper">
+		<header id="header">
+			<div id="site-title">
+								<a class="home" href="http://cromwellhaus.com/" rel="home">Ryan Cromwell</a>
+			</div>
+							<div id="site-description">Big vision. Small changes.  Learn by shipping.</div>
+							<form role="search" method="get" id="searchform" action="http://cromwellhaus.com/" >
+	<input type="text" value="" placeholder="Search this website&#8230;" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+</form>			<div id="social-media-icons">
+									<a class="social-media-icon twitter" href="http://twitter.com/cromwellryan">Twitter</a>
+																		<a class="social-media-icon youtube" href="http://www.youtube.com/channel/UCulXjBNxl_oe4_gjQV1jb2Q">Vimeo</a>
+															<a class="social-media-icon linkedin" href="http://www.linkedin.com/in/cromwellryan">LinkedIn</a>
+					</div>
+				<div class="clear"></div>
+			<nav id="access">
+				<a class="nav-show" href="#access">Show Navigation</a>
+				<a class="nav-hide" href="#nogo">Hide Navigation</a>
+				<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="http://cromwellhaus.com/about/">Bio</a></li>
+<li id="menu-item-1521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1521"><a title="topics &#038; abstracts" href="http://cromwellhaus.com/presentations/">Talks</a></li>
+</ul></div>				<div class="clear"></div>
+			</nav><!-- #access -->
+		</header><!-- #header -->	<div id="container">
+		<section id="content" class="column onecol">
+							<article class="post-1181 post type-post status-publish format-standard hentry category-uncategorized tag-agile column onecol" id="post-1181">
+					<div class="entry">
+						<header class="entry-header">
+							<h1 class="entry-title">Beyond the Agile Programmer: Innovative Teams</h1>
+									<aside class="entry-meta">
+							<span class="entry-author-link"><a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></span>
+									<span class="entry-date">June 13, 2012</span>
+												<span class="entry-category"><a href="http://cromwellhaus.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>
+																		<div class="clear"></div>
+		</aside><!-- .entry-meta -->
+							</header><!-- .entry-header -->
+						<div class="entry-content">
+														<p>This past week, I had the opportunity to attend the Midwest UX conference in Columbus, Ohio. I was incredibly happy to see <a href="http://appliedis.com/">AIS</a> sponsor the event. While we work hand-in-hand with some great design teams for projects like the Vogue Archive and Rolling Stone Archive, getting directly involved in the UX/UI community is part of our attempt to bring this knowledge and experience in-house. (More on that to come!)</p>
+<p>Choosing sessions at a conference is rarely easy, but I knew immediately which session would start my day. Without any hesitation, I headed for <a href="http://lanyrd.com/2012/midwestux/stqzz/">Building a Design Culture</a> by <a href="http://www.twitter.com/bradcolbow">Brad Colbow</a>, the awesome <a href="http://bradcolbow.com/">Illustrator</a> and <a href="http://bradcolbow.com/archive/">comic</a>. Brad presented at CodeMash earlier in the year and he easily lived up to my expectations.</p>
+<p>In this session, Brad described his experiences as a designer engaged to build a great user experience in the context of a broader team.&#160; I was interested to see how Brad’s thoughts and experiences as a representative of the design community overlapped with those of the Agile community which has composed mostly of programmers.&#160; I wasn’t disappointed.</p>
+<p><b>The Execution Gap</b></p>
+<p>Maybe it’s the lack of even a single artistic bone in my body, but the word design suggests innovation; the creation of something new and exciting. Having personally worked with some amazing software designers and design firms, I relish the anticipation that comes with endless possibility and unbridled imagination.</p>
+<p>I’ve also experienced the drudgery of endless implementation, sheen-dulling corner cutting and pride-killing <a href="http://www.amazon.com/Who-Moved-My-Cheese-Amazing/dp/0399144463">Who Moved My Cheese</a> reviews. After months of hard work, the excitement of the filled a kickoff gathering has given way to finger pointing and, at times, ship jumping. </p>
+<p>It would seem that <u>the challenge is not innovative ideas</u>, but the <i>execution</i> of those ideas.&#160; </p>
+<blockquote><p><i>Execution is everything. ~ Robert Jordan</i></p>
+</blockquote>
+<p>Brad is quite well known and respected for his design and artistic talents. No doubt he brings a lot to the table for a team or organization looking to bring a great experience to products.&#160; For this reason I find it quite telling (and entertaining) when he describes the engagement process like so:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/clip_image0012.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image001" border="0" alt="clip_image001" src="http://cromwellhaus.com/wp-content/uploads/2012/06/clip_image001_thumb2.png" width="640" height="479" /></a></p>
+<p>While Brad and his team may hand over pure gold, without his skill and eye on the in-flight product, the result is often a not-so-happy rendition. The gap, he points out, is <u>engagement with those executing</u> his designs in the medium of code.&#160; No doubt customers have a similar response when their ideas don’t quite live up to the gloss of a SOWs or project proposal.</p>
+<p>But how can we avoid such a letdown? How can we avoid the deterioration of our vision over time?</p>
+<p>How does <a href="http://scrum.org">Scrum</a> enable a culture of Innovation?</p>
+<p><b>Scrum Teams are Cross Functional</b></p>
+<p>Brad was quite open and honest in saying he does not have the answer. Instead, he shared his experiences. He’s found that the interests and practices of those championing Agile in these same organizations are in alignment with his own.</p>
+<p>In <a href="http://scrum.org">Scrum</a>, we explicitly call out the need for a cross-functional team. Scrum’s “Development Team consists of professionals who do the work of delivering a potentially     <br />releasable Increment of ‘Done’ product at the end of each Sprint.” (<a href="http://www.scrum.org/scrumguides/">Read more</a>) This is often in contrast to organizational structures based on skillset.</p>
+<p><b>Scrum Sprints are a Safety Zone</b></p>
+<p>In his 2005 <i><a href="http://www.jpb.com/creative/OrganisationalCreativityMorris.pdf">A Survey of Organizational Creativity</a></i>, Wayne Morris of New Zealand found that two of the top three Factors that facilitate or enhance organizational creativity are 1) Time, and 2) Space/resources to pursue ideas. Creativity, a necessary ingredient to innovation, demands space. Space to experiment, learn, fail, and refine. Space in time, environment, and pressure.</p>
+<p>Scrum maintains the <a href="http://scrum.org/scrumguides">Sprint</a> to act as both as risk mitigation and a safe zone for creativity. Within this <a href="http://en.wikipedia.org/wiki/Timeboxing1">timebox</a> the Development Team has full freedom and authority to attack a problem or goal with all its ingenuity knowing that at the end of the Sprint they must have a working product to demonstrate. Interesting that this simple concept can provide safe space, while also limiting the months of unproductive spin seen on traditional projects.</p>
+<p><strong>Create Your Culture of Innovative</strong></p>
+<p>By providing clear goals to teams composed of the skills necessary to bring a product to market, providing sufficient space to execute, and inspecting the actual, functioning results at regular intervals we can build a culture of sustained delivery and innovation.</p>
+<p>What would happen at your organization if you put together a team with Marketing, Programmer, Designer, and Sales all represented, and gave them a goal of delivering a working increment of software in 30 days which solved a profitable need? <a href="http://www.amazon.com/Software-30-Days-Customers-Competitors/dp/1118206665">It’s quite possible in fact</a>.</p>
+							<div class="clear"></div>
+						</div><!-- .entry-content -->
+						<footer class="entry-utility">
+														<div class="entry-tags"><a href="http://cromwellhaus.com/tag/agile/" rel="tag">Agile</a></div>									<div class="social-bookmarks">
+			<p>Did you like this article? Share it with your friends!</p>
+							<div class="facebook-like">
+					<div id="fb-root"></div>
+					<script>
+						(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+							fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));
+					</script>
+					<div class="fb-like" data-href="http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div>
+				</div><!-- .facebook-like -->
+										<div class="twitter-button">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div><!-- .twitter-button -->
+										<div class="google-plusone">
+					<div class="g-plusone" data-size="medium" data-href="http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/"></div>
+					<script type="text/javascript">
+						(function() {
+							var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+							po.src = 'https://apis.google.com/js/plusone.js';
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+						})();
+					</script>
+				</div><!-- .google-plusone -->
+									<div class="clear"></div>
+		</div><!-- .social-bookmarks -->
+										<div class="entry-author">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=96&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=192&amp;d=mm&amp;r=g 2x' class='avatar avatar-96 photo' height='96' width='96' />			<h3 class="author vcard">Written by <span class="fn"><a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></span></h3>
+			<p class="author-bio"></p>
+			<div class="clear"></div>
+		</div><!-- .entry-author -->
+							</footer><!-- .entry-utility -->
+					</div><!-- .entry -->
+					
+<div id="disqus_thread">
+            <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="post pingback">
+        <p>Pingback: <a href='http://blog.appliedis.com/2012/07/05/ais-around-the-blogosphere/' rel='external nofollow' class='url'>AIS Developers Blog Solutions for Sharepoint, Azure, &amp; Cloud Computing | Applied Information Sciences Blog</a>()</p>
+    </li>
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+var disqus_url = 'http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/';
+var disqus_identifier = '1181 http://cromwellhaus.com/?p=1181';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'cromwellhaus';
+var disqus_title = "Beyond the Agile Programmer: Innovative Teams";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=1181';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+				</article><!-- .post -->
+					</section><!-- #content -->
+			</div><!-- #container -->
+				<div id="footer">
+						<div id="copyright">
+				<p class="copyright twocol">© 2016 Ryan Cromwell</p>
+									<p class="credits twocol">
+																															Powered by <a href="https://www.onedesigns.com/themes/pinboard" title="Pinboard Theme">Pinboard Theme</a> by <a href="https://www.onedesigns.com/" title="One Designs">One Designs</a>											</p>
+								<div class="clear"></div>
+			</div><!-- #copyright -->
+		</div><!-- #footer -->
+	</div><!-- #wrapper -->
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'cromwellhaus';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); 
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1-a'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/comment-reply.min.js?ver=4.4.3'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=4.4.3'></script>
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2016-05-26 20:23:24 by W3 Total Cache -->

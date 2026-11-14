@@ -1,0 +1,160 @@
+<html>
+<head>
+<style type="text/css">
+BODY { color: #000000; background-color: white; font-family: Verdana; margin-left: 0px; margin-top: 0px; }
+#content { margin-left: 30px; font-size: .70em; padding-bottom: 2em; }
+A:link { color: #336699; font-weight: bold; text-decoration: underline; }
+A:visited { color: #6699cc; font-weight: bold; text-decoration: underline; }
+A:active { color: #336699; font-weight: bold; text-decoration: underline; }
+A:hover { color: cc3300; font-weight: bold; text-decoration: underline; }
+P { color: #000000; margin-top: 0px; margin-bottom: 12px; font-family: Verdana; }
+pre { background-color: #e5e5cc; padding: 5px; font-family: Courier New; font-size: x-small; margin-top: -5px; border: 1px #f0f0e0 solid; }
+td { color: #000000; font-family: Verdana; font-size: .7em; border: solid 1px;  }
+h2 { font-size: 1.5em; font-weight: bold; margin-top: 25px; margin-bottom: 10px; border-top: 1px solid #003366; margin-left: -15px; color: #003366; }
+h3 { font-size: 1.1em; color: #000000; margin-left: -15px; margin-top: 10px; margin-bottom: 10px; }
+ul, ol { margin-top: 10px; margin-left: 20px; }
+li { margin-top: 10px; color: #000000; }
+font.value { color: darkblue; font: bold; }
+font.key { color: darkgreen; font: bold; }
+.heading1 { color: #ffffff; font-family: Tahoma; font-size: 26px; font-weight: normal; background-color: #003366; margin-top: 0px; margin-bottom: 0px; margin-left: -30px; padding-top: 10px; padding-bottom: 3px; padding-left: 15px; width: 105%; }
+.intro { margin-left: -15px; }
+table { border: solid 1px; }
+</style>
+<title>MetaWeblog</title>
+</head>
+<body>
+<div id="content">
+<p class="heading1">MetaWeblog</p><br></br>
+<p class="intro"></p>
+<p class="intro">The following methods are supported:</p>
+<ul>
+<li><a href="#blogger.deletePost">blogger.deletePost</a></li>
+<li><a href="#blogger.getUserInfo">blogger.getUserInfo</a></li>
+<li><a href="#blogger.getUsersBlogs">blogger.getUsersBlogs</a></li>
+<li><a href="#metaWeblog.editPost">metaWeblog.editPost</a></li>
+<li><a href="#metaWeblog.getCategories">metaWeblog.getCategories</a></li>
+<li><a href="#metaWeblog.getPost">metaWeblog.getPost</a></li>
+<li><a href="#metaWeblog.getRecentPosts">metaWeblog.getRecentPosts</a></li>
+<li><a href="#metaWeblog.newMediaObject">metaWeblog.newMediaObject</a></li>
+<li><a href="#metaWeblog.newPost">metaWeblog.newPost</a></li>
+</ul>
+<span>
+<h2><a name="#blogger.deletePost">method blogger.deletePost</a></h2>
+<p class="intro">Deletes a post.</p>
+<h3>Parameters</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>appKey</td></tr><tr><td width="33%">string</td><td>postid</td></tr><tr><td width="33%">string</td><td>username</td></tr><tr><td width="33%">string</td><td>password</td></tr><tr><td width="33%">boolean</td><td>publish - Where applicable, this specifies whether the weblog should be republished after the post has been deleted.</td></tr></table>
+<h3>Return Value</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">boolean</td><td>Always returns true.</td></tr></table>
+</span>
+<span>
+<h2><a name="#blogger.getUserInfo">method blogger.getUserInfo</a></h2>
+<p class="intro">Returns information about the given user.</p>
+<h3>Parameters</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>appKey</td></tr><tr><td width="33%">string</td><td>username</td></tr><tr><td width="33%">string</td><td>password</td></tr></table>
+<h3>Return Value</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">struct <a href="#UserInfo">UserInfo</a></td><td>&nbsp;</td></tr></table>
+</span>
+<span>
+<h2><a name="#blogger.getUsersBlogs">method blogger.getUsersBlogs</a></h2>
+<p class="intro">Returns information on all the blogs a given user is a member.</p>
+<h3>Parameters</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>appKey</td></tr><tr><td width="33%">string</td><td>username</td></tr><tr><td width="33%">string</td><td>password</td></tr></table>
+<h3>Return Value</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">array of struct <a href="#BlogInfo">BlogInfo</a></td><td>&nbsp;</td></tr></table>
+</span>
+<span>
+<h2><a name="#metaWeblog.editPost">method metaWeblog.editPost</a></h2>
+<p class="intro">Updates and existing post to a designated weblog using the MetaWeblog API. Returns true if completed.</p>
+<h3>Parameters</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>postid</td></tr><tr><td width="33%">string</td><td>username</td></tr><tr><td width="33%">string</td><td>password</td></tr><tr><td width="33%">struct <a href="#Post">Post</a></td><td>post</td></tr><tr><td width="33%">boolean</td><td>publish</td></tr></table>
+<h3>Return Value</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">boolean</td><td>&nbsp;</td></tr></table>
+</span>
+<span>
+<h2><a name="#metaWeblog.getCategories">method metaWeblog.getCategories</a></h2>
+<p class="intro">Retrieves a list of valid categories for a post using the MetaWeblog API. Returns the MetaWeblog categories struct collection.</p>
+<h3>Parameters</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>blogid</td></tr><tr><td width="33%">string</td><td>username</td></tr><tr><td width="33%">string</td><td>password</td></tr></table>
+<h3>Return Value</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">array of struct <a href="#CategoryInfo">CategoryInfo</a></td><td>&nbsp;</td></tr></table>
+</span>
+<span>
+<h2><a name="#metaWeblog.getPost">method metaWeblog.getPost</a></h2>
+<p class="intro">Retrieves an existing post using the MetaWeblog API. Returns the MetaWeblog struct.</p>
+<h3>Parameters</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>postid</td></tr><tr><td width="33%">string</td><td>username</td></tr><tr><td width="33%">string</td><td>password</td></tr></table>
+<h3>Return Value</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">struct <a href="#Post">Post</a></td><td>&nbsp;</td></tr></table>
+</span>
+<span>
+<h2><a name="#metaWeblog.getRecentPosts">method metaWeblog.getRecentPosts</a></h2>
+<p class="intro">Retrieves a list of the most recent existing post using the MetaWeblog API. Returns the MetaWeblog struct collection.</p>
+<h3>Parameters</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>blogid</td></tr><tr><td width="33%">string</td><td>username</td></tr><tr><td width="33%">string</td><td>password</td></tr><tr><td width="33%">integer</td><td>numberOfPosts</td></tr></table>
+<h3>Return Value</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">array of struct <a href="#Post">Post</a></td><td>&nbsp;</td></tr></table>
+</span>
+<span>
+<h2><a name="#metaWeblog.newMediaObject">method metaWeblog.newMediaObject</a></h2>
+<p class="intro">Makes a new post to a designated blog using the MetaWeblog API. Returns file url as a string.</p>
+<h3>Parameters</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>blogid</td></tr><tr><td width="33%">string</td><td>username</td></tr><tr><td width="33%">string</td><td>password</td></tr><tr><td width="33%">struct <a href="#MediaObject">MediaObject</a></td><td>mediaObject</td></tr></table>
+<h3>Return Value</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">struct <a href="#MediaObjectInfo">MediaObjectInfo</a></td><td>&nbsp;</td></tr></table>
+</span>
+<span>
+<h2><a name="#metaWeblog.newPost">method metaWeblog.newPost</a></h2>
+<p class="intro">Makes a new post to a designated weblog using the MetaWeblog API. Returns postid as a string.</p>
+<h3>Parameters</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>blogid</td></tr><tr><td width="33%">string</td><td>username</td></tr><tr><td width="33%">string</td><td>password</td></tr><tr><td width="33%">struct <a href="#Post">Post</a></td><td>post</td></tr><tr><td width="33%">boolean</td><td>publish</td></tr></table>
+<h3>Return Value</h3>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>&nbsp;</td></tr></table>
+</span>
+<span>
+<h2><a name="#UserInfo">struct UserInfo</a></h2>
+<h3>Members</h3>
+</span>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>userid </td></tr><tr><td width="33%">string</td><td>firstname </td></tr><tr><td width="33%">string</td><td>lastname </td></tr><tr><td width="33%">string</td><td>nickname </td></tr><tr><td width="33%">string</td><td>email </td></tr><tr><td width="33%">string</td><td>url </td></tr></table>
+<span>
+<h2><a name="#BlogInfo">struct BlogInfo</a></h2>
+<h3>Members</h3>
+</span>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>blogid </td></tr><tr><td width="33%">string</td><td>url </td></tr><tr><td width="33%">string</td><td>blogName </td></tr></table>
+<span>
+<h2><a name="#Post">struct Post</a></h2>
+<h3>Members</h3>
+</span>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">dateTime</td><td>dateCreated - Required when posting.</td></tr><tr><td width="33%">string</td><td>description - Required when posting.</td></tr><tr><td width="33%">string</td><td>title - Required when posting.</td></tr><tr><td width="33%">array of string</td><td>categories  (optional) </td></tr><tr><td width="33%">struct <a href="#Enclosure">Enclosure</a></td><td>enclosure  (optional) </td></tr><tr><td width="33%">string</td><td>link  (optional) </td></tr><tr><td width="33%">string</td><td>permalink  (optional) </td></tr><tr><td width="33%">any</td><td>postid  (optional) </td></tr><tr><td width="33%">struct <a href="#Source">Source</a></td><td>source  (optional) </td></tr><tr><td width="33%">string</td><td>userid  (optional) </td></tr><tr><td width="33%">string</td><td>mt_keywords  (optional) </td></tr><tr><td width="33%">string</td><td>wp_slug  (optional) </td></tr><tr><td width="33%">string</td><td>mt_text_more  (optional) </td></tr></table>
+<span>
+<h2><a name="#CategoryInfo">struct CategoryInfo</a></h2>
+<h3>Members</h3>
+</span>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>description </td></tr><tr><td width="33%">string</td><td>htmlUrl </td></tr><tr><td width="33%">string</td><td>rssUrl </td></tr><tr><td width="33%">string</td><td>title </td></tr><tr><td width="33%">string</td><td>categoryid </td></tr></table>
+<span>
+<h2><a name="#MediaObject">struct MediaObject</a></h2>
+<h3>Members</h3>
+</span>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>name  (optional) </td></tr><tr><td width="33%">string</td><td>type  (optional) </td></tr><tr><td width="33%">base64</td><td>bits  (optional) </td></tr></table>
+<span>
+<h2><a name="#MediaObjectInfo">struct MediaObjectInfo</a></h2>
+<h3>Members</h3>
+</span>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>url </td></tr></table>
+<span>
+<h2><a name="#Enclosure">struct Enclosure</a></h2>
+<h3>Members</h3>
+</span>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">integer</td><td>length  (optional) </td></tr><tr><td width="33%">string</td><td>type  (optional) </td></tr><tr><td width="33%">string</td><td>url  (optional) </td></tr></table>
+<span>
+<h2><a name="#Source">struct Source</a></h2>
+<h3>Members</h3>
+</span>
+<table cellspacing="0" cellpadding="5" width="90%"><tr><td width="33%">string</td><td>name  (optional) </td></tr><tr><td width="33%">string</td><td>url  (optional) </td></tr></table>
+</div>
+
+<div id="content">
+<h2>&nbsp;</h2>
+CommunityServer.Blogs 3.1.20917&nbsp;&nbsp;&nbsp;CookComputing.XmlRpcV2 2.1.0&nbsp;&nbsp;&nbsp;.NET CLR 2.0.50727&nbsp;&nbsp;&nbsp;</div>
+</div>
+</body>
+</html>

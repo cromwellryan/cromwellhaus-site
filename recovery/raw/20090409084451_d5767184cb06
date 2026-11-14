@@ -1,0 +1,313 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="robots" content="index,follow" />
+<meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="GENERATOR" content="CommunityServer 2008 (Build: 30417.1769)" />
+<link rel="pingback" href="http://cromwellhaus.com/blogs/ryanc/pingback.aspx" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/print.css?SectionID=11" type="text/css" media="print" />
+	<link rel="stylesheet" href="/themes/blogs/Elemental/style/air.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	Binding to an Image Byte[] in WPF - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjI3NjA3NjAzZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUbY3RsMDAkY3RsMDckY3RsMDAkU2VhcmNoQm94BS5jdGwwMCRNYWluJGN0bDA5JGN0bDAyJGN0bDAyJGN0bDAyJGNoa1JlbWVtYmVyJrivznGEV1UZYeHpLtQ0zYZdOXY=" />
+</div>
+
+
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8LZo04oaOcmOLSELo6gqLvUu7ganFEIpKN-e5Jyf9stQ1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8yTNu4gf5kV_RaR4KS-a0AuJKvYytRnBJWnPV7Z5x2m41&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8OTuy4csQHX1lq8XdxKmwZmzsUEeYR4gZKty6Ajbvu981&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8sJUM3T2Fcpj-OflU6x0UWQBAQqaauBWDa_JCexUE4q01&amp;t=633501542161978064" type="text/javascript"></script>
+
+    			
+
+    <div id="masthead">
+        <div id="welcome" align="right">
+            
+        <a href="/login.aspx?ReturnUrl=%2fblogs%2fryanc%2farchive%2f2007%2f07%2f26%2fbinding-to-the-byte-of-an-image-in-wpf.aspx">Sign in </a>
+         | <a href="/user/CreateUser.aspx?ReturnUrl=">Join</a>
+        | <a href="http://dev.communityserver.com/r.ashx?K&amp;siteurl=weblogs.weblogpostName">Help</a>
+     
+
+
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="container">
+	        <div id="header">
+                <div id="title">
+                    <div id="SearchSideBar">    
+                        <div id="search">
+                                <input name="ctl00$ctl07$ctl00$SearchBox" type="text" id="ctl00_ctl07_ctl00_SearchBox" class="searchBox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event);" />
+                                <a id="ctl00_ctl07_ctl00_SearchButton" href="javascript:__doPostBack('ctl00$ctl07$ctl00$SearchButton','')">Search</a>
+                            </div>
+                    </div>
+                    <h1><a class="headermaintitle" href="/blogs/ryanc/default.aspx">Ryan Cromwell</a></h1>                                                
+                    <p id="tagline">Aimless musings of a keyboard masher.</p>
+                </div>
+                <div id="nav">                        
+                    <div id="SubscriptionsSideBar">
+                        <div id="subscriptions">
+                            <ul>
+                                <li><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li>
+	                            <li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li>
+						        
+                            </ul>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="/blogs/ryanc/default.aspx">Home</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <div id="contentmargin"></div>
+                <div id="contentwrapper">
+                    <div id="sidebar-a">
+                    
+                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Tags</h3>
+	                                    <div id="TagSideBar"><ul class="SidebarTagCloud">
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Languages/default.aspx" rel="tag">Languages</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Nerd+Dinner/default.aspx" rel="tag">Nerd Dinner</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Oracle/default.aspx" rel="tag">Oracle</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/VMWare/default.aspx" rel="tag">VMWare</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                            </div>
+	                                    
+	                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Archives</h3>
+	                                    <div id="ArchiveSideBar">
+<ul>
+<li><a href="/blogs/ryanc/archive/2009/04.aspx">April 2009 (1)</a></li><li><a href="/blogs/ryanc/archive/2009/03.aspx">March 2009 (6)</a></li><li><a href="/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                            </div>
+	                                    
+	                            
+
+	                    
+                    </div>
+                    <div id="content"><div id="content2">
+	                    
+
+    
+
+    <div class="post">
+        <div class="posthead">
+            <h2 class="pageTitle">Binding to an Image Byte[] in WPF</h2>
+            Posted 
+            <a href="/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx">Thursday, July 26, 2007 12:21 AM</a>                
+            by
+			<a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+        </div>
+        <p>I&#39;m working on a&nbsp;WPF app for my wife who coaches our local high school track team.&nbsp; One of the features she wanted was to have some images for different players and teams and, religious debate aside, I have chosen to save these in SQL Server 2005.&nbsp; I&#39;m using <a href="http://www.hibernate.org/343.html">NHibernate</a>&nbsp;for all my data access which has been a great experience (my first).&nbsp; Impressively, NHibernate supports SQL Server <i>Image</i> columns via the inherent <i>Byte[]&nbsp;</i> type (See Section 5.1.9 of the <a href="http://www.hibernate.org/hib_docs/nhibernate/html/mapping.html">docs</a>).&nbsp; This made adding the Image to my classes <b>very</b> easy.&nbsp; </p> <p>Here&#39;s a snippet of my class with the corresponding NHibernate Mapping Xml File:</p> <blockquote><pre class="code"><span>/* Class */<br /></span>[<span>Serializable</span>]<br /><span>public</span> <span>class</span> <span>Organization</span> : <span>INotifyPropertyChanged<br /></span>{   <br />    <span>//...<br /><br /></span>    <span>public</span> <span>byte</span>[] Image<br />    {<br />        <span>get</span> { <span>return</span> _image; }<br />        <span>set<br /></span>        {<br />            _image = <span>value</span>;<br />            OnPropertyChanged(<span>&quot;Image&quot;</span>);<br />        }<br />    }<br /><br />    <span>//...<br /></span>}  <br /></pre><pre class="code"><span>&lt;!--</span><span> Mapping </span><span>--&gt;<br />&lt;</span><span>hibernate-mapping</span><span> </span><span>xmlns</span><span>=</span>&quot;<span>urn:nhibernate-mapping-2.2</span>&quot;<span> </span><span>default-lazy</span><span>=</span>&quot;<span>false</span>&quot;<span>&gt;<br />  &lt;</span><span>class</span><span> </span><span>name</span><span>=</span>&quot;<span>Cromwell.MyApp.Organization, Cromwell.MyApp</span>&quot;<span> <br />         </span><span>table</span><span>=</span>&quot;<span>dbo.Organization</span>&quot;<span>&gt;<br />    &lt;</span><span>id</span><span> </span><span>name</span><span>=</span>&quot;<span>Id</span>&quot;<span> </span><span>type</span><span>=</span>&quot;<span>Int32</span>&quot;<span> </span><span>column</span><span>=</span>&quot;<span>Id</span>&quot;<span> </span><span>unsaved-value</span><span>=</span>&quot;<span>0</span>&quot;<span>&gt;<br />      &lt;</span><span>generator</span><span> </span><span>class</span><span>=</span>&quot;<span>native</span>&quot;<span> /&gt;<br />    &lt;/</span><span>id</span><span>&gt;<br />    &lt;</span><span>many-to-one</span><span> </span><span>name</span><span>=</span>&quot;<span>Type</span>&quot;<span> <br />                 </span><span>class</span><span>=</span>&quot;<span>Cromwell.MyApp.OrganizationType, Cromwell.MyApp</span>&quot;<span> <br />                 </span><span>column</span><span>=</span>&quot;<span>Type</span>&quot;<span> <br />                 </span><span>not-null</span><span>=</span>&quot;<span>true</span>&quot;<span>/&gt;<br />    &lt;</span><span>property</span><span> </span><span>name</span><span>=</span>&quot;<span>Name</span>&quot;<span> </span><span>type</span><span>=</span>&quot;<span>String</span>&quot;<span> </span><span>length</span><span>=</span>&quot;<span>255</span>&quot;<span> </span><span>column</span><span>=</span>&quot;<span>Name</span>&quot;<span> </span><span>not-null</span><span>=</span>&quot;<span>true</span>&quot;<span>/&gt;<br />    &lt;</span><span>property</span><span> </span><span>name</span><span>=</span>&quot;<span>Address1</span>&quot;<span> </span><span>type</span><span>=</span>&quot;<span>String</span>&quot;<span> </span><span>length</span><span>=</span>&quot;<span>255</span>&quot;<span> </span><span>column</span><span>=</span>&quot;<span>Address1</span>&quot;<span> </span><span>not-null</span><span>=</span>&quot;<span>false</span>&quot;<span>/&gt;<br />    &lt;</span><span>property</span><span> </span><span>name</span><span>=</span>&quot;<span>Address2</span>&quot;<span> </span><span>type</span><span>=</span>&quot;<span>String</span>&quot;<span> </span><span>length</span><span>=</span>&quot;<span>255</span>&quot;<span> </span><span>column</span><span>=</span>&quot;<span>Address2</span>&quot;<span> </span><span>not-null</span><span>=</span>&quot;<span>false</span>&quot;<span>/&gt;<br />    &lt;</span><span>property</span><span> </span><span>name</span><span>=</span>&quot;<span>City</span>&quot;<span> </span><span>type</span><span>=</span>&quot;<span>String</span>&quot;<span> </span><span>length</span><span>=</span>&quot;<span>255</span>&quot;<span> </span><span>column</span><span>=</span>&quot;<span>City</span>&quot;<span> </span><span>not-null</span><span>=</span>&quot;<span>false</span>&quot;<span>/&gt;<br />    &lt;</span><span>property</span><span> </span><span>name</span><span>=</span>&quot;<span>State</span>&quot;<span> </span><span>type</span><span>=</span>&quot;<span>String</span>&quot;<span> </span><span>length</span><span>=</span>&quot;<span>2</span>&quot;<span> </span><span>column</span><span>=</span>&quot;<span>State</span>&quot;<span> </span><span>not-null</span><span>=</span>&quot;<span>false</span>&quot;<span>/&gt;<br />    &lt;</span><span>property</span><span> </span><span>name</span><span>=</span>&quot;<span>PostalCode</span>&quot;<span> </span><span>type</span><span>=</span>&quot;<span>String</span>&quot;<span> </span><span>length</span><span>=</span>&quot;<span>7</span>&quot;<span> </span><span>column</span><span>=</span>&quot;<span>PostalCode</span>&quot;<span> </span><span>not-null</span><span>=</span>&quot;<span>false</span>&quot;<span>/&gt;<br />    &lt;</span><span>property</span><span> </span><span>name</span><span>=</span>&quot;<span>Image</span>&quot;<span> </span><span>type</span><span>=</span>&quot;<span>Byte[]</span>&quot;<span> </span><span>column</span><span>=</span>&quot;<span>Image</span>&quot;<span> </span><span>not-null</span><span>=</span>&quot;<span>false</span>&quot;<span> /&gt;<br />  &lt;/</span><span>class</span><span>&gt;<br />&lt;/</span><span>hibernate-mapping</span><span>&gt;</span></pre></blockquote>
+<p>The key to binding this Image property on my WPF forms is the Binding <a href="http://cromwellhaus.com/controlpanel/blogs/I%27m%20working%20on%20a%20WPF%20app%20for%20my%20wife%20who%20coaches%20our%20local%20high%20school%20track%20team.%20%20One%20of%20the%20features%20she%20wanted%20was%20to%20have%20some%20images%20for%20different%20players%20and%20teams%20and,%20religious%20debate%20aside,%20I%20have%20chosen%20to%20save%20these%20in%20SQL%20Server%202005.%20%20I%27m%20using%20NHibernate%20for%20all%20my%20data%20access%20which%20has%20been%20a%20great%20experience%20%28my%20first%29.%20%20Impressively,%20NHibernate%20supports%20SQL%20Server%20Image%20columns%20via%20the%20inherent%20Byte%5B%5D%20%20type%20%28See%20Section%205.1.9%20of%20the%20docs%29.%20%20This%20made%20adding%20the%20Image%20to%20my%20classes%20very%20easy.">Converter</a> property.&nbsp; This property allows you to specify any class which implements <a href="http://msdn2.microsoft.com/en-us/library/system.windows.data.ivalueconverter.aspx">System.Windows.Data.IValueConverter</a>&nbsp;to act as an intermediary between your bind data and WPF.&nbsp; In my case, the goal was to turn a byte[] property, Image, into a <a href="http://msdn2.microsoft.com/en-us/library/system.windows.media.imaging.bitmapimage.aspx">BitmapImage</a> which the an <a href="http://msdn2.microsoft.com/en-us/library/ms746717.aspx">&lt;Image /&gt;</a> control/element can display.&nbsp; </p>
+<p>Here&#39;s what I came up with:</p>
+<blockquote><pre class="code"><span>class</span> <span>BinaryImageConverter</span> : <span>IValueConverter<br /></span>{<br />    <span>object</span> <span>IValueConverter</span>.Convert( <span>object</span> value, <br />        <span>Type</span> targetType, <br />        <span>object</span> parameter, <br />        System.Globalization.<span>CultureInfo</span> culture )<br />    {<br />        <span>if</span>(value != <span>null</span> &amp;&amp; value <span>is</span> <span>byte</span>[])<br />        {<br />            <span>byte</span>[] bytes = value <span>as</span> <span>byte</span>[];<br /><br />            <span>MemoryStream</span> stream = <span>new</span> <span>MemoryStream</span>( bytes );<br /><br />            <span>BitmapImage</span> image = <span>new</span> <span>BitmapImage</span>();<br />            image.BeginInit();<br />            image.StreamSource = stream;<br />            image.EndInit();<br /><br />            <span>return</span> image;<br />        }<br /><br />        <span>return</span> <span>null</span>;<br />    }<br /><br />    <span>object</span> <span>IValueConverter</span>.ConvertBack( <span>object</span> value, <br />        <span>Type</span> targetType, <br />        <span>object</span> parameter, <br />        System.Globalization.<span>CultureInfo</span> culture )<br />    {<br />        <span>throw</span> <span>new</span> <span>Exception</span>( <span>&quot;The method or operation is not implemented.&quot;</span> );<br />    }<br />}</pre><a href="http://11011.net/software/vspaste"></a></blockquote>
+<p>Here&#39;s how I used it in my WPF Page:</p>
+<blockquote><pre class="code"><span>&lt;</span><span>Page</span><span> </span><span>x:Class</span><span>=</span>&quot;<span>Cromwell.MyApp.EditOrganization</span>&quot;<br /><span>    </span><span>...<br /></span><span>      </span><span>xmlns:converts</span><span>=</span>&quot;<span>clr-namespace:Cromwell.MyApp.Converters</span>&quot;<br /><span>    &gt;<br />    &lt;</span><span>Page.Resources</span><span>&gt;<br />      &lt;</span><span>converts:BinaryImageConverter</span><span> </span><span>x:Key</span><span>=</span>&quot;<span>imgConverter</span>&quot;<span> /&gt;<br />    &lt;/</span><span>Page.Resources</span><span>&gt;<br />    &lt;</span><span>Grid</span><span>&gt;<br />    &lt;!--</span><span> Image Control </span><span>--&gt;<br />    &lt;</span><span>Image</span><span> </span><span>Source</span><span>=</span>&quot;<span>{Binding Path=Image, <br />                    Converter={StaticResource imgConverter}}</span>&quot;<span> <br />           </span><span>Stretch</span><span>=</span>&quot;<span>UniformToFill</span>&quot;<span> <br />      </span><span>StretchDirection</span><span>=</span>&quot;<span>Both</span>&quot;<span>&gt;<br />      &lt;</span><span>Image.BitmapEffect</span><span>&gt;<br />        &lt;</span><span>DropShadowBitmapEffect</span><span> </span><span>Color</span><span>=</span>&quot;<span>Black</span>&quot;<span> /&gt;<br />      &lt;/</span><span>Image.BitmapEffect</span><span>&gt;<br />    &lt;/</span><span>Image</span><span>&gt;<br />  &lt;/</span><span>Grid</span><span>&gt;<br />&lt;/</span><span>Page</span><span>&gt;<br /></span></pre><a href="http://11011.net/software/vspaste"></a><a href="http://11011.net/software/vspaste"></a></blockquote>
+<p>I&#39;m going to have to spend some time in the WPF profiler, but this is a big step.&nbsp; Pretty cool how simple it was and very clean.</p><div style="clear:both;"></div>
+        
+
+        <div class="postfoot">
+            	
+                                    
+            <div class="em"><span id="ctl00_Main_ctl08_ctl01">Filed under: <a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a>, <a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></span><input type="hidden" name="ctl00$Main$ctl08$ctl01" id="ctl00_Main_ctl08_ctl01_State" value="nochange" /></div>
+        </div>    
+    </div>
+    
+    
+            
+                    <a name="Comments"></a>
+                    <h3>Comments</h3>
+                    <div id="comments">
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx#500">#</a>
+				            <span>re: Binding to an Image Byte[] in WPF</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Wednesday, February 13, 2008 1:31 AM
+			                by <a title="Atul Gupta" rel="nofollow" href="http://blogs.infosys.com/microsoft">Atul Gupta</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>This is good. Thanks</p>
+<div style="clear:both;"></div></p>
+                        </div>
+                    </div>
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx#812">#</a>
+				            <span>re: Binding to an Image Byte[] in WPF</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Wednesday, January 14, 2009 12:16 PM
+			                by carlos
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>can you put the source code please</p>
+<div style="clear:both;"></div></p>
+                        </div>
+                    </div>
+                
+                    <div class="commentowner">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx#813">#</a>
+				            <span>re: Binding to an Image Byte[] in WPF</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Wednesday, January 14, 2009 1:09 PM
+			                by <a title="cromwellryan" href="/user/Profile.aspx?UserID=2103">cromwellryan</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>I&#39;ll do what I can. &nbsp;All the code is above so you could pretty easily (couple minutes) copy and paste this into your own visual studio project.</p>
+<div style="clear:both;"></div></p>
+                        </div>
+                    </div>
+                
+                    </div>
+                
+            
+            
+            
+            
+                    <div id="commentform">
+                    <h3>Leave a Comment</h3>
+	                    <dl>
+	                        <div id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RegisteredWrapper">
+	
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle">Title</label> <em>(required)</em>&nbsp;</dt>
+	                        <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbTitle" type="text" value="re: Binding to an Image Byte[] in WPF" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle" class="smallbox" /></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameTitle"><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName">Name:</label> <em>(required)</em>&nbsp;</dt>
+                            <dd id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameDesc"><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbName" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName" class="smallbox" /></dd>
+
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl">Website:</label> <em>(optional</em>)</dt>
+                            <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbUrl" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl" class="smallbox" /></dd>
+                            
+</div>
+                            
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment">Comments</label> <em>(required)</em>&nbsp;</dt>
+                            <dd><textarea name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbComment" rows="5" cols="25" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment"></textarea></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RememberWrapper"><input id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember" type="checkbox" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$chkRemember" /><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember">Remember Me?</label></dt>
+               
+                            <dt><input type="submit" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit&quot;, &quot;&quot;, true, &quot;CreateCommentForm&quot;, &quot;&quot;, false, false))" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_btnSubmit" /></dt>
+	                    </dl>
+                    </div>
+                    
+        
+        
+                    </div></div>
+                    <div id="contentfooter">&nbsp;</div>
+		        </div>
+                <div id="footer">
+                    
+				        
+    				    
+				        
+				                <a href="http://communityserver.com/" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						    
+
+                        
+    					
+				    
+                </div>
+            </div>        
+        </div>
+    
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://cromwellhaus.com/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx"
+dc:identifier="http://cromwellhaus.com/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx"
+dc:title="Binding to an Image Byte[] in WPF"
+trackback:ping="http://cromwellhaus.com/blogs/ryanc/trackback.ashx?PostID=216" />
+</rdf:RDF>
+-->
+<script src="http://feeds.feedburner.com/~s/RyanCromwell?i=http://cromwellhaus.com/blogs/ryanc/archive/2007/07/26/binding-to-the-byte-of-an-image-in-wpf.aspx" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$ctl07$ctl00$SearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01_State','ctl00_Main_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

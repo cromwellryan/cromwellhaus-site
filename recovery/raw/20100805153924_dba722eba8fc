@@ -1,0 +1,472 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="robots" content="index,follow" />
+<meta name="GENERATOR" content="CommunityServer 2008.5 SP1 (Build: 31106.3070)" />
+<link rel="pingback" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/pingback.aspx" />
+<link rel="shortcut icon" type="image/ico" href="/sites/cromwellhaus.com/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell - All Comments (RSS 2.0)" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs//rsscomments.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="ASP.Net MVC and Forms Authentication - Comments for this post (RSS 2.0)" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs//rsscomments.aspx?PostID=469"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Announcements (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/announcements/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Comments (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/comments/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Activities (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/activities/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Friends Activity (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/activities/friendrss.aspx"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/sites/cromwellhaus.com/Themes/Blogs/gold%20coast/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/sites/cromwellhaus.com/themes/blogs/Gold%20Coast/style/light.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/sites/cromwellhaus.com/Themes/Blogs/gold%20coast/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	ASP.Net MVC and Forms Authentication - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTE5MjAyNTM1OWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFQ2N0bDAwJFNpZGVCYXIkY3RsMDAkY3RsMDEkY3RsMDAkY3RsMDEkY3RsMDEkY3RsMDAkV2VibG9nU2VhcmNoSW5wdXTXt2hwvaxMYsAuxg+NrVuEd011nA==" />
+</div>
+
+
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=NRBVCk42Bef4QT8Jx_YlTTHlV2KLMhGqzSnYNV2O4Ap0YjkosTGAMdemFK5LhENMYduo3dS24O7M7Y-Ke_eeNoXEM0wLS5UOaFK4xAY0VA3R1bt-ZYALBjtaPrg7lHgpY0KRjFmBfmGi7YxpDe4N7Q2&amp;t=634091021949508870" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=dJveNoZfdxFyed4c8DsESFybUaXJQOPjTmeqCoyH_HwC84tVmJk8tbDDKhgNfIrOtTF2-0XJVqQUP83qSU-NQQPZd__2dtymbYXn0w7pDcw1&amp;t=634091022003504140" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=dJveNoZfdxFyed4c8DsESFybUaXJQOPjTmeqCoyH_HwC84tVmJk8tbDDKhgNfIrOqO_EH7rPxoqDlmZ3J2Lo9iF6goM2BpNpVSyDJpoPTEc1&amp;t=634091022003504140" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=dJveNoZfdxFyed4c8DsESFybUaXJQOPjTmeqCoyH_HwC84tVmJk8tbDDKhgNfIrOxJ_XlYzg2tIaaLicO4qXCWTf73NM4QfMR86xAA-nPRE1&amp;t=634091022003504140" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=dJveNoZfdxFyed4c8DsESFybUaXJQOPjTmeqCoyH_HwC84tVmJk8tbDDKhgNfIrOOSvbSbf1mmm2r_3RtOoX0W-hjFlhHR0cl9YZd1j4XPo1&amp;t=634091022003504140" type="text/javascript"></script>
+
+    			
+
+        <div id="container">
+            <div id="header">
+                <h2><a href="/sites/cromwellhaus.com/blogs/ryanc/default.aspx">Ryan Cromwell</a></h2>
+                <p id="tagline">Aimless musings of a keyboard masher.</p>
+            </div>
+            <div id="wrapper">
+		        <div id="content">
+                    
+
+    
+
+    <div class="entryview">
+       <h1 class="entryviewheading">ASP.Net MVC and Forms Authentication</h1>
+
+       <p>So last weekend I picked up the new <a href="http://asp.net/downloads/3.5-extensions/" target="_blank">ASP.Net 3.5 Extensions Preview CTP</a> (and <a href="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip" target="_blank">MVC Toolkit</a>) from the <a href="http://asp.net/" target="_blank">ASP.Net</a> team and I&#39;m loving the MVC bits.&nbsp; I never could get in to <a href="http://www.castleproject.org/monorail/index.html" target="_blank">MonoRail</a> mainly because I&#39;m a developer diva.&nbsp; I need intellisense, syntax highlighting, the whole deal.&nbsp; For a CTP, this release packs quite a punch.</p> <p>After running through Scott Hanselman&#39;s <a href="http://www.hanselman.com/blog/ASPNET35ExtensionsPlusMVCHowToScreencast.aspx" target="_blank"><em>MVC How-To Screencast</em></a><em>&nbsp;</em>and playing around I took to writing a full site I had already 90% completed with Community Server (wpfstyle.com - it&#39;s coming).&nbsp; Blew threw most of the functionality in the first 3 or 4 hours - awesome.&nbsp; Then I tried to add Forms Authentication through the easy ASP.Net Configuration button of VS 2008.&nbsp; Nada.</p> <p>Long story short, I figured out how to get things working, but there are some manual steps.&nbsp; Here they are:</p> <p><strong><strong><a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image.png"><img style="border-top-width:0px;border-left-width:0px;border-bottom-width:0px;border-right-width:0px;" height="173" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb.png" width="240" align="right" border="0" /></a></strong>[Step 1]</strong> Create a new ASP.Net MVC site.&nbsp; I&#39;ve called mine SecureMVCApplication.</p> <p><strong>[Step 2] </strong>Lets add a new controller called SecureController.&nbsp; This will be our set of actions that only administrators can access.&nbsp; </p> <p>&nbsp;</p> <p>&nbsp;</p> <p><a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_3.png"><img style="border-right:0px;border-top:0px;border-left:0px;border-bottom:0px;" height="148" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb_3.png" width="240" align="left" border="0" /></a> <strong>[Step 3] </strong>We don&#39;t need to add any new Actions, the Index action created for us is sufficient, but we will need to do something.&nbsp; So add a call to RenderView(<span>&quot;Index&quot;</span>) within the Index method.&nbsp; You&#39;ll also need to create the <em>index</em> view, so add a folder called <em>Secure</em> under the Views folder already in your project.&nbsp; To this we will need to add a new MVC View Page item.&nbsp; To make it clear, I&#39;ve typed &quot;This is for admin eyes only!!!&quot; as the body of my view.</p> <p>At this point we should make sure things are working.&nbsp; Hitting F5 should take you to the root of the site, but you could well end up at /Views/Secure/Index.aspx or something like that.&nbsp; Try browsing to <a href="http://localhost:&lt;port&gt;/secure/index">http://localhost:&lt;port&gt;/secure/index</a>.&nbsp; You should see the &quot;This is for admin eyes only!!!&quot; text.&nbsp; If not, go watch Scott&#39;s screencast and come back.</p> <p><a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_4.png"><img height="148" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb_4.png" width="190" align="right" border="0" /></a> <strong>[Step 4]</strong> We&#39;re ready to start securing things.&nbsp; Use the ASP.Net Configuration button to set security to Internet, create a couple of users and at least 1 role called <em>Administrators</em>.&nbsp; This is for our example, you can call your roles whatever you want in your application.</p> <p>At this point, you would normally use the <em>Create Access Rules </em>link to specify the Adminstrators role has access to the secure directory.&nbsp; Instead, we have to do this bit ourselves, because the MVC pattern will present us with a URL structure that does not map to physical directories.&nbsp; At least, probably won&#39;t.&nbsp; In a normal site, the ASP.Net Configuration tool would add a web.config to each configured directory that specifies the authorization rules.&nbsp; This brings us to the next step:</p> <p><strong>[Step 5]</strong> Open your projects root web.config and add the following: </p> <blockquote> <p>&lt;location path=&quot;secure&quot;&gt;<br />&nbsp; &lt;system.web&gt;<br />&nbsp;&nbsp;&nbsp; &lt;authorization&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;allow roles=&quot;Adminstrators&quot; /&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;deny users=&quot;*&quot; /&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/authorization&gt;<br />&nbsp; &lt;/system.web&gt;<br />&lt;/location&gt;</p></blockquote> <p>Assuming you are familiar with MVC URLs this is telling us that the <a href="http://&lt;site&gt;/secure">http://&lt;site&gt;/secure</a> path should allow access to users in the Adminstrators role and deny everyone else.&nbsp; /secure is, of course, the controller.&nbsp; Had this been a standard site, the stuff inside the &lt;location /&gt; element would have been found inside our secure\web.config.</p> <p><strong>[Step 5]</strong> We are now ready to authenticate our users, but we don&#39;t have a normal login.aspx.&nbsp; Instead, we&#39;re going to create a controller called <em>UserController</em> and add a Login and Authenticate action.&nbsp; Here&#39;s what I&#39;ve added to my sample:</p> <blockquote><pre class="code"><span>namespace</span> SecureMvcApplication.Controllers
+{
+    <span>public</span> <span>class</span> <span>UserController</span> : System.Web.Mvc.<span>Controller
+</span>    {
+        [System.Web.Mvc.<span>ControllerAction</span>]
+        <span>public</span> <span>void</span> Login()
+        {
+            RenderView(<span>&quot;Login&quot;</span>);
+        }
+
+        [System.Web.Mvc.<span>ControllerAction</span>]
+        <span>public</span> <span>void</span> Authenticate(<span>string</span> username, <span>string</span> password)
+        {
+            <span>if</span> (System.Web.Security.<span>Membership</span>.ValidateUser(username, password))
+            {
+                System.Web.Security.<span>FormsAuthentication</span>.RedirectFromLoginPage(username, <span>false</span>);
+            }
+        }
+    }
+}</pre></blockquote>
+<p>Notice that my Login action is simply displaying a view.&nbsp; This view has two textboxes (one marked password) and a submit button.&nbsp; If you watch(ed) Scott&#39;s <a href="http://www.hanselman.com/blog/ASPNET35ExtensionsPlusMVCHowToScreencast.aspx" target="_blank">Screencast</a>, I&#39;ve used the <a title="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip" href="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip">http://asp.net/downloads/3.5-extensions/MVCToolkit.zip</a> to do this.&nbsp; The form itself looks like this:</p><a href="http://11011.net/software/vspaste"></a>
+<blockquote><pre class="code"><span>&lt;%<span></span>using</span> (Html.Form(<span>&quot;Authenticate<span>?ReturnUrl=&quot;</span> + <span>this</span>.Request[<span>&quot;ReturnUrl&quot;</span>]</span>, <span>&quot;User&quot;</span>))
+  {<span>%&gt;
+</span>    <span>&lt;</span><span>div</span><span>&gt;</span>Username: <span>&lt;%<span></span>=</span>Html.TextBox(<span>&quot;username&quot;</span>) <span>%&gt;<span></span>&lt;/</span><span>div</span><span>&gt;
+</span>    <span>&lt;</span><span>div</span><span>&gt;</span>Password: <span>&lt;%<span></span>=</span>Html.Password(<span>&quot;password&quot;</span>) <span>%&gt;<span></span>&lt;/</span><span>div</span><span>&gt;
+</span>    <span>&lt;</span><span>div</span><span>&gt;</span><span>&lt;%<span></span>=</span>Html.SubmitButton(<span>&quot;Login&quot;</span>) <span>%&gt;<span></span>&lt;/</span><span>div</span><span>&gt;
+</span><span>&lt;%</span>} <span>%&gt;</span></pre></blockquote>
+<p>Upon Submit/Login, we&#39;re POSTing to the <em>Authenticate( string, string )</em> Action in our UserController which implements the basic Forms Authentication (above).&nbsp; The next step is optional, but it helped me watch the authorization status.</p>
+<p><strong>[Step 6]</strong> (Optional)&nbsp; Add this to your global.asax.cs to see the authorization status of your requests..</p>
+<blockquote><pre class="code"><span>protected</span> <span>void</span> Application_AuthenticateRequest(<span>object</span> sender, <span>EventArgs</span> e)
+{
+    <span>HttpCookie</span> authCookie = Context.Request.Cookies[<span>FormsAuthentication</span>.FormsCookieName];
+
+    <span>if</span> (<span>null</span> == authCookie)
+    {<span>//There is no authentication cookie.
+</span>        <span>Debug</span>.WriteLine(<span>&quot;Don&#39;t know you, dude.&quot;</span>);
+    }
+    <span>else
+</span>        <span>Debug</span>.WriteLine(<span>&quot;Enjoy the party!&quot;</span>);
+}</pre></blockquote>
+<p>Now F5 and browse to <a href="http://localhost:&lt;port&gt;/secure/index">http://localhost:&lt;port&gt;/secure/index</a> and you should be taken to the <a href="http://localhost:&lt;port&gt;/user/login">http://localhost:&lt;port&gt;/user/login</a> page.&nbsp; Upon hitting login, you&#39;re directed back to the root of the site.&nbsp; In our form, we had to manually set the ReturnUrl, because Forms Authentication assumes you will be posting back to yourself (classic ASP.Net Web Form).&nbsp; We&#39;re posting across to the Authenticate action Url.</p>
+<p>You can download the completed VS 2008 project I used <a href="http://cromwellhaus.com/files/folders/netcode/entry468.aspx" target="_blank">here</a>.</p>
+<p>Can you believe we&#39;re already calling ASP.Net Web Forms &quot;classic&quot;?&nbsp; Now we need to get MVC into the WPF platform.&nbsp; How cool would that be!</p><div style="clear:both;"></div>
+       
+
+        <div class="entryviewfooter">
+            	
+            <span class="em">Published</span>
+            12-19-2007 1:15 AM
+			by
+			<a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			
+                                    
+            <div class="em"><span id="ctl00_Main_ctl09_ctl01">Filed under: <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a>, <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></span><input type="hidden" name="ctl00$Main$ctl09$ctl01" id="ctl00_Main_ctl09_ctl01_State" value="nochange" /></div>
+        </div>    
+    </div>
+    
+    
+            
+                    <h4 class="contentsubheading">Comments</h4>
+                    <dl class="comments">
+                
+                    <dt class="comment">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#470">#</a>
+			            <a title="dave thieben" rel="nofollow" href="http://digitallights.com">dave thieben</a>
+                        said on 
+		                19 December, 2007 06:26 AM
+                    </dt>		
+		            <dd class="comment">
+		                nice.  I&#39;ve been watching the MVC postings, but havent had time to play with it yet.  can&#39;t wait to try it out.<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="comment">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#474">#</a>
+			            <a title="TrackBack" rel="nofollow" href="http://cromwellhaus.com/blogs/ryanc/archive/2007/12/20/asp-net-mvc-checkbox-boolean-value-mapping.aspx">Ryan Cromwell</a>
+                        said on 
+		                19 December, 2007 07:14 PM
+                    </dt>		
+		            <dd class="comment">
+		                <p>In my quest to get my wpfstyle.com site written in the new ASP.Net MVC framework (day 3) I&amp;#39;ve run</p>
+
+                    
+                        
+                    </dd>
+                
+                    <dt class="comment">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#480">#</a>
+			            <a title="Paul" rel="nofollow" href="http://weblogs.asp.net/pwelter34">Paul</a>
+                        said on 
+		                02 January, 2008 08:17 AM
+                    </dt>		
+		            <dd class="comment">
+		                Your technique works, however, it will only work a the controller level.  If you want to secure an action, it won&#39;t work.  For example, if you had secure/admin and secure/index.  If you only want secure/admin to be secured you&#39;d add .  This does not work as expected.  
+
+~ Paul<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="owner">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#481">#</a>
+			            <a title="cromwellryan" href="http://cromwellhaus.com/blogs/ryanc">cromwellryan</a>
+                        said on 
+		                02 January, 2008 08:24 AM
+                    </dt>		
+		            <dd class="owner">
+		                <p>I don't have my sample here at the office, but I'll verify this evening. &nbsp;My current project using this tehcnique does include two actions within the same controller (ResourceController) which are authorized differently. &nbsp;The resource/upload action is only available to authenticated users, while resource/list is available for all users, including anonymous. &nbsp;I will confirm this and try to post an updated sample this evening.</p>
+<p>Do you have a specific reason or example why you feel this doesn't work as expected? &nbsp;You may wish to add the trailing slash.</p>
+<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="comment">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#487">#</a>
+			            <a title="Israel Aece" rel="nofollow" href="http://www.projetando.net/">Israel Aece</a>
+                        said on 
+		                08 January, 2008 03:33 AM
+                    </dt>		
+		            <dd class="comment">
+		                <p>Hello Ryan,</p>
+<p>What&#39;s the solution when we need to protect the URL like /Products/Edit/1 where &quot;1&quot; is a productId?</p>
+<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="owner">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#488">#</a>
+			            <a title="cromwellryan" href="http://cromwellhaus.com/blogs/ryanc">cromwellryan</a>
+                        said on 
+		                08 January, 2008 05:40 AM
+                    </dt>		
+		            <dd class="owner">
+		                <p>You can do a number of things. &nbsp;You can authorize the Edit url itself by using /Products/Edit as the location element. &nbsp;You can authorize the Edit ControllerAction method via the PrincipalPermission attribute. &nbsp;Of course, you could do it manually in code as well by asserting role membership.</p>
+<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="comment">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#493">#</a>
+			            Jesper Christiansen
+                        said on 
+		                03 February, 2008 11:38 AM
+                    </dt>		
+		            <dd class="comment">
+		                <p>Hmm.. I simply dont get it! I can easily add users and roles in the &quot;Web Site Administration&quot; web-interface.. but it never creates a database for me.. Atleast not under my current project..</p>
+<p>Any idea of what I might be doing wrong? It seems to by working on projects that are not MVC websites.</p>
+<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="owner">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#494">#</a>
+			            <a title="cromwellryan" href="/sites/cromwellhaus.com/user/Profile.aspx?UserID=2103">cromwellryan</a>
+                        said on 
+		                03 February, 2008 12:00 PM
+                    </dt>		
+		            <dd class="owner">
+		                <p>Jesper,</p>
+<p>It likely did create the database, but, initially, it's not added to the project in the sense you may be expecting. &nbsp;The SQL Express MDF is likely just not &quot;included&quot; in the Visual Studio project. &nbsp;In the Solution Explorer, there is a button at the top called &quot;Show All Files&quot;. &nbsp;Click that and see if the ASPNETDB.mdf is not in the App_Data directory. &nbsp;</p>
+<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="comment">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#495">#</a>
+			            Jesper Christiansen
+                        said on 
+		                03 February, 2008 12:54 PM
+                    </dt>		
+		            <dd class="comment">
+		                <p>Thank you soo much! That gave me a few gray hairs trying to solve that one :) (Im still a little new in the asp.net world) ..</p>
+<p>if you ever stop by Copenhagen, Denmark - I owe you a beer! :)</p>
+<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="owner">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#496">#</a>
+			            <a title="cromwellryan" href="http://cromwellhaus.com/blogs/ryanc">cromwellryan</a>
+                        said on 
+		                03 February, 2008 07:30 PM
+                    </dt>		
+		            <dd class="owner">
+		                <p>Count me in! &nbsp;I'd love to make it there regardless, but a beer only helps the case.</p>
+<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="comment">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#534">#</a>
+			            Dewy
+                        said on 
+		                27 March, 2008 07:12 AM
+                    </dt>		
+		            <dd class="comment">
+		                <p>Hi Ryan, this is exatcly what I am looking for, well at least I think that it is. I am using the Preview 2 download and so I had to make some changes to the web.config file to ref those files instead. I also had to change the Html.Form parameters around as these have been altered I guess for Prev2.</p>
+<p>When I try to run my app, it goes into debug and stops on the User/Login.aspx and highlights the using statement and says that there is a NullReference exception. Its drving me nuts. Any ideas?</p>
+<p>Also, I have done a bit of searching on this and I have also seen that you can use the PrinciplePermission attribute on the controllers themselves or in a base class or whatnot and I like this idea better as this means that you don&#39;t have to use hard coded paths in the config file. Are you planning on updateing your example to use the new release?</p>
+<p>Cheers</p>
+<p>Dewy</p>
+<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="owner">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#535">#</a>
+			            <a title="cromwellryan" href="/sites/cromwellhaus.com/user/Profile.aspx?UserID=2103">cromwellryan</a>
+                        said on 
+		                27 March, 2008 07:28 AM
+                    </dt>		
+		            <dd class="owner">
+		                <p>The NullReference exception is likely a result of the Request[&quot;ReturnUrl&quot;]. &nbsp;It is a bit presumptuous of me to assume that you'll be arriving at the Login.aspx page from another page that was unable to authorize/authenticate you. &nbsp;You may wish to do a safer &quot;get&quot; of the ReturnUrl.</p>
+<p>As for the PrinciplePermission attribute, it wouldn't hurt to have a full solution for that, but I hadn't planned on it. &nbsp;I do agree that it's a bit more clean to apply the attribute see as changing your Routes would change your urls and, thus, the config authorization.</p>
+<p>I'll do what I can to post an example soon.</p>
+<div style="clear:both;"></div>
+                    
+                        
+                    </dd>
+                
+                    <dt class="comment">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#579">#</a>
+			            <a title="TrackBack" rel="nofollow" href="http://saveyournews.com/formwithasp.html">form with asp</a>
+                        said on 
+		                16 April, 2008 12:39 PM
+                    </dt>		
+		            <dd class="comment">
+		                <p>Pingback from &nbsp;form with asp</p>
+
+                    
+                        
+                    </dd>
+                
+                    <dt class="comment">
+			            <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx#886">#</a>
+			            <a title="TrackBack" rel="nofollow" href="http://aspdotnetmvc.com/buzz/default.aspx">ASP.NET MVC Archived Buzz, Page 1</a>
+                        said on 
+		                23 March, 2009 07:35 PM
+                    </dt>		
+		            <dd class="comment">
+		                <p>Pingback from &nbsp;ASP.NET MVC Archived Buzz, Page 1</p>
+
+                    
+                        
+                    </dd>
+                
+                    </dl>
+                
+            
+            
+            
+                
+        
+        
+                </div>
+            </div>
+            <div id="subcontent-a">
+                
+                    
+                    
+                            
+                                    <div>
+                                    <h4 class="sideheader">Syndication</h4>
+                                <ul class='CommonSidebarList'><li class="rss"><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li><li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/rsscomments.aspx">RSS for Comments</a></li></ul>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Search</h4>
+                                <input name="ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchInput" type="text" id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchInput" class="searchbox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event);" /><a id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton" class="searchbutton" href="javascript:__doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')">Go</a>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/default.aspx">Tags</a></h4>
+                                <div id="TagSideBar"><ul class="CommonSidebarTagCloud">
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Code/default.aspx" rel="tag">Code</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/community/default.aspx" rel="tag">community</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Languages/default.aspx" rel="tag">Languages</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Nerd+Dinner/default.aspx" rel="tag">Nerd Dinner</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/WCF/default.aspx" rel="tag">WCF</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Community</h4>
+                                <div id="NavSideBar">
+<ul>
+<li><a href="/sites/cromwellhaus.com/">Home</a></li><li><a href="/sites/cromwellhaus.com/blogs/">Blogs</a></li><li><a href="/sites/cromwellhaus.com/media/">Media</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Archives</h4>
+                                <div id="ArchiveSideBar">
+<ul>
+<li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/09.aspx">September 2009 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/08.aspx">August 2009 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/07.aspx">July 2009 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/04.aspx">April 2009 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/03.aspx">March 2009 (6)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Twitter</h4>
+                                <div id="twtr-profile-widget"></div>
+<p>
+
+
+
+</p>
+                                    </div>
+                                
+                        
+                        
+                
+     
+                
+                <div id="contentfooter">&nbsp;</div>
+            </div>
+            <div id="footer">
+                
+				    
+				    
+				    
+				            <a href="http://communityserver.com/" target="_blank"><img src="/sites/cromwellhaus.com/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						
+
+                    
+					
+				
+            </div>
+        </div> 
+    
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx"
+dc:identifier="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx"
+dc:title="ASP.Net MVC and Forms Authentication"
+trackback:ping="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/trackback.ashx?PostID=469" />
+</rdf:RDF>
+-->
+<script src="http://feeds.feedburner.com/~s/RyanCromwell?i=http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/sites/cromwellhaus.com/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false,true);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_ctl09_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_ctl09_ctl01','ctl00_Main_ctl09_ctl01','ctl00_Main_ctl09_ctl01_State','ctl00_Main_ctl09_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

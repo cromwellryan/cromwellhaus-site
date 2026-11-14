@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ryan Cromwell</title>
+	<atom:link href="http://blog.cromwellhaus.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.cromwellhaus.com</link>
+	<description>Improving my craft...</description>
+	<lastBuildDate>Fri, 08 Apr 2011 15:25:11 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.1.1</generator>
+		<item>
+		<title>Cincy Clean Coders &#8211; Code You Can Show Your Friends</title>
+		<link>http://blog.cromwellhaus.com/2011/03/cincy-clean-coders-code-you-can-show-your-friends/</link>
+		<comments>http://blog.cromwellhaus.com/2011/03/cincy-clean-coders-code-you-can-show-your-friends/#comments</comments>
+		<pubDate>Tue, 29 Mar 2011 17:33:00 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Agile]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Craftsmanship]]></category>
+		<category><![CDATA[Scrum]]></category>
+		<category><![CDATA[TDD]]></category>
+		<category><![CDATA[Testing]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/03/cincy-clean-coders-code-you-can-show-your-friends/</guid>
+		<description><![CDATA[What would a Monday following an Agile conference be without the announcement of a new group focused on quality practices! &#160; I’m happy to announce that Cincy Clean Coders is really going to happen.&#160; Details can be found at http://cincycleancoders.com, but suffice it to say the inaugural meeting will be held April 7th at 6pm [...]]]></description>
+			<content:encoded><![CDATA[<p>What would a Monday following an <a href="http://www.cincydayofagile.org/" target="_blank">Agile conference</a> be <a href="http://twitter.com/cromwellryan/statuses/52408693400154112" target="_blank">without the announcement</a> of a new group focused on quality practices!</p>
+<p>&#160;</p>
+<p>I’m happy to announce that <a href="http://cincycleancoders.com/" target="_blank">Cincy Clean Coders</a> is really going to happen.&#160; Details can be found at <a href="http://cincycleancoders.com">http://cincycleancoders.com</a>, but suffice it to say the inaugural meeting will be held April 7th at 6pm in the <a href="http://www.maxtrain.com" target="_blank">Max Train</a> facilities in Mason, Ohio.</p>
+<p><a href="http://twitter.com/markhaskamp" target="_blank">Mark Haskamp</a> was <strike>strong armed</strike> brave enough to offer to go first with me.&#160; I’ll update the site with the topics for the first meeting soon.</p>
+<p><strong>Big Thanks</strong> to <a href="http://twitter.com/EStormann" target="_blank">Ernie Stormann</a> and <a href="http://twitter.com/ilovethexbox" target="_blank">Parag Joshi</a> who helped push this through.&#160; And a big kudos to the rest of Twitter for being excited about a topic like this.&#160; It says a lot about where our industry wants to be.</p>
+<p><strong>Help!<em> </em></strong>You might notice I’m not a designer.&#160; If you want to help, we could use a site design that doesn’t compare to notepad in a browser.&#160; Nothing special, just, you know, some other than black on white text.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/03/cincy-clean-coders-code-you-can-show-your-friends/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Determine Framework Version &amp; Profile in a #NuGet Install.ps1</title>
+		<link>http://blog.cromwellhaus.com/2011/03/determine-framework-version-profile-in-a-nuget-install-ps1/</link>
+		<comments>http://blog.cromwellhaus.com/2011/03/determine-framework-version-profile-in-a-nuget-install-ps1/#comments</comments>
+		<pubDate>Fri, 25 Mar 2011 01:01:07 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[.Net]]></category>
+		<category><![CDATA[Nuget]]></category>
+		<category><![CDATA[Silverlight]]></category>
+		<category><![CDATA[WPF]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/03/determine-framework-version-profile-in-a-nuget-install-ps1/</guid>
+		<description><![CDATA[[Updated: @davidfowl suggested using the FrameworkName rather than parsing myself.&#160; Thanks!] I’m working on the Caliburn.Micro Nuget package and one of the things that we need is to add a default Bootstrapper, ShellView, and ShellViewModel to your project.&#160; One awesome thing Rob Eisenberg has done is provide WPF, Silverlight and WP7 versions of Caliburn.Micro.&#160; Unfortunately, [...]]]></description>
+			<content:encoded><![CDATA[<p><em>[Updated: </em><a href="http://twitter.com/davidfowl" target="_blank"><em>@davidfowl</em></a><em> suggested using the FrameworkName rather than parsing myself.&#160; Thanks!]</em></p>
+<p>I’m working on the <a href="http://caliburnmicro.codeplex.com/" target="_blank">Caliburn.Micro</a> <a href="http://nuget.codeplex.com/" target="_blank">Nuget</a> package and one of the things that we need is to add a default Bootstrapper, ShellView, and ShellViewModel to your project.&#160; One awesome thing Rob Eisenberg has done is provide WPF, Silverlight and WP7 versions of <a href="http://caliburnmicro.codeplex.com/" target="_blank">Caliburn.Micro</a>.&#160; Unfortunately, the platforms are different enough that these three pieces we would like to add are different.</p>
+<p>I say this is unfortunate only because <a href="http://nuget.codeplex.com/" target="_blank">Nuget</a> doesn’t support framework and profile specific content through conventions.&#160; That’s only <a href="http://nuget.codeplex.com/documentation?title=Creating%20a%20Package" target="_blank">available for binaries</a>.&#160; It does, however, provide hooks into the install process via PowerShell.&#160; </p>
+<p>Maybe you see where I’m headed…</p>
+<p>The hard part for me was figuring out the framework version of the project targeted.&#160; In the end, here’s how you can pull the TargetFrameworkMoniker in your install.ps1:</p>
+<blockquote><p>param($rootPath, $toolsPath, $package, $project)</p>
+<p>&#160; $moniker = $project.Properties.Item(&quot;TargetFrameworkMoniker&quot;).Value</p>
+<p>&#160; $framework= new-object System.Runtime.Versioning.FrameworkName($moniker)</p>
+<p>&#160; write-host &quot;Identifier: &quot; $framework.Identifier&#160; <br />&#160; write-host &quot;Version: &quot; $framework.Version       <br />&#160; write-host &quot;Profile: &quot; $framework.Profile</p>
+<p># WPF4 will be NETFramework,Version=v4.0,Profile=Client      <br /># SL4 will be Silverlight,Version=v4.0       <br /># WP7 will be Silverlight,Version=v4.0,Profile=WindowsPhone</p>
+</blockquote>
+<p>Happy packaging!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/03/determine-framework-version-profile-in-a-nuget-install-ps1/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Cincy Day Of Agile 2011 is Open for Registration</title>
+		<link>http://blog.cromwellhaus.com/2011/02/cincy-day-of-agile-2011-is-open-for-registration/</link>
+		<comments>http://blog.cromwellhaus.com/2011/02/cincy-day-of-agile-2011-is-open-for-registration/#comments</comments>
+		<pubDate>Mon, 21 Feb 2011 15:55:40 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Agile]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Scrum]]></category>
+		<category><![CDATA[Speaking]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/02/cincy-day-of-agile-2011-is-open-for-registration/</guid>
+		<description><![CDATA[Cincinnati Day of Agile, to be held March 26th, 2011 at Savannah Conference Center, is open for registration.&#160; This is a cheap ticket with huge returns that sold out quick last year.&#160; We’ve made more tickets available this year, but don’t expect them to last too long. &#160; Register here: http://cincydayofagile.org/ &#160; Topics you’ll find [...]]]></description>
+			<content:encoded><![CDATA[<p>Cincinnati Day of Agile, to be held March 26th, 2011 at Savannah Conference Center, is open for registration.&#160; This is a cheap ticket with huge returns that sold out quick last year.&#160; </p>
+<p>We’ve made more tickets available this year, but don’t expect them to last too long.</p>
+<p>&#160;</p>
+<p>Register here: <a href="http://cincydayofagile.org/">http://cincydayofagile.org/</a></p>
+<p>&#160;</p>
+<p>Topics you’ll find at Cincinnati Day of Agile:</p>
+<table border="0" cellspacing="0" cellpadding="2" width="601">
+<tbody>
+<tr>
+<td valign="top" width="419">Scrum Defined</td>
+<td valign="top" width="180">Phil Japikse</td>
+</tr>
+<tr>
+<td valign="top" width="419">Five Things to Be More Agile</td>
+<td valign="top" width="180">&#160;</td>
+</tr>
+<tr>
+<td valign="top" width="419">Agile is Just a Word</td>
+<td valign="top" width="180">Chris Nelson</td>
+</tr>
+<tr>
+<td valign="top" width="419">Team Pulse Demonstration</td>
+<td valign="top" width="180">Joel Semeniuk</td>
+</tr>
+<tr>
+<td valign="top" width="419">
+<p>Introduction to Pair Programming</p>
+</td>
+<td valign="top" width="180">Steve Smith</td>
+</tr>
+<tr>
+<td valign="top" width="419">Moving from Fail Last to Fail Fast</td>
+<td valign="top" width="180">Nilanjan Raychaudhuri</td>
+</tr>
+<tr>
+<td valign="top" width="419">
+<p><strong>Missing Pieces: The Road from Agile Enthusiast to Agile Team Member</strong></p>
+</td>
+<td valign="top" width="180"><strong>Ryan Cromwell<sup>*</sup></strong></td>
+</tr>
+<tr>
+<td valign="top" width="419">Seven Habits of Highly Effective Chickens</td>
+<td valign="top" width="180">Rob Keefer</td>
+</tr>
+<tr>
+<td valign="top" width="419">
+<p>High Performance Workspaces</p>
+</td>
+<td valign="top" width="180">Sean Heuer</td>
+</tr>
+<tr>
+<td valign="top" width="419">
+<p>Don&#8217;t Get Lost in Translation: Effectively Translating Agile into Enterprise Program Management</p>
+</td>
+<td valign="top" width="180">Mike Kompar</td>
+</tr>
+<tr>
+<td valign="top" width="419">Enterprise Agility</td>
+<td valign="top" width="180">Phil Japikse</td>
+</tr>
+<tr>
+<td valign="top" width="419">
+<p>Common Design Patterns in Web Applications</p>
+</td>
+<td valign="top" width="180">Steve Smith</td>
+</tr>
+<tr>
+<td valign="top" width="419">Dynamic Languages and Why You Should Care</td>
+<td valign="top" width="180">Chris Nelson</td>
+</tr>
+</tbody>
+</table>
+<p><sup>*</sup>Blog owner bias acknowledged</p>
+<p>&#160;</p>
+<p>There will also be an awesome 3 hour, hands-on workshop by <a href="http://twitter.com/agiledna" target="_blank">Mark Windholtz</a> and open discussion round tables.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/02/cincy-day-of-agile-2011-is-open-for-registration/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Expanding Quality Dev Practices: Clean Coders</title>
+		<link>http://blog.cromwellhaus.com/2011/02/expanding-quality-dev-practices-clean-coders-club/</link>
+		<comments>http://blog.cromwellhaus.com/2011/02/expanding-quality-dev-practices-clean-coders-club/#comments</comments>
+		<pubDate>Wed, 16 Feb 2011 23:25:54 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Agile]]></category>
+		<category><![CDATA[Community]]></category>
+		<category><![CDATA[Craftsmanship]]></category>
+		<category><![CDATA[TDD]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/02/expanding-quality-dev-practices-clean-coders-club/</guid>
+		<description><![CDATA[I recently blogged and Tweeted this idea for Cincinnati Clean Coders.  It came out of some work I’m doing with a team that was struggling with TDD adoption and steps we are taking to resolve the underlying causes. This team had been trying really hard for about 2 sprints, and to a lesser degree in [...]]]></description>
+			<content:encoded><![CDATA[<p>I recently <a href="http://blog.cromwellhaus.com/2011/02/cincinnati-clean-coders/">blogged and Tweeted</a> this idea for Cincinnati Clean Coders.  It came out of some work I’m doing with a team that was struggling with TDD adoption and steps we are taking to resolve the underlying causes.</p>
+<p>This team had been trying really hard for about 2 sprints, and to a lesser degree in sprints prior, to add TDD to their <a href="http://www.bing.com/search?q=scrum+definition+f+done&amp;src=ie9tr">Definition of Done</a>.  During the second retrospective the team made it quite clear there were roadblocks.  We spent quite a bit of time during that retrospective trying to diagnose and come up with a root cause.</p>
+<p>The conclusion was that complicated setup in the tests was the blame.  This isn’t uncommon and is certainly a signal that the underlying system under test is doing too much.  What the team decided was that maybe it needed to focus on patterns for small, flexible, <a href="http://cleancoder.posterous.com/">clean code</a>.  So the team came up with…</p>
+<p><strong>The Clean Code Plan</strong></p>
+<p>At the beginning of each week team members each choose a design pattern, development practice, or tool to learn and practice.  At the end of that week each team member would lead a session with the team.  The general agenda of each session would be:</p>
+<ul>
+<li><em>Define and Describe</em> the Pattern, Practice, or Tool.  Bring in others thoughts, comments, and interpretations that you’ve found.</li>
+<li><em>Demonstrate</em> the pattern in action.  Since we are working on a project the team decided it was best that this *<em>not* </em>be done in the context of that project, but instead be done with a different background.  We wanted to get out of of the confines of the project and clear away any baggage or pressure.  We had one demonstration that was done in alternative languages to the project language which received kudos.</li>
+<li><em>Discuss</em> ways that this could be applied to problems in the past or problems that are foreseen.  This part was hard, but I think will be the most fruitful as we move forward.</li>
+</ul>
+<p>Fortunately for this team it can take a few hours (3-5) to do something of this nature.  A public group, not so much.  At least not regularly.</p>
+<p>So here are my initial thoughts on a more condensed format.  Post your thoughts, ‘cause I’m all ears.  Maybe I’m being too structured here, but that’s my nature.</p>
+<p><strong>Duration</strong>: 1hour and half: Two 30 minute sessions on two patterns, practices, or tools.</p>
+<p>Follow the same agenda of:</p>
+<ul>
+<li><em>Define and Describe </em>the Pattern, practice or tool.</li>
+<li><em>Demonstrate </em>the pattern, practice or tool.  Must be done in at least two languages or platforms.  I think this is key to getting people outside their comfort zone.</li>
+<li><em>Discuss </em>ways to apply in past or upcoming problems.  This is a bit harder, because we don’t have a common project context around our discussions, but I think it’s important to keep this from becoming a rotation of talking heads.  It would hopefully remove some of the intimidation factor of speaking as well.</li>
+</ul>
+<p>So what do you think?  Could it work?  We have an industry problem with quality practices, but no plan of attack.  I’m not saying this is one, but maybe it can help.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/02/expanding-quality-dev-practices-clean-coders-club/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Send me your TFS vNext Feedback for the MVP Summit</title>
+		<link>http://blog.cromwellhaus.com/2011/02/send-me-your-tfs-vnext-feedback-for-the-mvp-summit/</link>
+		<comments>http://blog.cromwellhaus.com/2011/02/send-me-your-tfs-vnext-feedback-for-the-mvp-summit/#comments</comments>
+		<pubDate>Wed, 16 Feb 2011 20:16:39 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[TFS]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/?p=882</guid>
+		<description><![CDATA[I’m headed to the MVP Summit at the end of this month and I want to take feedback to the team.&#160; The summit is a great opportunity for me to give feedback, but I’m certainly not the only one with ‘ideas’ (just check Twitter).&#160; So I want to give everyone a voice and I’ll do [...]]]></description>
+			<content:encoded><![CDATA[<p align="left">I’m headed to the MVP Summit at the end of this month and I want to take feedback to the team.&#160; </p>
+<p align="left">The summit is a great opportunity for me to give feedback, but I’m certainly not the only one with ‘ideas’ (just check <a href="http://twitter.com/#!/search/tfs" target="_blank">Twitter</a>).&#160; So I want to give everyone a voice and I’ll do what I can to get it to the teams.</p>
+<p align="left">&#160;</p>
+<p align="left">So go for it.&#160; Submit and vote up feedback on this UserVoice forum <a href="http://tfsmvpsummit.uservoice.com">http://tfsmvpsummit.uservoice.com</a></p>
+<p align="left">&#160;</p>
+<p align="left">Keep it clean people!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/02/send-me-your-tfs-vnext-feedback-for-the-mvp-summit/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Cincinnati Clean Coders</title>
+		<link>http://blog.cromwellhaus.com/2011/02/cincinnati-clean-coders/</link>
+		<comments>http://blog.cromwellhaus.com/2011/02/cincinnati-clean-coders/#comments</comments>
+		<pubDate>Wed, 16 Feb 2011 03:01:02 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Community]]></category>
+		<category><![CDATA[Craftsmanship]]></category>
+		<category><![CDATA[TDD]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/?p=879</guid>
+		<description><![CDATA[I tweeted today that a team I’m working with has started a weekly patterns and techniques learning cycle to expand the team’s toolbox for creating clean, testable, and flexible code.&#160; This came out of some reflection that I’ll dive into in another post. This tweet sparked some interest and I’m happy to follow the rabbit [...]]]></description>
+			<content:encoded><![CDATA[<p>I <a href="http://twitter.com/#!/cromwellryan/status/37502053936795648" target="_blank">tweeted</a> today that a team I’m working with has started a weekly patterns and techniques learning cycle to expand the team’s toolbox for creating clean, testable, and flexible code.&#160; This came out of some reflection that I’ll dive into in another post.</p>
+<p>This tweet sparked some interest and I’m happy to follow the rabbit hole.&#160; So I threw up a <a href="http://twtpoll.com/idfs79" target="_blank">twtpoll</a> to find out who is interested in a similar concept, but open to all comers.&#160; It would be entirely language and platform agnostic.&#160; I have some initial ideas on how to make it work in a reasonable amount of time, but we’ll roll with the mood.</p>
+<p>So let me know what you think:</p>
+<p> <script src="http://twtpoll.com/js/badge.js" type="text/javascript"></script><script src="http://twtpoll.com/badge/?twt=idfs79&amp;b=1" type="text/javascript"></script>
+<p>Please <a href="http://twitter.com/cromwellryan/statuses/37691508836679680" target="_blank">retweet</a>, email a link, whatever.&#160; Just find people who would benefit (everyone) and convince them it’s a good idea.&#160; </p>
+<p>&#160;</p>
+<p>Do remember there is bound to be someone willing to sponsor food.&#160; Might not even be pizza.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/02/cincinnati-clean-coders/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Real World Webcast Series for TFS 2010</title>
+		<link>http://blog.cromwellhaus.com/2011/02/real-world-webcast-series-for-tfs-2010/</link>
+		<comments>http://blog.cromwellhaus.com/2011/02/real-world-webcast-series-for-tfs-2010/#comments</comments>
+		<pubDate>Tue, 08 Feb 2011 21:09:03 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[TFS]]></category>
+		<category><![CDATA[Visual Studio]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/02/real-world-webcast-series-for-tfs-2010/</guid>
+		<description><![CDATA[I and a few coworkers are running a twice monthly web series starting February 10th.&#160; This series will touch on the opportunities we’ve been involved in to ease real world situations. If you are working with Team Foundation Server 2010 and are interested in making your life a little easier I invite you to come [...]]]></description>
+			<content:encoded><![CDATA[<p>I and a few coworkers are running a twice monthly web series starting February 10th.&#160; This series will touch on the opportunities we’ve been involved in to ease real world situations.</p>
+<p>If you are working with Team Foundation Server 2010 and are interested in making your life a little easier I invite you to come listen to what I and others have to say.&#160; We’ll do everything we can to keep the schedule tight to 1 hour, but we are always available offline.</p>
+<p><strong><a href="https://www.clicktoattend.com/invitation.aspx?code=153495">Automating Team Foundation Server with PowerShell</a>&#160;</strong>Feb 10th, 12pm EST</p>
+<p>System administration can be slow and inconsistent when performed manually, or quick and easy when automated. Learn to use PowerShell with TFS to script away that wasted time.</p>
+<p>&#160;</p>
+<p><a href="http://www.clicktoattend.com/?id=153441"><strong>Continuous Deployment with Team Build and MSDeploy</strong></a> Feb 24th, 12pm EST</p>
+<p>Caffeine, pizza, and anxiety are regular tools for a production deployment. Watch and learn how Team Foundation Build 2010 and MSDeploy can turn the last hurdle of software development into a moment of Zen.</p>
+<p>&#160;</p>
+<p><a href="http://www.clicktoattend.com/?id=153440"><strong>Planning and Executing Manual Tests with Visual Studio Test Professional 2010</strong></a><strong>&#160;</strong>Mar 10th, 12pm EST</p>
+<p>Visual Studio Test Professional 2010 makes a real impact on software quality. It’s an integrated testing solution that delivers a complete plan-test-track workflow. It allows the user to quickly identify quality-related bugs and easily report them with rich, actionable information. In this session, we&#8217;ll review test planning and manual testing with Visual Studio Test Professional 2010. </p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/02/real-world-webcast-series-for-tfs-2010/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cincinnati Day of Agile Call for Speakers</title>
+		<link>http://blog.cromwellhaus.com/2011/02/cincinnati-day-of-agile-call-for-speakers/</link>
+		<comments>http://blog.cromwellhaus.com/2011/02/cincinnati-day-of-agile-call-for-speakers/#comments</comments>
+		<pubDate>Thu, 03 Feb 2011 15:30:53 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+		
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/02/cincinnati-day-of-agile-call-for-speakers/</guid>
+		<description><![CDATA[I’ve had the pleasure of working with the group organizing Cincinnati Day of Agile.&#160; About a week ago we confirm our facility and date: March 26th, 2011 at the Savanna Center in West Chester, Ohio.&#160; We expect quite a jump this year, going over 300 attendees. We are currently accepting topics for both the Beginner [...]]]></description>
+			<content:encoded><![CDATA[<p>I’ve had the pleasure of working with the group organizing Cincinnati Day of Agile.&#160; About a week ago we confirm our facility and date: March 26th, 2011 at the <a href="http://savannahcenter.com">Savanna Center</a> in West Chester, Ohio.&#160; We expect quite a jump this year, going over 300 attendees.</p>
+<p>We are currently accepting topics for both the Beginner and Advanced tracks.&#160; If you have any experiences with Agile techniques either good, bad or wild this is your chance to help others learn from those experiences.&#160; Whether it’s the impact of a transparent backlog on your business, the passionate arguments that came from a collaborating team, or the impact of coding practices on your velocity over time, people want to know what you have to say.&#160; Don’t be shy.&#160; Submit your topics at <a href="http://cincydayofagile.org">http://cincydayofagile.org</a> soon!</p>
+<p>&#160;</p>
+<p>Looks forward to seeing everyone there.&#160; The facility is beautiful and the discussions are going to be awesome, so don’t miss out. </p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/02/cincinnati-day-of-agile-call-for-speakers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Programming is not a craft… but you can be a craftsman</title>
+		<link>http://blog.cromwellhaus.com/2011/01/programming-is-not-a-craft-but-you-can-be-a-craftsman/</link>
+		<comments>http://blog.cromwellhaus.com/2011/01/programming-is-not-a-craft-but-you-can-be-a-craftsman/#comments</comments>
+		<pubDate>Fri, 14 Jan 2011 01:20:11 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Craftsmanship]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/01/programming-is-not-a-craft-but-you-can-be-a-craftsman/</guid>
+		<description><![CDATA[Craftmanship was the software development phrase d’jour in 2010 (or maybe REST, it was a close race).&#160; To start 2011 Dan North very abruptly stated that Programming is not a craft.&#160; I happened to read this a few days before Codemash which was keynoted by Chad Fowler where he very conveniently discussed the Passionate Programmer.&#160; [...]]]></description>
+			<content:encoded><![CDATA[<p><em>Craftmanship</em> was the software development phrase d’jour in 2010 (or maybe REST, it was a close race).&#160; To start 2011 <a href="http://twitter.com/tastapod">Dan North</a> very abruptly stated that <a href="http://dannorth.net/2011/01/11/programming-is-not-a-craft/">Programming is not a craft</a>.&#160; I happened to read this a few days before <a href="http://www.codemash.org">Codemash</a> which was keynoted by <a href="twitter.com/chadfowler">Chad Fowler</a> where he very conveniently discussed the <a href="http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1294959269&amp;sr=8-1">Passionate Programmer</a>.&#160; </p>
+<p>My take from the keynote is that we shouldn’t be so quick to fear, resent, and minimize formal mechanisms of inspection and improvement (aka Six Sigma), but instead embrace them as ways to expose and enable our passion productively.&#160; I don’t know that many expected this from a mustachioed (ok it’s gone, but come <em>one,</em> did you see that thing), Ruby loving, saxophonist; it certainly was sobering.</p>
+<p>Today <a href="http://twitter.com/elegantcode">David Starr</a>&#160;<a href="http://elegantcode.com/2011/01/12/programming-is-not-a-craft-my-take/">responded</a> in much the same way I did when I began reading Dan’s comments: how dare you.&#160; But I’m not sure Dan’s headline grabbing commentary is quite as radical as some are bound to interpret.&#160; </p>
+<p>Dan, as I’ve understood him, is looking at the term craft and craftsmanship as it is used in trades such as plumbing, electricians, etc.&#160; In these trades, there is a well defined ladder of training, experience and excellence with an approving body.&#160; We don’t have this (or want it I dare say) and cannot therefore call what we do a sibling according to Dan.</p>
+<p>Our sub-industry of coding, even with our self-declared passion, neglects those activities which would transform us from egocentric, but well meaning geeks to a “proper profession” as Dan puts it.&#160; How many in Chad’s keynote didn’t scoff and chuckle at the 6-Sigma reference and then stare at the table in silence when we came to realize it’s a lot like our Inspect and Adapt frameworks.&#160; Coincidentally enough, many of our favorite Agile practices such as XP, Scrum, and Kanban come about from a thorough examination of mechanisms like Six Sigma.</p>
+<p>The qualities that embody the Software Craftsmanship (as a proper noun with a unique meaning) are fantastic, I want to reflect them.&#160; At this moment, for better or worse, there seems to be no effort to give the movement an objective beyond personal empowerment.&#160; Do we need one?&#160; Probably.&#160; Can it come from the Software Programmers Union in the form of a Master Coder License?&#160; I certainly hope not.</p>
+<p>In the mean time, you can be a software craftsman.&#160; Love your code.&#160; As David puts it “one mark of a true professional might be a willingness to balance client need with implementation elegance…”.&#160; Just keep searching for the elegance.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/01/programming-is-not-a-craft-but-you-can-be-a-craftsman/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Purpose of Katas</title>
+		<link>http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/</link>
+		<comments>http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/#comments</comments>
+		<pubDate>Fri, 14 Jan 2011 00:32:08 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Craftsmanship]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/</guid>
+		<description><![CDATA[Codemash 2011 has had a Coding Dojo dedicated to Katas.&#160; I don’t recall that last year, but I love it.&#160; While I was there, they were well coordinated also.&#160; Nimble Pros seemed to be organizing things and they kept suggesting people pair up as they walked in and finally coordinated a discussion, swapping out the [...]]]></description>
+			<content:encoded><![CDATA[<p><a href="http://www.codemash.org">Codemash</a> 2011 has had a Coding Dojo dedicated to Katas.&#160; I don’t recall that last year, but I love it.&#160; While I was there, they were well coordinated also.&#160; Nimble Pros seemed to be organizing things and they kept suggesting people pair up as they walked in and finally coordinated a discussion, swapping out the projector from person to person.&#160; </p>
+<p>In and of themselves, the Kata problem is generally not terribly difficult.&#160; We’re talking about <a href="http://codingdojo.org/cgi-bin/wiki.pl?KataPotter">Harry Potter</a> and <a href="http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata">Bowling</a> for crying out loud.&#160; In fact, Uncle Bob goes so far as to say that “a kata is meant to be memorized.” </p>
+<p>But the problem is not point of a kata.&#160; Instead, &lt;robe&gt;it’s the journey&lt;/robe&gt; that we aspire towards.&#160; Every execution of a kata should start with a goal, an objective.&#160; That goal may be to investigate, understand and adopt another coders decision making process.&#160; Your goal, as it seems for many this week, may be to learn a language or language feature.&#160; Often the objective is to learn a new coding technique.&#160; </p>
+<p>Over the past few months, my objectives have often been related to streamlining my tooling techniques.&#160; I’ve used katas to learn Vim and a little Emacs.&#160; I’ve used katas to learn new ReSharper features.&#160; The Vim learning process resulted in much better use of Visual Studio, even installing the <a href="http://visualstudiogallery.msdn.microsoft.com/en-us/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329">VsVim</a> extension which I love.&#160; </p>
+<p>Today I used the Greed Kata to practice the <a href="http://cleancoder.posterous.com/the-transformation-priority-premise">Transformation Priority Premise</a> and I was very intruiged by the way my code evolved.&#160; It certainly took me down a path different than that others and the one I would have otherwise have chosen.</p>
+<p>So my suggestion to you in an attempt to make your sessions more productive… <strong>have a kata goal.</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
