@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Rules of the Game: Effective Group Discussion &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.06 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	// End of Google Analytics for WordPress by Yoast v4.0
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.box .the-content { padding: 0px; }
+.br .the-content {align: center; }
+.box .tl, .box .tr, .box .wrapleft { background: none; }
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Rules of the Game: Effective Group Discussion Comments Feed" href="http://blog.cromwellhaus.com/2011/01/rules-of-the-game-effective-group-discussion/feed/" />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com/' />
+<link rel='start' title='Dayton-Cincinnati Code Camp' href='http://blog.cromwellhaus.com/2005/12/dayton-cincinnati-code-camp/' />
+<link rel='prev' title='Cincinnati Professional Scrum Developer .Net Course (Feb 21st)' href='http://blog.cromwellhaus.com/2011/01/cincinnati-professional-scrum-developer-net-course-feb-21st/' />
+<link rel='next' title='What a Microsoft ALM MVP means to me?' href='http://blog.cromwellhaus.com/2011/01/what-a-microsoft-alm-mvp-means-to-me/' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://blog.cromwellhaus.com/2011/01/rules-of-the-game-effective-group-discussion/' />
+<link rel='shortlink' href='http://blog.cromwellhaus.com/?p=848' />
+<link rel="stylesheet" href="http://disqus.com/stylesheets/cromwellhaus/disqus.css?v=2.0" type="text/css" media="screen" />
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/" title="Bio"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/" title="Presentation Abstracts"><span>Presentation Abstracts</span></a></li>
+<li class="page_item page-item-757"><a class="fadeThis" href="http://blog.cromwellhaus.com/dayton-code-coffee/" title="Dayton Code &amp; Coffee"><span>Dayton Code &amp; Coffee</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://blog.cromwellhaus.com/2011/01/cincinnati-professional-scrum-developer-net-course-feb-21st/" rel="prev">Cincinnati Professional Scrum Developer .Net Course (Feb 21st)</a></div>
+          <div class="alignright"><a href="http://blog.cromwellhaus.com/2011/01/what-a-microsoft-alm-mvp-means-to-me/" rel="next">What a Microsoft ALM MVP means to me?</a> &raquo;</div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-848" class="post-848 post type-post hentry category-agile category-coaching category-craftsmanship category-scrum category-training">
+           <h2 class="post-title">Rules of the Game: Effective Group Discussion</h2>
+              <div class="post-content clearfix">
+    	       <p>Meetings are hard.&#160; They can <em>easily</em> suck the life out of your day, week, or *gasp* job.&#160; Let pain be your guide. (Thanks <a href="http://twitter.com/coreyhaines">@coreyhaines</a>)</p>
+<p>I recently had to work through a mountain of feedback data provided by a limited product release.&#160; User Experience experts, random individuals, and customers known for their willingness to provide quality feedback gave us excellent information.&#160; The question became how do we <em>effectively</em> process the information as a team.&#160; </p>
+<p>Here a redacted version of the meeting notice I sent out:</p>
+<hr />
+<p>We have feedback from some users. We need to talk about it, but it’s a lot of info.</p>
+<p>Here’s the tentative plan (tentative because someone might think of a better one).</p>
+<p><strong>Agenda</strong></p>
+<p>15min · Soapbox</p>
+<p>30min · UX Feedback</p>
+<p>30min · Customer Feedback</p>
+<p>15min · Next Steps</p>
+<p>&#160;</p>
+<p>We need a really, really good note taker.&#160; Volunteers?</p>
+<p>&#160;</p>
+<p><strong>Rules of the Game</strong></p>
+<ol>
+<li>Each person receives 3 uninterrupted minutes for their soapbox. </li>
+<li>Interrupt someone during their soapbox and you lose a minute from yours. </li>
+<li>Maximum 5 minutes on any one feedback item.&#160; Action item to dig in later. </li>
+<li>Fist in the air by anyone immediately halts discussion on the topic and we move to the next. Action item to dig in later. </li>
+<li>Add a sticky note to the wall if you want to discuss something relevant by off topic. </li>
+<li><em>Try to have read as much of the feedback as possible before the meeting.</em></li>
+<hr /></ol>
+<p>The key to any meeting is preparation and an effective recorder.&#160; By having a <a href="http://blog.cromwellhaus.com/index.php/2010/11/timebox-to-make-painful-tasks-bearable/">timeboxed</a> agenda, <a href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords=kitchen+timer&amp;x=0&amp;y=0">audible timer</a>, rules, and an awesome recorder meetings can actually be fun!&#160; </p>
+<p>I love the Soapbox for two reasons.&#160; First it gets everyone talking.&#160; Even the quiet person has three minutes (or a really long, awkward silence).&#160; If someone finishes before their allotted time, sit quietly (you kinda have to or you lose a minute yourself!).&#160; They will probably come up with something else right before their alarm buzzes. The second reason I love the soapbox is that you can then get down to business without people interjecting something off topic.</p>
+<p>We didn’t make it through everything, people were cut off by the alarm, and people didn’t get to say everything during their soapbox.&#160; It’s ok.&#160; Do it often and people will learn to be direct, to prioritize their thoughts, and to PREPARE.</p>
+<p>&#160;</p>
+<p>Now, back to my code.</p>
+              </div>
+                                          <p class="post-metadata">
+                    This entry was posted on January 6, 2011, 11:30 am and is filed under <a href="http://blog.cromwellhaus.com/category/agile/" title="View all posts in Agile" rel="category tag">Agile</a>, <a href="http://blog.cromwellhaus.com/category/coaching/" title="View all posts in Coaching" rel="category tag">Coaching</a>, <a href="http://blog.cromwellhaus.com/category/craftsmanship/" title="View all posts in Craftsmanship" rel="category tag">Craftsmanship</a>, <a href="http://blog.cromwellhaus.com/category/scrum/" title="View all posts in Scrum" rel="category tag">Scrum</a>, <a href="http://blog.cromwellhaus.com/category/training/" title="View all posts in Training" rel="category tag">Training</a>. You can follow any responses to this entry through <a href="http://blog.cromwellhaus.com/2011/01/rules-of-the-game-effective-group-discussion/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://blog.cromwellhaus.com/2011/01/rules-of-the-game-effective-group-discussion/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+					<div id="dsq-content">
+			<ul id="dsq-comments">
+					<li id="dsq-comment-132">
+					<div id="dsq-comment-header-132" class="dsq-comment-header">
+						<cite id="dsq-cite-132">
+								<span id="dsq-author-user-132">Seth Petry-Johnson</span>
+							</cite>
+					</div>
+					<div id="dsq-comment-body-132" class="dsq-comment-body">
+						<div id="dsq-comment-message-132" class="dsq-comment-message"><p>Can you clarify the purpose of the soapbox? Is it for people to talk about the issues they think are most important? What sort of things are appropriate for the soapbox portion and what sort of things are appropriate once you start digging into feedback?</p>
+</div>
+					</div>
+				</li>
+					<li id="dsq-comment-133">
+					<div id="dsq-comment-header-133" class="dsq-comment-header">
+						<cite id="dsq-cite-133">
+	http://blog.cromwellhaus.com							<span id="dsq-author-user-133">cromwellryan</span>
+							</cite>
+					</div>
+					<div id="dsq-comment-body-133" class="dsq-comment-body">
+						<div id="dsq-comment-message-133" class="dsq-comment-message"><p>The soapbox is entirely open.  People can talk about the weather if they choose, but they might not be envited back <img src='http://blog.cromwellhaus.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> .  The benefit I find is two fold: let people get things off their chest that they are passionate about such that they don&#8217;t feel compelled to inject tangential comments into the natural flow of discussion.  Second, we&#8217;ve found it helps get open dialog flowing.</p>
+<p>I&#8217;m sure there are benefits and negatives to this process, but timeboxing it is very helpful I find.</p>
+</div>
+					</div>
+				</li>
+				</ul>
+		</div>
+	</div>
+
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	var disqus_url = 'http://blog.cromwellhaus.com/2011/01/rules-of-the-game-effective-group-discussion/ ';
+	var disqus_identifier = '848 http://blog.cromwellhaus.com/index.php/2011/01/rules-of-the-game-effective-group-discussion/';
+	var disqus_container_id = 'disqus_thread';
+	var disqus_domain = 'disqus.com';
+	var disqus_shortname = 'cromwellhaus';
+	var disqus_title = "Rules of the Game: Effective Group Discussion";
+		var disqus_config = function () {
+	    var config = this; // Access to the config object
+
+	    /* 
+	       All currently supported events:
+	        * preData — fires just before we request for initial data
+	        * preInit - fires after we get initial data but before we load any dependencies
+	        * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+	        * afterRender - fires when template is rendered but before we show it
+	        * onReady - everything is done
+	     */
+
+		config.callbacks.preData.push(function() {
+			// clear out the container (its filled for SEO/legacy purposes)
+			document.getElementById(disqus_container_id).innerHTML = '';
+		});
+				config.callbacks.onReady.push(function() {
+			// sync comments in the background so we don't block the page
+			DISQUS.request.get('?cf_action=sync_comments&post_id=848');
+		});
+					};
+	var facebookXdReceiverPath = 'http://blog.cromwellhaus.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	var DsqLocal = {
+		'trackbacks': [
+		],
+		'trackback_url': "http:\/\/blog.cromwellhaus.com\/2011\/01\/rules-of-the-game-effective-group-discussion\/trackback\/"	};
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+	dsq.async = true;
+	dsq.src = 'http://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.61';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+    
+    
+    <li class="block widget widget_text" id="text-3"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>What I have to say&#8230;</span></h4></div>			<div class="textwidget"><script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#382a1d',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ebe6d8',
+      color: '#000000',
+      links: '#0070bb'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().setUser('cromwellryan').start();
+</script></div>
+		</div></div></div></div></div></div> </div></li> </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 19 queries. 0.354 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+

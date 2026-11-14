@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ryan Cromwell</title>
+	<atom:link href="http://blog.cromwellhaus.com/index.php/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.cromwellhaus.com</link>
+	<description>Improving my craft...</description>
+	<lastBuildDate>Thu, 18 Mar 2010 17:40:41 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.8.4</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>Grouping is crazy easy in WPF</title>
+		<link>http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/#comments</comments>
+		<pubDate>Thu, 18 Mar 2010 17:40:41 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[WPF]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/</guid>
+		<description><![CDATA[Lots of people struggle with grouping data and when they do, the brut force method normally takes over and we start creating some crazy super structure to organize data and then do something like put a List inside of a List or a Grid inside of a list.&#160; Just think of how many times you [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2010/03/grouping-is-crazy-easy-in-wpf/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Source Control Smackdown 2009</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/#comments</comments>
+		<pubDate>Mon, 07 Dec 2009 13:38:24 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[TFS]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/</guid>
+		<description><![CDATA[With all the hubbub around Git, TFS 2010, and others over the last year or so, the Dayton .Net Developers Group is hosting a panel event this Wednesday, December 9th, titled Source Control Smackdown 2009.&#160; I have been lucky enough to be selected to represent TFS in a clash against SVN (Justin Kohnen) and Git [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/12/source-control-smackdown-2009/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Dog Food II: Implementing Scrum with TFS</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/11/dog-food-ii-implementing-scrum-with-tfs/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/11/dog-food-ii-implementing-scrum-with-tfs/#comments</comments>
+		<pubDate>Fri, 13 Nov 2009 22:00:00 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[TFS]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/11/dog-food-ii-implementing-scrum-with-tfs/</guid>
+		<description><![CDATA[I want to thank all of those who took time out of their day to hang out at the Dog Food II conference in Columbus.&#160; Everything was a great success.&#160; A special thanks to Danilo Casino, Brian Prince, Jeff Blankenburg and everyone else who helped put the event together.&#160; 
+For those of you who attended [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/11/dog-food-ii-implementing-scrum-with-tfs/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Strategy Pattern with Castle Windsor</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/#comments</comments>
+		<pubDate>Fri, 30 Oct 2009 19:37:56 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[.Net]]></category>
+		<category><![CDATA[IoC]]></category>
+		<category><![CDATA[Windsor]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/</guid>
+		<description><![CDATA[One of the tangent patterns associated with isolation or Single Responsibility is the Strategy Pattern.  I use Castle Windsor as my IoC of choice and I had hoped there was some black magic built in to make the Strategy Pattern dead simple.  Turns out there is and there isn’t.
+What is the Strategy Pattern
+The strategy pattern [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Dog Food II Registration Open</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/#comments</comments>
+		<pubDate>Thu, 29 Oct 2009 16:55:41 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[TFS]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/</guid>
+		<description><![CDATA[Registration has opened for the 2nd Annual Dog Food conference in Columbus, OH.&#160; SDS is excited to be a sponsor and presenter this year and I hope you have a chance to come by and see some of the topics everyone has planned.&#160; I plan to be there as an observer both days and a [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>A Reminder Of Our Values</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/#comments</comments>
+		<pubDate>Wed, 28 Oct 2009 12:56:50 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Scrum]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/</guid>
+		<description><![CDATA[Steve Gentile recently had a thinking out loud moment by posting the Agile Manifest as a reminder to himself of what he values.&#160; It’s really important to constantly put these types of reminders in front of ourselves as we work in environments that don’t necessarily breed best practices.&#160; The contractual obligations of the business world [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Size versus Duration</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/#comments</comments>
+		<pubDate>Tue, 27 Oct 2009 14:30:00 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Scrum]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/</guid>
+		<description><![CDATA[Scrum introduces the concept of Story Points which most teams immediately misunderstand or discard.  The most elegant wrong explanation I’ve heard for not using story points was:
+“we never liked story points, because then we had to communicate and teach our customers a whole new currency.” 
+Fortunately, this isn’t true.  Unforunately, the reason many find story points [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Registering WPF &#8220;Views&#8221; with Windsor Fluent API</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/#comments</comments>
+		<pubDate>Mon, 26 Oct 2009 05:06:54 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[IoC]]></category>
+		<category><![CDATA[WPF]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/</guid>
+		<description><![CDATA[I’ve had this nagging issue for some time now with WPF views that are registered for an interface.&#160; The Views themselves are WPF UserControls:
+
+namespace SomeApp.Views
+
+{
+
+    public partial class SearchView : UserControl, ISearchView
+
+    {
+
+        public SearchView()
+
+        [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Wake up: Code &amp; Coffee tomorrow morning</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/09/wake-up-code-amp-coffee-tomorrow-morning/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/09/wake-up-code-amp-coffee-tomorrow-morning/#comments</comments>
+		<pubDate>Mon, 21 Sep 2009 17:39:47 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Community]]></category>
+
+		<guid isPermaLink="false">/blogs/ryanc/archive/2009/09/21/wake-up-code-amp-coffee-tomorrow-morning.aspx</guid>
+		<description><![CDATA[Fellow SDS’er @derekhubbard and his buddy @cschroll have been hosting a weekly Tuesday morning Code &#38; Coffee gathering at Caribou Coffee at The Greene in Kettering, OH.&#160; Tomorrow, Sept 22nd at 7:15am, we continue the SOLID principles.&#160; It’s a great way to start your day, so come by if you can make it.
+]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/09/wake-up-code-amp-coffee-tomorrow-morning/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Injecting a WCF Channel as Dependency via Windsor</title>
+		<link>http://blog.cromwellhaus.com/index.php/2009/08/injecting-a-wcf-channel-as-dependency-via-windsor/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/08/injecting-a-wcf-channel-as-dependency-via-windsor/#comments</comments>
+		<pubDate>Tue, 18 Aug 2009 15:45:41 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[WCF]]></category>
+		<category><![CDATA[Windsor]]></category>
+
+		<guid isPermaLink="false">/blogs/ryanc/archive/2009/08/18/injecting-a-wcf-channel-as-dependency-via-windsor.aspx</guid>
+		<description><![CDATA[When working within a closed system which uses WCF and an IoC container you will often find the following pattern:
+ 
+&#160;
+What happens is the SomeAppService is often, but not always, a very thin wrapper over the WCF Service.&#160; If you own both ends of this scenario its often nice to remove the WCF layer between.&#160; [...]]]></description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/08/injecting-a-wcf-channel-as-dependency-via-windsor/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

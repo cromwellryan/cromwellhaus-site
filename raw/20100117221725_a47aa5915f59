@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>March &raquo; 2006 &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for March, 2006</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-657 post hentry category-software-reviews">
+			<h2 id="post-657"><a href="http://blog.cromwellhaus.com/index.php/2006/03/sql-reporting-services-unattended-install-documentation-bug/" rel="bookmark" title="Permanent Link to SQL Reporting Services Unattended Install Documentation Bug">SQL Reporting Services Unattended Install Documentation Bug</a></h2>
+			<small class="meta">March 7th, 2006 </small>
+
+			<div class="entry">
+				<p>For those that are trying to package and deploy the SQL Reporting Services 2000 Designer tools, there is a little bug in the documentation.  It states that in order to include the Reporting Service Books Online feature, you should use the setting RS_BooksOnline_<language> as an ADDLOCAL parameter value.  In fact, the Template.ini and documentation give the example RS_BooksOnline_EN.  BUUUUUUT, it really should read RS_BooksOnline_1033.  Just a hint in case you run into it, &#8217;cause you&#8217;ll have to go looking through MSI logs to find it.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/03/sql-reporting-services-unattended-install-documentation-bug/#respond" title="Comment on SQL Reporting Services Unattended Install Documentation Bug">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-656 post hentry category-personal">
+			<h2 id="post-656"><a href="http://blog.cromwellhaus.com/index.php/2006/03/free-march-madness-video-feeds-im-so-there/" rel="bookmark" title="Permanent Link to Free March Madness Video Feeds?  I&#8217;m so there!">Free March Madness Video Feeds?  I&#8217;m so there!</a></h2>
+			<small class="meta">March 6th, 2006 </small>
+
+			<div class="entry">
+				<p>I don&#8217;t understand how more media content providers don&#8217;t see the benefit of a free test drive.  I&#8217;ll be all over <a href="http://www.ncaasports.com/mmod/">CBS Sportsline</a> for the <a href="http://www.ncaasports.com/mmod/">March Madness On Demand</a> live video feeds free for the first three rounds and I&#8217;m sure I&#8217;ll get sucked into paying for the rest of it.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/03/free-march-madness-video-feeds-im-so-there/#respond" title="Comment on Free March Madness Video Feeds?  I&#8217;m so there!">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/personal/" title="View all posts in Personal" rel="category tag">Personal</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-655 post hentry category-software-reviews">
+			<h2 id="post-655"><a href="http://blog.cromwellhaus.com/index.php/2006/03/windows-live-messenger-beta-update/" rel="bookmark" title="Permanent Link to Windows Live Messenger Beta Update">Windows Live Messenger Beta Update</a></h2>
+			<small class="meta">March 6th, 2006 </small>
+
+			<div class="entry">
+				<p>This week the Windows Live group released an update to the <A href="http://ideas.live.com/programPage.aspx?versionId=0eccd94b-eb48-497c-8e60-c6313f7ebb73" mce_href="http://ideas.live.com/programPage.aspx?versionId=0eccd94b-eb48-497c-8e60-c6313f7ebb73">Windows Live Messenger Beta</A> (MSN Messenger 8.0). There were a couple of major things with the initial release <A class="" href="http://www.cromwellhaus.com/blogs/ryanc/archive/2006/01/13/36.aspx" mce_href="http://www.cromwellhaus.com/blogs/ryanc/archive/2006/01/13/36.aspx">that I reported</A> and they seem to have been resolved. If you&#8217;d like to give it a chance, I have a few new invites that I can give out to those who are interested and I&#8217;m sure I&#8217;ll receive some more shortly thereafter. Leave your email in the comments and I&#8217;ll do my best.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/03/windows-live-messenger-beta-update/#comments" title="Comment on Windows Live Messenger Beta Update">1 comment</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for March, 2006.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

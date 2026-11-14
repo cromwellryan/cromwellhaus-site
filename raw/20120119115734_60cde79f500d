@@ -1,0 +1,509 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>March &laquo; 2007 &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.2 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview'],['_trackPageLoadTime']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.box .the-content { padding: 0px; }
+.br .the-content {align: center; }
+.box .tl, .box .tr, .box .wrapleft { background: none; }
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.1, fitted with the WordPress Mobile Pack 1.2.4" />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/"><span>Presentation Abstracts</span></a>
+<ul class='children'>
+	<li class="page_item page-item-909"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/missing-pieces-the-road-from-agile-enthusiast-to-agile-team-member/"><span>Missing Pieces: The Road from Agile Enthusiast to Agile Team Member</span></a></li>
+</ul>
+</li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+                                <h1 class="pagetitle">Archive for March, 2007</h1>
+        
+        
+        <!-- post -->
+        <div id="post-668" class="post-668 post type-post status-publish format-standard hentry category-uncategorized">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/powershell/" rel="bookmark" title="Permanent Link: Powershell">Powershell</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">28</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://blog.cromwellhaus.com/2007/03/powershell/#respond" class="comments"  title="Comment on Powershell"><span class="dsq-postid" rel="668 /blogs/ryanc/archive/2007/03/28/powershell.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Yesterday I had a had a chance to have dinner and drinks with another group here for a Technology Summit hosted by Microsoft.&nbsp; They get a bunch of representatives from parallel and alternate technology groups such as PHP, Linux, Java, Python, etc together and discuss they reasons for Microsoft decisions, show off Microsoft focused options [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-667" class="post-667 post type-post status-publish format-standard hentry category-net category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-3-hardware-capability/" rel="bookmark" title="Permanent Link: WPF Bootcamp Day 3 &#8211; Hardware capability">WPF Bootcamp Day 3 &#8211; Hardware capability</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">28</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-3-hardware-capability/#respond" class="comments"  title="Comment on WPF Bootcamp Day 3 &#8211; Hardware capability"><span class="dsq-postid" rel="667 /blogs/ryanc/archive/2007/03/28/wpf-bootcamp-day-3-hardware-capability.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>To avoid disappointing users after they&#8217;ve gotten as far as running your application on their 1997 300mhz Pentium II, determine their capabilities using the RenderCapability.Tier value before hand and notifying them that they&#8217;ll need to joing the 21st century before running your app.&nbsp; Henry Hahn has a quick overview and, the&nbsp;always welcome, code samples of [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-666" class="post-666 post type-post status-publish format-standard hentry category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-3-ftp-problems-from-the-technology-center/" rel="bookmark" title="Permanent Link: WPF Bootcamp Day 3 &#8211; FTP Problems from the Technology Center">WPF Bootcamp Day 3 &#8211; FTP Problems from the Technology Center</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">28</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-3-ftp-problems-from-the-technology-center/#respond" class="comments"  title="Comment on WPF Bootcamp Day 3 &#8211; FTP Problems from the Technology Center"><span class="dsq-postid" rel="666 /blogs/ryanc/archive/2007/03/28/wpf-bootcamp-day-3-ftp-problems-from-the-technology-center.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>You may have noticed there were not many blog entries for Day 2.&nbsp; It turns out there&#8217;s no way to ftp stuff out of the technology center.&nbsp; It&#8217;s hindering my ability to post with pictures/screen captures.&nbsp; I&#8217;ve got a bunch of posts for you as soon as I figure this out. &nbsp; Stay tuned.</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-665" class="post-665 post type-post status-publish format-standard hentry category-uncategorized">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/notes/" rel="bookmark" title="Permanent Link: Notes">Notes</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">27</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://blog.cromwellhaus.com/2007/03/notes/#respond" class="comments"  title="Comment on Notes"><span class="dsq-postid" rel="665 /blogs/ryanc/archive/2007/03/27/notes.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Kevin Moore, Program Manager &#8220;Bag of Tricks&#8221; Templates vs Styles Beatriz de Oliveira Costa (Test Lead) Data Binding/DataTemplate INotifyPropertyChanged, INotifyCollectionChanged www.beacosta.com blogs.msdn.com/okoboji www.blois.us/snoop Exposing new &#8220;facits&#8221; (i.e. glow&nbsp;color on the button) as properties which&nbsp;can be stylized/template bound.&nbsp; WPF Partner Showcase Accruent Retail Store Lifecycle Manager Iconics Dassault Lectra EASY Infoworkz Tempworks Scripps Healthcare Skandia London [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-664" class="post-664 post type-post status-publish format-standard hentry category-oracle">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/bringing-down-an-oracle-9i-on-windows-instance/" rel="bookmark" title="Permanent Link: Bringing down an Oracle 9i on Windows instance">Bringing down an Oracle 9i on Windows instance</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">27</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/oracle/" title="View all posts in Oracle" rel="category tag">Oracle</a> | <a href="http://blog.cromwellhaus.com/2007/03/bringing-down-an-oracle-9i-on-windows-instance/#respond" class="comments"  title="Comment on Bringing down an Oracle 9i on Windows instance"><span class="dsq-postid" rel="664 /blogs/ryanc/archive/2007/03/27/bringing-down-an-oracle-9i-on-windows-instance.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>The Speedy Rewards&nbsp;program is backed by two pretty hefty Oracle 9i RAC instances.&nbsp; One is for the OLTP and the other for data-warehousing analytics.&nbsp; Since it&#8217;s inception we&#8217;ve pretty impressive success with the uptime and performance, though one glaring problem has plagued us now for going on 4 years.&nbsp; Every 3 days, whoever is on [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-663" class="post-663 post type-post status-publish format-standard hentry category-uncategorized">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-1-datatemplates/" rel="bookmark" title="Permanent Link: WPF Bootcamp Day 1 &#8211; DataTemplates">WPF Bootcamp Day 1 &#8211; DataTemplates</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">27</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-1-datatemplates/#respond" class="comments"  title="Comment on WPF Bootcamp Day 1 &#8211; DataTemplates"><span class="dsq-postid" rel="663 /blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1-datatemplates.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>This is pretty good stuff.&nbsp; One of the cool features of the WPF/Xaml structure is a way to define the visual structure (read: look) DataTemplates in WPF/Expression WPF Threading Model/Dispatcher and long running operations: http://msdn2.microsoft.com/en-us/library/ms741870.aspx New Rendering model (painters algorithm).&nbsp; More memory, draw off screen then move bitmap. Shapes vs&nbsp;Drawings (drawings lower level &#8211; no [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-662" class="post-662 post type-post status-publish format-standard hentry category-net category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-1-expression/" rel="bookmark" title="Permanent Link: WPF Bootcamp Day 1 &#8211; Expression">WPF Bootcamp Day 1 &#8211; Expression</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">26</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-1-expression/#comments" class="comments"  title="Comment on WPF Bootcamp Day 1 &#8211; Expression"><span class="dsq-postid" rel="662 /blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1-expression.aspx">2 Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>For those who don&#8217;t already know, I want to make it perfectly clear that I am the last person you would ask to design an appealling interface.&nbsp; Messaging, thread syncronization, etc I&#8217;m your guy, but pretty pictures I am not.</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-661" class="post-661 post type-post status-publish format-standard hentry category-net category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-1-visual-studio-quot-orcas-quot-demo/" rel="bookmark" title="Permanent Link: WPF Bootcamp Day 1 &#8211; Visual Studio &quot;Orcas&quot; Demo">WPF Bootcamp Day 1 &#8211; Visual Studio &quot;Orcas&quot; Demo</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">26</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-1-visual-studio-quot-orcas-quot-demo/#respond" class="comments"  title="Comment on WPF Bootcamp Day 1 &#8211; Visual Studio &quot;Orcas&quot; Demo"><span class="dsq-postid" rel="661 /blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1-visual-studio-quot-orcas-quot-demo.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>We moved past the introductions quickly and are getting down and dirty.&nbsp; Rob Relyea&nbsp;took us through the basics of WPF from the latest Visual Studio Orcas&nbsp;perspective.&nbsp; Starting simple by creating a button via Xaml and a duplicate example using purely C# code.&nbsp; I&#8217;ve posted a copy of the sample here&nbsp;for Visual Studio 2005 with the [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-660" class="post-660 post type-post status-publish format-standard hentry category-net category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-1/" rel="bookmark" title="Permanent Link: WPF Bootcamp Day 1">WPF Bootcamp Day 1</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">26</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2007/03/wpf-bootcamp-day-1/#comments" class="comments"  title="Comment on WPF Bootcamp Day 1"><span class="dsq-postid" rel="660 /blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1.aspx">1 Comment</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>My co-worker Steve and I are here in Redmond this week for&nbsp;a WPF Bootcamp training session.&nbsp; We started off by meeting the WPF Product Unit Manager, Ian Ellison-Tayler,&nbsp;and Lead Program Manager, Rob Relyea.&nbsp; Ian ran through some existing WPF applications floating around the intersphere.&nbsp; As early as it is for WPF, there are some cool [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-659" class="post-659 post type-post status-publish format-standard hentry category-uncategorized">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/03/the-multilingual-family/" rel="bookmark" title="Permanent Link: The multilingual family&#8230;">The multilingual family&#8230;</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">8</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://blog.cromwellhaus.com/2007/03/the-multilingual-family/#respond" class="comments"  title="Comment on The multilingual family&#8230;"><span class="dsq-postid" rel="659 /blogs/ryanc/archive/2007/03/08/the-multilingual-family.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>One of the things we have decided we really want to try with Little Ryan is Baby Sign Language.&nbsp; I&#8217;ve read a number of great first hand accounts and I&#8217;m really excited.&nbsp; Beyond the suggestions that family&#8217;s who&#8217;ve adopted baby sign language see a reduction in temper tantrums, I&#8217;m excited that I&#8217;ll have at least [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+            <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'cromwellhaus';
+        var disqus_domain = 'disqus.com';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_domain + '/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+
+        <div class="navigation" id="pagenavi">
+                 <div class="alignleft"></div>
+         <div class="alignright"></div>
+         <div class="clear"></div>
+                </div>
+        
+      </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+        <li class="block">
+     <div class="info-text">
+            <p>You are currently browsing the archives for March, 2007</p>
+
+           </div>
+    </li>
+    
+    
+        
+    <li class="block">
+      <!-- box -->
+      <div class="box">
+       <div class="titlewrap"><h4><span>Archives</span></h4></div>      
+       <div class="wrapleft">
+        <div class="wrapright">
+         <div class="tr">
+          <div class="bl">
+           <div class="tl">
+            <div class="br the-content">
+             <ul>
+              	<li><a href='http://blog.cromwellhaus.com/2012/01/' title='January 2012'>January 2012</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/12/' title='December 2011'>December 2011</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/11/' title='November 2011'>November 2011</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/09/' title='September 2011'>September 2011</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/06/' title='June 2011'>June 2011</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/05/' title='May 2011'>May 2011</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/03/' title='March 2011'>March 2011</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/02/' title='February 2011'>February 2011</a>&nbsp;(6)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/01/' title='January 2011'>January 2011</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/12/' title='December 2010'>December 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/11/' title='November 2010'>November 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/10/' title='October 2010'>October 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/09/' title='September 2010'>September 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/08/' title='August 2010'>August 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/07/' title='July 2010'>July 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/05/' title='May 2010'>May 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/04/' title='April 2010'>April 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/03/' title='March 2010'>March 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/12/' title='December 2009'>December 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/11/' title='November 2009'>November 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/10/' title='October 2009'>October 2009</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/09/' title='September 2009'>September 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/08/' title='August 2009'>August 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/07/' title='July 2009'>July 2009</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/04/' title='April 2009'>April 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/03/' title='March 2009'>March 2009</a>&nbsp;(6)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/11/' title='November 2008'>November 2008</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/10/' title='October 2008'>October 2008</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/09/' title='September 2008'>September 2008</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/08/' title='August 2008'>August 2008</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/07/' title='July 2008'>July 2008</a>&nbsp;(10)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/06/' title='June 2008'>June 2008</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/04/' title='April 2008'>April 2008</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/03/' title='March 2008'>March 2008</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/01/' title='January 2008'>January 2008</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/12/' title='December 2007'>December 2007</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/11/' title='November 2007'>November 2007</a>&nbsp;(4)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/10/' title='October 2007'>October 2007</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/09/' title='September 2007'>September 2007</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/08/' title='August 2007'>August 2007</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/07/' title='July 2007'>July 2007</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/06/' title='June 2007'>June 2007</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/05/' title='May 2007'>May 2007</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/04/' title='April 2007'>April 2007</a>&nbsp;(8)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/03/' title='March 2007'>March 2007</a>&nbsp;(10)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/05/' title='May 2006'>May 2006</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/03/' title='March 2006'>March 2006</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/02/' title='February 2006'>February 2006</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/01/' title='January 2006'>January 2006</a>&nbsp;(8)</li>
+	<li><a href='http://blog.cromwellhaus.com/2005/12/' title='December 2005'>December 2005</a>&nbsp;(1)</li>
+             </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- /box -->
+    </li>
+
+    <li class="block">
+      <!-- box -->
+      <div class="box">
+       <div class="titlewrap"><h4><span>Meta</span></h4></div>
+       <div class="wrapleft">
+        <div class="wrapright">
+         <div class="tr">
+          <div class="bl">
+           <div class="tl">
+            <div class="br the-content">
+             <ul>
+                            <li><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+              <li><a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional">Valid <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
+              <li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
+              <li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress</a></li>
+                           </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- /box -->
+    </li>
+     </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 13 queries. 0.248 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+<p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='http://blog.cromwellhaus.com/2007/03/?wpmp_switcher=mobile'>Switch to our mobile site</a></p></body>
+</html>
+

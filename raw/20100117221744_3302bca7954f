@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>April &raquo; 2008 &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for April, 2008</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-708 post hentry category-mvc category-wpf">
+			<h2 id="post-708"><a href="http://blog.cromwellhaus.com/index.php/2008/04/minimvc-for-wpf/" rel="bookmark" title="Permanent Link to MiniMVC for WPF">MiniMVC for WPF</a></h2>
+			<small class="meta">April 24th, 2008 </small>
+
+			<div class="entry">
+				<p>Tonight I presented for the <a href="http://daytondevgroup.net/">Dayton .Net Developers Group</a> on WPF.&nbsp; Unlike my previous <a href="http://cromwellhaus.com/blogs/ryanc/archive/2007/09/28/lap-around-wpf-codng.aspx">Lap Around WPF @ CONDG</a> which was meant as a beginners guide to WPF, this time we were skipping the basics and plunging into a framework I&#8217;ve dubbed MiniMVC.&nbsp; </p>
+<p>MiniMVC is, primarily, a set of <a href="http://msdn2.microsoft.com/en-us/library/system.windows.dependencyproperty.aspx">DependencyProperties</a> and custom <a href="http://msdn2.microsoft.com/en-us/library/system.windows.input.icommand.aspx">ICommand</a>&#8217;s which allow you to specify a Controller for any <a href="http://msdn2.microsoft.com/en-us/library/system.windows.frameworkelement.aspx">FrameworkElement</a> and/or Action in the <a href="http://msdn2.microsoft.com/en-us/library/ms753391.aspx#logical_tree">logical tree</a>.&nbsp; Unlike <a href="http://blogs.msdn.com/dancre/archive/2006/10/11/datamodel-view-viewmodel-pattern-series.aspx">Dan Crevier&#8217;s D-V-VM</a> pattern or <a href="http://www.codeproject.com/KB/WPF/MVCtoUnitTestinWPF.aspx">Josh Smith&#8217;s MVC pattern</a> implementations which rely on explicitly defining <a href="http://msdn2.microsoft.com/en-us/library/system.windows.input.routedcommand.aspx">RoutedCommand</a>s for each action, <a href="http://msdn2.microsoft.com/en-us/library/ms752308.aspx">binding them up manually</a>, and other unpleasantries (in my humble opinion &#8211; these guys still know more than I) with this framework you can use any old class, with any old method, and start executing actions immediately.&nbsp; Here&#8217;s an example:</p>
+<p><span style="color: blue">&lt;</span><span style="color: #a31515">Window </span><span style="color: red">x</span><span style="color: blue">:</span><span style="color: red">Class</span><span style="color: blue">=&#8221;PostDemo.Window1&#8243;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">xmlns</span><span style="color: blue">=&#8221;http://schemas.microsoft.com/winfx/2006/xaml/presentation&#8221;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">xmlns</span><span style="color: blue">:</span><span style="color: red">x</span><span style="color: blue">=&#8221;http://schemas.microsoft.com/winfx/2006/xaml&#8221;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">xmlns</span><span style="color: blue">:</span><span style="color: red">mvc</span><span style="color: blue">=&#8221;http://cromwellhaus.com/wpf/minimvc&#8221;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">xmlns</span><span style="color: blue">:</span><span style="color: red">demo</span><span style="color: blue">=&#8221;clr-namespace:PostDemo&#8221;</span><span style="color: blue">&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">MiniMVC.Controller</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">demo</span><span style="color: blue">:</span><span style="color: #a31515">Window1Controller</span><span style="color: blue">/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">MiniMVC.Controller</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">StackPanel</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">TextBox </span><span style="color: red">x</span><span style="color: blue">:</span><span style="color: red">Name</span><span style="color: blue">=&#8221;txtMessage&#8221;</span><span style="color: red">Text</span><span style="color: blue">=&#8221;" /&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">Button</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">MiniMVC.Action</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">ControllerAction </span><span style="color: red">Trigger</span><span style="color: blue">=&#8221;Click&#8221;</span><span style="color: red">Action</span><span style="color: blue">=&#8221;Echo&#8221; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">Return</span><span style="color: blue">=&#8221;{</span><span style="color: #a31515">Binding</span><span style="color: red">ElementName</span><span style="color: blue">=txtResult,</span><span style="color: red">Path</span><span style="color: blue">=Text}&#8221;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">Parameter</span><span style="color: red">ParameterName</span><span style="color: blue">=&#8221;message&#8221; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">Value</span><span style="color: blue">=&#8221;{</span><span style="color: #a31515">Binding</span><span style="color: red">ElementName</span><span style="color: blue">=txtMessage,</span><span style="color: red">Path</span><span style="color: blue">=Text}&#8221; /&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">ControllerAction</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">MiniMVC.Action</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: #a31515">Write Something<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: blue">&lt;/</span><span style="color: #a31515">Button</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">TextBlock </span><span style="color: red">x</span><span style="color: blue">:</span><span style="color: red">Name</span><span style="color: blue">=&#8221;txtResult&#8221; /&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/</span><span style="color: #a31515">StackPanel</span><span style="color: blue">&gt;<br />&lt;/</span><span style="color: #a31515">Window</span><span style="color: blue">&gt;<br /></span>
+<p><span style="color: blue"><font color="#000000">Here&#8217;s what&#8217;s going on: </font></span></p>
+<blockquote><p><span style="color: blue"><font color="#000000">First, we have this class, Window1Controller, which we are attaching to the Window&#8217;s MiniMVC.Controller property.&nbsp; </font></span></p>
+<p><span style="color: blue"><font color="#000000">Second, we are setting the MiniMVC.Action property on the Button to a ControllerAction triggered by the button&#8217;s Click event.&nbsp; When <em>Click</em> occurs the Action to be taken on the Controller is <em>Echo</em>.&nbsp; We want to pass into Echo the value of the txtMessage TextBox Text value as parameter <em>message</em>.&nbsp; Also, we&#8217;re specifying that the Return value from Echo should be applied to the Text property of the txtResult TextBox controller.</font></span></p>
+</blockquote>
+<p><span style="color: blue"></span><span style="color: blue"></span><span style="color: blue"><font color="#000000">Cool?&nbsp; So what&#8217;s <em>really</em> going on?&nbsp; Well, MiniMVC is handling the most importantly the OnChange event handler for the Action DependencyProperty and using that to dynamically create an ICommand class called ActionCommand.&nbsp; It&#8217;s also looking up the Click RoutedEvent via Reflection and adding the ActionCommand&#8217;s Execute method as the event handler for the located Click RoutedEvent.&nbsp; There is ZERO code in my code-behind.&nbsp; The Designer has free-reign to apply the Controller and action to any RoutedEvent he/she chooses and we can all sleep well knowing our <a href="http://en.wikipedia.org/wiki/Separation_of_concerns">concerns are separated</a>.&nbsp; A happy marriage in my book.</font></span></p>
+<p><span style="color: blue"><font color="#000000">I must give a lot of credit to <a href="http://devlicio.us/blogs/rob_eisenberg/default.aspx">Rob Eisenberg</a>&#8217;s super-awesome <a href="http://caliburn.tigris.org/">Caliburn</a> project on which much of the Action dependency property is based.&nbsp; His framework is full featured to the tilt, but is a little over done to my liking with the extensive use of Dependency Injection.&nbsp; If you find MiniMVC useful, though, I highly recommend you watch for progress on Caliburn.</font></span></p>
+<p><span style="color: blue"><font color="#000000">You can download the full solution, including demo&#8217;s, from the presentation, as well as the above example project <a href="http://cromwellhaus.com/files/folders/wpf/entry581.aspx">here</a>.</font></span><span style="color: blue"></p>
+<p></span><a href="http://11011.net/software/vspaste"></a><br />
+<blockquote><a href="http://11011.net/software/vspaste"></a><a href="http://11011.net/software/vspaste"></a></p></blockquote>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/04/minimvc-for-wpf/#comments" title="Comment on MiniMVC for WPF">3 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-707 post hentry category-net">
+			<h2 id="post-707"><a href="http://blog.cromwellhaus.com/index.php/2008/04/quicky-visual-studio-projects-ou-can-toss-to-the-curb/" rel="bookmark" title="Permanent Link to Quicky Visual Studio Projects you can Toss to the Curb">Quicky Visual Studio Projects you can Toss to the Curb</a></h2>
+			<small class="meta">April 11th, 2008 </small>
+
+			<div class="entry">
+				<p>When I&#8217;m trying to explain things to people or just want to try something out really quick I&#8217;ll often create myself a temporary Visual Studio projects that I don&#8217;t intend to keep around.&nbsp; In fact, I have an entire Temp folder full of them.&nbsp; <a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/QuickyVisualStudioProjectsoucanTosstothe_9E91/image_2.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="146" alt="image" src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/QuickyVisualStudioProjectsoucanTosstothe_9E91/image_thumb.png" width="244" align="right" border="0"></a>I always loved that in the VB 6.0 IDE you could choose not to save your project at all and no remnant would exist if you chose not to save.&nbsp; Apparently you can do this in Visual Studio 2005 and 2008.&nbsp;&nbsp; Go into Tools -&gt; Options and select the <em>Projects and Solutions</em> node.&nbsp; Uncheck <em>Save ne<u>w</u> projects when created.</em>&nbsp; </p>
+<p>Bingo.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/04/quicky-visual-studio-projects-ou-can-toss-to-the-curb/#respond" title="Comment on Quicky Visual Studio Projects you can Toss to the Curb">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for April, 2008.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

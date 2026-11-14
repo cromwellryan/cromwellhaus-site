@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Ryan Cromwell</title>
+	
+	<link>http://blog.cromwellhaus.com</link>
+	<description>Improving my craft...</description>
+	<lastBuildDate>Sat, 31 Oct 2009 14:11:56 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.8.4</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<geo:lat>39.557096</geo:lat><geo:long>-84.22688</geo:long><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/RyanCromwell" type="application/rss+xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com" /><item>
+		<title>Strategy Pattern with Castle Windsor</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/Rcx1ZJckENQ/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/#comments</comments>
+		<pubDate>Fri, 30 Oct 2009 19:37:56 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[.Net]]></category>
+		<category><![CDATA[IoC]]></category>
+		<category><![CDATA[Windsor]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/</guid>
+		<description>One of the tangent patterns associated with isolation or Single Responsibility is the Strategy Pattern.  I use Castle Windsor as my IoC of choice and I had hoped there was some black magic built in to make the Strategy Pattern dead simple.  Turns out there is and there isn’t.
+What is the Strategy Pattern
+The strategy pattern [...]&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Rcx1ZJckENQ:DgAfcXgQjkQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Rcx1ZJckENQ:DgAfcXgQjkQ:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Rcx1ZJckENQ:DgAfcXgQjkQ:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Rcx1ZJckENQ:DgAfcXgQjkQ:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Rcx1ZJckENQ:DgAfcXgQjkQ:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/Rcx1ZJckENQ" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/10/strategy-pattern-with-castle-windsor/</feedburner:origLink></item>
+		<item>
+		<title>Dog Food II Registration Open</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/vur0UfdzaBg/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/#comments</comments>
+		<pubDate>Thu, 29 Oct 2009 16:55:41 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[TFS]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/</guid>
+		<description>Registration has opened for the 2nd Annual Dog Food conference in Columbus, OH.&amp;#160; SDS is excited to be a sponsor and presenter this year and I hope you have a chance to come by and see some of the topics everyone has planned.&amp;#160; I plan to be there as an observer both days and a [...]&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=vur0UfdzaBg:GsLf5Bu_eCI:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=vur0UfdzaBg:GsLf5Bu_eCI:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=vur0UfdzaBg:GsLf5Bu_eCI:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=vur0UfdzaBg:GsLf5Bu_eCI:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=vur0UfdzaBg:GsLf5Bu_eCI:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/vur0UfdzaBg" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/10/dog-food-ii-registration-open/</feedburner:origLink></item>
+		<item>
+		<title>A Reminder Of Our Values</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/7k3z3oY8ghY/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/#comments</comments>
+		<pubDate>Wed, 28 Oct 2009 12:56:50 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Scrum]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/</guid>
+		<description>Steve Gentile recently had a thinking out loud moment by posting the Agile Manifest as a reminder to himself of what he values.&amp;#160; It’s really important to constantly put these types of reminders in front of ourselves as we work in environments that don’t necessarily breed best practices.&amp;#160; The contractual obligations of the business world [...]&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=7k3z3oY8ghY:tHT30um6Y28:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=7k3z3oY8ghY:tHT30um6Y28:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=7k3z3oY8ghY:tHT30um6Y28:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=7k3z3oY8ghY:tHT30um6Y28:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=7k3z3oY8ghY:tHT30um6Y28:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/7k3z3oY8ghY" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/10/a-reminder-of-our-values/</feedburner:origLink></item>
+		<item>
+		<title>Size versus Duration</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/Ky5uHSdOXKw/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/#comments</comments>
+		<pubDate>Tue, 27 Oct 2009 14:30:00 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Scrum]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/</guid>
+		<description>Scrum introduces the concept of Story Points which most teams immediately misunderstand or discard.  The most elegant wrong explanation I’ve heard for not using story points was:
+“we never liked story points, because then we had to communicate and teach our customers a whole new currency.” 
+Fortunately, this isn’t true.  Unforunately, the reason many find story points [...]&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Ky5uHSdOXKw:bktiAS6KSfQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Ky5uHSdOXKw:bktiAS6KSfQ:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Ky5uHSdOXKw:bktiAS6KSfQ:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Ky5uHSdOXKw:bktiAS6KSfQ:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Ky5uHSdOXKw:bktiAS6KSfQ:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/Ky5uHSdOXKw" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/10/size-versus-duration/</feedburner:origLink></item>
+		<item>
+		<title>Registering WPF “Views” with Windsor Fluent API</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/86P9V2D3N_Y/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/#comments</comments>
+		<pubDate>Mon, 26 Oct 2009 05:06:54 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[IoC]]></category>
+		<category><![CDATA[WPF]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/</guid>
+		<description>I’ve had this nagging issue for some time now with WPF views that are registered for an interface.&amp;#160; The Views themselves are WPF UserControls:
+
+namespace SomeApp.Views
+
+{
+
+    public partial class SearchView : UserControl, ISearchView
+
+    {
+
+        public SearchView()
+
+        [...]&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=86P9V2D3N_Y:Zi-xgrAICH0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=86P9V2D3N_Y:Zi-xgrAICH0:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=86P9V2D3N_Y:Zi-xgrAICH0:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=86P9V2D3N_Y:Zi-xgrAICH0:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=86P9V2D3N_Y:Zi-xgrAICH0:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/86P9V2D3N_Y" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/10/registering-wpf-views-with-windsor-fluent-api/</feedburner:origLink></item>
+		<item>
+		<title>Wake up: Code &amp; Coffee tomorrow morning</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/VMkVnRax7Zg/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/09/wake-up-code-amp-coffee-tomorrow-morning/#comments</comments>
+		<pubDate>Mon, 21 Sep 2009 17:39:47 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Community]]></category>
+
+		<guid isPermaLink="false">/blogs/ryanc/archive/2009/09/21/wake-up-code-amp-coffee-tomorrow-morning.aspx</guid>
+		<description>Fellow SDS’er @derekhubbard and his buddy @cschroll have been hosting a weekly Tuesday morning Code &amp;#38; Coffee gathering at Caribou Coffee at The Greene in Kettering, OH.&amp;#160; Tomorrow, Sept 22nd at 7:15am, we continue the SOLID principles.&amp;#160; It’s a great way to start your day, so come by if you can make it.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=VMkVnRax7Zg:SErZO8m20hA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=VMkVnRax7Zg:SErZO8m20hA:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=VMkVnRax7Zg:SErZO8m20hA:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=VMkVnRax7Zg:SErZO8m20hA:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=VMkVnRax7Zg:SErZO8m20hA:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/VMkVnRax7Zg" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/09/wake-up-code-amp-coffee-tomorrow-morning/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/09/wake-up-code-amp-coffee-tomorrow-morning/</feedburner:origLink></item>
+		<item>
+		<title>Injecting a WCF Channel as Dependency via Windsor</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/3xHDBz87XuY/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/08/injecting-a-wcf-channel-as-dependency-via-windsor/#comments</comments>
+		<pubDate>Tue, 18 Aug 2009 15:45:41 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[WCF]]></category>
+		<category><![CDATA[Windsor]]></category>
+
+		<guid isPermaLink="false">/blogs/ryanc/archive/2009/08/18/injecting-a-wcf-channel-as-dependency-via-windsor.aspx</guid>
+		<description>When working within a closed system which uses WCF and an IoC container you will often find the following pattern:
+ 
+&amp;#160;
+What happens is the SomeAppService is often, but not always, a very thin wrapper over the WCF Service.&amp;#160; If you own both ends of this scenario its often nice to remove the WCF layer between.&amp;#160; [...]&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=3xHDBz87XuY:ERaD-kkaEfM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=3xHDBz87XuY:ERaD-kkaEfM:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=3xHDBz87XuY:ERaD-kkaEfM:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=3xHDBz87XuY:ERaD-kkaEfM:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=3xHDBz87XuY:ERaD-kkaEfM:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/3xHDBz87XuY" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/08/injecting-a-wcf-channel-as-dependency-via-windsor/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/08/injecting-a-wcf-channel-as-dependency-via-windsor/</feedburner:origLink></item>
+		<item>
+		<title>1 reason to stick with Windows Virtual PC</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/OTgk32Qb63M/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/07/1-reason-to-stick-with-windows-virtual-pc/#comments</comments>
+		<pubDate>Fri, 10 Jul 2009 01:27:28 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[OS]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Powershell]]></category>
+		<category><![CDATA[Virtual PC]]></category>
+
+		<guid isPermaLink="false">/blogs/ryanc/archive/2009/07/09/1-reason-to-stick-with-windows-virtual-pc.aspx</guid>
+		<description>For those who aren’t aware, Windows 7 (which I absolutely love) has the ability to mount and run native Virtual PC VHD’s.&amp;#160; This is huge, but it isn’t exactly a cake walk.&amp;#160; That is until now!&amp;#160; DevHawk has provided a PowerShell script to make life beautiful.&amp;#160; Never complain about your Virtual machine performance again… get [...]&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=OTgk32Qb63M:jil1vXD5Uaw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=OTgk32Qb63M:jil1vXD5Uaw:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=OTgk32Qb63M:jil1vXD5Uaw:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=OTgk32Qb63M:jil1vXD5Uaw:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=OTgk32Qb63M:jil1vXD5Uaw:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/OTgk32Qb63M" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/07/1-reason-to-stick-with-windows-virtual-pc/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/07/1-reason-to-stick-with-windows-virtual-pc/</feedburner:origLink></item>
+		<item>
+		<title>Property Undo/Redo Support</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/hStFeOxcQOo/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/07/property-undo-redo-support/#comments</comments>
+		<pubDate>Sat, 04 Jul 2009 19:06:03 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[.Net]]></category>
+		<category><![CDATA[Code]]></category>
+		<category><![CDATA[WPF]]></category>
+
+		<guid isPermaLink="false">/blogs/ryanc/archive/2009/07/04/property-undo-redo-support.aspx</guid>
+		<description>Undo/Redo support is one of those golden features that really differentiate a client app from many web apps.&amp;#160; There have been a number of methods/techniques to provide this support that I’ve run across from brute force, to the memento pattern, but none that lit any fire for me.
+Here’s my answer to the problem using Anonymous [...]&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=hStFeOxcQOo:CBOHilS-f1A:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=hStFeOxcQOo:CBOHilS-f1A:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=hStFeOxcQOo:CBOHilS-f1A:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=hStFeOxcQOo:CBOHilS-f1A:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=hStFeOxcQOo:CBOHilS-f1A:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/hStFeOxcQOo" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/07/property-undo-redo-support/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/07/property-undo-redo-support/</feedburner:origLink></item>
+		<item>
+		<title>Cin-Day Nerd Dinner Reminder</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/Sb37NJ3I7Fo/</link>
+		<comments>http://blog.cromwellhaus.com/index.php/2009/04/cin-day-nerd-dinner-reminder/#comments</comments>
+		<pubDate>Thu, 02 Apr 2009 01:50:27 +0000</pubDate>
+		<dc:creator>ryan</dc:creator>
+				<category><![CDATA[Nerd Dinner]]></category>
+
+		<guid isPermaLink="false">/blogs/ryanc/archive/2009/04/01/cin-day-nerd-dinner-reminder.aspx</guid>
+		<description>This is just a quick reminder that tomorrow (April 2nd) we will be having our first Cin-Day Nerd Dinner.&amp;#160; If you are planning on coming, but haven’t RSVP’ed please do so here so that I can warn Dewey’s Pizza in West Chester of the raucous crowd to be expected.&amp;#160; Can’t wait to see everyone.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Sb37NJ3I7Fo:m3wK6r08Lo0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Sb37NJ3I7Fo:m3wK6r08Lo0:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Sb37NJ3I7Fo:m3wK6r08Lo0:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Sb37NJ3I7Fo:m3wK6r08Lo0:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Sb37NJ3I7Fo:m3wK6r08Lo0:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/Sb37NJ3I7Fo" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.cromwellhaus.com/index.php/2009/04/cin-day-nerd-dinner-reminder/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/index.php/2009/04/cin-day-nerd-dinner-reminder/</feedburner:origLink></item>
+	</channel>
+</rss>

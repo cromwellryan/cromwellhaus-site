@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Visual Studio 2012 Quick Launch is Awesome! &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://cromwellhaus.com/wp-content/themes/arclite-old/favicon.ico" />
+
+
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-4332588-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<style type="text/css">
+@import "http://cromwellhaus.com/wp-content/themes/arclite-old/style.css";
+@import "http://cromwellhaus.com/wp-content/themes/arclite-old/options/side-green.css";
+@import "http://cromwellhaus.com/wp-content/themes/arclite-old/options/content-default.css";
+@import "http://cromwellhaus.com/wp-content/themes/arclite-old/options/header-default.css";
+.post p.post-date,.post p.post-author{display:none;}
+.block-content{width:960px;max-width:960px;}
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://cromwellhaus.com/wp-content/themes/arclite-old/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Visual Studio 2012 Quick Launch is Awesome! Comments Feed" href="http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/feed/" />
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Beyond the Agile Programmer: Innovative Teams' href='http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/' />
+<link rel='next' title='Feature Focused Javascript Apps' href='http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/' />
+<meta name="generator" content="WordPress 3.5.1" />
+<link rel='canonical' href='http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/' />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=1205' />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://cromwellhaus.com/about/"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://cromwellhaus.com/presentations/"><span>Presentations</span></a></li>
+<li class="page_item page-item-1347"><a class="fadeThis" href="http://cromwellhaus.com/events/"><span>Upcoming Events</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/" rel="prev">Beyond the Agile Programmer: Innovative Teams</a></div>
+          <div class="alignright"><a href="http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/" rel="next">Feature Focused Javascript Apps</a> &raquo;</div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-1205" class="post-1205 post type-post status-publish format-standard hentry category-uncategorized tag-code">
+           <h2 class="post-title">Visual Studio 2012 Quick Launch is Awesome!</h2>
+              <div class="post-content clearfix">
+    	       <p>Those who know have coded with me have felt the soul crushing comments whenever they touch a mouse.&#160; It. Must. Die.&#160; For coders at least.&#160; Visual Studio hasn’t always made that easy.&#160; Visual Studio 2012 is here to help with the new Quick Launch feature. (<a href="https://login.live.com/login.srf?wa=wsignin1.0&amp;wtrealm=visualstudiogallery.msdn.microsoft.com&amp;wreply=https%3a%2f%2fvisualstudiogallery.msdn.microsoft.com%2f59ca71b3-a4a3-46ca-8fe1-0e90e3f79329%3fstoAI%3d10&amp;wp=MBI_FED_SSL&amp;wlcxt=microsoft%24microsoft%24microsoft" target="_blank">VsVim</a> will help too, but in due time).</p>
+<p>Quick Launch is found in what used to be the window chrome.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb.png" width="644" height="413" /></a></p>
+<p>Stop that!&#160; Don’t go mousing up there just yet.&#160; It quite blaringly asks you to hit CTRL+Q.&#160; Just do it.&#160; Now type ‘Keyboard’</p>
+<p>Holy frick!&#160; It took us into a section of the Tools –&gt; Options dialog.&#160; That’s a deep link if ever one existed.<a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image1.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb1.png" width="644" height="262" /></a></p>
+<p>&#160;</p>
+<p><strong>Open to all comers</strong></p>
+<p>What if we search for ‘gist’?</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image2.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb2.png" width="644" height="165" /></a></p>
+<p>Yeah, that’s my <a href="visualstudiogallery.msdn.microsoft.com/b31916b0-c026-4c27-9d6b-ba831093f6b2" target="_blank">Gister</a> VS Extension.&#160; I didn’t have to do anything to play in the sandbox.&#160; Resharper refactorings, TestDriven.Net, and Telerik’s tools all show up side-by-side commands like the new backed in Continuous Test Runner.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image3.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb3.png" width="244" height="217" /></a></p>
+<p><strong>Make your own keyboard combos</strong></p>
+<p>Also notice that the respective keyboard combos are called out clearly.&#160; If you find yourself using Quick Launch often for the same command, setup a specific shortcut. </p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image4.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb4.png" width="644" height="168" /></a></p>
+<p>&#160;</p>
+<p>Note that Quick Launch is context sensitive.&#160; Commands that are not available (i.e. Resharper Rename refactoring in a non-code file) will not appear in the search. </p>
+              </div>
+                                          <p class="tags"> Tags: <a href="http://cromwellhaus.com/tag/code/" rel="tag">Code</a></p>
+              <div class="clear"></div>
+                            <p class="post-metadata">
+                    This entry was posted on June 22, 2012, 3:20 pm and is filed under <a href="http://cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>. You can follow any responses to this entry through <a href="http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/';
+    var disqus_identifier = '1205 http://cromwellhaus.com/?p=1205';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cromwellhaus';
+    var disqus_title = "Visual Studio 2012 Quick Launch is Awesome!";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=1205';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/cromwellhaus.com\/2012\/06\/visual-studio-2012-quick-launch-is-awesome\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+          
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 20 queries. 0.657 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2013-06-01 14:09:21 by W3 Total Cache -->

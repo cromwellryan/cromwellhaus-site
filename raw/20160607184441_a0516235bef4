@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Ryan Cromwell</title>
+	<atom:link href="http://cromwellhaus.com/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cromwellhaus.com</link>
+	<description>Big vision. Small changes.  Learn by shipping.</description>
+	<lastBuildDate>Fri, 29 Jan 2016 19:32:14 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.4.3</generator>
+	<item>
+		<title>#startYourShift How to Make the Web Better</title>
+		<link>http://cromwellhaus.com/2016/01/startyourshift-how-to-make-the-web-better/</link>
+		<comments>http://cromwellhaus.com/2016/01/startyourshift-how-to-make-the-web-better/#respond</comments>
+		<pubDate>Fri, 29 Jan 2016 19:06:35 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1538</guid>
+		<description><![CDATA[My contribution to theShift: a writing project designed to help us produce and consume unique perspectives on topics relevant to the web industry. A little over 2 years ago I joined Sparkbox. The focus on community, learning, and teaching were all contributors to that decision. Today we have 4 apprentices (Cat, Bennett, Brittany, &#8230;]]></description>
+				<content:encoded><![CDATA[<p>My contribution to <a href="https://twitter.com/startYourShift">theShift:</a> a writing project designed to help us produce and consume unique perspectives on topics relevant to the web industry.</p>
+<p><a href="https://twitter.com/hashtag/startYourShift"><img class="alignnone" src="https://www.dropbox.com/sh/pkm6qnumqwc73qo/AAAnPxEhE0r-D7yjIK3QQs4Ja/post-image_The-Shift_gray.jpg?raw=1" alt="a writing project designed to help us produce and consume unique perspectives on topics relevant to the web industry." width="798" height="525" /></a></p>
+<p>A little over 2 years ago I joined Sparkbox. The focus on community, learning, and teaching were all contributors to <a href="http://cromwellhaus.com/2013/10/hello-sparkbox/">that decision</a>. Today we have 4 apprentices (Cat, Bennett, Brittany, and Nate) sitting among our team, double the <a href="http://apprentices.seesparkbox.com#version-3">2014 cohort</a> and 1 more <a href="http://apprentices.seesparkbox.com#version-4">than 2015</a>. <a href="http://buildright.io/maker-series/">Build Right: Maker Series</a> is looking to broaden our horizons by looking beyond HTML, CSS, and even tech to talk about <a href="http://buildright.io/maker-series/2016/sara-chipps">wearables</a>, <a href="http://buildright.io/maker-series/2016/jason-harrison">physical health</a>, and <a href="http://buildright.io/maker-series/2016/jenn-lukas">getting things done</a>.</p>
+<p>At home, we ask of our 4 awesome kids to learn an instrument, play a sport, write books or comics, and learn the skills of Scouts. They fight us all the time, but we know that breadth and awareness is as much an ingredient to success as depth.</p>
+<p>Personally, I&#8217;ve found myself this last year &#8220;without the time&#8221; to explore things beyond my comfort zone. I&#8217;ve not shipped a personal project in over a year. This is my first personal blog post since <em>2014! </em>I&#8217;ve found a rut.</p>
+<p>The Web is a reflection of those building it &#8211; after all The Web is a collection rather than a singular item. As a matter of building a better web, I&#8217;d like to once again make the time to <a href="http://cromwellhaus.com/2012/01/expand-your-normal/">expand my normal</a> by looking outside the web.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2016/01/startyourshift-how-to-make-the-web-better/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Find Contact Shortcut in Skype for Mac</title>
+		<link>http://cromwellhaus.com/2013/11/find-contact-shortcut-in-skype-for-mac/</link>
+		<comments>http://cromwellhaus.com/2013/11/find-contact-shortcut-in-skype-for-mac/#comments</comments>
+		<pubDate>Tue, 26 Nov 2013 16:35:39 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1507</guid>
+		<description><![CDATA[It&#8217;s well understood that Skype does not advocate usability, but I won&#8217;t take it anymore.  They have some shortcuts, but they&#8217;re pretty pitiful. I&#8217;m a left hand dominant shortcut-er.  Say what you will about me, but I can&#8217;t make my fingers use CMD+OPTION+F for finding a contact to start a new conversation. &#8230;]]></description>
+				<content:encoded><![CDATA[<p>It&#8217;s well understood that Skype does not advocate usability, but I won&#8217;t take it anymore.  They have <a href="https://support.skype.com/en/faq/FA12074/what-keyboard-shortcuts-can-i-use-with-skype-for-mac-os-x?&amp;site_preference=normal">some shortcuts</a>, but they&#8217;re pretty pitiful.</p>
+<p>I&#8217;m a left hand dominant shortcut-er.  Say what you will about me, but I can&#8217;t make my fingers use <code>CMD+OPTION+F</code> for finding a contact to start a new conversation.  So I created the following shortcut.<br />
+<a href="http://cromwellhaus.com/wp-content/uploads/2013/11/2013-11-26_11-28-45.png"><img class=" wp-image-1508 alignleft" alt="mac-skype-find-shortcut" src="http://cromwellhaus.com/wp-content/uploads/2013/11/2013-11-26_11-28-45.png" width="668" height="598" srcset="http://cromwellhaus.com/wp-content/uploads/2013/11/2013-11-26_11-28-45-300x268.png 300w, http://cromwellhaus.com/wp-content/uploads/2013/11/2013-11-26_11-28-45.png 668w" sizes="(max-width: 668px) 100vw, 668px" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/11/find-contact-shortcut-in-skype-for-mac/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Hello Sparkbox!</title>
+		<link>http://cromwellhaus.com/2013/10/hello-sparkbox/</link>
+		<comments>http://cromwellhaus.com/2013/10/hello-sparkbox/#comments</comments>
+		<pubDate>Wed, 30 Oct 2013 20:32:46 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1496</guid>
+		<description><![CDATA[Back when I started Cincy Clean Coders, it felt like the Dayton community was nearly nonexistent.  It seemed like I needed to head down to the big city to attract a community of Clean Coders. Fast forward 2 years&#8230; the Cincy group has stopped meeting, Dayton Clean Coders is going &#8230;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/10/logo-buildright-dark.png"><img class="alignright size-full wp-image-1500" alt="sb-logo-buildright-dark" src="http://cromwellhaus.com/wp-content/uploads/2013/10/logo-buildright-dark.png" width="294" height="300" /></a>Back when <a title="Cincy Clean Coders – Code You Can Show Your Friends" href="http://cromwellhaus.com/2011/03/cincy-clean-coders-code-you-can-show-your-friends/">I started Cincy Clean Coders</a>, it felt like the Dayton community was nearly nonexistent.  It seemed like I needed to head down to the big city to attract a community of Clean Coders.</p>
+<p>Fast forward 2 years&#8230; the Cincy group has stopped meeting, <a title="Dayton Clean Coders" href="http://daytoncleancoders.com">Dayton Clean Coders</a> is going strong (with <a href="http://content.screencast.com/users/cromwellryan/folders/Snagit/media/fe56c6ba-1631-427c-acd6-bd5ef4f03c42/10.30.2013-15.19.png">a bad-ass logo</a>), an <a title="Elixir" href="http://elixir-lang.org">Elixir </a>Group is forming, and <a title="GemCityJS" href="http://gemcityjs.com/">GemCityJS</a> is growing.  There&#8217;s <a href="http://dayton.buildguild.org/">Build Guild</a> and others as well.  The Dayton tech scene is thriving!</p>
+<p>It turns out the people at the center of making much of this happen are also doing great things for the web at <a title="SparkBox" href="http://seesparkbox.com/">Sparkbox</a> by leading the world in responsive web design.</p>
+<p>Starting next week I&#8217;m excited to join the awesome Sparkbox team, focusing hard on making the web and Dayton community an even more amazing place!</p>
+<p>Between the platform shift to open source, Ruby, Rails, etc. and the challenge of working with some of the most passion devs I&#8217;ve met, this looks to be an exciting challenge just to keep up!</p>
+<h4>Microsoft ALM &amp; MVP Community</h4>
+<p>This move likely means stepping away from the Microsoft ALM &amp; MVP community.  These have been some of the most passionate and hard working people I&#8217;ve met.  They give an immense amount of their time towards helping build great software.</p>
+<p>While TFS has it&#8217;s fair share of critics, they&#8217;re moving in <a title="Git Init VS" href="http://blogs.msdn.com/b/bharry/archive/2013/01/30/git-init-vs.aspx">a great direction</a>, <a title="TFS Shipping Cadence" href="http://blogs.msdn.com/b/bharry/archive/2012/08/28/tfs-shipping-cadence.aspx">fast</a>. And with a leader like Brian Harry making comments like this in private email lists&#8230;</p>
+<blockquote><p>I’m not horribly worried about being copied.  <span style="text-decoration: underline;">If we can make the whole world provide better services, I’m happy</span>.</p></blockquote>
+<p>&nbsp;</p>
+<p>&#8230;I have no doubt that set of tools will be in a great place in the coming years.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/10/hello-sparkbox/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Triangle Kata in Elixir using Erlang processes for Parallel Maps</title>
+		<link>http://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/</link>
+		<comments>http://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/#respond</comments>
+		<pubDate>Wed, 17 Jul 2013 21:57:30 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[elixir]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1423</guid>
+		<description><![CDATA[Last time I described my setup for learning Elixir, the language built on top of Erlang with a Ruby bent.  Today I wanted to get a hang of processes and mailboxes which are so important to both languages.  To do this I chose the Triangle Kata as my background story. &#8230;]]></description>
+				<content:encoded><![CDATA[<p>Last time I described <a href="http://cromwellhaus.com/2013/07/my-learning-elixir-erlang-setup/" title="My Learning Elixir (erlang) Setup">my setup for learning Elixir</a>, the language built on top of Erlang with a Ruby bent.  Today I wanted to get a hang of processes and mailboxes which are so important to both languages.  To do this I chose the Triangle Kata as my background story.  <a href="https://gist.github.com/cromwellryan/6024862">Take a look</a>:</p>
+<p><script src="https://gist.github.com/cromwellryan/6024862.js"></script></p>
+<p><strong>Update:</strong> You might wonder what that <code>slow</code> function is all about.  I added that in there to clarify the parallelism.  You would expect the slowest classifications to appears at the end of the resultant list.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>My Learning Elixir (erlang) Setup</title>
+		<link>http://cromwellhaus.com/2013/07/my-learning-elixir-erlang-setup/</link>
+		<comments>http://cromwellhaus.com/2013/07/my-learning-elixir-erlang-setup/#respond</comments>
+		<pubDate>Thu, 04 Jul 2013 12:48:44 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1412</guid>
+		<description><![CDATA[The last Dayton Clean Coders meeting spiked my squirrel sense as Chris McCord and Matt Sears of our awesome host Little Lines talked about their excitement for Elixir. Of course, I&#8217;ve hung my several dozen half baked projects up for the moment as I scratch that itch. Elixir is a &#8230;]]></description>
+				<content:encoded><![CDATA[<p>The last <a title="Dayton Clean Coders" href="http://daytoncleancoders.com" target="_blank">Dayton Clean Coders</a> meeting spiked my squirrel sense as <a title="Chris McCord on Twitter" href="http://twitter.com/chris_mccord" target="_blank">Chris McCord</a> and <a title="Matt Sears on Twitter" href="http://twitter.com/mattsears" target="_blank">Matt Sears</a> of our awesome host <a title="Little Lines" href="http://littlelines.com" target="_blank">Little Lines</a> talked about their excitement for <a title="Elixir Language on Erlang" href="http://elixir-lang.org" target="_blank">Elixir</a>. Of course, I&#8217;ve hung my several dozen half baked projects up for the moment as I scratch that itch.</p>
+<p>Elixir is a Ruby inspired language that compiles down to Erlang bitcode. You can fall back to any Erlang library and many of the syntaxes, but the language is crazy easy to pick up if you&#8217;ve tried any of the other Ruby inspired languages like Coffeescript.</p>
+<p>Here&#8217;s my setup for walking through the <a title="Elixir Getting Started" href="http://elixir-lang.org/getting_started/1.html" target="_blank">Elixir Getting Started</a>:</p>
+<ol>
+<li>vim with my <a title="My Vim configuration" href="http://github.com/cromwellryan/vim-config" target="_blank">vim-config</a></li>
+<li>iex, interactive elixir will load compiled elixir modules found in the same directory. This means I can put bigger functions, modules, protocols, etc. into *.ex files and then explore and play with them using iex.  You need to run
+<pre>r(ModuleName)</pre>
+<p> to reload after compiles.</li>
+<li>Guard running this <a title="Guardfile for elixirc" href="https://gist.github.com/cromwellryan/5924636" target="_blank">Guardfile</a> for automatically compiling the *.ex files.</li>
+</ol>
+<figure id="attachment_1414" style="width: 605px" class="wp-caption alignnone"><a href="http://cromwellhaus.com/wp-content/uploads/2013/07/2013-07-04_08-30-09.png"><img class="wp-image-1414 " alt="vim + iex + guard = flatting the curve" src="http://cromwellhaus.com/wp-content/uploads/2013/07/2013-07-04_08-30-09.png" width="605" height="368" srcset="http://cromwellhaus.com/wp-content/uploads/2013/07/2013-07-04_08-30-09-300x182.png 300w, http://cromwellhaus.com/wp-content/uploads/2013/07/2013-07-04_08-30-09-1024x623.png 1024w, http://cromwellhaus.com/wp-content/uploads/2013/07/2013-07-04_08-30-09.png 1440w" sizes="(max-width: 605px) 100vw, 605px" /></a><figcaption class="wp-caption-text">vim + iex + guard = flatting the curve</figcaption></figure>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/07/my-learning-elixir-erlang-setup/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Moving Blob Storage Between Azure Subscriptions</title>
+		<link>http://cromwellhaus.com/2013/04/moving-blob-storage-between-azure-subscriptions/</link>
+		<comments>http://cromwellhaus.com/2013/04/moving-blob-storage-between-azure-subscriptions/#comments</comments>
+		<pubDate>Wed, 10 Apr 2013 15:07:24 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1400</guid>
+		<description><![CDATA[We recently had some delays getting some Azure accounts coordinated for a client and chose to use a team subscription instead.  After some work, the delays were resolved and we had the client managed subscription in place. The work done using the team subscription included uploading many gigabytes of sysprepped &#8230;]]></description>
+				<content:encoded><![CDATA[<p>We recently had some delays getting some Azure accounts coordinated for a client and chose to use a team subscription instead.  After some work, the delays were resolved and we had the client managed subscription in place.</p>
+<p>The work done using the team subscription included uploading many gigabytes of sysprepped Virtual Machine images that would stand as the template for scaling up a set of services.  Once the client subscription was in place, we knew we would need to move the images over.</p>
+<p>We were a little concerned that moving between subscriptions would take a long time.  Moving between containers isn’t hard, but could you rely on the same mechanism to move between subscriptions?  Turns out the answer is yes if you make the blob or container public during the move.</p>
+<p>After you pull in your Azure Subscription into PowerShell (we used Import-AzurePublishSettingsFile) you can do this pretty easily.</p>
+<p>Here’s an example of the Posh to do this with a public to private blob using the Azure <a href="https://www.windowsazure.com/en-us/downloads/?fb=en-us">PowerShell Cmdlets</a>:</p>
+<p>&nbsp;</p>
+<p><script src="https://gist.github.com/cromwellryan/a71495c26dba924047b3.js"></script></p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/04/moving-blob-storage-between-azure-subscriptions/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Release Cadence: You&#8217;re Not Agile If You&#8217;re Not Shipping</title>
+		<link>http://cromwellhaus.com/2013/03/release-cadence-youre-not-agile-if-youre-not-shipping/</link>
+		<comments>http://cromwellhaus.com/2013/03/release-cadence-youre-not-agile-if-youre-not-shipping/#respond</comments>
+		<pubDate>Fri, 08 Mar 2013 14:15:00 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Agile]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1395</guid>
+		<description><![CDATA[I’ve spent the last 3 years exploring the in’s and out’s of different Agile frameworks and methodologies.  I’ve worked with large commercial firms, government contractors, and small ISVs to adopt one set of Agile practices or another. In the beginning things are generally amazing.  There’s a new level of transparency, &#8230;]]></description>
+				<content:encoded><![CDATA[<p>I’ve spent the last 3 years exploring the in’s and out’s of different Agile frameworks and methodologies.  I’ve worked with large commercial firms, government contractors, and small ISVs to adopt one set of Agile practices or another.</p>
+<p>In the beginning things are generally amazing.  There’s a new level of transparency, excitement and shared motivation.  At some point, though, the question always comes up: Are we ready to ship?</p>
+<p>This is the moment where organizations either head down the Scrum-erfall path or learn what Agile was meant to be:</p>
+<blockquote><p>…satisfy the customer<br />
+through early and continuous delivery<br />
+of valuable software.</p></blockquote>
+<p><strong>The Path to </strong><a href="http://scrum.org"><strong>Scrum</strong></a><strong>-erfall</strong></p>
+<p>Unfortunately, too many organizations have taken hold of the rules and ceremonies of Kanban, Scrum, XP, and the rest, but ignore these <a href="http://agilemanifesto.org/principles.html" target="_blank">two principles</a>:</p>
+<ul>
+<li>Working software is the primary measure of progress.</li>
+<li>Deliver working software frequently, from a couple of weeks to a couple of months, with a<br />
+preference to the shorter timescale.</li>
+</ul>
+<p><strong>Does Shipping Heal All Wounds?</strong></p>
+<p>On March 4th, I opened what I hope will replace the State of Agile report: <a href="http://releasecadencereport.com/" target="_blank">Release Cadence Report</a>.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/03/logo-vertical.png"><img style="background-image: none; float: right; padding-top: 0px; padding-left: 0px; margin: 4px 10px; display: inline; padding-right: 0px; border: 0px;" title="logo-vertical" alt="logo-vertical" src="http://cromwellhaus.com/wp-content/uploads/2013/03/logo-vertical_thumb.png" width="240" height="145" align="right" border="0" /></a>This survey and publication was created to refocus our industries attention back on shipping software frequently to the delight and benefit of our customers, team members, and companies.  It is an attempt to relieve our software developers of ineffective anecdotal stories of Facebook and Flickr shipping dozens of times per day.  Instead I want you to have the evidence to take to leaders in your organization so that you can have a serious conversation about the implications of release cadence.</p>
+<p>Please take 10 minutes and complete this survey and you will receive an early copy of the report.</p>
+<p align="left"><a href="http://releasecadencereport.com/survey/" target="_blank"><span style="font-size: large;">Take the Survey</span></a></p>
+<p>You can also get yourself or your organization listed as being part of this movement by referring your coworkers, peers, friend.  <a href="http://releasecadencereport.com/partnerships/" target="_blank">Sign up here</a> and be a part of bringing shipping back to Agile.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/03/release-cadence-youre-not-agile-if-youre-not-shipping/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Creating an Offline Web Platform Installer for Service Bus 1.0</title>
+		<link>http://cromwellhaus.com/2013/01/creating-an-offline-web-platform-installer-for-service-bus-1-0/</link>
+		<comments>http://cromwellhaus.com/2013/01/creating-an-offline-web-platform-installer-for-service-bus-1-0/#comments</comments>
+		<pubDate>Wed, 02 Jan 2013 21:45:44 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1386</guid>
+		<description><![CDATA[One of my clients is evaluating a number of Service Bus tools.&#160; One of those includes the Azure Service Bus which is now available for on-premise deployment. Service Bus 1.0 is available only through Web Platform Installer at this time and it’s not readily apparent how you might use WPI &#8230;]]></description>
+				<content:encoded><![CDATA[<p>One of my clients is evaluating a number of Service Bus tools.&#160; One of those includes the Azure Service Bus which is now available for on-premise deployment.</p>
+<p>Service Bus 1.0 is available only through Web Platform Installer at this time and it’s not readily apparent how you might use WPI for a network isolated environment.&#160; Hopefully this will help:</p>
+<h4>WebpiCmd.exe to find the Service Bus AppId</h4>
+<p>Web Platform Installer comes with a command line tool called <a href="http://www.iis.net/learn/install/web-platform-installer/web-platform-installer-v4-command-line-webpicmdexe-preview-release_1072" target="_blank">WebpiCmd.exe</a>.&#160; With it you can list and install packages.&#160; You can also create an offline WPI feed which is what we’ll do.</p>
+<p>To list available products at the default Microsoft feed:</p>
+<blockquote><p>webpicmd /List /ListOption:Available</p>
+</blockquote>
+<p>Somewhere in that mess is Service Bus 1.0 and it’s AppId which we’ll need to create a private, offline cache of the product and it’s dependencies.&#160; I’m using <a href="http://sourceforge.net/projects/console/" target="_blank">Console2 with a PowerShell tab</a> so I can do this:</p>
+<blockquote><p>webpicmd /List /ListOption:Available | ? { $_.Contains(“Service Bus”) }</p>
+</blockquote>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/01/image.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2013/01/image_thumb.png" width="644" height="147" /></a></p>
+<p>Since WebpiCmd is just writing dumb lines of text, I can’t interrogate the Product attributes, so I’m using the <a href="http://technet.microsoft.com/en-us/library/ee177028.aspx" target="_blank">where-object</a>, aliased to ?, to see which line contains the string “Service Bus”.&#160; WebPI really should be a better PS citizen.</p>
+<h4>Creating an Offline Feed</h4>
+<p>WPI works against feeds, so we’re going to create our own feed just for this product.&#160; You might maintain a growing list of products in this feed, but that’s beyond this post.&#160; To create your offline feed we’ll use the (drum roll) /Offline option:</p>
+<blockquote><p>WebpiCmd.exe /offline /Products:ServiceBusBeta /Path:C:\wpi-offline</p>
+</blockquote>
+<p>NOTE: The Service Bus 1.0 entry in WPI seems like it has a problem with the App Fabric dependency.&#160; I’m told that’s fixed now.</p>
+<h4>Installing from the Offline Feed</h4>
+<p>Once everything is resolved and downloaded, you can use it with WPI GUI or WebpiCmd.exe.&#160; </p>
+<p>You can not automate-all-the-things with:</p>
+<blockquote><p>webpicmd /install /Products:ServiceBus /xml:c:\wpi-offline\feeds\latest\webproductlist.xml</p>
+</blockquote>
+<p>&#160;</p>
+<p>Or do the GUI thing by checking out WPI options:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/01/image1.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2013/01/image_thumb1.png" width="644" height="440" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/01/creating-an-offline-web-platform-installer-for-service-bus-1-0/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Adaptive Problems Require Responding to Change Over Following a Plan</title>
+		<link>http://cromwellhaus.com/2012/10/adaptive-problems-require-responding-to-change-over-following-a-plan/</link>
+		<comments>http://cromwellhaus.com/2012/10/adaptive-problems-require-responding-to-change-over-following-a-plan/#comments</comments>
+		<pubDate>Mon, 22 Oct 2012 18:28:43 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Agile]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1364</guid>
+		<description><![CDATA[Feedback was recently posed on the Scrum.org community forums regarding the Webster-ish definition provided for Scrum by Ken and Jeff.  If you don’t recall from the Scrum Guide, the Scrum Overview definition reads: Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest &#8230;]]></description>
+				<content:encoded><![CDATA[<p><a href="https://www.scrum.org/tabid/96/aft/191/" target="_blank">Feedback was recently posed</a> on the <a href="http://scrum.org" target="_blank">Scrum.org</a> community forums regarding the Webster-ish definition provided for Scrum by Ken and Jeff.  If you don’t recall from the <a href="https://www.scrum.org/Scrum-Guides" target="_blank">Scrum Guide</a>, the Scrum Overview definition reads:</p>
+<blockquote><p>Scrum (n): A framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.</p></blockquote>
+<p>Mario Čop, in his <a href="https://www.scrum.org/tabid/96/aft/191/" target="_blank">feedback</a>, suggests problems cannot be <em>adaptive.</em>  He provides some definitions of his own to remove the subjective influences around the words “adapt”, “adaptive” and “problem.”  In the end, Mario says:</p>
+<blockquote><p>I&#8217;d say that the process of solving problems can be adaptive. When solving problems you can have adaptive approach and adaptive execution of it, but it makes no sense saying that problems itself are adaptive.</p></blockquote>
+<p>Whether successfully conveyed or not, the intent is that complex problems are not always clearly understood.  As we approach and attempt to solve a complex problem, our understanding of that problem becomes clearer.  What this means is that as we examine a problem, our understanding of it adapts.  In this way we must reevaluate both the problem and the solution.  Continuous planning allows for this dynamic where a plan alone constrains learning.</p>
+<p>Scrum&#8217;s Sprint, <a href="http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/">as I&#8217;ve said before</a>, provides a balance between space for creative problem solving and focused decision making.  The outcome of a sprint allows us to reevaluate our understanding of the problem space and whether we are taking the product and organization in the appropriate direction.  Here we see how we can utilize the Scrum framework to embody the <a href="http://agilemanifesto.org/" target="_blank">Agile value</a> of <em>Responding to change over following a plan.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/10/adaptive-problems-require-responding-to-change-over-following-a-plan/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Scrum Fundamentals Recording Available</title>
+		<link>http://cromwellhaus.com/2012/09/scrum-fundamentals-recording-available/</link>
+		<comments>http://cromwellhaus.com/2012/09/scrum-fundamentals-recording-available/#comments</comments>
+		<pubDate>Thu, 27 Sep 2012 19:06:07 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Agile]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1357</guid>
+		<description><![CDATA[Leading up to an open enrollment Professional Scrum Foundations on October 10th, I gave a 1 hour lunch webinar on the fundamentals of Agile and Scrum.  I’ve just published this out on Youtube for anyone to watch.  Let me know what you think. &#160; &#160; tl;dr There is a lot &#8230;]]></description>
+				<content:encoded><![CDATA[<p>Leading up to an open enrollment <a href="http://courses.scrum.org/classes/show/804" target="_blank">Professional Scrum Foundations</a> on October 10th, I gave a 1 hour lunch webinar on the fundamentals of Agile and <a href="http://scrum.org">Scrum</a>.  I’ve just <a href="http://www.youtube.com/watch?v=icudcQN79lg&amp;feature=youtu.be" target="_blank">published this out on Youtube</a> for anyone to watch.  Let me know what you think.</p>
+<p>&nbsp;</p>
+<div id="scid:5737277B-5D6D-4f48-ABFC-DD9C333F4C5D:2f836365-d7d0-4e4e-b90d-12daa8a69934" class="wlWriterEditableSmartContent" style="margin: 0px auto; width: 448px; display: block; float: none; padding: 0px;">
+<div><object width="448" height="252" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/icudcQN79lg?hl=en&amp;hd=1" /><embed width="448" height="252" type="application/x-shockwave-flash" src="http://www.youtube.com/v/icudcQN79lg?hl=en&amp;hd=1" /></object></div>
+</div>
+<p>&nbsp;</p>
+<p><strong>tl;dr</strong></p>
+<p>There is a lot of misinformation out there that comes with a strong movement like Agile. It’s been coopted by some, but the vast majority see these opportunities as a way to make sure the 8 hours they spend away from their families is <a href="http://cromwellhaus.com/2011/12/full-speed-ahead/" target="_blank">spent wisely</a>. <a href="https://twitter.com/cromwellryan/status/217687590692864000" target="_blank">That’s where I fit in.</a></p>
+<p>With that in mind, I believe very much that Scrum, like many things, can be used for both good and bad.  When used well, it provides a safe zone for sustainable, creative teamwork.  When used poorly, it sucks as bad if not worse than waterfall/ad-hoc.</p>
+<p>I don’t teach Scrum such that teams go back and simply use it to manage work.  Many don’t get beyond that, but in my courses, webinars, and conversations we talk about the human factors, theory, and sustainable practices that make Scrum work.  This is the legacy I want Deming, Scrum, Agility, and others to be remembered by.  Not <a href="http://jimhighsmith.com/2011/11/02/velocity-is-killing-agility/" target="_blank">velocity</a> and <a href="http://www.scrum.org/About/All-Articles/articleType/ArticleView/articleId/95/Commitment-vs-Forecast-A-subtle-but-important-change-to-Scrum" target="_blank">commitment</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/09/scrum-fundamentals-recording-available/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2016-06-07 14:44:42 by W3 Total Cache -->

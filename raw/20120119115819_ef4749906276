@@ -1,0 +1,425 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>March &laquo; 2009 &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.2 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview'],['_trackPageLoadTime']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.box .the-content { padding: 0px; }
+.br .the-content {align: center; }
+.box .tl, .box .tr, .box .wrapleft { background: none; }
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.1, fitted with the WordPress Mobile Pack 1.2.4" />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/"><span>Presentation Abstracts</span></a>
+<ul class='children'>
+	<li class="page_item page-item-909"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/missing-pieces-the-road-from-agile-enthusiast-to-agile-team-member/"><span>Missing Pieces: The Road from Agile Enthusiast to Agile Team Member</span></a></li>
+</ul>
+</li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+                                <h1 class="pagetitle">Archive for March, 2009</h1>
+        
+        
+        <!-- post -->
+        <div id="post-735" class="post-735 post type-post status-publish format-standard hentry category-languages">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/03/action-of-t-lambdas-in-vb/" rel="bookmark" title="Permanent Link: Action(Of T) Lambdas in VB">Action(Of T) Lambdas in VB</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">30</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/languages/" title="View all posts in Languages" rel="category tag">Languages</a> | <a href="http://blog.cromwellhaus.com/2009/03/action-of-t-lambdas-in-vb/#comments" class="comments"  title="Comment on Action(Of T) Lambdas in VB"><span class="dsq-postid" rel="735 /blogs/ryanc/archive/2009/03/30/action-of-t-lambdas-in-vb.aspx">1 Comment</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Until VB catches up with C# in the lambda support realm, here is how you can accomplish those Moq or Rhino.Mocks style verifications in VB: dim someSub as Action(Of double) = AddressOf mockObject.SomeSub Rhino.Mocks.Expect.Call( someSub) It’s very frustrating going from the full support in C# to VB, but I’m finding sufficient workaround for most items.&#160; [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-734" class="post-734 post type-post status-publish format-standard hentry category-performance category-software-reviews">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/03/outlook-2007-huge-performance-improvement/" rel="bookmark" title="Permanent Link: Outlook 2007 Huge Performance Improvement">Outlook 2007 Huge Performance Improvement</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">26</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/performance/" title="View all posts in Performance" rel="category tag">Performance</a>, <a href="http://blog.cromwellhaus.com/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a> | <a href="http://blog.cromwellhaus.com/2009/03/outlook-2007-huge-performance-improvement/#respond" class="comments"  title="Comment on Outlook 2007 Huge Performance Improvement"><span class="dsq-postid" rel="734 /blogs/ryanc/archive/2009/03/26/outlook-2007-huge-performance-improvement.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>If you use Outlook 2007 go get this hotfix (download here) now.&#160; It’s crazy faster after this update. &#160; Hurry!</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-733" class="post-733 post type-post status-publish format-standard hentry category-uncategorized">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/03/cin-day-nerd-dinner/" rel="bookmark" title="Permanent Link: Cin-Day Nerd Dinner">Cin-Day Nerd Dinner</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">15</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a> | <a href="http://blog.cromwellhaus.com/2009/03/cin-day-nerd-dinner/#comments" class="comments"  title="Comment on Cin-Day Nerd Dinner"><span class="dsq-postid" rel="733 /blogs/ryanc/archive/2009/03/15/cin-day-nerd-dinner.aspx">1 Comment</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>I’m jumping on the bandwagon and you’re all invited to follow.&nbsp; I’ve scheduled a Nerd Dinner at Dewey’s Pizza in West Chester on April 2nd.&nbsp; It’s just off the Tylersville exit on I75.&nbsp; I’ll have both the Dayton and Cincinnati User Groups announce the event at their upcoming meetings.&nbsp; Please try to RSVP so I [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-732" class="post-732 post type-post status-publish format-standard hentry category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/" rel="bookmark" title="Permanent Link: Scaling ItemsControl Items for Explicit Visible Items in WPF">Scaling ItemsControl Items for Explicit Visible Items in WPF</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">12</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/#respond" class="comments"  title="Comment on Scaling ItemsControl Items for Explicit Visible Items in WPF"><span class="dsq-postid" rel="732 /blogs/ryanc/archive/2009/03/12/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Another part of the overall solution we were trying to come up with in conjunction my previous post on Scrolling Multiple Content Areas, we also needed to come up with a way to only show X number of items in the visible region of an ItemsControl wrapped in a ScrollViewer.&#160; This was more tricky than [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-731" class="post-731 post type-post status-publish format-standard hentry category-wpf">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/" rel="bookmark" title="Permanent Link: Scrolling Multiple Content Areas with a single ScrollBar in WPF">Scrolling Multiple Content Areas with a single ScrollBar in WPF</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">12</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a> | <a href="http://blog.cromwellhaus.com/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/#comments" class="comments"  title="Comment on Scrolling Multiple Content Areas with a single ScrollBar in WPF"><span class="dsq-postid" rel="731 /blogs/ryanc/archive/2009/03/12/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf.aspx">4 Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>I struggled to solve a UI dilemma while at my current client.&#160; For various reasons, we came across a situation in which we needed to scroll two areas of the view based on a single Scrollbar.&#160; You can see what we were attempting and finally achieved here. The end result is smooth, yet not quite [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-730" class="post-730 post type-post status-publish format-standard hentry category-sql-server">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/03/stuff-amp-for-xml-path/" rel="bookmark" title="Permanent Link: STUFF &amp; FOR XML PATH">STUFF &amp; FOR XML PATH</a></h3>
+           <p class="post-date">
+            <span class="month">Mar</span>
+            <span class="day">2</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/sql-server/" title="View all posts in SQL Server" rel="category tag">SQL Server</a> | <a href="http://blog.cromwellhaus.com/2009/03/stuff-amp-for-xml-path/#respond" class="comments"  title="Comment on STUFF &amp; FOR XML PATH"><span class="dsq-postid" rel="730 /blogs/ryanc/archive/2009/03/02/stuff-amp-for-xml-path.aspx">No Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>On the get the job done front, my client had a question today that, while it makes me cringe a little to answer the way I did, it got him moving again. [Thanks to Mike Levy for pointing me in the right direction] My client has a small administrative utility that displays Things.&#160; Things can [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+            <script type="text/javascript">
+    // <![CDATA[
+        var disqus_shortname = 'cromwellhaus';
+        var disqus_domain = 'disqus.com';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = 'http://' + disqus_domain + '/forums/' + disqus_shortname + '/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    //]]>
+    </script>
+
+        <div class="navigation" id="pagenavi">
+                 <div class="alignleft"></div>
+         <div class="alignright"></div>
+         <div class="clear"></div>
+                </div>
+        
+      </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+        <li class="block">
+     <div class="info-text">
+            <p>You are currently browsing the archives for March, 2009</p>
+
+           </div>
+    </li>
+    
+    
+        
+    <li class="block">
+      <!-- box -->
+      <div class="box">
+       <div class="titlewrap"><h4><span>Archives</span></h4></div>      
+       <div class="wrapleft">
+        <div class="wrapright">
+         <div class="tr">
+          <div class="bl">
+           <div class="tl">
+            <div class="br the-content">
+             <ul>
+              	<li><a href='http://blog.cromwellhaus.com/2012/01/' title='January 2012'>January 2012</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/12/' title='December 2011'>December 2011</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/11/' title='November 2011'>November 2011</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/09/' title='September 2011'>September 2011</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/06/' title='June 2011'>June 2011</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/05/' title='May 2011'>May 2011</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/03/' title='March 2011'>March 2011</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/02/' title='February 2011'>February 2011</a>&nbsp;(6)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/01/' title='January 2011'>January 2011</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/12/' title='December 2010'>December 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/11/' title='November 2010'>November 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/10/' title='October 2010'>October 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/09/' title='September 2010'>September 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/08/' title='August 2010'>August 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/07/' title='July 2010'>July 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/05/' title='May 2010'>May 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/04/' title='April 2010'>April 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/03/' title='March 2010'>March 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/12/' title='December 2009'>December 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/11/' title='November 2009'>November 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/10/' title='October 2009'>October 2009</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/09/' title='September 2009'>September 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/08/' title='August 2009'>August 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/07/' title='July 2009'>July 2009</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/04/' title='April 2009'>April 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/03/' title='March 2009'>March 2009</a>&nbsp;(6)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/11/' title='November 2008'>November 2008</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/10/' title='October 2008'>October 2008</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/09/' title='September 2008'>September 2008</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/08/' title='August 2008'>August 2008</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/07/' title='July 2008'>July 2008</a>&nbsp;(10)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/06/' title='June 2008'>June 2008</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/04/' title='April 2008'>April 2008</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/03/' title='March 2008'>March 2008</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/01/' title='January 2008'>January 2008</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/12/' title='December 2007'>December 2007</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/11/' title='November 2007'>November 2007</a>&nbsp;(4)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/10/' title='October 2007'>October 2007</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/09/' title='September 2007'>September 2007</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/08/' title='August 2007'>August 2007</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/07/' title='July 2007'>July 2007</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/06/' title='June 2007'>June 2007</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/05/' title='May 2007'>May 2007</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/04/' title='April 2007'>April 2007</a>&nbsp;(8)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/03/' title='March 2007'>March 2007</a>&nbsp;(10)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/05/' title='May 2006'>May 2006</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/03/' title='March 2006'>March 2006</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/02/' title='February 2006'>February 2006</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/01/' title='January 2006'>January 2006</a>&nbsp;(8)</li>
+	<li><a href='http://blog.cromwellhaus.com/2005/12/' title='December 2005'>December 2005</a>&nbsp;(1)</li>
+             </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- /box -->
+    </li>
+
+    <li class="block">
+      <!-- box -->
+      <div class="box">
+       <div class="titlewrap"><h4><span>Meta</span></h4></div>
+       <div class="wrapleft">
+        <div class="wrapright">
+         <div class="tr">
+          <div class="bl">
+           <div class="tl">
+            <div class="br the-content">
+             <ul>
+                            <li><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+              <li><a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional">Valid <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
+              <li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
+              <li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress</a></li>
+                           </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- /box -->
+    </li>
+     </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 13 queries. 0.235 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+<p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='http://blog.cromwellhaus.com/2009/03/?wpmp_switcher=mobile'>Switch to our mobile site</a></p></body>
+</html>
+

@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>August &raquo; 2007 &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for August, 2007</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-690 post hentry category-net">
+			<h2 id="post-690"><a href="http://blog.cromwellhaus.com/index.php/2007/08/visual-studio-2008-beta-2-team-explorer-and-codeplex/" rel="bookmark" title="Permanent Link to Visual Studio 2008 Beta 2, Team Explorer, and Codeplex">Visual Studio 2008 Beta 2, Team Explorer, and Codeplex</a></h2>
+			<small class="meta">August 8th, 2007 </small>
+
+			<div class="entry">
+				<p>If you happen to use <a href="http://www.codeplex.com/">CodePlex</a> as I do, I hope you found <a href="http://www.codeplex.com/CodePlex/Wiki/View.aspx?title=Source%20control%20clients&amp;referringTitle=CodePlex%20Help%20Wiki">Team Explorer for Visual Studio 2005</a> to be a huge productivity boost.&nbsp; With Visual Studio 2008 it wasn&#8217;t entirely obvious to me how to replicate this setup.&nbsp; It turns out that Team Explorer can be installed individually from the <a href="http://www.microsoft.com/downloads/details.aspx?familyid=053E83D0-DEB4-4EBB-B4C8-CBFFE928B4AA&amp;displaylang=en">Visual Studio Team Foundation Server 2008 Beta 2</a> (what a mouthful) installer without all the extra gunk.&nbsp; I figured this out when I noticed the Team Explorer for 2005 installer had a graphic for Team Foundation Server.&nbsp; </p>
+<p>So go grab the <a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=9a927cf6-16e4-4e21-9608-77f06d2156bb&amp;displaylang=en">Microsoft Secure Content Downloader</a>&nbsp;and its a ridiculously quick 1.5gb download &#8211; about 45 minutes over my Timewarner cable connection.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/08/visual-studio-2008-beta-2-team-explorer-and-codeplex/#respond" title="Comment on Visual Studio 2008 Beta 2, Team Explorer, and Codeplex">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-689 post hentry category-wpf">
+			<h2 id="post-689"><a href="http://blog.cromwellhaus.com/index.php/2007/08/exporting-adobe-illustrator-resources-to-wpf/" rel="bookmark" title="Permanent Link to Exporting Adobe Illustrator resources to WPF">Exporting Adobe Illustrator resources to WPF</a></h2>
+			<small class="meta">August 3rd, 2007 </small>
+
+			<div class="entry">
+				<p>There are a lot of sites out there with great vector resources provided in <a href="http://www.adobe.com/products/illustrator/">Adobe Illustrator</a> files.&nbsp; A few have taken a stab at creating exporters or converts, including <a href="http://www.mikeswanson.com/xamlexport/">Mike Swanson</a>&nbsp;and a <a href="http://www.codeplex.com">CodePlex.com</a> project called <a href="http://www.codeplex.com/xamlxporter">XamlXporter</a>.&nbsp; </p>
+<p>I tried out Mike&#8217;s XamlExport plugin and it worked fairly well, but he has some <a href="http://www.mikeswanson.com/xamlexport/Eye%20Candy.htm">well documented</a> items that aren&#8217;t supported which seem to be pretty common in the AI world.&nbsp; This lead me to try the XamlXporter which was built for Illustrator C2.&nbsp; C3 is the latest version and I&#8217;m using the 30-day trial.&nbsp; XamlXporter uses the Illustrator COM Type Library, but apparently Adobe changed the COM GUID for this release.&nbsp; It was pretty easy to resolve and I&#8217;ve got another post&nbsp;<a href="http://cromwellhaus.com/blogs/ryanc/archive/2007/08/03/xamlxporter-comexception-fix.aspx">here</a> showing you how to fix that.</p>
+<p>Here are some pretty nice sites with some Illustrator Vector resources you can use, but beware of the conversion gotcha&#8217;s.&nbsp; WPF is young and Illustrator is, err, mature, so not everything has a translation.</p>
+<ul>
+<li><a title="http://www.vecteezy.com/" href="http://www.vecteezy.com/">http://www.vecteezy.com/</a>
+<li><a title="http://tutorialblog.org/free-vector-downloads/" href="http://tutorialblog.org/free-vector-downloads/">http://tutorialblog.org/free-vector-downloads/</a></li>
+</ul>
+<p>I think we really need a site where people can upload and share WPF resources.&nbsp; This would be great for styles, templates, etc. which can be time consuming and difficult for non-design people like I.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/08/exporting-adobe-illustrator-resources-to-wpf/#comments" title="Comment on Exporting Adobe Illustrator resources to WPF">1 comment</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-688 post hentry category-software-reviews category-wpf">
+			<h2 id="post-688"><a href="http://blog.cromwellhaus.com/index.php/2007/08/xamlxporter-comexception-fix/" rel="bookmark" title="Permanent Link to XamlXporter COMException Fix">XamlXporter COMException Fix</a></h2>
+			<small class="meta">August 3rd, 2007 </small>
+
+			<div class="entry">
+				<p>There is a pretty cool, but curiously quiet, <a href="http://www.codeplex.com">CodePlex</a>&nbsp;project called <a href="http://www.codeplex.com/xamlxporter">XamlXporter</a> that allows you to export <a href="http://www.adobe.com/products/illustrator">Adobe Illustrator</a>&nbsp;files/resources to WPF files.&nbsp; This is a great thing since WPF is young and there are a&nbsp;lot of free resources and tutorials for Adobe Illustrator out there, as well as, you will probably find that design firms are going to use Illustrator before <a href="http://www.microsoft.com/expression/products/overview.aspx?key=blend">Blend</a>&nbsp;for quite while.&nbsp; </p>
+<p>The current version of Illustrator is C3, but the current/latest version of XamlXporter is built for C2.&nbsp; Apparently Adobe has updated the GUID for Illustrator&#8217;s COM Type Library, so the XamlXporter won&#8217;t work with C3.&nbsp; Here&#8217;s how I fixed it:</p>
+<ol>
+<li>Install Illustrator.&nbsp; There is a 30-day trial version <a href="http://www.adobe.com/go/tryillustrator">here</a>.</li>
+<li>Download XamlXporter (0.2 Alpha is <a href="http://www.codeplex.com/xamlxporter/Release/ProjectReleases.aspx?ReleaseId=1551">here</a>).</li>
+<li>Open Visual Studio 2005 (you can probably use 2008/Orcas, but I didn&#8217;t).</li>
+<li>Create a new project (I used C# Console), but I&#8217;m sure VB WinForms, etc will work just as well.</li>
+<li>Add a COM Reference to Adobe Illustrator C3 Type Library.</li>
+<li>Browse to the &lt;project&gt;\bin\Debug|Release directory and copy the Interop.Illustrator.dll to the XamlXporter binary directory.</li>
+<li>Start up the XamlXporter according to the instructions and Voila!</li>
+</ol>
+<p>If you&#8217;re lazy, you can download the Interop assembly I created <a href="http://cromwellhaus.com/files/folders/wpf/entry220.aspx">here</a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/08/xamlxporter-comexception-fix/#respond" title="Comment on XamlXporter COMException Fix">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-687 post hentry category-software-reviews">
+			<h2 id="post-687"><a href="http://blog.cromwellhaus.com/index.php/2007/08/awesome-tool-of-the-day-stumbleupon-firefox-add-on/" rel="bookmark" title="Permanent Link to Awesome Tool of the Day: StumbleUpon Firefox Add-On">Awesome Tool of the Day: StumbleUpon Firefox Add-On</a></h2>
+			<small class="meta">August 1st, 2007 </small>
+
+			<div class="entry">
+				<p>The other day&nbsp;I happened&nbsp;upon the <a href="https://addons.mozilla.org/en-US/firefox/" mce_href="https://addons.mozilla.org/en-US/firefox/">Firefox Add-On page</a> and decided to give the recommended Add-On a try.&nbsp; I&#8217;ve been infatuated ever since.</p>
+<p>Though there&#8217;s an inordinate number of buttons on the default toolbar layout, <a href="http://www.stumbleupon.com/" mce_href="http://www.stumbleupon.com/">StumbleUpon</a>&nbsp;is pretty simple: You/others browse the web and when you find something you like you give it a thumbs-up <a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_2.png" mce_href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_2.png" atomicselection="true"><img src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_thumb_2.png" style="border: 0px none ;" alt="image" mce_src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_thumb_2.png" border="0"></a> or a thumbs-down <a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_3.png" mce_href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_3.png" atomicselection="true"><img src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_thumb_3.png" style="border: 0px none ;" alt="image" mce_src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_thumb_3.png" border="0" height="17" width="16"></a> if you don&#8217;t.&nbsp; Then there&#8217;s the magic button <a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_4.png" mce_href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_4.png" atomicselection="true"><img src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_thumb_4.png" style="border: 0px none ;" alt="image" mce_src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayStumbleUponFirefoxAdd_8956/image_thumb_4.png" border="0" height="18" width="17"></a>&nbsp;which randomly picks pages from the submitted pages that are recommended (thumbs-up).&nbsp; Their pitch says it pretty well&#8230;<i>&#8220;Channel surf the internet.&#8221;</i></p>
+<p>I warn you, it is very addictive, but if you choose topics you are actually interested in, you&#8217;ll find quite a few cool and relevant sites.&nbsp; <a href="http://cromwellryan.stumbleupon.com" mce_href="http://cromwellryan.stumbleupon.com">Check out</a> my recommended sites so far..</p>
+<p><a href="https://addons.mozilla.org/en-US/firefox/addon/138" mce_href="https://addons.mozilla.org/en-US/firefox/addon/138">Get the StumbleUpon Add-On</a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/08/awesome-tool-of-the-day-stumbleupon-firefox-add-on/#respond" title="Comment on Awesome Tool of the Day: StumbleUpon Firefox Add-On">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-686 post hentry category-uncategorized">
+			<h2 id="post-686"><a href="http://blog.cromwellhaus.com/index.php/2007/08/quot-this-problem-is-being-researched-quot/" rel="bookmark" title="Permanent Link to &quot;This problem is being researched&quot;">&quot;This problem is being researched&quot;</a></h2>
+			<small class="meta">August 1st, 2007 </small>
+
+			<div class="entry">
+				<p>I&#8217;m a big fan of the Vista <em>Problem Reports and Solutions</em> feature.&nbsp; I&#8217;d say it&#8217;s had a satisfactory solution to real problems +50% of the time, which is better than I can say for any Support FAQ or Help file I can recall.&nbsp; Today, though, I&#8217;ve been let down.&nbsp; Here&#8217;s what I&#8217;ve got &#8211; see second screen shot for details:</p>
+<p><a href="http://cromwellhaus.com/blogphotos/Thisproblemisbeingresearched_138E0/image.png" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="480" alt="image" src="http://cromwellhaus.com/blogphotos/Thisproblemisbeingresearched_138E0/image_thumb.png" width="631" border="0"></a> </p>
+<p><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="480" alt="image" src="http://cromwellhaus.com/blogphotos/Thisproblemisbeingresearched_138E0/image_thumb_3.png" width="631" border="0"></p>
+<p>Thanks guys.&nbsp; Appreciate the update. </p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/08/quot-this-problem-is-being-researched-quot/#respond" title="Comment on &quot;This problem is being researched&quot;">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for August, 2007.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

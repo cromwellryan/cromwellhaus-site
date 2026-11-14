@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>January &raquo; 2006 &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for January, 2006</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-652 post hentry category-net">
+			<h2 id="post-652"><a href="http://blog.cromwellhaus.com/index.php/2006/01/dayton-cincinnati-code-camp-reflection/" rel="bookmark" title="Permanent Link to Dayton-Cincinnati Code Camp reflection&#8230;">Dayton-Cincinnati Code Camp reflection&#8230;</a></h2>
+			<small class="meta">January 23rd, 2006 </small>
+
+			<div class="entry">
+				<p>Well the Dayton-Cincinnati Code Camp and my presentation have both come and gone.  In all, the day was  a success, but I was a little disappoint in my session.  Nothing in-particular went wrong, but I just never felt we got into a good flow.  I feel exhaustion took a toll on my presence, but other than that, I can&#8217;t explain it.  Maybe Andy Roddick and I have just misplaced our mojo temporarily.  We&#8217;ll have to see.  </p>
+<p>Our gracious host <a href="http://frazzleddad.blogspot.com/2006/01/dayton-cincinnati-code-camp-big.html">Jim Holmes</a> did a fantastic job.  He says there were glitches, but I never saw them.  I was impressed by the number of sponsors who actually showed up with gifts.  </p>
+<p>Here are the session I went to before ducking out a bit early to help a friend move&#8230; again.  Oh the life of a truck owner :/</p>
+<ol>
+<li><a href="http://daytondevgroup.net/CampSessions.aspx#python">Python and IronPython</a> by <a href="http://catherinedevlin.blogspot.com/">Catherine Devlin</a></li>
+<li>Little nap to make up for no sleep the night before.</li>
+<li>Lunch by Microsoft &#8211; who would miss that!</li>
+<li><a href="http://daytondevgroup.net/campSessions.aspx#wwf">Windows Workflow Foundation</a> by <a href="http://mvwood.com/blogs/blog/default.aspx">Mike Wood</a></li>
+</ol>
+<p>I was pretty impressed with Python and IronPython, though it mostly has to do with the cool embedded interpreter in the presentation tool.  I can&#8217;t imagine using it for anything other than a toy.  WWF was very impressive.  A little confounding as it seemed to jump around a lot, but I&#8217;m sure that will tighten up a bit.  I&#8217;ll definitly be using that in the near future.</p>
+<p>I&#8217;ll have the code from my presentation up on the site soon, so hopefully no-one came running right after the presentation.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/01/dayton-cincinnati-code-camp-reflection/#respond" title="Comment on Dayton-Cincinnati Code Camp reflection&#8230;">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-651 post hentry category-software-reviews">
+			<h2 id="post-651"><a href="http://blog.cromwellhaus.com/index.php/2006/01/windows-live-mail-hotmail-kahuna-a-work-in-progress/" rel="bookmark" title="Permanent Link to Windows Live Mail (Hotmail Kahuna) a work in progress.">Windows Live Mail (Hotmail Kahuna) a work in progress.</a></h2>
+			<small class="meta">January 17th, 2006 </small>
+
+			<div class="entry">
+				<p>As I mentioned yesterday, I received my <a href="http://spaces.msn.com/members/mailcall/Blog/cns!1pFgRKa8Lr6GIMM5UtTma4pQ!1678.entry">Windows Live Mail beta invitation</a> and I&#8217;ve begun using it full time.  It&#8217;s definitely a functional beta and I must say it&#8217;s much quicker than it&#8217;s predecessor, but I&#8217;m very glad this is not a completely open beta.  It&#8217;s pretty unpolished at this point and there are some glaring issues in my opinion.  We&#8217;ll see how things far in the next update.  Here is what I&#8217;ve found so far:</p>
+<h3>Bugs</h3>
+<ul>
+<li>Allow sender does not show content.</li>
+<li>New Mail doesn&#8217;t appear until you click on or update the folder list
+<ol>
+<li>On page 2</li>
+<li>Sent email from another account</li>
+<li><a href="http://ideas.live.com/programpage.aspx?versionId=0eccd94b-eb48-497c-8e60-c6313f7ebb73">Windows Live Messenger</a> said I had an email</li>
+<li>Paged to page 1 (no new email and count still at 2540)</li>
+<li>Page 2 forward to 2 again (no change in count)</li>
+<li>Clicked Junk e-mail folder</li>
+<li>Inbox went bold and said I had one email</li>
+<li>Clicked Inbox (there it was!)</li>
+</ol>
+</li>
+<li>The Insert Search Link icon is cut off.</li>
+</ul>
+<h3>Feature Issues</h3>
+<ul>
+<li>No full screen view of messages!!!</li>
+<li>Stop trying to be so fancy&#8230; Attach a File link rather than stupid drop down.  Less is more.</li>
+<li>Tool bar is very tacky and unorganized.  Actions on the email should be together (i.e Send, Save Draft, and Cancel should be next to each other, followed by Attach)</li>
+<li>Consider using the <a href="http://www.telerik.com/">telerik r.a.d editor</a>&#8230; it&#8217;s amazing!</li>
+<li>The folder and mail windows do not scale at all when going above 1024&#215;768.  <b><i><font color="#FF0000">UPDATE: This must have been a temporary thing, because it scales just fine now.  Let you know if it happens again.</font></i></b></ul>
+<p>I&#8217;ve sent these via the ginormous Send Feedback image/link on every page.  I&#8217;m sure I&#8217;ll come up with more.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/01/windows-live-mail-hotmail-kahuna-a-work-in-progress/#respond" title="Comment on Windows Live Mail (Hotmail Kahuna) a work in progress.">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-650 post hentry category-software-reviews">
+			<h2 id="post-650"><a href="http://blog.cromwellhaus.com/index.php/2006/01/windows-live-mail-hotmail-kahuna-is-here/" rel="bookmark" title="Permanent Link to Windows Live Mail (Hotmail Kahuna) is here!">Windows Live Mail (Hotmail Kahuna) is here!</a></h2>
+			<small class="meta">January 17th, 2006 </small>
+
+			<div class="entry">
+				<p>I received my invitation to <a href="http://ideas.live.com/programpage.aspx?versionId=5d21c51a-b161-4314-9b0e-4911fb2b2e6d">Windows LIve Mail</a> (<a href="http://www.betanews.com/article/Microsoft_Testing_New_Hotmail_Interface/1121099209">Hotmail Kahuna</a>) today!  This on top of the <a href="http://www.cromwellhaus.com/CS/blogs/ryanc/archive/2006/01/13/36.aspx">Windows Live Messenger</a> invite I received last week make me believe this first quarter is going to be an exciting one to watch.  I have yet to really dig into this new Hotmail release, but rest assured I will let you know what I think soon.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/01/windows-live-mail-hotmail-kahuna-is-here/#respond" title="Comment on Windows Live Mail (Hotmail Kahuna) is here!">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-649 post hentry category-software-reviews">
+			<h2 id="post-649"><a href="http://blog.cromwellhaus.com/index.php/2006/01/windows-live-messenger-beta-invites/" rel="bookmark" title="Permanent Link to Windows Live Messenger Beta Invites">Windows Live Messenger Beta Invites</a></h2>
+			<small class="meta">January 13th, 2006 </small>
+
+			<div class="entry">
+				<p>I have 3 invites left for Windows Live Messenger and so I&#8217;ll follow the lead from which I receive my invite.  First 3 emails in the comments will receive an invite.  I&#8217;ll remove your emails shortly there after so you don&#8217;t get harvested.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/01/windows-live-messenger-beta-invites/#respond" title="Comment on Windows Live Messenger Beta Invites">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-648 post hentry category-software-reviews">
+			<h2 id="post-648"><a href="http://blog.cromwellhaus.com/index.php/2006/01/windows-live-messenger-beta/" rel="bookmark" title="Permanent Link to Windows Live Messenger Beta">Windows Live Messenger Beta</a></h2>
+			<small class="meta">January 13th, 2006 </small>
+
+			<div class="entry">
+				<p>I recently got in on the Windows Live Messenger Beta courtesy of <a href="http://weblogs.asp.net/jan" title="Jan Tielen's">Jan Tielen&#8217;s</a> and I&#8217;ve got to say, I&#8217;m a little sceptical.  The real difference is in the interface, not the functionality (how much can you really do with text based chat?).  They have tried to create a more impressive interface, but I believe its a little too clunky.  It is a beta, but it doesn&#8217;t bode well for &#8220;ma and pa.&#8221;  Here are my initial reactions:</p>
+<ul>
+<li><b>Like</b> the adjustable color scheme.</li>
+<li><b>Dislike</b> the horrid orange default color scheme.</li>
+<li><b>Love</b> the folder sharing.</li>
+<li><b>Dislike</b> not being able to share the same folder with multiple contacts.</li>
+<li><b>Love</b> the new contact form and contact card.</li>
+<li><b>Hate</b> the clunkyness of the roll-over, expand contact feature, though the idea may have a future.</li>
+<li><b>Like</b> the &#8220;name-wheel&#8221; for searching for contacts, but my parents won&#8217;t even notice it.</li>
+<li><b>Dislike</b> the stupid tabs &#8211; there has to be a better way.</li>
+</ul>
+<p>In general, I would have expected more polish even for an invite only preview.  <a href="http://www.hanselman.com/blog/PermaLink.aspx?guid=fd0a88e9-bac4-4ba4-87c8-6387aaa938a6" title="Scott Hanselman's blog">Scott</a> (like I know him <img src='http://blog.cromwellhaus.com/wp-includes/images/smilies/icon_razz.gif' alt=':P' class='wp-smiley' /> ) mentioned the pixelated icons, but the same issue runs through the entire app.  The pop-out tabs are rough around the edges and the now-green MSN-men which replace the impossible-to-recognize personalize icons of MSN 7.5 are a little fuzzy.  </p>
+<p>I like that they are trying to make things look cool, but please, go vector, go home.</p>
+<p><a href="http://www.cromwellhaus.com/CS/photos/ryans_pics/category1012.aspx">Screen Shots</a></p>
+<p><img src="http://www.cromwellhaus.com/CS/photos/ryans_pics/images/37/original.aspx" title="" border="0"><br />
+<img src="http://www.cromwellhaus.com/CS/photos/ryans_pics/images/38/original.aspx" title="" border="0"></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/01/windows-live-messenger-beta/#respond" title="Comment on Windows Live Messenger Beta">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-647 post hentry category-net">
+			<h2 id="post-647"><a href="http://blog.cromwellhaus.com/index.php/2006/01/mono-hits-the-road/" rel="bookmark" title="Permanent Link to Mono hits the road">Mono hits the road</a></h2>
+			<small class="meta">January 11th, 2006 </small>
+
+			<div class="entry">
+				<p>It looks like <a href="http://www.mono-project.com/" title="Mono Project">Mono</a> will finally be a valid option for deploying applications.  Red Hat has <a href="http://www.eweek.com/article2/0,1895,1909674,00.asp" title="Mono to Be Included in Fedora Core 5">announced</a> that it will include <a href="http://www.mono-project.com/" title="Mono Project">Mono</a> in its Fedora Core 5.  Does that mean it will be in <a href="http://www.redhat.com/" title="RedHat">Red Hat</a> as well?  I couldn&#8217;t tell you since I don&#8217;t follow the Linux distributions to closely, but that would definitly be impressive.  I personally run <a href="http://www.ubuntu.com/" title="Ubuntu">Ubuntu</a> and, being a Linux novice, find it to be the closest thing to a &#8220;Mom-usable&#8221; Linux OS out there.  Then again, I don&#8217;t follow the Linux distributions to closely.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/01/mono-hits-the-road/#respond" title="Comment on Mono hits the road">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-646 post hentry category-uncategorized">
+			<h2 id="post-646"><a href="http://blog.cromwellhaus.com/index.php/2006/01/community-server-and-w-bloggar-settings/" rel="bookmark" title="Permanent Link to Community Server and w.Bloggar Settings">Community Server and w.Bloggar Settings</a></h2>
+			<small class="meta">January 7th, 2006 </small>
+
+			<div class="entry">
+				<p>This is really just for my future reference, but since I had a hard time finding out here are the settings I used for <a href="http://bloggar.com/" title="w.Bloggar">w.Bloggar</a> and <a href="http://communityserver.org/" title="Community Server">Community Server 2.0</a></p>
+<p><b>API Section</b></p>
+<ul>
+<li><b>Blog Tool/API:</b> (Custom)</li>
+<li><b>Account Alias:</b> Ryan @ CromwellHaus.com</li>
+<li><b>Ping:</b> Weblogs.com</li>
+<li><b>API Server:</b> www.cromwellhaus.com</li>
+<li><b>Path:</b> /cs/blogs/ryanc/MetaBlog.ashx</li>
+</ul>
+<p><b>Custom Section</b></p>
+<ul>
+<li><b>Posts::</b> metaWeblog API</li>
+<li><b>Categories:</b> metaWeblog API &#8211; Single</li>
+<li><b>Templates:</b> Blogger API</li>
+<li>Defaults for everything else</li>
+</ul>
+<p>I found the starter for these on the <a href="http://communityserver.org/forums/480628/ShowThread.aspx#480628">CS MetaBlog API Thread</a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/01/community-server-and-w-bloggar-settings/#respond" title="Comment on Community Server and w.Bloggar Settings">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-645 post hentry category-personal">
+			<h2 id="post-645"><a href="http://blog.cromwellhaus.com/index.php/2006/01/new-year-goals-refresh/" rel="bookmark" title="Permanent Link to New Year Goals refresh&#8230;">New Year Goals refresh&#8230;</a></h2>
+			<small class="meta">January 5th, 2006 </small>
+
+			<div class="entry">
+				<p>Many moons ago I realized I was not a naturally directed individual.  That is, I do not organize well without putting forth a deliberate effort.  If and when I fail at something I can most often trace it to a lack of task management on my part.  I have found that having a simple list has done more for my career and life than just about anything else I can imagine (please stop boiling over with arguments, I&#8217;m merely making a point).  In a &#8220;kill two birds with one post&#8221; moment, I wanted to publish my goals refresh which have made their way into my list of things to do:</p>
+<ul>
+<li>Publish my experiences on learning the <a href="http://www.ironpython.com/">IronPython</a> and <a href="http://swiss.csail.mit.edu/projects/scheme/">Scheme</a> languages.</li>
+<li>Run 9 miles per week.</li>
+<li>Lift 3x a week.</li>
+<li>Blog 3 articles a week (bird #2).</li>
+<li>Play basketball 2x a week.</li>
+<li>Read 2 books on the <a href="http://www.amazon.com/exec/obidos/search-handle-url/index=stripbooks:relevance-above&#038;field-keywords=crusades&#038;search-type=ss&#038;bq=1&#038;store-name=books/ref=xs_ap_l_xgl14/104-0014817-5011928">Crusades</a> (this currently exists as &#8220;find 2 books about the Crusades&#8221;).</li>
+</ul>
+<p>Now I know what your thinking, &#8220;Those certainly appear to be New Year Resolutions, Ryan.&#8221;  Well they are not &#8211; they are goals.  They are goals, because aside from the last three items they are unchanged from last week, last month, and all of last year.  I prefer to maintain rolling resolutions rather than one time resolutions that are tied to dates.  Some of the best advice: <a href="http://www.quotationspage.com/quote/2826.html">&#8220;Never put off until tomorrow what you can do today&#8221;</a> &#8211; <a href="http://www.quotationspage.com/quotes/J._A._Spender/">J. A. Spender</a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2006/01/new-year-goals-refresh/#respond" title="Comment on New Year Goals refresh&#8230;">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/personal/" title="View all posts in Personal" rel="category tag">Personal</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for January, 2006.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

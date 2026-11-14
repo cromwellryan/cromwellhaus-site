@@ -1,0 +1,381 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Your Test Suite Sucks&hellip; do it again &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.2 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview'],['_trackPageLoadTime']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.box .the-content { padding: 0px; }
+.br .the-content {align: center; }
+.box .tl, .box .tr, .box .wrapleft { background: none; }
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Your Test Suite Sucks&hellip; do it again Comments Feed" href="http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/feed/" />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Full Speed Ahead!' href='http://blog.cromwellhaus.com/2011/12/full-speed-ahead/' />
+<link rel='next' title='Definition of Done Discovery' href='http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/' />
+<meta name="generator" content="WordPress 3.3.1, fitted with the WordPress Mobile Pack 1.2.4" />
+<link rel='canonical' href='http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/' />
+<link rel='shortlink' href='http://blog.cromwellhaus.com/?p=944' />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/"><span>Presentation Abstracts</span></a>
+<ul class='children'>
+	<li class="page_item page-item-909"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/missing-pieces-the-road-from-agile-enthusiast-to-agile-team-member/"><span>Missing Pieces: The Road from Agile Enthusiast to Agile Team Member</span></a></li>
+</ul>
+</li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://blog.cromwellhaus.com/2011/12/full-speed-ahead/" rel="prev">Full Speed Ahead!</a></div>
+          <div class="alignright"><a href="http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/" rel="next">Definition of Done Discovery</a> &raquo;</div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-944" class="post-944 post type-post status-publish format-standard hentry category-net category-agile category-tdd category-testing">
+           <h2 class="post-title">Your Test Suite Sucks&hellip; do it again</h2>
+              <div class="post-content clearfix">
+    	       <p>A <a href="https://twitter.com/#!/RbKeefer" target="_blank">pretty smart dude</a> I worked with once told this story of a team he was on.&#160; They spent a few days, maybe even a week, deploying their app.&#160; It was painful, obviously.&#160; They’re response: “That sucked.&#160; Let’s do it again tomorrow.”</p>
+<p>Most people try to avoid hard things or at least delay them until they have a good reason, but some things, important things… we should do those more often.&#160; We need to practice the hard things.&#160; They in turn become less risky and less scary bookends to our prideful efforts.</p>
+<p>Testing is one of those things.</p>
+<p>A few months back there was a thread going on the <a href="http://scrum.org/" target="_blank">Scrum.org</a> <a href="http://www.scrum.org/professionalscrumdeveloper/" target="_blank">Professional Scrum Developer</a> Trainers list about topics to include in the future.&#160; Specifically this was in regards to <a href="http://www.scrum.org/professionalscrumdeveloper/" target="_blank">the .Net flavor</a> of the course, because we were getting updates about what was coming down the pipe in the tooling.&#160; My excitement in that course has always focused on testing and with Jason Zander announcing <a href="http://blogs.msdn.com/b/jasonz/archive/2011/05/16/announcing-alm-roadmap-in-visual-studio-vnext-at-teched.aspx" target="_blank">continuous testing</a> for all the major test runners in Visual Studio vNext that was my suggestion.</p>
+<p><a href="https://twitter.com/#!/adamcogan" target="_blank">Adam Cogan</a>, a smart dude in his own right, followed up asking me to describe why I thought that was such a big deal.&#160; I sent a rather long reply that I found useful today while describing the <a href="http://blog.mountaingoatsoftware.com/the-forgotten-layer-of-the-test-automation-pyramid" target="_blank">testing pyramid</a> to coworker <a href="http://twitter.com/stevemgentile" target="_blank">Steve Gentile</a>.&#160; I thought I’d provide that reply here and get everyone’s thoughts:</p>
+<blockquote><p>We give <a href="http://patrickwilsonwelsh.com/?p=32">passing</a> <a href="http://jonkruger.com/blog/2010/02/08/the-automated-testing-triangle/">credence</a> to the idea of fast tests that run often versus slow tests that we expand to include before checkin/commit or during automated build (gated).&#160; Unfortunately, the later becomes a catch all for the oops, just got lazy scenario.&#160; </p>
+<p>I remember when I first got the automated testing bug.&#160; I wrote some tests (calling them unit tests) that integrated with a 3<sup>rd</sup> party tool, gave great coverage and awesome feedback.&#160; We knew within 5-10 minutes if a new 3<sup>rd</sup> party version could be released.&#160; Giant leap.&#160; The next step, though, was hidden.&#160; I would code for 20, 30, 90 minutes or more and then run my tests while I grabbed a <a href="http://www.speedway.com/FoodAndDrink/GourmetRecipes.aspx">cappuccino</a>.</p>
+<p>My current passer-by, rock your world tip/tool is <a href="ncrunch.net">NCrunch</a> for .Net or <a href="https://github.com/guard/guard">Guard</a> for everyone else (we need this).&#160; Autotest.Net was the first try from James Avery, but it didn’t have any traction and was unstable at best.&#160; Most teams have tests, but they aren’t using them effectively.&#160;&#160; (Ok, <a href="http://nuget.org/">Nuget</a> and the <a href="http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages">no-commit pattern</a> is a <a href="http://twitter.com/#!/cromwellryan/status/99302447855566848">very close second</a>!)</p>
+<p>I run a group call <a href="http://cincycleancoders.com/">Cincy Clean Coders</a>.&#160; We do katas, often as a whole group.&#160; The first <a href="http://codingdojo.org/cgi-bin/wiki.pl?RandoriKata">Randori</a> kata we did was eye opening for the audience.&#160; Someone started refactoring to solve a red test and another person threw a fit.&#160; “What are you doing?!&#160; You’re red!&#160; You can’t refactor when your red.”&#160; The driver didn’t intend to be refactoring, they were just solving the current red test in their mind.&#160; They didn’t realize they were mixing many steps into one.&#160; There is a mental burden to doing the simplest thing, running the tests, and only then refactoring.</p>
+<p>Teams make a great jump when they automate their important tests.&#160; Nightly feedback from QTP, Test Pro, or Coded UI is a big step.&#160; Consciously mixing unit, integration and acceptance tests is amazing.&#160; Our current tools mandate the start of the feedback loop be a conscious decision.&#160; “So all those changes, wonder if things are still working?&#160; Let’s find out.”&#160; We don’t say it, but that’s how we act.</p>
+<p>When your tests run every time you pause (NCrunch) or save a file (Guard) you come to expect feedback NOW.&#160; You skip even CTRL+R,Y until your “finished”, only to find you just did 3,5, 10 refactorings.&#160; Which one caused the problem?&#160; Or you write a test that calls a web service, taking .65 seconds.&#160; Pretty soon “fast” tests take 30-60 seconds (or more!) and your CI build takes 20 minutes.</p>
+<p>Continuous testing is (IMO) the next step in shortening the feedback loop.&#160; You start organizing your tests more effectively (or at all).&#160; In good environments, I even use this as a chance to commit.&#160; I now have the luxury of completely ignoring the path I took to my current source situation.&#160; Get into a tizzy, reset/undo checkout.&#160; Committing 10-20 times in an hour isn’t uncommon here.&#160; Neither is branching half a dozen times.</p>
+<p>In the PSD I can demo and talk to the importance of running tests often and having confidence, but a blaring red failure on the screen for that last edit really hits home.</p>
+</blockquote>
+<p>I want your test suite to be an invaluable tool.&#160; Continuous testing is one of those pit of success kind of things.&#160; We need more of those.&#160; But <a href="https://twitter.com/#!/hotgazpacho/status/154385763306438657" target="_blank">when signals pop up</a> solve the <a href="https://twitter.com/#!/hotgazpacho/status/154386804085227520" target="_blank">real problem</a>.&#160; Don’t delay the pain.</p>
+              </div>
+                                          <p class="post-metadata">
+                    This entry was posted on January 4, 2012, 3:42 am and is filed under <a href="http://blog.cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://blog.cromwellhaus.com/category/agile/" title="View all posts in Agile" rel="category tag">Agile</a>, <a href="http://blog.cromwellhaus.com/category/tdd/" title="View all posts in TDD" rel="category tag">TDD</a>, <a href="http://blog.cromwellhaus.com/category/testing/" title="View all posts in Testing" rel="category tag">Testing</a>. You can follow any responses to this entry through <a href="http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-205">
+        <div id="dsq-comment-header-205" class="dsq-comment-header">
+            <cite id="dsq-cite-205">
+                <span id="dsq-author-user-205">Kchikkala</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-205" class="dsq-comment-body">
+            <div id="dsq-comment-message-205" class="dsq-comment-message"><p>Nice Article</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/';
+    var disqus_identifier = '944 http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cromwellhaus';
+    var disqus_title = "Your Test Suite Sucks&hellip; do it again";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            DISQUS.request.get('?cf_action=sync_comments&post_id=944');
+        });
+                    };
+    var facebookXdReceiverPath = 'http://blog.cromwellhaus.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/blog.cromwellhaus.com\/2012\/01\/your-test-suite-sucks-do-it-again\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.70';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+    
+    
+        
+    <li class="block">
+      <!-- box -->
+      <div class="box">
+       <div class="titlewrap"><h4><span>Archives</span></h4></div>      
+       <div class="wrapleft">
+        <div class="wrapright">
+         <div class="tr">
+          <div class="bl">
+           <div class="tl">
+            <div class="br the-content">
+             <ul>
+              	<li><a href='http://blog.cromwellhaus.com/2012/01/' title='January 2012'>January 2012</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/12/' title='December 2011'>December 2011</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/11/' title='November 2011'>November 2011</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/09/' title='September 2011'>September 2011</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/06/' title='June 2011'>June 2011</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/05/' title='May 2011'>May 2011</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/03/' title='March 2011'>March 2011</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/02/' title='February 2011'>February 2011</a>&nbsp;(6)</li>
+	<li><a href='http://blog.cromwellhaus.com/2011/01/' title='January 2011'>January 2011</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/12/' title='December 2010'>December 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/11/' title='November 2010'>November 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/10/' title='October 2010'>October 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/09/' title='September 2010'>September 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/08/' title='August 2010'>August 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/07/' title='July 2010'>July 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/05/' title='May 2010'>May 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/04/' title='April 2010'>April 2010</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2010/03/' title='March 2010'>March 2010</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/12/' title='December 2009'>December 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/11/' title='November 2009'>November 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/10/' title='October 2009'>October 2009</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/09/' title='September 2009'>September 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/08/' title='August 2009'>August 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/07/' title='July 2009'>July 2009</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/04/' title='April 2009'>April 2009</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2009/03/' title='March 2009'>March 2009</a>&nbsp;(6)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/11/' title='November 2008'>November 2008</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/10/' title='October 2008'>October 2008</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/09/' title='September 2008'>September 2008</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/08/' title='August 2008'>August 2008</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/07/' title='July 2008'>July 2008</a>&nbsp;(10)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/06/' title='June 2008'>June 2008</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/04/' title='April 2008'>April 2008</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/03/' title='March 2008'>March 2008</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2008/01/' title='January 2008'>January 2008</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/12/' title='December 2007'>December 2007</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/11/' title='November 2007'>November 2007</a>&nbsp;(4)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/10/' title='October 2007'>October 2007</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/09/' title='September 2007'>September 2007</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/08/' title='August 2007'>August 2007</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/07/' title='July 2007'>July 2007</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/06/' title='June 2007'>June 2007</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/05/' title='May 2007'>May 2007</a>&nbsp;(5)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/04/' title='April 2007'>April 2007</a>&nbsp;(8)</li>
+	<li><a href='http://blog.cromwellhaus.com/2007/03/' title='March 2007'>March 2007</a>&nbsp;(10)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/05/' title='May 2006'>May 2006</a>&nbsp;(1)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/03/' title='March 2006'>March 2006</a>&nbsp;(3)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/02/' title='February 2006'>February 2006</a>&nbsp;(2)</li>
+	<li><a href='http://blog.cromwellhaus.com/2006/01/' title='January 2006'>January 2006</a>&nbsp;(8)</li>
+	<li><a href='http://blog.cromwellhaus.com/2005/12/' title='December 2005'>December 2005</a>&nbsp;(1)</li>
+             </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- /box -->
+    </li>
+
+    <li class="block">
+      <!-- box -->
+      <div class="box">
+       <div class="titlewrap"><h4><span>Meta</span></h4></div>
+       <div class="wrapleft">
+        <div class="wrapright">
+         <div class="tr">
+          <div class="bl">
+           <div class="tl">
+            <div class="br the-content">
+             <ul>
+                            <li><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+              <li><a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional">Valid <abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a></li>
+              <li><a href="http://gmpg.org/xfn/"><abbr title="XHTML Friends Network">XFN</abbr></a></li>
+              <li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress</a></li>
+                           </ul>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <!-- /box -->
+    </li>
+     </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 19 queries. 0.211 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+<p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/?wpmp_switcher=mobile'>Switch to our mobile site</a></p></body>
+</html>
+

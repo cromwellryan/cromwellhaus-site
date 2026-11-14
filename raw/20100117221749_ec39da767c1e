@@ -1,0 +1,300 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>August &raquo; 2008 &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for August, 2008</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-725 post hentry category-silverlight category-tfs">
+			<h2 id="post-725"><a href="http://blog.cromwellhaus.com/index.php/2008/08/tfs-screencasts-part-1-create-a-team-project/" rel="bookmark" title="Permanent Link to TFS Screencasts &#8211; Part 1 &#8211; Create a Team Project">TFS Screencasts &#8211; Part 1 &#8211; Create a Team Project</a></h2>
+			<small class="meta">August 27th, 2008 </small>
+
+			<div class="entry">
+				<p>One of the projects I&#8217;m working on for my company, <a target="_blank" href="http://www.sds-consulting.com/">Strategic Data Systems</a>, is our internal Team Foundation Server 2008 solution.&nbsp; I&#8217;m working with some of the guys who head up our Agile Development Center to make sure things fit well with what they are doing.&nbsp; It&#8217;s been difficult to find overlapping free time, so I have started putting together screencasts to highlight our procedures and what I consider best-practices.&nbsp; We&#8217;ve published written documentation internally, but these are so much more palatable.</p>
+<p>These are geared toward our organization in content, but should be generally relevant to anyone interested in TFS.&nbsp; This particular screencast walks through creating a Team Project and specifying permissions for implementing Scrum roles.</p>
+<div style="padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; padding-top: 0px" id="scid:{7D7E1B1B-BB15-44b5-AC22-DF49F6B00FD3}:7057f11d-5025-4496-98a7-3de06b928709" class="wlWriterSmartContent">   <iframe src="http://silverlight.services.live.com/invoke/77629/SDS Team Foundation Server - Part 1 - Create a Team Project/iframe.html" scrolling="no" frameborder="0" style="width:320px;height:240px" width="320" height="240"></iframe> </div>
+<p>&nbsp;<a target="_blank" href="http://silverlight.services.live.com/77629/SDS%20Team%20Foundation%20Server%20-%20Part%201%20-%20Create%20a%20Team%20Project/video.wmv">Direct Link</a></p>
+<p>p.s This is hosted, for free (as in beer), by <a target="_blank" href="http://silverlight.live.com/">Silverlight Streaming Services</a>.&nbsp; It took all of 20 seconds to sign up and 5 minutes to upload the video made with <a target="_blank" href="http://www.camtasia.com/camtasia.asp">Camtasia</a>.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/08/tfs-screencasts-part-1-create-a-team-project/#respond" title="Comment on TFS Screencasts &#8211; Part 1 &#8211; Create a Team Project">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/silverlight/" title="View all posts in Silverlight" rel="category tag">Silverlight</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/tfs/" title="View all posts in TFS" rel="category tag">TFS</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-724 post hentry category-software-reviews">
+			<h2 id="post-724"><a href="http://blog.cromwellhaus.com/index.php/2008/08/outlook-2007-does-the-little-things/" rel="bookmark" title="Permanent Link to Outlook 2007 does the little things">Outlook 2007 does the little things</a></h2>
+			<small class="meta">August 26th, 2008 </small>
+
+			<div class="entry">
+				<p>People give Microsoft Outlook a lot of crap, but if you&#8217;re willing to think outside the box, you&#8217;ll realize they did all the little things that make life easy.&nbsp; For instance, I rarely use the calendar popup for creating new appointments.&nbsp; No, if I have a meeting next Wednesday, I type &#8220;<em>next wed&#8221;</em> and hit tab.&nbsp; It&#8217;s at 1pm, well, type 1 and hit tab.</p>
+<p>Done.</p>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_2.png"><img height="413" alt="New Appt. Screenshot" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb.png" width="640" border="0"></a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/08/outlook-2007-does-the-little-things/#comments" title="Comment on Outlook 2007 does the little things">2 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-723 post hentry category-sql-server">
+			<h2 id="post-723"><a href="http://blog.cromwellhaus.com/index.php/2008/08/sql-server-2000-vs-2005-lazy-xml-validation/" rel="bookmark" title="Permanent Link to SQL Server 2000 vs 2005 Lazy XML Validation">SQL Server 2000 vs 2005 Lazy XML Validation</a></h2>
+			<small class="meta">August 19th, 2008 </small>
+
+			<div class="entry">
+				<p>Someone was looking to do quick-and-dirty validation of an Xml document inside a SQL Server procedure today.&nbsp; I assumed, and regretted, that he meant 2005, which would have looked like this:</p>
+<blockquote><p>declare @xml1 xml&nbsp; <br />declare @xml2 xml&nbsp; <br />set @xml1 = &#8216;&lt;Node1&gt;&lt;Node2 attrib=&#8221;This is it.&#8221; /&gt;&lt;/Node1&gt;&#8217;<br />set @xml2 = &#8216;&lt;Node1&gt;&lt;Node2 /&gt;&lt;/Node1&gt;&#8217;<br />select Col.value(&#8217;count(./@attrib)&#8217;, &#8216;int&#8217;) as count<br />from @xml1.nodes(&#8217;Node1/Node2&#8242;) as Tbl(Col)
+<p>select Col.value(&#8217;count(./@attrib)&#8217;, &#8216;int&#8217;) as count<br />from @xml2.nodes(&#8217;Node1/Node2&#8242;) as Tbl(Col)</p>
+</blockquote>
+<p>After being told, &#8220;that blows up&#8221;, I jogged the memory a bit and came up with this mess:</p>
+<blockquote><p>/* THE STUPID WAY */<br />DECLARE @hdoc int<br />DECLARE @doc1 varchar(MAX)<br />DECLARE @doc2 varchar(MAX)<br />set @doc1 = &#8216;&lt;Node1&gt;&lt;Node2 attrib=&#8221;This is it.&#8221; /&gt;&lt;/Node1&gt;&#8217;<br />set @doc2 = &#8216;&lt;Node1&gt;&lt;Node2 /&gt;&lt;/Node1&gt;&#8217;<br />/* DOC 1 */<br />EXEC sp_xml_preparedocument @hdoc OUTPUT, @doc1
+<p>IF EXISTS( SELECT&nbsp;&nbsp;&nbsp; *<br />FROM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OPENXML (@hdoc, &#8216;/Node1/Node2/@attrib&#8217;,1)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WITH (attrib&nbsp; varchar(20)))<br />BEGIN<br />PRINT &#8216;Dumb ass&#8217;<br />END<br />exec sp_xml_removedocument @hdoc
+<p>/* DOC 2 */<br />EXEC sp_xml_preparedocument @hdoc OUTPUT, @doc2
+<p>IF EXISTS( SELECT&nbsp;&nbsp;&nbsp; *<br />FROM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OPENXML (@hdoc, &#8216;/Node1/Node2/@attrib&#8217;,1)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WITH (attrib&nbsp; varchar(20)))<br />BEGIN<br />PRINT &#8216;Dumb ass&#8217;<br />END<br />exec sp_xml_removedocument @hdoc
+<p>&nbsp;</p>
+</blockquote>
+<p>Moral of the store?&nbsp; UPGRADE!</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/08/sql-server-2000-vs-2005-lazy-xml-validation/#comments" title="Comment on SQL Server 2000 vs 2005 Lazy XML Validation">1 comment</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/sql-server/" title="View all posts in SQL Server" rel="category tag">SQL Server</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-722 post hentry category-uncategorized">
+			<h2 id="post-722"><a href="http://blog.cromwellhaus.com/index.php/2008/08/installation-guides/" rel="bookmark" title="Permanent Link to Installation Guides">Installation Guides</a></h2>
+			<small class="meta">August 6th, 2008 </small>
+
+			<div class="entry">
+				<p>This evening I completed my first split-server (or dual server as it&#8217;s called in the guide) installation of Team Foundation Server 2008.&nbsp; I&#8217;ve installed TFS a few times now in single-server mode which is pretty crazy easy when you consider what you get (way more than SVN or CVS by themselves).&nbsp; Throughout the entire process I actually found myself RTFM step -by-step.&nbsp; For all the grief that Microsoft receives, you have to give them a ton of credit for their manuals, guides, and walk-throughs.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/08/installation-guides/#comments" title="Comment on Installation Guides">2 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-721 post hentry category-virtual-pc">
+			<h2 id="post-721"><a href="http://blog.cromwellhaus.com/index.php/2008/08/reason-29-for-using-virtual-machines/" rel="bookmark" title="Permanent Link to Reason #29 for using Virtual Machines">Reason #29 for using Virtual Machines</a></h2>
+			<small class="meta">August 6th, 2008 </small>
+
+			<div class="entry">
+				<p>Today I blew up a server.&nbsp; Couldn&#8217;t figure something out so I pushed every button I could find, flipped every switch and changed every setting.&nbsp; Nothing.&nbsp; So you know what I did, I deleted it, copied over a new <a href="http://cromwellhaus.com/blogs/ryanc/archive/2008/06/13/sysprep-your-virtual-pc-images.aspx" target="_blank">Sysprepped Hard Drive</a> and had a clean slate in about 5 minutes.</p>
+<p>I figured out my problem, by the way.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/08/reason-29-for-using-virtual-machines/#respond" title="Comment on Reason #29 for using Virtual Machines">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for August, 2008.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

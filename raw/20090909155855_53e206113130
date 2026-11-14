@@ -1,0 +1,319 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="robots" content="noindex,follow" />
+<meta name="GENERATOR" content="CommunityServer 2008.5 SP1 (Build: 31106.3070)" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell - All Comments (RSS 2.0)" href="http://cromwellhaus.com/blogs//rsscomments.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Announcements (RSS 2.0)" href="/members/cromwellryan/announcements/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Comments (RSS 2.0)" href="/members/cromwellryan/comments/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Activities (RSS 2.0)" href="/members/cromwellryan/activities/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Friends Activity (RSS 2.0)" href="/members/cromwellryan/activities/friendrss.aspx"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/gold%20coast/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/themes/blogs/Gold%20Coast/style/light.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/gold%20coast/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	March 2007 - Posts - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/2007/03.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTk3MjUzMjY0OGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFQ2N0bDAwJFNpZGVCYXIkY3RsMDAkY3RsMDEkY3RsMDAkY3RsMDEkY3RsMDEkY3RsMDAkV2VibG9nU2VhcmNoSW5wdXSLz8IqOFZ/vwcxdlsVvqnmOtGdFg==" />
+</div>
+
+
+<script src="/WebResource.axd?d=J-6WuSghNwWHyAIK-J_-pPF_q_yXu1e7MJ0SOwf2hYmHWp479T-10dpnEWwDsCWopE8eCH7vpBt-pKmirJKI-tCZ4XjkKDgujkTDELhnwHIQruvRE4ZXYDJt6noPUELJeTWjEtL3z9Gy3L7Lz0WKXw2&amp;t=633761145563826270" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8LZo04oaOcmOLSELo6gqLvUu7ganFEIpKN-e5Jyf9stQ1&amp;t=633761147000076918" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8yTNu4gf5kV_RaR4KS-a0AuJKvYytRnBJWnPV7Z5x2m41&amp;t=633761147000076918" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8OTuy4csQHX1lq8XdxKmwZmzsUEeYR4gZKty6Ajbvu981&amp;t=633761147000076918" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8sJUM3T2Fcpj-OflU6x0UWQBAQqaauBWDa_JCexUE4q01&amp;t=633761147000076918" type="text/javascript"></script>
+
+    			
+
+        <div id="container">
+            <div id="header">
+                <h2><a href="/blogs/ryanc/default.aspx">Ryan Cromwell</a></h2>
+                <p id="tagline">Aimless musings of a keyboard masher.</p>
+            </div>
+            <div id="wrapper">
+		        <div id="content">
+                    
+    
+    
+            
+            <h2 id="titleWrapper" class="pageTitle">March 2007 - Posts</h2>
+            
+        
+    
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/03/28/powershell.aspx">Powershell</a>
+                </dt>
+                <dd>
+                    <p>Yesterday I had a had a chance to have dinner and drinks with another group here for a Technology Summit hosted by Microsoft.&nbsp; They get a bunch of representatives from parallel and alternate technology groups such as PHP, Linux, Java, Python, etc together and discuss they reasons for Microsoft decisions, show off Microsoft focused options for solving problems, and just generally discuss the technology ecosystem.&nbsp; </p> <p>One of the people I managed to talk to in depth was an integral part&nbsp;of the <a title="Windows Powershell" href="http://www.microsoft.com/windowsserver2003/technologies/management/powershell/default.mspx">Powershell</a> team.&nbsp; He helped write the language and has been with the team since inception.&nbsp; I personally have pretty limited experience in the *nix environment so comparing shells is difficult for me, but he helped me understand some things.&nbsp; One thing he pointed to as a the cause of some angst between *nix administrators and Windows administrators is the ease of administering a *nix system without a full blown interactive session.&nbsp; A *nix administrator has the option to open an SSH session and has full shell access to the system.&nbsp; Adding a DNS entry for instance is 3 lines of shell command rather than opening the DNS MMC console, expanding some trees, opening a dialog, clicking a few times, then actually adding the record you intended initially, then confirming it 3 times before closing the console.</p> <p>Contrary to my understanding, it was an option to recreate the *nix shells in the Windows environment.&nbsp; Instead the goal was to create a platform that would enable the end-game of creating cmdlets which can/will enable administrators to administer their systems in as productive a manner as any other platform.</p> <p>One of my questions to him was regarding v2 of Powershell.&nbsp; He mentioned that the focus would be in 3 areas: remote connectivity (i.e. SSH), a more powerful interface to powershell (apparently there&#39;s more to moving around the powershell than arrow-keys and tabbing), and a more broad library of cmdlets.&nbsp;</p> <p>Also announced yesterday was the <a title="Powershell to be in Longhorn Server" href="http://blogs.msdn.com/powershell/archive/2007/03/28/announced-powershell-to-ship-in-windows-server-longhorn.aspx">inclusion of Powershell in the upcoming Longhorn Server release</a>.&nbsp; Very exciting.&nbsp;</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/03/28/powershell.aspx">03-28-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/blogs/ryanc/archive/2007/03/28/powershell.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/03/28/wpf-bootcamp-day-3-hardware-capability.aspx">WPF Bootcamp Day 3 - Hardware capability</a>
+                </dt>
+                <dd>
+                    <p>To avoid disappointing users after they&#39;ve gotten as far as running your application on their 1997 300mhz Pentium II, determine their capabilities using the <a href="http://msdn2.microsoft.com/en-us/library/system.windows.media.rendercapability.tier.aspx">RenderCapability.Tier</a> value before hand and notifying them that they&#39;ll need to joing the 21st century before running your app.&nbsp; </p> <p><a title="RenderCapabilities.Tier" href="http://blogs.msdn.com/henryh/archive/2006/08/23/719568.aspx">Henry Hahn</a> has a quick overview and, the&nbsp;always welcome, code samples of using this value to make your application conform to the different tiers.</p> <p>Don&#39;t forget your bit shifting, cause the Tier is set up to support new Tiers/platforms in future releases.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/03/28/wpf-bootcamp-day-3-hardware-capability.aspx">03-28-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/blogs/ryanc/archive/2007/03/28/wpf-bootcamp-day-3-hardware-capability.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl03_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a>, <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl03$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl03_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/03/28/wpf-bootcamp-day-3-ftp-problems-from-the-technology-center.aspx">WPF Bootcamp Day 3 - FTP Problems from the Technology Center</a>
+                </dt>
+                <dd>
+                    <p>You may have noticed there were not many blog entries for Day 2.&nbsp; It turns out there&#39;s no way to ftp stuff out of the technology center.&nbsp; It&#39;s hindering my ability to post with pictures/screen captures.&nbsp; I&#39;ve got a bunch of posts for you as soon as I figure this out.</p> <p>&nbsp;</p> <p>Stay tuned.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/03/28/wpf-bootcamp-day-3-ftp-problems-from-the-technology-center.aspx">03-28-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/blogs/ryanc/archive/2007/03/28/wpf-bootcamp-day-3-ftp-problems-from-the-technology-center.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl04_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl04$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl04_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/03/27/bringing-down-an-oracle-9i-on-windows-instance.aspx">Bringing down an Oracle 9i on Windows instance</a>
+                </dt>
+                <dd>
+                    <p>The <a href="http://www.speedyrewards.com">Speedy Rewards</a>&nbsp;program is backed by two pretty hefty <a href="http://www.oracle.com/technology/products/oracle9i/datasheets/rac/rac_rel2_ds.html">Oracle 9i RAC</a> instances.&nbsp; One is for the OLTP and the other for data-warehousing analytics.&nbsp; Since it&#39;s inception we&#39;ve pretty impressive success with the uptime and performance, though one glaring problem has plagued us now for going on 4 years.&nbsp; Every 3 days, whoever is on call is required to reboot EACH instance of the cluster to avoid a &quot;<a href="http://docs.huihoo.com/oracle/docs/B19306_01/rac.102/b14197/rac_glossary.htm#CHDBEGFH">Split Brain</a>&quot;.&nbsp; This is compounded by the fact that the third-party software that we have purchased to manage high-performance points, offers, awards, etc. presentation to our members maintains open connections as long as the application server is running, never closing them or validating themselves.&nbsp; So basically, this third-party software has negated most of the benefit of a RAC cluster in that there is no load balancing (RAC redirects on the initial connection.Open, not between command executions - sticky connections) and there is no failover during our 3 day reboots.&nbsp; We must effectively go offline every three days for about 10 minutes.&nbsp; Not good for a &lt;1% SLA on greater than &quot;a lot&quot; (that&#39;s lawyer speak) per day.</p> <p>I could spend all day trying to&nbsp;reiterate their reasoning for maintaining open connections forever, not&nbsp;re-connecting them, or even their decision to take down their entire application server (not physical server but the windows services that encompass their application) when connections begin to fail.&nbsp; I&#39;ll allow you all to come to your own conclusions as to the competence of this company that shall remain nameless.</p> <p>After 4 years of open &quot;TAR&#39;s&quot; with Oracle, numerous consultants, configuration changes, and eventually a plan to migrate these instances to 10g on Linux we believe we stumbled upon the root cause.&nbsp; We are all aware, I hope, of Windows Perfmon/Performance Counters and how very helpful they can be in giving insight into your running applications.&nbsp; Well it turns out that Oracle exposes performance counters, but the underlying implementation of these counters login and extract the counter data directly from the target instances.&nbsp; In order for Oracle to do this it provides a set of configurations for specifying the login, instance information, etc for the counters to use.&nbsp; Here comes the kicker - that login must be VALID.&nbsp; Yes, if it&#39;s not valid and you have a tool which try to open these performance counters pretty often like <a href="http://g.msn.com/9SE/1?http://www.microsoft.com/mom/&amp;&amp;DI=6244&amp;IG=c74083987ee44fa690049d6c513c311b&amp;POS=1&amp;CM=DEF&amp;CE=1&amp;CS=AWP&amp;SR=1" title="Microsoft Operations Manager">MOM</a>&nbsp;your&nbsp;Oracle process&nbsp;will, over time, leak Virtual Bytes and the Oracle Process will crash, causing a Split Brain.</p> <p>Long story short, if you&#39;re interested in crashing an Oracle 9i instance, try to login over and over with an invalid login.&nbsp; Now would you call that a bug?&nbsp; A pretty glaring one if you ask me.</p> <p>Here is a <a href="http://download-east.oracle.com/docs/cd/B10501_01/win.920/a95490/registry.htm#1005939" title="Parameters for Oracle Performance Monitor for Windows NT">link</a> to the configuration settings article which details what we had to do to resolve this issue.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/03/27/bringing-down-an-oracle-9i-on-windows-instance.aspx">03-27-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                | <a href="/blogs/ryanc/archive/2007/03/27/bringing-down-an-oracle-9i-on-windows-instance.aspx#comments">1 comment(s)</a>
+			                    
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl05_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Oracle/default.aspx" rel="tag">Oracle</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl05$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl05_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1-expression.aspx">WPF Bootcamp Day 1 - Expression</a>
+                </dt>
+                <dd>
+                    <p>For those who don&#39;t already know, I want to make it perfectly clear that I am the last person you would ask to design an appealling interface.&nbsp; Messaging, thread syncronization, etc I&#39;m your guy, but pretty pictures I am not.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1-expression.aspx">03-26-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                | <a href="/blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1-expression.aspx#comments">2 comment(s)</a>
+			                    
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl06_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a>, <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl06$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl06_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+    More Posts <a href="http://cromwellhaus.com/blogs/ryanc/archive/2007/03.aspx?PageIndex=2">Next page &raquo;</a>
+       
+        
+                </div>
+            </div>
+            <div id="subcontent-a">
+                
+                    
+                    
+                            
+                                    <div>
+                                    <h4 class="sideheader">Syndication</h4>
+                                <ul class='CommonSidebarList'><li class="rss"><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li><li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li><li><a href="/blogs/ryanc/rsscomments.aspx">RSS for Comments</a></li></ul>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Search</h4>
+                                <input name="ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchInput" type="text" id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchInput" class="searchbox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event);" /><a id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton" class="searchbutton" href="javascript:__doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')">Go</a>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/default.aspx">Tags</a></h4>
+                                <div id="TagSideBar"><ul class="CommonSidebarTagCloud">
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Code/default.aspx" rel="tag">Code</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Languages/default.aspx" rel="tag">Languages</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Nerd+Dinner/default.aspx" rel="tag">Nerd Dinner</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/OS/default.aspx" rel="tag">OS</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WCF/default.aspx" rel="tag">WCF</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Community</h4>
+                                <div id="NavSideBar">
+<ul>
+<li><a href="/">Home</a></li><li><a href="/blogs/">Blogs</a></li><li><a href="/media/">Media</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Archives</h4>
+                                <div id="ArchiveSideBar">
+<ul>
+<li><a href="/blogs/ryanc/archive/2009/08.aspx">August 2009 (1)</a></li><li><a href="/blogs/ryanc/archive/2009/07.aspx">July 2009 (2)</a></li><li><a href="/blogs/ryanc/archive/2009/04.aspx">April 2009 (1)</a></li><li><a href="/blogs/ryanc/archive/2009/03.aspx">March 2009 (6)</a></li><li><a href="/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                        
+                        
+                
+     
+                
+                <div id="contentfooter">&nbsp;</div>
+            </div>
+            <div id="footer">
+                
+				    
+				    
+				    
+				            <a href="http://communityserver.com/" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						
+
+                    
+					
+				
+            </div>
+        </div> 
+    
+<script src="http://feeds.feedburner.com/~s/RyanCromwell" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false,true);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl03_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl03_ctl08_ctl01','ctl00_Main_EntryItems_ctl03_ctl08_ctl01','ctl00_Main_EntryItems_ctl03_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl03_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl04_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl04_ctl08_ctl01','ctl00_Main_EntryItems_ctl04_ctl08_ctl01','ctl00_Main_EntryItems_ctl04_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl03_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl05_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl05_ctl08_ctl01','ctl00_Main_EntryItems_ctl05_ctl08_ctl01','ctl00_Main_EntryItems_ctl05_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl03_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl06_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl06_ctl08_ctl01','ctl00_Main_EntryItems_ctl06_ctl08_ctl01','ctl00_Main_EntryItems_ctl06_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl03_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

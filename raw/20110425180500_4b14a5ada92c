@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Powershell &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.0.11 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.box .the-content { padding: 0px; }
+.br .the-content {align: center; }
+.box .tl, .box .tr, .box .wrapleft { background: none; }
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Powershell Category Feed" href="http://blog.cromwellhaus.com/category/powershell/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com/' />
+<meta name="generator" content="WordPress 3.1.1" />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/" title="Bio"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/" title="Presentation Abstracts"><span>Presentation Abstracts</span></a></li>
+<li class="page_item page-item-757"><a class="fadeThis" href="http://blog.cromwellhaus.com/dayton-code-coffee/" title="Dayton Code &amp; Coffee"><span>Dayton Code &amp; Coffee</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+                                <h1 class="pagetitle">Archive for category Powershell</h1>
+        
+        
+        <!-- post -->
+        <div id="post-877" class="post-877 post type-post status-publish format-standard hentry category-powershell category-tfs category-visual-studio">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2011/02/real-world-webcast-series-for-tfs-2010/" rel="bookmark" title="Permanent Link: Real World Webcast Series for TFS 2010">Real World Webcast Series for TFS 2010</a></h3>
+           <p class="post-date">
+            <span class="month">Feb</span>
+            <span class="day">8</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/powershell/" title="View all posts in Powershell" rel="category tag">Powershell</a>, <a href="http://blog.cromwellhaus.com/category/tfs/" title="View all posts in TFS" rel="category tag">TFS</a>, <a href="http://blog.cromwellhaus.com/category/visual-studio/" title="View all posts in Visual Studio" rel="category tag">Visual Studio</a> | <a href="http://blog.cromwellhaus.com/2011/02/real-world-webcast-series-for-tfs-2010/#respond" class="comments"  title="Comment on Real World Webcast Series for TFS 2010"><span class="dsq-postid" rel="877 http://blog.cromwellhaus.com/2011/02/real-world-webcast-series-for-tfs-2010/">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>I and a few coworkers are running a twice monthly web series starting February 10th.&#160; This series will touch on the opportunities we’ve been involved in to ease real world situations. If you are working with Team Foundation Server 2010 and are interested in making your life a little easier I invite you to come [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-738" class="post-738 post type-post status-publish format-standard hentry category-os category-performance category-powershell category-virtual-pc">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2009/07/1-reason-to-stick-with-windows-virtual-pc/" rel="bookmark" title="Permanent Link: 1 reason to stick with Windows Virtual PC">1 reason to stick with Windows Virtual PC</a></h3>
+           <p class="post-date">
+            <span class="month">Jul</span>
+            <span class="day">10</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/os/" title="View all posts in OS" rel="category tag">OS</a>, <a href="http://blog.cromwellhaus.com/category/performance/" title="View all posts in Performance" rel="category tag">Performance</a>, <a href="http://blog.cromwellhaus.com/category/powershell/" title="View all posts in Powershell" rel="category tag">Powershell</a>, <a href="http://blog.cromwellhaus.com/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a> | <a href="http://blog.cromwellhaus.com/2009/07/1-reason-to-stick-with-windows-virtual-pc/#respond" class="comments"  title="Comment on 1 reason to stick with Windows Virtual PC"><span class="dsq-postid" rel="738 /blogs/ryanc/archive/2009/07/09/1-reason-to-stick-with-windows-virtual-pc.aspx">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>For those who aren’t aware, Windows 7 (which I absolutely love) has the ability to mount and run native Virtual PC VHD’s.&#160; This is huge, but it isn’t exactly a cake walk.&#160; That is until now!&#160; DevHawk has provided a PowerShell script to make life beautiful.&#160; Never complain about your Virtual machine performance again… get [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-683" class="post-683 post type-post status-publish format-standard hentry category-powershell">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/06/powershell-profile-on-roaming-profile/" rel="bookmark" title="Permanent Link: PowerShell Profile on Roaming Profile">PowerShell Profile on Roaming Profile</a></h3>
+           <p class="post-date">
+            <span class="month">Jun</span>
+            <span class="day">27</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/powershell/" title="View all posts in Powershell" rel="category tag">Powershell</a> | <a href="http://blog.cromwellhaus.com/2007/06/powershell-profile-on-roaming-profile/#respond" class="comments"  title="Comment on PowerShell Profile on Roaming Profile"><span class="dsq-postid" rel="683 /blogs/ryanc/archive/2007/06/27/powershell-profile-on-roaming-profile.aspx">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>NOTE:&nbsp;Impatience&nbsp;just leads to&nbsp;frustration. When I first starting playing with PowerShell here at the office, I was all excited to start adding little cmdlets to my personal profile and add to my stellar productivity (tongue firmly planted in check).&nbsp; This would hopefully reduce the net loss incurred by my learning PowerShell in the first place.&nbsp; So [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        
+        <!-- post -->
+        <div id="post-675" class="post-675 post type-post status-publish format-standard hentry category-powershell">
+
+          <div class="post-header">
+           <h3 class="post-title"><a href="http://blog.cromwellhaus.com/2007/04/signing-your-powershell-profile-scripts/" rel="bookmark" title="Permanent Link: Signing your Powershell Profile Scripts">Signing your Powershell Profile Scripts</a></h3>
+           <p class="post-date">
+            <span class="month">Apr</span>
+            <span class="day">23</span>
+           </p>
+           <p class="post-author">
+            <span class="info">Posted by <a href="http://blog.cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan ">cromwellryan</a> in <a href="http://blog.cromwellhaus.com/category/powershell/" title="View all posts in Powershell" rel="category tag">Powershell</a> | <a href="http://blog.cromwellhaus.com/2007/04/signing-your-powershell-profile-scripts/#respond" class="comments"  title="Comment on Signing your Powershell Profile Scripts"><span class="dsq-postid" rel="675 /blogs/ryanc/archive/2007/04/23/signing-your-powershell-profile-scripts.aspx">View Comments</span></a>              </span>
+           </p>
+          </div>
+
+          <div class="post-content clearfix">
+          <p>Running with Set-ExecutionPolicy as AllSigned or&nbsp;Restricted with a roaming profile?&nbsp; Here&#8217;s a cmdlet pair that will sign all the scripts in your profile directory.&nbsp; Makes life easier on me as I include a number of scripts into my main profile for readability: function sign-profile(){&nbsp;&nbsp;&nbsp; dir $Profiledir\*.ps1 | foreach-object { sign-script $_.FullName }} function sign-script( $scriptsource [...]</p>
+
+                    </div>
+        </div>
+        <!-- /post -->
+        	<script type="text/javascript">
+	// <![CDATA[
+		var disqus_shortname = 'cromwellhaus';
+		var disqus_domain = 'disqus.com';
+		(function () {
+			var nodes = document.getElementsByTagName('span');
+			for (var i = 0, url; i < nodes.length; i++) {
+				if (nodes[i].className.indexOf('dsq-postid') != -1) {
+					nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('rel'));
+					url = nodes[i].parentNode.href.split('#', 1);
+					if (url.length == 1) url = url[0];
+					else url = url[1]
+					nodes[i].parentNode.href = url + '#disqus_thread';
+				}
+			}
+			var s = document.createElement('script'); s.async = true;
+			s.type = 'text/javascript';
+			s.src = 'http://' + disqus_domain + '/forums/' + disqus_shortname + '/count.js';
+			(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+		}());
+	//]]>
+	</script>
+
+        <div class="navigation" id="pagenavi">
+                 <div class="alignleft"></div>
+         <div class="alignright"></div>
+         <div class="clear"></div>
+                </div>
+        
+      </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+        <li class="block">
+     <div class="info-text">
+            <p>You are currently browsing the archives for the Powershell category.</p>
+
+           </div>
+    </li>
+    
+    
+    <li class="block widget widget_text" id="text-3"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>What I have to say&#8230;</span></h4></div>			<div class="textwidget"><script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#382a1d',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ebe6d8',
+      color: '#000000',
+      links: '#0070bb'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().setUser('cromwellryan').start();
+</script></div>
+		</div></div></div></div></div></div> </div></li><li class="block widget widget_links" id="linkcat-2"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>Blogroll</span></h4></div>
+	<ul class='xoxo blogroll'>
+<li><a href="http://cincycleancoders.com/" rel="me" title="Exploring Patterns, Practices, and Tools for Sustainable Code">Cincy Clean Coders</a></li>
+
+	</ul>
+</div></div></div></div></div></div> </div></li>
+ </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 16 queries. 0.396 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+

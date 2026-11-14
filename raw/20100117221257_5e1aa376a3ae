@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>March &raquo; 2009 &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for March, 2009</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-735 post hentry category-languages">
+			<h2 id="post-735"><a href="http://blog.cromwellhaus.com/index.php/2009/03/action-of-t-lambdas-in-vb/" rel="bookmark" title="Permanent Link to Action(Of T) Lambdas in VB">Action(Of T) Lambdas in VB</a></h2>
+			<small class="meta">March 30th, 2009 </small>
+
+			<div class="entry">
+				<p>Until VB catches up with C# in the lambda support realm, here is how you can accomplish those <a href="http://code.google.com/p/moq/" target="_blank">Moq</a> or <a href="http://ayende.com/projects/rhino-mocks.aspx" target="_blank">Rhino.Mocks</a> style verifications in VB:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 640px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">dim</span> someSub <span style="color: #0000ff">as</span> Action(<span style="color: #0000ff">Of</span> <span style="color: #0000ff">double</span>) = <span style="color: #0000ff">AddressOf</span> mockObject.SomeSub
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">Rhino.Mocks.Expect.<span style="color: #0000ff">Call</span>( someSub)
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+</pre>
+<p>It’s very frustrating going from the full support in C# to VB, but I’m finding sufficient workaround for most items.&#160; I shouldn’t be so hard on VB.&#160; C# doesn’t support inline of Xml which is pretty friggin’ sweet.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2009/03/action-of-t-lambdas-in-vb/#comments" title="Comment on Action(Of T) Lambdas in VB">1 comment</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/languages/" title="View all posts in Languages" rel="category tag">Languages</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-734 post hentry category-performance category-software-reviews">
+			<h2 id="post-734"><a href="http://blog.cromwellhaus.com/index.php/2009/03/outlook-2007-huge-performance-improvement/" rel="bookmark" title="Permanent Link to Outlook 2007 Huge Performance Improvement">Outlook 2007 Huge Performance Improvement</a></h2>
+			<small class="meta">March 26th, 2009 </small>
+
+			<div class="entry">
+				<p>If you use Outlook 2007 go get <a href="http://msexchangeteam.com/archive/2009/03/24/450881.aspx" target="_blank">this hotfix</a> (<a href="http://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=961752&amp;kbln=en-us" target="_blank">download here</a>) now.&#160; It’s crazy faster after this update.</p>
+<p>&#160;</p>
+<p>Hurry!</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2009/03/outlook-2007-huge-performance-improvement/#respond" title="Comment on Outlook 2007 Huge Performance Improvement">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/performance/" title="View all posts in Performance" rel="category tag">Performance</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts in Software Reviews" rel="category tag">Software Reviews</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-733 post hentry category-uncategorized">
+			<h2 id="post-733"><a href="http://blog.cromwellhaus.com/index.php/2009/03/cin-day-nerd-dinner/" rel="bookmark" title="Permanent Link to Cin-Day Nerd Dinner">Cin-Day Nerd Dinner</a></h2>
+			<small class="meta">March 15th, 2009 </small>
+
+			<div class="entry">
+				<p>I’m jumping on the bandwagon and you’re all invited to follow.&nbsp; I’ve scheduled a <a href="http://tinyurl.com/cinday" target="_blank">Nerd Dinner</a> at <a href="http://www.deweyspizza.com/" target="_blank">Dewey’s Pizza</a> in West Chester on April 2nd.&nbsp; It’s just off the Tylersville exit on I75.&nbsp; </p>
+<p>I’ll have both the Dayton and Cincinnati User Groups announce the event at their upcoming meetings.&nbsp; Please try to <a href="http://tinyurl.com/cinday" target="_blank">RSVP</a> so I can warn Dewey’s of the wild crowd.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2009/03/cin-day-nerd-dinner/#comments" title="Comment on Cin-Day Nerd Dinner">1 comment</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-732 post hentry category-wpf">
+			<h2 id="post-732"><a href="http://blog.cromwellhaus.com/index.php/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/" rel="bookmark" title="Permanent Link to Scaling ItemsControl Items for Explicit Visible Items in WPF">Scaling ItemsControl Items for Explicit Visible Items in WPF</a></h2>
+			<small class="meta">March 12th, 2009 </small>
+
+			<div class="entry">
+				<p>Another part of the overall solution we were trying to come up with in conjunction my previous post on <a href="http://cromwellhaus.com/blogs/ryanc/archive/2009/03/12/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf.aspx">Scrolling Multiple Content Areas</a>, we also needed to come up with a way to only show X number of items in the visible region of an ItemsControl wrapped in a ScrollViewer.&#160; This was more tricky than I had initially anticipated, but the solution seems to work for us and its got relatively few moving parts.&#160; </p>
+<p>The end result of the concept can be visualize in <a href="http://code.cromwellhaus.com/ShowingOnlyXVisibleItemsInItemsControl/ShowingOnlyXVisibleItemsInItemsControl.xbap" target="_blank">this Xbap example</a>.&#160; By moving the slider at the bottom, you effectively change the width of the ItemsControl containing the colored Ellipses.&#160; In order to do this as a reflection of the number of items contained within, you need another <a href="http://msdn.microsoft.com/en-us/library/system.windows.data.imultivalueconverter.aspx" target="_blank">IMultiValueConverter</a>.</p>
+<p>Here is the meat of the code for the RelativeSizeConverter I came up with:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 640px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">public</span> <span style="color: #0000ff">class</span> RelativeSizeConverter : IMultiValueConverter
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">{
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">public</span> <span style="color: #0000ff">object</span> Convert(<span style="color: #0000ff">object</span>[] values, Type targetType, <span style="color: #0000ff">object</span> parameter, CultureInfo culture)
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    {
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">if</span>( values.Length != 3 )
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #0000ff">throw</span> <span style="color: #0000ff">new</span> InvalidOperationException(&quot;<span style="color: #8b0000">Don't do that!</span>&quot;);
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">double</span> containerSize = System.Convert.ToDouble(values[0]);
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">int</span> totalItems = System.Convert.ToInt32(values[1]);
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">int</span> visibleItems = System.Convert.ToInt32(values[2]);
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        var visibleSubgroupSize = containerSize / visibleItems;
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">return</span> totalItems * visibleSubgroupSize;
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    }
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">}
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+</pre>
+<p>Basically we figure out how wide things would be if we only had the visible items and then we apply that to all the items return.&#160; In order for this to work, there cannot be any sizing between the ItemsControl and the ScrollViewer, but its a small price to pay.&#160; That would look odd any way in my opinion, but maybe I am simply justifying the solution!</p>
+<p>Anyways, putting this RelativeSizeConverter to use, we get:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 640px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">ScrollViewer</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Name</span>=<span style="color: #0000ff">&quot;container&quot;</span> <span style="color: #ff0000">HorizontalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span> <span style="color: #ff0000">VerticalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">ItemsControl</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Name</span>=<span style="color: #0000ff">&quot;itemsToScale&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">ItemsControl.Width</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #800000">MultiBinding</span> <span style="color: #ff0000">Converter</span>=<span style="color: #0000ff">&quot;{StaticResource sizeConverter}&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">Binding</span> <span style="color: #ff0000">ElementName</span>=<span style="color: #0000ff">&quot;container&quot;</span> <span style="color: #ff0000">Path</span>=<span style="color: #0000ff">&quot;ActualWidth&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">Binding</span> <span style="color: #ff0000">ElementName</span>=<span style="color: #0000ff">&quot;itemsToScale&quot;</span> <span style="color: #ff0000">Path</span>=<span style="color: #0000ff">&quot;Items.Count&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">Binding</span> <span style="color: #ff0000">ElementName</span>=<span style="color: #0000ff">&quot;scaleSize&quot;</span> <span style="color: #ff0000">Path</span>=<span style="color: #0000ff">&quot;Value&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">MultiBinding</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ItemsControl.Width</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ItemsControl</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">ScrollViewer</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">Slider</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Name</span>=<span style="color: #0000ff">&quot;scaleSize&quot;</span> <span style="color: #ff0000">Width</span>=<span style="color: #0000ff">&quot;100&quot;</span> <span style="color: #ff0000">HorizontalAlignment</span>=<span style="color: #0000ff">&quot;Center&quot;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #ff0000">Minimum</span>=<span style="color: #0000ff">&quot;2&quot;</span> <span style="color: #ff0000">Maximum</span>=<span style="color: #0000ff">&quot;{Binding ElementName=itemsToScale, Path=Items.Count}&quot;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #ff0000">Value</span>=<span style="color: #0000ff">&quot;{Binding ElementName=itemsToScale, Path=Items.Count, Mode=OneWay}&quot;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #ff0000">IsSnapToTickEnabled</span>=<span style="color: #0000ff">&quot;True&quot;</span> <span style="color: #ff0000">TickFrequency</span>=<span style="color: #0000ff">&quot;1&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+</pre>
+<p>Notice we use the ScrollViewer’s ActualWidth as our “containerSize”.&#160; The ItemsControl itself has the “totalItems” count, and finally we are using a Slider with the name “scaleSize” to adjust the “visibleItems” count.</p>
+<p>Code for the <a href="http://code.cromwellhaus.com/ShowingOnlyXVisibleItemsInItemsControl/ShowingOnlyXVisibleItemsInItemsControl.xbap" target="_blank">Xbap sample</a> at the top can be downloaded <a href="http://code.cromwellhaus.com/ShowingOnlyXVisibleItemsInItemsControl/ShowingOnlyXVisibleItemsInItemsControl.zip">here</a>.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2009/03/scaling-itemscontrol-items-for-explicit-visible-items-in-wpf/#respond" title="Comment on Scaling ItemsControl Items for Explicit Visible Items in WPF">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-731 post hentry category-wpf">
+			<h2 id="post-731"><a href="http://blog.cromwellhaus.com/index.php/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/" rel="bookmark" title="Permanent Link to Scrolling Multiple Content Areas with a single ScrollBar in WPF">Scrolling Multiple Content Areas with a single ScrollBar in WPF</a></h2>
+			<small class="meta">March 12th, 2009 </small>
+
+			<div class="entry">
+				<p>I struggled to solve a UI dilemma while at my current client.&#160; For various reasons, we came across a situation in which we needed to scroll two areas of the view based on a single Scrollbar.&#160; You can see what we were attempting and finally achieved <a href="http://code.cromwellhaus.com/ScrollingMultipleAreasWithOneScrollbar/ScrollingMultipleAreasWithOneScrollbar.xbap" target="_blank">here</a>.</p>
+<p>The end result is smooth, yet not quite intuitive so I thought I would share the results and steps taken.&#160; The idea is to use a surrogate <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.scrollviewer.aspx">ScrollViewer</a> as the source for the offset of a <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.translatetransform.aspx">TranslateTransform</a> being applied to content within a seperate <a href="http://msdn.microsoft.com/en-us/library/system.windows.controls.scrollviewer.aspx">ScrollViewer</a>.</p>
+<p>Unfortunately, the offset values exposed by the ScrollViewer are both readonly and opposite in force to which we would need to apply to the surrogate.&#160; That is, if we scroll 20 units to the right on our ScrollViewer, we would need to offset the surrogate ScrollViewer by that amount in the opposite direction.&#160; To resolve this problem, we use an IValueConverter to multiple the offset by –1.</p>
+<p>Here we can see the Xaml used to layout and hookup this scenario:</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 640px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px">
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">StackPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">ScrollViewer</span> <span style="color: #ff0000">HorizontalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Hidden&quot;</span> <span style="color: #ff0000">VerticalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Hidden&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">Grid</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #0000ff">&lt;</span><span style="color: #800000">Grid.RenderTransform</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">                <span style="color: #0000ff">&lt;</span><span style="color: #800000">TranslateTransform</span> <span style="color: #ff0000">X</span>=<span style="color: #0000ff">&quot;{Binding ElementName=mainScroller, Path=HorizontalOffset, Converter={StaticResource multiplyConv}, ConverterParameter=-1}&quot;</span> <span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Grid.RenderTransform</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">            <span style="color: #008000">&lt;!-- Content Scrolled by another goes here --&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;/</span><span style="color: #800000">Grid</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ScrollViewer</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #800000">ScrollViewer</span> <span style="color: #ff0000">x</span>:<span style="color: #ff0000">Name</span>=<span style="color: #0000ff">&quot;mainScroller&quot;</span> <span style="color: #ff0000">HorizontalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span> <span style="color: #ff0000">VerticalScrollBarVisibility</span>=<span style="color: #0000ff">&quot;Auto&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #008000">&lt;!-- Content Scrolled on its own accord goes here--&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #800000">ScrollViewer</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">StackPanel</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #fbfbfb; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+</pre>
+<p>You can see that we have two ScrollViewers and the one which will be controlled (versus the controller) has a container element with a <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.translatetransform.aspx">TranslateTransform</a> applied to its RenderTransform property.&#160; This is what we will be using to move the controlled content in the opposite direction of the ScrollBar.</p>
+<p>If you find that your content for each are not the same size, you can always use a <a href="http://msdn.microsoft.com/en-us/library/system.windows.data.multibinding.aspx">MultiBinding</a> to accomodate the relative scrolling distance as applied to the offset.</p>
+<p>You can find the source to the sample Xbap <a href="http://code.cromwellhaus.com/ScrollingMultipleAreasWithOneScrollbar/ScrollingMultipleAreasWithOneScrollbar.zip">here</a>.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2009/03/scrolling-multiple-content-areas-with-a-single-scrollbar-in-wpf/#respond" title="Comment on Scrolling Multiple Content Areas with a single ScrollBar in WPF">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-730 post hentry category-sql-server">
+			<h2 id="post-730"><a href="http://blog.cromwellhaus.com/index.php/2009/03/stuff-amp-for-xml-path/" rel="bookmark" title="Permanent Link to STUFF &amp; FOR XML PATH">STUFF &amp; FOR XML PATH</a></h2>
+			<small class="meta">March 2nd, 2009 </small>
+
+			<div class="entry">
+				<p>On the get the job done front, my client had a question today that, while it makes me cringe a little to answer the way I did, it got him moving again.</p>
+<p>[Thanks to <a href="http://twitter.com/malevy">Mike Levy</a> for pointing me in the right direction]</p>
+<p>My client has a small administrative utility that displays Things.&#160; Things can be applied to 0 or more categories.&#160; Looks kinda’ like this:</p>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_201FA719.png"><img style="border-bottom: 0px; border-left: 0px; display: block; float: none; margin-left: auto; border-top: 0px; margin-right: auto; border-right: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_064B70EA.png" width="308" height="101" /></a></p>
+<p>He’s using a 3rd party control for the grid itself which provides really easy filtering, but it wouldn’t work with the data structures to which he had been binding.&#160; So he wanted to know how he could return the category listing as a delimited string directly from the T-SQL.</p>
+<p>Here’s the gist of his schema (nothing fancy):</p>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_25FA4AB2.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; border-top: 0px; border-right: 0px" title="Schema" border="0" alt="Schema" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_1E02A850.png" width="240" height="142" /></a> </p>
+<p>&#160;</p>
+<p>How we solved it:</p>
+<blockquote><p>SELECT Id, Name, STUFF(      <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; (SELECT cat.Name + &#8216;; &#8216; AS [text()]      <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; FROM Category AS cat       <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; INNER JOIN ItemCategories AS ic ON cat.Id = ic.CategoryId      <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; WHERE (ic.ItemId = Item.Id) FOR XML PATH(&#8221;)      <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; ), 1, 0, &#8221;      <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; )      <br />FROM Item</p>
+</blockquote>
+<p>Obviously we would like to move the UI junk out of the DB, but he can deal with that when he understands the 3rd party control a little better.&#160; Right now, he’s giving his customers some more features.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2009/03/stuff-amp-for-xml-path/#respond" title="Comment on STUFF &amp; FOR XML PATH">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/sql-server/" title="View all posts in SQL Server" rel="category tag">SQL Server</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for March, 2009.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

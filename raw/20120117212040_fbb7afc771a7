@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Ryan Cromwell</title>
+	
+	<link>http://blog.cromwellhaus.com</link>
+	<description>Improving my craft...</description>
+	<lastBuildDate>Mon, 16 Jan 2012 16:24:00 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/RyanCromwell" /><feedburner:info uri="ryancromwell" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><geo:lat>39.557096</geo:lat><geo:long>-84.22688</geo:long><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly><item>
+		<title>Time box: A Holistic View on Sprints and Iterations</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/vquy_iq76ng/</link>
+		<comments>http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/#comments</comments>
+		<pubDate>Mon, 16 Jan 2012 16:24:00 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Agile]]></category>
+		<category><![CDATA[Coaching]]></category>
+		<category><![CDATA[Scrum]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/?p=952</guid>
+		<description>Over the last few years we’ve seen a growing discontent around the idea of Iterations or Sprints.&amp;#160; It excites me that the software community is actively engaged in questioning the long held canon of Agile practices.&amp;#160; Through these explorations we as an industry will find a greater depth of understanding.&amp;#160; Over time this can only [...]</description>
+			<content:encoded><![CDATA[<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image1.png"><img style="margin: 4px 10px; display: inline; float: left" title="image" alt="image" align="left" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image_thumb1.png" width="158" height="89" /></a>Over the last few years we’ve seen a <a href="http://www.thehackerchickblog.com/2012/01/kanban-is-the-new-scrum.html">growing discontent</a> around the idea of Iterations or Sprints.&#160; It excites me that the software community is actively engaged in questioning the long held canon of Agile practices.&#160; Through these explorations we as an industry will find a greater depth of understanding.&#160; Over time this can only be a positive impact on our community.</p>
+<p>In reading many of the Iteration <a href="http://blog.timwingfield.com/2011/09/06/iterations-are-not-a-deadline.html">abandonment stories</a> and views on why <a href="http://A start and an end to some amount of work.">iterations are outdated</a> I believe there is a rather one sided understanding of Iterations.&#160; I believe this is a remnant of the software development industry’s state of being from which we came; the way referred to in the opening line of the <a href="http://agilemanifesto.org">Agile Manifesto</a>.</p>
+<blockquote><p align="left">We are uncovering better ways of developing      <br />software…</p>
+<p align="left">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; ~ opening line of the Agile Manifesto</p>
+</blockquote>
+<p>I have a confession to make: I think iterations are really, really useful.&#160; I also think they are often bastardized.&#160; I’d like to help fix that problem and, in so doing, bring some of you back to the iteration so you can be more creative and strategic and less, well, cogs in a wheel.</p>
+<p>In a three part series of posts I will redefine the meek, abused iteration for you as a:</p>
+<ul>
+<li>Safety Zone for creativity and complex problem solving </li>
+<li>Get S^&amp;* Done tool for decision making and focus </li>
+<li>Yardstick for objectively evaluating the impact of choices and change over time </li>
+</ul>
+<p>If you really, really want to love going to work, experiment with cool new technologies and techniques even in the most conservative organization, and want the best argument for &#8216;going Agile’ then stick with me.&#160; By the time we’re done you will have a better understand of what a time box really is, where the time box applies, where it corrupts and, how to make a balanced decision for the duration of your next time box.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=vquy_iq76ng:3JxH7D8jD-E:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=vquy_iq76ng:3JxH7D8jD-E:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=vquy_iq76ng:3JxH7D8jD-E:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=vquy_iq76ng:3JxH7D8jD-E:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=vquy_iq76ng:3JxH7D8jD-E:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/vquy_iq76ng" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/</feedburner:origLink></item>
+		<item>
+		<title>Definition of Done Discovery</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/81NLHffwm9c/</link>
+		<comments>http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/#comments</comments>
+		<pubDate>Wed, 04 Jan 2012 15:32:19 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Agile]]></category>
+		<category><![CDATA[Coaching]]></category>
+		<category><![CDATA[Craftsmanship]]></category>
+		<category><![CDATA[Scrum]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/</guid>
+		<description>One of the important aspects of Scrum and the more fundamental concept incremental delivery is building Done software each iteration.&amp;#160; There are a lot of holes in that statement, but that makes sense; Scrum is full of holes… on purpose.&amp;#160; If you want answers rather than a framework built for learning, Agile ain’t for you. [...]</description>
+			<content:encoded><![CDATA[<p>One of the important aspects of Scrum and the more fundamental concept incremental delivery is building <em>Done</em> software each iteration.&#160; There are a lot of holes in that statement, but that makes sense; <a href="http://www.scrum.org/scrumguides/">Scrum is full of holes</a>… on purpose.&#160; If you want answers rather than a framework built for learning, Agile ain’t for you.</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="right" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image_thumb.png" width="244" height="184" /></a>Having a clear, well understood and explicit Definition of Done that everyone, including your product owner and surrounding teams accept is very important to growing quality and capabilities consciously.&#160; Underlying any Definition of Done is the expectation that the useful (for another day) software is ready for consumption by those who asked for it.</p>
+<p>As a new team, discovering your initial definition of done can be surprisingly challenging.&#160; Certainly we can come up with things that we want to do and I say go for it!&#160; Only inspection at regular intervals can tell us for sure where we are and what the impact has been.&#160; But there are some things we can do to help make this decision more effectively.&#160; And it doesn’t take long.&#160; 30 minutes… maybe.</p>
+<h6>Circles and Soup</h6>
+<p><a href="http://innovationgames.com/">Innovations Games</a> has a fantastic activity with many applications called <a href="http://innovationgames.com/circles-and-soup/">Circles and Soup</a> (sometimes called <a href="https://matthewbussa.wordpress.com/2010/09/08/the-soup-experiment/">The Soup</a>).&#160; I’ve used this to help a pissed off team focus their energy, but it’s also very helpful in creating an initial Definition of Done that is truly attainable.</p>
+<p>You should read the <a href="http://innovationgames.com/circles-and-soup/">full instructions</a>, but suffice it to say the team will categorize those activities both historically done (i.e. architecture review) and potential (i.e. TDD) that must or should be accomplished to deliver into: Things They Control, Things They Influence, or The Soup (things they have no control or influence over).&#160; This is immediately actionable information, but also a roadmap to move items into the teams control.&#160; Share this with your <a href="http://netmap.wordpress.com/">organization and advocates</a>.</p>
+<p>A Definition of Done, something that they agree will <u>always</u> be completed before calling a feature or story or product backlog item done, which includes activities outside of the team’s control is risky or foolish.&#160; You should control your own destiny as best as possible.&#160; How can a team ever feel at all confident in their own <a href="http://elegantcode.com/2011/07/21/the-scrum-guide-2011/">forecasts</a> otherwise.</p>
+<h6>-ilities</h6>
+<p>In the <a href="http://www.scrum.org/professionalscrumdeveloper/">Professional Scrum Developer</a> course we talk about and spend a few minutes brainstorming attributes that define quality.&#160; We call these ‘ilities’.&#160; Things like <em>maintainability, supportability, reliability, performance-ability.</em>&#160; Ok I made that last one up, but you get the idea.&#160; It’s a big list too.&#160; </p>
+<p>Very few people will argue that missing an -ility negatively influences the quality of an application. Which –ilities are most important, though, depends on many factors.&#160; Type of application, type of user, industry, etc.</p>
+<p>What I like to do as a facilitator for this activity:</p>
+<ol>
+<li>Ask the team to break up in pairs or individuals for 5 minutes.&#160; Write every attribute that affects your impression of any application you’ve ever used on a sticky.&#160; </li>
+<li>Then come together, remove duplicates and put them on the wall for another 5 minutes (usually less).&#160; This creates discussion about what people intended or experiences.&#160; Often another -ility or two will be discovered.</li>
+<li>Use <a href="http://martinfowler.com/bliki/DotVoting.html">dot voting</a> or some other form of ranking to figure out which –ilities are most important to this application.</li>
+</ol>
+<h6></h6>
+<h6>Putting it together</h6>
+<p>You should now have a good idea of what the team has true ownership of and what is most important to build a great application for the intended customer.</p>
+<p>With the results on either side of a whiteboard or giant sticky, choose a few activities which correlate the important –ilities and the activities in the team’s control to determine an actionable, checkbox-able list of things you feel will assure each feature and sprint produces Done software.</p>
+<p>Each iteration you have the opportunity to review these artifacts or recreate them to evolve your Definition of Done from good to great.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=81NLHffwm9c:ckPpZm07iSo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=81NLHffwm9c:ckPpZm07iSo:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=81NLHffwm9c:ckPpZm07iSo:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=81NLHffwm9c:ckPpZm07iSo:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=81NLHffwm9c:ckPpZm07iSo:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/81NLHffwm9c" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2012/01/definition-of-done-discovery/</feedburner:origLink></item>
+		<item>
+		<title>Your Test Suite Sucks… do it again</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/Np3TJVR6QsE/</link>
+		<comments>http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/#comments</comments>
+		<pubDate>Wed, 04 Jan 2012 03:42:24 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[.Net]]></category>
+		<category><![CDATA[Agile]]></category>
+		<category><![CDATA[TDD]]></category>
+		<category><![CDATA[Testing]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/</guid>
+		<description>A pretty smart dude I worked with once told this story of a team he was on.&amp;#160; They spent a few days, maybe even a week, deploying their app.&amp;#160; It was painful, obviously.&amp;#160; They’re response: “That sucked.&amp;#160; Let’s do it again tomorrow.” Most people try to avoid hard things or at least delay them until [...]</description>
+			<content:encoded><![CDATA[<p>A <a href="https://twitter.com/#!/RbKeefer" target="_blank">pretty smart dude</a> I worked with once told this story of a team he was on.&#160; They spent a few days, maybe even a week, deploying their app.&#160; It was painful, obviously.&#160; They’re response: “That sucked.&#160; Let’s do it again tomorrow.”</p>
+<p>Most people try to avoid hard things or at least delay them until they have a good reason, but some things, important things… we should do those more often.&#160; We need to practice the hard things.&#160; They in turn become less risky and less scary bookends to our prideful efforts.</p>
+<p>Testing is one of those things.</p>
+<p>A few months back there was a thread going on the <a href="http://scrum.org/" target="_blank">Scrum.org</a> <a href="http://www.scrum.org/professionalscrumdeveloper/" target="_blank">Professional Scrum Developer</a> Trainers list about topics to include in the future.&#160; Specifically this was in regards to <a href="http://www.scrum.org/professionalscrumdeveloper/" target="_blank">the .Net flavor</a> of the course, because we were getting updates about what was coming down the pipe in the tooling.&#160; My excitement in that course has always focused on testing and with Jason Zander announcing <a href="http://blogs.msdn.com/b/jasonz/archive/2011/05/16/announcing-alm-roadmap-in-visual-studio-vnext-at-teched.aspx" target="_blank">continuous testing</a> for all the major test runners in Visual Studio vNext that was my suggestion.</p>
+<p><a href="https://twitter.com/#!/adamcogan" target="_blank">Adam Cogan</a>, a smart dude in his own right, followed up asking me to describe why I thought that was such a big deal.&#160; I sent a rather long reply that I found useful today while describing the <a href="http://blog.mountaingoatsoftware.com/the-forgotten-layer-of-the-test-automation-pyramid" target="_blank">testing pyramid</a> to coworker <a href="http://twitter.com/stevemgentile" target="_blank">Steve Gentile</a>.&#160; I thought I’d provide that reply here and get everyone’s thoughts:</p>
+<blockquote><p>We give <a href="http://patrickwilsonwelsh.com/?p=32">passing</a> <a href="http://jonkruger.com/blog/2010/02/08/the-automated-testing-triangle/">credence</a> to the idea of fast tests that run often versus slow tests that we expand to include before checkin/commit or during automated build (gated).&#160; Unfortunately, the later becomes a catch all for the oops, just got lazy scenario.&#160; </p>
+<p>I remember when I first got the automated testing bug.&#160; I wrote some tests (calling them unit tests) that integrated with a 3<sup>rd</sup> party tool, gave great coverage and awesome feedback.&#160; We knew within 5-10 minutes if a new 3<sup>rd</sup> party version could be released.&#160; Giant leap.&#160; The next step, though, was hidden.&#160; I would code for 20, 30, 90 minutes or more and then run my tests while I grabbed a <a href="http://www.speedway.com/FoodAndDrink/GourmetRecipes.aspx">cappuccino</a>.</p>
+<p>My current passer-by, rock your world tip/tool is <a href="ncrunch.net">NCrunch</a> for .Net or <a href="https://github.com/guard/guard">Guard</a> for everyone else (we need this).&#160; Autotest.Net was the first try from James Avery, but it didn’t have any traction and was unstable at best.&#160; Most teams have tests, but they aren’t using them effectively.&#160;&#160; (Ok, <a href="http://nuget.org/">Nuget</a> and the <a href="http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages">no-commit pattern</a> is a <a href="http://twitter.com/#!/cromwellryan/status/99302447855566848">very close second</a>!)</p>
+<p>I run a group call <a href="http://cincycleancoders.com/">Cincy Clean Coders</a>.&#160; We do katas, often as a whole group.&#160; The first <a href="http://codingdojo.org/cgi-bin/wiki.pl?RandoriKata">Randori</a> kata we did was eye opening for the audience.&#160; Someone started refactoring to solve a red test and another person threw a fit.&#160; “What are you doing?!&#160; You’re red!&#160; You can’t refactor when your red.”&#160; The driver didn’t intend to be refactoring, they were just solving the current red test in their mind.&#160; They didn’t realize they were mixing many steps into one.&#160; There is a mental burden to doing the simplest thing, running the tests, and only then refactoring.</p>
+<p>Teams make a great jump when they automate their important tests.&#160; Nightly feedback from QTP, Test Pro, or Coded UI is a big step.&#160; Consciously mixing unit, integration and acceptance tests is amazing.&#160; Our current tools mandate the start of the feedback loop be a conscious decision.&#160; “So all those changes, wonder if things are still working?&#160; Let’s find out.”&#160; We don’t say it, but that’s how we act.</p>
+<p>When your tests run every time you pause (NCrunch) or save a file (Guard) you come to expect feedback NOW.&#160; You skip even CTRL+R,Y until your “finished”, only to find you just did 3,5, 10 refactorings.&#160; Which one caused the problem?&#160; Or you write a test that calls a web service, taking .65 seconds.&#160; Pretty soon “fast” tests take 30-60 seconds (or more!) and your CI build takes 20 minutes.</p>
+<p>Continuous testing is (IMO) the next step in shortening the feedback loop.&#160; You start organizing your tests more effectively (or at all).&#160; In good environments, I even use this as a chance to commit.&#160; I now have the luxury of completely ignoring the path I took to my current source situation.&#160; Get into a tizzy, reset/undo checkout.&#160; Committing 10-20 times in an hour isn’t uncommon here.&#160; Neither is branching half a dozen times.</p>
+<p>In the PSD I can demo and talk to the importance of running tests often and having confidence, but a blaring red failure on the screen for that last edit really hits home.</p>
+</blockquote>
+<p>I want your test suite to be an invaluable tool.&#160; Continuous testing is one of those pit of success kind of things.&#160; We need more of those.&#160; But <a href="https://twitter.com/#!/hotgazpacho/status/154385763306438657" target="_blank">when signals pop up</a> solve the <a href="https://twitter.com/#!/hotgazpacho/status/154386804085227520" target="_blank">real problem</a>.&#160; Don’t delay the pain.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Np3TJVR6QsE:hE40raNZi-I:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Np3TJVR6QsE:hE40raNZi-I:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Np3TJVR6QsE:hE40raNZi-I:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Np3TJVR6QsE:hE40raNZi-I:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Np3TJVR6QsE:hE40raNZi-I:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/Np3TJVR6QsE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2012/01/your-test-suite-sucks-do-it-again/</feedburner:origLink></item>
+		<item>
+		<title>Full Speed Ahead!</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/ELHu8v3HjrI/</link>
+		<comments>http://blog.cromwellhaus.com/2011/12/full-speed-ahead/#comments</comments>
+		<pubDate>Tue, 20 Dec 2011 20:32:25 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Personal]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/12/full-speed-ahead/</guid>
+		<description>The last few years have been pretty intense in my career.&amp;#160; I’ve never been one to sit idle, but I’ve pushed it pretty hard.&amp;#160; I’m pretty happy with the course it’s run.&amp;#160; A few exceptions, sure, but who bats 1000? Over that time, I’ve taken my experiences on awesome teams and tried to spread the [...]</description>
+			<content:encoded><![CDATA[<p>The last few years have been pretty intense in my career.&#160; I’ve never been one to sit idle, but I’ve pushed it pretty hard.&#160; I’m pretty happy with the course it’s run.&#160; A few exceptions, sure, but who bats 1000?</p>
+<p align="left">Over that time, I’ve taken my experiences on awesome teams and tried to spread the love as a <a href="http://www.scrum.org/" target="_blank">Professional Scrum Trainer</a> both in the technical aspects (<a href="http://www.scrum.org/professionalscrumdeveloper/" target="_blank">PSD</a>), the fundamentals (<a href="http://www.scrum.org/professionalscrumfoundations/" target="_blank">PSF</a>), and the organizational through coaching.&#160; I tried my hand at organizing conferences like <a href="http://cincydayofagile.org/" target="_blank">Cincy Day of Agile</a> and <a href="http://southwestohiogivecamp.org" target="_blank">Southwest Ohio GiveCamp</a> with other awesome community members.&#160; I started <a href="http://cincycleancoders.com" target="_blank">Cincy Clean Coders</a> (soon to spread to Dayton, shhh) and organized a <a href="http://cincycleancoders.com/coderetreat/" target="_blank">Code Retreat</a> with the awesome <a href="https://twitter.com/#!/markhaskamp" target="_blank">Mark Haskamp</a>.&#160; Interwoven in all of that is about a presentation per month and normal client duties.</p>
+<p align="left">Not sure how my wife survived it <img src='http://blog.cromwellhaus.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+<p align="left">The clear theme in all of that is teaching or, at least, the distribution of <strike>shoddy</strike> advise.&#160; It’s certainly something I feel confident in and have had some success doing.&#160; I highly recommend everyone make it a focus for some period in their life.&#160; It’s had a significant impact.</p>
+<p align="left">Some get into technical teaching as an end goal.&#160; It’s a challenging, dynamic, and worthy objective.&#160; It is not an end game for me.&#160; It’s a skill.&#160; Providing answers is easy, guiding and enabling is <em>really</em> hard.&#160; So hard that the vast majority of leaders, those paid many hundreds of thousands &amp; millions of dollars are terribly inept in the art.</p>
+<p align="left"><strong>Big News!</strong></p>
+<p align="left">A few months ago my wife and I found out that our plans for a 3rd infliction on this world would instead be both 3 <strong>and 4</strong>.&#160; Yes, twins.&#160; Someone told me shortly after finding out “if you want to hear God laugh, tell him<sup>1</sup> your plans.”&#160; </p>
+<p align="left">With this amazing and scary news, some lofty personal objectives for this year needed adjusting.&#160; Certainly a big year, but different.</p>
+<p align="left">I fully anticipate <a href="http://jonkruger.com/blog/2011/12/02/making-a-dent-in-the-universe/" target="_blank">making a dent in this universe</a>.&#160; I’ve experienced the power of self-organization on certain scales and I look forward to bringing to play industrial democracy in a powerful way in the not to distant future.&#160; I hope this is a significant learning experience and step towards larger goals when it does finally happen.</p>
+<p align="left"><strong>2012</strong></p>
+<p align="left">In the mean time, I expect and challenge myself each day to impart on my children the skills, experiences, attitudes, and dreams to make their own dent.&#160; This is my most difficult challenge and it will take even more effort next year.</p>
+<p align="left">As part of this shifting focus, I will be leaving Cardinal Solutions.&#160; While a pretty tumultuous experiment, I hope I was able to enhance the team on par with the experience I was looking for and partially found.&#160; </p>
+<p align="left">So starting today I join crazy smart dudes <a href="http://stevemgentile.wordpress.com/" target="_blank">Steve Gentile</a> and <a href="http://derekhubbard.magnt.com/" target="_blank">Derek Hubbard</a> at the new local office of Applied Information Sciences.&#160; This gets me much closer to home much more often.&#160; I’ll have a chance to ship some amazing things like their recent <a href="http://www.vogue.com/archive" target="_blank">Vogue Archive</a> and I can get back to teaching in the context of shipping a bit more frequently.&#160; Anything else is simply not worth the effort.</p>
+<p align="left">
+<p align="left">I still expect to be involved with Scrum.org, but I will likely not be providing much formal, external training. I expect to bring this to AIS as time progresses and I get better footing.</p>
+<p align="left">I look forward to putting to the test and good use the empowerment and entrepreneurial spirit AIS offers and expects of their people.&#160; I certainly feel that having a long debate with AIS President Tom O’Connell during my interview had a big impact on my decision to join AIS.</p>
+<p align="left">&#160;</p>
+<p align="left">&#160;</p>
+<p><sup>1</sup> While I have no proof, through observing the behavior of the men and women in my family on Sunday’s I’ve come to the conclusion that God most certainly is male.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=ELHu8v3HjrI:Pw8V9zg2e7s:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=ELHu8v3HjrI:Pw8V9zg2e7s:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=ELHu8v3HjrI:Pw8V9zg2e7s:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=ELHu8v3HjrI:Pw8V9zg2e7s:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=ELHu8v3HjrI:Pw8V9zg2e7s:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/ELHu8v3HjrI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/12/full-speed-ahead/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2011/12/full-speed-ahead/</feedburner:origLink></item>
+		<item>
+		<title>Ready. Set. Oh yeah! Consular to start your project environment</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/Nd-mjono0s8/</link>
+		<comments>http://blog.cromwellhaus.com/2011/11/ready-set-oh-yeah-consular-to-start-your-project-environment/#comments</comments>
+		<pubDate>Fri, 25 Nov 2011 05:43:59 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[node]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/11/ready-set-oh-yeah-consular-to-start-your-project-environment/</guid>
+		<description>I have a number of cool tools that run in a watching pattern while I work my nodejs apps.&amp;#160; I use guard to watch package.js, Gemfile and some others.&amp;#160; node-dev watches the app as a whole and restarts my node app.&amp;#160; vows is watching the world to run my tests.&amp;#160; It’s really nice to forget [...]</description>
+			<content:encoded><![CDATA[<p>I have a number of cool tools that run in a watching pattern while I work my nodejs apps.&#160; I use guard to watch package.js, Gemfile and some others.&#160; node-dev watches the app as a whole and restarts my node app.&#160; vows is watching the world to run my tests.&#160; </p>
+<p>It’s really nice to forget about all that cruft and just build the app while those things work automagically.&#160; Unfortunately the magic doesn’t start until I say go.&#160; And go.&#160; And go.&#160; And go.</p>
+<p>There has to be a better way than starting half a dozen terminals or terminal tabs and&#160; remembering to run guard, node-dev, vows, etc.&#160; Turns out there is <a href="http://www.twitter.com/rubyist">@rubyist</a> and <a href="http://www.twitter.com/pragma_tech">@pragma_tech</a> had the cheese: terminitor.</p>
+<p>Yeah – read it again: termin<strong><u>i</u></strong>tor.&#160; The govna isn’t much help.&#160; It’s a different dude.&#160; Even turns out people were so confused they changed the name to <a href="https://github.com/achiu/consular">consular</a>.</p>
+<p>I’m not entirely sure how consular does it’s magic, but I did piece together the Ubuntu puzzle.&#160; Here’s the deal:</p>
+<p>1. Make sure to export TERM_EDITOR &amp; EDITOR (vim for me) in your ~/.bashrc.&#160; If you use a different shell, YMMV.</p>
+<blockquote><p>sudo apt-get install xdotool</p>
+</blockquote>
+<p>This appears to be a keyboard &amp; mouse abstraction layer.&#160; This is required by a consular ‘core’.&#160; Coming soon.</p>
+<blockquote><p>gem install consular</p>
+<p>gem install consular-gnome-terminal</p>
+</blockquote>
+<p>Initialize and configure consular with:</p>
+<blockquote><p><font color="#000000">consular init</font></p>
+</blockquote>
+<p>This should open ~/.consularch in your editor if you have TERM_EDITOR&#160; configured.&#160; Add</p>
+<blockquote><p>require &#8216;consular/gnome-terminal&#8217;</p>
+</blockquote>
+<p>Head to a project directory in your terminal and</p>
+<blockquote><p><font color="#000000">consular edit</font></p>
+</blockquote>
+<p>This will create and open a Termfile in your editor of choice.&#160; This file has some sample configurations using Now you can get rolling by running:</p>
+<blockquote><p>consular start</p>
+</blockquote>
+<p>This will run the default, but you can <a href="https://github.com/achiu/consular/wiki/Consular-Script-DSL">learn the DSL</a> and start everything from guard to your vim environment.&#160; Get into your working mode faster.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Nd-mjono0s8:-DoVR11tl1s:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Nd-mjono0s8:-DoVR11tl1s:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Nd-mjono0s8:-DoVR11tl1s:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=Nd-mjono0s8:-DoVR11tl1s:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=Nd-mjono0s8:-DoVR11tl1s:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/Nd-mjono0s8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/11/ready-set-oh-yeah-consular-to-start-your-project-environment/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2011/11/ready-set-oh-yeah-consular-to-start-your-project-environment/</feedburner:origLink></item>
+		<item>
+		<title>#accus Saturday Schedule</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/mv3M7qdG1Yk/</link>
+		<comments>http://blog.cromwellhaus.com/2011/09/accus-saturday-schedule/#comments</comments>
+		<pubDate>Sat, 24 Sep 2011 14:01:22 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Coaching]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/09/accus-saturday-schedule/</guid>
+		<description>For those attending these pictures are the Saturday schedule.</description>
+			<content:encoded><![CDATA[<p>For those attending these pictures are the Saturday schedule.<br />
+<blockquote><img src="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/201192495847.jpg" style="height:666px; width:500px;" /><img src="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/201192495815.jpg" style="height:666px; width:500px;" /><img src="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/201192495828.jpg" style="height:666px; width:500px;" /><img src="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/201192495757.jpg" style="height:375px; width:500px;" /><img src="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/20119249584.jpg" style="height:375px; width:500px;" /></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=mv3M7qdG1Yk:zYrbcFjHq48:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=mv3M7qdG1Yk:zYrbcFjHq48:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=mv3M7qdG1Yk:zYrbcFjHq48:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=mv3M7qdG1Yk:zYrbcFjHq48:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=mv3M7qdG1Yk:zYrbcFjHq48:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/mv3M7qdG1Yk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/09/accus-saturday-schedule/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2011/09/accus-saturday-schedule/</feedburner:origLink></item>
+		<item>
+		<title>libnotify support for expresso</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/1o9lAymq7JU/</link>
+		<comments>http://blog.cromwellhaus.com/2011/09/libnotify-support-for-expresso/#comments</comments>
+		<pubDate>Sat, 17 Sep 2011 22:30:45 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[git]]></category>
+		<category><![CDATA[node]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/09/libnotify-support-for-expresso/</guid>
+		<description>Warning: Linux, Terminal, vim and Continuous Testing ahead.&amp;#160; Not a fan?&amp;#160; Did you know Continuous testing is coming to Visual Studio vNext?&amp;#160; Yeah – it’s that good an idea!&amp;#160; Go get NCrunch for VS 2010 or the preview of VS 2011. I recently switched from vows to expresso for my nodejs unit testing.&amp;#160; I prefer [...]</description>
+			<content:encoded><![CDATA[<p><em><font color="#ff0000">Warning: Linux, Terminal, vim and Continuous Testing ahead.&#160; Not a fan?&#160; Did you know <a href="http://blogs.msdn.com/b/jasonz/archive/2011/05/16/announcing-alm-roadmap-in-visual-studio-vnext-at-teched.aspx" target="_blank">Continuous testing is coming to Visual Studio vNext</a>?&#160; Yeah – it’s that good an idea!&#160; Go get <a href="http://ncrunch.net" target="_blank">NCrunch</a> for VS 2010 or the preview of <a href="http://blogs.msdn.com/b/jasonz/archive/2011/09/14/announcing-visual-studio-11-developer-preview.aspx" target="_blank">VS 2011</a>.</font></em></p>
+<p>I recently switched from <a href="http://vowsjs.org/" target="_blank">vows</a> to <a href="https://github.com/visionmedia/expresso" target="_blank">expresso</a> for my <a href="http://nodejs.org/" target="_blank">nodejs</a> unit testing.&#160; I prefer the BDD format of vows, but I was having trouble getting them to work nicely with <a href="http://sodajs.com/" target="_blank">soda</a> and <a href="http://seleniumhq.org" target="_blank">selenium</a>.&#160; Vows has <a href="http://vowsjs.org/#reference" target="_blank">watch support</a> for continuous testing which I love, but it didn’t have libnotify support.&#160; I need this, because I run my watchers like <a href="https://github.com/guard/guard#readme" target="_blank">Guard</a>, <a href="http://fgnass.posterous.com/nodejs-supervisor" target="_blank">node-dev</a>, and such on another workspace.</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/image.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/image_thumb.png" width="244" height="140" /></a></p>
+<p>Without the notifications from libnotify I would have to switch back and for to see the terminal output of the watcher process.&#160; Kills my flow.&#160; </p>
+<p>Expresso doesn’t have watch support so I added it to my Guardfile:</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/image1.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/image_thumb1.png" width="644" height="234" /></a></p>
+<p>That <em>should </em>run expresso for all of my fast tests whenever anything changes.&#160; Cool!&#160; Unfortunately, guard doesn’t expand wildcards like the terminal and expresso relies on this to test folders recursively.&#160; I’ve pushed a –d &#8211;directory option to my <a href="https://github.com/cromwellryan/expresso" target="_blank">fork</a> if you want it.&#160; I’ll submit a pull request later, but don’t hold your breath.</p>
+<p>Cool my fast tests are running when I change things in my app.&#160; Now it’s time for a results notification.&#160; Unfortunately, expresso only has Growl support, but not libnotify… foiled again!&#160; No fear, <a href="https://github.com/christiaan" target="_blank">christiaan</a> has a <a href="https://github.com/visionmedia/expresso/pull/70" target="_blank">pull request</a> pending just for this reason.&#160; But how do <em>I </em>get it?&#160; </p>
+<p>Grrr!</p>
+<p>Not really.&#160; First I fork expresso</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/image2.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/image_thumb2.png" width="644" height="234" /></a></p>
+<p>Then I add christiaans fork to my remotes</p>
+<blockquote><p><font color="#000000">git remote add christiaan git://github.com/christiaan/expresso.git</font></p>
+</blockquote>
+<p>Then I pull in his commits</p>
+<blockquote><p><font color="#000000">git fetch christiaan</font>&#160; </p>
+</blockquote>
+<p>Push the result up to my repo for nice people like you.</p>
+<blockquote><p><font color="#000000">git push origin master</font></p>
+</blockquote>
+<p>OK it’s in there, but how do I <u>USE</u> it?&#160; Well npm (node package manager) has support for a smooth dev experience like this.</p>
+<p>I can jump into my expresso fork repo and use <em>npm link</em>:</p>
+<blockquote><p><font color="#000000">cd ~/projects/expresso</font></p>
+<p><font color="#000000">npm link</font></p>
+</blockquote>
+<p><em>npm link </em>will create a symlink in my global package source which I can then use anywhere.&#160; I could also <em>npm link</em> them into any local projects, but this works for me at the moment.&#160; I might depend on them locally later, but we’ll see.</p>
+<p>Now when I change things in my project, guard notices and tells expresso to do it’s thing and I get a notification as to how things went.&#160; Pretty nice.</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/image3.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2011/09/image_thumb3.png" width="644" height="366" /></a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=1o9lAymq7JU:HN61bmIsoPA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=1o9lAymq7JU:HN61bmIsoPA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=1o9lAymq7JU:HN61bmIsoPA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=1o9lAymq7JU:HN61bmIsoPA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=1o9lAymq7JU:HN61bmIsoPA:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/1o9lAymq7JU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/09/libnotify-support-for-expresso/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2011/09/libnotify-support-for-expresso/</feedburner:origLink></item>
+		<item>
+		<title>Naming Distributed Teams</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/2bIqzR6zuQU/</link>
+		<comments>http://blog.cromwellhaus.com/2011/06/naming-distributed-teams/#comments</comments>
+		<pubDate>Thu, 09 Jun 2011 14:28:22 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Agile]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/06/naming-distributed-teams/</guid>
+		<description>I try to remind everyone as often as possible that the most complex part of solving problems is people.&amp;#160; So many little things impact people every day. Today I came across this tip from Johanna Rothman for distributed teams: Call the teams by their feature names, not by their geographic location. It&amp;#8217;s too easy to [...]</description>
+			<content:encoded><![CDATA[<p>I try to remind everyone as often as possible that the most complex part of solving problems is people.&#160; So many little things impact people every day.</p>
+<p>Today I came across this tip from <a href="http://www.google.com/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBYQFjAA&amp;url=http%3A%2F%2Ftwitter.com%2Fjohannarothman&amp;ei=D9fwTf3iMJKWtwfKp_yxAw&amp;usg=AFQjCNHO4-vWaF-83JwpWa9xR1T9OAcx8g" target="_blank">Johanna Rothman</a> for distributed teams:</p>
+<blockquote><p>Call the teams by their feature names, not by their geographic location. It&#8217;s too easy to call the teams by &quot;Headquarters&quot; or &quot;Cincinnati&quot; or &quot;Paris&quot; or &quot;Bangalore&quot;, and any name other than &quot;Headquarters&quot; implies a hierarchy among the teams. </p>
+</blockquote>
+<p>Recognizing and breaking these subtle habits is hard, but the sign of an organization more concerned with results and teamwork than title and seniority.</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2011/06/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2011/06/image_thumb.png" width="481" height="136" /></a></p>
+<p>Are these teams distributed or co-located?&#160; Each has the skills needed to deliver a feature for our project/product that meets the definition of done.&#160; Does this scale more or less than <em>resource pools</em>?</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=2bIqzR6zuQU:u6ODbmyANrQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=2bIqzR6zuQU:u6ODbmyANrQ:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=2bIqzR6zuQU:u6ODbmyANrQ:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=2bIqzR6zuQU:u6ODbmyANrQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=2bIqzR6zuQU:u6ODbmyANrQ:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/2bIqzR6zuQU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/06/naming-distributed-teams/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2011/06/naming-distributed-teams/</feedburner:origLink></item>
+		<item>
+		<title>Cone of Uncertainty Graphic with Events in Time</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/GfoS0YdBfE4/</link>
+		<comments>http://blog.cromwellhaus.com/2011/05/cone-of-uncertainty-graphic-with-events-in-time/#comments</comments>
+		<pubDate>Fri, 27 May 2011 19:27:18 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Agile]]></category>
+		<category><![CDATA[Coaching]]></category>
+		<category><![CDATA[Scrum]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/05/cone-of-uncertainty-graphic-with-events-in-time/</guid>
+		<description>I’ve always received great feedback when describing the cone of uncertainty to groups on a whiteboard using events in time rather than simply an abstract timeline.&amp;#160; Today I put a graphic together that I can easily share or refer to.&amp;#160; Thought I’d post it for others as well.&amp;#160; Feel free to use it and let [...]</description>
+			<content:encoded><![CDATA[<p>I’ve always received great feedback when describing the cone of uncertainty to groups on a whiteboard using events in time rather than simply an abstract timeline.&#160; Today I put a graphic together that I can easily share or refer to.&#160; Thought I’d post it for others as well.&#160; Feel free to use it and let me know what you think.&#160; </p>
+<p><em>Disclaimer: All events are provided as examples which can and may occur as you work toward solving a problem.&#160; I’m not advising you to include these explicitly in your process.</em></p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2011/05/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2011/05/image_thumb.png" width="644" height="474" /></a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=GfoS0YdBfE4:wpN8W-Uk-BQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=GfoS0YdBfE4:wpN8W-Uk-BQ:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=GfoS0YdBfE4:wpN8W-Uk-BQ:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=GfoS0YdBfE4:wpN8W-Uk-BQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=GfoS0YdBfE4:wpN8W-Uk-BQ:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/GfoS0YdBfE4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/05/cone-of-uncertainty-graphic-with-events-in-time/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2011/05/cone-of-uncertainty-graphic-with-events-in-time/</feedburner:origLink></item>
+		<item>
+		<title>Good Books for the Softer Side of Agile</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/FQb8bd4xiag/</link>
+		<comments>http://blog.cromwellhaus.com/2011/05/good-books-for-the-softer-side-of-agile/#comments</comments>
+		<pubDate>Fri, 27 May 2011 14:37:47 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Agile]]></category>
+		<category><![CDATA[Community]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/2011/05/good-books-for-the-softer-side-of-agile/</guid>
+		<description>I was a member of the Agile Engineering panel at the Path to Agility in Columbus, OH yesterday.&amp;#160; It was a great event (if not overcrowded) with some amazing names.&amp;#160; The panel started quickly down the dreaded TDD path.&amp;#160; You know the one where we proselytize about how everyone’s doing it, you should too, and [...]</description>
+			<content:encoded><![CDATA[<p>I was a member of the Agile Engineering panel at the Path to Agility in Columbus, OH yesterday.&#160; It was a great event (if not overcrowded) with some amazing names.&#160; </p>
+<p>The panel started quickly down the dreaded TDD path.&#160; You know the one where we proselytize about how everyone’s doing it, you should too, and the world will seamless fall into harmony once you <em>get it.&#160; </em>It’s true, but how many times can you hear it from a talking head.&#160; Good grief.&#160; Go find a pair.</p>
+<p>Not too long in a savior came from the back of the room and asked the panel what resources where available that discussed the soft skills of successful agile teams.&#160; <a href="http://www.improvingenterprises.com/about/team/leadership/barry-rogers/bio/" target="_blank">Barry</a> jumped on this, because, well, he wrote a <a href="http://www.amazon.com/s/ref=nb_sb_ss_i_0_43?url=search-alias%3Daps&amp;field-keywords=individuals+and+interactions+an+agile+guide&amp;x=0&amp;y=0&amp;sprefix=individuals+and+interactions+an+agile+guide" target="_blank">book</a> about it!&#160; (I have copy – thanks <a href="http://www.improvingenterprises.com/" target="_blank">Improving</a>!).&#160; This monopolized the remainder of the session which was fantastic IMO.&#160; From executive buy in to nasty team members and <a href="http://myagileeducation.com/2011/what-is-up-with-all-the-apairia/" target="_blank">apairia</a> it was great.</p>
+<p>In the end I recall the following books being mentioned for further reading.&#160; I dread buying a Kindle, Nook, etc. because I’ll simply flush my wallet down the toilet when lists like this come up:</p>
+<p>&#160;&#160;&#160; <a href="http://www.amazon.com/s/ref=nb_sb_ss_i_0_43?url=search-alias%3Daps&amp;field-keywords=individuals+and+interactions+an+agile+guide&amp;x=0&amp;y=0&amp;sprefix=individuals+and+interactions+an+agile+guide">Individuals and Interactions</a> (Barry’s Book)</p>
+<p>&#160;&#160;&#160; <a href="http://www.amazon.com/Managing-Humans-Humorous-Software-Engineering/dp/159059844X/ref=sr_1_1?ie=UTF8&amp;qid=1306505389&amp;sr=8-1">Managing Humans</a></p>
+<p>&#160;&#160;&#160; <a href="http://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic/dp/1934356344/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1306505420&amp;sr=1-1">Passionate Programmer</a></p>
+<p>&#160;&#160;&#160; <a href="http://www.amazon.com/Coaching-Agile-Teams-ScrumMasters-Addison-Wesley/dp/0321637704/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1306505445&amp;sr=1-1">Coaching Agile Teams</a></p>
+<p>Go grab a few and share them around the office.&#160; Have some hug sessions and maybe pick up a beer for your pair.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=FQb8bd4xiag:FjWnv15Q0V4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=FQb8bd4xiag:FjWnv15Q0V4:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=FQb8bd4xiag:FjWnv15Q0V4:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=FQb8bd4xiag:FjWnv15Q0V4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=FQb8bd4xiag:FjWnv15Q0V4:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/FQb8bd4xiag" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://blog.cromwellhaus.com/2011/05/good-books-for-the-softer-side-of-agile/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.cromwellhaus.com/2011/05/good-books-for-the-softer-side-of-agile/</feedburner:origLink></item>
+	</channel>
+</rss>

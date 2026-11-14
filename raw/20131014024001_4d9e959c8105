@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>  Setting up a Virtual PC Domain</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="http://cromwellhaus.com/comments/feed/" />
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-4332588-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Setting up a Virtual PC Domain Comments Feed" href="http://cromwellhaus.com/2008/07/setting-up-a-virtual-pc-domain/feed/" />
+<link rel='stylesheet' id='pinboard-web-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic|Oswald:300,300italic,regular,italic,600,600italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='pinboard-css'  href='http://cromwellhaus.com/wp-content/themes/pinboard/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='http://cromwellhaus.com/wp-content/themes/pinboard/styles/colorbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelementplayer-css'  href='http://cromwellhaus.com/wp-content/themes/pinboard/styles/mediaelementplayer.css' type='text/css' media='all' />
+	<!--[if lt IE 9]>
+	<script src="http://cromwellhaus.com/wp-content/themes/pinboard/scripts/html5.js" type="text/javascript"></script>
+	<![endif]-->
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/ios-orientationchange-fix.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/fitvids.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.13.0'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/mediaelementplayer.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/colorbox.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/comment-reply.min.js?ver=3.6'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Did you know?  Screenshots of Virtual PC Instances' href='http://cromwellhaus.com/2008/07/did-you-know-screenshots-of-virtual-pc-instances/' />
+<link rel='next' title='Video Conferencing Code of Conduct' href='http://cromwellhaus.com/2008/07/video-conferencing-code-of-conduct/' />
+<meta name="generator" content="WordPress 3.6" />
+<link rel='canonical' href='http://cromwellhaus.com/2008/07/setting-up-a-virtual-pc-domain/' />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=717' />
+<meta property="og:title" content="Setting up a Virtual PC Domain" /><meta property="og:type" content="article" /><meta property="og:url" content="http://cromwellhaus.com/2008/07/setting-up-a-virtual-pc-domain/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="I do a lot of demos and Virtual PC 2007 is a mainstay in my arsenal for those demos.&nbsp; I&#039;ve used VMWare Server (the free one) and it is very nice, but I run an x64 OS and VMWare had neglected to sign certain emulation drives which caused me enough &hellip;" /><script>
+/* <![CDATA[ */
+	jQuery(document).ready(function($) {
+		$('#access .menu > li > a').each(function() {
+			var title = $(this).attr('title');
+			if(typeof title !== 'undefined' && title !== false) {
+				$(this).append('<br /> <span>'+title+'</span>');
+				$(this).removeAttr('title');
+			}
+		});
+		function pinboard_move_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-container', container).before(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-container', container).before(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-container', container).before(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-container', container).after(meta);
+			}
+		}
+		function pinboard_restore_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-header', container).after(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-header', container).after(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-header', container).after(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-header', container).append(meta);
+				else
+					$('.entry-header', container).html(meta.html());
+			}
+		}
+		if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+			// Viewport is greater than tablet: portrait
+		} else {
+			$('#content .post').each(function() {
+				pinboard_move_elements($(this));
+			});
+		}
+		$(window).resize(function() {
+			if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+									$('.page-template-template-full-width-php #content .post, .page-template-template-blog-full-width-php #content .post, .page-template-template-blog-four-col-php #content .post').each(function() {
+						pinboard_restore_elements($(this));
+					});
+							} else {
+				$('#content .post').each(function() {
+					pinboard_move_elements($(this));
+				});
+			}
+			if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+				var maxh = 0;
+				$('#access .menu > li > a').each(function() {
+					if(parseInt($(this).css('height'))>maxh) {
+						maxh = parseInt($(this).css('height'));
+					}
+				});
+				$('#access .menu > li > a').css('height', maxh);
+			} else {
+				$('#access .menu > li > a').css('height', 'auto');
+			}
+		});
+		if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+			var maxh = 0;
+			$('#access .menu > li > a').each(function() {
+				var title = $(this).attr('title');
+				if(typeof title !== 'undefined' && title !== false) {
+					$(this).append('<br /> <span>'+title+'</span>');
+					$(this).removeAttr('title');
+				}
+				if(parseInt($(this).css('height'))>maxh) {
+					maxh = parseInt($(this).css('height'));
+				}
+			});
+			$('#access .menu > li > a').css('height', maxh);
+							$('#access li').mouseenter(function() {
+					$(this).children('ul').css('display', 'none').stop(true, true).fadeIn(250).css('display', 'block').children('ul').css('display', 'none');
+				});
+				$('#access li').mouseleave(function() {
+					$(this).children('ul').stop(true, true).fadeOut(250).css('display', 'block');
+				});
+					} else {
+			$('#access li').each(function() {
+				if($(this).children('ul').length)
+					$(this).append('<span class="drop-down-toggle"><span class="drop-down-arrow"></span></span>');
+			});
+			$('.drop-down-toggle').click(function() {
+				$(this).parent().children('ul').slideToggle(250);
+			});
+		}
+						$('audio,video').mediaelementplayer({
+			videoWidth: '100%',
+			videoHeight: '100%',
+			audioWidth: '100%',
+			alwaysShowControls: true,
+			features: ['playpause','progress','tracks','volume'],
+			videoVolume: 'horizontal'
+		});
+		$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe, object, embed"});
+	});
+	jQuery(window).load(function() {
+					jQuery('.entry-content a[href$=".jpg"],.entry-content a[href$=".jpeg"],.entry-content a[href$=".png"],.entry-content a[href$=".gif"],a.colorbox').colorbox({
+				maxWidth: '100%',
+				maxHeight: '100%',
+			});
+			});
+/* ]]> */
+</script>
+<style type="text/css">
+																																											.gist pre { text-align: left }</style>
+<style type="text/css">
+	#site-title a,
+	#site-description {
+		color:#333333;
+	}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://cromwellhaus.com/wp-content/themes/pinboard/images/bg.jpg'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+</head>
+
+<body class="single single-post postid-717 single-format-standard custom-background page-template-template-full-width-php">
+	<div id="wrapper">
+		<header id="header">
+			<div id="site-title">
+								<a class="home" href="http://cromwellhaus.com/" rel="home">Ryan Cromwell</a>
+			</div>
+							<div id="site-description">Big vision. Small changes.  Learn by shipping.</div>
+							<form role="search" method="get" id="searchform" action="http://cromwellhaus.com//" >
+	<input type="text" value="" placeholder="Search this website&#8230;" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+</form>			<div id="social-media-icons">
+									<a class="social-media-icon twitter" href="http://twitter.com/cromwellryan">Twitter</a>
+																		<a class="social-media-icon youtube" href="http://www.youtube.com/channel/UCulXjBNxl_oe4_gjQV1jb2Q">Vimeo</a>
+															<a class="social-media-icon linkedin" href="http://www.linkedin.com/in/cromwellryan">LinkedIn</a>
+					</div>
+				<div class="clear"></div>
+			<nav id="access">
+				<a class="nav-show" href="#access">Show Navigation</a>
+				<a class="nav-hide" href="#nogo">Hide Navigation</a>
+				<div class="menu"><ul><li class="page_item page-item-834"><a href="http://cromwellhaus.com/about/">Bio</a></li><li class="page_item page-item-801"><a href="http://cromwellhaus.com/presentations/">Presentations</a></li></ul></div>
+				<div class="clear"></div>
+			</nav><!-- #access -->
+		</header><!-- #header -->	<div id="container">
+		<section id="content" class="column onecol">
+							<article class="post-717 post type-post status-publish format-standard hentry category-networking category-virtual-pc column onecol" id="post-717">
+					<div class="entry">
+						<header class="entry-header">
+							<h1 class="entry-title">Setting up a Virtual PC Domain</h1>
+									<aside class="entry-meta">
+							<span class="entry-author-link"><a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></span>
+									<span class="entry-date">July 7, 2008</span>
+												<span class="entry-category"><a href="http://cromwellhaus.com/category/networking/" title="View all posts in Networking" rel="category tag">Networking</a>, <a href="http://cromwellhaus.com/category/virtual-pc/" title="View all posts in Virtual PC" rel="category tag">Virtual PC</a></span>
+																		<div class="clear"></div>
+		</aside><!-- .entry-meta -->
+							</header><!-- .entry-header -->
+						<div class="entry-content">
+														<p>I do a lot of demos and Virtual PC 2007 is a mainstay in my arsenal for those demos.&nbsp; I&#8217;ve used VMWare Server (the free one) and it is very nice, but I run an x64 OS and VMWare had neglected to sign certain emulation drives which caused me enough headache that I ditched it for the easy of VPC.&nbsp; </p>
+<p>I mentioned using <a href="http://cromwellhaus.com/blogs/ryanc/archive/2008/06/13/sysprep-your-virtual-pc-images.aspx">Syspreping</a> for my VPC library prior which saves me a ton of time, but one of the things I&#8217;ve always started but never finished was setting up a Virtual Domain.&nbsp; Well this weekend, I finished things up and I&#8217;m happy to say, it wasn&#8217;t that bad.&nbsp; </p>
+<p>Here&#8217;s what I did:</p>
+<p><strong>Create My Domain Controller Machine</strong> by copying a Syspreped Window 2008 Server harddrive image and creating a new Virtual PC using an existing hard drive.&nbsp; About 120 seconds later I have a free standing vanilla server ready to roll.</p>
+<p><strong><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_8.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="174" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_3.png" width="240" align="right" border="0"></a>Configure Network Adapter(s) </strong>by specifying <em>Local Only</em> in the VPC&#8217;s Network Settings.&nbsp; </p>
+<p>At this point you&#8217;ll want to log into VPC if you haven&#8217;t already.&nbsp; We&#8217;ll want to isolate our domain and let each of the workstation VPC&#8217;s communicate with the domain controller by going into the Network Adapter&#8217;s properties.&nbsp; Our little domain network is going to be rather isolated.&nbsp; To accomplish this, we will specify a specific Subnet and IP address range.&nbsp; Here is what I&#8217;ve used for mine:</p>
+<blockquote><p>IP Range: 192.168.8.1 &#8211; 254 (where 192.168.8.1 is my domain controller IP)<br />Subnet Mask: 255.255.248.0<br />Gateway: 192.168.8.1 (DC/DNS server)<br />Primary DNS: 192.168.8.1 (DC/DNS server)</p>
+</blockquote>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_4.png"><strong><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="205" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_1.png" width="244" align="right" border="0"></strong></a><strong> Setting up Active Directory</strong> is a breeze if you do it the easy way.&nbsp; Of course, I did it the easy way the last time.&nbsp; (Note to self: when just learning, take the defaults).&nbsp; Windows Server 2003 and 2008 have this concept of Roles.&nbsp; A server can fill one or more roles which are the conglomeration of settings, services, etc to do something more abstract&#8230; like be a DC.&nbsp; We are going to add the role <em>Active Directory Domain Services</em>.&nbsp;&nbsp; </p>
+<p>After the Add Role wizard does it&#8217;s thing, you actually &#8220;promote&#8221; the machine to a DC by running dcpromo.exe (Start, dcpromo, Enter).&nbsp; This is where you make your selections, which in this case, I&#8217;ve chosen:</p>
+<blockquote><p>Create a new domain in a new forest<br />FQDN: vpc.com</p>
+</blockquote>
+<p>You&#8217;ll want to let the machine also be a DNS server.&nbsp; This is where I screwed up the first time.&nbsp; Don&#8217;t get scared here, with our networking settings this domain we&#8217;re setting up won&#8217;t touch your corporate domain or anything crazy like that.</p>
+<p>Let the Wizard do it&#8217;s thing and reboot when it is complete.</p>
+<p>Your Active Directory Domain Controller is ready to roll.&nbsp; Great job. </p>
+<p><strong>Adding Workstations </strong>is a matter of adding a Computer entry into the <em>Active Directory Users and Computers</em> console and then actually adding the computer to the domain.&nbsp; You&#8217;ll find the AD Users and Computers MMC console in Administrative Tools.&nbsp; Once you&#8217;ve added a computer entry, log into another VPC instance which has the same Network Adapter settings as above (different IP of course .2, .3, etc) and add the machine to the domain (vpc.com) in my case.&nbsp; </p>
+<p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_10.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="244" alt="image" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb_5F00_4.png" width="222" align="right" border="0"></a>Here&#8217;s a quick screen capture of my Network Adapter on the Workstation I added to the domain.</p>
+<p>It&#8217;s great being able to demo Enterprise software this way or test things like integrated authentication for intranet applications. </p>
+							<div class="clear"></div>
+						</div><!-- .entry-content -->
+						<footer class="entry-utility">
+																							<div class="social-bookmarks">
+			<p>Did you like this article? Share it with your friends!</p>
+							<div class="facebook-like">
+					<div id="fb-root"></div>
+					<script>
+						(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+							fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));
+					</script>
+					<div class="fb-like" data-href="http://cromwellhaus.com/2008/07/setting-up-a-virtual-pc-domain/" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div>
+				</div><!-- .facebook-like -->
+										<div class="twitter-button">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://cromwellhaus.com/2008/07/setting-up-a-virtual-pc-domain/">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div><!-- .twitter-button -->
+										<div class="google-plusone">
+					<div class="g-plusone" data-size="medium" data-href="http://cromwellhaus.com/2008/07/setting-up-a-virtual-pc-domain/"></div>
+					<script type="text/javascript">
+						(function() {
+							var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+							po.src = 'https://apis.google.com/js/plusone.js';
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+						})();
+					</script>
+				</div><!-- .google-plusone -->
+									<div class="clear"></div>
+		</div><!-- .social-bookmarks -->
+										<div class="entry-author">
+			<img alt='' src='http://0.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=96&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G' class='avatar avatar-96 photo' height='96' width='96' />			<h3 class="author vcard">Written by <span class="fn"><a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></span></h3>
+			<p class="author-bio"></p>
+			<div class="clear"></div>
+		</div><!-- .entry-author -->
+							</footer><!-- .entry-utility -->
+					</div><!-- .entry -->
+					
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-42">
+        <div id="dsq-comment-header-42" class="dsq-comment-header">
+            <cite id="dsq-cite-42">
+                <span id="dsq-author-user-42">Andre</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-42" class="dsq-comment-body">
+            <div id="dsq-comment-message-42" class="dsq-comment-message"><p>Excellent<br />
+thanks really help</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-43">
+        <div id="dsq-comment-header-43" class="dsq-comment-header">
+            <cite id="dsq-cite-43">
+http://fandang-o.blogspot.com                <span id="dsq-author-user-43">Rick</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-43" class="dsq-comment-body">
+            <div id="dsq-comment-message-43" class="dsq-comment-message"><p>Thanks for this wonderful explanation. My dc had some sort of problem connecting to other v machines, now works fine. so thanks again. PS. all other reviews on this i found online are inaccurate.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment even thread-even depth-1" id="dsq-comment-44">
+        <div id="dsq-comment-header-44" class="dsq-comment-header">
+            <cite id="dsq-cite-44">
+                <span id="dsq-author-user-44">cromwellryan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-44" class="dsq-comment-body">
+            <div id="dsq-comment-message-44" class="dsq-comment-message"><p>@Rick Glad to help.</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-45">
+        <div id="dsq-comment-header-45" class="dsq-comment-header">
+            <cite id="dsq-cite-45">
+                <span id="dsq-author-user-45">Krishna</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-45" class="dsq-comment-body">
+            <div id="dsq-comment-message-45" class="dsq-comment-message"><p>Thanks a ton.. I went to lot of other blogs which tried to explain how to setup virtual network with VPC..</p>
+<p>But your blog was on the spot.. Awesome god bless</p>
+</div>
+        </div>
+
+    </li><!-- #comment-## -->
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://cromwellhaus.com/2008/07/setting-up-a-virtual-pc-domain/';
+    var disqus_identifier = '717 /blogs/ryanc/archive/2008/07/07/setting-up-a-virtual-pc-domain.aspx';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cromwellhaus';
+    var disqus_title = "Setting up a Virtual PC Domain";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+        config.language = '';
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '?cf_action=sync_comments&post_id=717';
+
+            var firstScript = document.getElementsByTagName( "script" )[0];
+            firstScript.parentNode.insertBefore(script, firstScript);
+        });
+                    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/cromwellhaus.com\/2008\/07\/setting-up-a-virtual-pc-domain\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.' + 'disqus.com' + '/embed.js?pname=wordpress&pver=2.74';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+				</article><!-- .post -->
+					</section><!-- #content -->
+			</div><!-- #container -->
+				<div id="footer">
+						<div id="copyright">
+				<p class="copyright twocol">© 2013 Ryan Cromwell</p>
+									<p class="credits twocol">
+																															Powered by <a href="http://www.onedesigns.com/wordpress-themes/pinboard" title="Pinboard Theme">Pinboard Theme</a> by <a href="http://www.onedesigns.com/" title="One Designs">One Designs</a>											</p>
+								<div class="clear"></div>
+			</div><!-- #copyright -->
+		</div><!-- #footer -->
+	</div><!-- #wrapper -->
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2013-10-13 22:40:00 by W3 Total Cache -->

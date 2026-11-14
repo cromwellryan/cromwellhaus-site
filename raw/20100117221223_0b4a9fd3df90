@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>April &raquo; 2007 &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="Bio">Bio</a></li><li class="page_item page-item-757"><a href="http://blog.cromwellhaus.com/index.php/dayton-code-coffee/" title="Dayton Code &amp; Coffee">Dayton Code &#038; Coffee</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for April, 2007</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-676 post hentry category-uncategorized">
+			<h2 id="post-676"><a href="http://blog.cromwellhaus.com/index.php/2007/04/personal-backup-with-mozy/" rel="bookmark" title="Permanent Link to Personal Backup with Mozy">Personal Backup with Mozy</a></h2>
+			<small class="meta">April 27th, 2007 </small>
+
+			<div class="entry">
+				<p>Relatively speaking, I&#8217;ve been one lucky computer user.&nbsp; I&#8217;ve never had a hard drive fail here at the house.&nbsp; I&#8217;ve never accidentally deleted something vital.&nbsp; I even&nbsp;believed in the&nbsp;annual-reimage.&nbsp; As far as losing data I&#8217;ve never really lost anything I cared that much about.&nbsp; For that reason, I&#8217;m only now looking at a serious backup &#8220;strategy&#8221;.&nbsp; I put &#8220;strategy&#8221; in quotes, because DVD&#8217;s and CD&#8217;s do not suffice as a strategy.&nbsp; It&#8217;s a good step that should be used in a strategy, but by itself you do not have a strategy.</p>
+<p>Now that more than just I rely on our financial data being in order (I&#8217;m a huge Quicken believer) and we have more pictures of our <a href="http://cromwellhaus.com/photos/baby/">3 month old sun</a>&nbsp;than the previous 28 years of our lives combined I have a vested interest in not losing it all.</p>
+<p>I&#8217;ve been mulling my options now for about 3 or 4 months; playing with different tools like <a href="http://www.jungledisk.com/">Jungle Disk</a>, <a href="http://www.microsoft.com/windows/products/windowsvista/features/details/backup.mspx">Vista Backup and Restore</a>, <a href="http://www.microsoft.com/windows/products/winfamily/windowshomeserver/default.mspx">Windows Home Server,</a> <a href="http://mozy.com/">Mozy</a>, and several others.&nbsp; </p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/04/personal-backup-with-mozy/#respond" title="Comment on Personal Backup with Mozy">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-675 post hentry category-powershell">
+			<h2 id="post-675"><a href="http://blog.cromwellhaus.com/index.php/2007/04/signing-your-powershell-profile-scripts/" rel="bookmark" title="Permanent Link to Signing your Powershell Profile Scripts">Signing your Powershell Profile Scripts</a></h2>
+			<small class="meta">April 23rd, 2007 </small>
+
+			<div class="entry">
+				<p>Running with <a href="http://www.microsoft.com/technet/scriptcenter/topics/msh/cmdlets/set-executionpolicy.mspx">Set-ExecutionPolicy</a> as AllSigned or&nbsp;Restricted with a roaming profile?&nbsp; Here&#8217;s a cmdlet pair that will sign all the scripts in your profile directory.&nbsp; Makes life easier on me as I include a number of scripts into my main profile for readability:</p>
+<blockquote><p><em>function sign-profile()<br />{<br />&nbsp;&nbsp;&nbsp; dir $Profiledir\*.ps1 | foreach-object { sign-script $_.FullName }<br />} </em></p>
+<p><em>function sign-script( $scriptsource ) <br />{<br />&nbsp;&nbsp;&nbsp; get-item $scriptsource <br />&nbsp;&nbsp;&nbsp; Set-AuthenticodeSignature $scriptsource @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0]<br />}</em></p>
+</blockquote>
+<p>And if you aren&#8217;t already using Powershell, stop wasting your time with the Command Prompt and <a href="http://www.microsoft.com/powershell/download">go get it</a>.&nbsp; Don&#8217;t forget the <a href="http://www.codeplex.com/PowerShellCX/">Powershell Community Extensions</a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/04/signing-your-powershell-profile-scripts/#respond" title="Comment on Signing your Powershell Profile Scripts">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/powershell/" title="View all posts in Powershell" rel="category tag">Powershell</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-674 post hentry category-net category-wpf">
+			<h2 id="post-674"><a href="http://blog.cromwellhaus.com/index.php/2007/04/visual-studio-orcas-beta-1/" rel="bookmark" title="Permanent Link to Visual Studio Orcas Beta 1">Visual Studio Orcas Beta 1</a></h2>
+			<small class="meta">April 20th, 2007 </small>
+
+			<div class="entry">
+				<p>The last few weeks I&#8217;ve felt like a&nbsp;little intern&nbsp;again.&nbsp; With the <a title="WPF Bootcamp" href="http://cromwellhaus.com/blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1.aspx">WPF Bootcamp</a>&nbsp;and the&nbsp;early stages&nbsp;WCF integration into the Speedy Rewards messaging infrastructure (I&#8217;ll be posting on this soon), I&#8217;ve had lots of time to play with .Net 3.0 stuff.&nbsp; </p>
+<p>For those that have had a chance to fiddle, there are two feasible options at this point: 1) <a href="http://www.microsoft.com/downloads/details.aspx?FamilyId=F54F5537-CC86-4BF5-AE44-F5A1E805680D&amp;displaylang=en">VS.Net Extensions for WCF &amp; WPF</a>&nbsp;and 2) <a href="http://msdn2.microsoft.com/en-us/vstudio/aa700831.aspx">Orcas CTP&#8217;s</a>.&nbsp; The Extensions, in my opinion, were a valiant stop-gap effort to get people started.&nbsp; This is especially true for WCF, because there isn&#8217;t a whole lot of design time experience necessary for web services with the exception of those monstrous config sections.&nbsp; The WPF extensions were OK, but it was basically like having <a title="XamlPad" href="http://msdn2.microsoft.com/en-us/library/ms742398.aspx">XAMLPad</a> embedded in VS.&nbsp;&nbsp;Orcas CTPS, on the other hand, have been virtually useless.&nbsp; The WPF designer crashed regularly and was slower than&nbsp;waiting for&nbsp;me do math in my head.&nbsp; This may be due to the Virtual PC requirements, since they hadn&#8217;t yet worked out the issue of Visual Studio 2005 and Orcas living happily side-by-side.</p>
+<p>Anyway&#8217;s, as of today, there is a better #2.&nbsp; Orcas has hit Beta 2.&nbsp; <a href="http://msdn2.microsoft.com/en-us/vstudio/aa700831.aspx">Go get it</a>.&nbsp; There are <a title="Visual Studio &quot;Orcas&quot; downloads" href="http://msdn.microsoft.com/vstudio/express/future/default.aspx">Express SKU&#8217;s</a> too, so don&#8217;t worry if you aren&#8217;t an MSDN Subscriber, you can join the party too.</p>
+<p>Happy coding &#8211; go make something cool.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/04/visual-studio-orcas-beta-1/#respond" title="Comment on Visual Studio Orcas Beta 1">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-673 post hentry category-net category-performance">
+			<h2 id="post-673"><a href="http://blog.cromwellhaus.com/index.php/2007/04/performancehelper-for-easy-performancecounter-integration/" rel="bookmark" title="Permanent Link to PerformanceHelper for easy PerformanceCounter integration">PerformanceHelper for easy PerformanceCounter integration</a></h2>
+			<small class="meta">April 19th, 2007 </small>
+
+			<div class="entry">
+				<p>In the <a title="Speedway SpeedyRewards&trade;" href="http://www.speedyrewards.com">Speedy Rewards</a>&nbsp;team here we use custom&nbsp;<a href="http://msdn2.microsoft.com/en-us/library/system.diagnostics.performancecounter.aspx">PerformanceCounters</a> quite extensively to monitor and trend our host systems.&nbsp; You may not know, but our rewards program implements real-time host integration for transactions that are Id&#8217;ed as a <a href="http://www.speedyrewards.com">SpeedyRewards</a>&nbsp;member such that systems like the in-store kiosk, <a href="http://www.SpeedyRewards.com">www.SpeedyRewards.com</a>, and any other store you may soon visit can accurately reflect balance updates immediately.&nbsp; With 1600+ stores doing this and a sub-1 second response time, we need to keep a close eye on things.</p>
+<p>Today I was trying to do some preliminary performance profiling on our new WCF based messaging infrastructure.&nbsp; To make my life a little easier, I&nbsp;put together&nbsp;a PerformanceHelper&nbsp;class that I actually modeling off the Tracer class found in the <a href="http://www.microsoft.com/downloads/details.aspx?familyid=a7d2a109-660e-444e-945a-6b32af1581b3&amp;displaylang=en">Enterprise Library 1.1</a>.&nbsp; To use it, you wrap a section of code you wish to monitor performance for with the following:</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">using</span>(<span style="color: rgb(0,0,255)">new</span> <span style="color: rgb(0,128,128)">PerformanceHelper</span>(CATEGORY, <span style="color: rgb(128,0,0)">"&lt;BlockInstanceName&gt;"</span>) )
+{
+    <span style="color: rgb(0,128,0)">//...
+</span>}</pre>
+</blockquote>
+<p>This will provide you with a <a href="http://msdn2.microsoft.com/en-us/library/system.diagnostics.performancecountertype.aspx">RateOfCountsPerSecond32</a> counter and an <a href="http://msdn2.microsoft.com/en-us/library/system.diagnostics.performancecountertype.aspx">AverageTimer32</a> counter&nbsp;called &#8220;Operations/sec\&lt;BlockInstanceName&gt;&#8221; and &#8220;Average Time/Operation\&lt;BlockInstanceName&gt;&#8221; respectively.&nbsp; You can download the&nbsp;<a title="PerformanceHelper.cs" href="http://cromwellhaus.com/files/folders/netcode/entry172.aspx">PerformanceHelper class here</a> and a <a title="Performance Helper Sample Project" href="http://cromwellhaus.com/files/folders/netcode/entry173.aspx">sample project here</a>.&nbsp; </p>
+<p>Feel free to use and abuse it, but be aware that this has not fully tested and may well contain bugs.&nbsp; <em>I provide NO warranty or guarantees</em>, so don&#8217;t come to me when your server blue-screens from a corrupt registry (not that I&#8217;ve ever done that).&nbsp; Use at your own peril.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/04/performancehelper-for-easy-performancecounter-integration/#respond" title="Comment on PerformanceHelper for easy PerformanceCounter integration">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/performance/" title="View all posts in Performance" rel="category tag">Performance</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-672 post hentry category-personal">
+			<h2 id="post-672"><a href="http://blog.cromwellhaus.com/index.php/2007/04/vacation-at-your-own-peril/" rel="bookmark" title="Permanent Link to Vacation at your own peril!">Vacation at your own peril!</a></h2>
+			<small class="meta">April 16th, 2007 </small>
+
+			<div class="entry">
+				<p>A co-worker of mine recently went on vacation for a week.&nbsp; Here&#8217;s what he returned to:</p>
+<p>We went with a &#8220;Little Tikes&#8221; theme.</p>
+<p><a href="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC002504.jpg" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="180" src="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC00250_thumb2.jpg" width="240" border="0"></a><a href="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC002512.jpg" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="180" src="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC00251_thumb.jpg" width="240" align="right" border="0"></a> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC002521.jpg" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="180" src="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC00252.jpg" width="240" border="0"></a>Rickie is quite the artist.&nbsp;</p>
+<p><a href="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC002536.jpg" atomicselection="true"><img style="border-right: 0px; border-top: 0px; margin: 0px 5px 0px 0px; border-left: 0px; border-bottom: 0px" height="180" src="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC00253_thumb4.jpg" width="240" align="left" border="0"></a> We wanted Rick to feel special, so we gave him his very own POS!</p>
+<p><a href="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC002543.jpg" atomicselection="true"><img style="border-right: 0px; border-top: 0px; margin: 0px 0px 0px 10px; border-left: 0px; border-bottom: 0px" height="180" src="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC00254_thumb1.jpg" width="240" align="left" border="0"></a>&nbsp;Meetings are going to be so much more&nbsp;productive now!</p>
+<p>&nbsp;</p>
+<p>This one should be in the Louvre!&nbsp; <a href="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC002551.jpg" atomicselection="true"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="180" src="http://cromwellhaus.com/blogphotos/Vacationatyourownperil_7D79/DSC00255.jpg" width="240" border="0"></a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/04/vacation-at-your-own-peril/#respond" title="Comment on Vacation at your own peril!">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/personal/" title="View all posts in Personal" rel="category tag">Personal</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-671 post hentry category-uncategorized">
+			<h2 id="post-671"><a href="http://blog.cromwellhaus.com/index.php/2007/04/xsl-transforms-applied-to-xml-namespaces/" rel="bookmark" title="Permanent Link to XSL Transforms applied to XML namespaces">XSL Transforms applied to XML namespaces</a></h2>
+			<small class="meta">April 4th, 2007 </small>
+
+			<div class="entry">
+				<p>I&#8217;m pretty sure I have run across this in the past, but apparently I&#8217;ve avoided complex XSL transforms successfully for long enough that my mind was purged of how namespaces impact your transforms.&nbsp; Today I was working on our .Net 2.0 build process and was attempting to apply a transform to the *.xxproj file that Visual Studio generates, but I was getting anything but what I would have expected.</p>
+<p>My goal was simply to copy everything into a new msbuild file, but swap out the &lt;ProjectReference /&gt; elements with &lt;Reference /&gt; elements that pointed to a&nbsp;static version.&nbsp; Our reasoning&#8217;s are a topic for another day, but suffice it to say we are control freaks and MSBuild&#8217;s apparent omniscience is not something we wish to rely on.</p>
+<p>Most people tend to avoid namespace in their custom structures, because they are time consuming to get correct and, in many cases, people don&#8217;t understand XSD well enough (understandable).&nbsp; We use them in many cases, but we rarely apply XSLT&#8217;s to these documents so the issue doesn&#8217;t commonly present itself.&nbsp; Visual Studio on the other hand, does&nbsp;specify the MSBuild namespace declaration at the &lt;Project /&gt; root.&nbsp; This means I have to account for it in my XSLT.&nbsp; Take the following snippet:</p>
+<blockquote><div><font color="#0000ff" size="3"><font size="2">&lt;</font></font><font size="2"><font color="#800000">Books</font><font color="#ff00ff"> </font><font color="#ff0000">xmlns</font><font color="#0000ff">=&#8221;http://schemas.cromwellhaus.com/samples/books&#8221;&gt;</font></font></div>
+<div style="margin-left: 10px"><font size="2"><font color="#0000ff">&lt;</font><font color="#800000">Book</font><font color="#ff00ff"> </font><font color="#ff0000">title</font><font color="#0000ff">=&#8221;Applications = Code + Markup&#8221;</font><font color="#ff00ff"> </font><font color="#ff0000">author</font><font color="#0000ff">=&#8221;Charles Petzold&#8221;</font><font color="#ff00ff"> </font><font color="#0000ff">/&gt;</font></font></div>
+<div style="margin-left: 10px"><font size="2"><font color="#0000ff">&lt;</font><font color="#800000">Book</font><font color="#ff00ff"> </font><font color="#ff0000">title</font><font color="#0000ff">=&#8221;SQL Server 2000 DTS&#8221;</font><font color="#ff00ff"> </font><font color="#ff0000">author</font><font color="#0000ff">=&#8221;Mark Chaffin&#8221;</font><font color="#ff00ff"> </font></font><font color="#0000ff"><font size="2">/&gt;</font></font></div>
+<div><font color="#0000ff"><font size="2">&lt;/</font></font><font size="1"><font size="2"><font color="#800000">Books</font><font color="#0000ff" size="3">&gt;</font></font></font><font size="1"><font size="2"><font color="#0000ff" size="3"></div>
+</blockquote>
+<p></font></font></font>
+<p>In this case, one would have to specify the &lt;Books /&gt; default namespace in their XSLT in order to reference the elements in their transform.&nbsp; The corresponding XSLT:</p>
+<blockquote><p><font color="#0000ff" size="3">
+<div><font size="2">&lt;</font></font><font size="2"><font color="#800000">xsl:stylesheet</font><font color="#ff00ff"> </font><font color="#ff0000">version</font><font color="#0000ff">=&#8221;1.0&#8243;</font><font color="#ff00ff"> </font><font color="#800000">xmlns</font><font color="#ff00ff">:</font><font color="#ff0000">xsl</font><font color="#0000ff">=<a href="http://www.w3.org/1999/XSL/Transform">http://www.w3.org/1999/XSL/Transform</a> </font></font><font size="2"><font color="#800000">xmlns</font><font color="#ff00ff">:</font><font color="#ff0000">bks</font><font color="#0000ff">=&#8221;http://schemas.cromwellhaus.com/samples/books&#8221;&gt;</font></font>&nbsp;</div>
+<p><font size="3">
+<div style="margin-left: 10px"></font><font size="2"><font color="#0000ff">&lt;</font><font color="#800000">xsl:template</font><font color="#ff00ff"> </font><font color="#ff0000">match</font><font color="#0000ff">=&#8221;bks:Books&#8221;</font><font color="#ff00ff"> </font><font color="#0000ff">&gt;</font></font></div>
+<div style="margin-left: 10px"><font size="2"><font color="#0000ff"><font size="2"><font color="#0000ff">&lt;</font><font color="#800000">xsl:apply-templates </font><font color="#ff0000">select</font><font color="#0000ff">=&#8221;./Book&#8221;</font><font color="#ff00ff"> </font><font color="#0000ff">&gt;</font></font></div>
+<p></font></font>
+<div style="margin-left: 10px"><font size="2"><font color="#0000ff">&lt;/</font><font color="#800000">xsl:template</font><font color="#0000ff">&gt;</font></font><font size="3"></div>
+<p></font>
+<div><font size="2"><font color="#0000ff"><font size="2">&lt;/</font></font><font size="2"><font color="#800000">xsl:stylesheet</font><font color="#0000ff">&gt;</font></font></font></div>
+<p></font></p></blockquote>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/04/xsl-transforms-applied-to-xml-namespaces/#respond" title="Comment on XSL Transforms applied to XML namespaces">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-670 post hentry category-net category-wpf">
+			<h2 id="post-670"><a href="http://blog.cromwellhaus.com/index.php/2007/04/microsoft-expression-blend-available-to-from-msdn/" rel="bookmark" title="Permanent Link to Microsoft Expression Blend available to from MSDN">Microsoft Expression Blend available to from MSDN</a></h2>
+			<small class="meta">April 3rd, 2007 </small>
+
+			<div class="entry">
+				<p>One of the cool tools we had a chance to use while up at the WPF Bootcamp in Redmond was <a href="http://www.microsoft.com/expression/products/overview.aspx?key=blend">Expression Blend</a>.&nbsp; While there I became pretty engrossed in the ease with which you could create fairly cool animations without an intimate knowledge of Xaml.&nbsp; This made it all that harder to leave seeing as we had the latest bits at the time (the <a href="http://www.microsoft.com/products/expression/en/expression-blend/try.mspx">Release Candidate</a>&nbsp;is available as a 30 trial).&nbsp; Fortunately, or gratefully?, Microsoft has <a href="http://blogs.msdn.com/somasegar/archive/2007/04/03/listening-to-your-feedback-expression-and-msdn.aspx">decided</a> to make it available on <a href="http://msdn2.microsoft.com/subscriptions">MSDN</a>.&nbsp; That means me!</p>
+<p>I will say though, while reading <a href="http://www.charlespetzold.com/blog/blog.xml">Charles Petzold</a>&#8217;s book <a title="Application = Code + Markup" href="http://www.amazon.com/exec/obidos/redirect?path=ASIN/0735619573&amp;link_code=as2&amp;camp=1789&amp;tag=ryancrom-20&amp;creative=9325" target="_new"><img hspace="5" src="http://images.amazon.com/images/P/0735619573.01._AA_SCTZZZZZZZ_.jpg" align="right" vspace="2" border="0"></a><a href="http://www.amazon.com/exec/obidos/redirect?path=ASIN/0735619573&amp;link_code=as2&amp;camp=1789&amp;tag=ryancrom-20&amp;creative=9325">Application = Code + Markup</a>&nbsp;which starts with Code and then moves to Xaml, I believe developers and designers alike will be fooled into trying to&nbsp;generate a number of more complex animations with paths, triggers/timelines, etc. rather than implement new animations via code.&nbsp; <a href="http://blogs.msdn.com/karstenj/default.aspx">Karsten Januszewski</a>, who we were lucky enough to meet last week, pointed this exact scenario out while I was attempting to mimic the <a href="http://www.microsoft.com/casestudies/casestudy.aspx?casestudyid=201147">North Face kiosk carousel</a>&nbsp;via a path.&nbsp; He referenced a&nbsp;<a href="http://blogs.msdn.com/karstenj/archive/2007/02/23/inspired-by-flash-math-creativity-2-wpf-planets.aspx">previous post</a>&nbsp;of his&nbsp;which shows how to create a custom animation.&nbsp; Until I grasp the animation framework in WPF, I&#8217;ll not risk embarrassing myself by attempting to better explain what Karsten already does much better than I.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/04/microsoft-expression-blend-available-to-from-msdn/#respond" title="Comment on Microsoft Expression Blend available to from MSDN">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-669 post hentry category-net category-wpf">
+			<h2 id="post-669"><a href="http://blog.cromwellhaus.com/index.php/2007/04/wpf-bootcamp-day-2-blend/" rel="bookmark" title="Permanent Link to WPF Bootcamp Day 2 &#8211; Blend">WPF Bootcamp Day 2 &#8211; Blend</a></h2>
+			<small class="meta">April 1st, 2007 </small>
+
+			<div class="entry">
+				<p><em>[Update: These are being posted due to the <a title="WPF Bootcamp Day 3 - FTP Problems from the Technology Center" href="http://cromwellhaus.com/blogs/ryanc/archive/2007/03/28/wpf-bootcamp-day-3-ftp-problems-from-the-technology-center.aspx">ftp access restrictions</a> at the Microsoft Campus]</em></p>
+<p>Today has been pretty intense which has kept me away from blogging &#8220;live&#8221;.&nbsp; Today started with <a title="Kevin Moore" href="http://blogs.msdn.com/okoboji/">Kevin Moore</a>, Program Manager for WPF/Blend(?),&nbsp;and a lightning round with <a title="Microsoft Express Blend&trade;" href="http://www.microsoft.com/products/expression/en/expression-blend/default.mspx">Expression Blend</a>.&nbsp; As I mentioned <a href="http://cromwellhaus.com/blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1-expression.aspx">yesterday,</a> I&#8217;m not a designer, so Kevin had my mind spinning before breakfast had even settled.&nbsp; </p>
+<p>For those dev-signers (developers who design out of necessity) Blend is initially a very overwhelming experience.&nbsp; Don&#8217;t expect to create the <a title="North Face WPF Demo at PDC" href="http://channel9.msdn.com/Showpost.aspx?postid=116327">North Face demo</a> your first time out.&nbsp; That said, I was able grasp the benefit of a few concepts including <a href="http://msdn2.microsoft.com/en-us/library/ms742521.aspx">DataTemplates</a> and <a href="http://msdn2.microsoft.com/en-us/library/ms745683.aspx">Styles</a>.&nbsp; This stuff is like OO for UI.&nbsp; Pretty cool.</p>
+<p>&nbsp;<a href="http://cromwellhaus.com/blogphotos/WPFBootcampDay2Blend_DDDB/WPFBootcampBlendButton113.png" atomicselection="true"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="40" src="http://cromwellhaus.com/blogphotos/WPFBootcampDay2Blend_DDDB/WPFBootcampBlendButton11_thumb.png" width="129" border="0"></a> As soon as Kevin had lost me (quickly), I decided to start playing with Blend Styles and Templates.&nbsp; At the same time, I decided I&#8217;d design my own button.&nbsp; It turns out my reasoning for wanting to do this, super-rounded ends, were already possible in the standard button, but it was a good learning experience.</p>
+<p><strong>Styles</strong></p>
+<p>Styles are pretty straight forward and many references to CSS have been made.&nbsp; Styles seem to be a way to share design properties between elements, especially similar elements.&nbsp; It seems pretty intuitive, but every time you change the visual appearance of a control, even via Visual Studio or XamlPad, you are styling your control/element.&nbsp; It becomes really powerful as you share these styles across your project by including these styles in your App Resources section.&nbsp; From within Blend this is pretty easy after you&#8217;ve gone through and stylized one of your controls by selecting that element and going to the Object -&gt; Edit Style -&gt; Edit Copy.&nbsp;&nbsp;&nbsp; </p>
+<p>You can then Right Click your other elements, go to Edit Control Parts (Template) -&gt; Apply Resource and Select the Style you just created.&nbsp; You now have a sharable style across your WPF application.&nbsp; I&#8217;m still curious about the ability of sharing these styles across multiple projects and applications if you have a suite of tools.&nbsp; Are these considered&nbsp;Assets for <a href="http://www.microsoft.com/products/expression/en/Expression-Media/default.mspx">Expression Media</a>?&nbsp; That would be cool.</p>
+<p><a href="http://cromwellhaus.com/blogphotos/WPFBootcampDay2Blend_DDDB/WPFBootcampBlendButton1CreateEmptySt.png" atomicselection="true"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="207" src="http://cromwellhaus.com/blogphotos/WPFBootcampDay2Blend_DDDB/WPFBootcampBlendButton1CreateEmptySt1.png" width="240" border="0"></a> </p>
+<p><strong>Templates</strong></p>
+<p>The way I feel Templating is best described in relationship to Styling is to say that Styling helps describe the visual appearance of one or more elements, while templating describes the Element tree that makes up a visual entity.&nbsp; For instance, my button above used a template to combine two Ellipses and a Rectangle.&nbsp; But an ellipse on each end of the Rectangle and you&#8217;ve got a rounded edge button.</p>
+<p>To get started with templating, I right click on the standard button and drilled down to Edit Control Parts (Template) -&gt; Create Empty.&nbsp; If you&#8217;ve done cool stuff with your element already, you can Edit Copy and apply that to other elements rather than start over.&nbsp; I&#8217;ll go over a demo to create a pretty cool button that uses lots of composite elements to have rollover effects (glow), transition effects, etc.</p>
+<p><strong></strong>&nbsp;<a href="http://cromwellhaus.com/blogphotos/WPFBootcampDay2Blend_DDDB/WPFBootcampBlendButton1CreateEmptyTe.png" atomicselection="true"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="240" src="http://cromwellhaus.com/blogphotos/WPFBootcampDay2Blend_DDDB/WPFBootcampBlendButton1CreateEmptyTe1.png" width="229" border="0"></a></p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/04/wpf-bootcamp-day-2-blend/#respond" title="Comment on WPF Bootcamp Day 2 &#8211; Blend">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text"><div class="sb-title widgettitle">#codemash</div>			<div class="textwidget"><img src="http://codemash.org/images/badges/Oz.png" border="0" style="text-align: center" /></div>
+		</li><li id="text-5" class="widget widget_text">			<div class="textwidget"><div id="tripit-badge"><script type="text/javascript" src="http://www.tripit.com/account/badge/id/AAB428408BE7CAC8FB624DE7415D22D6/div_id/tripit-badge/badge.js"></script><noscript><a href="http://www.tripit.com/">TripIt - Organize your travel</a></noscript></div></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for April, 2007.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    	<li class="archives">
+      <div class="sb-title">Archives</div>
+  		<ul>
+  		  	<li><a href='http://blog.cromwellhaus.com/index.php/2009/12/' title='December 2009'>December 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/11/' title='November 2009'>November 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/10/' title='October 2009'>October 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://blog.cromwellhaus.com/index.php/2005/12/' title='December 2005'>December 2005</a></li>
+  		</ul>
+  	</li>
+    
+  
+</ul>
+
+
+<ul class="group">
+
+    
+
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2010 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

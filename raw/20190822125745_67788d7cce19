@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php">
+
+	<title>Scrum &#8211; Ryan Cromwell</title>
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="http://cromwellhaus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Scrum Category Feed" href="http://cromwellhaus.com/category/scrum/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.3.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.3.3';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-4332588-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-4332588-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css'  href='http://cromwellhaus.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='atomic-blocks-style-css'  href='http://cromwellhaus.com/wp-content/themes/atomic-blocks/style.css?ver=5.0.4' type='text/css' media='all' />
+<style id='atomic-blocks-style-inline-css' type='text/css'>
+
+
+	button,
+	input[type='button'],
+	input[type='submit'],
+	.button,
+	.page-numbers.current,
+	.page-numbers:hover,
+	#page #infinite-handle button,
+	#page #infinite-handle button:hover,
+	.comment-navigation a,
+	.su-button,
+	.mobile-navigation,
+	.toggle-active {
+	      background-color: #5a3fd6;
+	}
+
+	.entry-content p a,
+	.entry-content p a:hover,
+	.header-text a,
+	.header-text a:hover,
+	.entry-content .meta-list a,
+	.post-navigation a:hover .post-title,
+	.entry-header .entry-title a:hover,
+	#page .more-link:hover,
+	.site-footer a,
+	.main-navigation a:hover, 
+	.main-navigation ul li.current-menu-item a, 
+	.main-navigation ul li.current-page-item a {
+		color: #5a3fd6;
+	}
+
+	.entry-header .entry-title a:hover {
+		box-shadow: inset 0 -4px 0 #5a3fd6;
+	}
+
+	.entry-content p a,
+	.header-text a {
+		box-shadow: inset 0 -1px 0 #5a3fd6;
+	}
+
+	.entry-content p a:hover,
+	.header-text a:hover {
+		box-shadow: inset 0 -2px 0 #5a3fd6;
+	}
+
+	@media (min-width: 1000px) {
+		#primary {
+			width: 70%;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		body {
+			font-size: 20px;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		.entry-header .entry-title {
+			font-size: 50px;
+		}
+	}
+ 
+	h1, h2, h3, h4, h5, h6, body, button, 
+	input[type='button'],
+	input[type='reset'],
+	input[type='submit'],
+	.button,
+	#page #infinite-handle button {
+		font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+	}
+
+	
+</style>
+<link rel='stylesheet' id='atomic-blocks-fonts-css'  href='//fonts.googleapis.com/css?family=Muli%3A700%7CNunito+Sans%3A400%2C400i%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://cromwellhaus.com/wp-content/themes/atomic-blocks/inc/fontawesome/css/fontawesome-all.css?ver=5.0.12' type='text/css' media='screen' />
+<link rel='stylesheet' id='atomic-blocks-shared-styles-css'  href='http://cromwellhaus.com/wp-content/themes/atomic-blocks/common.css?ver=1.0' type='text/css' media='screen' />
+<style id='atomic-blocks-shared-styles-inline-css' type='text/css'>
+#editor .edit-post-visual-editor textarea.editor-post-title__input { font-size: 50px; }#editor .edit-post-visual-editor p { font-size: 20px; }
+		#editor .editor-rich-text__tinymce a { 
+			box-shadow: inset 0 -1px 0 #5a3fd6;
+			color: #5a3fd6;
+		}
+		#editor .editor-rich-text__tinymce a:hover,
+		.ab-block-post-grid h2 a:hover,
+		.ab-block-post-grid .ab-block-post-grid-link:hover {
+			color: #5a3fd6;
+			box-shadow: inset 0 -2px 0 #5a3fd6;
+		}
+</style>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"","inbound_paths":"","home_url":"http:\/\/cromwellhaus.com","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.3.3'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.4" />
+<meta property="og:title" content="Scrum" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:url" content="http://cromwellhaus.com/category/scrum/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="Archive : Scrum" /></head>
+
+<body class="archive category category-scrum category-23 featured-image-wide">
+
+<header id="masthead" class="site-header">
+	<div class="search-drawer" aria-expanded="false" role="region">
+		<div class="container">
+			<div class="drawer-search">
+				<div class="big-search">
+					
+<form role="search" method="get" class="searchform" action="http://cromwellhaus.com/">
+	<div>
+		<label class="screen-reader-text">Search for:</label>
+
+		<input type="text" value="" name="s" class="search-input" placeholder="Search here..." />
+
+		<button class="searchsubmit" type="submit">
+			<i class="fa fa-search"></i> <span>Search</span>
+		</button>
+	</div>
+</form>				</div>
+			</div>
+		</div><!-- .container -->
+	</div><!-- .drawer -->
+
+	<div class="top-navigation">
+		
+<div class="mobile-navigation">
+	<button class="menu-toggle button-toggle">
+		<span>
+			<i class="fa fa-bars"></i>
+			Menu		</span>
+		<span>
+			<i class="fa fa-times"></i>
+			Close		</span>
+	</button><!-- .overlay-toggle -->
+</div>
+
+<div class="drawer-wrap">
+	<div class="drawer drawer-menu-explore">
+		<nav id="drawer-navigation" class="drawer-navigation">
+			<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="http://cromwellhaus.com/about/">Bio</a></li>
+<li class="menu-item menu-item-search search-toggle"><i class="fa fa-search"></i><i class="fas fa-times"></i></li></ul></div>		</nav><!-- #site-navigation -->
+
+		
+<form role="search" method="get" class="searchform" action="http://cromwellhaus.com/">
+	<div>
+		<label class="screen-reader-text">Search for:</label>
+
+		<input type="text" value="" name="s" class="search-input" placeholder="Search here..." />
+
+		<button class="searchsubmit" type="submit">
+			<i class="fa fa-search"></i> <span>Search</span>
+		</button>
+	</div>
+</form>	</div><!-- .drawer -->
+</div>
+
+		<div class="container">
+			<div class="site-identity clear">
+				<!-- Site title and logo -->
+					<div class="site-title-wrap" itemscope itemtype="http://schema.org/Organization">
+		<!-- Use the Site Logo feature, if supported -->
+		
+		<div class="titles-wrap has-description">
+							<p class="site-title"><a href="http://cromwellhaus.com/" rel="home">Ryan Cromwell</a></p>
+ 			
+							<p class="site-description">Big vision. Small changes.  Learn by shipping.</p>
+					</div>
+	</div><!-- .site-title-wrap -->
+
+				<div class="top-navigation-right">
+					<!-- Main navigation -->
+					<nav id="site-navigation" class="main-navigation">
+						<div class="menu-menu-1-container"><ul id="menu-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="http://cromwellhaus.com/about/">Bio</a></li>
+<li class="menu-item menu-item-search search-toggle"><i class="fa fa-search"></i><i class="fas fa-times"></i></li></ul></div>					</nav><!-- .main-navigation -->
+				</div><!-- .top-navigation-right -->
+			</div><!-- .site-identity-->
+		</div><!-- .container -->
+	</div><!-- .top-navigation -->
+
+	<!-- Get the archive page titles -->
+			<div class="container text-container">
+			<div class="header-text">
+					<div class="page-titles">
+		<h1><span class="screen-reader-text">Category: </span>Scrum</h1>
+
+		
+	</div>
+
+				</div><!-- .header-text -->
+		</div><!-- .text-container -->
+	</header><!-- .site-header -->
+
+<div id="page" class="hfeed site container">
+	<div id="content" class="site-content">
+
+<section id="primary" class="content-area">
+	<main id="main" class="site-main">
+		<div id="post-wrap">
+			
+<article id="post-1007" class="post-1007 post type-post status-publish format-standard hentry category-agile category-scrum tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2012/02/time-box-get-stuff-done-tool-for-risk-reduction-focus-and-decision-making/" rel="bookmark">Time box: Get-Stuff-Done Tool for Risk Reduction, Focus, and Decision Making</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">February 7, 2012</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p><em>This is part two of a three part series <a href="http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/" target="_blank">Time box: A Holistic View on Sprints and Iterations</a></em></p>
+<blockquote><p>Work expands so as to fill the time available for its completion. ~ <a href="http://en.wikipedia.org/wiki/Parkinson's_law" target="_blank">Parkinson’s Law</a>, Cyril Northcote Parkinson</p></blockquote>
+<p><strong>On Risk Reduction</strong></p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image.png"><img style="background-image: none; margin: 4px 7px 4px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border-width: 0px;" title="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image_thumb.png" alt="image" width="244" height="159" align="left" border="0" /></a>Teams talk some good game when they sell Agile to their organizational leaders: real software in a few weeks, higher quality, and, if they’re really good, risk reduction.  “See, if we build these features early,” they say, “and people don’t like it, we’ve saved you 13 months of wasted effort and costs.  How can you not love this stuff?”  Sign me up Johnny!</p>
+<p>It’s true, if you build done software in 30 days or less, you do get the opportunity to inspect the output determining whether to stay the course or correct.  You can even begin taking on more creative, innovative, industry shaking adventures knowing they are limited to a few weeks or months.</p>
+<p>Looking to become strategic and not just tactical with technology… this is your ticket.</p>
+<p>But it’s not all roses. You must expect that some adventures will not end with a pot of real gold. Instead, our gold is measured in learning; new information which can be taken back and used to concoct the next ground shaking advance.  If you allow the fear of failure to drive your decisions you will grind to a halt.  Instead, create a system based on learning and encourage the free communication of that information as a value neutral asset.</p>
+<p><strong>On Focus</strong></p>
+<p>Tell me you didn’t see this coming.</p>
+<p>Every team feels the pressure of a time box.  It’s natural and it can be used wisely.  It can also be abused.  Terribly, terribly abused.  I have good news though!  Corporate evolution is on the side of the wise.</p>
+<p>Those who follow the <a href="http://www.pomodorotechnique.com/" target="_blank">Pomodoro Technique</a> create short, focused 30 minute durations to accomplish activities.  25 minutes exist for actually working the task at hand and 5 are meant to provide the necessary, human break needed to <em>maintain</em> focus over extended periods.</p>
+<p>Our Sprints must consciously reflect this same human capacity for focus in a creative environment like software development.  As outlined in <a href="http://blog.cromwellhaus.com/2012/01/time-box-safety-zone-for-creativity-cleanliness-and-sausage-stuffing/" target="_blank">our previous part of this series</a> we can easily turn a space for focus and creativity into a pressure box of panic, frustration, and corner cutting.</p>
+<p><a href="http://blog.cromwellhaus.com/2012/01/time-box-safety-zone-for-creativity-cleanliness-and-sausage-stuffing/" target="_blank">Sausage stuffing</a> is the two steps back to your previous step forward.</p>
+<p><strong>On Decision Making</strong></p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image1.png"><img style="background-image: none; padding-left: 0px; padding-right: 0px; display: inline; float: right; padding-top: 0px; border-width: 0px;" title="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image_thumb1.png" alt="image" width="244" height="202" align="right" border="0" /></a>To support a team in delivering functioning, ship-quality software in 30 days or less, organizations must provide them with timely, informed decisions to questions and alternatives.  Authoritative and informed decisions which take into account the political and user environment are necessary within minutes and hours, not days or weeks.</p>
+<p>Would you ever consider the impact of removing 10% of an existing project’s schedule?  In delaying a decision for steering committee or general approval by 1 day, a two week iteration is similarly delayed.  In the absence of responsive decision making and an open social environment for voicing questions and concerns, teams will make decisions and assumptions on their own.</p>
+<p>In many of these cases, we may have the best people on the team to make those decisions!  Time boxes demand that our teams be composed of or have direct access to those skills necessary to make decisions quickly.  This includes domain experts such as lawyers, accountants, marketing, design, etc.  With “done” software in 30 days we cannot hide the impact of delayed decisions.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-961" class="post-961 post type-post status-publish format-standard hentry category-agile category-scrum tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2012/01/time-box-safety-zone-for-creativity-cleanliness-and-sausage-stuffing/" rel="bookmark">Time box: Safety zone for Creativity, Cleanliness, and Sausage Stuffing</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">January 25, 2012</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<blockquote>
+<p>Without freedom, one’s creativity cannot bloom. ~ Dalai Lama</p>
+</blockquote>
+<h5><strong>On Creativity</strong></h5>
+<p>In his 2005 <em><a href="http://www.jpb.com/creative/OrganisationalCreativityMorris.pdf" target="_blank">A Survey of Organizational Creativity</a></em>, Wayne Morris of New Zealand found that 2 of the top 3 Factors that facilitate or enhance organizational creativity are Time and Space/resources to pursue ideas.&#160; <a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image7.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" align="right" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image_thumb7.png" width="289" height="74" /></a>Google stands as a preeminent topic brought up by software teams with it’s <a href="http://www.google.com/jobs/lifeatgoogle/englife/index.html" target="_blank">20% time</a> for engineers to follow passions. </p>
+<p>Creativity, a necessary ingredient to innovation, demands space.&#160; Space to experiment, learn, fail, and refine.&#160; Space in time, environment, and pressure.</p>
+<p><strong></strong></p>
+<p>&#160;</p>
+<h5><strong>On Cleanliness</strong></h5>
+<p>The mythic <a href="http://www.joelonsoftware.com/articles/fog0000000069.html" target="_blank">Rewrite</a>.&#160; It also comes in the form of a Refactoring Sprint. </p>
+<p><img style="margin: 4px 10px; display: inline; float: left" align="left" src="http://echelontouch.com/wp-content/uploads/2011/10/Refactoring.jpg" width="240" height="160" />Software Developers would hand over their first born in exchange for a <a href="http://jamesshore.com/Blog/How-to-Survive-a-Rewrite.html" target="_blank">Rewrite</a>.&#160; Customers hear: So we have to complete two more sprints before I can deliver new value that I can sell to pay these clowns&#8217; salaries? </p>
+<p>Keeping our code and our designs <a href="http://cincycleancoders.com/" target="_blank">clean</a> and in good state requires time and effort.&#160; This isn’t in question.&#160; Not even to your customers.&#160; It most definitely needs to happen more often than once a year or however often it’s happening today.&#160; Let’s face it, that big ball of mud didn’t happen <em>last sprint.</em>&#160; It’s been simmering for some time now.</p>
+<p>We must be delivering clean, refactored software in the midst of delivering new value.&#160; We need to do this for many reasons, but here’s one you really need to accept or go learn the hard way: cash flow is a big deal.</p>
+<p>&#160;</p>
+<h5></h5>
+<h5></h5>
+<h5>On Sausage</h5>
+<p><img style="margin: 4px 10px; display: inline; float: right" align="right" src="http://static8.businessinsider.com/image/4b673fe80000000000f25954/sausages-hot-dogs-bratwurst-ap.jpg" width="240" height="181" />I must credit <a href="http://kenschwaber.wordpress.com/" target="_blank">Ken Schwaber</a> for this analogy (and vision!).</p>
+<p>There is a great unrest growing against the velocity metric.&#160; In the minds and realities of many, velocity has been corrupt.&#160; We are using this tool for calibration to fill a sprint to capacity and beyond.&#160; To take a team to it’s limit.&#160; To optimize!</p>
+<p>We are stuffing the sausage.</p>
+<p>I say ‘we’ and you’re reading ‘they’.&#160; Admit it, I don’t blame you.&#160; I do it to.&#160; But we as team members are as much to blame.&#160; When asked what we can accomplish we take that word ‘can’ to its limit in the hopes that we are pleasing others.&#160; It’s pretty natural I’d say.</p>
+<p>Unfortunately, in stuffing our sprints like sausages we squeeze (sorry) out the space for creativity and cleanliness that should otherwise be built into our ongoing process.&#160; We must make space for the continuous improvement and balance our sense of urgency with our sense of exploration.</p>
+<p>&#160;</p>
+<h5>On Reality</h5>
+<p>Industries are not changed on <em>Innovation Day </em>or in <em>Executive Offsite Meetings</em>.&#160; They are changed through discipline and a framework for learning applied to frequent delivery. </p>
+<p>So choose a period of time which provides you an appropriate opportunity to inspect and react.&#160; Build creative, clean, done features in that time.&#160; Now use that experience to forecast which new parts of that product you can complete should you repeat that cycle in the future.</p>
+<p><img style="margin: 4px 0px; display: inline" alt="File:Claude Monet, Impression, soleil levant, 1872.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg/780px-Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg" width="240" height="185" /></p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p><font color="#666666"><a href="http://blog.cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/" target="_blank">Continue reading this Time box series here</a></font></p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-952" class="post-952 post type-post status-publish format-standard hentry category-agile category-coaching category-scrum tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2012/01/time-box-a-holistic-view-on-sprints-and-iterations/" rel="bookmark">Time box: A Holistic View on Sprints and Iterations</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">January 16, 2012</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image1.png"><img style="margin: 4px 10px; display: inline; float: left;" title="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image_thumb1.png" alt="image" width="158" height="89" align="left" /></a>Over the last few years we’ve seen a <a href="http://www.thehackerchickblog.com/2012/01/kanban-is-the-new-scrum.html">growing discontent</a> around the idea of Iterations or Sprints.  It excites me that the software community is actively engaged in questioning the long held canon of Agile practices.  Through these explorations we as an industry will find a greater depth of understanding.  Over time this can only have a positive impact on our community.</p>
+<p>In reading many of the Iteration <a href="http://blog.timwingfield.com/2011/09/06/iterations-are-not-a-deadline.html">abandonment stories</a> and views on why <a href="http://A start and an end to some amount of work.">iterations are outdated</a> I believe there is a rather one sided understanding of Iterations.  I believe this is a remnant of the software development industry’s state of being from which we came; the way referred to in the opening line of the <a href="http://agilemanifesto.org">Agile Manifesto</a>.</p>
+<blockquote>
+<p align="left">We are uncovering better ways of developing<br />
+software…</p>
+<p align="left">            ~ opening line of the Agile Manifesto</p>
+</blockquote>
+<p>I have a confession to make: I think iterations are really, really useful.  I also think they are often bastardized.  I’d like to help fix that problem and, in so doing, bring some of you back to the iteration so you can be more creative and strategic and less, well, cogs in a wheel.</p>
+<p>In a three part series of posts I will redefine the meek, abused iteration for you as a:</p>
+<ul>
+<li><a title="Time box: Safety zone for Creativity, Cleanliness, and Sausage Stuffing" href="http://blog.cromwellhaus.com/2012/01/time-box-safety-zone-for-creativity-cleanliness-and-sausage-stuffing/">Safety Zone for creativity and complex problem solving</a></li>
+<li><a title="Time box: Get-Stuff-Done Tool for Risk Reduction, Focus, and Decision Making" href="http://blog.cromwellhaus.com/2012/02/time-box-get-stuff-done-tool-for-risk-reduction-focus-and-decision-making/">Get S^&amp;* Done tool for decision making and focus</a></li>
+<li>Yardstick for objectively evaluating the impact of choices and change over time</li>
+</ul>
+<p>If you really, really want to love going to work, experiment with cool new technologies and techniques even in the most conservative organization, and want the best argument for &#8216;going Agile’ then stick with me.  By the time we’re done you will have a better understand of what a time box really is, where the time box applies, where it corrupts and, how to make a balanced decision for the duration of your next time box.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-947" class="post-947 post type-post status-publish format-standard hentry category-agile category-coaching category-craftsmanship category-scrum tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2012/01/definition-of-done-discovery/" rel="bookmark">Definition of Done Discovery</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">January 4, 2012</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p>One of the important aspects of Scrum and the more fundamental concept incremental delivery is building <em>Done</em> software each iteration.&#160; There are a lot of holes in that statement, but that makes sense; <a href="http://www.scrum.org/scrumguides/">Scrum is full of holes</a>… on purpose.&#160; If you want answers rather than a framework built for learning, Agile ain’t for you.</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" align="right" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/01/image_thumb.png" width="244" height="184" /></a>Having a clear, well understood and explicit Definition of Done that everyone, including your product owner and surrounding teams accept is very important to growing quality and capabilities consciously.&#160; Underlying any Definition of Done is the expectation that the useful (for another day) software is ready for consumption by those who asked for it.</p>
+<p>As a new team, discovering your initial definition of done can be surprisingly challenging.&#160; Certainly we can come up with things that we want to do and I say go for it!&#160; Only inspection at regular intervals can tell us for sure where we are and what the impact has been.&#160; But there are some things we can do to help make this decision more effectively.&#160; And it doesn’t take long.&#160; 30 minutes… maybe.</p>
+<h6>Circles and Soup</h6>
+<p><a href="http://innovationgames.com/">Innovations Games</a> has a fantastic activity with many applications called <a href="http://innovationgames.com/circles-and-soup/">Circles and Soup</a> (sometimes called <a href="https://matthewbussa.wordpress.com/2010/09/08/the-soup-experiment/">The Soup</a>).&#160; I’ve used this to help a pissed off team focus their energy, but it’s also very helpful in creating an initial Definition of Done that is truly attainable.</p>
+<p>You should read the <a href="http://innovationgames.com/circles-and-soup/">full instructions</a>, but suffice it to say the team will categorize those activities both historically done (i.e. architecture review) and potential (i.e. TDD) that must or should be accomplished to deliver into: Things They Control, Things They Influence, or The Soup (things they have no control or influence over).&#160; This is immediately actionable information, but also a roadmap to move items into the teams control.&#160; Share this with your <a href="http://netmap.wordpress.com/">organization and advocates</a>.</p>
+<p>A Definition of Done, something that they agree will <u>always</u> be completed before calling a feature or story or product backlog item done, which includes activities outside of the team’s control is risky or foolish.&#160; You should control your own destiny as best as possible.&#160; How can a team ever feel at all confident in their own <a href="http://elegantcode.com/2011/07/21/the-scrum-guide-2011/">forecasts</a> otherwise.</p>
+<h6>-ilities</h6>
+<p>In the <a href="http://www.scrum.org/professionalscrumdeveloper/">Professional Scrum Developer</a> course we talk about and spend a few minutes brainstorming attributes that define quality.&#160; We call these ‘ilities’.&#160; Things like <em>maintainability, supportability, reliability, performance-ability.</em>&#160; Ok I made that last one up, but you get the idea.&#160; It’s a big list too.&#160; </p>
+<p>Very few people will argue that missing an -ility negatively influences the quality of an application. Which –ilities are most important, though, depends on many factors.&#160; Type of application, type of user, industry, etc.</p>
+<p>What I like to do as a facilitator for this activity:</p>
+<ol>
+<li>Ask the team to break up in pairs or individuals for 5 minutes.&#160; Write every attribute that affects your impression of any application you’ve ever used on a sticky.&#160; </li>
+<li>Then come together, remove duplicates and put them on the wall for another 5 minutes (usually less).&#160; This creates discussion about what people intended or experiences.&#160; Often another -ility or two will be discovered.</li>
+<li>Use <a href="http://martinfowler.com/bliki/DotVoting.html">dot voting</a> or some other form of ranking to figure out which –ilities are most important to this application.</li>
+</ol>
+<h6></h6>
+<h6>Putting it together</h6>
+<p>You should now have a good idea of what the team has true ownership of and what is most important to build a great application for the intended customer.</p>
+<p>With the results on either side of a whiteboard or giant sticky, choose a few activities which correlate the important –ilities and the activities in the team’s control to determine an actionable, checkbox-able list of things you feel will assure each feature and sprint produces Done software.</p>
+<p>Each iteration you have the opportunity to review these artifacts or recreate them to evolve your Definition of Done from good to great.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-903" class="post-903 post type-post status-publish format-standard hentry category-agile category-coaching category-scrum tag-agile without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="http://cromwellhaus.com/2011/05/cone-of-uncertainty-graphic-with-events-in-time/" rel="bookmark">Cone of Uncertainty Graphic with Events in Time</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">May 27, 2011</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p>I’ve always received great feedback when describing the cone of uncertainty to groups on a whiteboard using events in time rather than simply an abstract timeline.&#160; Today I put a graphic together that I can easily share or refer to.&#160; Thought I’d post it for others as well.&#160; Feel free to use it and let me know what you think.&#160; </p>
+<p><em>Disclaimer: All events are provided as examples which can and may occur as you work toward solving a problem.&#160; I’m not advising you to include these explicitly in your process.</em></p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2011/05/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2011/05/image_thumb.png" width="644" height="474" /></a></p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+		</div>
+
+		
+	<nav class="navigation pagination" role="navigation">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><span aria-current='page' class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://cromwellhaus.com/category/scrum/page/2/'>2</a>
+<a class='page-numbers' href='http://cromwellhaus.com/category/scrum/page/3/'>3</a>
+<a class="next page-numbers" href="http://cromwellhaus.com/category/scrum/page/2/">Next</a></div>
+	</nav>	</main><!-- #main -->
+</section><!-- #primary -->
+
+
+	</div><!-- #content -->
+</div><!-- #page .container -->
+
+<footer id="colophon" class="site-footer">
+	<div class="container">
+		
+		<div class="footer-bottom">
+			<div class="footer-tagline">
+				<div class="site-info">
+					Copyright Ryan Cromwell 2019				</div>
+			</div><!-- .footer-tagline -->
+
+					</div><!-- .footer-bottom -->
+	</div><!-- .container -->
+</footer><!-- #colophon -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var atomic_blocks_js_vars = {"ajaxurl":"http:\/\/cromwellhaus.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/atomic-blocks/js/atomic-blocks.js?ver=1.0'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/atomic-blocks/js/jquery.fitvids.js?ver=1.1'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=5.0.4'></script>
+
+</body>
+</html>

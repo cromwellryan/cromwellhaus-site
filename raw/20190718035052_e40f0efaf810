@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://cromwellhaus.com/xmlrpc.php">
+
+	<title>cromwellryan &#8211; Page 2 &#8211; Ryan Cromwell</title>
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="https://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="https://cromwellhaus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Posts by cromwellryan Feed" href="https://cromwellhaus.com/author/cromwellryan/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.3.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.3.3';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-4332588-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-4332588-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css'  href='https://cromwellhaus.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='atomic-blocks-style-css'  href='https://cromwellhaus.com/wp-content/themes/atomic-blocks/style.css?ver=5.0.4' type='text/css' media='all' />
+<style id='atomic-blocks-style-inline-css' type='text/css'>
+
+
+	button,
+	input[type='button'],
+	input[type='submit'],
+	.button,
+	.page-numbers.current,
+	.page-numbers:hover,
+	#page #infinite-handle button,
+	#page #infinite-handle button:hover,
+	.comment-navigation a,
+	.su-button,
+	.mobile-navigation,
+	.toggle-active {
+	      background-color: #5a3fd6;
+	}
+
+	.entry-content p a,
+	.entry-content p a:hover,
+	.header-text a,
+	.header-text a:hover,
+	.entry-content .meta-list a,
+	.post-navigation a:hover .post-title,
+	.entry-header .entry-title a:hover,
+	#page .more-link:hover,
+	.site-footer a,
+	.main-navigation a:hover, 
+	.main-navigation ul li.current-menu-item a, 
+	.main-navigation ul li.current-page-item a {
+		color: #5a3fd6;
+	}
+
+	.entry-header .entry-title a:hover {
+		box-shadow: inset 0 -4px 0 #5a3fd6;
+	}
+
+	.entry-content p a,
+	.header-text a {
+		box-shadow: inset 0 -1px 0 #5a3fd6;
+	}
+
+	.entry-content p a:hover,
+	.header-text a:hover {
+		box-shadow: inset 0 -2px 0 #5a3fd6;
+	}
+
+	@media (min-width: 1000px) {
+		#primary {
+			width: 70%;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		body {
+			font-size: 20px;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		.entry-header .entry-title {
+			font-size: 50px;
+		}
+	}
+ 
+	h1, h2, h3, h4, h5, h6, body, button, 
+	input[type='button'],
+	input[type='reset'],
+	input[type='submit'],
+	.button,
+	#page #infinite-handle button {
+		font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+	}
+
+	
+</style>
+<link rel='stylesheet' id='atomic-blocks-fonts-css'  href='//fonts.googleapis.com/css?family=Muli%3A700%7CNunito+Sans%3A400%2C400i%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://cromwellhaus.com/wp-content/themes/atomic-blocks/inc/fontawesome/css/fontawesome-all.css?ver=5.0.12' type='text/css' media='screen' />
+<link rel='stylesheet' id='atomic-blocks-shared-styles-css'  href='https://cromwellhaus.com/wp-content/themes/atomic-blocks/common.css?ver=1.0' type='text/css' media='screen' />
+<style id='atomic-blocks-shared-styles-inline-css' type='text/css'>
+#editor .edit-post-visual-editor textarea.editor-post-title__input { font-size: 50px; }#editor .edit-post-visual-editor p { font-size: 20px; }
+		#editor .editor-rich-text__tinymce a { 
+			box-shadow: inset 0 -1px 0 #5a3fd6;
+			color: #5a3fd6;
+		}
+		#editor .editor-rich-text__tinymce a:hover,
+		.ab-block-post-grid h2 a:hover,
+		.ab-block-post-grid .ab-block-post-grid-link:hover {
+			color: #5a3fd6;
+			box-shadow: inset 0 -2px 0 #5a3fd6;
+		}
+</style>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"","inbound_paths":"","home_url":"https:\/\/cromwellhaus.com","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.3.3'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.4" />
+<meta property="og:title" content="cromwellryan" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:url" content="https://cromwellhaus.com/author/cromwellryan/page/2/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="Author : cromwellryan" /></head>
+
+<body class="archive paged author author-cromwellryan author-2 paged-2 author-paged-2 featured-image-wide">
+
+<header id="masthead" class="site-header">
+	<div class="search-drawer" aria-expanded="false" role="region">
+		<div class="container">
+			<div class="drawer-search">
+				<div class="big-search">
+					
+<form role="search" method="get" class="searchform" action="https://cromwellhaus.com/">
+	<div>
+		<label class="screen-reader-text">Search for:</label>
+
+		<input type="text" value="" name="s" class="search-input" placeholder="Search here..." />
+
+		<button class="searchsubmit" type="submit">
+			<i class="fa fa-search"></i> <span>Search</span>
+		</button>
+	</div>
+</form>				</div>
+			</div>
+		</div><!-- .container -->
+	</div><!-- .drawer -->
+
+	<div class="top-navigation">
+		
+<div class="mobile-navigation">
+	<button class="menu-toggle button-toggle">
+		<span>
+			<i class="fa fa-bars"></i>
+			Menu		</span>
+		<span>
+			<i class="fa fa-times"></i>
+			Close		</span>
+	</button><!-- .overlay-toggle -->
+</div>
+
+<div class="drawer-wrap">
+	<div class="drawer drawer-menu-explore">
+		<nav id="drawer-navigation" class="drawer-navigation">
+			<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="https://cromwellhaus.com/about/">Bio</a></li>
+<li class="menu-item menu-item-search search-toggle"><i class="fa fa-search"></i><i class="fas fa-times"></i></li></ul></div>		</nav><!-- #site-navigation -->
+
+		
+<form role="search" method="get" class="searchform" action="https://cromwellhaus.com/">
+	<div>
+		<label class="screen-reader-text">Search for:</label>
+
+		<input type="text" value="" name="s" class="search-input" placeholder="Search here..." />
+
+		<button class="searchsubmit" type="submit">
+			<i class="fa fa-search"></i> <span>Search</span>
+		</button>
+	</div>
+</form>	</div><!-- .drawer -->
+</div>
+
+		<div class="container">
+			<div class="site-identity clear">
+				<!-- Site title and logo -->
+					<div class="site-title-wrap" itemscope itemtype="http://schema.org/Organization">
+		<!-- Use the Site Logo feature, if supported -->
+		
+		<div class="titles-wrap has-description">
+							<p class="site-title"><a href="https://cromwellhaus.com/" rel="home">Ryan Cromwell</a></p>
+ 			
+							<p class="site-description">Big vision. Small changes.  Learn by shipping.</p>
+					</div>
+	</div><!-- .site-title-wrap -->
+
+				<div class="top-navigation-right">
+					<!-- Main navigation -->
+					<nav id="site-navigation" class="main-navigation">
+						<div class="menu-menu-1-container"><ul id="menu-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="https://cromwellhaus.com/about/">Bio</a></li>
+<li class="menu-item menu-item-search search-toggle"><i class="fa fa-search"></i><i class="fas fa-times"></i></li></ul></div>					</nav><!-- .main-navigation -->
+				</div><!-- .top-navigation-right -->
+			</div><!-- .site-identity-->
+		</div><!-- .container -->
+	</div><!-- .top-navigation -->
+
+	<!-- Get the archive page titles -->
+			<div class="container text-container">
+			<div class="header-text">
+					<div class="page-titles">
+		<h1><span class="screen-reader-text">Author: </span><span class="vcard">cromwellryan</span></h1>
+
+		
+	</div>
+
+				</div><!-- .header-text -->
+		</div><!-- .text-container -->
+	</header><!-- .site-header -->
+
+<div id="page" class="hfeed site container">
+	<div id="content" class="site-content">
+
+<section id="primary" class="content-area">
+	<main id="main" class="site-main">
+		<div id="post-wrap">
+			
+<article id="post-1496" class="post-1496 post type-post status-publish format-standard hentry category-uncategorized without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="https://cromwellhaus.com/2013/10/hello-sparkbox/" rel="bookmark">Hello Sparkbox!</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="https://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">October 30, 2013</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/10/logo-buildright-dark.png"><img class="alignright size-full wp-image-1500" alt="sb-logo-buildright-dark" src="http://cromwellhaus.com/wp-content/uploads/2013/10/logo-buildright-dark.png" width="294" height="300" /></a>Back when <a title="Cincy Clean Coders – Code You Can Show Your Friends" href="http://cromwellhaus.com/2011/03/cincy-clean-coders-code-you-can-show-your-friends/">I started Cincy Clean Coders</a>, it felt like the Dayton community was nearly nonexistent.  It seemed like I needed to head down to the big city to attract a community of Clean Coders.</p>
+<p>Fast forward 2 years&#8230; the Cincy group has stopped meeting, <a title="Dayton Clean Coders" href="http://daytoncleancoders.com">Dayton Clean Coders</a> is going strong (with <a href="http://content.screencast.com/users/cromwellryan/folders/Snagit/media/fe56c6ba-1631-427c-acd6-bd5ef4f03c42/10.30.2013-15.19.png">a bad-ass logo</a>), an <a title="Elixir" href="http://elixir-lang.org">Elixir </a>Group is forming, and <a title="GemCityJS" href="http://gemcityjs.com/">GemCityJS</a> is growing.  There&#8217;s <a href="http://dayton.buildguild.org/">Build Guild</a> and others as well.  The Dayton tech scene is thriving!</p>
+<p>It turns out the people at the center of making much of this happen are also doing great things for the web at <a title="SparkBox" href="http://seesparkbox.com/">Sparkbox</a> by leading the world in responsive web design.</p>
+<p>Starting next week I&#8217;m excited to join the awesome Sparkbox team, focusing hard on making the web and Dayton community an even more amazing place!</p>
+<p>Between the platform shift to open source, Ruby, Rails, etc. and the challenge of working with some of the most passion devs I&#8217;ve met, this looks to be an exciting challenge just to keep up!</p>
+<h4>Microsoft ALM &amp; MVP Community</h4>
+<p>This move likely means stepping away from the Microsoft ALM &amp; MVP community.  These have been some of the most passionate and hard working people I&#8217;ve met.  They give an immense amount of their time towards helping build great software.</p>
+<p>While TFS has it&#8217;s fair share of critics, they&#8217;re moving in <a title="Git Init VS" href="http://blogs.msdn.com/b/bharry/archive/2013/01/30/git-init-vs.aspx">a great direction</a>, <a title="TFS Shipping Cadence" href="http://blogs.msdn.com/b/bharry/archive/2012/08/28/tfs-shipping-cadence.aspx">fast</a>. And with a leader like Brian Harry making comments like this in private email lists&#8230;</p>
+<blockquote><p>I’m not horribly worried about being copied.  <span style="text-decoration: underline;">If we can make the whole world provide better services, I’m happy</span>.</p></blockquote>
+<p>&nbsp;</p>
+<p>&#8230;I have no doubt that set of tools will be in a great place in the coming years.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-1486" class="post-1486 post type-post status-publish format-standard has-post-thumbnail hentry category-elixir tag-code with-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="https://cromwellhaus.com/2013/08/elixir-needs-at-least-4-json-parsers/" rel="bookmark">Elixir needs at least 4 JSON parsers</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="https://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">August 27, 2013</span>
+	</p>
+		</header>
+		
+					<div class="featured-image">
+									<a href="https://cromwellhaus.com/2013/08/elixir-needs-at-least-4-json-parsers/" rel="bookmark"><img width="300" height="211" src="https://cromwellhaus.com/wp-content/uploads/2013/08/elixir-json.png" class="attachment-atomic-blocks-featured-image size-atomic-blocks-featured-image wp-post-image" alt="" /></a>
+							</div>
+		
+		<div class="entry-content">
+
+			<p>Elixir has, at the time of this post, 3 JSON parsers hosted on <a title="JSON libs on expm.io" href="http://expm.co/?q=json">expm</a>.</p>
+<p>Some time back I went looking for one and started exploring <a title="elixir-json" href="http://expm.co/json">elixir-json</a>, including the <a title="elixir-json code" href="https://github.com/cblage/elixir-json">github repo</a>.  I loved how the <a title="elixir-json encoder" href="https://github.com/cblage/elixir-json/blob/master/lib/json/encode.ex">encoder</a> used <a title="elixir procotols" href="http://elixir-lang.org/getting_started/4.html">protocols</a> to implement the encoding of different types.  It&#8217;s beautiful.  Kudos to <a title="carloslage on twitter" href="https://twitter.com/carloslage">@carloslage</a>.</p>
+<p>Then I looked at the <a title="elixir-lang decoder" href="https://github.com/cblage/elixir-json/blob/master/lib/json/decode.ex">decoder</a>.  It&#8217;s full of elixir-isms&#8230; tuples, binary pattern matching, etc.  Over the last few nights I decided to implement <a title="json parser in elixir gist" href="https://gist.github.com/cromwellryan/6349503">my own JSON parser</a> learning from Carlos were I ran aground.</p>
+<p>I don&#8217;t like the use of HashDict for objects, but spaces rule out most options like Keyword lists.  I&#8217;m also not a huge fan of the nested case for dealing with the <em>what&#8217;s next?</em> of key/value pairs.</p>
+<pre id="file-parser-ex-LC44">def parse_object( acc, &lt;&lt; rest :: binary &gt;&gt; ) do
+  { key, rest } = parse_content rest
+  { value, rest } = lstrip(rest) |&gt; parse_object_value 
+
+  acc = [ { key, value } | acc ] 
+
+  case lstrip(rest) do
+    &lt;&lt; ?}, rest :: binary &gt;&gt; -&gt; { HashDict.new(acc), rest }
+    &lt;&lt; ?,, rest :: binary &gt;&gt; -&gt; parse_object acc, lstrip(rest)
+  end
+end</pre>
+<p>Overall it feels very cohesive.  You can see clearly how the pieces compose after being dispatched from the parse_content.</p>
+<pre id="file-parser-ex-LC14">def parse_content( &lt;&lt; m, rest :: binary &gt;&gt; ) when m in ?0..?9, do: parse_number &lt;&lt; m, rest :: binary &gt;&gt;
+def parse_content( &lt;&lt; ?", rest :: binary &gt;&gt; ), do: rest |&gt; parse_string
+def parse_content( &lt;&lt; ?{, rest :: binary &gt;&gt; ), do: lstrip(rest) |&gt; parse_object
+def parse_content( &lt;&lt; ?[, rest :: binary &gt;&gt; ), do: lstrip(rest) |&gt; parse_array</pre>
+<p>I also do nothing to support invalid JSON content as with elixir-json.  Oh well, it was a learning tool.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-1471" class="post-1471 post type-post status-publish format-standard hentry category-tfs tag-tfs without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="https://cromwellhaus.com/2013/08/restoring-tfs-2012-to-sandbox/" rel="bookmark">Restoring TFS 2012 to Sandbox</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="https://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">August 16, 2013</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p>One of my clients recently asked for some help with getting their TFS server up to snuff.&#160; After getting the software itself in line, I needed to restore a TFS installation in a sandbox environment to plan and test out some significant changes to their Work Item data.&#160; It’s not exactly a smooth experience so lets hope this eases the day of some other poor soul.&#160; As with all things – SSDs make this a bearable duration of time.</p>
+<h4></h4>
+<h4>Step 1: Install, but don’t configure TFS 2012 Update 3</h4>
+<p>TFS server components have levels of installation doneness.&#160; Since this is a sandbox, I’m not worried about scaling out and will just install a single server.&#160; To do this I:</p>
+<li>(15 min) Install Windows Server 2012 Standard on a VM </li>
+<li>(60 min) Windows Updates… oh mighty Zeus the Updates </li>
+<li>(10 min) Wipe sweat from brow and walk around office cursing while fuming over what appears to be update 9,123,758 not budging </li>
+<li>(15 min) Lay down SQL Server 2012 even though production runs on 2008 R2.&#160; Details can be found on <a href="http://msdn.microsoft.com/en-us/library/vstudio/dd578652.aspx">Manually Install SQL Server for Team Foundation Server</a>.&#160; </li>
+<li>(10 min) Install <a href="http://www.microsoft.com/en-us/download/details.aspx?id=38185">TFS 2012 with Update 3</a>.&#160; Don’t run the configuration wizard!!! </li>
+<p>At this point you should have all the pieces of TFS, but nothing configured.&#160; TFS Administration console looks something like this:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/08/image.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2013/08/image_thumb.png" width="644" height="416" /></a></p>
+<p>&#160;</p>
+<h4>Step 2: Restore TFS Databases</h4>
+<p>You can use the Administration console to restore your backups if made from a scheduled TFS backup.&#160; You could also use the <a href="http://msdn.microsoft.com/en-us/library/jj620932.aspx">tfsrestore.exe</a> tool.&#160; In my case, I had some SQL Service permissions problems and disk space limitations that required me to manually restore each of the databases.</p>
+<p>&#160;<a href="http://cromwellhaus.com/wp-content/uploads/2013/08/image1.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; margin: 6px 0px 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2013/08/image_thumb1.png" width="155" height="244" /></a></p>
+<p>&#160;</p>
+<h4>Step 3: Change Server IDs</h4>
+<p>Since I’ll be connecting to these in a non-isolated environment and I don’t want tools getting confused I am going to be safe and change server IDs.&#160; TFS uses Guids to identify Servers and Collections.&#160; Visual Studio and other tools using the SDKs will get confused regarding local settings and caches so this is a safeguard against black magic.</p>
+<p>&#160;</p>
+<pre>TfsConfig.exe ChangeServerID /sqlinstance:localhost /databasename:Tfs_Configuration</pre>
+<h4>Step 4: Fix Accounts</h4>
+<p>My new server is not attached to any domain, let alone the one used for the production TFS.&#160; With this in mind, I need to update some accounts embedded in TFS.&#160; </p>
+<pre>TFSConfig.exe accounts /resetowner /sqlinstance:WIN-4jsv8rkkbki /databasename:Tfs_Configuration
+TFSConfig.exe accounts /add /accounttype:applicationtier /account:tfsservice &quot;/password:shhhhhh&quot; /sqlinstance:localhost /databasename:Tfs_Configuration</pre>
+<h4>Step 5: Configure TFS Application Tier</h4>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/08/image2.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px 6px 6px 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2013/08/image_thumb2.png" width="177" height="134" /></a></p>
+<p>From the TFS Administration Console click Application Tier and then Configure Installed Features.&#160; This will give you a number of types of configuration scenarios.&#160; We want Application Tier only which well hook up to our now restored Tfs_Configuration database (and friends).</p>
+<p>&#160;</p>
+<p>Make sure you choose the SQL Server to which you restored your databases (localhost for me).&#160; Once you get to the Application Tier settings page, this should show the service account we added in Step 4: Fix Accounts.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/08/image3.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 6px 0px 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2013/08/image_thumb3.png" width="244" height="142" /></a></p>
+<p>&#160;</p>
+<p>Everything should come out green upon Verification and you can let it rip.&#160; If not, invoke <strike>Google</strike> <a href="http://duckduckgo.com">duckduckgo.com</a>-fu.&#160; </p>
+<p>&#160;</p>
+<h4>Step 6: Update Remaining Settings</h4>
+<p>There will still be a number of settings that refer to the old topology.&#160; </p>
+<p>&#160;</p>
+<p>Change the Urls to your new server:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/08/image4.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 6px 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2013/08/image_thumb4.png" width="244" height="158" /></a>&#160;</p>
+<p>In this sandbox I have no need of Reporting Services or SharePoint.&#160; I just disabled both:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2013/08/image5.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2013/08/image_thumb5.png" width="244" height="158" /></a>&#160;&#160;&#160; <a href="http://cromwellhaus.com/wp-content/uploads/2013/08/image6.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 6px 0px 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2013/08/image_thumb6.png" width="211" height="159" /></a></p>
+<p>&#160;</p>
+<h4></h4>
+<h4>Step 7: Rest</h4>
+<p>It’s certainly not straight forward, but it’s much better than in past versions.&#160; </p>
+<p>&#160;</p>
+<p>At this point you should be able to connect to your newly restored TPC and TPs.&#160; If you find that a previously connected Visual Studio pre-selects Team Projects that were also selected in production you likely skipped Step 3.&#160; This could result in weird behavior for you in the future against production.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-1445" class="post-1445 post type-post status-publish format-standard hentry category-elixir tag-code without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="https://cromwellhaus.com/2013/07/using-hashdict-update-for-keyed-reductions-aka-group-by-in-elixir/" rel="bookmark">Using HashDict.update for Keyed Reductions (aka group by) in Elixir</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="https://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">July 22, 2013</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p>I wanted to start playing with Elixir&#8217;s Map and Reduce functions to get a better feel for collection transformations in the language.  For this I grabbed some movie <a title="tadams' movie data" href="https://github.com/tadams/MapReduce/blob/master/src/main/data/movies.txt" target="_blank">data here</a> and planned on grabbing some perspectives.</p>
+<p>First problem, we need to turn the data into a list of tuples.  The pseudo-transformation we want to apply:</p>
+<pre>file -&gt; lines
+lines -&gt; parts
+parts -&gt; tuples</pre>
+<p>The results ended up looking like this</p>
+<p>[gist id=&#8221;6051117&#8243; file=&#8221;movies.exs&#8221;]</p>
+<p>For our data perspectives, lets start small.  The number of movies per year.  This is still a transformation, but it&#8217;s not going to be a one-for-one.  We&#8217;re instead going to reduce the results after mapping.  Why would we map?  Turns out the only thing you need to know is a full list of the movie years&#8230; with dups.  With that we can do an &#8220;Add or Update&#8221; to a hash for each year.</p>
+<p>[gist id=&#8221;6051117&#8243; file=&#8221;uniqueness.exs&#8221;]</p>
+<p>What we&#8217;re doing is providing an entry point for count_unique which takes a collection.  This creates a new HashDict which seeds our {year, count} and then recursively calls down into a variant of HashDict.update.  This variant will insert a new key if not found with the 3rd parameter being the seed value.  If the key is found HashDict.update will call our anonymous function to increment the value already found.</p>
+<p>This pattern seems to work well to get the sum also.  Here we map our collection to pull the year and rating.  I adjusted my original to_movies to use String.to_float so that I have a numeric rating.  From there I use the same HashDict pattern with the rating being our seed and accumulator.</p>
+<p>[gist id=&#8221;6051117&#8243; file=&#8221;sumations.exs&#8221;]</p>
+<p>Next we&#8217;ll look at doing something a little more interesting by calculating an average and distributing the effort across nodes using our<a title="Triangle Kata in Elixir using Erlang processes for Parallel Maps" href="http://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/"> previous parallel map</a>.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+<article id="post-1423" class="post-1423 post type-post status-publish format-standard has-post-thumbnail hentry category-elixir category-uncategorized tag-code with-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+							<h2 class="entry-title">
+					<a href="https://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/" rel="bookmark">Triangle Kata in Elixir using Erlang processes for Parallel Maps</a>
+				</h2>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="https://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="https://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">July 17, 2013</span>
+	</p>
+		</header>
+		
+					<div class="featured-image">
+									<a href="https://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/" rel="bookmark"><img width="227" height="95" src="https://cromwellhaus.com/wp-content/uploads/2013/07/elixir-logo.png" class="attachment-atomic-blocks-featured-image size-atomic-blocks-featured-image wp-post-image" alt="" /></a>
+							</div>
+		
+		<div class="entry-content">
+
+			<p>Last time I described <a href="http://cromwellhaus.com/2013/07/my-learning-elixir-erlang-setup/" title="My Learning Elixir (erlang) Setup">my setup for learning Elixir</a>, the language built on top of Erlang with a Ruby bent.  Today I wanted to get a hang of processes and mailboxes which are so important to both languages.  To do this I chose the Triangle Kata as my background story.  <a href="https://gist.github.com/cromwellryan/6024862">Take a look</a>:</p>
+<p><script src="https://gist.github.com/cromwellryan/6024862.js"></script></p>
+<p><strong>Update:</strong> You might wonder what that <code>slow</code> function is all about.  I added that in there to clarify the parallelism.  You would expect the slowest classifications to appears at the end of the resultant list.</p>
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+		</div>
+
+		
+	<nav class="navigation pagination" role="navigation">
+		<h2 class="screen-reader-text">Posts navigation</h2>
+		<div class="nav-links"><a class="prev page-numbers" href="https://cromwellhaus.com/author/cromwellryan/">Previous</a>
+<a class='page-numbers' href='https://cromwellhaus.com/author/cromwellryan/'>1</a>
+<span aria-current='page' class='page-numbers current'>2</span>
+<a class='page-numbers' href='https://cromwellhaus.com/author/cromwellryan/page/3/'>3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='https://cromwellhaus.com/author/cromwellryan/page/36/'>36</a>
+<a class="next page-numbers" href="https://cromwellhaus.com/author/cromwellryan/page/3/">Next</a></div>
+	</nav>	</main><!-- #main -->
+</section><!-- #primary -->
+
+
+	</div><!-- #content -->
+</div><!-- #page .container -->
+
+<footer id="colophon" class="site-footer">
+	<div class="container">
+		
+		<div class="footer-bottom">
+			<div class="footer-tagline">
+				<div class="site-info">
+					Copyright Ryan Cromwell 2019				</div>
+			</div><!-- .footer-tagline -->
+
+					</div><!-- .footer-bottom -->
+	</div><!-- .container -->
+</footer><!-- #colophon -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var atomic_blocks_js_vars = {"ajaxurl":"https:\/\/cromwellhaus.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-content/themes/atomic-blocks/js/atomic-blocks.js?ver=1.0'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-content/themes/atomic-blocks/js/jquery.fitvids.js?ver=1.1'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=5.0.4'></script>
+
+</body>
+</html>

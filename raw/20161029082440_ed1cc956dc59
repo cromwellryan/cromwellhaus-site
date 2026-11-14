@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Presentations | Ryan Cromwell</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php">
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="http://cromwellhaus.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='isola-style-css'  href='http://cromwellhaus.com/wp-content/themes/isola/style.css?ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='isola-source-sans-pro-css'  href='https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700%2C300italic%2C400italic%2C600italic%2C700italic&#038;subset=latin%2Clatin-ext&#038;ver=4.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://cromwellhaus.com/wp-content/themes/isola/genericons/genericons.css?ver=3.0.3' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v5.5.2 - Universal disabled - https://www.monsterinsights.com/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-4332588-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.6.1" />
+<link rel="canonical" href="http://cromwellhaus.com/presentations/" />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=801' />
+<link rel="alternate" type="application/json+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2Fpresentations%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2Fpresentations%2F&#038;format=xml" />
+<meta property="og:title" content="Presentations" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:url" content="http://cromwellhaus.com/presentations/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="Code Topics Sweet Elixir! Around 60% of telecom passes through Erlang.  Facebook uses it and RabbitMQ is built on it. It’s fast, concurrent, distributed, but its Prolog-inspired syntax leaves much to be desired. Ruby is beautiful and powerful, but struggles at scale and treats concurrency as a second class citizen. Elixir &#8211; a young, functional, &hellip;" /></head>
+
+<body class="page page-id-801 page-template-default">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-header-inner">
+			<div class="site-branding">
+				<button id="menu-toggle" class="toggle">
+					<svg version="1.1" class="menu-toggle-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+						<g id="menu">
+							<g>
+								<rect x="3" y="4" width="18" height="3"/>
+								<rect x="3" y="10" width="18" height="3"/>
+								<rect x="3" y="16" width="18" height="3"/>
+							</g>
+						</g>
+					</svg>
+					<span class="screen-reader-text">Primary Menu</span>
+				</button>
+				<h1 class="site-title"><a href="http://cromwellhaus.com/" rel="home">Ryan Cromwell</a></h1>
+				<h2 class="site-description">Big vision. Small changes.  Learn by shipping.</h2>
+			</div>
+
+			<div id="site-search" class="header-search">
+				<div class="header-search-form">
+					<form role="search" method="get" class="search-form" action="http://cromwellhaus.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<span class="search-icon">
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+			<g id="search">
+				<path class="icon" d="M15.846,13.846C16.573,12.742,17,11.421,17,10c0-3.866-3.134-7-7-7s-7,3.134-7,7s3.134,7,7,7
+					c1.421,0,2.742-0.427,3.846-1.154L19,21l2-2L15.846,13.846z M10,15c-2.761,0-5-2.238-5-5c0-2.761,2.239-5,5-5c2.762,0,5,2.239,5,5
+					C15,12.762,12.762,15,10,15z"/>
+			</g>
+		</svg>
+	</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:" />
+	</label>
+	<input type="submit" class="search-submit" value="Search" />
+</form>				</div><!-- .header-search-form -->
+			</div><!-- #site-navigation -->
+		</div><!-- .site-header-inner -->
+	</header><!-- #masthead -->
+
+	<div id="toggle-sidebar">
+		<button id="menu-close">
+			<span class="screen-reader-text">Close Menu</span>
+		</button>
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="menu-wrapper">
+				<div class="menu"><ul><li ><a href="http://cromwellhaus.com/">Home</a></li><li class="page_item page-item-834"><a href="http://cromwellhaus.com/about/">Bio</a></li><li class="page_item page-item-801 current_page_item"><a href="http://cromwellhaus.com/presentations/">Presentations</a></li></ul></div>
+			</div>
+		</nav><!-- #site-navigation -->
+			</div>
+
+	
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			
+				
+<article id="post-801" class="post-801 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Presentations</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<h2><span style="text-decoration: underline;">Code Topics</span></h2>
+<p><span style="font-weight: 600;">Sweet Elixir!</span></p>
+<p>Around 60% of telecom passes through Erlang.  Facebook uses it and RabbitMQ is built on it. It’s fast, concurrent, distributed, but its Prolog-inspired syntax leaves much to be desired. Ruby is beautiful and powerful, but struggles at scale and treats concurrency as a second class citizen. Elixir &#8211; a young, functional, meta programming language &#8211; aims to resolve this mighty conflict by providing a rosy syntax inspired by Ruby that compiles to Erlang VM compatible bytecode.</p>
+<p>Together we’ll take a guided tour of Elixir basics and functional programming concepts like pattern matching, pipelines and tail-call recursion. From there we’ll explore the distributed and concurrent nature of Elixir, the fault tolerant features of OTP, and ways you can leverage Elixir in your existing architectures today.</p>
+<p>&nbsp;</p>
+<p>Whether you roll with a Mac, Windows or Linux everyone will leave an Elixir programmer.</p>
+<p><strong>Get Feature Focused: Experiences Organizing Based on Feature Rather Than Architecture</strong></p>
+<p>If you look at your application, could you point to the search feature? What about the login feature? Would you have to scroll through multiple folders to pick out the pieces that make up your home page?</p>
+<p>Consistency is the road to simplicity and the consolidation around &#8216;MVC&#8217; frameworks for building web applications has brought a consistency to our application architectures. This is great, but what ever happened to common closure and Common Reuse?</p>
+<p>As more organizations move towards Scrum, Kanban, XP, continuous delivery, etc. the often orthogonal relationship between features and our architecture is becoming more pronounced. In this session I will discuss our experiences building applications organized by feature rather than architecture and the impacts on our thinking.</p>
+<p><strong>Test Driving Your Web API from the Outside In</strong></p>
+<p>Unit Tests get all the glory, but there’s more to building a test suite than Unit Testing.  What about Integration Tests?  And lets not forget Acceptance Tests.</p>
+<p>In this session the presenter will walk you through building a Web API built in <a href="http://www.asp.net/web-api" target="_blank">ASP.Net WebAPI</a> from the outside in.  We’ll use <a href="http://specflow.org" target="_blank">Specflow</a> and a pattern similar to PageObjects to define our acceptance tests.  We’ll then build out the implementation with integration and unit tests, refactoring along the way.  Leaving this session you will have an understanding of tools available to target the full <a href="http://www.mountaingoatsoftware.com/blog/the-forgotten-layer-of-the-test-automation-pyramid" target="_blank">Testing Triangle</a> for your Web API.</p>
+<p><strong>Selenium + Specflow: ATDD for .Net</strong></p>
+<p>(Abstract coming soon!)</p>
+<h2></h2>
+<h2><span style="text-decoration: underline;">Agile Topics</span></h2>
+<p><strong>Scrumdamentals</strong></p>
+<p><strong></strong>Is Agile where you want to be?  Do you know what it takes to get started?  Not ready to drop the dough for a class or coach?  This session will introduce you to the foundations of Agile and Scrum, including</p>
+<ul>
+<li>Origins of Agile</li>
+<li>Scrum origins, principals and theory</li>
+<li>Scrum roles, events and practices</li>
+<li>Self-organization</li>
+<li>Steps toward becoming Agile</li>
+</ul>
+<div><b>Avoiding Scrummerfall</b></div>
+<div>Agile is where you want to be and Scrum was going to get there.  Or so you thought.  We know that Scrum is the most popular Agile framework, but many apply it as a thin veneer over traditional ways.  Sprints become meaningless, retrospectives are a bore.  In this session we&#8217;ll walk through common challenges in adopting Scrum, how to recognize them and what you can do to get past each.</div>
+<p><strong>Will the Real Scrum Master Please Stand Up  </strong></p>
+<p><strong></strong>Scrum Master is the most challenging role in the industry today. In this 60 minute session we will look at the skills traits and responsibilities of a team shepherd, how they enhance an organization and how you can begin the path to fill this difficult and essential team role.</p>
+<h2></h2>
+<h2><span style="text-decoration: underline;">Visual Studio &amp; Team Foundation Server Topics</span></h2>
+<p><strong>Git in my TFS</strong></p>
+<p>Your a gitster in a land of Team Foundation Server. You want your local branches, git-flow and rebasing, but the rest of the neighborhood isn&#8217;t ready. What do you do? In this session we&#8217;ll explore the new open-source Git-Tf project.  Git-Tf is a set of cross-platform, command line tools that facilitate sharing of changes between TFS and Git.</p>
+<p>We&#8217;ll then look at the recently announced native Git repositories in TFS, what that might mean for your organization and how you can get started today.</p>
+<p><strong>Team Foundation Server: Open the Robe</strong></p>
+<p>Your craft is code.  Your tools are your most prized possessions.  Learn to make them work for you, not against you.  Having created automated and continuous build and deploy systems going on a decade, the presenter will provide a retrospective on the experiences of deploying, training and using Team Foundation Server (TFS) for the last 5 years.  An open discussion session, we&#8217;ll review those things TFS does well and those it does not.</p>
+<p><strong>Scrum with Visual Studio and Team Foundation Server</strong></p>
+<p>Team Foundation Server is built from the ground up to be customized to your organization’s development methodology. With the release of the Microsoft Visual Studio Scrum 1.0 process template we discuss enabling Scrum teams by getting out of their way.</p>
+<p><strong>Get Out of the Way: Effective Team Foundation Server Source Control</strong></p>
+<p>You&#8217;ve rid yourself of VSS and scoff at SVN, but how are you better off with TFS? Come learn strategies and techniques for a smooth transition to Team Foundation Server source control.</p>
+<p><strong>Professional Scrum Development in Visual Studio TFS 2012</strong><br />
+Agile is where teams and organizations want to be and Scrum is a tool to help get you there. Microsoft uses Scrum, and many more are adopting Scrum to improve their ability to deliver innovative software. Visual Studio and Team Foundation Server 2012 continue the focus of enabling Agile teams. In this session you&#8217;ll see how you can adopt Scrum with the now default Scrum process template and streamlined Agile planning tools. We will create and groom our Product Backlog, look at support for multiple teams, create forecasts, and execute a Sprint.</p>
+<p><strong>Introducing the New, Extensible Visual Studio 2012 Test Explorer</strong><br />
+Quality control (post-development testing) is a thing of the past. Reaching Agility requires building quality into the development process. Visual Studio 2012 tightens the quality feedback loop with the new Test Explorer that enables continuous testing across an open set of testing frameworks that currently includes xUnit, NUnit, MSTest, Jasmine, and more. In this session we’ll look at how you can use this new Test Explorer to deliver and refactor with confidence at every moment.</p>
+			</div><!-- .entry-content -->
+	<footer class="entry-footer">
+			</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+				
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="http://wordpress.org/">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: Isola by <a href="http://wordpress.com/themes/isola/" rel="designer">WordPress.com</a>.		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'cromwellhaus';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/isola/js/isola.js?ver=20140623'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/isola/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/isola/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+
+</body>
+</html>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2016-10-29 04:24:41 by W3 Total Cache -->

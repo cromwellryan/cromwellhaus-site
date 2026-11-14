@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>MVC &raquo;  Ryan Cromwell</title>
+
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/style.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/ie6.css" type="text/css" />
+<![endif]-->
+
+<meta name="robots" content="index,follow" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/index.php/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/index.php/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/favicon.ico" type="image/x-icon" />
+
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; MVC Category Feed" href="http://blog.cromwellhaus.com/index.php/category/mvc/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com' />
+<meta name="generator" content="WordPress 2.8.4" />
+</head>
+<body id="home">
+
+
+<div id="header" class="clearfix">
+
+	<ul id="accessibility">
+		<li><a href="http://blog.cromwellhaus.com/" title="Go to homepage">Home</a></li>
+		<li><a href="#content" title="Skip to content">Content</a></li>
+		<li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+						<li class="last-item"><a href="http://blog.cromwellhaus.com/wp-login.php">Log in</a></li>
+	</ul>
+
+	<div id="branding">
+		<h1 id="logo"><a href="http://blog.cromwellhaus.com/" title="Ryan Cromwell">Ryan Cromwell</a></h1>
+		<div class="description">
+		  Improving my craft&#8230;    </div>
+	</div>
+	
+	<div id="nav" class="clearfix">
+		<div id="nav-search">
+			<form role="search" method="get" id="searchform" action="http://blog.cromwellhaus.com/" >
+	<div><label class="screen-reader-text" for="s">Search for:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+	</div>
+	</form>		</div>
+		<ul id="menu">
+  		<li class="page-item-home "><a href="http://blog.cromwellhaus.com/">Home</a></li>
+  		<li class="page_item page-item-2"><a href="http://blog.cromwellhaus.com/index.php/about/" title="About">About</a></li>		</ul>
+    <div id="submenu-bg">    
+          </div>
+	</div>
+
+</div>
+
+
+<div id="main" class="clearfix">
+	<div id="container">
+		<div id="content">
+
+		
+ 	   	  		  <h1 class="pagetitle">Archive for the &#8216;MVC&#8217; category</h1>
+ 	  
+
+		<div class="navigation clearfix">
+			<div class="alignleft"></div>
+			<div class="alignright"></div>
+		</div>
+
+				<div class="post-708 post hentry category-mvc category-wpf">
+			<h2 id="post-708"><a href="http://blog.cromwellhaus.com/index.php/2008/04/minimvc-for-wpf/" rel="bookmark" title="Permanent Link to MiniMVC for WPF">MiniMVC for WPF</a></h2>
+			<small class="meta">April 24th, 2008 </small>
+
+			<div class="entry">
+				<p>Tonight I presented for the <a href="http://daytondevgroup.net/">Dayton .Net Developers Group</a> on WPF.&nbsp; Unlike my previous <a href="http://cromwellhaus.com/blogs/ryanc/archive/2007/09/28/lap-around-wpf-codng.aspx">Lap Around WPF @ CONDG</a> which was meant as a beginners guide to WPF, this time we were skipping the basics and plunging into a framework I&#8217;ve dubbed MiniMVC.&nbsp; </p>
+<p>MiniMVC is, primarily, a set of <a href="http://msdn2.microsoft.com/en-us/library/system.windows.dependencyproperty.aspx">DependencyProperties</a> and custom <a href="http://msdn2.microsoft.com/en-us/library/system.windows.input.icommand.aspx">ICommand</a>&#8217;s which allow you to specify a Controller for any <a href="http://msdn2.microsoft.com/en-us/library/system.windows.frameworkelement.aspx">FrameworkElement</a> and/or Action in the <a href="http://msdn2.microsoft.com/en-us/library/ms753391.aspx#logical_tree">logical tree</a>.&nbsp; Unlike <a href="http://blogs.msdn.com/dancre/archive/2006/10/11/datamodel-view-viewmodel-pattern-series.aspx">Dan Crevier&#8217;s D-V-VM</a> pattern or <a href="http://www.codeproject.com/KB/WPF/MVCtoUnitTestinWPF.aspx">Josh Smith&#8217;s MVC pattern</a> implementations which rely on explicitly defining <a href="http://msdn2.microsoft.com/en-us/library/system.windows.input.routedcommand.aspx">RoutedCommand</a>s for each action, <a href="http://msdn2.microsoft.com/en-us/library/ms752308.aspx">binding them up manually</a>, and other unpleasantries (in my humble opinion &#8211; these guys still know more than I) with this framework you can use any old class, with any old method, and start executing actions immediately.&nbsp; Here&#8217;s an example:</p>
+<p><span style="color: blue">&lt;</span><span style="color: #a31515">Window </span><span style="color: red">x</span><span style="color: blue">:</span><span style="color: red">Class</span><span style="color: blue">=&#8221;PostDemo.Window1&#8243;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">xmlns</span><span style="color: blue">=&#8221;http://schemas.microsoft.com/winfx/2006/xaml/presentation&#8221;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">xmlns</span><span style="color: blue">:</span><span style="color: red">x</span><span style="color: blue">=&#8221;http://schemas.microsoft.com/winfx/2006/xaml&#8221;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">xmlns</span><span style="color: blue">:</span><span style="color: red">mvc</span><span style="color: blue">=&#8221;http://cromwellhaus.com/wpf/minimvc&#8221;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">xmlns</span><span style="color: blue">:</span><span style="color: red">demo</span><span style="color: blue">=&#8221;clr-namespace:PostDemo&#8221;</span><span style="color: blue">&gt;</p>
+<p>&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">MiniMVC.Controller</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">demo</span><span style="color: blue">:</span><span style="color: #a31515">Window1Controller</span><span style="color: blue">/&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">MiniMVC.Controller</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">StackPanel</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">TextBox </span><span style="color: red">x</span><span style="color: blue">:</span><span style="color: red">Name</span><span style="color: blue">=&#8221;txtMessage&#8221;</span><span style="color: red">Text</span><span style="color: blue">=&#8221;" /&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">Button</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">MiniMVC.Action</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">ControllerAction </span><span style="color: red">Trigger</span><span style="color: blue">=&#8221;Click&#8221;</span><span style="color: red">Action</span><span style="color: blue">=&#8221;Echo&#8221; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">Return</span><span style="color: blue">=&#8221;{</span><span style="color: #a31515">Binding</span><span style="color: red">ElementName</span><span style="color: blue">=txtResult,</span><span style="color: red">Path</span><span style="color: blue">=Text}&#8221;&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">Parameter</span><span style="color: red">ParameterName</span><span style="color: blue">=&#8221;message&#8221; <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: red">Value</span><span style="color: blue">=&#8221;{</span><span style="color: #a31515">Binding</span><span style="color: red">ElementName</span><span style="color: blue">=txtMessage,</span><span style="color: red">Path</span><span style="color: blue">=Text}&#8221; /&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">ControllerAction</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/</span><span style="color: #a31515">mvc</span><span style="color: blue">:</span><span style="color: #a31515">MiniMVC.Action</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: #a31515">Write Something<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="color: blue">&lt;/</span><span style="color: #a31515">Button</span><span style="color: blue">&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;</span><span style="color: #a31515">TextBlock </span><span style="color: red">x</span><span style="color: blue">:</span><span style="color: red">Name</span><span style="color: blue">=&#8221;txtResult&#8221; /&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/</span><span style="color: #a31515">StackPanel</span><span style="color: blue">&gt;<br />&lt;/</span><span style="color: #a31515">Window</span><span style="color: blue">&gt;<br /></span>
+<p><span style="color: blue"><font color="#000000">Here&#8217;s what&#8217;s going on: </font></span></p>
+<blockquote><p><span style="color: blue"><font color="#000000">First, we have this class, Window1Controller, which we are attaching to the Window&#8217;s MiniMVC.Controller property.&nbsp; </font></span></p>
+<p><span style="color: blue"><font color="#000000">Second, we are setting the MiniMVC.Action property on the Button to a ControllerAction triggered by the button&#8217;s Click event.&nbsp; When <em>Click</em> occurs the Action to be taken on the Controller is <em>Echo</em>.&nbsp; We want to pass into Echo the value of the txtMessage TextBox Text value as parameter <em>message</em>.&nbsp; Also, we&#8217;re specifying that the Return value from Echo should be applied to the Text property of the txtResult TextBox controller.</font></span></p>
+</blockquote>
+<p><span style="color: blue"></span><span style="color: blue"></span><span style="color: blue"><font color="#000000">Cool?&nbsp; So what&#8217;s <em>really</em> going on?&nbsp; Well, MiniMVC is handling the most importantly the OnChange event handler for the Action DependencyProperty and using that to dynamically create an ICommand class called ActionCommand.&nbsp; It&#8217;s also looking up the Click RoutedEvent via Reflection and adding the ActionCommand&#8217;s Execute method as the event handler for the located Click RoutedEvent.&nbsp; There is ZERO code in my code-behind.&nbsp; The Designer has free-reign to apply the Controller and action to any RoutedEvent he/she chooses and we can all sleep well knowing our <a href="http://en.wikipedia.org/wiki/Separation_of_concerns">concerns are separated</a>.&nbsp; A happy marriage in my book.</font></span></p>
+<p><span style="color: blue"><font color="#000000">I must give a lot of credit to <a href="http://devlicio.us/blogs/rob_eisenberg/default.aspx">Rob Eisenberg</a>&#8217;s super-awesome <a href="http://caliburn.tigris.org/">Caliburn</a> project on which much of the Action dependency property is based.&nbsp; His framework is full featured to the tilt, but is a little over done to my liking with the extensive use of Dependency Injection.&nbsp; If you find MiniMVC useful, though, I highly recommend you watch for progress on Caliburn.</font></span></p>
+<p><span style="color: blue"><font color="#000000">You can download the full solution, including demo&#8217;s, from the presentation, as well as the above example project <a href="http://cromwellhaus.com/files/folders/wpf/entry581.aspx">here</a>.</font></span><span style="color: blue"></p>
+<p></span><a href="http://11011.net/software/vspaste"></a><br />
+<blockquote><a href="http://11011.net/software/vspaste"></a><a href="http://11011.net/software/vspaste"></a></p></blockquote>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/04/minimvc-for-wpf/#comments" title="Comment on MiniMVC for WPF">3 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-703 post hentry category-net category-mvc category-personal category-wpf">
+			<h2 id="post-703"><a href="http://blog.cromwellhaus.com/index.php/2008/01/new-year-indeed/" rel="bookmark" title="Permanent Link to New Year Indeed">New Year Indeed</a></h2>
+			<small class="meta">January 15th, 2008 </small>
+
+			<div class="entry">
+				<p>It has been quite a New Year so far.&nbsp; As of today, Monday January 14th 2008, I have left <a href="http://www.speedway.com/" target="_blank">Speedway</a> and the <a href="http://www.speedyrewards.com" target="_blank">Speedy Rewards™</a> team and found new employment with <a href="http://www.sds-consulting.com/" target="_blank">SDS Consulting</a> and I have new eyes courtesy of <a href="http://www.lasikplus.com/lasik-center/lasik-dayton.asp" target="_blank">Lasik Plus of Dayton</a>.&nbsp; I&#8217;d say that&#8217;s a fairly ambitious first two weeks.</p>
+<p>I&#8217;m still working on my side project, hoping to have it completed in the next few weeks or so.&nbsp; I lost focus with all the holiday excitement, but I&#8217;ve picked back up again.&nbsp; </p>
+<p>I&#8217;ll also be giving another WPF presentation for the <a href="http://daytondevgroup.net/" target="_blank">Dayton .Net Developers Group</a>.&nbsp; This one will be more in-depth than my <a href="http://www.condg.org/" target="_blank">CONDG</a> presentation which focused on some of the basics of templates, styles, and binding.&nbsp; One of the big spots in this new version of the presentation will be implementing the MVC pattern within WPF.&nbsp; Very cool.</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2008/01/new-year-indeed/#respond" title="Comment on New Year Indeed">No comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/personal/" title="View all posts in Personal" rel="category tag">Personal</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts in WPF" rel="category tag">WPF</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-702 post hentry category-mvc">
+			<h2 id="post-702"><a href="http://blog.cromwellhaus.com/index.php/2007/12/asp-net-mvc-checkbox-boolean-value-mapping/" rel="bookmark" title="Permanent Link to ASP.Net MVC Checkbox/boolean Value Mapping">ASP.Net MVC Checkbox/boolean Value Mapping</a></h2>
+			<small class="meta">December 20th, 2007 </small>
+
+			<div class="entry">
+				<p>In my quest to get my <a href="http://wpfstyle.com" target="_blank">wpfstyle.com</a> site written in the new <a href="http://asp.net/extensions" target="_blank">ASP.Net MVC</a> framework (day 3) I&#8217;ve run across a little issue that I&#8217;m sure will come up again.</p>
+<p>In my world, a checkbox always seemed to imply true/false or yes/no.&nbsp; In reality, it can mean a lot of things in an Html Form.&nbsp; It&#8217;s an input, remember, and inputs have a <em>value</em>.&nbsp; When your checkbox is checked, that value is posted back.&nbsp; </p>
+<p>Making it work as a boolean indicator in your MVC application, is possible though.&nbsp; In keeping with the Membership/Authorization theme from <a href="http://cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx" target="_blank">yesterday</a>, I have the following controller action:</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">public</span> <span style="color: rgb(0,0,255)">void</span> Authenticate(<span style="color: rgb(0,0,255)">string</span> userName, <span style="color: rgb(0,0,255)">string</span> password, <span style="color: rgb(0,0,255)">bool</span>? rememberMe)</pre>
+</blockquote>
+<pre class="code">[Hint: Notice the '?' after bool for the third parameter.  That'll be important in a moment.]</pre>
+<pre class="code">Here is the corresponding Login.aspx View which contains a form posting to this action:</pre>
+<blockquote><pre class="code"><span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>using</span> (Html.Form(<span style="color: rgb(163,21,21)">"Authenticate"</span>, <span style="color: rgb(163,21,21)">"Account"</span>))
+  { <span style="background: rgb(255,238,98)">%&gt;
+</span>    <span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span> <span style="color: rgb(255,0,0)">style</span><span style="color: rgb(0,0,255)">="</span><span style="color: rgb(255,0,0)">margin</span>: <span style="color: rgb(0,0,255)">auto</span> <span style="color: rgb(0,0,255)">auto</span> <span style="color: rgb(0,0,255)">4px</span> <span style="color: rgb(0,0,255)">auto"&gt;</span>Username
+        <span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.TextBox( <span style="color: rgb(163,21,21)">"username"</span>) <span style="background: rgb(255,238,98)">%&gt;</span> <span style="color: rgb(0,0,255)">&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;
+</span>    <span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span> <span style="color: rgb(255,0,0)">style</span><span style="color: rgb(0,0,255)">="</span><span style="color: rgb(255,0,0)">margin</span>: <span style="color: rgb(0,0,255)">auto</span> <span style="color: rgb(0,0,255)">auto</span> <span style="color: rgb(0,0,255)">4px</span> <span style="color: rgb(0,0,255)">auto"&gt;</span>Password <span style="color: rgb(255,0,0)">&amp;nbsp;
+</span>        <span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.Password( <span style="color: rgb(163,21,21)">"password"</span>) <span style="background: rgb(255,238,98)">%&gt;</span><span style="color: rgb(0,0,255)">&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;
+</span>
+    <span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span> <span style="color: rgb(255,0,0)">style</span><span style="color: rgb(0,0,255)">="</span><span style="color: rgb(255,0,0)">margin</span>: <span style="color: rgb(0,0,255)">auto</span> <span style="color: rgb(0,0,255)">auto</span> <span style="color: rgb(0,0,255)">4px</span> <span style="color: rgb(0,0,255)">auto"&gt;
+</span>        <span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.CheckBox(<span style="color: rgb(163,21,21)">"rememberme"</span>, <span style="color: rgb(163,21,21)">"Remember Me"</span>, <span style="color: rgb(163,21,21)">"true"</span>, <span style="color: rgb(0,0,255)">false</span>)<span style="background: rgb(255,238,98)">%&gt;
+</span>    <span style="color: rgb(0,0,255)">&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;</span></pre>
+<pre class="code"><a href="http://11011.net/software/vspaste"></a></pre>
+<pre class="code">    <span style="color: rgb(0,0,255)"></span><span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;</span><span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.SubmitButton( <span style="color: rgb(163,21,21)">"Log In"</span>) <span style="background: rgb(255,238,98)">%&gt;<span style="color: rgb(0,0,255)"></span>&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;
+</span><span style="background: rgb(255,238,98)">&lt;%</span>} <span style="background: rgb(255,238,98)">%&gt;</span></pre>
+</blockquote>
+<p>Looking at our intellisense for Html.Checkbox, we see<a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCCheckboxbooleanValueMapping_138C8/image.png"><img height="106" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCCheckboxbooleanValueMapping_138C8/image_thumb.png" width="640" border="0"></a>&nbsp;</p>
+<p>By setting the checkbox&#8217;s value to &#8220;true&#8221; we&#8217;re going to have that value sent back through the MVC pipeline to our Action which has a boolean parameter <em>rememberme</em>.&nbsp; It&#8217;s not just any boolean though, it&#8217;s a nullable boolean.&nbsp; Remember when I meantion the distinction that the checkbox being checked causes the value to be posted back?&nbsp; Well if the checkbox is *not* checked, the rememberme value will be null.&nbsp; </p>
+<p>The MVC pipeline is nice enough to implicitly convert the &#8220;true&#8221; string to a boolean, but null is not necessarily false in all cases.&nbsp; To account for this, we must make our parameter a nullable boolean.&nbsp; Does this maybe cross the line into mixing UI and Controller&#8230; eh &#8211; possibly?</p>
+<p>(NOTE: If you don&#8217;t see the Checkbox method in your intellisense, make sure you picked up and referenced the <a href="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip" target="_blank">MVC Toolkit</a>)</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/12/asp-net-mvc-checkbox-boolean-value-mapping/#comments" title="Comment on ASP.Net MVC Checkbox/boolean Value Mapping">1 comment</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a>        </p>
+			        </div>
+		</div>
+
+				<div class="post-701 post hentry category-net category-mvc">
+			<h2 id="post-701"><a href="http://blog.cromwellhaus.com/index.php/2007/12/asp-net-mvc-and-forms-authentication/" rel="bookmark" title="Permanent Link to ASP.Net MVC and Forms Authentication">ASP.Net MVC and Forms Authentication</a></h2>
+			<small class="meta">December 19th, 2007 </small>
+
+			<div class="entry">
+				<p>So last weekend I picked up the new <a href="http://asp.net/downloads/3.5-extensions/" target="_blank">ASP.Net 3.5 Extensions Preview CTP</a> (and <a href="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip" target="_blank">MVC Toolkit</a>) from the <a href="http://asp.net/" target="_blank">ASP.Net</a> team and I&#8217;m loving the MVC bits.&nbsp; I never could get in to <a href="http://www.castleproject.org/monorail/index.html" target="_blank">MonoRail</a> mainly because I&#8217;m a developer diva.&nbsp; I need intellisense, syntax highlighting, the whole deal.&nbsp; For a CTP, this release packs quite a punch.</p>
+<p>After running through Scott Hanselman&#8217;s <a href="http://www.hanselman.com/blog/ASPNET35ExtensionsPlusMVCHowToScreencast.aspx" target="_blank"><em>MVC How-To Screencast</em></a><em>&nbsp;</em>and playing around I took to writing a full site I had already 90% completed with Community Server (wpfstyle.com &#8211; it&#8217;s coming).&nbsp; Blew threw most of the functionality in the first 3 or 4 hours &#8211; awesome.&nbsp; Then I tried to add Forms Authentication through the easy ASP.Net Configuration button of VS 2008.&nbsp; Nada.</p>
+<p>Long story short, I figured out how to get things working, but there are some manual steps.&nbsp; Here they are:</p>
+<p><strong><strong><a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="173" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb.png" width="240" align="right" border="0"></a></strong>[Step 1]</strong> Create a new ASP.Net MVC site.&nbsp; I&#8217;ve called mine SecureMVCApplication.</p>
+<p><strong>[Step 2] </strong>Lets add a new controller called SecureController.&nbsp; This will be our set of actions that only administrators can access.&nbsp; </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_3.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="148" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb_3.png" width="240" align="left" border="0"></a> <strong>[Step 3] </strong>We don&#8217;t need to add any new Actions, the Index action created for us is sufficient, but we will need to do something.&nbsp; So add a call to RenderView(<span style="color: rgb(163,21,21)">&#8220;Index&#8221;</span>) within the Index method.&nbsp; You&#8217;ll also need to create the <em>index</em> view, so add a folder called <em>Secure</em> under the Views folder already in your project.&nbsp; To this we will need to add a new MVC View Page item.&nbsp; To make it clear, I&#8217;ve typed &#8220;This is for admin eyes only!!!&#8221; as the body of my view.</p>
+<p>At this point we should make sure things are working.&nbsp; Hitting F5 should take you to the root of the site, but you could well end up at /Views/Secure/Index.aspx or something like that.&nbsp; Try browsing to <a href="http://localhost:&lt;port&gt;/secure/index">http://localhost:&lt;port&gt;/secure/index</a>.&nbsp; You should see the &#8220;This is for admin eyes only!!!&#8221; text.&nbsp; If not, go watch Scott&#8217;s screencast and come back.</p>
+<p><a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_4.png"><img height="148" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb_4.png" width="190" align="right" border="0"></a> <strong>[Step 4]</strong> We&#8217;re ready to start securing things.&nbsp; Use the ASP.Net Configuration button to set security to Internet, create a couple of users and at least 1 role called <em>Administrators</em>.&nbsp; This is for our example, you can call your roles whatever you want in your application.</p>
+<p>At this point, you would normally use the <em>Create Access Rules </em>link to specify the Adminstrators role has access to the secure directory.&nbsp; Instead, we have to do this bit ourselves, because the MVC pattern will present us with a URL structure that does not map to physical directories.&nbsp; At least, probably won&#8217;t.&nbsp; In a normal site, the ASP.Net Configuration tool would add a web.config to each configured directory that specifies the authorization rules.&nbsp; This brings us to the next step:</p>
+<p><strong>[Step 5]</strong> Open your projects root web.config and add the following: </p>
+<blockquote><p>&lt;location path=&#8221;secure&#8221;&gt;<br />&nbsp; &lt;system.web&gt;<br />&nbsp;&nbsp;&nbsp; &lt;authorization&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;allow roles=&#8221;Adminstrators&#8221; /&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;deny users=&#8221;*&#8221; /&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/authorization&gt;<br />&nbsp; &lt;/system.web&gt;<br />&lt;/location&gt;</p>
+</blockquote>
+<p>Assuming you are familiar with MVC URLs this is telling us that the <a href="http://&lt;site&gt;/secure">http://&lt;site&gt;/secure</a> path should allow access to users in the Adminstrators role and deny everyone else.&nbsp; /secure is, of course, the controller.&nbsp; Had this been a standard site, the stuff inside the &lt;location /&gt; element would have been found inside our secure\web.config.</p>
+<p><strong>[Step 5]</strong> We are now ready to authenticate our users, but we don&#8217;t have a normal login.aspx.&nbsp; Instead, we&#8217;re going to create a controller called <em>UserController</em> and add a Login and Authenticate action.&nbsp; Here&#8217;s what I&#8217;ve added to my sample:</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">namespace</span> SecureMvcApplication.Controllers
+{
+    <span style="color: rgb(0,0,255)">public</span> <span style="color: rgb(0,0,255)">class</span> <span style="color: rgb(43,145,175)">UserController</span> : System.Web.Mvc.<span style="color: rgb(43,145,175)">Controller
+</span>    {
+        [System.Web.Mvc.<span style="color: rgb(43,145,175)">ControllerAction</span>]
+        <span style="color: rgb(0,0,255)">public</span> <span style="color: rgb(0,0,255)">void</span> Login()
+        {
+            RenderView(<span style="color: rgb(163,21,21)">"Login"</span>);
+        }
+
+        [System.Web.Mvc.<span style="color: rgb(43,145,175)">ControllerAction</span>]
+        <span style="color: rgb(0,0,255)">public</span> <span style="color: rgb(0,0,255)">void</span> Authenticate(<span style="color: rgb(0,0,255)">string</span> username, <span style="color: rgb(0,0,255)">string</span> password)
+        {
+            <span style="color: rgb(0,0,255)">if</span> (System.Web.Security.<span style="color: rgb(43,145,175)">Membership</span>.ValidateUser(username, password))
+            {
+                System.Web.Security.<span style="color: rgb(43,145,175)">FormsAuthentication</span>.RedirectFromLoginPage(username, <span style="color: rgb(0,0,255)">false</span>);
+            }
+        }
+    }
+}</pre>
+</blockquote>
+<p>Notice that my Login action is simply displaying a view.&nbsp; This view has two textboxes (one marked password) and a submit button.&nbsp; If you watch(ed) Scott&#8217;s <a href="http://www.hanselman.com/blog/ASPNET35ExtensionsPlusMVCHowToScreencast.aspx" target="_blank">Screencast</a>, I&#8217;ve used the <a title="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip" href="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip">http://asp.net/downloads/3.5-extensions/MVCToolkit.zip</a> to do this.&nbsp; The form itself looks like this:</p>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<blockquote><pre class="code"><span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>using</span> (Html.Form(<span style="color: rgb(163,21,21)">"Authenticate<span style="color: rgb(163,21,21)">?ReturnUrl="</span> + <span style="color: rgb(0,0,255)">this</span>.Request[<span style="color: rgb(163,21,21)">"ReturnUrl"</span>]</span>, <span style="color: rgb(163,21,21)">"User"</span>))
+  {<span style="background: rgb(255,238,98)">%&gt;
+</span>    <span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;</span>Username: <span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.TextBox(<span style="color: rgb(163,21,21)">"username"</span>) <span style="background: rgb(255,238,98)">%&gt;<span style="color: rgb(0,0,255)"></span>&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;
+</span>    <span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;</span>Password: <span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.Password(<span style="color: rgb(163,21,21)">"password"</span>) <span style="background: rgb(255,238,98)">%&gt;<span style="color: rgb(0,0,255)"></span>&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;
+</span>    <span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;</span><span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.SubmitButton(<span style="color: rgb(163,21,21)">"Login"</span>) <span style="background: rgb(255,238,98)">%&gt;<span style="color: rgb(0,0,255)"></span>&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;
+</span><span style="background: rgb(255,238,98)">&lt;%</span>} <span style="background: rgb(255,238,98)">%&gt;</span></pre>
+</blockquote>
+<p>Upon Submit/Login, we&#8217;re POSTing to the <em>Authenticate( string, string )</em> Action in our UserController which implements the basic Forms Authentication (above).&nbsp; The next step is optional, but it helped me watch the authorization status.</p>
+<p><strong>[Step 6]</strong> (Optional)&nbsp; Add this to your global.asax.cs to see the authorization status of your requests..</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">protected</span> <span style="color: rgb(0,0,255)">void</span> Application_AuthenticateRequest(<span style="color: rgb(0,0,255)">object</span> sender, <span style="color: rgb(43,145,175)">EventArgs</span> e)
+{
+    <span style="color: rgb(43,145,175)">HttpCookie</span> authCookie = Context.Request.Cookies[<span style="color: rgb(43,145,175)">FormsAuthentication</span>.FormsCookieName];
+
+    <span style="color: rgb(0,0,255)">if</span> (<span style="color: rgb(0,0,255)">null</span> == authCookie)
+    {<span style="color: rgb(0,128,0)">//There is no authentication cookie.
+</span>        <span style="color: rgb(43,145,175)">Debug</span>.WriteLine(<span style="color: rgb(163,21,21)">"Don't know you, dude."</span>);
+    }
+    <span style="color: rgb(0,0,255)">else
+</span>        <span style="color: rgb(43,145,175)">Debug</span>.WriteLine(<span style="color: rgb(163,21,21)">"Enjoy the party!"</span>);
+}</pre>
+</blockquote>
+<p>Now F5 and browse to <a href="http://localhost:&lt;port&gt;/secure/index">http://localhost:&lt;port&gt;/secure/index</a> and you should be taken to the <a href="http://localhost:&lt;port&gt;/user/login">http://localhost:&lt;port&gt;/user/login</a> page.&nbsp; Upon hitting login, you&#8217;re directed back to the root of the site.&nbsp; In our form, we had to manually set the ReturnUrl, because Forms Authentication assumes you will be posting back to yourself (classic ASP.Net Web Form).&nbsp; We&#8217;re posting across to the Authenticate action Url.</p>
+<p>You can download the completed VS 2008 project I used <a href="http://cromwellhaus.com/files/folders/netcode/entry468.aspx" target="_blank">here</a>.</p>
+<p>Can you believe we&#8217;re already calling ASP.Net Web Forms &#8220;classic&#8221;?&nbsp; Now we need to get MVC into the WPF platform.&nbsp; How cool would that be!</p>
+			</div>
+
+			<div class="postmetadata clearfix">
+        <p class="commentslink alignright">
+          <a href="http://blog.cromwellhaus.com/index.php/2007/12/asp-net-mvc-and-forms-authentication/#comments" title="Comment on ASP.Net MVC and Forms Authentication">11 comments</a> &#187;
+        </p>
+			  <p class="categories">
+          Posted in <a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>,  <a href="http://blog.cromwellhaus.com/index.php/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a>        </p>
+			        </div>
+		</div>
+
+		
+		<div class="pagination navigation clearfix">
+		    		  <div class="alignleft"></div>
+  			<div class="alignright"></div>
+		  		</div>		
+		
+	
+		</div><!-- #content -->
+	</div><!-- #container -->
+
+<div id="sidebar">
+	<ul class="sb-list clearfix">
+<li id="text-4" class="widget widget_text">			<div class="textwidget"><script type="text/javascript" src="http://cdn.widgetserver.com/syndication/subscriber/InsertWidget.js"></script><script>if (WIDGETBOX) WIDGETBOX.renderWidget('c32c21f9-ba82-473e-b4b1-5b700c29cfb9');</script><noscript>Get the <a href="http://www.widgetbox.com/widget/twidget">Twitter Widget</a> widget and many other <a href="http://www.widgetbox.com/">great free widgets</a> at <a href="http://www.widgetbox.com">Widgetbox</a>! Not seeing a widget? (<a href="http://docs.widgetbox.com/using-widgets/installing-widgets/why-cant-i-see-my-widget/">More info</a>)</noscript></div>
+		</li>
+
+
+
+<li id="about" class="clearfix">
+  <div class="sb-title">About</div>
+  <ul>
+  	<li>
+  		As a software consultant and father of two I am innately challenged each day to improve my craft.  This blog is one way I engage myself with those looking to teach and learn.		</li>
+	</ul>
+</li>
+
+
+
+		<li class="currently-viewing">
+
+		<p>You are currently browsing the archives for the MVC category.</p>
+
+	
+	</li>
+	
+</ul>
+
+<ul class="group">
+  
+    
+    
+      <li class="categories"><div class="sb-title">Categories</div><ul>	<li class="cat-item cat-item-199"><a href="http://blog.cromwellhaus.com/index.php/category/net/" title="View all posts filed under .Net">.Net</a> (32)
+</li>
+	<li class="cat-item cat-item-200"><a href="http://blog.cromwellhaus.com/index.php/category/code/" title="View all posts filed under Code">Code</a> (1)
+</li>
+	<li class="cat-item cat-item-201"><a href="http://blog.cromwellhaus.com/index.php/category/community/" title="View all posts filed under Community">Community</a> (1)
+</li>
+	<li class="cat-item cat-item-202"><a href="http://blog.cromwellhaus.com/index.php/category/hardware/" title="View all posts filed under Hardware">Hardware</a> (1)
+</li>
+	<li class="cat-item cat-item-203"><a href="http://blog.cromwellhaus.com/index.php/category/iis/" title="View all posts filed under IIS">IIS</a> (1)
+</li>
+	<li class="cat-item cat-item-204"><a href="http://blog.cromwellhaus.com/index.php/category/languages/" title="View all posts filed under Languages">Languages</a> (1)
+</li>
+	<li class="cat-item cat-item-205 current-cat"><a href="http://blog.cromwellhaus.com/index.php/category/mvc/" title="View all posts filed under MVC">MVC</a> (4)
+</li>
+	<li class="cat-item cat-item-206"><a href="http://blog.cromwellhaus.com/index.php/category/nerd-dinner/" title="View all posts filed under Nerd Dinner">Nerd Dinner</a> (1)
+</li>
+	<li class="cat-item cat-item-207"><a href="http://blog.cromwellhaus.com/index.php/category/networking/" title="View all posts filed under Networking">Networking</a> (2)
+</li>
+	<li class="cat-item cat-item-208"><a href="http://blog.cromwellhaus.com/index.php/category/nhibernate/" title="View all posts filed under NHibernate">NHibernate</a> (3)
+</li>
+	<li class="cat-item cat-item-209"><a href="http://blog.cromwellhaus.com/index.php/category/oracle/" title="View all posts filed under Oracle">Oracle</a> (1)
+</li>
+	<li class="cat-item cat-item-210"><a href="http://blog.cromwellhaus.com/index.php/category/os/" title="View all posts filed under OS">OS</a> (1)
+</li>
+	<li class="cat-item cat-item-211"><a href="http://blog.cromwellhaus.com/index.php/category/performance/" title="View all posts filed under Performance">Performance</a> (4)
+</li>
+	<li class="cat-item cat-item-212"><a href="http://blog.cromwellhaus.com/index.php/category/personal/" title="View all posts filed under Personal">Personal</a> (4)
+</li>
+	<li class="cat-item cat-item-213"><a href="http://blog.cromwellhaus.com/index.php/category/powershell/" title="View all posts filed under Powershell">Powershell</a> (3)
+</li>
+	<li class="cat-item cat-item-214"><a href="http://blog.cromwellhaus.com/index.php/category/silverlight/" title="View all posts filed under Silverlight">Silverlight</a> (2)
+</li>
+	<li class="cat-item cat-item-215"><a href="http://blog.cromwellhaus.com/index.php/category/software-reviews/" title="View all posts filed under Software Reviews">Software Reviews</a> (15)
+</li>
+	<li class="cat-item cat-item-216"><a href="http://blog.cromwellhaus.com/index.php/category/speedy-rewards/" title="View all posts filed under Speedy Rewards">Speedy Rewards</a> (1)
+</li>
+	<li class="cat-item cat-item-217"><a href="http://blog.cromwellhaus.com/index.php/category/sql-server/" title="View all posts filed under SQL Server">SQL Server</a> (2)
+</li>
+	<li class="cat-item cat-item-218"><a href="http://blog.cromwellhaus.com/index.php/category/tfs/" title="View all posts filed under TFS">TFS</a> (2)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://blog.cromwellhaus.com/index.php/category/uncategorized/" title="View all posts filed under Uncategorized">Uncategorized</a> (18)
+</li>
+	<li class="cat-item cat-item-219"><a href="http://blog.cromwellhaus.com/index.php/category/virtual-pc/" title="View all posts filed under Virtual PC">Virtual PC</a> (7)
+</li>
+	<li class="cat-item cat-item-220"><a href="http://blog.cromwellhaus.com/index.php/category/vista/" title="View all posts filed under Vista">Vista</a> (1)
+</li>
+	<li class="cat-item cat-item-221"><a href="http://blog.cromwellhaus.com/index.php/category/vista-sidebar/" title="View all posts filed under Vista Sidebar">Vista Sidebar</a> (1)
+</li>
+	<li class="cat-item cat-item-222"><a href="http://blog.cromwellhaus.com/index.php/category/visual-studio/" title="View all posts filed under Visual Studio">Visual Studio</a> (1)
+</li>
+	<li class="cat-item cat-item-223"><a href="http://blog.cromwellhaus.com/index.php/category/vmware/" title="View all posts filed under VMWare">VMWare</a> (1)
+</li>
+	<li class="cat-item cat-item-224"><a href="http://blog.cromwellhaus.com/index.php/category/wcf/" title="View all posts filed under WCF">WCF</a> (1)
+</li>
+	<li class="cat-item cat-item-225"><a href="http://blog.cromwellhaus.com/index.php/category/windsor/" title="View all posts filed under Windsor">Windsor</a> (1)
+</li>
+	<li class="cat-item cat-item-226"><a href="http://blog.cromwellhaus.com/index.php/category/wpf/" title="View all posts filed under WPF">WPF</a> (23)
+</li>
+</ul></li>  
+</ul>
+
+
+<ul class="group">
+
+    
+  
+</ul>
+
+</div> <!-- #sidebar --></div> <!-- #main -->
+
+
+<div id="footer" class="clearfix">
+<p class="alignright">
+  <a href="#home" class="top-link">Back to Top</a>
+</p>
+
+<p>
+	&copy; 2009 Ryan Cromwell  &middot; Proudly powered by  <a href="http://wordpress.org/" title="Blogsoftware by Wordpress">WordPress</a>
+	<span class="amp">&amp;</span>
+  <a href="http://cordobo.com/green-park-2/" title="Cordobo Green Park 2 Beta 5">Green Park 2</a>
+  by  <a href="http://cordobo.com/" title="Webdesign by Cordobo">Cordobo</a>.
+</p>
+
+<p class="signet">
+  Valid XHTML 1.0 Transitional | Valid CSS 3  <br /><br />
+	<img src="http://blog.cromwellhaus.com/wp-content/themes/cordobo-green-park-2/img/logo-cgp2.png" alt="Cordobo Green Park 2 logo" title="Cordobo Green Park 2" width="75" height="12" />
+</p>
+
+</div>
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-4332588-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

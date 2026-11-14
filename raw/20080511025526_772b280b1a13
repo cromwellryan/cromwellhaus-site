@@ -1,0 +1,235 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish.  It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="GENERATOR" content="CommunityServer 2007.1 (Build: 20917.1142)" />
+<link rel="pingback" href="http://cromwellhaus.com/blogs/ryanc/pingback.aspx" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/paperclip/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/paperclip/style/print.css?SectionID=11" type="text/css" media="print" />
+	<link rel="stylesheet" href="/themes/blogs/paperclip/style/summer.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/paperclip/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	Microsoft Expression Blend available to from MSDN - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/2007/04/03/microsoft-expression-blend-available-to-from-msdn.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTExNzgzNzk5NjRkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBS5jdGwwMCRNYWluJGN0bDEwJGN0bDAyJGN0bDAyJGN0bDAyJGNoa1JlbWVtYmVy8WDzwh2+ZBSrNRIT5KbGtLQ/K/k=" />
+</div>
+
+
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4S7ZBPAVw9PwaqA6uS0FfwGf3Hm9m6m-bY3jx8ehHgPE1&amp;t=633374896895889088" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4LztMjwM-SqBR5_anrX2l2HqgE4lVEbuAeBVlAAPF2Jk1&amp;t=633374896895889088" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4qw7uaC3LpM50bK3H8VCJ_tVhk9B3VUiQp-tSztnY6fE1&amp;t=633374896895889088" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4dI2CKwjWiWdwrBqDrsqy7rWQN5-5uEWsypWfk5ThPqg1&amp;t=633374896895889088" type="text/javascript"></script>
+
+    			
+
+    <div id="masthead">
+	    <div id="userArea">
+	        <div id="welcome" class="welcome" align="right">
+	            
+        <a href="/login.aspx?ReturnUrl=%2fblogs%2fryanc%2farchive%2f2007%2f04%2f03%2fmicrosoft-expression-blend-available-to-from-msdn.aspx">Sign in </a>
+         | <a href="/user/CreateUser.aspx?ReturnUrl=">Join</a>
+        | <a href="http://communityserver.org/r.ashx?K">Help</a>
+     
+
+
+	        </div>
+	        
+		    <div id="Search" align="right">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                    <tr><td>
+                        <input name="ctl00$ctl06$ctl00$SearchBox" type="text" id="ctl00_ctl06_ctl00_SearchBox" class="searchBox" Button="SearchButton" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" /> 
+                    </td><td>
+                        <span class="SearchButtonOuter"><a id="ctl00_ctl06_ctl00_SearchButton" class="SearchButton" href="javascript:__doPostBack('ctl00$ctl06$ctl00$SearchButton','')">Search</a></span>
+                    </td></tr>
+                    </table>		        
+                </div>
+	    </div>
+	    <div id="title">
+            <h1 class="headermaintitle">Ryan Cromwell</h1>
+            <div>Aimless musings of a keyboard masher.</div>
+        </div>
+    </div>
+
+    <div id="nav">
+	    <div id="navbar">
+		    <ul>
+		        <li><a href="/blogs/ryanc/default.aspx">Home</a></li>
+			    
+			    
+			    <li><a href="http://feeds.feedburner.com/RyanCromwell">RSS</a></li>
+			    
+		        
+			    
+		    </ul>
+	    </div>
+    </div>
+    <div id="content">
+        <div id="leftmenu">
+            
+                
+                
+                
+                
+                <div id="RecentPosts"><h3>Recent Posts</h3>
+<ul>
+<li><a href="/blogs/ryanc/archive/2008/04/24/minimvc-for-wpf.aspx">MiniMVC for WPF</a></li><li><a href="/blogs/ryanc/archive/2008/04/11/quicky-visual-studio-projects-ou-can-toss-to-the-curb.aspx">Quicky Visual Studio Projects you can Toss to the Curb</a></li><li><a href="/blogs/ryanc/archive/2008/03/21/virtual-pc-and-network-places.aspx">Virtual PC and Network Places</a></li><li><a href="/blogs/ryanc/archive/2008/03/21/so-what-s-your-windows-experience-score.aspx">So What's Your Windows Experience Score?</a></li><li><a href="/blogs/ryanc/archive/2008/03/20/iis-7-is-so-cool.aspx">IIS 7 is so cool</a></li>
+</ul></div>
+                
+                
+                <div id="TagSideBar">
+                        <h3>Tags</h3>
+                    <ul class="SidebarTagCloud">
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="Tag3"><a href="/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Oracle/default.aspx" rel="tag">Oracle</a></li>
+<li class="Tag3"><a href="/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="Tag3"><a href="/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+              
+                
+                                
+                                
+                
+                <div id="NavSideBar"><h3>Navigation</h3>
+<ul>
+<li><a href="/">Home</a></li><li><a href="/blogs/">Blogs</a></li><li><a href="/photos/">Photos</a></li><li><a href="/files/">Downloads</a></li>
+</ul></div>
+                
+                
+                
+                
+                
+                
+                
+                <div id="ArchiveSideBar"><h3>Archives</h3>
+<ul>
+<li><a href="/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div> 
+	        
+        </div>
+        <div id="main">
+	        
+    <div class="post">
+       <h2 class="pageTitle">Microsoft Expression Blend available to from MSDN</h2>
+
+       <p>One of the cool tools we had a chance to use while up at the WPF Bootcamp in Redmond was <a href="http://www.microsoft.com/expression/products/overview.aspx?key=blend">Expression Blend</a>.&nbsp; While there I became pretty engrossed in the ease with which you could create fairly cool animations without an intimate knowledge of Xaml.&nbsp; This made it all that harder to leave seeing as we had the latest bits at the time (the <a href="http://www.microsoft.com/products/expression/en/expression-blend/try.mspx">Release Candidate</a>&nbsp;is available as a 30 trial).&nbsp; Fortunately, or gratefully?, Microsoft has <a href="http://blogs.msdn.com/somasegar/archive/2007/04/03/listening-to-your-feedback-expression-and-msdn.aspx">decided</a> to make it available on <a href="http://msdn2.microsoft.com/subscriptions">MSDN</a>.&nbsp; That means me!</p> <p>I will say though, while reading <a href="http://www.charlespetzold.com/blog/blog.xml">Charles Petzold</a>&#39;s book <a title="Application = Code + Markup" href="http://www.amazon.com/exec/obidos/redirect?path=ASIN/0735619573&amp;link_code=as2&amp;camp=1789&amp;tag=ryancrom-20&amp;creative=9325" target="_new"><img hspace="5" src="http://images.amazon.com/images/P/0735619573.01._AA_SCTZZZZZZZ_.jpg" align="right" border="0" alt="" /></a><a href="http://www.amazon.com/exec/obidos/redirect?path=ASIN/0735619573&amp;link_code=as2&amp;camp=1789&amp;tag=ryancrom-20&amp;creative=9325">Application = Code + Markup</a>&nbsp;which starts with Code and then moves to Xaml, I believe developers and designers alike will be fooled into trying to&nbsp;generate a number of more complex animations with paths, triggers/timelines, etc. rather than implement new animations via code.&nbsp; <a href="http://blogs.msdn.com/karstenj/default.aspx">Karsten Januszewski</a>, who we were lucky enough to meet last week, pointed this exact scenario out while I was attempting to mimic the <a href="http://www.microsoft.com/casestudies/casestudy.aspx?casestudyid=201147">North Face kiosk carousel</a>&nbsp;via a path.&nbsp; He referenced a&nbsp;<a href="http://blogs.msdn.com/karstenj/archive/2007/02/23/inspired-by-flash-math-creativity-2-wpf-planets.aspx">previous post</a>&nbsp;of his&nbsp;which shows how to create a custom animation.&nbsp; Until I grasp the animation framework in WPF, I&#39;ll not risk embarrassing myself by attempting to better explain what Karsten already does much better than I.</p>
+       
+
+        <div class="postfoot">
+            	
+            <span class="em">Posted:</span>
+            <a href="/blogs/ryanc/archive/2007/04/03/microsoft-expression-blend-available-to-from-msdn.aspx">Apr 03 2007, 06:18 PM</a>
+			by
+			<a href="/members/Ryan.aspx">Ryan</a> 
+			
+                    
+                    | with <a href="/blogs/ryanc/archive/2007/04/03/microsoft-expression-blend-available-to-from-msdn.aspx#comments">no comments</a>
+                
+            
+            
+            <div class="em"><span id="ctl00_Main_ctl09_ctl01">Filed under: <a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a>, <a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></span><input type="hidden" name="ctl00$Main$ctl09$ctl01" id="ctl00_Main_ctl09_ctl01_State" value="nochange" /></div>
+        </div>    
+    </div>
+    
+    
+            
+                    <div id="comments">
+                    <a name="Comments"></a>
+                    <h2>Comments</h2>
+                
+                    <p>No Comments</p>
+                
+                    </div>
+                
+            
+            
+            
+            
+                    <fieldset id="commentform">
+                    <legend>Leave a Comment</legend>
+	                    <p />
+                        <div><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbTitle">Title</label> <em>(required)</em>&nbsp;</div>
+	                    <div><input name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$tbTitle" type="text" value="re: Microsoft Expression Blend available to from MSDN" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbTitle" class="smallbox" /></div>
+	                    <p />
+                        <div id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_NameTitle"><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbName">Name</label> <em>(required)</em>&nbsp;</div>
+                        <div id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_NameDesc"><input name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$tbName" type="text" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbName" class="smallbox" /></div>
+                        <p />
+                        <div><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbUrl">Your URL</label> <em>(optional</em>)</div>
+                        <div><input name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$tbUrl" type="text" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbUrl" class="smallbox" /></div>
+                        <p />
+                        <div><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbComment">Comments</label> <em>(required)</em>&nbsp;</div>
+                        <div><textarea name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$tbComment" rows="5" cols="25" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_tbComment"></textarea></div>
+	                    
+	                        <p />
+                            <div><input id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_chkRemember" type="checkbox" name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$chkRemember" /><label for="ctl00_Main_ctl10_ctl02_ctl02_ctl02_chkRemember">Remember Me?</label></div>
+                        
+	                    <p />
+                        <input type="submit" name="ctl00$Main$ctl10$ctl02$ctl02$ctl02$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl10$ctl02$ctl02$ctl02$btnSubmit&quot;, &quot;&quot;, true, &quot;CreateCommentForm&quot;, &quot;&quot;, false, false))" id="ctl00_Main_ctl10_ctl02_ctl02_ctl02_btnSubmit" />
+                    </fieldset>
+                
+        
+        
+        </div>
+        <div id="footer">
+	       
+			    
+			    
+			    
+			            <a href="http://communityserver.org/r.ashx?1" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+					
+
+                
+				
+			
+        </div>
+    </div>        
+        
+    
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://cromwellhaus.com/blogs/ryanc/archive/2007/04/03/microsoft-expression-blend-available-to-from-msdn.aspx"
+dc:identifier="http://cromwellhaus.com/blogs/ryanc/archive/2007/04/03/microsoft-expression-blend-available-to-from-msdn.aspx"
+dc:title="Microsoft Expression Blend available to from MSDN"
+trackback:ping="http://cromwellhaus.com/blogs/ryanc/trackback.ashx?PostID=162" />
+</rdf:RDF>
+-->
+<script src="http://feeds.feedburner.com/~s/RyanCromwell?i=http://cromwellhaus.com/blogs/ryanc/archive/2007/04/03/microsoft-expression-blend-available-to-from-msdn.aspx" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_ctl09_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_ctl09_ctl01','ctl00_Main_ctl09_ctl01','ctl00_Main_ctl09_ctl01_State','ctl00_Main_ctl09_ctl00',false,null,null,null);
+// ]]>
+</script></form>
+</body>
+</html>

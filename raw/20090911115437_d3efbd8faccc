@@ -1,0 +1,220 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="robots" content="noindex,follow" />
+<meta name="GENERATOR" content="CommunityServer 2008.5 SP1 (Build: 31106.3070)" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Posts matching MiniMVC (RSS 2.0)" href="/blogs/ryanc/rss.aspx?Tags=MiniMVC&amp;AndTags=1"  />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell - All Comments (RSS 2.0)" href="http://cromwellhaus.com/blogs//rsscomments.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Announcements (RSS 2.0)" href="/members/cromwellryan/announcements/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Comments (RSS 2.0)" href="/members/cromwellryan/comments/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Activities (RSS 2.0)" href="/members/cromwellryan/activities/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Friends Activity (RSS 2.0)" href="/members/cromwellryan/activities/friendrss.aspx"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/gold%20coast/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/themes/blogs/Gold%20Coast/style/light.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/gold%20coast/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	MiniMVC - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/tags/MiniMVC/default.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE1MDUyNTU5NDhkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBUNjdGwwMCRTaWRlQmFyJGN0bDAwJGN0bDAxJGN0bDAwJGN0bDAxJGN0bDAxJGN0bDAwJFdlYmxvZ1NlYXJjaElucHV0JU2G6jjBNpfzmzG0SHeZuFfnW4M=" />
+</div>
+
+
+<script src="/WebResource.axd?d=J-6WuSghNwWHyAIK-J_-pPF_q_yXu1e7MJ0SOwf2hYmHWp479T-10dpnEWwDsCWopE8eCH7vpBt-pKmirJKI-tCZ4XjkKDgujkTDELhnwHIQruvRE4ZXYDJt6noPUELJeTWjEtL3z9Gy3L7Lz0WKXw2&amp;t=633761145563826270" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8LZo04oaOcmOLSELo6gqLvUu7ganFEIpKN-e5Jyf9stQ1&amp;t=633761147000076918" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8yTNu4gf5kV_RaR4KS-a0AuJKvYytRnBJWnPV7Z5x2m41&amp;t=633761147000076918" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8OTuy4csQHX1lq8XdxKmwZmzsUEeYR4gZKty6Ajbvu981&amp;t=633761147000076918" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8sJUM3T2Fcpj-OflU6x0UWQBAQqaauBWDa_JCexUE4q01&amp;t=633761147000076918" type="text/javascript"></script>
+
+    			
+
+        <div id="container">
+            <div id="header">
+                <h2><a href="/blogs/ryanc/default.aspx">Ryan Cromwell</a></h2>
+                <p id="tagline">Aimless musings of a keyboard masher.</p>
+            </div>
+            <div id="wrapper">
+		        <div id="content">
+                    
+   
+    
+    
+    <h2 class="contentheading">Browse by Tags</h2>
+    
+    <div class="breadcrumb">
+        <a href="/blogs/ryanc/archive/tags/default.aspx">All Tags</a> &raquo; <a href="/blogs/ryanc/archive/tags/MiniMVC/default.aspx">MiniMVC</a>  (<a href="/blogs/ryanc/rss.aspx?Tags=MiniMVC&amp;AndTags=1">RSS</a>)
+    </div>
+    
+    <div class="tagcloud"><ul class="TagCloud">
+<li class="tag6"><a href="/blogs/ryanc/archive/tags/MiniMVC/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="tag6"><a href="/blogs/ryanc/archive/tags/MiniMVC/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+
+    
+             <dl class="entrylist">
+               <dt>
+                <a href="/blogs/ryanc/archive/2008/04/24/minimvc-for-wpf.aspx">MiniMVC for WPF</a>
+               </dt>
+               <dd>
+                   Tonight I presented for the Dayton .Net Developers Group on WPF. Unlike my previous Lap Around WPF @ CONDG which was meant as a beginners guide to WPF, this time we were skipping the basics and plunging into a framework I&#39;ve dubbed MiniMVC. MiniMVC...
+
+                   <div class="entrylistfooter">	
+                        Posted 
+                        <a href="/blogs/ryanc/archive/2008/04/24/minimvc-for-wpf.aspx">04-24-2008</a>
+					    by
+					    <a href="/members/cromwellryan/default.aspx">cromwellryan</a> 
+					    
+                                | <a href="/blogs/ryanc/archive/2008/04/24/minimvc-for-wpf.aspx#comments">4 comment(s)</a>
+                                
+                            
+                        
+                                                
+                        <div class="em"><span id="ctl00_Main_ctl05_ctl03_InlineTagEditorPanel_ctl01">Filed under: <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a>, <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a>, <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></span><input type="hidden" name="ctl00$Main$ctl05$ctl03$InlineTagEditorPanel$ctl01" id="ctl00_Main_ctl05_ctl03_InlineTagEditorPanel_ctl01_State" value="nochange" /></div>                    
+                    </div>
+                </dd>                         
+            </dl>
+        
+
+    
+        
+                </div>
+            </div>
+            <div id="subcontent-a">
+                
+                    
+                    
+                            
+                                    <div>
+                                    <h4 class="sideheader">Syndication</h4>
+                                <ul class='CommonSidebarList'><li class="rss"><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li><li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li><li><a href="/blogs/ryanc/rsscomments.aspx">RSS for Comments</a></li></ul>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Search</h4>
+                                <input name="ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchInput" type="text" id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchInput" class="searchbox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event);" /><a id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton" class="searchbutton" href="javascript:__doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')">Go</a>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/default.aspx">Tags</a></h4>
+                                <div id="TagSideBar"><ul class="CommonSidebarTagCloud">
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Code/default.aspx" rel="tag">Code</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Languages/default.aspx" rel="tag">Languages</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Nerd+Dinner/default.aspx" rel="tag">Nerd Dinner</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/OS/default.aspx" rel="tag">OS</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WCF/default.aspx" rel="tag">WCF</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Community</h4>
+                                <div id="NavSideBar">
+<ul>
+<li><a href="/">Home</a></li><li><a href="/blogs/">Blogs</a></li><li><a href="/media/">Media</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Archives</h4>
+                                <div id="ArchiveSideBar">
+<ul>
+<li><a href="/blogs/ryanc/archive/2009/08.aspx">August 2009 (1)</a></li><li><a href="/blogs/ryanc/archive/2009/07.aspx">July 2009 (2)</a></li><li><a href="/blogs/ryanc/archive/2009/04.aspx">April 2009 (1)</a></li><li><a href="/blogs/ryanc/archive/2009/03.aspx">March 2009 (6)</a></li><li><a href="/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                        
+                        
+                
+     
+                
+                <div id="contentfooter">&nbsp;</div>
+            </div>
+            <div id="footer">
+                
+				    
+				    
+				    
+				            <a href="http://communityserver.com/" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						
+
+                    
+					
+				
+            </div>
+        </div> 
+    
+<script src="http://feeds.feedburner.com/~s/RyanCromwell" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false,true);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_ctl05_ctl03_InlineTagEditorPanel_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_ctl05_ctl03_InlineTagEditorPanel_ctl01','ctl00_Main_ctl05_ctl03_InlineTagEditorPanel_ctl01','ctl00_Main_ctl05_ctl03_InlineTagEditorPanel_ctl01_State','ctl00_Main_ctl05_ctl03_InlineTagEditorPanel_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

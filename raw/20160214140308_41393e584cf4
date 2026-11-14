@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php" />
+<title>PowerShell Profile on Roaming Profile &#8211; Ryan Cromwell</title>
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="http://cromwellhaus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; PowerShell Profile on Roaming Profile Comments Feed" href="http://cromwellhaus.com/2007/06/powershell-profile-on-roaming-profile/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='pinboard-web-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic|Oswald:300,300italic,regular,italic,600,600italic&#038;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='pinboard-css'  href='http://cromwellhaus.com/wp-content/themes/pinboard/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='http://cromwellhaus.com/wp-content/themes/pinboard/styles/colorbox.css' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-4332588-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by Yoast -->
+	<!--[if lt IE 9]>
+	<script src="http://cromwellhaus.com/wp-content/themes/pinboard/scripts/html5.js" type="text/javascript"></script>
+	<![endif]-->
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/ios-orientationchange-fix.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/pinboard/scripts/jquery.colorbox-min.js'></script>
+<link rel='https://api.w.org/' href='http://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Bind to Method within a DataTemplate' href='http://cromwellhaus.com/2007/06/bind-to-method-within-a-datatemplate/' />
+<link rel='next' title='WPF ScaleTransform Direction' href='http://cromwellhaus.com/2007/06/wpf-scaletransform-direction/' />
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="http://cromwellhaus.com/2007/06/powershell-profile-on-roaming-profile/" />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=683' />
+<link rel="alternate" type="application/json+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2007%2F06%2Fpowershell-profile-on-roaming-profile%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2007%2F06%2Fpowershell-profile-on-roaming-profile%2F&#038;format=xml" />
+<meta property="og:title" content="PowerShell Profile on Roaming Profile" /><meta property="og:type" content="article" /><meta property="og:url" content="http://cromwellhaus.com/2007/06/powershell-profile-on-roaming-profile/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="NOTE:&nbsp;Impatience&nbsp;just leads to&nbsp;frustration. When I first starting playing with PowerShell here at the office, I was all excited to start adding little cmdlets to my personal profile and add to my stellar productivity (tongue firmly planted in check).&nbsp; This would hopefully reduce the net loss incurred by my learning PowerShell &hellip;" /><script>
+/* <![CDATA[ */
+	jQuery(window).load(function() {
+			});
+	jQuery(document).ready(function($) {
+		$('#access .menu > li > a').each(function() {
+			var title = $(this).attr('title');
+			if(typeof title !== 'undefined' && title !== false) {
+				$(this).append('<br /> <span>'+title+'</span>');
+				$(this).removeAttr('title');
+			}
+		});
+		function pinboard_move_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-container', container).before(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-container', container).before(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-container', container).before(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-container', container).after(meta);
+			}
+		}
+		function pinboard_restore_elements(container) {
+			if( container.hasClass('onecol') ) {
+				var thumb = $('.entry-thumbnail', container);
+				if('undefined' !== typeof thumb)
+					$('.entry-header', container).after(thumb);
+				var video = $('.entry-attachment', container);
+				if('undefined' !== typeof video)
+					$('.entry-header', container).after(video);
+				var gallery = $('.post-gallery', container);
+				if('undefined' !== typeof gallery)
+					$('.entry-header', container).after(gallery);
+				var meta = $('.entry-meta', container);
+				if('undefined' !== typeof meta)
+					$('.entry-header', container).append(meta);
+				else
+					$('.entry-header', container).html(meta.html());
+			}
+		}
+		if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+			// Viewport is greater than tablet: portrait
+		} else {
+			$('#content .hentry').each(function() {
+				pinboard_move_elements($(this));
+			});
+		}
+		$(window).resize(function() {
+			if( ($(window).width() > 960) || ($(document).width() > 960) ) {
+									$('.page-template-template-full-width-php #content .hentry, .page-template-template-blog-full-width-php #content .hentry, .page-template-template-blog-four-col-php #content .hentry').each(function() {
+						pinboard_restore_elements($(this));
+					});
+							} else {
+				$('#content .hentry').each(function() {
+					pinboard_move_elements($(this));
+				});
+			}
+			if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+				var maxh = 0;
+				$('#access .menu > li > a').each(function() {
+					if(parseInt($(this).css('height'))>maxh) {
+						maxh = parseInt($(this).css('height'));
+					}
+				});
+				$('#access .menu > li > a').css('height', maxh);
+			} else {
+				$('#access .menu > li > a').css('height', 'auto');
+			}
+		});
+		if( ($(window).width() > 760) || ($(document).width() > 760) ) {
+			var maxh = 0;
+			$('#access .menu > li > a').each(function() {
+				var title = $(this).attr('title');
+				if(typeof title !== 'undefined' && title !== false) {
+					$(this).append('<br /> <span>'+title+'</span>');
+					$(this).removeAttr('title');
+				}
+				if(parseInt($(this).css('height'))>maxh) {
+					maxh = parseInt($(this).css('height'));
+				}
+			});
+			$('#access .menu > li > a').css('height', maxh);
+							$('#access li').mouseenter(function() {
+					$(this).children('ul').css('display', 'none').stop(true, true).fadeIn(250).css('display', 'block').children('ul').css('display', 'none');
+				});
+				$('#access li').mouseleave(function() {
+					$(this).children('ul').stop(true, true).fadeOut(250).css('display', 'block');
+				});
+					} else {
+			$('#access li').each(function() {
+				if($(this).children('ul').length)
+					$(this).append('<span class="drop-down-toggle"><span class="drop-down-arrow"></span></span>');
+			});
+			$('.drop-down-toggle').click(function() {
+				$(this).parent().children('ul').slideToggle(250);
+			});
+		}
+				$('.entry-attachment audio, .entry-attachment video').mediaelementplayer({
+			videoWidth: '100%',
+			videoHeight: '100%',
+			audioWidth: '100%',
+			alwaysShowControls: true,
+			features: ['playpause','progress','tracks','volume'],
+			videoVolume: 'horizontal'
+		});
+		$(".entry-attachment, .entry-content").fitVids({ customSelector: "iframe[src*='wordpress.tv'], iframe[src*='www.dailymotion.com'], iframe[src*='blip.tv'], iframe[src*='www.viddler.com']"});
+	});
+	jQuery(window).load(function() {
+					jQuery('.entry-content a[href$=".jpg"],.entry-content a[href$=".jpeg"],.entry-content a[href$=".png"],.entry-content a[href$=".gif"],a.colorbox').colorbox({
+				maxWidth: '100%',
+				maxHeight: '100%',
+			});
+			});
+/* ]]> */
+</script>
+<style type="text/css">
+																																											.gist pre { text-align: left }</style>
+<style type="text/css">
+	#site-title a,
+	#site-description {
+		color:#333333;
+	}
+</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://cromwellhaus.com/wp-content/themes/pinboard/images/bg.jpg'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+</style>
+</head>
+
+<body class="single single-post postid-683 single-format-standard custom-background page-template-template-full-width-php">
+	<div id="wrapper">
+		<header id="header">
+			<div id="site-title">
+								<a class="home" href="http://cromwellhaus.com/" rel="home">Ryan Cromwell</a>
+			</div>
+							<div id="site-description">Big vision. Small changes.  Learn by shipping.</div>
+							<form role="search" method="get" id="searchform" action="http://cromwellhaus.com/" >
+	<input type="text" value="" placeholder="Search this website&#8230;" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="Search" />
+</form>			<div id="social-media-icons">
+									<a class="social-media-icon twitter" href="http://twitter.com/cromwellryan">Twitter</a>
+																		<a class="social-media-icon youtube" href="http://www.youtube.com/channel/UCulXjBNxl_oe4_gjQV1jb2Q">Vimeo</a>
+															<a class="social-media-icon linkedin" href="http://www.linkedin.com/in/cromwellryan">LinkedIn</a>
+					</div>
+				<div class="clear"></div>
+			<nav id="access">
+				<a class="nav-show" href="#access">Show Navigation</a>
+				<a class="nav-hide" href="#nogo">Hide Navigation</a>
+				<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="http://cromwellhaus.com/about/">Bio</a></li>
+<li id="menu-item-1521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1521"><a title="topics &#038; abstracts" href="http://cromwellhaus.com/presentations/">Talks</a></li>
+</ul></div>				<div class="clear"></div>
+			</nav><!-- #access -->
+		</header><!-- #header -->	<div id="container">
+		<section id="content" class="column onecol">
+							<article class="post-683 post type-post status-publish format-standard hentry category-powershell column onecol" id="post-683">
+					<div class="entry">
+						<header class="entry-header">
+							<h1 class="entry-title">PowerShell Profile on Roaming Profile</h1>
+									<aside class="entry-meta">
+							<span class="entry-author-link"><a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></span>
+									<span class="entry-date">June 27, 2007</span>
+												<span class="entry-category"><a href="http://cromwellhaus.com/category/powershell/" rel="category tag">Powershell</a></span>
+																		<div class="clear"></div>
+		</aside><!-- .entry-meta -->
+							</header><!-- .entry-header -->
+						<div class="entry-content">
+														<p>NOTE:&nbsp;Impatience&nbsp;just leads to&nbsp;frustration.</p>
+<p>When I first starting playing with PowerShell here at the office, I was all excited to start adding little cmdlets to my personal profile and add to my stellar productivity (tongue firmly planted in check).&nbsp; This would hopefully reduce the net loss incurred by my learning PowerShell in the first place.&nbsp; </p>
+<p>So I took the first step and created my empty profile:</p>
+<blockquote><p><em>ps&gt; notepad $profile</em></p>
+</blockquote>
+<p>and added a nice little cmdlet to send email.&nbsp; This will replace that exe tool I&#8217;ve always used to send emails in batch files or just whenever I need to at the command prompt.</p>
+<blockquote><p><em>$defaultSendMailHost = &#8220;emcrs71&#8221;<br />$defaultSendMailFrom = <a href="mailto:email@email.com">email@email.com</a> </em>
+<p><em>function send-mail( [string] $to, [string] $subject, [string] $body )<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp; $smtp = new-object System.Net.Mail.SmtpClient<br />&nbsp;&nbsp;&nbsp;&nbsp; $smtp.Host = $defaultSendMailHost<br />&nbsp;&nbsp;&nbsp;&nbsp; $email = new-object System.Net.Mail.MailMessage<br />&nbsp;&nbsp;&nbsp;&nbsp; $email.From = $defaultSendMailFrom<br />&nbsp;&nbsp;&nbsp;&nbsp; $email.To.Add( $to )<br />&nbsp;&nbsp;&nbsp;&nbsp; $email.Subject = $subject<br />&nbsp;&nbsp;&nbsp;&nbsp; $email.Body = $body<br />&nbsp;&nbsp;&nbsp;&nbsp; $smtp.Send( $email )<br />}</em></p>
+</blockquote>
+<p>Start it up again and WHAM&#8230;&nbsp;</p>
+<blockquote><p><font face="Courier" color="#ff0000">File \\&lt;server&gt;\&lt;username&gt;\My Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1&nbsp;cannot be loaded. The file \\&lt;server&gt;\&lt;username&gt;\My Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1 is not digitally signed. The script will not execute on the system. Please see &#8220;get-help about_signing&#8221; for more details.</font></p>
+</blockquote>
+<p>Sign <em>my </em>scripts?!&nbsp; How dare you!&nbsp; I was too annoyed to deal with it and took the ever so appalling step of changing the PowerShell Short cut to point to a local folder on my C drive.&nbsp; Please don&#8217;t stop reading as I&#8217;ve learned from my mistakes and have rectified my ways.</p>
+<p>A few weeks later I ran across the <a href="http://www.codeplex.com/PowerShellCX/">PowerShell Community Extensions</a>, which I highly recommend PowerShell-er install and, in fact, replaced my send-mail cmdlet above.&nbsp; PSCX has an option to install it&#8217;s own profile which I chose, but after that I started receiving the Digital Signing guff.&nbsp; </p>
+<p>In the end, I did what any good PowerShell-er with a growing Profile should do.&nbsp; I created a cmdlet to sign my profile.&nbsp; Now I can open PS, type edit-profile (or use my ep alias), save it, and hit sign-profile (sp alias) and I&#8217;m good to go.&nbsp; Here it is: </p>
+<blockquote><p>function edit-profile()<br />{<br />&nbsp;&nbsp;&nbsp; notepad $profile<br />}
+<p>function sign-profile()<br />{<br />&nbsp;&nbsp;&nbsp; dir $Profiledir\*.ps1 | foreach-object { sign-script $_.FullName }<br />}
+<p>function sign-script( $scriptsource ) <br />{<br />&nbsp;&nbsp;&nbsp; get-item $scriptsource <br />&nbsp;&nbsp;&nbsp; Set-AuthenticodeSignature $scriptsource @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0]<br />}
+<p>set-alias sm Send-SmtpMail<br />set-alias ep edit-profile<br />set-alias sp sign-profile</p>
+</blockquote>
+<p>Now there is a little part I left out and that&#8217;s creating yourself a certificate, but <a href="http://www.hanselman.com/blog/">Scott Hanselman</a> has a very good <a href="http://www.hanselman.com/blog/SigningPowerShellScripts.aspx">post</a> that will walk you through this.</p>
+<p><a href="http://technorati.com/claim/rgidkvtvc8" rel="me">Technorati Profile</a></p>
+							<div class="clear"></div>
+						</div><!-- .entry-content -->
+						<footer class="entry-utility">
+																							<div class="social-bookmarks">
+			<p>Did you like this article? Share it with your friends!</p>
+							<div class="facebook-like">
+					<div id="fb-root"></div>
+					<script>
+						(function(d, s, id) {
+							var js, fjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s); js.id = id;
+							js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+							fjs.parentNode.insertBefore(js, fjs);
+						}(document, 'script', 'facebook-jssdk'));
+					</script>
+					<div class="fb-like" data-href="http://cromwellhaus.com/2007/06/powershell-profile-on-roaming-profile/" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div>
+				</div><!-- .facebook-like -->
+										<div class="twitter-button">
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://cromwellhaus.com/2007/06/powershell-profile-on-roaming-profile/">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div><!-- .twitter-button -->
+										<div class="google-plusone">
+					<div class="g-plusone" data-size="medium" data-href="http://cromwellhaus.com/2007/06/powershell-profile-on-roaming-profile/"></div>
+					<script type="text/javascript">
+						(function() {
+							var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+							po.src = 'https://apis.google.com/js/plusone.js';
+							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+						})();
+					</script>
+				</div><!-- .google-plusone -->
+									<div class="clear"></div>
+		</div><!-- .social-bookmarks -->
+										<div class="entry-author">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=96&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=192&amp;d=mm&amp;r=g 2x' class='avatar avatar-96 photo' height='96' width='96' />			<h3 class="author vcard">Written by <span class="fn"><a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan" rel="author">cromwellryan</a></span></h3>
+			<p class="author-bio"></p>
+			<div class="clear"></div>
+		</div><!-- .entry-author -->
+							</footer><!-- .entry-utility -->
+					</div><!-- .entry -->
+					
+<div id="disqus_thread">
+    </div>
+
+<script type="text/javascript">
+var disqus_url = 'http://cromwellhaus.com/2007/06/powershell-profile-on-roaming-profile/';
+var disqus_identifier = '683 /blogs/ryanc/archive/2007/06/27/powershell-profile-on-roaming-profile.aspx';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'cromwellhaus';
+var disqus_title = "PowerShell Profile on Roaming Profile";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=683';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+				</article><!-- .post -->
+					</section><!-- #content -->
+			</div><!-- #container -->
+				<div id="footer">
+						<div id="copyright">
+				<p class="copyright twocol">© 2016 Ryan Cromwell</p>
+									<p class="credits twocol">
+																															Powered by <a href="https://www.onedesigns.com/themes/pinboard" title="Pinboard Theme">Pinboard Theme</a> by <a href="https://www.onedesigns.com/" title="One Designs">One Designs</a>											</p>
+								<div class="clear"></div>
+			</div><!-- #copyright -->
+		</div><!-- #footer -->
+	</div><!-- #wrapper -->
+        <script type="text/javascript">
+        // <![CDATA[
+        var disqus_shortname = 'cromwellhaus';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1) {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script'); 
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        </script>
+        <script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.18.1'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/comment-reply.min.js?ver=4.4.2'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
+</body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2016-02-14 09:03:08 by W3 Total Cache -->

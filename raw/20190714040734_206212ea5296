@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php">
+
+	<title>Binding to an Image Byte[] in WPF &#8211; Ryan Cromwell</title>
+<script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Comments Feed" href="http://cromwellhaus.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Binding to an Image Byte[] in WPF Comments Feed" href="http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.3.3 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.3.3';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-4332588-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-4332588-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cromwellhaus.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css'  href='http://cromwellhaus.com/wp-includes/css/dist/block-library/style.min.css?ver=5.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='atomic-blocks-style-css'  href='http://cromwellhaus.com/wp-content/themes/atomic-blocks/style.css?ver=5.0.4' type='text/css' media='all' />
+<style id='atomic-blocks-style-inline-css' type='text/css'>
+
+
+	button,
+	input[type='button'],
+	input[type='submit'],
+	.button,
+	.page-numbers.current,
+	.page-numbers:hover,
+	#page #infinite-handle button,
+	#page #infinite-handle button:hover,
+	.comment-navigation a,
+	.su-button,
+	.mobile-navigation,
+	.toggle-active {
+	      background-color: #5a3fd6;
+	}
+
+	.entry-content p a,
+	.entry-content p a:hover,
+	.header-text a,
+	.header-text a:hover,
+	.entry-content .meta-list a,
+	.post-navigation a:hover .post-title,
+	.entry-header .entry-title a:hover,
+	#page .more-link:hover,
+	.site-footer a,
+	.main-navigation a:hover, 
+	.main-navigation ul li.current-menu-item a, 
+	.main-navigation ul li.current-page-item a {
+		color: #5a3fd6;
+	}
+
+	.entry-header .entry-title a:hover {
+		box-shadow: inset 0 -4px 0 #5a3fd6;
+	}
+
+	.entry-content p a,
+	.header-text a {
+		box-shadow: inset 0 -1px 0 #5a3fd6;
+	}
+
+	.entry-content p a:hover,
+	.header-text a:hover {
+		box-shadow: inset 0 -2px 0 #5a3fd6;
+	}
+
+	@media (min-width: 1000px) {
+		#primary {
+			width: 70%;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		body {
+			font-size: 20px;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		.entry-header .entry-title {
+			font-size: 50px;
+		}
+	}
+ 
+	h1, h2, h3, h4, h5, h6, body, button, 
+	input[type='button'],
+	input[type='reset'],
+	input[type='submit'],
+	.button,
+	#page #infinite-handle button {
+		font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+	}
+
+	
+</style>
+<link rel='stylesheet' id='atomic-blocks-fonts-css'  href='//fonts.googleapis.com/css?family=Muli%3A700%7CNunito+Sans%3A400%2C400i%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://cromwellhaus.com/wp-content/themes/atomic-blocks/inc/fontawesome/css/fontawesome-all.css?ver=5.0.12' type='text/css' media='screen' />
+<link rel='stylesheet' id='atomic-blocks-shared-styles-css'  href='http://cromwellhaus.com/wp-content/themes/atomic-blocks/common.css?ver=1.0' type='text/css' media='screen' />
+<style id='atomic-blocks-shared-styles-inline-css' type='text/css'>
+#editor .edit-post-visual-editor textarea.editor-post-title__input { font-size: 50px; }#editor .edit-post-visual-editor p { font-size: 20px; }
+		#editor .editor-rich-text__tinymce a { 
+			box-shadow: inset 0 -1px 0 #5a3fd6;
+			color: #5a3fd6;
+		}
+		#editor .editor-rich-text__tinymce a:hover,
+		.ab-block-post-grid h2 a:hover,
+		.ab-block-post-grid .ab-block-post-grid-link:hover {
+			color: #5a3fd6;
+			box-shadow: inset 0 -2px 0 #5a3fd6;
+		}
+</style>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"","inbound_paths":"","home_url":"http:\/\/cromwellhaus.com","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.3.3'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://cromwellhaus.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='WPF ScaleTransform Direction' href='http://cromwellhaus.com/2007/06/wpf-scaletransform-direction/' />
+<link rel='next' title='&quot;This problem is being researched&quot;' href='http://cromwellhaus.com/2007/08/quot-this-problem-is-being-researched-quot/' />
+<meta name="generator" content="WordPress 5.0.4" />
+<link rel="canonical" href="http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/" />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=685' />
+<link rel="alternate" type="application/json+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2007%2F07%2Fbinding-to-the-byte-of-an-image-in-wpf%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://cromwellhaus.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fcromwellhaus.com%2F2007%2F07%2Fbinding-to-the-byte-of-an-image-in-wpf%2F&#038;format=xml" />
+<meta property="og:title" content="Binding to an Image Byte[] in WPF" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta property="og:url" content="http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/" /><meta property="og:site_name" content="Ryan Cromwell" /><meta property="og:description" content="I&#8217;m working on a&nbsp;WPF app for my wife who coaches our local high school track team.&nbsp; One of the features she wanted was to have some images for different players and teams and, religious debate aside, I have chosen to save these in SQL Server 2005.&nbsp; I&#8217;m using NHibernate&nbsp;for all my data access which has &hellip;" /></head>
+
+<body class="post-template-default single single-post postid-685 single-format-standard featured-image-wide">
+
+<header id="masthead" class="site-header">
+	<div class="search-drawer" aria-expanded="false" role="region">
+		<div class="container">
+			<div class="drawer-search">
+				<div class="big-search">
+					
+<form role="search" method="get" class="searchform" action="http://cromwellhaus.com/">
+	<div>
+		<label class="screen-reader-text">Search for:</label>
+
+		<input type="text" value="" name="s" class="search-input" placeholder="Search here..." />
+
+		<button class="searchsubmit" type="submit">
+			<i class="fa fa-search"></i> <span>Search</span>
+		</button>
+	</div>
+</form>				</div>
+			</div>
+		</div><!-- .container -->
+	</div><!-- .drawer -->
+
+	<div class="top-navigation">
+		
+<div class="mobile-navigation">
+	<button class="menu-toggle button-toggle">
+		<span>
+			<i class="fa fa-bars"></i>
+			Menu		</span>
+		<span>
+			<i class="fa fa-times"></i>
+			Close		</span>
+	</button><!-- .overlay-toggle -->
+</div>
+
+<div class="drawer-wrap">
+	<div class="drawer drawer-menu-explore">
+		<nav id="drawer-navigation" class="drawer-navigation">
+			<div class="menu-menu-1-container"><ul id="menu-menu-1" class="menu"><li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="http://cromwellhaus.com/about/">Bio</a></li>
+<li class="menu-item menu-item-search search-toggle"><i class="fa fa-search"></i><i class="fas fa-times"></i></li></ul></div>		</nav><!-- #site-navigation -->
+
+		
+<form role="search" method="get" class="searchform" action="http://cromwellhaus.com/">
+	<div>
+		<label class="screen-reader-text">Search for:</label>
+
+		<input type="text" value="" name="s" class="search-input" placeholder="Search here..." />
+
+		<button class="searchsubmit" type="submit">
+			<i class="fa fa-search"></i> <span>Search</span>
+		</button>
+	</div>
+</form>	</div><!-- .drawer -->
+</div>
+
+		<div class="container">
+			<div class="site-identity clear">
+				<!-- Site title and logo -->
+					<div class="site-title-wrap" itemscope itemtype="http://schema.org/Organization">
+		<!-- Use the Site Logo feature, if supported -->
+		
+		<div class="titles-wrap has-description">
+							<p class="site-title"><a href="http://cromwellhaus.com/" rel="home">Ryan Cromwell</a></p>
+ 			
+							<p class="site-description">Big vision. Small changes.  Learn by shipping.</p>
+					</div>
+	</div><!-- .site-title-wrap -->
+
+				<div class="top-navigation-right">
+					<!-- Main navigation -->
+					<nav id="site-navigation" class="main-navigation">
+						<div class="menu-menu-1-container"><ul id="menu-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a title="about little ol&#8217; me" href="http://cromwellhaus.com/about/">Bio</a></li>
+<li class="menu-item menu-item-search search-toggle"><i class="fa fa-search"></i><i class="fas fa-times"></i></li></ul></div>					</nav><!-- .main-navigation -->
+				</div><!-- .top-navigation-right -->
+			</div><!-- .site-identity-->
+		</div><!-- .container -->
+	</div><!-- .top-navigation -->
+
+	<!-- Get the archive page titles -->
+	</header><!-- .site-header -->
+
+<div id="page" class="hfeed site container">
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+		
+<article id="post-685" class="post-685 post type-post status-publish format-standard hentry category-net category-wpf without-featured-image">
+	<div class="post-content">
+
+		<header class="entry-header">
+				
+				<h1 class="entry-title">
+					Binding to an Image Byte[] in WPF				</h1>
+						
+					<p class="entry-byline">
+		<!-- Create an avatar link -->
+		<a href="http://cromwellhaus.com/author/cromwellryan/" title="Posts by cromwellryan">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=44&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=88&#038;d=mm&#038;r=g 2x' class='avatar avatar-44 photo' height='44' width='44' />		</a>
+
+		<!-- Create an author post link -->
+		<a class="entry-byline-author" href="http://cromwellhaus.com/author/cromwellryan/">
+			cromwellryan		</a>
+		<span class="entry-byline-on">on</span>
+		<span class="entry-byline-date">July 26, 2007</span>
+	</p>
+		</header>
+		
+		
+		<div class="entry-content">
+
+			<p>I&#8217;m working on a&nbsp;WPF app for my wife who coaches our local high school track team.&nbsp; One of the features she wanted was to have some images for different players and teams and, religious debate aside, I have chosen to save these in SQL Server 2005.&nbsp; I&#8217;m using <a href="http://www.hibernate.org/343.html" mce_href="http://www.hibernate.org/343.html">NHibernate</a>&nbsp;for all my data access which has been a great experience (my first).&nbsp; Impressively, NHibernate supports SQL Server <i>Image</i> columns via the inherent <i>Byte[]&nbsp;</i> type (See Section 5.1.9 of the <a href="http://www.hibernate.org/hib_docs/nhibernate/html/mapping.html" mce_href="http://www.hibernate.org/hib_docs/nhibernate/html/mapping.html">docs</a>).&nbsp; This made adding the Image to my classes <b>very</b> easy.&nbsp; </p>
+<p>Here&#8217;s a snippet of my class with the corresponding NHibernate Mapping Xml File:</p>
+<blockquote>
+<pre class="code"><span style="color: rgb(0, 128, 0);">/* Class */<br /></span>[<span style="color: rgb(0, 128, 128);">Serializable</span>]<br /><span style="color: rgb(0, 0, 255);">public</span> <span style="color: rgb(0, 0, 255);">class</span> <span style="color: rgb(0, 128, 128);">Organization</span> : <span style="color: rgb(0, 128, 128);">INotifyPropertyChanged<br /></span>{   <br />    <span style="color: rgb(0, 128, 0);">//...<br /><br /></span>    <span style="color: rgb(0, 0, 255);">public</span> <span style="color: rgb(0, 0, 255);">byte</span>[] Image<br />    {<br />        <span style="color: rgb(0, 0, 255);">get</span> { <span style="color: rgb(0, 0, 255);">return</span> _image; }<br />        <span style="color: rgb(0, 0, 255);">set<br /></span>        {<br />            _image = <span style="color: rgb(0, 0, 255);">value</span>;<br />            OnPropertyChanged(<span style="color: rgb(128, 0, 0);">"Image"</span>);<br />        }<br />    }<br /><br />    <span style="color: rgb(0, 128, 0);">//...<br /></span>}  <br /></pre>
+<pre class="code"><span style="color: rgb(0, 0, 255);">&lt;!--</span><span style="color: rgb(0, 128, 0);"> Mapping </span><span style="color: rgb(0, 0, 255);">--&gt;<br />&lt;</span><span style="color: rgb(128, 0, 0);">hibernate-mapping</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">xmlns</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">urn:nhibernate-mapping-2.2</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">default-lazy</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">&gt;<br />  &lt;</span><span style="color: rgb(128, 0, 0);">class</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Cromwell.MyApp.Organization, Cromwell.MyApp</span>"<span style="color: rgb(0, 0, 255);"> <br />         </span><span style="color: rgb(255, 0, 0);">table</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">dbo.Organization</span>"<span style="color: rgb(0, 0, 255);">&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">id</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Id</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Int32</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Id</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">unsaved-value</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">0</span>"<span style="color: rgb(0, 0, 255);">&gt;<br />      &lt;</span><span style="color: rgb(128, 0, 0);">generator</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">class</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">native</span>"<span style="color: rgb(0, 0, 255);"> /&gt;<br />    &lt;/</span><span style="color: rgb(128, 0, 0);">id</span><span style="color: rgb(0, 0, 255);">&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">many-to-one</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Type</span>"<span style="color: rgb(0, 0, 255);"> <br />                 </span><span style="color: rgb(255, 0, 0);">class</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Cromwell.MyApp.OrganizationType, Cromwell.MyApp</span>"<span style="color: rgb(0, 0, 255);"> <br />                 </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Type</span>"<span style="color: rgb(0, 0, 255);"> <br />                 </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">true</span>"<span style="color: rgb(0, 0, 255);">/&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Name</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">255</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Name</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">true</span>"<span style="color: rgb(0, 0, 255);">/&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Address1</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">255</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Address1</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Address2</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);"
+>=</span>"<span style="color: rgb(0, 0, 255);">255</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Address2</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">City</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">255</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">City</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">State</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">2</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">State</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">PostalCode</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">String</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">length</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">7</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">PostalCode</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);">/&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">property</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">name</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Image</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">type</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Byte[]</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">column</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Image</span>"<span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">not-null</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">false</span>"<span style="color: rgb(0, 0, 255);"> /&gt;<br />  &lt;/</span><span style="color: rgb(128, 0, 0);">class</span><span style="color: rgb(0, 0, 255);">&gt;<br />&lt;/</span><span style="color: rgb(128, 0, 0);">hibernate-mapping</span><span style="color: rgb(0, 0, 255);">&gt;</span></pre>
+</blockquote>
+<p>The key to binding this Image property on my WPF forms is the Binding <a href="http://cromwellhaus.com/controlpanel/blogs/I%27m%20working%20on%20a%20WPF%20app%20for%20my%20wife%20who%20coaches%20our%20local%20high%20school%20track%20team.%20%20One%20of%20the%20features%20she%20wanted%20was%20to%20have%20some%20images%20for%20different%20players%20and%20teams%20and,%20religious%20debate%20aside,%20I%20have%20chosen%20to%20save%20these%20in%20SQL%20Server%202005.%20%20I%27m%20using%20NHibernate%20for%20all%20my%20data%20access%20which%20has%20been%20a%20great%20experience%20%28my%20first%29.%20%20Impressively,%20NHibernate%20supports%20SQL%20Server%20Image%20columns%20via%20the%20inherent%20Byte%5B%5D%20%20type%20%28See%20Section%205.1.9%20of%20the%20docs%29.%20%20This%20made%20adding%20the%20Image%20to%20my%20classes%20very%20easy.">Converter</a> property.&nbsp; This property allows you to specify any class which implements <a href="http://msdn2.microsoft.com/en-us/library/system.windows.data.ivalueconverter.aspx" mce_href="http://msdn2.microsoft.com/en-us/library/system.windows.data.ivalueconverter.aspx">System.Windows.Data.IValueConverter</a>&nbsp;to act as an intermediary between your bind data and WPF.&nbsp; In my case, the goal was to turn a byte[] property, Image, into a <a href="http://msdn2.microsoft.com/en-us/library/system.windows.media.imaging.bitmapimage.aspx" mce_href="http://msdn2.microsoft.com/en-us/library/system.windows.media.imaging.bitmapimage.aspx">BitmapImage</a> which the an <a href="http://msdn2.microsoft.com/en-us/library/ms746717.aspx" mce_href="http://msdn2.microsoft.com/en-us/library/ms746717.aspx">&lt;Image /&gt;</a> control/element can display.&nbsp; </p>
+<p>Here&#8217;s what I came up with:</p>
+<blockquote>
+<pre class="code"><span style="color: rgb(0, 0, 255);">class</span> <span style="color: rgb(0, 128, 128);">BinaryImageConverter</span> : <span style="color: rgb(0, 128, 128);">IValueConverter<br /></span>{<br />    <span style="color: rgb(0, 0, 255);">object</span> <span style="color: rgb(0, 128, 128);">IValueConverter</span>.Convert( <span style="color: rgb(0, 0, 255);">object</span> value, <br />        <span style="color: rgb(0, 128, 128);">Type</span> targetType, <br />        <span style="color: rgb(0, 0, 255);">object</span> parameter, <br />        System.Globalization.<span style="color: rgb(0, 128, 128);">CultureInfo</span> culture )<br />    {<br />        <span style="color: rgb(0, 0, 255);">if</span>(value != <span style="color: rgb(0, 0, 255);">null</span> &amp;&amp; value <span style="color: rgb(0, 0, 255);">is</span> <span style="color: rgb(0, 0, 255);">byte</span>[])<br />        {<br />            <span style="color: rgb(0, 0, 255);">byte</span>[] bytes = value <span style="color: rgb(0, 0, 255);">as</span> <span style="color: rgb(0, 0, 255);">byte</span>[];<br /><br />            <span style="color: rgb(0, 128, 128);">MemoryStream</span> stream = <span style="color: rgb(0, 0, 255);">new</span> <span style="color: rgb(0, 128, 128);">MemoryStream</span>( bytes );<br /><br />            <span style="color: rgb(0, 128, 128);">BitmapImage</span> image = <span style="color: rgb(0, 0, 255);">new</span> <span style="color: rgb(0, 128, 128);">BitmapImage</span>();<br />            image.BeginInit();<br />            image.StreamSource = stream;<br />            image.EndInit();<br /><br />            <span style="color: rgb(0, 0, 255);">return</span> image;<br />        }<br /><br />        <span style="color: rgb(0, 0, 255);">return</span> <span style="color: rgb(0, 0, 255);">null</span>;<br />    }<br /><br />    <span style="color: rgb(0, 0, 255);">object</span> <span style="color: rgb(0, 128, 128);">IValueConverter</span>.ConvertBack( <span style="color: rgb(0, 0, 255);">object</span> value, <br />        <span style="color: rgb(0, 128, 128);">Type</span> targetType, <br />        <span style="color: rgb(0, 0, 255);">object</span> parameter, <br />        System.Globalization.<span style="color: rgb(0, 128, 128);">CultureInfo</span> culture )<br />    {<br />        <span style="color: rgb(0, 0, 255);">throw</span> <span style="color: rgb(0, 0, 255);">new</span> <span style="color: rgb(0, 128, 128);">Exception</span>( <span style="color: rgb(128, 0, 0);">"The method or operation is not implemented."</span> );<br />    }<br />}</pre>
+<p><a href="http://11011.net/software/vspaste" mce_href="http://11011.net/software/vspaste"></a></p></blockquote>
+<p>Here&#8217;s how I used it in my WPF Page:</p>
+<blockquote>
+<pre class="code"><span style="color: rgb(0, 0, 255);">&lt;</span><span style="color: rgb(128, 0, 0);">Page</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">x:Class</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Cromwell.MyApp.EditOrganization</span>"<br /><span style="color: rgb(0, 0, 255);">    </span><span style="color: rgb(255, 0, 0);">...<br /></span><span style="color: rgb(0, 0, 255);">      </span><span style="color: rgb(255, 0, 0);">xmlns:converts</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">clr-namespace:Cromwell.MyApp.Converters</span>"<br /><span style="color: rgb(0, 0, 255);">    &gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">Page.Resources</span><span style="color: rgb(0, 0, 255);">&gt;<br />      &lt;</span><span style="color: rgb(128, 0, 0);">converts:BinaryImageConverter</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">x:Key</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">imgConverter</span>"<span style="color: rgb(0, 0, 255);"> /&gt;<br />    &lt;/</span><span style="color: rgb(128, 0, 0);">Page.Resources</span><span style="color: rgb(0, 0, 255);">&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">Grid</span><span style="color: rgb(0, 0, 255);">&gt;<br />    &lt;!--</span><span style="color: rgb(0, 128, 0);"> Image Control </span><span style="color: rgb(0, 0, 255);">--&gt;<br />    &lt;</span><span style="color: rgb(128, 0, 0);">Image</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">Source</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">{Binding Path=Image, <br />                    Converter={StaticResource imgConverter}}</span>"<span style="color: rgb(0, 0, 255);"> <br />           </span><span style="color: rgb(255, 0, 0);">Stretch</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">UniformToFill</span>"<span style="color: rgb(0, 0, 255);"> <br />      </span><span style="color: rgb(255, 0, 0);">StretchDirection</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Both</span>"<span style="color: rgb(0, 0, 255);">&gt;<br />      &lt;</span><span style="color: rgb(128, 0, 0);">Image.BitmapEffect</span><span style="color: rgb(0, 0, 255);">&gt;<br />        &lt;</span><span style="color: rgb(128, 0, 0);">DropShadowBitmapEffect</span><span style="color: rgb(0, 0, 255);"> </span><span style="color: rgb(255, 0, 0);">Color</span><span style="color: rgb(0, 0, 255);">=</span>"<span style="color: rgb(0, 0, 255);">Black</span>"<span style="color: rgb(0, 0, 255);"> /&gt;<br />      &lt;/</span><span style="color: rgb(128, 0, 0);">Image.BitmapEffect</span><span style="color: rgb(0, 0, 255);">&gt;<br />    &lt;/</span><span style="color: rgb(128, 0, 0);">Image</span><span style="color: rgb(0, 0, 255);">&gt;<br />  &lt;/</span><span style="color: rgb(128, 0, 0);">Grid</span><span style="color: rgb(0, 0, 255);">&gt;<br />&lt;/</span><span style="color: rgb(128, 0, 0);">Page</span><span style="color: rgb(0, 0, 255);">&gt;<br /></span></pre>
+<p><a href="http://11011.net/software/vspaste" mce_href="http://11011.net/software/vspaste"></a><a href="http://11011.net/software/vspaste" mce_href="http://11011.net/software/vspaste"></a></p></blockquote>
+<p>I&#8217;m going to have to spend some time in the WPF profiler, but this is a big step.&nbsp; Pretty cool how simple it was and very clean.</p>
+			<ul class="meta-list">
+							<li>
+					<span class="meta-title">Category:</span>
+
+					<a href="http://cromwellhaus.com/category/net/" rel="category tag">.Net</a>, <a href="http://cromwellhaus.com/category/wpf/" rel="category tag">WPF</a>				</li>
+			
+			
+			
+					</ul><!-- .meta-list -->
+	
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://cromwellhaus.com/2007/06/wpf-scaletransform-direction/" rel="prev"><span class="meta-nav-text meta-title">Previous:</span> <span class="screen-reader-text">Previous post:</span> <span class="post-title">WPF ScaleTransform Direction</span></a></div><div class="nav-next"><a href="http://cromwellhaus.com/2007/08/quot-this-problem-is-being-researched-quot/" rel="next"><span class="meta-nav-text meta-title">Next:</span> <span class="screen-reader-text">Next post:</span> <span class="post-title">&quot;This problem is being researched&quot;</span></a></div></div>
+	</nav>
+
+<div id="comments" class="comments-area comments-open">
+	<div class="comments-wrap">
+
+					<h3 class="comment-reply-title comments-title">
+				<span>
+				18 Replies to &ldquo;Binding to an Image Byte[] in WPF&rdquo;				</span>
+			</h3>
+
+			<ol class="comment-list">
+				<li class="comment even thread-even depth-1 clearfix" id="li-comment-12">
+
+	<div class="comment-block" id="comment-12">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://0.gravatar.com/avatar/?s=75&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo avatar-default' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    <a href='http://blogs.infosys.com/microsoft' rel='external nofollow' class='url'>Atul Gupta</a>				</cite>
+
+				<a class="comment-time" href="12http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-12">February 13, 2008 at 9:31 am</a>			</div>
+
+			<div class="comment-content">
+				<p>This is good. Thanks</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=12#respond' onclick='return addComment.moveForm( "comment-12", "12", "respond", "685" )' aria-label='Reply to Atul Gupta'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1 clearfix" id="li-comment-13">
+
+	<div class="comment-block" id="comment-13">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://1.gravatar.com/avatar/?s=75&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo avatar-default' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    carlos				</cite>
+
+				<a class="comment-time" href="13http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-13">January 14, 2009 at 8:16 pm</a>			</div>
+
+			<div class="comment-content">
+				<p>can you put the source code please</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=13#respond' onclick='return addComment.moveForm( "comment-13", "13", "respond", "685" )' aria-label='Reply to carlos'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1 clearfix" id="li-comment-14">
+
+	<div class="comment-block" id="comment-14">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://1.gravatar.com/avatar/?s=75&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo avatar-default' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    cromwellryan				</cite>
+
+				<a class="comment-time" href="14http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-14">January 14, 2009 at 9:09 pm</a>			</div>
+
+			<div class="comment-content">
+				<p>I&#8217;ll do what I can.  All the code is above so you could pretty easily (couple minutes) copy and paste this into your own visual studio project.</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=14#respond' onclick='return addComment.moveForm( "comment-14", "14", "respond", "685" )' aria-label='Reply to cromwellryan'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1 clearfix" id="li-comment-15">
+
+	<div class="comment-block" id="comment-15">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://0.gravatar.com/avatar/c5dec8179ac5374d3db5ad09d14f5752?s=75&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c5dec8179ac5374d3db5ad09d14f5752?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    <a href='http://autokaufreak355.blogetery.com/2009/11/23/flash-loops-and-why-they-are-what-they-are-today/' rel='external nofollow' class='url'>Flashmob</a>				</cite>
+
+				<a class="comment-time" href="15http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-15">December 3, 2009 at 10:32 am</a>			</div>
+
+			<div class="comment-content">
+				<p>Ive been researching this and I&#8217;ll have to agree</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=15#respond' onclick='return addComment.moveForm( "comment-15", "15", "respond", "685" )' aria-label='Reply to Flashmob'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1 clearfix" id="li-comment-16">
+
+	<div class="comment-block" id="comment-16">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://0.gravatar.com/avatar/f9065b5e969af82dd8e9c838731a44db?s=75&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/f9065b5e969af82dd8e9c838731a44db?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    femi				</cite>
+
+				<a class="comment-time" href="16http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-16">February 26, 2010 at 7:55 am</a>			</div>
+
+			<div class="comment-content">
+				<p>this is excellent but how will i get the bytes into the database in the first place?</p>
+<p>Can i do this with WPF Data Binding? If i place the image i want to upload in an image control, how do i get the app to insert the bytes and not the image path?</p>
+<p>Thanks</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=16#respond' onclick='return addComment.moveForm( "comment-16", "16", "respond", "685" )' aria-label='Reply to femi'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1 clearfix" id="li-comment-17">
+
+	<div class="comment-block" id="comment-17">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://1.gravatar.com/avatar/1cfabfd02f71ae15116a7c2a90675700?s=75&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/1cfabfd02f71ae15116a7c2a90675700?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    RouSch				</cite>
+
+				<a class="comment-time" href="17http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-17">June 11, 2010 at 7:34 am</a>			</div>
+
+			<div class="comment-content">
+				<p>Thanks so much. Pretty straight forward, but did not get this running without your idea. Using this also to get Images from NHibernate and a MySQL db, then converting those images in a datatemplate for listbox items.</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=17#respond' onclick='return addComment.moveForm( "comment-17", "17", "respond", "685" )' aria-label='Reply to RouSch'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1 clearfix" id="li-comment-155">
+
+	<div class="comment-block" id="comment-155">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://0.gravatar.com/avatar/c21fc3b6e0089ceecc1fadd03753e5a4?s=75&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c21fc3b6e0089ceecc1fadd03753e5a4?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    Karin_svedin				</cite>
+
+				<a class="comment-time" href="155http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-155">January 24, 2011 at 6:24 pm</a>			</div>
+
+			<div class="comment-content">
+				<p>Beautiful, Thanks Ryan.</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=155#respond' onclick='return addComment.moveForm( "comment-155", "155", "respond", "685" )' aria-label='Reply to Karin_svedin'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+<ol class="children">
+<li class="comment odd alt depth-2 clearfix" id="li-comment-156">
+
+	<div class="comment-block" id="comment-156">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=75&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    Anonymous				</cite>
+
+				<a class="comment-time" href="156http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-156">January 24, 2011 at 11:14 pm</a>			</div>
+
+			<div class="comment-content">
+				<p>No problem. Glad it worked out.</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=156#respond' onclick='return addComment.moveForm( "comment-156", "156", "respond", "685" )' aria-label='Reply to '>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+<li class="pingback even thread-odd thread-alt depth-1 clearfix" id="li-comment-179">
+
+	<div class="comment-block" id="comment-179">
+
+		<div class="comment-wrap">
+			
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    <a href='http://dotnetbuildingblocks.wordpress.com/2011/08/05/clipboard-or-imagefile-sources-to-imagecontrol-then-sql-and-back-again-in-wpf/' rel='external nofollow' class='url'>Clipboard or ImageFile Sources to Imagecontrol then SQL and Back Again in WPF &laquo; .Net Building Blocks</a>				</cite>
+
+				<a class="comment-time" href="179http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-179">August 6, 2011 at 1:36 am</a>			</div>
+
+			<div class="comment-content">
+				<p>[&#8230;] 2. Binding to an Image Byte[] in WPF by Ryan Cromwell [&#8230;]</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=179#respond' onclick='return addComment.moveForm( "comment-179", "179", "respond", "685" )' aria-label='Reply to Clipboard or ImageFile Sources to Imagecontrol then SQL and Back Again in WPF &laquo; .Net Building Blocks'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1 clearfix" id="li-comment-206">
+
+	<div class="comment-block" id="comment-206">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://1.gravatar.com/avatar/10b70d06fa53572bebe1d50912a2fdcc?s=75&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/10b70d06fa53572bebe1d50912a2fdcc?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    Joyousliving1				</cite>
+
+				<a class="comment-time" href="206http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-206">January 6, 2012 at 1:15 am</a>			</div>
+
+			<div class="comment-content">
+				<p>Really GREAT post.  Thank you very much.</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=206#respond' onclick='return addComment.moveForm( "comment-206", "206", "respond", "685" )' aria-label='Reply to Joyousliving1'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment even thread-odd thread-alt depth-1 clearfix" id="li-comment-459">
+
+	<div class="comment-block" id="comment-459">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://1.gravatar.com/avatar/d13f93c3a3238157b2be499e42e855ef?s=75&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/d13f93c3a3238157b2be499e42e855ef?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    Ziad				</cite>
+
+				<a class="comment-time" href="459http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-459">February 18, 2013 at 12:25 pm</a>			</div>
+
+			<div class="comment-content">
+				<p>Great!!</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=459#respond' onclick='return addComment.moveForm( "comment-459", "459", "respond", "685" )' aria-label='Reply to Ziad'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1 clearfix" id="li-comment-532">
+
+	<div class="comment-block" id="comment-532">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://0.gravatar.com/avatar/0a0cb23909798d287738998de57be93e?s=75&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0a0cb23909798d287738998de57be93e?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    Romesh				</cite>
+
+				<a class="comment-time" href="532http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-532">May 20, 2013 at 2:03 pm</a>			</div>
+
+			<div class="comment-content">
+				<p>Thank you very much 🙂</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=532#respond' onclick='return addComment.moveForm( "comment-532", "532", "respond", "685" )' aria-label='Reply to Romesh'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment even thread-odd thread-alt depth-1 clearfix" id="li-comment-549">
+
+	<div class="comment-block" id="comment-549">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://0.gravatar.com/avatar/3fbd5fa5101325040cf73d1ef657bec3?s=75&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/3fbd5fa5101325040cf73d1ef657bec3?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    Vitaliy Dassayev				</cite>
+
+				<a class="comment-time" href="549http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-549">January 21, 2014 at 3:37 am</a>			</div>
+
+			<div class="comment-content">
+				<p>cool, thanks</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=549#respond' onclick='return addComment.moveForm( "comment-549", "549", "respond", "685" )' aria-label='Reply to Vitaliy Dassayev'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-even depth-1 clearfix" id="li-comment-555">
+
+	<div class="comment-block" id="comment-555">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://0.gravatar.com/avatar/6f370c8c7109534c3d5c394123a477d7?s=75&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6f370c8c7109534c3d5c394123a477d7?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    Ayhan				</cite>
+
+				<a class="comment-time" href="555http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-555">April 2, 2014 at 3:44 am</a>			</div>
+
+			<div class="comment-content">
+				<p>Thank you very much</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=555#respond' onclick='return addComment.moveForm( "comment-555", "555", "respond", "685" )' aria-label='Reply to Ayhan'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment even thread-odd thread-alt depth-1 clearfix" id="li-comment-575">
+
+	<div class="comment-block" id="comment-575">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://0.gravatar.com/avatar/f5042d831a950e22625fef3a1b9d9693?s=75&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/f5042d831a950e22625fef3a1b9d9693?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    Corcus				</cite>
+
+				<a class="comment-time" href="575http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-575">March 23, 2015 at 5:53 am</a>			</div>
+
+			<div class="comment-content">
+				<p>This is a great solution. And it&#8217;s MVVM compliant as well.<br />
+Thanks a lot.</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=575#respond' onclick='return addComment.moveForm( "comment-575", "575", "respond", "685" )' aria-label='Reply to Corcus'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+<ol class="children">
+<li class="comment odd alt depth-2 clearfix" id="li-comment-576">
+
+	<div class="comment-block" id="comment-576">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=75&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/ef8a1e8b2845aee4bab6cbde882c89a0?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    cromwellryan				</cite>
+
+				<a class="comment-time" href="576http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-576">March 23, 2015 at 9:58 pm</a>			</div>
+
+			<div class="comment-content">
+								<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=576#respond' onclick='return addComment.moveForm( "comment-576", "576", "respond", "685" )' aria-label='Reply to cromwellryan'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+</ol><!-- .children -->
+</li><!-- #comment-## -->
+<li class="comment even thread-even depth-1 clearfix" id="li-comment-579">
+
+	<div class="comment-block" id="comment-579">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://1.gravatar.com/avatar/af90d86dab56e68811357076ba73d7ce?s=75&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/af90d86dab56e68811357076ba73d7ce?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    Ryan Potratz				</cite>
+
+				<a class="comment-time" href="579http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-579">May 28, 2015 at 8:34 am</a>			</div>
+
+			<div class="comment-content">
+				<p>Is there any code you could share that would expand this to include selecting an image file and writing it to the table?  I keep finding incomplete examples and being a newbie to this whole this I&#8217;m strugling.</p>
+<p>Thanks A ton.</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=579#respond' onclick='return addComment.moveForm( "comment-579", "579", "respond", "685" )' aria-label='Reply to Ryan Potratz'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+<li class="comment odd alt thread-odd thread-alt depth-1 clearfix" id="li-comment-1415">
+
+	<div class="comment-block" id="comment-1415">
+
+		<div class="comment-wrap">
+			<img alt='' src='http://1.gravatar.com/avatar/14d9030768298b9e7e9bd78c804631f0?s=75&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/14d9030768298b9e7e9bd78c804631f0?s=150&#038;d=mm&#038;r=g 2x' class='avatar avatar-75 photo' height='75' width='75' />
+			<div class="comment-info">
+				<cite class="comment-cite">
+				    <a href='http://otuofarms.com' rel='external nofollow' class='url'>JAG</a>				</cite>
+
+				<a class="comment-time" href="1415http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/#comment-1415">April 13, 2018 at 7:30 pm</a>			</div>
+
+			<div class="comment-content">
+				<p>hey buddy<br />
+just used you converter thanks, works well for  me. thanks again</p>
+				<p class="reply">
+					<a rel='nofollow' class='comment-reply-link' href='http://cromwellhaus.com/2007/07/binding-to-the-byte-of-an-image-in-wpf/?replytocom=1415#respond' onclick='return addComment.moveForm( "comment-1415", "1415", "respond", "685" )' aria-label='Reply to JAG'>Reply</a>				</p>
+			</div>
+
+					</div>
+	</div>
+</li><!-- #comment-## -->
+			</ol><!-- .comment-list -->
+
+			
+		
+		
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2007/07/binding-to-the-byte-of-an-image-in-wpf/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="http://cromwellhaus.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required='required' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required='required' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" /></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='685' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="a247b6efef" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="198"/></p>			</form>
+			</div><!-- #respond -->
+		</div><!-- .comments-wrap -->
+</div><!-- #comments -->
+
+		</div><!-- .entry-content -->
+	</div><!-- .post-content-->
+
+</article><!-- #post-## -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+</div><!-- #page .container -->
+
+<footer id="colophon" class="site-footer">
+	<div class="container">
+		
+		<div class="footer-bottom">
+			<div class="footer-tagline">
+				<div class="site-info">
+					Copyright Ryan Cromwell 2019				</div>
+			</div><!-- .footer-tagline -->
+
+					</div><!-- .footer-bottom -->
+	</div><!-- .container -->
+</footer><!-- #colophon -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var atomic_blocks_js_vars = {"ajaxurl":"http:\/\/cromwellhaus.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/atomic-blocks/js/atomic-blocks.js?ver=1.0'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-content/themes/atomic-blocks/js/jquery.fitvids.js?ver=1.1'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/comment-reply.min.js?ver=5.0.4'></script>
+<script type='text/javascript' src='http://cromwellhaus.com/wp-includes/js/wp-embed.min.js?ver=5.0.4'></script>
+<script async="async" type='text/javascript' src='http://cromwellhaus.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1'></script>
+
+</body>
+</html>

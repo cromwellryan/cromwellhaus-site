@@ -1,0 +1,319 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="robots" content="noindex,follow" />
+<meta name="GENERATOR" content="CommunityServer 2008.5 SP1 (Build: 31106.3070)" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell - All Comments (RSS 2.0)" href="http://cromwellhaus.com/blogs//rsscomments.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Announcements (RSS 2.0)" href="/members/cromwellryan/announcements/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Comments (RSS 2.0)" href="/members/cromwellryan/comments/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Activities (RSS 2.0)" href="/members/cromwellryan/activities/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Friends Activity (RSS 2.0)" href="/members/cromwellryan/activities/friendrss.aspx"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/gold%20coast/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/themes/blogs/Gold%20Coast/style/light.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/gold%20coast/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	May 2007 - Posts - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/2007/05.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTk3MjUzMjY0OGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFQ2N0bDAwJFNpZGVCYXIkY3RsMDAkY3RsMDEkY3RsMDAkY3RsMDEkY3RsMDEkY3RsMDAkV2VibG9nU2VhcmNoSW5wdXSLz8IqOFZ/vwcxdlsVvqnmOtGdFg==" />
+</div>
+
+
+<script src="/WebResource.axd?d=J-6WuSghNwWHyAIK-J_-pPF_q_yXu1e7MJ0SOwf2hYmHWp479T-10dpnEWwDsCWopE8eCH7vpBt-pKmirJKI-tCZ4XjkKDgujkTDELhnwHIQruvRE4ZXYDJt6noPUELJeTWjEtL3z9Gy3L7Lz0WKXw2&amp;t=633761145563826270" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8LZo04oaOcmOLSELo6gqLvUu7ganFEIpKN-e5Jyf9stQ1&amp;t=633761147000076918" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8yTNu4gf5kV_RaR4KS-a0AuJKvYytRnBJWnPV7Z5x2m41&amp;t=633761147000076918" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8OTuy4csQHX1lq8XdxKmwZmzsUEeYR4gZKty6Ajbvu981&amp;t=633761147000076918" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ab7492n4_TtHch7m23EqqfUHDgRvsiyacHsJ-2JmcJ7em6NSgChI5rk_SmoM5lR8sJUM3T2Fcpj-OflU6x0UWQBAQqaauBWDa_JCexUE4q01&amp;t=633761147000076918" type="text/javascript"></script>
+
+    			
+
+        <div id="container">
+            <div id="header">
+                <h2><a href="/blogs/ryanc/default.aspx">Ryan Cromwell</a></h2>
+                <p id="tagline">Aimless musings of a keyboard masher.</p>
+            </div>
+            <div id="wrapper">
+		        <div id="content">
+                    
+    
+    
+            
+            <h2 id="titleWrapper" class="pageTitle">May 2007 - Posts</h2>
+            
+        
+    
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/05/31/google-gears.aspx">Google Gears</a>
+                </dt>
+                <dd>
+                    <p>I&#39;m not entirely sure what to think of <a title="Google Gears" href="http://code.google.com/apis/gears/index.html">Google Gears</a>.&nbsp; It seems most people are focusing on the <a href="http://code.google.com/apis/gears/api_database.html">Database</a>&nbsp;portion of the stack, but it&#39;s the <a href="http://code.google.com/apis/gears/api_localserver.html">LocalServer</a>&nbsp;portion that has me confused.&nbsp; Does this not reek of complexity and severe duplication?&nbsp; </p> <p>After first reading through the <a href="http://code.google.com/apis/gears/api_localserver.html#overview">LocalServer Overview</a>&nbsp;I thought, cool, this thing is going to serve up my server app when the client is offline.&nbsp; That&#39;s kind of sweet, but how do they know what pages people are going to need?&nbsp; I sure hope they don&#39;t cache on demand, because that breaks down with the first button I click?&nbsp; Maybe they crawl my pages and pick up links, that <em>might</em> work.&nbsp; Well, it turns out you have to tell them up front what pages to cache either via a <a href="http://code.google.com/apis/gears/api_localserver.html#manifest_file">Manifest file</a> or via their <a href="http://code.google.com/apis/gears/api_localserver.html#LocalServer">LocalServer API</a>.&nbsp; Manifest file is cool I guess, there will undoubtedly be server-side tools to generate these.</p> <p>What happens if&nbsp;my client&#39;s browser&nbsp;has caching disabled or your page&#39;s client side cache expires?&nbsp; How do you get to the first page that loads the Gears&nbsp;API and starts loading the Gears Cache?&nbsp; Maybe I&#39;m missing something here.</p> <p>I think I can handle all link activity and user actions requesting pages from the LocalServer.&nbsp;&nbsp;I&#39;m sure that stuff can be wrapped into our AJAX frameworks; I&#39;m sure <a href="http://code.google.com/webtoolkit/">Google&#39;s Web Toolkit</a> will soon enough.&nbsp; What about Mashups&#39; though?&nbsp; Aren&#39;t we supposed to be pulling data from site A and displaying it with relevant information from our site?&nbsp; Is everyone going to start caching everyone else&#39;s data?</p> <p>But, heck, it&#39;s not like any of the <a title="Rich Internet/Interactive Applications" href="http://www.google.com/search?hl=en&amp;q=RIA+rich+application&amp;btnG=Search">RIA</a>&nbsp;platforms out there today are doing any better at providing infrastructure to move the Internet App as is to the offline client.&nbsp; This seems like a decent start.&nbsp; I personally like the idea of having two different targets: client or web, while providing a different targeted experience for either.&nbsp; We have too much horsepower and money invested in our personal computers to waste it on a serving local web pages.</p> <p>We&#39;ll see.&nbsp; It&#39;s still only beta.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/05/31/google-gears.aspx">05-31-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/blogs/ryanc/archive/2007/05/31/google-gears.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl02_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl02$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl02_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/05/25/classic-web-1-0.aspx">Classic Web 1.0...</a>
+                </dt>
+                <dd>
+                    <p>You know you need to reevaluate your web site when you see the following:</p> <p><a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/ClassicWeb1.0_8A5C/image%7B0%7D%5B11%5D.png"><img style="border-right:0px;border-top:0px;border-left:0px;border-bottom:0px;" height="190" src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/ClassicWeb1.0_8A5C/image%7B0%7D_thumb%5B7%5D.png" width="600" border="0" alt="" /></a></p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/05/25/classic-web-1-0.aspx">05-25-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/blogs/ryanc/archive/2007/05/25/classic-web-1-0.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/05/15/awesome-tool-of-the-day-baretail.aspx">Awesome Tool of the Day: Baretail</a>
+                </dt>
+                <dd>
+                    <p>&nbsp;Every now and again I find a tool that changes my life.&nbsp; <a href="http://www.baremetalsoft.com/baretail/">Baretail</a>&nbsp;is just such a tool.&nbsp; I don&#39;t know what I did before, but it couldn&#39;t have been good.&nbsp; Baretail is a log file reader/watcher that trails the end of your log files.&nbsp; This may not be too exciting for you, but here in the <a href="http://www.speedway.com/speedyrewards/">Speedy Rewards</a>&nbsp;team, we have some terribly verbose 3rd party log files that are our only real insight into activity.&nbsp; This has made my week!</p> <p><a href="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayBaretail_8BB6/baretail-screencap%5B1%5D.png"><img style="border-right:0px;border-top:0px;border-left:0px;border-bottom:0px;" height="343" src="http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayBaretail_8BB6/baretail-screencap_thumb%5B1%5D.png" width="425" border="0" alt="" /></a></p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/05/15/awesome-tool-of-the-day-baretail.aspx">05-15-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/blogs/ryanc/archive/2007/05/15/awesome-tool-of-the-day-baretail.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl04_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl04$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl04_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/05/02/vista-sidebar-gadget-developer-experience.aspx">Vista Sidebar Gadget Developer Experience</a>
+                </dt>
+                <dd>
+                    <p>Vista Sidebar Gadgets can be cool, but the developer experience out of the box is severely lacking.&nbsp; Microsoft doesn&#39;t provide a Visual Studio project template, so <a href="http://timheuer.com/blog">Tim Heuer</a>&nbsp;was nice enough to <a title="Vista Sidebar Gadget Visual Studio Template" href="http://timheuer.com/blog/archive/2007/03/11/14010.aspx">provide one</a> for us.&nbsp; He does so via a Web Site template, which makes sense since a Sidebar gadget is nothing more than <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/sidebar/sidebar/overviews/gdo.asp">an Html page with a splash of JavaScript</a>, minimally, of course.&nbsp; If you are like me, you like to be able to touch something up and then look at it, but I&#39;m not about to edit, copy, run every time I want to see what my little icon change has affected.&nbsp; Here&#39;s a tip to help you out: create a symbolic link in your <font face="Consolas"><em>%userprofile%\AppData\Local\Microsoft\Windows Sidebar\Gadgets</em></font> directory.&nbsp; Here&#39;s how:</p> <ol> <ol> <li>Run&nbsp;Command Prompt as an Administrator  <li>mklink /D &quot;%userprofile%\AppData\Local\Microsoft\Windows Sidebar\Gadgets\&lt;gadgetname&gt;.gadget&quot; &quot;%userprofile%\Documents\Visual Studio 2005\WebSites\&lt;VisualStudioProjectDirectory&gt;&quot;</li></ol></ol> <p><a href="http://cromwellhaus.com/blogphotos/VistaSidebarGadgetDeveloperExperience_14258/image031.png"><img style="border-top-width:0px;border-left-width:0px;border-bottom-width:0px;border-right-width:0px;" height="180" src="http://cromwellhaus.com/blogphotos/VistaSidebarGadgetDeveloperExperience_14258/image0_thumb22.png" width="240" align="left" border="0" alt="" /></a> </p> <p>This allows you to keep your projects where they belong (VS won&#39;t let you open a folder in AppData without jumping some hoops anyway) and still reload your Gadget in Sidebar whenever you make changes.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/05/02/vista-sidebar-gadget-developer-experience.aspx">05-02-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                | <a href="/blogs/ryanc/archive/2007/05/02/vista-sidebar-gadget-developer-experience.aspx#comments">2 comment(s)</a>
+			                    
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl05_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl05$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl05_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx">Silverlight: .Net for the masses</a>
+                </dt>
+                <dd>
+                    <p>While up in Redmond for the <a href="http://cromwellhaus.com/blogs/ryanc/archive/2007/03/26/wpf-bootcamp-day-1.aspx">WPF Bootcamp</a>, we had a short time to work with some of the WPF/E, now <a title="Silverlight" href="http://msdn.microsoft.com/silverlight/">Silverlight</a>,&nbsp;team members.&nbsp; At the time&nbsp;Silverlight&nbsp;didn&#39;t make a whole lot of sense in our strategy.&nbsp; That said, I hope everyone sees the great potential that comes from some of the features surrounding <a href="http://go.microsoft.com/fwlink/?linkid=89145&amp;clcid=0x409">Silverlight 1.1</a>&nbsp;specifically.</p> <p>Let&#39;s put this into context. Over the last couple of years, true web-based applications have really started to take shape.&nbsp; I&#39;m talking <a href="http://docs.google.com/">Google Docs &amp; Spreadsheets</a>, <a href="http://local.yahoo.com">Yahoo! Local</a>, <a href="http://pipes.yahoo.com/pipes/">Yahoo! Pipes</a>&nbsp;and not YouTube, which is a glorified photo sharing site.&nbsp; A bevy of <a href="http://ajaxpatterns.org/wiki/index.php?title=AJAXFrameworks">AJAX toolkits</a>&nbsp;have attempted to fill the enormous development gap between LCD-JavaScript and C#, Java, VB, Ruby, and Python, but there is only so much one can do with JavaScript before you go crazy.</p> <p>Now imagine some &quot;real&quot; applications that actually attempt to provide a full feature set which accentuates an existing web model.&nbsp; My favorite example is <a href="http://www.shutterfly.com/studio/overviews.jsp">Shutterfly Studio</a>.&nbsp; They probably could have given you 20% of the Collage functionality with some goofy JavaScript or lots of uploading and postbacks, but how long would you wait around for your photos to upload while trying out different layouts?&nbsp; Not long I&#39;d imagine.&nbsp; This is where Silverlight comes in.</p> <p>Silverlight takes the untold story of Java and actually runs with it by providing a consolidated branch of the full .Net CLR, including JITter, Garbage-Collector, BCL, Threading namespace, Network stack and more.&nbsp; Well this is all well and good, but why not just use Flash?&nbsp; Well, if you want to deploy a Flash application, you are forced to use <a href="http://en.wikipedia.org/wiki/Talk:ActionScript/rewrite">ActionScript</a>, which doesn&#39;t provide nearly the feature set of .Net nor is it useful in any other environment other than Flash, so your experience is isolated.&nbsp; Flash also doesn&#39;t provide the huge WCF communications platform for secure, transport independent communications, WPF for rich interactive media, and one of the most powerful IDE platforms in <a href="http://msdn.microsoft.com/vstudio/eula.aspx?id=c8bf88e7-841c-43fd-c63d-379943617f36">Visual Studio.</a></p> <p>Imagine&nbsp;starting your&nbsp;family collage&nbsp;with <a href="http://www.shutterfly.com/studio/overviews.jsp">Shutterfly Studio</a>&nbsp;at home on your laptop, getting to work in the morning and flipping through real layouts with your pictures at work (lunch of course) and then sending your parents a link to the catalog of pictures where they can browse any layout and order their own version of the collage?&nbsp; No Shutterfly Studio desktop icon or Start Menu shortcut.&nbsp; Just a one time 20 second download of the Silverlight CLR - yeah the Silverlight CLR is only 4mb.&nbsp; That&#39;s what removing 90% of the&nbsp;<a href="http://msdn2.microsoft.com/en-us/library/system.drawing.color_members.aspx">named color members in System.Drawing.Color</a> and asking people to look up the HEX value.</p> <p>Have fun.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx">05-01-2007</a>
+			            by
+			            <a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/blogs/ryanc/archive/2007/05/01/silverlight-net-for-the-masses.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl06_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a>, <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a>, <a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl06$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl06_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+    
+       
+        
+                </div>
+            </div>
+            <div id="subcontent-a">
+                
+                    
+                    
+                            
+                                    <div>
+                                    <h4 class="sideheader">Syndication</h4>
+                                <ul class='CommonSidebarList'><li class="rss"><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li><li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li><li><a href="/blogs/ryanc/rsscomments.aspx">RSS for Comments</a></li></ul>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Search</h4>
+                                <input name="ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchInput" type="text" id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchInput" class="searchbox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event);" /><a id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton" class="searchbutton" href="javascript:__doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')">Go</a>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/default.aspx">Tags</a></h4>
+                                <div id="TagSideBar"><ul class="CommonSidebarTagCloud">
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Code/default.aspx" rel="tag">Code</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Languages/default.aspx" rel="tag">Languages</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Nerd+Dinner/default.aspx" rel="tag">Nerd Dinner</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/OS/default.aspx" rel="tag">OS</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WCF/default.aspx" rel="tag">WCF</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Community</h4>
+                                <div id="NavSideBar">
+<ul>
+<li><a href="/">Home</a></li><li><a href="/blogs/">Blogs</a></li><li><a href="/media/">Media</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Archives</h4>
+                                <div id="ArchiveSideBar">
+<ul>
+<li><a href="/blogs/ryanc/archive/2009/08.aspx">August 2009 (1)</a></li><li><a href="/blogs/ryanc/archive/2009/07.aspx">July 2009 (2)</a></li><li><a href="/blogs/ryanc/archive/2009/04.aspx">April 2009 (1)</a></li><li><a href="/blogs/ryanc/archive/2009/03.aspx">March 2009 (6)</a></li><li><a href="/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                        
+                        
+                
+     
+                
+                <div id="contentfooter">&nbsp;</div>
+            </div>
+            <div id="footer">
+                
+				    
+				    
+				    
+				            <a href="http://communityserver.com/" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						
+
+                    
+					
+				
+            </div>
+        </div> 
+    
+<script src="http://feeds.feedburner.com/~s/RyanCromwell" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false,true);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl02_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl02_ctl08_ctl01','ctl00_Main_EntryItems_ctl02_ctl08_ctl01','ctl00_Main_EntryItems_ctl02_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl04_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl04_ctl08_ctl01','ctl00_Main_EntryItems_ctl04_ctl08_ctl01','ctl00_Main_EntryItems_ctl04_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl05_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl05_ctl08_ctl01','ctl00_Main_EntryItems_ctl05_ctl08_ctl01','ctl00_Main_EntryItems_ctl05_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl06_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl06_ctl08_ctl01','ctl00_Main_EntryItems_ctl06_ctl08_ctl01','ctl00_Main_EntryItems_ctl06_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

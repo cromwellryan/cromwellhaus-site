@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>ASP.Net MVC and Forms Authentication &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.post p.post-date,.post p.post-author{display:none;}
+.block-content{width:960px;max-width:960px;}
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; ASP.Net MVC and Forms Authentication Comments Feed" href="http://blog.cromwellhaus.com/2007/12/asp-net-mvc-and-forms-authentication/feed/" />
+<link rel='stylesheet' id='gsc_style-css'  href='http://blog.cromwellhaus.com/wp-content/plugins/google-custom-search/css/smoothness/jquery-ui-1.7.3.custom.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gsc_style_search_bar-css'  href='http://www.google.com/cse/style/look/minimalist.css?ver=3.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gsc_style_search_bar_more-css'  href='http://blog.cromwellhaus.com/wp-content/plugins/google-custom-search/css/gsc.css?ver=3.3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-content/plugins/google-custom-search/js/gsc.js?ver=3.3.1'></script>
+<script type='text/javascript' src='http://www.google.com/jsapi?ver=3.3.1'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='NHibernate Query Generator Installer for Visual Studio 2008' href='http://blog.cromwellhaus.com/2007/12/nhibernate-query-generator-installer-for-visual-studio-2008/' />
+<link rel='next' title='ASP.Net MVC Checkbox/boolean Value Mapping' href='http://blog.cromwellhaus.com/2007/12/asp-net-mvc-checkbox-boolean-value-mapping/' />
+<meta name="generator" content="WordPress 3.3.1, fitted with the WordPress Mobile Pack 1.2.4" />
+<link rel='canonical' href='http://blog.cromwellhaus.com/2007/12/asp-net-mvc-and-forms-authentication/' />
+<link rel='shortlink' href='http://blog.cromwellhaus.com/?p=701' />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/"><span>Presentation Abstracts</span></a>
+<ul class='children'>
+	<li class="page_item page-item-909"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/missing-pieces-the-road-from-agile-enthusiast-to-agile-team-member/"><span>Missing Pieces: The Road from Agile Enthusiast to Agile Team Member</span></a></li>
+</ul>
+</li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://blog.cromwellhaus.com/2007/12/nhibernate-query-generator-installer-for-visual-studio-2008/" rel="prev">NHibernate Query Generator Installer for Visual Studio 2008</a></div>
+          <div class="alignright"><a href="http://blog.cromwellhaus.com/2007/12/asp-net-mvc-checkbox-boolean-value-mapping/" rel="next">ASP.Net MVC Checkbox/boolean Value Mapping</a> &raquo;</div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-701" class="post-701 post type-post status-publish format-standard hentry category-net category-mvc">
+           <h2 class="post-title">ASP.Net MVC and Forms Authentication</h2>
+              <div class="post-content clearfix">
+    	       <p>So last weekend I picked up the new <a href="http://asp.net/downloads/3.5-extensions/" target="_blank">ASP.Net 3.5 Extensions Preview CTP</a> (and <a href="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip" target="_blank">MVC Toolkit</a>) from the <a href="http://asp.net/" target="_blank">ASP.Net</a> team and I&#8217;m loving the MVC bits.&nbsp; I never could get in to <a href="http://www.castleproject.org/monorail/index.html" target="_blank">MonoRail</a> mainly because I&#8217;m a developer diva.&nbsp; I need intellisense, syntax highlighting, the whole deal.&nbsp; For a CTP, this release packs quite a punch.</p>
+<p>After running through Scott Hanselman&#8217;s <a href="http://www.hanselman.com/blog/ASPNET35ExtensionsPlusMVCHowToScreencast.aspx" target="_blank"><em>MVC How-To Screencast</em></a><em>&nbsp;</em>and playing around I took to writing a full site I had already 90% completed with Community Server (wpfstyle.com &#8211; it&#8217;s coming).&nbsp; Blew threw most of the functionality in the first 3 or 4 hours &#8211; awesome.&nbsp; Then I tried to add Forms Authentication through the easy ASP.Net Configuration button of VS 2008.&nbsp; Nada.</p>
+<p>Long story short, I figured out how to get things working, but there are some manual steps.&nbsp; Here they are:</p>
+<p><strong><strong><a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image.png"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="173" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb.png" width="240" align="right" border="0"></a></strong>[Step 1]</strong> Create a new ASP.Net MVC site.&nbsp; I&#8217;ve called mine SecureMVCApplication.</p>
+<p><strong>[Step 2] </strong>Lets add a new controller called SecureController.&nbsp; This will be our set of actions that only administrators can access.&nbsp; </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_3.png"><img style="border-right: 0px; border-top: 0px; border-left: 0px; border-bottom: 0px" height="148" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb_3.png" width="240" align="left" border="0"></a> <strong>[Step 3] </strong>We don&#8217;t need to add any new Actions, the Index action created for us is sufficient, but we will need to do something.&nbsp; So add a call to RenderView(<span style="color: rgb(163,21,21)">&#8220;Index&#8221;</span>) within the Index method.&nbsp; You&#8217;ll also need to create the <em>index</em> view, so add a folder called <em>Secure</em> under the Views folder already in your project.&nbsp; To this we will need to add a new MVC View Page item.&nbsp; To make it clear, I&#8217;ve typed &#8220;This is for admin eyes only!!!&#8221; as the body of my view.</p>
+<p>At this point we should make sure things are working.&nbsp; Hitting F5 should take you to the root of the site, but you could well end up at /Views/Secure/Index.aspx or something like that.&nbsp; Try browsing to <a href="http://localhost:&lt;port&gt;/secure/index">http://localhost:&lt;port&gt;/secure/index</a>.&nbsp; You should see the &#8220;This is for admin eyes only!!!&#8221; text.&nbsp; If not, go watch Scott&#8217;s screencast and come back.</p>
+<p><a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_4.png"><img height="148" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb_4.png" width="190" align="right" border="0"></a> <strong>[Step 4]</strong> We&#8217;re ready to start securing things.&nbsp; Use the ASP.Net Configuration button to set security to Internet, create a couple of users and at least 1 role called <em>Administrators</em>.&nbsp; This is for our example, you can call your roles whatever you want in your application.</p>
+<p>At this point, you would normally use the <em>Create Access Rules </em>link to specify the Adminstrators role has access to the secure directory.&nbsp; Instead, we have to do this bit ourselves, because the MVC pattern will present us with a URL structure that does not map to physical directories.&nbsp; At least, probably won&#8217;t.&nbsp; In a normal site, the ASP.Net Configuration tool would add a web.config to each configured directory that specifies the authorization rules.&nbsp; This brings us to the next step:</p>
+<p><strong>[Step 5]</strong> Open your projects root web.config and add the following: </p>
+<blockquote><p>&lt;location path=&#8221;secure&#8221;&gt;<br />&nbsp; &lt;system.web&gt;<br />&nbsp;&nbsp;&nbsp; &lt;authorization&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;allow roles=&#8221;Adminstrators&#8221; /&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;deny users=&#8221;*&#8221; /&gt;<br />&nbsp;&nbsp;&nbsp; &lt;/authorization&gt;<br />&nbsp; &lt;/system.web&gt;<br />&lt;/location&gt;</p>
+</blockquote>
+<p>Assuming you are familiar with MVC URLs this is telling us that the <a href="http://&lt;site&gt;/secure">http://&lt;site&gt;/secure</a> path should allow access to users in the Adminstrators role and deny everyone else.&nbsp; /secure is, of course, the controller.&nbsp; Had this been a standard site, the stuff inside the &lt;location /&gt; element would have been found inside our secure\web.config.</p>
+<p><strong>[Step 5]</strong> We are now ready to authenticate our users, but we don&#8217;t have a normal login.aspx.&nbsp; Instead, we&#8217;re going to create a controller called <em>UserController</em> and add a Login and Authenticate action.&nbsp; Here&#8217;s what I&#8217;ve added to my sample:</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">namespace</span> SecureMvcApplication.Controllers
+{
+    <span style="color: rgb(0,0,255)">public</span> <span style="color: rgb(0,0,255)">class</span> <span style="color: rgb(43,145,175)">UserController</span> : System.Web.Mvc.<span style="color: rgb(43,145,175)">Controller
+</span>    {
+        [System.Web.Mvc.<span style="color: rgb(43,145,175)">ControllerAction</span>]
+        <span style="color: rgb(0,0,255)">public</span> <span style="color: rgb(0,0,255)">void</span> Login()
+        {
+            RenderView(<span style="color: rgb(163,21,21)">"Login"</span>);
+        }
+
+        [System.Web.Mvc.<span style="color: rgb(43,145,175)">ControllerAction</span>]
+        <span style="color: rgb(0,0,255)">public</span> <span style="color: rgb(0,0,255)">void</span> Authenticate(<span style="color: rgb(0,0,255)">string</span> username, <span style="color: rgb(0,0,255)">string</span> password)
+        {
+            <span style="color: rgb(0,0,255)">if</span> (System.Web.Security.<span style="color: rgb(43,145,175)">Membership</span>.ValidateUser(username, password))
+            {
+                System.Web.Security.<span style="color: rgb(43,145,175)">FormsAuthentication</span>.RedirectFromLoginPage(username, <span style="color: rgb(0,0,255)">false</span>);
+            }
+        }
+    }
+}</pre>
+</blockquote>
+<p>Notice that my Login action is simply displaying a view.&nbsp; This view has two textboxes (one marked password) and a submit button.&nbsp; If you watch(ed) Scott&#8217;s <a href="http://www.hanselman.com/blog/ASPNET35ExtensionsPlusMVCHowToScreencast.aspx" target="_blank">Screencast</a>, I&#8217;ve used the <a title="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip" href="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip">http://asp.net/downloads/3.5-extensions/MVCToolkit.zip</a> to do this.&nbsp; The form itself looks like this:</p>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<blockquote><pre class="code"><span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>using</span> (Html.Form(<span style="color: rgb(163,21,21)">"Authenticate<span style="color: rgb(163,21,21)">?ReturnUrl="</span> + <span style="color: rgb(0,0,255)">this</span>.Request[<span style="color: rgb(163,21,21)">"ReturnUrl"</span>]</span>, <span style="color: rgb(163,21,21)">"User"</span>))
+  {<span style="background: rgb(255,238,98)">%&gt;
+</span>    <span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;</span>Username: <span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.TextBox(<span style="color: rgb(163,21,21)">"username"</span>) <span style="background: rgb(255,238,98)">%&gt;<span style="color: rgb(0,0,255)"></span>&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;
+</span>    <span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;</span>Password: <span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.Password(<span style="color: rgb(163,21,21)">"password"</span>) <span style="background: rgb(255,238,98)">%&gt;<span style="color: rgb(0,0,255)"></span>&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;
+</span>    <span style="color: rgb(0,0,255)">&lt;</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;</span><span style="background: rgb(255,238,98)">&lt;%<span style="color: rgb(0,0,255)"></span>=</span>Html.SubmitButton(<span style="color: rgb(163,21,21)">"Login"</span>) <span style="background: rgb(255,238,98)">%&gt;<span style="color: rgb(0,0,255)"></span>&lt;/</span><span style="color: rgb(163,21,21)">div</span><span style="color: rgb(0,0,255)">&gt;
+</span><span style="background: rgb(255,238,98)">&lt;%</span>} <span style="background: rgb(255,238,98)">%&gt;</span></pre>
+</blockquote>
+<p>Upon Submit/Login, we&#8217;re POSTing to the <em>Authenticate( string, string )</em> Action in our UserController which implements the basic Forms Authentication (above).&nbsp; The next step is optional, but it helped me watch the authorization status.</p>
+<p><strong>[Step 6]</strong> (Optional)&nbsp; Add this to your global.asax.cs to see the authorization status of your requests..</p>
+<blockquote><pre class="code"><span style="color: rgb(0,0,255)">protected</span> <span style="color: rgb(0,0,255)">void</span> Application_AuthenticateRequest(<span style="color: rgb(0,0,255)">object</span> sender, <span style="color: rgb(43,145,175)">EventArgs</span> e)
+{
+    <span style="color: rgb(43,145,175)">HttpCookie</span> authCookie = Context.Request.Cookies[<span style="color: rgb(43,145,175)">FormsAuthentication</span>.FormsCookieName];
+
+    <span style="color: rgb(0,0,255)">if</span> (<span style="color: rgb(0,0,255)">null</span> == authCookie)
+    {<span style="color: rgb(0,128,0)">//There is no authentication cookie.
+</span>        <span style="color: rgb(43,145,175)">Debug</span>.WriteLine(<span style="color: rgb(163,21,21)">"Don't know you, dude."</span>);
+    }
+    <span style="color: rgb(0,0,255)">else
+</span>        <span style="color: rgb(43,145,175)">Debug</span>.WriteLine(<span style="color: rgb(163,21,21)">"Enjoy the party!"</span>);
+}</pre>
+</blockquote>
+<p>Now F5 and browse to <a href="http://localhost:&lt;port&gt;/secure/index">http://localhost:&lt;port&gt;/secure/index</a> and you should be taken to the <a href="http://localhost:&lt;port&gt;/user/login">http://localhost:&lt;port&gt;/user/login</a> page.&nbsp; Upon hitting login, you&#8217;re directed back to the root of the site.&nbsp; In our form, we had to manually set the ReturnUrl, because Forms Authentication assumes you will be posting back to yourself (classic ASP.Net Web Form).&nbsp; We&#8217;re posting across to the Authenticate action Url.</p>
+<p>You can download the completed VS 2008 project I used <a href="http://cromwellhaus.com/files/folders/netcode/entry468.aspx" target="_blank">here</a>.</p>
+<p>Can you believe we&#8217;re already calling ASP.Net Web Forms &#8220;classic&#8221;?&nbsp; Now we need to get MVC into the WPF platform.&nbsp; How cool would that be!</p>
+              </div>
+                                          <p class="post-metadata">
+                    This entry was posted on December 19, 2007, 4:15 am and is filed under <a href="http://blog.cromwellhaus.com/category/net/" title="View all posts in .Net" rel="category tag">.Net</a>, <a href="http://blog.cromwellhaus.com/category/mvc/" title="View all posts in MVC" rel="category tag">MVC</a>. You can follow any responses to this entry through <a href="http://blog.cromwellhaus.com/2007/12/asp-net-mvc-and-forms-authentication/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://blog.cromwellhaus.com/2007/12/asp-net-mvc-and-forms-authentication/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+                    <div id="dsq-content">
+
+
+            <ul id="dsq-comments">
+                    <li class="comment even thread-even depth-1" id="dsq-comment-26">
+        <div id="dsq-comment-header-26" class="dsq-comment-header">
+            <cite id="dsq-cite-26">
+http://digitallights.com                <span id="dsq-author-user-26">dave thieben</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-26" class="dsq-comment-body">
+            <div id="dsq-comment-message-26" class="dsq-comment-message"><p>nice.  I&#8217;ve been watching the MVC postings, but havent had time to play with it yet.  can&#8217;t wait to try it out.</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-27">
+        <div id="dsq-comment-header-27" class="dsq-comment-header">
+            <cite id="dsq-cite-27">
+http://weblogs.asp.net/pwelter34                <span id="dsq-author-user-27">Paul</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-27" class="dsq-comment-body">
+            <div id="dsq-comment-message-27" class="dsq-comment-message"><p>Your technique works, however, it will only work a the controller level.  If you want to secure an action, it won&#8217;t work.  For example, if you had secure/admin and secure/index.  If you only want secure/admin to be secured you&#8217;d add <location path="secure/admin">.  This does not work as expected.</p>
+<p>~ Paul</location></p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-28">
+        <div id="dsq-comment-header-28" class="dsq-comment-header">
+            <cite id="dsq-cite-28">
+http://cromwellhaus.com/blogs/ryanc                <span id="dsq-author-user-28">Ryan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-28" class="dsq-comment-body">
+            <div id="dsq-comment-message-28" class="dsq-comment-message"><p>I don&#8217;t have my sample here at the office, but I&#8217;ll verify this evening.  My current project using this tehcnique does include two actions within the same controller (ResourceController) which are authorized differently.  The resource/upload action is only available to authenticated users, while resource/list is available for all users, including anonymous.  I will confirm this and try to post an updated sample this evening.</p>
+<p>Do you have a specific reason or example why you feel this doesn&#8217;t work as expected?  You may wish to add the trailing slash.</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-29">
+        <div id="dsq-comment-header-29" class="dsq-comment-header">
+            <cite id="dsq-cite-29">
+http://www.projetando.net/                <span id="dsq-author-user-29">Israel Aece</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-29" class="dsq-comment-body">
+            <div id="dsq-comment-message-29" class="dsq-comment-message"><p>Hello Ryan,</p>
+<p>What&#8217;s the solution when we need to protect the URL like /Products/Edit/1 where &#8220;1&#8243; is a productId?</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-30">
+        <div id="dsq-comment-header-30" class="dsq-comment-header">
+            <cite id="dsq-cite-30">
+http://cromwellhaus.com/blogs/ryanc                <span id="dsq-author-user-30">Ryan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-30" class="dsq-comment-body">
+            <div id="dsq-comment-message-30" class="dsq-comment-message"><p>You can do a number of things.  You can authorize the Edit url itself by using /Products/Edit as the location element.  You can authorize the Edit ControllerAction method via the PrincipalPermission attribute.  Of course, you could do it manually in code as well by asserting role membership.</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-31">
+        <div id="dsq-comment-header-31" class="dsq-comment-header">
+            <cite id="dsq-cite-31">
+                <span id="dsq-author-user-31">Jesper Christiansen</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-31" class="dsq-comment-body">
+            <div id="dsq-comment-message-31" class="dsq-comment-message"><p>Hmm.. I simply dont get it! I can easily add users and roles in the &#8220;Web Site Administration&#8221; web-interface.. but it never creates a database for me.. Atleast not under my current project..</p>
+<p>Any idea of what I might be doing wrong? It seems to by working on projects that are not MVC websites.</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-32">
+        <div id="dsq-comment-header-32" class="dsq-comment-header">
+            <cite id="dsq-cite-32">
+                <span id="dsq-author-user-32">Ryan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-32" class="dsq-comment-body">
+            <div id="dsq-comment-message-32" class="dsq-comment-message"><p>Jesper,</p>
+<p>It likely did create the database, but, initially, it&#8217;s not added to the project in the sense you may be expecting.  The SQL Express MDF is likely just not &#8220;included&#8221; in the Visual Studio project.  In the Solution Explorer, there is a button at the top called &#8220;Show All Files&#8221;.  Click that and see if the ASPNETDB.mdf is not in the App_Data directory.</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-33">
+        <div id="dsq-comment-header-33" class="dsq-comment-header">
+            <cite id="dsq-cite-33">
+                <span id="dsq-author-user-33">Jesper Christiansen</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-33" class="dsq-comment-body">
+            <div id="dsq-comment-message-33" class="dsq-comment-message"><p>Thank you soo much! That gave me a few gray hairs trying to solve that one <img src='http://blog.cromwellhaus.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  (Im still a little new in the asp.net world) ..</p>
+<p>if you ever stop by Copenhagen, Denmark &#8211; I owe you a beer! <img src='http://blog.cromwellhaus.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-34">
+        <div id="dsq-comment-header-34" class="dsq-comment-header">
+            <cite id="dsq-cite-34">
+http://cromwellhaus.com/blogs/ryanc                <span id="dsq-author-user-34">Ryan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-34" class="dsq-comment-body">
+            <div id="dsq-comment-message-34" class="dsq-comment-message"><p>Count me in!  I&#8217;d love to make it there regardless, but a beer only helps the case.</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-35">
+        <div id="dsq-comment-header-35" class="dsq-comment-header">
+            <cite id="dsq-cite-35">
+                <span id="dsq-author-user-35">Dewy</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-35" class="dsq-comment-body">
+            <div id="dsq-comment-message-35" class="dsq-comment-message"><p>Hi Ryan, this is exatcly what I am looking for, well at least I think that it is. I am using the Preview 2 download and so I had to make some changes to the web.config file to ref those files instead. I also had to change the Html.Form parameters around as these have been altered I guess for Prev2.</p>
+<p>When I try to run my app, it goes into debug and stops on the User/Login.aspx and highlights the using statement and says that there is a NullReference exception. Its drving me nuts. Any ideas?</p>
+<p>Also, I have done a bit of searching on this and I have also seen that you can use the PrinciplePermission attribute on the controllers themselves or in a base class or whatnot and I like this idea better as this means that you don&#8217;t have to use hard coded paths in the config file. Are you planning on updateing your example to use the new release?</p>
+<p>Cheers<br />
+Dewy</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+    <li class="comment even thread-even depth-1" id="dsq-comment-36">
+        <div id="dsq-comment-header-36" class="dsq-comment-header">
+            <cite id="dsq-cite-36">
+                <span id="dsq-author-user-36">Ryan</span>
+            </cite>
+        </div>
+        <div id="dsq-comment-body-36" class="dsq-comment-body">
+            <div id="dsq-comment-message-36" class="dsq-comment-message"><p>The NullReference exception is likely a result of the Request["ReturnUrl"].  It is a bit presumptuous of me to assume that you&#8217;ll be arriving at the Login.aspx page from another page that was unable to authorize/authenticate you.  You may wish to do a safer &#8220;get&#8221; of the ReturnUrl.</p>
+<p>As for the PrinciplePermission attribute, it wouldn&#8217;t hurt to have a full solution for that, but I hadn&#8217;t planned on it.  I do agree that it&#8217;s a bit more clean to apply the attribute see as changing your Routes would change your urls and, thus, the config authorization.</p>
+<p>I&#8217;ll do what I can to post an example soon.</p>
+</div>
+        </div>
+    </li>
+
+    </li>
+            </ul>
+
+
+        </div>
+
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://blog.cromwellhaus.com/2007/12/asp-net-mvc-and-forms-authentication/';
+    var disqus_identifier = '701 /blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cromwellhaus';
+    var disqus_title = "ASP.Net MVC and Forms Authentication";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            DISQUS.request.get('?cf_action=sync_comments&post_id=701');
+        });
+                    };
+    var facebookXdReceiverPath = 'http://blog.cromwellhaus.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/blog.cromwellhaus.com\/2007\/12\/asp-net-mvc-and-forms-authentication\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+        dsq.src = 'http' + '://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.72';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+    
+    
+    	<div id="cse-search-form92" style="width: 100%;">Loading</div>
+	<script type="text/javascript">
+      google.load('search', '1', {language : 'en_US'});
+      google.setOnLoadCallback(function() {
+        var customSearchControl = new google.search.CustomSearchControl('');
+        customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+        customSearchControl.enableAds('2496164227');
+				
+        var options = new google.search.DrawOptions();
+        options.setSearchFormRoot('cse-search-form92');
+        options.setAutoComplete(true);
+    
+        customSearchControl.draw('dialog', options);
+        customSearchControl.setSearchCompleteCallback(this, CallBackDisplayDialog);	
+      }, true);
+     
+      // establish a keep callback
+		function CallBackDisplayDialog(result) {
+			jQuery('#dialog').dialog('open');
+//			$('#dialog').dialog('open');
+		}
+    </script>
+<!-- open dialog. For debug purposes
+        <p><a href="#" id="dialog_link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-newwin"></span>Open Dialog</a></p>
+-->
+        <!-- ui-dialog -->
+
+        <div id="dialog" title="Search Results">
+            <p></p>
+        </div>
+    
+ </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 18 queries. 0.221 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+<p><a onclick='document.cookie="wpmp_switcher=mobile;path=/;expires=Tue, 01-01-2030 00:00:00 GMT";' href='http://blog.cromwellhaus.com/2007/12/asp-net-mvc-and-forms-authentication?wpmp_switcher=mobile'>Switch to our mobile site</a></p><script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.mouse.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.resizable.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.draggable.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.button.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.position.min.js?ver=1.8.16'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/ui/jquery.ui.dialog.min.js?ver=1.8.16'></script>
+</body>
+</html>
+

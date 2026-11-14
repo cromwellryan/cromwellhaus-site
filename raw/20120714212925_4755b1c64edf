@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11"><link rel="stylesheet" type="text/css" href="http://cromwellhaus.com/wp-content/w3tc/min/bdd48060.445c7a.css" media="all" />
+<script type="text/javascript" src="http://cromwellhaus.com/wp-content/w3tc/min/44aeb9f9.54723d.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Feature Focused Javascript Apps &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.2.3 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<style type="text/css">
+
+
+
+
+.post p.post-date,.post p.post-author{display:none;}
+.block-content{width:960px;max-width:960px;}
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; Feature Focused Javascript Apps Comments Feed" href="http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/feed/" />
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Visual Studio 2012 Quick Launch is Awesome!' href='http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/' />
+<meta name="generator" content="WordPress 3.4.1" />
+<link rel='canonical' href='http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/' />
+<link rel='shortlink' href='http://cromwellhaus.com/?p=1243' />
+
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://cromwellhaus.com/about/"><span>Bio</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/" rel="prev">Visual Studio 2012 Quick Launch is Awesome!</a></div>
+          <div class="alignright"></div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-1243" class="post-1243 post type-post status-publish format-standard hentry category-uncategorized tag-code">
+           <h2 class="post-title">Feature Focused Javascript Apps</h2>
+              <div class="post-content clearfix">
+    	       <p><strong>Common Closure, Not RSI! <strong>Common Closure, Not RSI!</strong></strong></p>
+<p>Some time last year I started getting really annoyed.&#160; Every time I picked up a new app, I had to open at least three rather busy folders to grok what was going on.&#160; Maybe you’ve heard of them:</p>
+<p>Models, Views and Controllers</p>
+<p>Yeah, I get it, it’s the de-facto layout for most apps.&#160; I’m all for consistency for the sake of simplicity.&#160; It’s a grand plan.</p>
+<p>But my eyes and keyboard are tired of jumping around to find out what the Home page is up to.&#160; Last time I checked, those things that change together, stay together<sup><a href="http://www.objectmentor.com/resources/articles/granularity.pdf" target="_blank">1</a> <a href="http://www.objectmentor.com/resources/articles/granularity.pdf" target="_blank">2</a></sup>.&#160; I don’t recall the “Those things that look like controllers stay together” principle.&#160; Not even a smidge of alliteration.</p>
+<p>I’m glad to see I’m not alone.&#160; Feature frameworks are slowly popping up for Rails mostly, but I suspect ASP.Net won’t be too far behind.&#160; Uncle Bob also seems to have a rant going on the topic as well. You can watch one of his talks on the topic <a href="http://confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years" target="_blank">here</a>. Good stuff all around.</p>
+<p><strong>My Change to get Feature Focused</strong></p>
+<p>In December of 2011, when I picked up a new project I decided to try something new.&#160; Features that made the app useful were going to highlight the app structure.&#160; Instead of folders called Models, Views and Controllers, the first thing you’d see is Chat, Tasking, and Notifications.&#160; Want to add some information to the Chat notifications… guess where you go?&#160; Yup… Chat.</p>
+<p>Now most js frameworks don’t subscribe to the Model, View, Controller discovery convention like server frameworks.&#160; Instead, they’re mounds of scripts crumpled into some scripts directory.&#160; Not the framework’s fault, but again, not exactly organized with discipline.</p>
+<p><strong>Focusing on Features in Javascript</strong></p>
+<p>Here are the weapons I chose to go into battle:</p>
+<p><em><a href="http://requirejs.org/" target="_blank">requirejs</a></em></p>
+<p>Provides dependency definition and resolution. Not crucial for the code, but it made optimizing a loosely coupled JS app into Sweet Apple Pie™.</p>
+<p><em><a href="http://documentcloud.github.com/backbone/" target="_blank">backbone.routing</a></em></p>
+<p>‘cause sammyjs had a personality disorder.</p>
+<p><em><a href="http://knockoutjs.com" target="_blank">knockoutjs</a></em></p>
+<p>Model Binding for realz.&#160; Backbone.Modelbinding just wasn’t there yet.&#160; I felt like I built a lot of Backbone by the end, but the knockoutjs’ binding is butter.</p>
+<p><strong>Home</strong></p>
+<p>Our app is all client side; single DOM.&#160; Should you do your app that way… dunno.&#160; For this one, I had index.htm and was done.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image1.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb1.png" width="644" height="167" /></a></p>
+<p>The only thing of interest is that we’re sourcing require.js and we’ve specified the data-main attribute with a value of bootstrap. This refers to bootstrap.js which is going to get things rolling.</p>
+<p>As you can see on the left, the client app is in a <font face="Consolas">src</font> directory under my app’s root of <font face="Consolas">featurefocusedjsapp</font>.&#160; </p>
+<blockquote><p><font color="#000000">Dilemma: I really want to experiment with hosting the server components along side corresponding client components where appropriate.&#160; If you have ideas or experiences here, share them in the comments.</font></p>
+</blockquote>
+<p><strong>Bootstrap.js Feature Modules</strong></p>
+<p>bootstrap.js uses the require.js <font face="Consolas">require</font> function to create a module.&#160; <font face="Consolas">require</font> takes two things, <a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image2.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" align="right" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb2.png" width="347" height="149" /></a>an array of dependency module names and a function to be executed once all dependencies are available. </p>
+<p>The purpose of bootstrap.js is to kick off the modules of our application.&#160; In many common frameworks, you might start by declaring routes using Sammy, Ember, or Backbone.&#160; We might need that, but I really want to start features.&#160; And that’s where modules come in.</p>
+<p><strong>Credits Module</strong></p>
+<p>Since our app is so awesome, people will want to know a little about the creators.&#160; Let’s give them some credit.&#160; We’ll start by creating a CreditsModule.js in the Credits feature directory.&#160; Bootstrap will simply call start on our module.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/SNAGHTML33857991.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="SNAGHTML33857991" border="0" alt="SNAGHTML33857991" src="http://cromwellhaus.com/wp-content/uploads/2012/07/SNAGHTML33857991_thumb.png" width="644" height="438" /></a></p>
+<p>We’re using the Reveal Module pattern to expose a start function.&#160; Credits module is going to display some information, so we’ll need a view.&#160; One thing I dislike about many js heavy apps I’ve seen built is the unending list of script templates embedded in one page or another.&#160; The javascript is in one place, but the view is totally disconnected.&#160; If you’re composing this in an optimization/minification step, great.&#160; But those I’ve seen are actually coded in this way.&#160; Churn on those files is very high and I don’t like high churn.</p>
+<p><strong>Collocating Views</strong></p>
+<p>Instead, I want the creditsview.htm to sit alongside the rest of the credits module.&#160; We want to show this in the main content region of the app, but I don’t want my module coupled to some css selector or jQuery.&#160; So let’s see how we can put this all together:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/SNAGHTML339fdbec.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="SNAGHTML339fdbec" border="0" alt="SNAGHTML339fdbec" src="http://cromwellhaus.com/wp-content/uploads/2012/07/SNAGHTML339fdbec_thumb.png" width="644" height="253" /></a></p>
+<p>Here we use the <a href="http://requirejs.org/docs/download.html#text" target="_blank">text.js</a> plugin for requirejs.&#160; This sources the creditsview.htm content, sending the raw string as a parameter to the callback.&#160; We use this view content as a closure in the start function which is, again, exposed as a module using the reveal module pattern.</p>
+<p>Check out our awesomeness</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image3.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb3.png" width="426" height="279" /></a></p>
+<p>I’m running this using python –m http.server from the src directory.&#160; This is so convenient I created a serverpy function in my <a href="https://github.com/cromwellryan/ps-config/blob/master/Microsoft.PowerShell_profile.ps1" target="_blank">Powershell profile</a>.</p>
+<p>&#160;</p>
+<p><strong>Perf Sucks!</strong></p>
+<p>As you might imagine, this isn’t doing great things for our site resource performance.&#160; Lots of little files are bad for a browser.&#160; Our crazy simple site is bad.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image4.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb4.png" width="644" height="144" /></a></p>
+<p>Remember how I said requirejs wasn’t crucial.&#160; Everything we’ve done so far could pretty easily have been done by hand.&#160; Here is were requirejs begins to pull it’s weight.</p>
+<p><strong>r.js to the rescue</strong></p>
+<p><a href="https://github.com/jrburke/r.js" target="_blank">r.js</a> also by James Burke is here to slim things down with it’s optimizer option.&#160; This is going to take our collection of scripts and templates and turn it into a single script resource.&#160; </p>
+<blockquote><p><font color="#000000">node r.js –o build.js</font></p>
+</blockquote>
+<p>Running that command in the root of the repo will show us this:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image5.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb5.png" width="644" height="407" /></a></p>
+<p>r.js has just walked the dependency tree of bootstrap.js and consolidated it into a directory called build in the repo root.</p>
+<p>At first glance this seems wholly unimpressive</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image6.png"><img style="background-image: none; border-right-width: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb6.png" width="244" height="230" /></a> until you open bootstrap.js…</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image7.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb7.png" width="644" height="405" /></a></p>
+<p>Sold. </p>
+<p>&#160;</p>
+<p>Delete all that working garbage and serve up the build directory.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image8.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb8.png" width="381" height="197" /></a></p>
+<p>&#160;</p>
+<p>What do our downloads look like now?</p>
+<p><strong>BEFORE</strong></p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image9.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb9.png" width="644" height="244" /></a></p>
+<p><strong>AFTER</strong></p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image10.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb10.png" width="644" height="370" /></a></p>
+<p>You can find the code to this point at <a href="https://github.com/cromwellryan/featurefocusedjs">https://github.com/cromwellryan/featurefocusedjs</a></p>
+<p>&#160;</p>
+<p>Next time I’ll talk about features talking to one another.&#160; Then we’ll talk testing pieces of this thing.</p>
+              </div>
+                                          <p class="tags"> Tags: <a href="http://cromwellhaus.com/tag/code/" rel="tag">Code</a></p>
+              <div class="clear"></div>
+                            <p class="post-metadata">
+                    This entry was posted on July 12, 2012, 11:24 pm and is filed under <a href="http://cromwellhaus.com/category/uncategorized/" title="View all posts in Uncategorized" rel="category tag">Uncategorized</a>. You can follow any responses to this entry through <a href="http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+    </div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var disqus_url = 'http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/';
+    var disqus_identifier = '1243 http://cromwellhaus.com/?p=1243';
+    var disqus_container_id = 'disqus_thread';
+    var disqus_domain = 'disqus.com';
+    var disqus_shortname = 'cromwellhaus';
+    var disqus_title = "Feature Focused Javascript Apps";
+        var disqus_config = function () {
+        var config = this; // Access to the config object
+
+        /*
+           All currently supported events:
+            * preData — fires just before we request for initial data
+            * preInit - fires after we get initial data but before we load any dependencies
+            * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+            * afterRender - fires when template is rendered but before we show it
+            * onReady - everything is done
+         */
+
+        config.callbacks.preData.push(function() {
+            // clear out the container (its filled for SEO/legacy purposes)
+            document.getElementById(disqus_container_id).innerHTML = '';
+        });
+                config.callbacks.onReady.push(function() {
+            // sync comments in the background so we don't block the page
+            DISQUS.request.get('?cf_action=sync_comments&post_id=1243');
+        });
+                    };
+    var facebookXdReceiverPath = 'http://cromwellhaus.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+    var DsqLocal = {
+        'trackbacks': [
+        ],
+        'trackback_url': "http:\/\/cromwellhaus.com\/2012\/07\/feature-focused-javascript-apps\/trackback\/"    };
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+        dsq.src = 'http' + '://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.72';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+          
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 18 queries. 0.219 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk: basic
+Page Caching using disk: enhanced (Requested URI contains query)
+
+Served from: cromwellhaus.com @ 2012-07-14 16:29:25 -->

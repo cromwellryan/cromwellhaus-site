@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Ryan Cromwell</title>
+	
+	<link>http://cromwellhaus.com</link>
+	<description>Improving my craft...</description>
+	<lastBuildDate>Fri, 13 Jul 2012 04:33:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.4.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/RyanCromwell" /><feedburner:info uri="ryancromwell" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><geo:lat>39.557096</geo:lat><geo:long>-84.22688</geo:long><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly><item>
+		<title>Feature Focused Javascript Apps</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/FyMQTy42fiw/</link>
+		<comments>http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/#comments</comments>
+		<pubDate>Fri, 13 Jul 2012 04:24:53 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1243</guid>
+		<description>Common Closure, Not RSI! Common Closure, Not RSI! Some time last year I started getting really annoyed.&amp;#160; Every time I picked up a new app, I had to open at least three rather busy folders to grok what was going on.&amp;#160; Maybe you’ve heard of them: Models, Views and Controllers Yeah, I get it, it’s [...]</description>
+			<content:encoded><![CDATA[<p><strong>Common Closure, Not RSI! <strong>Common Closure, Not RSI!</strong></strong></p>
+<p>Some time last year I started getting really annoyed.&#160; Every time I picked up a new app, I had to open at least three rather busy folders to grok what was going on.&#160; Maybe you’ve heard of them:</p>
+<p>Models, Views and Controllers</p>
+<p>Yeah, I get it, it’s the de-facto layout for most apps.&#160; I’m all for consistency for the sake of simplicity.&#160; It’s a grand plan.</p>
+<p>But my eyes and keyboard are tired of jumping around to find out what the Home page is up to.&#160; Last time I checked, those things that change together, stay together<sup><a href="http://www.objectmentor.com/resources/articles/granularity.pdf" target="_blank">1</a> <a href="http://www.objectmentor.com/resources/articles/granularity.pdf" target="_blank">2</a></sup>.&#160; I don’t recall the “Those things that look like controllers stay together” principle.&#160; Not even a smidge of alliteration.</p>
+<p>I’m glad to see I’m not alone.&#160; Feature frameworks are slowly popping up for Rails mostly, but I suspect ASP.Net won’t be too far behind.&#160; Uncle Bob also seems to have a rant going on the topic as well. You can watch one of his talks on the topic <a href="http://confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years" target="_blank">here</a>. Good stuff all around.</p>
+<p><strong>My Change to get Feature Focused</strong></p>
+<p>In December of 2011, when I picked up a new project I decided to try something new.&#160; Features that made the app useful were going to highlight the app structure.&#160; Instead of folders called Models, Views and Controllers, the first thing you’d see is Chat, Tasking, and Notifications.&#160; Want to add some information to the Chat notifications… guess where you go?&#160; Yup… Chat.</p>
+<p>Now most js frameworks don’t subscribe to the Model, View, Controller discovery convention like server frameworks.&#160; Instead, they’re mounds of scripts crumpled into some scripts directory.&#160; Not the framework’s fault, but again, not exactly organized with discipline.</p>
+<p><strong>Focusing on Features in Javascript</strong></p>
+<p>Here are the weapons I chose to go into battle:</p>
+<p><em><a href="http://requirejs.org/" target="_blank">requirejs</a></em></p>
+<p>Provides dependency definition and resolution. Not crucial for the code, but it made optimizing a loosely coupled JS app into Sweet Apple Pie™.</p>
+<p><em><a href="http://documentcloud.github.com/backbone/" target="_blank">backbone.routing</a></em></p>
+<p>‘cause sammyjs had a personality disorder.</p>
+<p><em><a href="http://knockoutjs.com" target="_blank">knockoutjs</a></em></p>
+<p>Model Binding for realz.&#160; Backbone.Modelbinding just wasn’t there yet.&#160; I felt like I built a lot of Backbone by the end, but the knockoutjs’ binding is butter.</p>
+<p><strong>Home</strong></p>
+<p>Our app is all client side; single DOM.&#160; Should you do your app that way… dunno.&#160; For this one, I had index.htm and was done.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image1.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb1.png" width="644" height="167" /></a></p>
+<p>The only thing of interest is that we’re sourcing require.js and we’ve specified the data-main attribute with a value of bootstrap. This refers to bootstrap.js which is going to get things rolling.</p>
+<p>As you can see on the left, the client app is in a <font face="Consolas">src</font> directory under my app’s root of <font face="Consolas">featurefocusedjsapp</font>.&#160; </p>
+<blockquote><p><font color="#000000">Dilemma: I really want to experiment with hosting the server components along side corresponding client components where appropriate.&#160; If you have ideas or experiences here, share them in the comments.</font></p>
+</blockquote>
+<p><strong>Bootstrap.js Feature Modules</strong></p>
+<p>bootstrap.js uses the require.js <font face="Consolas">require</font> function to create a module.&#160; <font face="Consolas">require</font> takes two things, <a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image2.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" align="right" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb2.png" width="347" height="149" /></a>an array of dependency module names and a function to be executed once all dependencies are available. </p>
+<p>The purpose of bootstrap.js is to kick off the modules of our application.&#160; In many common frameworks, you might start by declaring routes using Sammy, Ember, or Backbone.&#160; We might need that, but I really want to start features.&#160; And that’s where modules come in.</p>
+<p><strong>Credits Module</strong></p>
+<p>Since our app is so awesome, people will want to know a little about the creators.&#160; Let’s give them some credit.&#160; We’ll start by creating a CreditsModule.js in the Credits feature directory.&#160; Bootstrap will simply call start on our module.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/SNAGHTML33857991.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="SNAGHTML33857991" border="0" alt="SNAGHTML33857991" src="http://cromwellhaus.com/wp-content/uploads/2012/07/SNAGHTML33857991_thumb.png" width="644" height="438" /></a></p>
+<p>We’re using the Reveal Module pattern to expose a start function.&#160; Credits module is going to display some information, so we’ll need a view.&#160; One thing I dislike about many js heavy apps I’ve seen built is the unending list of script templates embedded in one page or another.&#160; The javascript is in one place, but the view is totally disconnected.&#160; If you’re composing this in an optimization/minification step, great.&#160; But those I’ve seen are actually coded in this way.&#160; Churn on those files is very high and I don’t like high churn.</p>
+<p><strong>Collocating Views</strong></p>
+<p>Instead, I want the creditsview.htm to sit alongside the rest of the credits module.&#160; We want to show this in the main content region of the app, but I don’t want my module coupled to some css selector or jQuery.&#160; So let’s see how we can put this all together:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/SNAGHTML339fdbec.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="SNAGHTML339fdbec" border="0" alt="SNAGHTML339fdbec" src="http://cromwellhaus.com/wp-content/uploads/2012/07/SNAGHTML339fdbec_thumb.png" width="644" height="253" /></a></p>
+<p>Here we use the <a href="http://requirejs.org/docs/download.html#text" target="_blank">text.js</a> plugin for requirejs.&#160; This sources the creditsview.htm content, sending the raw string as a parameter to the callback.&#160; We use this view content as a closure in the start function which is, again, exposed as a module using the reveal module pattern.</p>
+<p>Check out our awesomeness</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image3.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb3.png" width="426" height="279" /></a></p>
+<p>I’m running this using python –m http.server from the src directory.&#160; This is so convenient I created a serverpy function in my <a href="https://github.com/cromwellryan/ps-config/blob/master/Microsoft.PowerShell_profile.ps1" target="_blank">Powershell profile</a>.</p>
+<p>&#160;</p>
+<p><strong>Perf Sucks!</strong></p>
+<p>As you might imagine, this isn’t doing great things for our site resource performance.&#160; Lots of little files are bad for a browser.&#160; Our crazy simple site is bad.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image4.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb4.png" width="644" height="144" /></a></p>
+<p>Remember how I said requirejs wasn’t crucial.&#160; Everything we’ve done so far could pretty easily have been done by hand.&#160; Here is were requirejs begins to pull it’s weight.</p>
+<p><strong>r.js to the rescue</strong></p>
+<p><a href="https://github.com/jrburke/r.js" target="_blank">r.js</a> also by James Burke is here to slim things down with it’s optimizer option.&#160; This is going to take our collection of scripts and templates and turn it into a single script resource.&#160; </p>
+<blockquote><p><font color="#000000">node r.js –o build.js</font></p>
+</blockquote>
+<p>Running that command in the root of the repo will show us this:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image5.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb5.png" width="644" height="407" /></a></p>
+<p>r.js has just walked the dependency tree of bootstrap.js and consolidated it into a directory called build in the repo root.</p>
+<p>At first glance this seems wholly unimpressive</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image6.png"><img style="background-image: none; border-right-width: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb6.png" width="244" height="230" /></a> until you open bootstrap.js…</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image7.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb7.png" width="644" height="405" /></a></p>
+<p>Sold. </p>
+<p>&#160;</p>
+<p>Delete all that working garbage and serve up the build directory.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image8.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb8.png" width="381" height="197" /></a></p>
+<p>&#160;</p>
+<p>What do our downloads look like now?</p>
+<p><strong>BEFORE</strong></p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image9.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb9.png" width="644" height="244" /></a></p>
+<p><strong>AFTER</strong></p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/07/image10.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/07/image_thumb10.png" width="644" height="370" /></a></p>
+<p>You can find the code to this point at <a href="https://github.com/cromwellryan/featurefocusedjs">https://github.com/cromwellryan/featurefocusedjs</a></p>
+<p>&#160;</p>
+<p>Next time I’ll talk about features talking to one another.&#160; Then we’ll talk testing pieces of this thing.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=FyMQTy42fiw:IVxr6cIIG-Y:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=FyMQTy42fiw:IVxr6cIIG-Y:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=FyMQTy42fiw:IVxr6cIIG-Y:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=FyMQTy42fiw:IVxr6cIIG-Y:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=FyMQTy42fiw:IVxr6cIIG-Y:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/FyMQTy42fiw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/07/feature-focused-javascript-apps/</feedburner:origLink></item>
+		<item>
+		<title>Visual Studio 2012 Quick Launch is Awesome!</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/A_NpLoXG00g/</link>
+		<comments>http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/#comments</comments>
+		<pubDate>Fri, 22 Jun 2012 20:20:50 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1205</guid>
+		<description>Those who know have coded with me have felt the soul crushing comments whenever they touch a mouse.&amp;#160; It. Must. Die.&amp;#160; For coders at least.&amp;#160; Visual Studio hasn’t always made that easy.&amp;#160; Visual Studio 2012 is here to help with the new Quick Launch feature. (VsVim will help too, but in due time). Quick Launch [...]</description>
+			<content:encoded><![CDATA[<p>Those who know have coded with me have felt the soul crushing comments whenever they touch a mouse.&#160; It. Must. Die.&#160; For coders at least.&#160; Visual Studio hasn’t always made that easy.&#160; Visual Studio 2012 is here to help with the new Quick Launch feature. (<a href="https://login.live.com/login.srf?wa=wsignin1.0&amp;wtrealm=visualstudiogallery.msdn.microsoft.com&amp;wreply=https%3a%2f%2fvisualstudiogallery.msdn.microsoft.com%2f59ca71b3-a4a3-46ca-8fe1-0e90e3f79329%3fstoAI%3d10&amp;wp=MBI_FED_SSL&amp;wlcxt=microsoft%24microsoft%24microsoft" target="_blank">VsVim</a> will help too, but in due time).</p>
+<p>Quick Launch is found in what used to be the window chrome.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb.png" width="644" height="413" /></a></p>
+<p>Stop that!&#160; Don’t go mousing up there just yet.&#160; It quite blaringly asks you to hit CTRL+Q.&#160; Just do it.&#160; Now type ‘Keyboard’</p>
+<p>Holy frick!&#160; It took us into a section of the Tools –&gt; Options dialog.&#160; That’s a deep link if ever one existed.<a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image1.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb1.png" width="644" height="262" /></a></p>
+<p>&#160;</p>
+<p><strong>Open to all comers</strong></p>
+<p>What if we search for ‘gist’?</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image2.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb2.png" width="644" height="165" /></a></p>
+<p>Yeah, that’s my <a href="visualstudiogallery.msdn.microsoft.com/b31916b0-c026-4c27-9d6b-ba831093f6b2" target="_blank">Gister</a> VS Extension.&#160; I didn’t have to do anything to play in the sandbox.&#160; Resharper refactorings, TestDriven.Net, and Telerik’s tools all show up side-by-side commands like the new backed in Continuous Test Runner.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image3.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb3.png" width="244" height="217" /></a></p>
+<p><strong>Make your own keyboard combos</strong></p>
+<p>Also notice that the respective keyboard combos are called out clearly.&#160; If you find yourself using Quick Launch often for the same command, setup a specific shortcut. </p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/image4.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/06/image_thumb4.png" width="644" height="168" /></a></p>
+<p>&#160;</p>
+<p>Note that Quick Launch is context sensitive.&#160; Commands that are not available (i.e. Resharper Rename refactoring in a non-code file) will not appear in the search. </p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=A_NpLoXG00g:m58BL8c4ftM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=A_NpLoXG00g:m58BL8c4ftM:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=A_NpLoXG00g:m58BL8c4ftM:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=A_NpLoXG00g:m58BL8c4ftM:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=A_NpLoXG00g:m58BL8c4ftM:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/A_NpLoXG00g" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/06/visual-studio-2012-quick-launch-is-awesome/</feedburner:origLink></item>
+		<item>
+		<title>Beyond the Agile Programmer: Innovative Teams</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/7uLvbxutISg/</link>
+		<comments>http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/#comments</comments>
+		<pubDate>Wed, 13 Jun 2012 18:16:33 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Agile]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1181</guid>
+		<description>This past week, I had the opportunity to attend the Midwest UX conference in Columbus, Ohio. I was incredibly happy to see AIS sponsor the event. While we work hand-in-hand with some great design teams for projects like the Vogue Archive and Rolling Stone Archive, getting directly involved in the UX/UI community is part of [...]</description>
+			<content:encoded><![CDATA[<p>This past week, I had the opportunity to attend the Midwest UX conference in Columbus, Ohio. I was incredibly happy to see <a href="http://appliedis.com/">AIS</a> sponsor the event. While we work hand-in-hand with some great design teams for projects like the Vogue Archive and Rolling Stone Archive, getting directly involved in the UX/UI community is part of our attempt to bring this knowledge and experience in-house. (More on that to come!)</p>
+<p>Choosing sessions at a conference is rarely easy, but I knew immediately which session would start my day. Without any hesitation, I headed for <a href="http://lanyrd.com/2012/midwestux/stqzz/">Building a Design Culture</a> by <a href="http://www.twitter.com/bradcolbow">Brad Colbow</a>, the awesome <a href="http://bradcolbow.com/">Illustrator</a> and <a href="http://bradcolbow.com/archive/">comic</a>. Brad presented at CodeMash earlier in the year and he easily lived up to my expectations.</p>
+<p>In this session, Brad described his experiences as a designer engaged to build a great user experience in the context of a broader team.&#160; I was interested to see how Brad’s thoughts and experiences as a representative of the design community overlapped with those of the Agile community which has composed mostly of programmers.&#160; I wasn’t disappointed.</p>
+<p><b>The Execution Gap</b></p>
+<p>Maybe it’s the lack of even a single artistic bone in my body, but the word design suggests innovation; the creation of something new and exciting. Having personally worked with some amazing software designers and design firms, I relish the anticipation that comes with endless possibility and unbridled imagination.</p>
+<p>I’ve also experienced the drudgery of endless implementation, sheen-dulling corner cutting and pride-killing <a href="http://www.amazon.com/Who-Moved-My-Cheese-Amazing/dp/0399144463">Who Moved My Cheese</a> reviews. After months of hard work, the excitement of the filled a kickoff gathering has given way to finger pointing and, at times, ship jumping. </p>
+<p>It would seem that <u>the challenge is not innovative ideas</u>, but the <i>execution</i> of those ideas.&#160; </p>
+<blockquote><p><i>Execution is everything. ~ Robert Jordan</i></p>
+</blockquote>
+<p>Brad is quite well known and respected for his design and artistic talents. No doubt he brings a lot to the table for a team or organization looking to bring a great experience to products.&#160; For this reason I find it quite telling (and entertaining) when he describes the engagement process like so:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/06/clip_image0012.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="clip_image001" border="0" alt="clip_image001" src="http://cromwellhaus.com/wp-content/uploads/2012/06/clip_image001_thumb2.png" width="640" height="479" /></a></p>
+<p>While Brad and his team may hand over pure gold, without his skill and eye on the in-flight product, the result is often a not-so-happy rendition. The gap, he points out, is <u>engagement with those executing</u> his designs in the medium of code.&#160; No doubt customers have a similar response when their ideas don’t quite live up to the gloss of a SOWs or project proposal.</p>
+<p>But how can we avoid such a letdown? How can we avoid the deterioration of our vision over time?</p>
+<p>How does <a href="http://scrum.org">Scrum</a> enable a culture of Innovation?</p>
+<p><b>Scrum Teams are Cross Functional</b></p>
+<p>Brad was quite open and honest in saying he does not have the answer. Instead, he shared his experiences. He’s found that the interests and practices of those championing Agile in these same organizations are in alignment with his own.</p>
+<p>In <a href="http://scrum.org">Scrum</a>, we explicitly call out the need for a cross-functional team. Scrum’s “Development Team consists of professionals who do the work of delivering a potentially     <br />releasable Increment of ‘Done’ product at the end of each Sprint.” (<a href="http://www.scrum.org/scrumguides/">Read more</a>) This is often in contrast to organizational structures based on skillset.</p>
+<p><b>Scrum Sprints are a Safety Zone</b></p>
+<p>In his 2005 <i><a href="http://www.jpb.com/creative/OrganisationalCreativityMorris.pdf">A Survey of Organizational Creativity</a></i>, Wayne Morris of New Zealand found that two of the top three Factors that facilitate or enhance organizational creativity are 1) Time, and 2) Space/resources to pursue ideas. Creativity, a necessary ingredient to innovation, demands space. Space to experiment, learn, fail, and refine. Space in time, environment, and pressure.</p>
+<p>Scrum maintains the <a href="http://scrum.org/scrumguides">Sprint</a> to act as both as risk mitigation and a safe zone for creativity. Within this <a href="http://en.wikipedia.org/wiki/Timeboxing1">timebox</a> the Development Team has full freedom and authority to attack a problem or goal with all its ingenuity knowing that at the end of the Sprint they must have a working product to demonstrate. Interesting that this simple concept can provide safe space, while also limiting the months of unproductive spin seen on traditional projects.</p>
+<p><strong>Create Your Culture of Innovative</strong></p>
+<p>By providing clear goals to teams composed of the skills necessary to bring a product to market, providing sufficient space to execute, and inspecting the actual, functioning results at regular intervals we can build a culture of sustained delivery and innovation.</p>
+<p>What would happen at your organization if you put together a team with Marketing, Programmer, Designer, and Sales all represented, and gave them a goal of delivering a working increment of software in 30 days which solved a profitable need? <a href="http://www.amazon.com/Software-30-Days-Customers-Competitors/dp/1118206665">It’s quite possible in fact</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=7uLvbxutISg:5jv1bfZzHCA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=7uLvbxutISg:5jv1bfZzHCA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=7uLvbxutISg:5jv1bfZzHCA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=7uLvbxutISg:5jv1bfZzHCA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=7uLvbxutISg:5jv1bfZzHCA:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/7uLvbxutISg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/06/beyond-the-agile-programmer-innovative-teams/</feedburner:origLink></item>
+		<item>
+		<title>Build once, MSDeploy all over the place</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/KlTiHqnopTM/</link>
+		<comments>http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/#comments</comments>
+		<pubDate>Wed, 02 May 2012 19:05:43 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1146</guid>
+		<description>There are about 3 dozen ways to automate web app deployment.&amp;#160; All have their candy and their evil.&amp;#160; MSDeploy is one of the more intense tools, but if you don’t collapse at the command line syntax you’ll find it can be pretty sweet. It’s rather easy to create a basic package, but step beyond the [...]</description>
+			<content:encoded><![CDATA[<p>There are about 3 dozen ways to automate web app deployment.&#160; All have their candy and their evil.&#160; MSDeploy is one of the more intense tools, but if you don’t collapse at the command line syntax you’ll find it can be pretty sweet.</p>
+<p>It’s rather easy to create a basic package, but step beyond the basics and the story isn’t laid out clearly before you.&#160; Many jump on the Config Transform wagon, building 9 versions of their app for each environment they may target.&#160; Transforms look good at first, but then you’re compiling your app 20 times and it just get’s annoying.&#160; I’d much rather build once and specify the parameter transformations at deploy time.&#160; That’s what I’ve got for you today.</p>
+<p>Here I’ll walk you through creating custom parameters for deploy time change via MSDeploy.</p>
+<p>I’m using an ASP.Net MVC 4 Internet Project, but it’s not critical.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb.png" width="224" height="244" /></a></p>
+<h1></h1>
+<p><strong>Environment Specific Settings</strong></p>
+<p>To emulate an environment specific setting, I’ve added appsetting <em>EnvironmentImIn.</em>&#160; I’ll commit this with the Get Latest and Go™ value of <em>LocalDev.&#160; </em></p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image1.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb1.png" width="231" height="244" /></a><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image2.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb2.png" width="225" height="244" /></a></p>
+<p>&#160;</p>
+<p><strong>Building the Package (Manually)</strong></p>
+<p>Right click the project MVC project and click <em>Build Deployment Package</em>.&#160; </p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image3.png"><img style="background-image: none; border-right-width: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb3.png" width="244" height="89" /></a></p>
+<p>This will create your package as a folder with a series of files under &lt;Project&gt;\obj\package.</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image4.png"><img style="background-image: none; border-right-width: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb4.png" width="189" height="244" /></a></p>
+<p>Great, but we don’t deploy from dev machines ‘cause we have a habit of installing crazy stuff.&#160; You should…</p>
+<p><strong>Build the Package (Automation)</strong></p>
+<p>ASP.Net project files, being MSBuild files, have a target called <em>Package.</em>&#160; This will first compile the project and then generate the package folder just like VS did above (<a href="http://vishaljoshi.blogspot.com/2009/02/web-packaging-creating-web-packages.html" target="_blank">Details</a>).&#160; You can adapt this with ease to TFS, TeamCity, etc.<a href="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML46e20cf.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="SNAGHTML46e20cf" border="0" alt="SNAGHTML46e20cf" src="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML46e20cf_thumb.png" width="644" height="327" /></a></p>
+<p><strong>Deployment Parameters</strong></p>
+<p>MSDeploy uses a parameters.xml file to determine what is “changeable” at deploy time.&#160; This file is consumed at package <u>creation</u> time.&#160; I consider this a good thing since you end up committing the file and are explicit about what’s changeable.&#160; </p>
+<p>If you look in the .zip file in your package directory you’ll find a default parameters.xml.&#160; This is because VS/MSBuild makes <a href="http://vishaljoshi.blogspot.com/2010/07/web-deploy-parameterization-in-action.html" target="_blank">certain things changeable by default</a>.&#160; If you drop a parameters.xml file into your project root, MSBuild will use that.&#160; Coolio.&#160; Here’s ours:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image5.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb5.png" width="644" height="278" /></a></p>
+<p>Vishal Joshi does all the hard work of explaining what the elements all mean <a href="http://vishaljoshi.blogspot.com/2010/07/web-deploy-parameterization-in-action.html" target="_blank">here</a>.&#160; Vishal is the man!&#160; What we’re doing is adding a parameter EnvironmentImIn, giving it a description, and then telling MSDeploy how to find the entry.&#160; Beware, there be regex in them thar hills. </p>
+<p>&#160;</p>
+<p><strong>Changeable Package Settings</strong></p>
+<p>If you build your Deployment Package now (msbuild /t:Package) you’ll find the *.SetParameters.xml file now contains our <em>EnvironmentImIn</em> setting where before it only had IIS Web Application Name and DefaultConnection.&#160; Saweeet!</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image6.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb6.png" width="644" height="198" /></a></p>
+<p>The *.zip file will also have a parameters.xml file like this:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/image7.png"><img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://cromwellhaus.com/wp-content/uploads/2012/05/image_thumb7.png" width="644" height="261" /></a></p>
+<p><strong>Deployment (IIS Manager)</strong></p>
+<p>I find many deployment teams like to do their magic manually.&#160; These are often the infrastructure or a Release management group.&#160; They spurn the console at their own peril.&#160; IIS is cool with that though.&#160; </p>
+<p>You can import packages through IIS Manager and you’ll be presented a UI to change your setting.&#160; #huzzuh!</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML4c25a19.png"><img style="background-image: none; border-right-width: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px" title="SNAGHTML4c25a19" border="0" alt="SNAGHTML4c25a19" src="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML4c25a19_thumb.png" width="644" height="469" /></a></p>
+<p>Set it to “Staging” and Finish click Finish results in:</p>
+<p><a href="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML66b5a51.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="SNAGHTML66b5a51" border="0" alt="SNAGHTML66b5a51" src="http://cromwellhaus.com/wp-content/uploads/2012/05/SNAGHTML66b5a51_thumb.png" width="644" height="442" /></a></p>
+<p><strong>Deployment (Command line)</strong></p>
+<p>One of the convenient pieces created for you by msbuild /t:Package is the <em>MSDeploySample.deploy.cmd</em> file.&#160; It helps parse parameters and construct the not so straight forward msdeploy.exe command line.</p>
+<p>If you don’t want to mess with msdeploy.exe directly, you can customize the SetParameters.xml file and just run the cmd file like this:</p>
+<blockquote><p>MSDeploySample.deploy.cmd [/T|/Y]</p>
+</blockquote>
+<p>/T means tell me what’s gonna happen, but don’ t actually do anything yet.</p>
+<p>/Y is for the big kids.&#160; Applies the changes.</p>
+<p>&#160;</p>
+<p>The alternative is to supply –setParam like this</p>
+<blockquote><p><font color="#000000">–setParam:EnvironmentImIn=Staging</font></p>
+</blockquote>
+<p>Easiest way to construct an MSDeploy.exe command line is to use the .cmd and modify what it gives you.&#160; Look <a href="http://technet.microsoft.com/en-us/library/dd569084(WS.10).aspx#BKMK_ParameterKindSettings" target="_blank">here</a> for detailed –setParam options.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=KlTiHqnopTM:Yy0UKQPSuhU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=KlTiHqnopTM:Yy0UKQPSuhU:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=KlTiHqnopTM:Yy0UKQPSuhU:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=KlTiHqnopTM:Yy0UKQPSuhU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=KlTiHqnopTM:Yy0UKQPSuhU:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/KlTiHqnopTM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/05/build-once-msdeploy-all-over-the-place/</feedburner:origLink></item>
+		<item>
+		<title>Better than your average programmer…</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/23NkGUsgSUA/</link>
+		<comments>http://cromwellhaus.com/2012/04/better-than-your-average-programmer/#comments</comments>
+		<pubDate>Thu, 05 Apr 2012 18:59:39 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1087</guid>
+		<description>There was a minor discussion about enums, constants and branching on a project discussion forum recently.&amp;#160; Alternative options suggested included polymorphism, delegate hashes and factories.&amp;#160; One of the responses suggested these were beyond “the average programmer”. &amp;#160; That’s crazy talk that leads straight to the ivory-tower. We just need to expose people to the alternatives [...]</description>
+			<content:encoded><![CDATA[<p>There was a minor discussion about enums, constants and branching on a project discussion forum recently.&#160; Alternative options suggested included polymorphism, delegate hashes and factories.&#160; One of the responses suggested these were beyond “the average programmer”.</p>
+<p>&#160;</p>
+<blockquote><p><em><span style="font-size: medium">That’s crazy talk that leads straight to the ivory-tower.</span></em></p>
+</blockquote>
+<p>We just need to expose people to the alternatives as often as we can.&#160; <a title="Expand Your Normal" href="http://cromwellhaus.com/2012/01/expand-your-normal/">Expand their normal</a>.&#160; </p>
+<p>&#160;</p>
+<p>So here I want talk about evolving towards a more change friend solution using the scenario of calculating bonuses that is similar to what was being discussed in the forum.</p>
+<p><em>Warning: the code below was not run.&#160; While it’s meant to be javascript, it’s not meant for copy, paste, execute.</em></p>
+<p><strong>The YAGNI Solution</strong></p>
+<p><script src="https://gist.github.com/2313236.js?file=bad.js"></script></p>
+<p>&#160;</p>
+<p>This is certainly readable and understandable.&#160; It’s also crazy simple and likely to get more complicated.&#160; When that happens, how do we transform the problem?&#160; How do we use the alternatives so that when one part of the problem changes, the entire solution does not in churn?</p>
+<p><strong>The Less Cohesive Solution</strong></p>
+<p><script src="https://gist.github.com/2313236.js?file=better.js"></script></p>
+<p>&#160;</p>
+<p>We’ve moved the calculation into it’s own area.&#160; That’s pretty nice.&#160; But it seems likely that when criteria change, so will the calculations.&#160; When one thing churns so will all others.&#160; We’ve spread around what it means to get a “Great” review.</p>
+<p><strong>A More Balanced Solution</strong></p>
+<p>What would be nice is if adding, changing or removing any single bonus category was self contained.</p>
+<p><script src="https://gist.github.com/2313236.js?file=muchbetter.js"></script></p>
+<p>&#160;</p>
+<p>At this point, what we find as the point of churn (each business decision) is now isolated.&#160; The contract between the entry point of calculating the bonus and the actual calculators is in the registerCalculator implementation.&#160; We’re assuming that won’t change much.</p>
+<p><strong>More Code != Better</strong></p>
+<p>This is not a hammer for all of your business decision nails.&#160; It is certainly more complex.&#160; But we must balance complexity, cohesiveness, and correctness with all the other things we value.</p>
+<p>The first solution is not “bad”.&#160; I would ship that first solution.&#160; I’d adjust my system over time so that change was enabled in my architecture.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=23NkGUsgSUA:YvVXA6jZDNU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=23NkGUsgSUA:YvVXA6jZDNU:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=23NkGUsgSUA:YvVXA6jZDNU:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=23NkGUsgSUA:YvVXA6jZDNU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=23NkGUsgSUA:YvVXA6jZDNU:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/23NkGUsgSUA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/04/better-than-your-average-programmer/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/04/better-than-your-average-programmer/</feedburner:origLink></item>
+		<item>
+		<title>Double Super Secret Github Feature</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/osRZucJ9taQ/</link>
+		<comments>http://cromwellhaus.com/2012/03/double-super-secret-github-feature/#comments</comments>
+		<pubDate>Thu, 15 Mar 2012 02:05:58 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/?p=1073</guid>
+		<description>@aaronjensen pointed this out in response to the Comparing Github Forks post. &amp;#160; ZOINKS! We’re seeing the two commits that differentiate the upstream branch defunkt/master and plastictrophy/master. &amp;#160; You won’t find any link or button to get this view… it’s Double Super Secret.&amp;#160; Instead just construct the url as follows: http://github.com/&amp;#60;handle&amp;#62;/&amp;#60;repo/compare/&amp;#60;branch&amp;#62; If the handle/repo is [...]</description>
+			<content:encoded><![CDATA[<p><a href="https://twitter.com/#!/aaronjensen" target="_blank">@aaronjensen</a> pointed this out in response to the <a href="http://blog.cromwellhaus.com/2012/03/comparing-github-forks/" target="_blank">Comparing Github Forks</a> post.</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/03/image.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/03/image_thumb.png" width="644" height="362" /></a>&#160;</p>
+<p>ZOINKS!</p>
+<p>We’re seeing the two commits that differentiate the upstream branch defunkt/master and plastictrophy/master.</p>
+<p>&#160;</p>
+<p>You won’t find any link or button to get this view… it’s Double Super Secret.&#160; Instead just construct the url as follows:</p>
+<blockquote><p>http://github.com/&lt;handle&gt;/&lt;repo/compare/&lt;branch&gt;</p>
+</blockquote>
+<p>If the handle/repo is a fork and the branch is owned by upstream, you’ll get what we see above.</p>
+<p>&#160;</p>
+<p>It appears to work on simple branches too:</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/03/image1.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/03/image_thumb1.png" width="644" height="382" /></a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=osRZucJ9taQ:NHA9J-5vDPc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=osRZucJ9taQ:NHA9J-5vDPc:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=osRZucJ9taQ:NHA9J-5vDPc:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=osRZucJ9taQ:NHA9J-5vDPc:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=osRZucJ9taQ:NHA9J-5vDPc:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/osRZucJ9taQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/03/double-super-secret-github-feature/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/03/double-super-secret-github-feature/</feedburner:origLink></item>
+		<item>
+		<title>Comparing Github Forks</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/gkKzse4JLto/</link>
+		<comments>http://cromwellhaus.com/2012/03/comparing-github-forks/#comments</comments>
+		<pubDate>Wed, 14 Mar 2012 19:06:55 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/?p=1064</guid>
+		<description>[Update: Check the comments for even better alternatives from @jasonkarns and @aaronjensen] &amp;#160; For the purposes of this I’m using https://github.com/defunkt/resque. &amp;#160; &amp;#62; git clone git://github.com/defunkt/resque.git &amp;#62; git remote add plastic git://github.com/plastictrophy/resque.git &amp;#62; git fetch plastic &amp;#62; git diff origin/master plastic/master Comparing branches the same way, just remove the repository reference.  For instance, git diff [...]</description>
+			<content:encoded><![CDATA[<p><span style="color: #ff0000;">[Update: Check the comments for even better alternatives from </span><a href="http://twitter.com/jasonkarns" target="_blank"><span style="color: #ff0000;">@jasonkarns</span></a><span style="color: #ff0000;"> and </span><span style="color: #ff0000;"><a href="https://twitter.com/#!/aaronjensen">@aaronjensen</a></span><span style="color: #ff0000;">]</span></p>
+<p>&nbsp;</p>
+<p>For the purposes of this I’m using <a title="https://github.com/defunkt/resque" href="https://github.com/defunkt/resque">https://github.com/defunkt/resque</a>.</p>
+<blockquote><p>&nbsp;</p>
+<p><span style="color: #000000;">&gt; git clone <a title="git://github.com/plastictrophy/resque.git" href="git://github.com/plastictrophy/resque.git">git://github.com/defunkt/resque.git</a></span></p>
+<p><span style="color: #000000;">&gt; git remote add plastic <a title="git://github.com/plastictrophy/resque.git" href="git://github.com/plastictrophy/resque.git">git://github.com/plastictrophy/resque.git</a></span></p>
+<p><span style="color: #000000;">&gt; git fetch plastic</span></p>
+<p><span style="color: #000000;">&gt; git diff origin/master plastic/master</span></p></blockquote>
+<p>Comparing branches the same way, just remove the repository reference.  For instance,</p>
+<blockquote><p><span style="color: #000000;">git diff master myfeature</span></p></blockquote>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=gkKzse4JLto:v-k_8Hqb_7k:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=gkKzse4JLto:v-k_8Hqb_7k:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=gkKzse4JLto:v-k_8Hqb_7k:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=gkKzse4JLto:v-k_8Hqb_7k:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=gkKzse4JLto:v-k_8Hqb_7k:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/gkKzse4JLto" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/03/comparing-github-forks/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/03/comparing-github-forks/</feedburner:origLink></item>
+		<item>
+		<title>Create Github Gists without leaving Powershell</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/u1hactmt-3s/</link>
+		<comments>http://cromwellhaus.com/2012/03/create-github-gists-without-leaving-powershell/#comments</comments>
+		<pubDate>Thu, 01 Mar 2012 11:45:00 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/?p=1055</guid>
+		<description>I spend a lot of time in PowerShell.&amp;#160; A lot.&amp;#160; PoshGit, Vim, Chocolatey, and PsGet… it’ll get me through most of my dev day happily. One thing that was killing my workflow was leaving PowerShell to share some snippet of code or a file as a Gist.&amp;#160; In Visual Studio we have Gister, but when [...]</description>
+			<content:encoded><![CDATA[<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/03/SNAGHTMLac570d4.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; float: right; border-top: 0px; border-right: 0px; padding-top: 0px" title="SNAGHTMLac570d4" border="0" alt="SNAGHTMLac570d4" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/03/SNAGHTMLac570d4_thumb.png" width="354" height="193" /></a>I spend a lot of time in PowerShell.&#160; A lot.&#160; <a href="https://github.com/dahlbyk/posh-git" target="_blank">PoshGit</a>, <a href="http://vim.org" target="_blank">Vim</a>, <a href="http://chocolatey.org" target="_blank">Chocolatey</a>, and <a href="http://psget.net" target="_blank">PsGet</a>… it’ll get me through most of my dev day happily.</p>
+<p>One thing that was killing my workflow was leaving PowerShell to share some snippet of code or a file as a <a href="http://gist.github.com" target="_blank">Gist</a>.&#160; In Visual Studio we have <a href="visualstudiogallery.msdn.microsoft.com/b31916b0-c026-4c27-9d6b-ba831093f6b2" target="_blank">Gister</a>, but when I’m in PS I hate having to break my cycle.&#160; </p>
+<p>Well no longer…&#160; </p>
+<p><strong></strong></p>
+<p><strong>Introducing </strong><a href="https://github.com/cromwellryan/psgist" target="_blank"><strong>PsGist</strong></a></p>
+<p>PsGist provides a PowerShell function called (wait for it) <font face="Consolas">gist</font>.&#160; Try not to forget that one, ok?&#160; The usage is simple:</p>
+<blockquote><p>gist [[-File] &lt;FileInfo&gt;] [[-Description] &lt;String&gt;] [[-Username] &lt;String&gt;]</p>
+</blockquote>
+<p>Username is optional.&#160; If you don’t provide it your gist will be public and anonymous.&#160; If you do, you’ll be prompted for your password.&#160; This is different than <a href="visualstudiogallery.msdn.microsoft.com/b31916b0-c026-4c27-9d6b-ba831093f6b2" target="_blank">Gister</a> where I only prompt once and cache the creds.&#160; Here you’ll have to specify the password each time.&#160; Deal with it or <a href="https://github.com/cromwellryan/psgist/pulls" target="_blank">fix it</a>.</p>
+<p>Here’s an example:&#160; </p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/03/SNAGHTMLae19e88.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; margin: 4px 10px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="SNAGHTMLae19e88" border="0" alt="SNAGHTMLae19e88" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/03/SNAGHTMLae19e88_thumb.png" width="729" height="244" /></a></p>
+<p>Notice how after the gist is created the Url is written to the console/host?&#160; Well PsGist also puts the Url into your clipboard.&#160; So you can quickly go to IRC, IM, Twitter, etc and past the Url.&#160; Or you can use ALT+&lt;Space&gt;, E, P to paste it quickly into your console and open the gist.</p>
+<p><strong>Needed: Pipe the output</strong></p>
+<p>I’d like to be able to pipe the output to start, clip, out-file and other useful commands.&#160; For whatever reason powershell won’t wait on the gist being created before running the following command.&#160; If you know how to make this happen, hit me up on <a href="http://twitter.com/cromwellryan" target="_blank">Twitter</a>, send a pull request or leave it in the comments.</p>
+<p>&#160;</p>
+<p><strong>Needed: Multiple File Gists</strong></p>
+<p>I’d like to be able to run <font face="Consolas">ls | gist<em>&#160;</em></font>and have all the files in the listing sent to a single gist, but there is a problem with convertfrom-json that I’m struggling with.&#160; I have a branch called pipelinesupport that you can try, but it takes single file gists away until I put that back and fix the json issue.</p>
+<p>&#160;</p>
+<p><strong>Needed: Make it a Module</strong></p>
+<p>This should really be a module.&#160; I’m sure with another hour’s worth of research and effort I could make that happen, but, well, it works.&#160; If you like PsGist and want to make it a Module, I’ll gladly accept the pull request.</p>
+<p>&#160;</p>
+<p><strong>Thanks to <a href="http://twitter.com/jaykul" target="_blank">@Jaykul</a></strong></p>
+<p>For providing the <a href="http://poshcode.org/2098" target="_blank">convertfrom-json</a> function used to handle the Github Api response.&#160; PowerShell 3 seems to have <a href="http://www.dougfinke.com/blog/index.php/2011/09/15/powershell-v3-and-json/" target="_blank">this support</a> built in, but that’s not here quite yet.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=u1hactmt-3s:j8C7NKy5kYE:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=u1hactmt-3s:j8C7NKy5kYE:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=u1hactmt-3s:j8C7NKy5kYE:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=u1hactmt-3s:j8C7NKy5kYE:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=u1hactmt-3s:j8C7NKy5kYE:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/u1hactmt-3s" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/03/create-github-gists-without-leaving-powershell/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/03/create-github-gists-without-leaving-powershell/</feedburner:origLink></item>
+		<item>
+		<title>ASP.Net Web Api Integration Tests With Self Hosting</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/sWeySCTDz_o/</link>
+		<comments>http://cromwellhaus.com/2012/02/asp-net-web-api-integration-tests-with-self-hosting/#comments</comments>
+		<pubDate>Wed, 29 Feb 2012 16:19:57 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/?p=1040</guid>
+		<description>I am trying to help out a team to verify some of their stuff works with the new ASP.Net Web API 4 Beta.&amp;#160; While they seem to have a number of unit tests of good quality, there was a dearth of integration tests.&amp;#160; I set out to resolve that as simply as possible. To clarify [...]</description>
+			<content:encoded><![CDATA[<p>I am trying to help out a team to verify some of their stuff works with the new ASP.Net Web API 4 Beta.&#160; While they seem to have a number of unit tests of good quality, there was a dearth of integration tests.&#160; I set out to resolve that as simply as possible.</p>
+<p>To clarify we are living here:</p>
+<p>&#160;&#160; <a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image8.png"><img style="margin: 4px 0px; display: inline" title="image" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image_thumb8.png" width="450" height="272" /></a></p>
+<p>For full UI/user tests I’d deploy the whole app, but I still want my Functional Integration tests to be faster and run locally with ease if I can.&#160; For Web API, I was hoping for self hosting.&#160; WCF can do this, but WCF is a giant pile of mud that I’m not interested in attacking.&#160; So I went looking for Web API Self Hosting for Dummies.&#160; <a href="http://nuget.org/packages/AspNetWebApi.SelfHost" target="_blank">Found it</a>.</p>
+<p>And here’s how you use it:<a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image9.png"><img style="margin: 4px 10px; display: inline" title="image" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image_thumb9.png" width="674" height="489" /></a></p>
+<p>Note: I’ve set the <em>folder = “”</em> in this sample since my ApiController is side-by-side with my test fixture.&#160; Assuming your ApiController is in a different assembly than your tests, you can sepcify the <em>namespace:</em> parameter in the MapHttpRoute like this:</p>
+<blockquote><p><font color="#000000">namespaces: new[] { typeof(ThingsController).Namespace }</font></p>
+</blockquote>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=sWeySCTDz_o:d_Hc5DUIKQk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=sWeySCTDz_o:d_Hc5DUIKQk:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=sWeySCTDz_o:d_Hc5DUIKQk:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=sWeySCTDz_o:d_Hc5DUIKQk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=sWeySCTDz_o:d_Hc5DUIKQk:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/sWeySCTDz_o" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/02/asp-net-web-api-integration-tests-with-self-hosting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/02/asp-net-web-api-integration-tests-with-self-hosting/</feedburner:origLink></item>
+		<item>
+		<title>Better Burndown: Forecasts that reflect the Cone of Uncertainty</title>
+		<link>http://feedproxy.google.com/~r/RyanCromwell/~3/cnMZrWKalMs/</link>
+		<comments>http://cromwellhaus.com/2012/02/better-burndown-forecasts-that-reflect-the-cone-of-uncertainty/#comments</comments>
+		<pubDate>Tue, 21 Feb 2012 14:59:00 +0000</pubDate>
+		<dc:creator>cromwellryan</dc:creator>
+				<category><![CDATA[Agile]]></category>
+
+		<guid isPermaLink="false">http://blog.cromwellhaus.com/?p=1028</guid>
+		<description>The humble burndown is very easy to create, interpret, use and abuse.&amp;#160; They can be very simple, allowing for much discussion and interpretation (or just interpretation… tisk tisk): &amp;#160; or they can provide a pretty direct message: Less is More… During a course discussion with fellow PSD trainers a few years ago I made the [...]</description>
+			<content:encoded><![CDATA[<p>The humble burndown is very easy to create, interpret, use and abuse.&#160; </p>
+<p>They can be very simple, allowing for much discussion and interpretation (or just interpretation… tisk tisk):</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image2.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image_thumb2.png" width="485" height="293" /></a></p>
+<p>&#160;</p>
+<p>or they can provide a pretty direct message:</p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image6.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image_thumb6.png" width="485" height="293" /></a></p>
+<p><strong>Less is More…</strong></p>
+<p>During a course discussion with fellow PSD trainers a few years ago I made the statement that I don’t like trend lines.&#160; They remove the discussion, the thought from this tool.&#160; I preferred NOT to have any forecasts provided by a burndown, because even when aggregated from many teams I can easily make these judgments on my own.&#160; In fact, I believe that, because the decision is not made fore me I actually come out understanding the nuances far better.</p>
+<p>&#160;</p>
+<p><strong>The Cut Line</strong></p>
+<p>I do think there is a compromise though and it provides a much better basis for the discussion we should be having: what are the possible scenarios ahead.&#160; </p>
+<p>Instead of a single trend line, provide at least 2, 3 if you must:</p>
+<p><font color="#ff0000">Pessimistic</font><font color="#000000"> – What is may occur if things don’t continue to go our way.</font></p>
+<p><font color="#008000">Optimistic</font><font color="#000000"> – What is may occur if luck is on our side.</font></p>
+<p><font color="#8080ff">Cutline</font><font color="#000000"> – What we project might happen if things remain the same.&#160; (What’s the saying?)</font></p>
+<p><a href="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image5.png"><img style="background-image: none; border-bottom: 0px; border-left: 0px; padding-left: 0px; padding-right: 0px; display: inline; border-top: 0px; border-right: 0px; padding-top: 0px" title="image" border="0" alt="image" src="http://blog.cromwellhaus.com/wp-content/uploads/2012/02/image_thumb5.png" width="485" height="293" /></a></p>
+<p><strong>Better Discussions</strong></p>
+<p>This allows us to have the pointed conversation with our marketing, sales and business teams that we should not be promising, planning or basing important decisions on features that are close to the cut line for a particular sprint or feature.&#160; We probably can begin creating collateral and sales pitches for those features that are near the pessimistic line.&#160; We may also move some of the features near the cutline up if they will win us a customer or two.&#160; </p>
+<p>The key is look at the range of scenarios possible and make informed decisions.</p>
+<p>&#160;</p>
+<p>All in all, I still don’t think we need the cutline projected, but I do believe that the coloring choices are important.&#160; Some may wish to color the cutline green.&#160; This is dangerous.&#160; It’s not your go line.&#160; The pessimistic line is the most risk averse forecast seen here.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=cnMZrWKalMs:ljcXvN5ApwA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=cnMZrWKalMs:ljcXvN5ApwA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=cnMZrWKalMs:ljcXvN5ApwA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/RyanCromwell?a=cnMZrWKalMs:ljcXvN5ApwA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/RyanCromwell?i=cnMZrWKalMs:ljcXvN5ApwA:V_sGLiPBpWU" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/RyanCromwell/~4/cnMZrWKalMs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2012/02/better-burndown-forecasts-that-reflect-the-cone-of-uncertainty/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://cromwellhaus.com/2012/02/better-burndown-forecasts-that-reflect-the-cone-of-uncertainty/</feedburner:origLink></item>
+	</channel>
+</rss><!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk: basic
+Page Caching using disk: enhanced
+
+Served from: cromwellhaus.com @ 2012-07-13 00:19:48 -->

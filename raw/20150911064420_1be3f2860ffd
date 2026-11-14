@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ryan Cromwell &#187; elixir</title>
+	<atom:link href="http://cromwellhaus.com/category/elixir/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cromwellhaus.com</link>
+	<description>Big vision. Small changes.  Learn by shipping.</description>
+	<lastBuildDate>Fri, 25 Apr 2014 05:34:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.2.4</generator>
+	<item>
+		<title>Installing Erlang 17 for Elixir 0.13 the easy way (Mac)</title>
+		<link>http://cromwellhaus.com/2014/04/installing-erlang-17-for-elixir-0-13-the-easy-way/</link>
+		<comments>http://cromwellhaus.com/2014/04/installing-erlang-17-for-elixir-0-13-the-easy-way/#comments</comments>
+		<pubDate>Fri, 25 Apr 2014 05:34:50 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[elixir]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1529</guid>
+		<description><![CDATA[As of Elixir 0.13, you&#8217;ll need to have Erlang 17 installed.  If you use brew to install erlang then elixir you&#8217;ll find this message awaiting you: ERROR: OTP release R16B03-1 does not match required regex (17).* The current Erlang brew formula is still at R16B03-1.  BUT! the development version IS 17. &#8230;]]></description>
+				<content:encoded><![CDATA[<p>As of Elixir 0.13, you&#8217;ll need to have Erlang 17 installed.  If you use brew to install erlang then elixir you&#8217;ll find this message awaiting you:</p>
+<pre class="p1">ERROR: OTP release R16B03-1 does not match required regex (17).*</pre>
+<p class="p1">The current Erlang brew formula is still at R16B03-1.  BUT! the development version IS 17.  So here you go:</p>
+<pre class="p1">brew install --devel erlang</pre>
+<p class="p1">I&#8217;m sure this will change soon, but until then this&#8217;ll get you going again.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2014/04/installing-erlang-17-for-elixir-0-13-the-easy-way/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Elixir needs at least 4 JSON parsers</title>
+		<link>http://cromwellhaus.com/2013/08/elixir-needs-at-least-4-json-parsers/</link>
+		<comments>http://cromwellhaus.com/2013/08/elixir-needs-at-least-4-json-parsers/#comments</comments>
+		<pubDate>Tue, 27 Aug 2013 04:46:25 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[elixir]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1486</guid>
+		<description><![CDATA[Elixir has, at the time of this post, 3 JSON parsers hosted on expm. Some time back I went looking for one and started exploring elixir-json, including the github repo.  I loved how the encoder used protocols to implement the encoding of different types.  It&#8217;s beautiful.  Kudos to @carloslage. Then &#8230;]]></description>
+				<content:encoded><![CDATA[<p>Elixir has, at the time of this post, 3 JSON parsers hosted on <a title="JSON libs on expm.io" href="http://expm.co/?q=json">expm</a>.</p>
+<p>Some time back I went looking for one and started exploring <a title="elixir-json" href="http://expm.co/json">elixir-json</a>, including the <a title="elixir-json code" href="https://github.com/cblage/elixir-json">github repo</a>.  I loved how the <a title="elixir-json encoder" href="https://github.com/cblage/elixir-json/blob/master/lib/json/encode.ex">encoder</a> used <a title="elixir procotols" href="http://elixir-lang.org/getting_started/4.html">protocols</a> to implement the encoding of different types.  It&#8217;s beautiful.  Kudos to <a title="carloslage on twitter" href="https://twitter.com/carloslage">@carloslage</a>.</p>
+<p>Then I looked at the <a title="elixir-lang decoder" href="https://github.com/cblage/elixir-json/blob/master/lib/json/decode.ex">decoder</a>.  It&#8217;s full of elixir-isms&#8230; tuples, binary pattern matching, etc.  Over the last few nights I decided to implement <a title="json parser in elixir gist" href="https://gist.github.com/cromwellryan/6349503">my own JSON parser</a> learning from Carlos were I ran aground.</p>
+<p>I don&#8217;t like the use of HashDict for objects, but spaces rule out most options like Keyword lists.  I&#8217;m also not a huge fan of the nested case for dealing with the <em>what&#8217;s next?</em> of key/value pairs.</p>
+<pre id="file-parser-ex-LC44">def parse_object( acc, &lt;&lt; rest :: binary &gt;&gt; ) do
+  { key, rest } = parse_content rest
+  { value, rest } = lstrip(rest) |&gt; parse_object_value 
+
+  acc = [ { key, value } | acc ] 
+
+  case lstrip(rest) do
+    &lt;&lt; ?}, rest :: binary &gt;&gt; -&gt; { HashDict.new(acc), rest }
+    &lt;&lt; ?,, rest :: binary &gt;&gt; -&gt; parse_object acc, lstrip(rest)
+  end
+end</pre>
+<p>Overall it feels very cohesive.  You can see clearly how the pieces compose after being dispatched from the parse_content.</p>
+<pre id="file-parser-ex-LC14">def parse_content( &lt;&lt; m, rest :: binary &gt;&gt; ) when m in ?0..?9, do: parse_number &lt;&lt; m, rest :: binary &gt;&gt;
+def parse_content( &lt;&lt; ?", rest :: binary &gt;&gt; ), do: rest |&gt; parse_string
+def parse_content( &lt;&lt; ?{, rest :: binary &gt;&gt; ), do: lstrip(rest) |&gt; parse_object
+def parse_content( &lt;&lt; ?[, rest :: binary &gt;&gt; ), do: lstrip(rest) |&gt; parse_array</pre>
+<p>I also do nothing to support invalid JSON content as with elixir-json.  Oh well, it was a learning tool.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/08/elixir-needs-at-least-4-json-parsers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Using HashDict.update for Keyed Reductions (aka group by) in Elixir</title>
+		<link>http://cromwellhaus.com/2013/07/using-hashdict-update-for-keyed-reductions-aka-group-by-in-elixir/</link>
+		<comments>http://cromwellhaus.com/2013/07/using-hashdict-update-for-keyed-reductions-aka-group-by-in-elixir/#comments</comments>
+		<pubDate>Mon, 22 Jul 2013 19:22:07 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[elixir]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1445</guid>
+		<description><![CDATA[I wanted to start playing with Elixir&#8217;s Map and Reduce functions to get a better feel for collection transformations in the language.  For this I grabbed some movie data here and planned on grabbing some perspectives. First problem, we need to turn the data into a list of tuples.  The pseudo-transformation &#8230;]]></description>
+				<content:encoded><![CDATA[<p>I wanted to start playing with Elixir&#8217;s Map and Reduce functions to get a better feel for collection transformations in the language.  For this I grabbed some movie <a title="tadams' movie data" href="https://github.com/tadams/MapReduce/blob/master/src/main/data/movies.txt" target="_blank">data here</a> and planned on grabbing some perspectives.</p>
+<p>First problem, we need to turn the data into a list of tuples.  The pseudo-transformation we want to apply:</p>
+<pre>file -&gt; lines
+lines -&gt; parts
+parts -&gt; tuples</pre>
+<p>The results ended up looking like this</p>
+<script src="https://gist.github.com/6051117.js?file=movies.exs"></script>
+<p>For our data perspectives, lets start small.  The number of movies per year.  This is still a transformation, but it&#8217;s not going to be a one-for-one.  We&#8217;re instead going to reduce the results after mapping.  Why would we map?  Turns out the only thing you need to know is a full list of the movie years&#8230; with dups.  With that we can do an &#8220;Add or Update&#8221; to a hash for each year.</p>
+<script src="https://gist.github.com/6051117.js?file=uniqueness.exs"></script>
+<p>What we&#8217;re doing is providing an entry point for count_unique which takes a collection.  This creates a new HashDict which seeds our {year, count} and then recursively calls down into a variant of HashDict.update.  This variant will insert a new key if not found with the 3rd parameter being the seed value.  If the key is found HashDict.update will call our anonymous function to increment the value already found.</p>
+<p>This pattern seems to work well to get the sum also.  Here we map our collection to pull the year and rating.  I adjusted my original to_movies to use String.to_float so that I have a numeric rating.  From there I use the same HashDict pattern with the rating being our seed and accumulator.</p>
+<script src="https://gist.github.com/6051117.js?file=sumations.exs"></script>
+<p>Next we&#8217;ll look at doing something a little more interesting by calculating an average and distributing the effort across nodes using our<a title="Triangle Kata in Elixir using Erlang processes for Parallel Maps" href="http://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/"> previous parallel map</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/07/using-hashdict-update-for-keyed-reductions-aka-group-by-in-elixir/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Triangle Kata in Elixir using Erlang processes for Parallel Maps</title>
+		<link>http://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/</link>
+		<comments>http://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/#comments</comments>
+		<pubDate>Wed, 17 Jul 2013 21:57:30 +0000</pubDate>
+		<dc:creator><![CDATA[cromwellryan]]></dc:creator>
+				<category><![CDATA[elixir]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Code]]></category>
+
+		<guid isPermaLink="false">http://cromwellhaus.com/?p=1423</guid>
+		<description><![CDATA[Last time I described my setup for learning Elixir, the language built on top of Erlang with a Ruby bent.  Today I wanted to get a hang of processes and mailboxes which are so important to both languages.  To do this I chose the Triangle Kata as my background story. &#8230;]]></description>
+				<content:encoded><![CDATA[<p>Last time I described <a href="http://cromwellhaus.com/2013/07/my-learning-elixir-erlang-setup/" title="My Learning Elixir (erlang) Setup">my setup for learning Elixir</a>, the language built on top of Erlang with a Ruby bent.  Today I wanted to get a hang of processes and mailboxes which are so important to both languages.  To do this I chose the Triangle Kata as my background story.  <a href="https://gist.github.com/cromwellryan/6024862">Take a look</a>:</p>
+<p><script src="https://gist.github.com/cromwellryan/6024862.js"></script></p>
+<p><strong>Update:</strong> You might wonder what that <code>slow</code> function is all about.  I added that in there to clarify the parallelism.  You would expect the slowest classifications to appears at the end of the resultant list.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://cromwellhaus.com/2013/07/triangle-kata-in-elixir-using-erlang-processes-for-parallel-maps/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Page Caching using disk: enhanced
+
+ Served from: cromwellhaus.com @ 2015-09-11 02:44:21 by W3 Total Cache -->

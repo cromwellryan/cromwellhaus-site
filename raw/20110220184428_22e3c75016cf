@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>What a Microsoft ALM MVP means to me? &laquo;  Ryan Cromwell</title>
+
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell RSS Feed" href="http://blog.cromwellhaus.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell Atom Feed" href="http://blog.cromwellhaus.com/feed/atom/" />
+<link rel="pingback" href="http://blog.cromwellhaus.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://blog.cromwellhaus.com/wp-content/themes/arclite/favicon.ico" />
+
+
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.06 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-4332588-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	// End of Google Analytics for WordPress by Yoast v4.0
+	//]]></script>
+<style type="text/css">
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/style.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/side-green.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/content-default.css";
+@import "http://blog.cromwellhaus.com/wp-content/themes/arclite/options/header-default.css";
+.box .the-content { padding: 0px; }
+.br .the-content {align: center; }
+.box .tl, .box .tr, .box .wrapleft { background: none; }
+
+</style>
+<!--[if lte IE 6]>
+<style type="text/css" media="screen">
+ @import "http://blog.cromwellhaus.com/wp-content/themes/arclite/ie6.css";
+</style>
+<![endif]-->
+
+ <link rel="alternate" type="application/rss+xml" title="Ryan Cromwell &raquo; What a Microsoft ALM MVP means to me? Comments Feed" href="http://blog.cromwellhaus.com/2011/01/what-a-microsoft-alm-mvp-means-to-me/feed/" />
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://blog.cromwellhaus.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.cromwellhaus.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.cromwellhaus.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Ryan Cromwell' href='http://blog.cromwellhaus.com/' />
+<link rel='start' title='Dayton-Cincinnati Code Camp' href='http://blog.cromwellhaus.com/2005/12/dayton-cincinnati-code-camp/' />
+<link rel='prev' title='Rules of the Game: Effective Group Discussion' href='http://blog.cromwellhaus.com/2011/01/rules-of-the-game-effective-group-discussion/' />
+<link rel='next' title='The Purpose of Katas' href='http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel='canonical' href='http://blog.cromwellhaus.com/2011/01/what-a-microsoft-alm-mvp-means-to-me/' />
+<link rel='shortlink' href='http://blog.cromwellhaus.com/?p=855' />
+<link rel="stylesheet" href="http://disqus.com/stylesheets/cromwellhaus/disqus.css?v=2.0" type="text/css" media="screen" />
+</head>
+<body class="inner">
+ <!-- page wrap -->
+ <div id="page" class="with-sidebar">
+
+  <!-- header -->
+  <div id="header-wrap">
+   <div id="header" class="block-content">
+     <div id="pagetitle">
+
+            <h1 class="logo"><a href="http://blog.cromwellhaus.com/">Ryan Cromwell</a></h1>
+      
+      <h4>Improving my craft&#8230;</h4>      <div class="clear"></div>
+
+      
+     </div>
+
+     <!-- main navigation -->
+     <div id="nav-wrap1">
+      <div id="nav-wrap2">
+        <ul id="nav">
+                     <li id="nav-homelink"><a class="fadeThis" href="http://blog.cromwellhaus.com" title="Click for Home"><span>Home</span></a></li>
+                   <li class="page_item page-item-834"><a class="fadeThis" href="http://blog.cromwellhaus.com/about/" title="Bio"><span>Bio</span></a></li>
+<li class="page_item page-item-801"><a class="fadeThis" href="http://blog.cromwellhaus.com/presentations/" title="Presentation Abstracts"><span>Presentation Abstracts</span></a></li>
+<li class="page_item page-item-757"><a class="fadeThis" href="http://blog.cromwellhaus.com/dayton-code-coffee/" title="Dayton Code &amp; Coffee"><span>Dayton Code &amp; Coffee</span></a></li>
+        </ul>
+      </div>
+     </div>
+     <!-- /main navigation -->
+
+   </div>
+  </div>
+  <!-- /header -->
+
+<!-- main wrappers -->
+<div id="main-wrap1">
+ <div id="main-wrap2">
+
+  <!-- main page block -->
+  <div id="main" class="block-content">
+   <div class="mask-main rightdiv">
+    <div class="mask-left">
+
+     <!-- first column -->
+     <div class="col1">
+      <div id="main-content">
+
+              <div class="navigation">
+          <div class="alignleft">&laquo; <a href="http://blog.cromwellhaus.com/2011/01/rules-of-the-game-effective-group-discussion/" rel="prev">Rules of the Game: Effective Group Discussion</a></div>
+          <div class="alignright"><a href="http://blog.cromwellhaus.com/2011/01/the-purpose-of-katas/" rel="next">The Purpose of Katas</a> &raquo;</div>
+          <div class="clear"></div>
+        </div>
+
+
+        <!-- post -->
+        <div id="post-855" class="post-855 post type-post hentry category-mvp">
+           <h2 class="post-title">What a Microsoft ALM MVP means to me?</h2>
+              <div class="post-content clearfix">
+    	       <p>2010 was a busy, exciting and important professional year.  I was asked to and did speak more than any previous year by far.  I was involved in the absolutely awesome <a href="www.southwestohiogivecamp.org">Southwest Ohio Give Camp</a> event which has convinced me to be involved in other events.  I had the chance to formally teach a course (<a href="http://www.scrum.org/professionalscrumdeveloper/">Professional Scrum Developer</a>) that focuses on the things in my craft which I care most deeply about: people and <a href="http://en.wikipedia.org/wiki/Software_Craftsmanship">software craftsmanship</a>.</p>
+<p>On New Years Day I found a fantastic acknowledgement of that work in my inbox: a Microsoft ALM MVP Award.  This is my first MVP, though with luck and continued hard work I’ll be in for a few more.</p>
+<p>Opinions abound, I’m sure, but for me this award means a few things:</p>
+<p>First, that someone noticed.  Speaking and working in the community is by and large done on ones free time.  For someone else to take notice of my efforts and take the time to nominate me means a lot.  To the two individuals who have stepped forward, I want to express my deepest gratitude.</p>
+<p>Second, you can live beyond the walled garden.  Microsoft provides a broad and meaningful stack that empowers many.  At the same time, there is a world that is especially visible in ALM that crosses boundaries.  It is important in any industry to explore other worlds to gain experience and perspective.  Hopefully my open-mindedness is evident to all.  If not, you should <a href="http://twitter.com/cromwellryan">follow me</a>.</p>
+<p>Thirdly, it really pays to be involved.  It’s scary to put your knowledge and faults on the line, but it really is a blast.  We’ll be looking for help and volunteers for the 2011 Southwest Ohio Give Camp.  If you’re not in this area, <a href="http://givecamp.org">find one</a> or <a href="http://givecamp.org/2010/12/10/how-do-i-run-a-givecamp/">start one</a>.  Find your local <a href="http://ineta.org/">user group</a> and show up.  Present on something you have tried or delivered or failed to do.  You have something to offer and people will listen.</p>
+<p>All of that work and time doesn’t come without a cost.  I have an incredibly patient and supportive wife who has not once asked me to skip, cancel, or postpone an event.  Balancing this time with our two boys is a difficult task.  To all those who struggle finding balance or are considering more community involvement, I can’t stress how absolutely critical it is to have <em>that switch.</em> As the <a href="http://thisdeveloperslife.com/">This Developers Life</a> recent <a href="http://thisdeveloperslife.com/post/1-1-0-disconnecting">Disconnecting</a> podcast shows, not everyone can do this so easily.</p>
+<p>In the end, the award is presented to those who use there time and effort toward improving the community.  Microsoft certainly does quite a bit to support the developer community and I’m happy to do my part.</p>
+<p>As 2011 begins I renew my efforts to support people, processes, and tools (in that order!) that allow software teams to deliver high quality code in a sustainable manner.  I invite you to do the same.</p>
+<p>Happy (belated) New Year!</p>
+              </div>
+                                          <p class="post-metadata">
+                    This entry was posted on January 9, 2011, 11:39 pm and is filed under <a href="http://blog.cromwellhaus.com/category/mvp/" title="View all posts in MVP" rel="category tag">MVP</a>. You can follow any responses to this entry through <a href="http://blog.cromwellhaus.com/2011/01/what-a-microsoft-alm-mvp-means-to-me/feed/" title="RSS 2.0">RSS 2.0</a>.
+                    You can <a href="#respond">leave a response</a>, or <a href="http://blog.cromwellhaus.com/2011/01/what-a-microsoft-alm-mvp-means-to-me/trackback/" rel="trackback">trackback</a> from your own site.                        		  </p>
+
+        </div>
+        <!-- /post -->
+  
+    	
+<div id="disqus_thread">
+					<div id="dsq-content">
+			<ul id="dsq-comments">
+					<li id="dsq-comment-104">
+					<div id="dsq-comment-header-104" class="dsq-comment-header">
+						<cite id="dsq-cite-104">
+	http://blog.alner.net							<span id="dsq-author-user-104">Nathan Allen-Wagner</span>
+							</cite>
+					</div>
+					<div id="dsq-comment-body-104" class="dsq-comment-body">
+						<div id="dsq-comment-message-104" class="dsq-comment-message"><p>Congrats!!!</p>
+</div>
+					</div>
+				</li>
+					<li id="dsq-comment-113">
+					<div id="dsq-comment-header-113" class="dsq-comment-header">
+						<cite id="dsq-cite-113">
+	http://www.JeffreyHunsaker.com							<span id="dsq-author-user-113">Jeff Hunsaker</span>
+							</cite>
+					</div>
+					<div id="dsq-comment-body-113" class="dsq-comment-body">
+						<div id="dsq-comment-message-113" class="dsq-comment-message"><p>Congratulations, Ryan. You&#8217;ve earned it!</p>
+</div>
+					</div>
+				</li>
+				</ul>
+		</div>
+	</div>
+
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	var disqus_url = 'http://blog.cromwellhaus.com/2011/01/what-a-microsoft-alm-mvp-means-to-me/ ';
+	var disqus_identifier = '855 http://cromwellryan.webfactional.com/?p=855';
+	var disqus_container_id = 'disqus_thread';
+	var disqus_domain = 'disqus.com';
+	var disqus_shortname = 'cromwellhaus';
+	var disqus_title = "What a Microsoft ALM MVP means to me?";
+		var disqus_config = function () {
+	    var config = this; // Access to the config object
+
+	    /* 
+	       All currently supported events:
+	        * preData — fires just before we request for initial data
+	        * preInit - fires after we get initial data but before we load any dependencies
+	        * onInit  - fires when all dependencies are resolved but before dtpl template is rendered
+	        * afterRender - fires when template is rendered but before we show it
+	        * onReady - everything is done
+	     */
+
+		config.callbacks.preData.push(function() {
+			// clear out the container (its filled for SEO/legacy purposes)
+			document.getElementById(disqus_container_id).innerHTML = '';
+		});
+				config.callbacks.onReady.push(function() {
+			// sync comments in the background so we don't block the page
+			DISQUS.request.get('?cf_action=sync_comments&post_id=855');
+		});
+					};
+	var facebookXdReceiverPath = 'http://blog.cromwellhaus.com/wp-content/plugins/disqus-comment-system/xd_receiver.htm';
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+	var DsqLocal = {
+		'trackbacks': [
+		],
+		'trackback_url': "http:\/\/blog.cromwellhaus.com\/2011\/01\/what-a-microsoft-alm-mvp-means-to-me\/trackback\/"	};
+/* ]]> */
+</script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+	dsq.async = true;
+	dsq.src = 'http://' + disqus_shortname + '.' + disqus_domain + '/embed.js?pname=wordpress&pver=2.61';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+/* ]]> */
+</script>
+            </div>
+     </div>
+     <!-- /first column -->
+     
+<!-- 2nd column (sidebar) -->
+<div class="col2">
+ <ul id="sidebar">
+
+    
+    
+    <li class="block widget widget_text" id="text-3"><div class="box"> <div class="wrapleft"><div class="wrapright"><div class="tr"><div class="bl"><div class="tl"><div class="br the-content"><div class="titlewrap"><h4><span>What I have to say&#8230;</span></h4></div>			<div class="textwidget"><script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 6000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#382a1d',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ebe6d8',
+      color: '#000000',
+      links: '#0070bb'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().setUser('cromwellryan').start();
+</script></div>
+		</div></div></div></div></div></div> </div></li> </ul>
+</div>
+<!-- /2nd column -->
+     
+
+    </div>
+   </div>
+   <div class="clear-content"></div>
+  </div>
+  <!-- /main page block -->
+
+ </div>
+</div>
+<!-- /main wrappers -->
+
+
+ <!-- footer -->
+ <div id="footer">
+
+  <!-- page block -->
+  <div class="block-content">
+
+    
+
+    
+    <div class="copyright">
+     <p>
+     <!-- please do not remove this. respect the authors :) -->
+     Arclite theme by <a href="http://digitalnature.ro">digitalnature</a> | powered by <a href="http://wordpress.org/">WordPress</a>     </p>
+     <p>
+     <a class="rss" href="http://blog.cromwellhaus.com/feed/">Entries (RSS)</a> and <a href="http://cromwellhaus.disqus.com/latest.rss">Comments (RSS)</a> <a href="javascript:void(0);" class="toplink">TOP</a>
+     <!-- 19 queries. 0.370 seconds. -->
+     </p>
+    </div>
+
+  </div>
+  <!-- /page block -->
+
+ </div>
+ <!-- /footer -->
+
+</div>
+<!-- /page -->
+
+  <script type="text/javascript">
+  /* <![CDATA[ */
+    var isIE6 = false; /* <- do not change! */
+    var isIE = false; /* <- do not change! */
+    var lightbox = 0;/* <- do not change! */
+  /* ]]> */
+  </script>
+  <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+  <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+
+</body>
+</html>
+

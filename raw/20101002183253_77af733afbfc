@@ -1,0 +1,331 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="robots" content="noindex,follow" />
+<meta name="GENERATOR" content="CommunityServer 2008.5 SP1 (Build: 31106.3070)" />
+<link rel="shortcut icon" type="image/ico" href="/sites/cromwellhaus.com/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell - All Comments (RSS 2.0)" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs//rsscomments.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Announcements (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/announcements/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Comments (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/comments/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Activities (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/activities/rss.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="cromwellryan&#39;s Friends Activity (RSS 2.0)" href="/sites/cromwellhaus.com/members/cromwellryan/activities/friendrss.aspx"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/sites/cromwellhaus.com/Themes/Blogs/gold%20coast/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/sites/cromwellhaus.com/themes/blogs/Gold%20Coast/style/light.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/sites/cromwellhaus.com/Themes/Blogs/gold%20coast/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	August 2008 - Posts - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTk3MjUzMjY0OGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFQ2N0bDAwJFNpZGVCYXIkY3RsMDAkY3RsMDEkY3RsMDAkY3RsMDEkY3RsMDEkY3RsMDAkV2VibG9nU2VhcmNoSW5wdXQn7fqwKTIK+lgOs1YTjZV+6xdPoQ==" />
+</div>
+
+
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=wM0irm-WQ7ZJYSsSbqCSLpjoNsoAmKaNiIQT-J7xczSPOz7KpFCD_6PSZPM0BjvPak8GD4kRkTz8D0J3BmMT-JY2qjAIY4ty5vc4J-bcANnOFELy6CNds8IUWd9epu2N8gVJNk6L8aZPrwxXK-80_Q2&amp;t=634091021949508870" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=7s9wh4NaPREpM2EpYApohsKp4Fvs-bt20T6fo0wTnXvc7_D-ORETeVoMM7RAbxfqhCos3QiwLaa6yz2cKQWdxf4sx28Vg0SOk35yr3r6pUE1&amp;t=634091022003504140" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=7s9wh4NaPREpM2EpYApohsKp4Fvs-bt20T6fo0wTnXvc7_D-ORETeVoMM7RAbxfqOG9J7VwAppXOtNsk4T5T07zn1LUQ7Ff79CbBKogHLOw1&amp;t=634091022003504140" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=7s9wh4NaPREpM2EpYApohsKp4Fvs-bt20T6fo0wTnXvc7_D-ORETeVoMM7RAbxfqr3eOb4OA_mAs_x7EwlGlRoSI3ZPgQG_YLNGcNzS-m0M1&amp;t=634091022003504140" type="text/javascript"></script>
+<script src="/sites/cromwellhaus.com/WebResource.axd?d=7s9wh4NaPREpM2EpYApohsKp4Fvs-bt20T6fo0wTnXvc7_D-ORETeVoMM7RAbxfqKhnTCnkiQ8zjG2IbSA7GHxkO7O8lQHv3YIIKxtkPQlc1&amp;t=634091022003504140" type="text/javascript"></script>
+
+    			
+
+        <div id="container">
+            <div id="header">
+                <h2><a href="/sites/cromwellhaus.com/blogs/ryanc/default.aspx">Ryan Cromwell</a></h2>
+                <p id="tagline">Aimless musings of a keyboard masher.</p>
+            </div>
+            <div id="wrapper">
+		        <div id="content">
+                    
+    
+    
+            
+            <h2 id="titleWrapper" class="pageTitle">August 2008 - Posts</h2>
+            
+        
+    
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/27/tfs-screencasts-part-1-create-a-team-project.aspx">TFS Screencasts - Part 1 - Create a Team Project</a>
+                </dt>
+                <dd>
+                    <p>One of the projects I&#39;m working on for my company, <a target="_blank" href="http://www.sds-consulting.com/">Strategic Data Systems</a>, is our internal Team Foundation Server 2008 solution.&nbsp; I&#39;m working with some of the guys who head up our Agile Development Center to make sure things fit well with what they are doing.&nbsp; It&#39;s been difficult to find overlapping free time, so I have started putting together screencasts to highlight our procedures and what I consider best-practices.&nbsp; We&#39;ve published written documentation internally, but these are so much more palatable.</p> <p>These are geared toward our organization in content, but should be generally relevant to anyone interested in TFS.&nbsp; This particular screencast walks through creating a Team Project and specifying permissions for implementing Scrum roles.</p> <div style="padding-bottom:0px;margin:0px;padding-left:0px;padding-right:0px;display:inline;padding-top:0px;" id="scid:{7D7E1B1B-BB15-44b5-AC22-DF49F6B00FD3}:7057f11d-5025-4496-98a7-3de06b928709" class="wlWriterSmartContent">   <iframe src="http://silverlight.services.live.com/invoke/77629/SDS%20Team%20Foundation%20Server%20-%20Part%201%20-%20Create%20a%20Team%20Project/iframe.html" scrolling="no" frameborder="0" style="width:320px;height:240px;"></iframe> </div> <p>&nbsp;<a target="_blank" href="http://silverlight.services.live.com/77629/SDS%20Team%20Foundation%20Server%20-%20Part%201%20-%20Create%20a%20Team%20Project/video.wmv">Direct Link</a></p> <p>p.s This is hosted, for free (as in beer), by <a target="_blank" href="http://silverlight.live.com/">Silverlight Streaming Services</a>.&nbsp; It took all of 20 seconds to sign up and 5 minutes to upload the video made with <a target="_blank" href="http://www.camtasia.com/camtasia.asp">Camtasia</a>.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/27/tfs-screencasts-part-1-create-a-team-project.aspx">08-27-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/27/tfs-screencasts-part-1-create-a-team-project.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl02_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a>, <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl02$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl02_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/26/outlook-2007-does-the-little-things.aspx">Outlook 2007 does the little things</a>
+                </dt>
+                <dd>
+                    <p>People give Microsoft Outlook a lot of crap, but if you&#39;re willing to think outside the box, you&#39;ll realize they did all the little things that make life easy.&nbsp; For instance, I rarely use the calendar popup for creating new appointments.&nbsp; No, if I have a meeting next Wednesday, I type &quot;<em>next wed&quot;</em> and hit tab.&nbsp; It&#39;s at 1pm, well, type 1 and hit tab.</p> <p>Done.</p> <p><a href="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_2.png"><img height="413" alt="New Appt. Screenshot" src="http://cromwellhaus.com/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/ryanc/image_5F00_thumb.png" width="640" border="0" /></a></p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/26/outlook-2007-does-the-little-things.aspx">08-26-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/26/outlook-2007-does-the-little-things.aspx#comments">2 comment(s)</a>
+			                    
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl03_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl03$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl03_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/19/sql-server-2000-vs-2005-lazy-xml-validation.aspx">SQL Server 2000 vs 2005 Lazy XML Validation</a>
+                </dt>
+                <dd>
+                    <p>Someone was looking to do quick-and-dirty validation of an Xml document inside a SQL Server procedure today.&nbsp; I assumed, and regretted, that he meant 2005, which would have looked like this:</p> <blockquote> <p>declare @xml1 xml&nbsp; <br />declare @xml2 xml&nbsp; <br />set @xml1 = &#39;&lt;Node1&gt;&lt;Node2 attrib=&quot;This is it.&quot; /&gt;&lt;/Node1&gt;&#39;<br />set @xml2 = &#39;&lt;Node1&gt;&lt;Node2 /&gt;&lt;/Node1&gt;&#39;<br />select Col.value(&#39;count(./@attrib)&#39;, &#39;int&#39;) as count<br />from @xml1.nodes(&#39;Node1/Node2&#39;) as Tbl(Col)  <p>select Col.value(&#39;count(./@attrib)&#39;, &#39;int&#39;) as count<br />from @xml2.nodes(&#39;Node1/Node2&#39;) as Tbl(Col)</p></blockquote> <p>After being told, &quot;that blows up&quot;, I jogged the memory a bit and came up with this mess:</p> <blockquote> <p>/* THE STUPID WAY */<br />DECLARE @hdoc int<br />DECLARE @doc1 varchar(MAX)<br />DECLARE @doc2 varchar(MAX)<br />set @doc1 = &#39;&lt;Node1&gt;&lt;Node2 attrib=&quot;This is it.&quot; /&gt;&lt;/Node1&gt;&#39;<br />set @doc2 = &#39;&lt;Node1&gt;&lt;Node2 /&gt;&lt;/Node1&gt;&#39;<br />/* DOC 1 */<br />EXEC sp_xml_preparedocument @hdoc OUTPUT, @doc1  <p>IF EXISTS( SELECT&nbsp;&nbsp;&nbsp; *<br />FROM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OPENXML (@hdoc, &#39;/Node1/Node2/@attrib&#39;,1)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WITH (attrib&nbsp; varchar(20)))<br />BEGIN<br />PRINT &#39;Dumb ass&#39;<br />END<br />exec sp_xml_removedocument @hdoc  <p>/* DOC 2 */<br />EXEC sp_xml_preparedocument @hdoc OUTPUT, @doc2  <p>IF EXISTS( SELECT&nbsp;&nbsp;&nbsp; *<br />FROM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OPENXML (@hdoc, &#39;/Node1/Node2/@attrib&#39;,1)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WITH (attrib&nbsp; varchar(20)))<br />BEGIN<br />PRINT &#39;Dumb ass&#39;<br />END<br />exec sp_xml_removedocument @hdoc <p>&nbsp;</p></blockquote> <p>Moral of the store?&nbsp; UPGRADE!</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/19/sql-server-2000-vs-2005-lazy-xml-validation.aspx">08-19-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/19/sql-server-2000-vs-2005-lazy-xml-validation.aspx#comments">1 comment(s)</a>
+			                    
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl04_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl04$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl04_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/06/installation-guides.aspx">Installation Guides</a>
+                </dt>
+                <dd>
+                    <p>This evening I completed my first split-server (or dual server as it&#39;s called in the guide) installation of Team Foundation Server 2008.&nbsp; I&#39;ve installed TFS a few times now in single-server mode which is pretty crazy easy when you consider what you get (way more than SVN or CVS by themselves).&nbsp; Throughout the entire process I actually found myself RTFM step -by-step.&nbsp; For all the grief that Microsoft receives, you have to give them a ton of credit for their manuals, guides, and walk-throughs.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/06/installation-guides.aspx">08-06-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/06/installation-guides.aspx#comments">2 comment(s)</a>
+			                    
+                            
+			            
+                                                
+                        
+                    </div>
+                </dd>
+            </dl>
+        
+            <dl class="entrylist">
+                <dt>
+                    <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/06/reason-29-for-using-virtual-machines.aspx">Reason #29 for using Virtual Machines</a>
+                </dt>
+                <dd>
+                    <p>Today I blew up a server.&nbsp; Couldn&#39;t figure something out so I pushed every button I could find, flipped every switch and changed every setting.&nbsp; Nothing.&nbsp; So you know what I did, I deleted it, copied over a new <a href="http://cromwellhaus.com/blogs/ryanc/archive/2008/06/13/sysprep-your-virtual-pc-images.aspx" target="_blank">Sysprepped Hard Drive</a> and had a clean slate in about 5 minutes.</p> <p>I figured out my problem, by the way.</p><div style="clear:both;"></div>
+
+                    <div class="entryviewfooter">
+                        	
+                        <span class="em">Posted </span>
+                        <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/06/reason-29-for-using-virtual-machines.aspx">08-06-2008</a>
+			            by
+			            <a href="/sites/cromwellhaus.com/members/cromwellryan/default.aspx">cromwellryan</a>
+			            
+                                
+			                    | <a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08/06/reason-29-for-using-virtual-machines.aspx#comments">no comments</a>
+                            
+			            
+                                                
+                        <div class="em"><span id="ctl00_Main_EntryItems_ctl06_ctl08_ctl01">Filed under: <a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></span><input type="hidden" name="ctl00$Main$EntryItems$ctl06$ctl08$ctl01" id="ctl00_Main_EntryItems_ctl06_ctl08_ctl01_State" value="nochange" /></div>
+                    </div>
+                </dd>
+            </dl>
+        
+    
+       
+        
+                </div>
+            </div>
+            <div id="subcontent-a">
+                
+                    
+                    
+                            
+                                    <div>
+                                    <h4 class="sideheader">Syndication</h4>
+                                <ul class='CommonSidebarList'><li class="rss"><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li><li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/rsscomments.aspx">RSS for Comments</a></li></ul>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Search</h4>
+                                <input name="ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchInput" type="text" id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchInput" class="searchbox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event);" /><a id="ctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton" class="searchbutton" href="javascript:__doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')">Go</a>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/default.aspx">Tags</a></h4>
+                                <div id="TagSideBar"><ul class="CommonSidebarTagCloud">
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Code/default.aspx" rel="tag">Code</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/community/default.aspx" rel="tag">community</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Languages/default.aspx" rel="tag">Languages</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Nerd+Dinner/default.aspx" rel="tag">Nerd Dinner</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="CommonTag2"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="CommonTag3"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="CommonTag4"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="CommonTag6"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/WCF/default.aspx" rel="tag">WCF</a></li>
+<li class="CommonTag1"><a href="http://cromwellhaus.com/sites/cromwellhaus.com/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Community</h4>
+                                <div id="NavSideBar">
+<ul>
+<li><a href="/sites/cromwellhaus.com/">Home</a></li><li><a href="/sites/cromwellhaus.com/blogs/">Blogs</a></li><li><a href="/sites/cromwellhaus.com/media/">Media</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Archives</h4>
+                                <div id="ArchiveSideBar">
+<ul>
+<li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/09.aspx">September 2009 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/08.aspx">August 2009 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/07.aspx">July 2009 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/04.aspx">April 2009 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2009/03.aspx">March 2009 (6)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/sites/cromwellhaus.com/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                    </div>
+                                
+                        
+                            
+                        
+                            
+                        
+                            
+                                    <div>
+                                    <h4 class="sideheader">Twitter</h4>
+                                <div id="twtr-profile-widget"></div>
+<p>
+
+
+
+</p>
+                                    </div>
+                                
+                        
+                        
+                
+     
+                
+                <div id="contentfooter">&nbsp;</div>
+            </div>
+            <div id="footer">
+                
+				    
+				    
+				    
+				            <a href="http://communityserver.com/" target="_blank"><img src="/sites/cromwellhaus.com/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						
+
+                    
+					
+				
+            </div>
+        </div> 
+    
+<script src="http://feeds.feedburner.com/~s/RyanCromwell" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/sites/cromwellhaus.com/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false,true);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl02_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl02_ctl08_ctl01','ctl00_Main_EntryItems_ctl02_ctl08_ctl01','ctl00_Main_EntryItems_ctl02_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl03_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl03_ctl08_ctl01','ctl00_Main_EntryItems_ctl03_ctl08_ctl01','ctl00_Main_EntryItems_ctl03_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl04_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl04_ctl08_ctl01','ctl00_Main_EntryItems_ctl04_ctl08_ctl01','ctl00_Main_EntryItems_ctl04_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_EntryItems_ctl06_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_EntryItems_ctl06_ctl08_ctl01','ctl00_Main_EntryItems_ctl06_ctl08_ctl01','ctl00_Main_EntryItems_ctl06_ctl08_ctl01_State','ctl00_Main_EntryItems_ctl02_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_SideBar_ctl00_ctl01_ctl00_ctl01_ctl01_ctl00_WeblogSearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$SideBar$ctl00$ctl01$ctl00$ctl01$ctl01$ctl00$WeblogSearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

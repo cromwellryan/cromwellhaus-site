@@ -1,0 +1,284 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional-dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="X-UA-Compatible" content="IE=7" /><meta name="robots" content="index,follow" />
+<meta name="description" content="Ryan Cromwell: .Net, WPF, and software development jibberish. It&#39;s good jibberish though." />
+<meta name="keywords" content="ryan cromwell wpf c# .net dotnet wcf web services windows presentation foundation communication foundation speedy rewards www.speedyrewards.com" />
+<meta name="GENERATOR" content="CommunityServer 2008 (Build: 30417.1769)" />
+<link rel="pingback" href="http://cromwellhaus.com/blogs/ryanc/pingback.aspx" />
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://feeds.feedburner.com/RyanCromwell"  />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/style.css?SectionID=11" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/print.css?SectionID=11" type="text/css" media="print" />
+	<link rel="stylesheet" href="/themes/blogs/Elemental/style/air.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/Themes/Blogs/elemental/style/DynamicStyle.aspx?SectionID=11" type="text/css" media="screen" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cromwellhaus.com/blogs/ryanc/rsd.ashx" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="http://cromwellhaus.com/blogs/ryanc/wlwmanifest.ashx" />
+<title>
+	ASP.Net MVC Checkbox/boolean Value Mapping - Ryan Cromwell
+</title></head>
+<body>
+    <form name="aspnetForm" method="post" action="/blogs/ryanc/archive/2007/12/20/asp-net-mvc-checkbox-boolean-value-mapping.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjI3NjA3NjAzZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAgUbY3RsMDAkY3RsMDckY3RsMDAkU2VhcmNoQm94BS5jdGwwMCRNYWluJGN0bDA5JGN0bDAyJGN0bDAyJGN0bDAyJGNoa1JlbWVtYmVyrPq8ygQbIeWf5xTLDz1TbEmtppM=" />
+</div>
+
+
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4S7ZBPAVw9PwaqA6uS0FfwGf3Hm9m6m-bY3jx8ehHgPE1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4LztMjwM-SqBR5_anrX2l2HqgE4lVEbuAeBVlAAPF2Jk1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4qw7uaC3LpM50bK3H8VCJ_tVhk9B3VUiQp-tSztnY6fE1&amp;t=633501542161978064" type="text/javascript"></script>
+<script src="/WebResource.axd?d=ITILojF-Mg1TlAtnXeYeO6U6GNTDGBohiy13JEN17fhVdqU18kpiZ09PLxbeaTM4dI2CKwjWiWdwrBqDrsqy7rWQN5-5uEWsypWfk5ThPqg1&amp;t=633501542161978064" type="text/javascript"></script>
+
+    			
+
+    <div id="masthead">
+        <div id="welcome" align="right">
+            
+        <a href="/login.aspx?ReturnUrl=%2fblogs%2fryanc%2farchive%2f2007%2f12%2f20%2fasp-net-mvc-checkbox-boolean-value-mapping.aspx">Sign in </a>
+         | <a href="/user/CreateUser.aspx?ReturnUrl=">Join</a>
+        | <a href="http://dev.communityserver.com/r.ashx?K&amp;siteurl=weblogs.weblogpostName">Help</a>
+     
+
+
+        </div>
+    </div>
+    <div id="wrapper">
+        <div id="container">
+	        <div id="header">
+                <div id="title">
+                    <div id="SearchSideBar">    
+                        <div id="search">
+                                <input name="ctl00$ctl07$ctl00$SearchBox" type="text" id="ctl00_ctl07_ctl00_SearchBox" class="searchBox" onclick="if(this.defaultValue==this.value) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" onkeydown="return KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event);" />
+                                <a id="ctl00_ctl07_ctl00_SearchButton" href="javascript:__doPostBack('ctl00$ctl07$ctl00$SearchButton','')">Search</a>
+                            </div>
+                    </div>
+                    <h1><a class="headermaintitle" href="/blogs/ryanc/default.aspx">Ryan Cromwell</a></h1>                                                
+                    <p id="tagline">Aimless musings of a keyboard masher.</p>
+                </div>
+                <div id="nav">                        
+                    <div id="SubscriptionsSideBar">
+                        <div id="subscriptions">
+                            <ul>
+                                <li><a href="http://feeds.feedburner.com/RyanCromwell">RSS for Posts</a></li>
+	                            <li><a href="http://feeds.feedburner.com/RyanCromwell">Atom</a></li>
+						        
+                            </ul>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="/blogs/ryanc/default.aspx">Home</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <div id="contentmargin"></div>
+                <div id="contentwrapper">
+                    <div id="sidebar-a">
+                    
+                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Tags</h3>
+	                                    <div id="TagSideBar"><ul class="SidebarTagCloud">
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/.Net/default.aspx" rel="tag">.Net</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Hardware/default.aspx" rel="tag">Hardware</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/IIS/default.aspx" rel="tag">IIS</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/MiniMVC/default.aspx" rel="tag">MiniMVC</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Networking/default.aspx" rel="tag">Networking</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/NHibernate/default.aspx" rel="tag">NHibernate</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Oracle/default.aspx" rel="tag">Oracle</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Performance/default.aspx" rel="tag">Performance</a></li>
+<li class="Tag2"><a href="/blogs/ryanc/archive/tags/Personal/default.aspx" rel="tag">Personal</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Powershell/default.aspx" rel="tag">Powershell</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/Silverlight/default.aspx" rel="tag">Silverlight</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Software+Reviews/default.aspx" rel="tag">Software Reviews</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Speedy+Rewards/default.aspx" rel="tag">Speedy Rewards</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/SQL+Server/default.aspx" rel="tag">SQL Server</a></li>
+<li class="Tag4"><a href="/blogs/ryanc/archive/tags/TFS/default.aspx" rel="tag">TFS</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/Virtual+PC/default.aspx" rel="tag">Virtual PC</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista/default.aspx" rel="tag">Vista</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Vista+Sidebar/default.aspx" rel="tag">Vista Sidebar</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/Visual+Studio/default.aspx" rel="tag">Visual Studio</a></li>
+<li class="Tag6"><a href="/blogs/ryanc/archive/tags/VMWare/default.aspx" rel="tag">VMWare</a></li>
+<li class="Tag1"><a href="/blogs/ryanc/archive/tags/WPF/default.aspx" rel="tag">WPF</a></li>
+</ul>
+</div>
+                                            </div>
+	                                    
+	                            
+	                                
+	                            
+	                                
+	                                        <div>
+	                                        <h3 class="CommonSidebarHeader">Archives</h3>
+	                                    <div id="ArchiveSideBar">
+<ul>
+<li><a href="/blogs/ryanc/archive/2008/11.aspx">November 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/10.aspx">October 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2008/09.aspx">September 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/08.aspx">August 2008 (5)</a></li><li><a href="/blogs/ryanc/archive/2008/07.aspx">July 2008 (10)</a></li><li><a href="/blogs/ryanc/archive/2008/06.aspx">June 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/04.aspx">April 2008 (2)</a></li><li><a href="/blogs/ryanc/archive/2008/03.aspx">March 2008 (3)</a></li><li><a href="/blogs/ryanc/archive/2008/01.aspx">January 2008 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/12.aspx">December 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/11.aspx">November 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/10.aspx">October 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/09.aspx">September 2007 (2)</a></li><li><a href="/blogs/ryanc/archive/2007/08.aspx">August 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/07.aspx">July 2007 (1)</a></li><li><a href="/blogs/ryanc/archive/2007/06.aspx">June 2007 (3)</a></li><li><a href="/blogs/ryanc/archive/2007/05.aspx">May 2007 (5)</a></li><li><a href="/blogs/ryanc/archive/2007/04.aspx">April 2007 (7)</a></li><li><a href="/blogs/ryanc/archive/2007/03.aspx">March 2007 (8)</a></li><li><a href="/blogs/ryanc/archive/2006/05.aspx">May 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li><li><a href="/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li><li><a href="/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+</ul></div>
+                                            </div>
+	                                    
+	                            
+
+	                    
+                    </div>
+                    <div id="content"><div id="content2">
+	                    
+
+    
+
+    <div class="post">
+        <div class="posthead">
+            <h2 class="pageTitle">ASP.Net MVC Checkbox/boolean Value Mapping</h2>
+            Posted 
+            <a href="/blogs/ryanc/archive/2007/12/20/asp-net-mvc-checkbox-boolean-value-mapping.aspx">Thursday, December 20, 2007 12:14 AM</a>                
+            by
+			<a href="/members/cromwellryan/default.aspx">cromwellryan</a>
+        </div>
+        <p>In my quest to get my <a href="http://wpfstyle.com" target="_blank">wpfstyle.com</a> site written in the new <a href="http://asp.net/extensions" target="_blank">ASP.Net MVC</a> framework (day 3) I&#39;ve run across a little issue that I&#39;m sure will come up again.</p> <p>In my world, a checkbox always seemed to imply true/false or yes/no.&nbsp; In reality, it can mean a lot of things in an Html Form.&nbsp; It&#39;s an input, remember, and inputs have a <em>value</em>.&nbsp; When your checkbox is checked, that value is posted back.&nbsp; </p> <p>Making it work as a boolean indicator in your MVC application, is possible though.&nbsp; In keeping with the Membership/Authorization theme from <a href="http://cromwellhaus.com/blogs/ryanc/archive/2007/12/19/asp-net-mvc-and-forms-authentication.aspx" target="_blank">yesterday</a>, I have the following controller action:</p> <blockquote><pre class="code"><span>public</span> <span>void</span> Authenticate(<span>string</span> userName, <span>string</span> password, <span>bool</span>? rememberMe)</pre></blockquote><pre class="code">[Hint: Notice the &#39;?&#39; after bool for the third parameter.  That&#39;ll be important in a moment.]</pre><pre class="code">Here is the corresponding Login.aspx View which contains a form posting to this action:</pre>
+<blockquote><pre class="code"><span>&lt;%<span></span>using</span> (Html.Form(<span>&quot;Authenticate&quot;</span>, <span>&quot;Account&quot;</span>))
+  { <span>%&gt;
+</span>    <span>&lt;</span><span>div</span> <span>style</span><span>=&quot;</span><span>margin</span>: <span>auto</span> <span>auto</span> <span>4px</span> <span>auto&quot;&gt;</span>Username 
+        <span>&lt;%<span></span>=</span>Html.TextBox( <span>&quot;username&quot;</span>) <span>%&gt;</span> <span>&lt;/</span><span>div</span><span>&gt;
+</span>    <span>&lt;</span><span>div</span> <span>style</span><span>=&quot;</span><span>margin</span>: <span>auto</span> <span>auto</span> <span>4px</span> <span>auto&quot;&gt;</span>Password <span>&amp;nbsp;
+</span>        <span>&lt;%<span></span>=</span>Html.Password( <span>&quot;password&quot;</span>) <span>%&gt;</span><span>&lt;/</span><span>div</span><span>&gt;
+</span>            
+    <span>&lt;</span><span>div</span> <span>style</span><span>=&quot;</span><span>margin</span>: <span>auto</span> <span>auto</span> <span>4px</span> <span>auto&quot;&gt;
+</span>        <span>&lt;%<span></span>=</span>Html.CheckBox(<span>&quot;rememberme&quot;</span>, <span>&quot;Remember Me&quot;</span>, <span>&quot;true&quot;</span>, <span>false</span>)<span>%&gt;
+</span>    <span>&lt;/</span><span>div</span><span>&gt;</span></pre><pre class="code"><a href="http://11011.net/software/vspaste"></a></pre><pre class="code">    <span></span><span>&lt;</span><span>div</span><span>&gt;</span><span>&lt;%<span></span>=</span>Html.SubmitButton( <span>&quot;Log In&quot;</span>) <span>%&gt;<span></span>&lt;/</span><span>div</span><span>&gt;
+</span><span>&lt;%</span>} <span>%&gt;</span></pre></blockquote>
+<p>Looking at our intellisense for Html.Checkbox, we see<a href="http://cromwellhaus.com/blogphotos/ASP.NetMVCCheckboxbooleanValueMapping_138C8/image.png"><img height="106" alt="image" src="http://cromwellhaus.com/blogphotos/ASP.NetMVCCheckboxbooleanValueMapping_138C8/image_thumb.png" width="640" border="0" /></a>&nbsp;</p>
+<p>By setting the checkbox&#39;s value to &quot;true&quot; we&#39;re going to have that value sent back through the MVC pipeline to our Action which has a boolean parameter <em>rememberme</em>.&nbsp; It&#39;s not just any boolean though, it&#39;s a nullable boolean.&nbsp; Remember when I meantion the distinction that the checkbox being checked causes the value to be posted back?&nbsp; Well if the checkbox is *not* checked, the rememberme value will be null.&nbsp; </p>
+<p>The MVC pipeline is nice enough to implicitly convert the &quot;true&quot; string to a boolean, but null is not necessarily false in all cases.&nbsp; To account for this, we must make our parameter a nullable boolean.&nbsp; Does this maybe cross the line into mixing UI and Controller... eh - possibly?</p>
+<p>(NOTE: If you don&#39;t see the Checkbox method in your intellisense, make sure you picked up and referenced the <a href="http://asp.net/downloads/3.5-extensions/MVCToolkit.zip" target="_blank">MVC Toolkit</a>)</p><div style="clear:both;"></div>
+        
+
+        <div class="postfoot">
+            	
+                                    
+            <div class="em"><span id="ctl00_Main_ctl08_ctl01">Filed under: <a href="/blogs/ryanc/archive/tags/MVC/default.aspx" rel="tag">MVC</a></span><input type="hidden" name="ctl00$Main$ctl08$ctl01" id="ctl00_Main_ctl08_ctl01_State" value="nochange" /></div>
+        </div>    
+    </div>
+    
+    
+            
+                    <a name="Comments"></a>
+                    <h3>Comments</h3>
+                    <div id="comments">
+                
+                    <div class="comment">
+			            <h4>
+				            <a href="/blogs/ryanc/archive/2007/12/20/asp-net-mvc-checkbox-boolean-value-mapping.aspx#773">#</a>
+				            <span>re: ASP.Net MVC Checkbox/boolean Value Mapping</span>
+			            </h4>
+			            <div class="commentssubhead">
+			                Saturday, November 29, 2008 2:27 AM
+			                by <a title="meecdorry" rel="nofollow" href="http://payday--loan.net/">meecdorry</a>
+			                <span class="commentspan">
+			                    
+                            </span>
+                        </div>			
+		                <div class="commentsbody">
+		                    <p><p>Its amazing what people will post in these forums, some of it is quite brilliant!</p>
+<div style="clear:both;"></div></p>
+                        </div>
+                    </div>
+                
+                    </div>
+                
+            
+            
+            
+            
+                    <div id="commentform">
+                    <h3>Leave a Comment</h3>
+	                    <dl>
+	                        <div id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RegisteredWrapper">
+	
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle">Title</label> <em>(required)</em>&nbsp;</dt>
+	                        <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbTitle" type="text" value="re: ASP.Net MVC Checkbox/boolean Value Mapping" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbTitle" class="smallbox" /></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameTitle"><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName">Name:</label> <em>(required)</em>&nbsp;</dt>
+                            <dd id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_NameDesc"><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbName" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbName" class="smallbox" /></dd>
+
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl">Website:</label> <em>(optional</em>)</dt>
+                            <dd><input name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbUrl" type="text" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbUrl" class="smallbox" /></dd>
+                            
+</div>
+                            
+                            <dt><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment">Comments</label> <em>(required)</em>&nbsp;</dt>
+                            <dd><textarea name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$tbComment" rows="5" cols="25" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_tbComment"></textarea></dd>
+
+                            <dt id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_RememberWrapper"><input id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember" type="checkbox" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$chkRemember" /><label for="ctl00_Main_ctl09_ctl02_ctl02_ctl02_chkRemember">Remember Me?</label></dt>
+               
+                            <dt><input type="submit" name="ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$ctl09$ctl02$ctl02$ctl02$btnSubmit&quot;, &quot;&quot;, true, &quot;CreateCommentForm&quot;, &quot;&quot;, false, false))" id="ctl00_Main_ctl09_ctl02_ctl02_ctl02_btnSubmit" /></dt>
+	                    </dl>
+                    </div>
+                    
+        
+        
+                    </div></div>
+                    <div id="contentfooter">&nbsp;</div>
+		        </div>
+                <div id="footer">
+                    
+				        
+    				    
+				        
+				                <a href="http://communityserver.com/" target="_blank"><img src="/utility/PoweredByCS_personal.gif" alt="Powered by Community Server (Non-Commercial Edition), by Telligent Systems " style="border-width:0px;" /></a>
+						    
+
+                        
+    					
+				    
+                </div>
+            </div>        
+        </div>
+    
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://cromwellhaus.com/blogs/ryanc/archive/2007/12/20/asp-net-mvc-checkbox-boolean-value-mapping.aspx"
+dc:identifier="http://cromwellhaus.com/blogs/ryanc/archive/2007/12/20/asp-net-mvc-checkbox-boolean-value-mapping.aspx"
+dc:title="ASP.Net MVC Checkbox/boolean Value Mapping"
+trackback:ping="http://cromwellhaus.com/blogs/ryanc/trackback.ashx?PostID=473" />
+</rdf:RDF>
+-->
+<script src="http://feeds.feedburner.com/~s/RyanCromwell?i=http://cromwellhaus.com/blogs/ryanc/archive/2007/12/20/asp-net-mvc-checkbox-boolean-value-mapping.aspx" type="text/javascript" charset="utf-8"></script> <script type="text/javascript">
+// <![CDATA[
+Telligent_Modal.Configure('/utility/loading.htm',['Modal'],['ModalTitle'],['ModalClose'],['ModalContent'],['ModalFooter'],['ModalResize'],['ModalMask'],100,false);
+// ]]>
+</script><script type="text/javascript">
+<!--
+function KeyDownHandlerctl00_ctl07_ctl00_SearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$ctl07$ctl00$SearchButton','')
+   return false;
+	}
+}
+
+//-->
+</script>
+<script type="text/javascript">
+// <![CDATA[
+window.ctl00_Main_ctl08_ctl01 = new Telligent_InlineEditorPanel('ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01','ctl00_Main_ctl08_ctl01_State','ctl00_Main_ctl08_ctl00',false,null,null,null);
+// ]]>
+</script><script language="javascript" type="text/javascript" src="http://analytics.live.com/Analytics/msAnalytics.js"></script>
+<script language="javascript" type="text/javascript">
+	msAnalytics.ProfileId = 'D1A0';
+	msAnalytics.TrackPage();
+</script></form>
+</body>
+</html>

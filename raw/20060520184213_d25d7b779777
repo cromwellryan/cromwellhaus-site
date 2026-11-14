@@ -1,0 +1,274 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html>
+
+<head>
+<title>Ryan Cromwell : Windows Live Messenger Beta</title>
+<meta name="keywords" content="Software Reviews" />
+<meta name="description" content="I recently got in on the Windows Live Messenger Beta courtesy of Jan Tielen's and I've got to say, I'm a little sceptical.  The real difference is in the interface, not the functionality (how much can you really do with text based chat?).  They have tried" />
+<meta name="GENERATOR" content="CommunityServer 2.0 (Build: 60217.2664)" />
+<link rel="pingback" href="http://www.cromwellhaus.com/CS/blogs/pingback.aspx" />
+<link rel="stylesheet" href="/CS/Themes/Blogs/luxinterior/style/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/CS/Themes/Blogs/luxinterior/style/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/CS/Themes/Blogs/luxinterior/style/sidebar_left_wide.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/CS/blogs/ryanc/customcss.ashx" type="text/css" media="screen" />
+<link rel="shortcut icon" type="image/ico" href="/CS/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="Ryan Cromwell (RSS 2.0)" href="http://www.cromwellhaus.com/CS/blogs/ryanc/rss.aspx"  />
+<link rel="alternate" type="application/atom+xml" title="Ryan Cromwell (Atom 1.0)" href="http://www.cromwellhaus.com/CS/blogs/ryanc/atom.aspx"  />
+<link rel="alternate" type="application/rss+xml" title="Windows Live Messenger Beta Comment RSS (RSS 2.0)" href="http://www.cromwellhaus.com/CS/blogs/ryanc/commentrss.aspx?PostID=36"  />
+
+	<script src="/CS/Utility/global.js?Version=2.0.60217.2664" type="text/javascript"></script>
+</head>
+
+<body>
+<form name="aspnetForm" method="post" action="/CS/blogs/ryanc/archive/2006/01/13/36.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMyNjg0MDc1MWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFImN0bDAwJF8kY3RsMDAkXyRicyRfJHMkXyRTZWFyY2hCb3gFKmN0bDAwJF8kY3RsMDAkXyRjdGwwMSRfJGZvcm0kXyRjaGtSZW1lbWJlck8VMwUQxYRRXVBntWagkTDfpEc5" />
+</div>
+
+
+<script language="javascript" type="text/javascript">
+var RatingControlAJAX = {
+
+"SaveRating": function(id, rating, clientCallBack) {
+	return Ajax_CallBack('CommunityServer.Blogs.Controls.BlogRatePost', id, 'SaveRating', [rating], clientCallBack, false, false, false, true,'/CS/blogs/ryanc/archive/2006/01/13/36.aspx?Ajax_CallBack=true');
+}
+
+};
+</script>
+<div id="masthead">
+	
+		<div id="welcome" align="right">
+			
+					Welcome to Cromwell Haus
+<a id="ctl00___ctl00___duw1_ac1___Login" href="/CS/login.aspx?ReturnUrl=/CS/blogs/ryanc/archive/2006/01/13/36.aspx">Sign in</a> | <a id="ctl00___ctl00___duw1_ac1___Register" href="/CS/user/CreateUser.aspx?ReturnUrl=/CS/blogs/ryanc/archive/2006/01/13/36.aspx">Join</a>
+
+
+
+				
+			 |  <a id="ctl00___ctl00___duw1_Faq1" href="/CS/languages/en-US/docs/faq.aspx">Help</a>
+		</div>
+	
+</div>
+<div id="wrapper"><div id="container">
+	<div id="header">
+<div id="title">
+	<h1><a id="ctl00___ctl00___bt___BlogTitle" class="headermaintitle" href="/CS/blogs/ryanc/default.aspx">Ryan Cromwell</a></h1>
+	<p id="tagline">Aimless musings of a keyboard masher.</p>
+</div>
+
+<div id="subscriptions">
+<ul>
+	<li><a href="/CS/blogs/ryanc/rss.aspx">RSS 2.0</a></li>
+	<li><a href="/CS/blogs/ryanc/atom.aspx">Atom 1.0</a></li>
+	
+</ul>
+</div>
+ 
+ 
+<div id="nav">
+	<ul>
+	<li><a href="/CS/blogs/ryanc/default.aspx">Home</a></li>
+	<li><a href="/CS/blogs/ryanc/about.aspx">About</a></li>
+	
+	</ul>
+</div></div>
+	<div id="contentwrapper">
+		<div id="sidebar-a">
+			
+<div id="Cal" align="center">
+	<table id="ctl00___ctl00___bs___c___PostCalendar" class="BlogCalendar" cellspacing="0" cellpadding="1" title="Calendar" border="0">
+	<tr><td valign="middle" colspan="7"><table class="BlogCalendarTitle" cellspacing="0" border="0">
+		<tr><td class="BlogCalendarNextPrev"><a href="javascript:__doPostBack('ctl00$_$ctl00$_$bs$_$c$_$PostCalendar','V2161')" style="color:Black" title="Go to the previous month">&lt;</a></td><td align="center">January 2006</td><td class="BlogCalendarNextPrev" align="right"><a href="javascript:__doPostBack('ctl00$_$ctl00$_$bs$_$c$_$PostCalendar','V2223')" style="color:Black" title="Go to the next month">&gt;</a></td></tr>
+	</table></td></tr><tr><th class="BlogCalendarDays" align="center" abbr="Sunday" scope="col">Su</th><th class="BlogCalendarDays" align="center" abbr="Monday" scope="col">Mo</th><th class="BlogCalendarDays" align="center" abbr="Tuesday" scope="col">Tu</th><th class="BlogCalendarDays" align="center" abbr="Wednesday" scope="col">We</th><th class="BlogCalendarDays" align="center" abbr="Thursday" scope="col">Th</th><th class="BlogCalendarDays" align="center" abbr="Friday" scope="col">Fr</th><th class="BlogCalendarDays" align="center" abbr="Saturday" scope="col">Sa</th></tr><tr><td class="BlogCalendarDay" align="center">25</td><td class="BlogCalendarDay" align="center">26</td><td class="BlogCalendarDay" align="center">27</td><td class="BlogCalendarDay" align="center">28</td><td class="BlogCalendarDay" align="center">29</td><td class="BlogCalendarDay" align="center">30</td><td class="BlogCalendarDay" align="center">31</td></tr><tr><td class="BlogCalendarDay" align="center">1</td><td class="BlogCalendarDay" align="center">2</td><td class="BlogCalendarDay" align="center">3</td><td class="BlogCalendarDay" align="center">4</td><td class="BlogCalendarDay" align="center"><a title="2 Posts" href="/CS/blogs/ryanc/archive/2006/1/5.aspx">5</a></td><td class="BlogCalendarDay" align="center">6</td><td class="BlogCalendarDay" align="center"><a title="1 Post" href="/CS/blogs/ryanc/archive/2006/1/7.aspx">7</a></td></tr><tr><td class="BlogCalendarDay" align="center">8</td><td class="BlogCalendarDay" align="center">9</td><td class="BlogCalendarDay" align="center">10</td><td class="BlogCalendarDay" align="center"><a title="1 Post" href="/CS/blogs/ryanc/archive/2006/1/11.aspx">11</a></td><td class="BlogCalendarDay" align="center">12</td><td class="BlogCalendarDay" align="center"><a title="2 Posts" href="/CS/blogs/ryanc/archive/2006/1/13.aspx">13</a></td><td class="BlogCalendarDay" align="center">14</td></tr><tr><td class="BlogCalendarDay" align="center">15</td><td class="BlogCalendarDay" align="center"><a title="1 Post" href="/CS/blogs/ryanc/archive/2006/1/16.aspx">16</a></td><td class="BlogCalendarDay" align="center"><a title="1 Post" href="/CS/blogs/ryanc/archive/2006/1/17.aspx">17</a></td><td class="BlogCalendarDay" align="center">18</td><td class="BlogCalendarDay" align="center">19</td><td class="BlogCalendarDay" align="center">20</td><td class="BlogCalendarDay" align="center">21</td></tr><tr><td class="BlogCalendarDay" align="center">22</td><td class="BlogCalendarDay" align="center"><a title="1 Post" href="/CS/blogs/ryanc/archive/2006/1/23.aspx">23</a></td><td class="BlogCalendarDay" align="center">24</td><td class="BlogCalendarDay" align="center">25</td><td class="BlogCalendarDay" align="center">26</td><td class="BlogCalendarDay" align="center">27</td><td class="BlogCalendarDay" align="center">28</td></tr><tr><td class="BlogCalendarDay" align="center">29</td><td class="BlogCalendarDay" align="center">30</td><td class="BlogCalendarDay" align="center">31</td><td class="BlogCalendarDay" align="center">1</td><td class="BlogCalendarDay" align="center">2</td><td class="BlogCalendarDay" align="center">3</td><td class="BlogCalendarDay" align="center">4</td></tr>
+</table>
+</div>
+
+
+<div id = "search">
+	<h3>Search</h3>
+	<input name="ctl00$_$ctl00$_$bs$_$s$_$SearchBox" type="text" id="ctl00___ctl00___bs___s___SearchBox" class="searchBox" onkeydown="KeyDownHandlerctl00___ctl00___bs___s___SearchButton(event);" />
+	<a id="ctl00___ctl00___bs___s___SearchButton" href="javascript:__doPostBack('ctl00$_$ctl00$_$bs$_$s$_$SearchButton','')">Go</a>
+</div><br />
+
+
+<h3>Archives</h3>
+<ul>
+
+	<li><a href="/CS/blogs/ryanc/archive/2006/03.aspx">March 2006 (3)</a></li>
+
+	<li><a href="/CS/blogs/ryanc/archive/2006/02.aspx">February 2006 (1)</a></li>
+
+	<li><a href="/CS/blogs/ryanc/archive/2006/01.aspx">January 2006 (9)</a></li>
+
+</ul>
+
+
+
+	
+<h3>Post Categories</h3>
+<ul>
+
+	<li><a id="ctl00___ctl00___bs___cl___Categories_ctl00_Link" href="/CS/blogs/ryanc/archive/category/1009.aspx">.Net (3)</a> </li>
+
+	<li><a id="ctl00___ctl00___bs___cl___Categories_ctl01_Link" href="/CS/blogs/ryanc/archive/category/1008.aspx">Personal (2)</a> </li>
+
+	<li><a id="ctl00___ctl00___bs___cl___Categories_ctl02_Link" href="/CS/blogs/ryanc/archive/category/1011.aspx">Software Reviews (6)</a> </li>
+
+</ul>  
+
+</div>
+		<div id="content">
+			
+        
+<style>
+.DoNotDisplay { display: none; }
+</style>
+
+<div class="post">
+	<div class="posthead">
+		Friday, January 13, 2006 2:08 AM
+		<a id="ctl00___ctl00___ctl01___Entry___AuthorLink" href="/CS/user/Profile.aspx?UserID=2103">Ryan</a> 
+		<h2>Windows Live Messenger Beta </h2>
+	</div>
+	<div class="postcontent">
+		I recently got in on the Windows Live Messenger Beta courtesy of <a href="http://weblogs.asp.net/jan" title="Jan Tielen's">Jan Tielen's</a> and I've got to say, I'm a little sceptical.  The real difference is in the interface, not the functionality (how much can you really do with text based chat?).  They have tried to create a more impressive interface, but I believe its a little too clunky.  It is a beta, but it doesn't bode well for "ma and pa."  Here are my initial reactions:
+
+<ul>
+<li><b>Like</b> the adjustable color scheme.</li>
+<li><b>Dislike</b> the horrid orange default color scheme.</li>
+<li><b>Love</b> the folder sharing.</li>
+<li><b>Dislike</b> not being able to share the same folder with multiple contacts.</li>
+<li><b>Love</b> the new contact form and contact card.</li>
+<li><b>Hate</b> the clunkyness of the roll-over, expand contact feature, though the idea may have a future.</li>
+<li><b>Like</b> the "name-wheel" for searching for contacts, but my parents won't even notice it.</li>
+<li><b>Dislike</b> the stupid tabs - there has to be a better way.</li>
+</ul>
+
+In general, I would have expected more polish even for an invite only preview.  <a href="http://www.hanselman.com/blog/PermaLink.aspx?guid=fd0a88e9-bac4-4ba4-87c8-6387aaa938a6" title="Scott Hanselman's blog">Scott</a> (like I know him :P) mentioned the pixelated icons, but the same issue runs through the entire app.  The pop-out tabs are rough around the edges and the now-green MSN-men which replace the impossible-to-recognize personalize icons of MSN 7.5 are a little fuzzy.  
+
+I like that they are trying to make things look cool, but please, go vector, go home.
+
+<a href="http://www.cromwellhaus.com/CS/photos/ryans_pics/category1012.aspx">Screen Shots</a>
+
+<img src="http://www.cromwellhaus.com/CS/photos/ryans_pics/images/37/original.aspx" title="" border="0" />
+<img src="http://www.cromwellhaus.com/CS/photos/ryans_pics/images/38/original.aspx" title="" border="0" />
+	</div>
+	
+            <br />Filed Under: 
+        <a id="ctl00___ctl00___ctl01___Entry___Tags___Categories_ctl01_Link" rel="tag" href="http://www.cromwellhaus.com/CS/blogs/ryanc/archive/category/1011.aspx">Software Reviews</a>
+	
+
+		
+</div>
+
+<div class="postfoot">
+	
+<div id="postToolbar">
+<h2 class="CommonSubTitle">Comment Notification</h2>
+<p>
+	If you would like to receive an email when updates are made to this post, please register <a id="ctl00___ctl00___ctl01___DetailedSubBar___RegisterLink" href="/CS/user/CreateUser.aspx?ReturnUrl=/CS/blogs/ryanc/archive/2006/01/13/36.aspx">here</a>
+	
+</p>
+<p>
+	Subscribe to this post's comments using
+	<a id="ctl00___ctl00___ctl01___DetailedSubBar___CommentRssLink" href="/CS/blogs/ryanc/commentrss.aspx?PostID=36">RSS</a>
+</p>
+</div>
+
+</div>
+
+	<div id="comments">
+	<h3>
+	Comments
+</h3>
+
+	<h4>
+		<a id="ctl00___ctl00___ctl01___Comments___Comments_ctl01_PermaLink" Title="permalink" href="/CS/blogs/ryanc/archive/2006/01/13/36.aspx#41">#</a>
+		Windows Live Mail (Hotmail Kahuna) is here!<a name="41"></a>
+	</h4>
+	<div class="commentssubhead">
+		<span class="commentspan"></span>
+		Monday, January 16, 2006 6:52 PM 
+			by <a id="ctl00___ctl00___ctl01___Comments___Comments_ctl01_NameLink" rel="nofollow" title="TrackBack" href="/CS/utility/Redirect.aspx?U=http%3a%2f%2fwww.cromwellhaus.com%2fCS%2fblogs%2fryanc%2farchive%2f2006%2f01%2f16%2f40.aspx" target="_blank">Ryan Cromwell</a>
+	</div>
+	<div class="commentsbody">
+		I received my invitation to Windows LIve Mail (Hotmail Kahuna) today!  This on top of the Windows Live...
+	</div>
+
+	<h4>
+		<a id="ctl00___ctl00___ctl01___Comments___Comments_ctl02_PermaLink" Title="permalink" href="/CS/blogs/ryanc/archive/2006/01/13/36.aspx#52">#</a>
+		Windows Live Messenger Beta Update<a name="52"></a>
+	</h4>
+	<div class="commentssubhead">
+		<span class="commentspan"></span>
+		Sunday, March 05, 2006 4:36 PM 
+			by <a id="ctl00___ctl00___ctl01___Comments___Comments_ctl02_NameLink" rel="nofollow" title="TrackBack" href="/CS/utility/Redirect.aspx?U=http%3a%2f%2fwww.cromwellhaus.com%2fCS%2fblogs%2fryanc%2farchive%2f2006%2f03%2f05%2f51.aspx" target="_blank">Ryan Cromwell</a>
+	</div>
+	<div class="commentsbody">
+		This week the Windows Live group released an update to the Windows Live Messenger Beta (MSN Messenger...
+	</div>
+
+	</div>
+
+
+
+
+
+<div id="commentform">
+<h3>What do you think?</h3>
+<dl>
+	<dt id="ctl00___ctl00___ctl01___form___NameTitle"><label for="ctl00___ctl00___ctl01___form___tbName">Name</label> <em>(required)</em>&nbsp;</dt><dd id="ctl00___ctl00___ctl01___form___NameDesc"><input name="ctl00$_$ctl00$_$ctl01$_$form$_$tbName" type="text" id="ctl00___ctl00___ctl01___form___tbName" class="smallbox" /></dd>
+	<dt><label for="ctl00___ctl00___ctl01___form___tbUrl">Your URL</label> <em>(optional</em>)</dt>
+	<dd><input name="ctl00$_$ctl00$_$ctl01$_$form$_$tbUrl" type="text" id="ctl00___ctl00___ctl01___form___tbUrl" class="smallbox" /></dd>
+	<dt><label for="ctl00___ctl00___ctl01___form___tbComment">Comments</label> <em>(required)</em>&nbsp;</dt>
+	<dd><textarea name="ctl00$_$ctl00$_$ctl01$_$form$_$tbComment" rows="5" cols="25" id="ctl00___ctl00___ctl01___form___tbComment"></textarea></dd>
+	<dt><input id="ctl00___ctl00___ctl01___form___chkRemember" type="checkbox" name="ctl00$_$ctl00$_$ctl01$_$form$_$chkRemember" /><label for="ctl00___ctl00___ctl01___form___chkRemember">Remember Me?</label></dt>
+	<dt><input type="submit" name="ctl00$_$ctl00$_$ctl01$_$form$_$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$_$ctl00$_$ctl01$_$form$_$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00___ctl00___ctl01___form___btnSubmit" /></dt>
+</dl>
+</div>
+
+
+
+   
+    
+		</div>
+		<div id="contentfooter">&nbsp;</div>
+	</div>
+
+	<div id="footer"><a target="_blank" href="http://communityserver.org/r.ashx?1"><img alt="Powered by Community Server, by Telligent Systems " border="0" src="/CS/utility/EULA.GIF"></a></div></div>
+</div>
+
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWXgKn3tL/CAKUg76rDwKN6ss1AqDzjrENAqDzjrENAqDzmp4EAqDzmp4EAqDztvsPAqDztvsPAqDzgpIKAqDzgpIKAqDznv8FAqDznv8FApvagNYGApvagNYGApvanLMOApvanLMOApvaqJgJApvaqJgJApvaxEUCm9rERQKb2tCiCAKb2tCiCAKb2uyPAwKb2uyPAwKb2vj0CgKb2vj0CgKb2pTQBQKb2pTQBQKb2uBoApva4GgCm9r81QsCm9r81QsC2Lm9ow4C2Lm9ow4C2LnJiAkC2LnJiAkC2LnldQLYueV1Ati58dILAti58dILAti5jb4DAti5jb4DAti5mZsKAti5mZsKAti5tcAFAti5tcAFAti5wa0NAti5wa0NAti5ncQLAti5ncQLAti5qaEDAti5qaEDArOAm7gEArOAm7gEArOAt+UPArOAt+UPArOAw8IGArOAw8IGArOA368OArOA368OArOA65QJArOA65QJArOAh3ACs4CHcAKzgJPdCwKzgJPdCwKzgK+6AwKzgK+6AwKzgPvSAQKzgPvSAQKzgJe+CQKzgJe+CQKul/mWCgKul/mWCgKul5XyBQKul5XyBQKul6HfDAKul6HfDAKul72EBAKul72EBAKul8nhDwKul8nhDwKul+XOBgKul+XOBgKul/GrDgKul/GrDgLEhvsNAujiyogIApXaqegIAu6exqcJArPuj7wLAteL2NsJAqmo5M0M5bygRJLJRYBLCCr4KahXwxRLZYw=" />
+</div>
+<script language="javascript" type="text/javascript">
+<!--
+function KeyDownHandlerctl00___ctl00___bs___s___SearchButton(event)
+{
+	if (event.keyCode == 13)
+	{
+		event.returnValue = false;
+		event.cancel = true;
+     __doPostBack('ctl00$_$ctl00$_$bs$_$s$_$SearchButton','')	}
+}
+
+//-->
+</script>
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="http://www.cromwellhaus.com/CS/blogs/ryanc/archive/2006/01/13/36.aspx"
+dc:identifier="http://www.cromwellhaus.com/CS/blogs/ryanc/archive/2006/01/13/36.aspx"
+dc:title="Windows Live Messenger Beta"
+trackback:ping="http://www.cromwellhaus.com/CS/blogs/trackback.aspx?PostID=36" />
+</rdf:RDF>
+-->
+</form>
+</body>
+</html>
+
