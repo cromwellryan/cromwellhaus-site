@@ -5,7 +5,7 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
-    "check-links": "node scripts/check-links.mjs _site"
+    "check-links": "node scripts/check-links.mjs _site ${PATH_PREFIX:-/}"
   },
   "license": "UNLICENSED",
   "type": "module",

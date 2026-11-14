@@ -3,15 +3,7 @@ permalink: /_redirects
 eleventyExcludeFromCollections: true
 ---
 # Netlify / Cloudflare Pages format. Old Community Server, WordPress and 2021-site URLs -> current permalinks.
-/feed/ /feed.xml 301
-/feed/atom/ /feed.xml 301
-/blogs/ryanc/rss.aspx /feed.xml 301
 /tag/* /category/:splat 301
-{%- for post in collections.posts %}
-{%- for p in post.data.redirect_from or [] %}
-{{ p }} {{ post.url }} 301
-{%- endfor %}
-{%- for p in post.data.original_urls | legacyPaths %}
-{{ p }} {{ post.url }} 301
-{%- endfor %}
+{%- for r in collections.redirects %}
+{{ r.from }} {{ r.to }} 301
 {%- endfor %}

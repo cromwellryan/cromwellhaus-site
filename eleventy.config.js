@@ -1,7 +1,22 @@
+import { HtmlBasePlugin } from "@11ty/eleventy";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
+// Unique legacy Community Server (.aspx) paths for a post.
+function legacyPaths(urls) {
+  const paths = new Set();
+  for (const u of urls || []) {
+    try {
+      const p = decodeURI(new URL(u).pathname).replace(/^\/CS\/blogs\//, "/blogs/");
+      if (p.endsWith(".aspx")) paths.add(p);
+    } catch {}
+  }
+  return [...paths];
+}
+
 export default function (eleventyConfig) {
+  // Prefixes root-relative URLs in HTML output with pathPrefix (e.g. /cromwellhaus-site/ on github.io).
+  eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPlugin(pluginRss);
   // Build-time Prism highlighting for ```lang fences; no client JS.
   eleventyConfig.addPlugin(syntaxHighlight, { preAttributes: { tabindex: 0 } });
@@ -56,22 +71,37 @@ export default function (eleventyConfig) {
       .trim();
     return text.length > n ? text.slice(0, text.lastIndexOf(" ", n)) + "…" : text;
   });
-  // Unique legacy Community Server (.aspx) paths for a post, for _redirects.
-  eleventyConfig.addFilter("legacyPaths", (urls) => {
-    const paths = new Set();
-    for (const u of urls || []) {
-      try {
-        const p = decodeURI(new URL(u).pathname).replace(/^\/CS\/blogs\//, "/blogs/");
-        if (p.endsWith(".aspx")) paths.add(p);
-      } catch {}
+  eleventyConfig.addFilter("legacyPaths", legacyPaths);
+
+  // [{ from, to }] for every old URL; rendered as _redirects and as HTML stubs (GitHub Pages ignores _redirects).
+  eleventyConfig.addCollection("redirects", (api) => {
+    const map = new Map([
+      ["/feed/", "/feed.xml"],
+      ["/feed/atom/", "/feed.xml"],
+      ["/blogs/ryanc/rss.aspx", "/feed.xml"],
+    ]);
+    const posts = api.getFilteredByGlob("src/posts/*.md").filter((p) => p.url);
+    for (const post of posts) {
+      for (const from of [...(post.data.redirect_from || []), ...legacyPaths(post.data.original_urls)]) {
+        map.set(from, post.url);
+      }
     }
-    return [...paths];
+    // WordPress /tag/x/ archives -> the category of the same name, where there is one.
+    const slugify = eleventyConfig.getFilter("slugify");
+    for (const cat of new Set(posts.flatMap((p) => p.data.categories || []))) {
+      map.set(`/tag/${slugify(cat)}/`, `/category/${slugify(cat)}/`);
+    }
+    return [...map].map(([from, to]) => ({ from, to }));
   });
+  // Output file for a redirect stub: /a/b.aspx -> /a/b.aspx/index.html (Pages 301s /a/b.aspx to the slash form).
+  eleventyConfig.addFilter("stubPath", (from) => (from.endsWith("/") ? from : from + "/") + "index.html");
 
   eleventyConfig.amendLibrary("md", (md) => md.set({ html: true, linkify: false, typographer: false }));
 
   return {
     dir: { input: "src", output: "_site", includes: "_includes", data: "_data" },
+    // CI sets PATH_PREFIX from the Pages base path; "/" once a custom domain is in place.
+    pathPrefix: process.env.PATH_PREFIX || "/",
     // Recovered posts contain code samples with {{ }} / {% %}; never run them through a template engine.
     markdownTemplateEngine: false,
     htmlTemplateEngine: "njk",
