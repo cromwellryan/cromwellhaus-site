@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+---
+<article class="post">
+  <header>
+    <h1>{{ title }}</h1>
+    <p class="meta">
+      <time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time>
+      {%- if categories and categories.length %} · {% for cat in categories %}<a href="/category/{{ cat | slugify }}/">{{ cat }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
+    </p>
+  </header>
+
+  {%- if excerpt_only %}
+  <aside class="notice">Only an excerpt of this post survived in the web archive.</aside>
+  {%- endif %}
+
+  <div class="content">
+    {{ content | safe }}
+  </div>
+
+  {%- if wayback_source %}
+  <p class="provenance">Recovered from the <a href="{{ wayback_source }}">Wayback Machine</a>.</p>
+  {%- endif %}
+
+  {%- set prev = collections.posts | getNextCollectionItem(page) %}
+  {%- set next = collections.posts | getPreviousCollectionItem(page) %}
+  <nav class="pager">
+    {%- if prev %}<a rel="prev" href="{{ prev.url }}">← {{ prev.data.title }}</a>{% else %}<span></span>{% endif %}
+    {%- if next %}<a rel="next" href="{{ next.url }}">{{ next.data.title }} →</a>{% endif %}
+  </nav>
+</article>

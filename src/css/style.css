@@ -1,0 +1,120 @@
+:root {
+  --bg: #fdfcfa;
+  --fg: #1f2328;
+  --muted: #656d76;
+  --accent: #b4441b;
+  --rule: #e6e2dc;
+  --code-bg: #f3f1ed;
+  --measure: 42rem;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16181b;
+    --fg: #e6e6e3;
+    --muted: #9aa0a6;
+    --accent: #f0875a;
+    --rule: #2c3035;
+    --code-bg: #202328;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 112.5%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 1rem/1.65 Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+}
+
+a { color: var(--accent); text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+
+.site-header, main, .site-footer {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--rule);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.site-title { font-weight: 700; font-size: 1.2rem; color: var(--fg); text-decoration: none; }
+.site-header nav { display: flex; gap: 1rem; font-size: 0.9rem; }
+.site-header nav a { color: var(--muted); text-decoration: none; }
+.site-header nav a:hover, .site-header nav a[aria-current] { color: var(--fg); }
+
+main { padding-top: 2rem; padding-bottom: 3rem; }
+
+h1, h2, h3, h4 { line-height: 1.25; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+h1 { font-size: 2rem; margin: 0 0 0.25rem; }
+
+.meta, .provenance, .count, .archive-list time {
+  color: var(--muted);
+  font: 0.85rem/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.meta { margin-top: 0; }
+.meta a { color: inherit; }
+
+.content img { max-width: 100%; height: auto; }
+.content blockquote { margin: 1.25rem 0; padding-left: 1rem; border-left: 3px solid var(--rule); color: var(--muted); }
+.content blockquote:has(pre) { border-left: 0; padding-left: 0; color: inherit; }
+.content table { border-collapse: collapse; display: block; overflow-x: auto; }
+.content td, .content th { border: 1px solid var(--rule); padding: 0.3rem 0.6rem; }
+
+code, pre { font: 0.85rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+:not(pre) > code { background: var(--code-bg); padding: 0.1em 0.3em; border-radius: 3px; }
+pre { background: var(--code-bg); padding: 1rem; overflow-x: auto; border-radius: 6px; }
+
+.notice {
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--accent);
+  background: var(--code-bg);
+  font: 0.9rem/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.provenance { margin-top: 2.5rem; }
+
+.pager {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font: 0.9rem/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.pager span { color: var(--muted); }
+
+.post-list { list-style: none; padding: 0; margin: 0; }
+.post-list li { margin-bottom: 2.25rem; }
+.post-list h2 { margin: 0; font-size: 1.35rem; }
+.post-list h2 a { color: var(--fg); text-decoration: none; }
+.post-list h2 a:hover { color: var(--accent); }
+.post-list p { margin: 0.35rem 0 0; }
+
+.archive-list, .category-list { list-style: none; padding: 0; }
+.archive-list li { display: flex; gap: 1rem; padding: 0.2rem 0; }
+.archive-list time { flex: 0 0 6.5rem; padding-top: 0.2rem; }
+.category-list { columns: 2 14rem; }
+.category-list li { padding: 0.15rem 0; }
+
+.site-footer {
+  padding-bottom: 3rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font: 0.85rem/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+}

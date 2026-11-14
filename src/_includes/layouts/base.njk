@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if title %}{{ title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ description or site.description }}">
+  <link rel="canonical" href="{{ page.url | absoluteUrl(site.url) }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="/">{{ site.title }}</a>
+    <nav>
+      {%- for item in site.nav %}
+      <a href="{{ item.url }}"{% if page.url.startsWith(item.url) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {%- endfor %}
+    </nav>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+  <footer class="site-footer">
+    <p>© 2005–{{ build.year }} {{ site.author }} · <a href="/feed.xml">Feed</a></p>
+  </footer>
+</body>
+</html>
