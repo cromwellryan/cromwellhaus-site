@@ -53,17 +53,15 @@ Recovered posts carry extra front matter (`original_urls`, `wayback_source`, `ex
 
 ## Deploying
 
-Every push to `main` builds and deploys to GitHub Pages (`.github/workflows/build.yml`); pull requests build and link-check only. Live at https://cromwellryan.github.io/cromwellhaus-site/ until the custom domain is set.
+Every push to `main` builds and deploys to GitHub Pages (`.github/workflows/build.yml`) at https://cromwellhaus.com; pull requests build and link-check only.
 
-- `PATH_PREFIX` / `SITE_URL` come from the Pages config, so the github.io build is served under `/cromwellhaus-site/`. Locally both default to `/` and https://cromwellhaus.com.
+- `PATH_PREFIX` / `SITE_URL` come from the Pages config (`/` and https://cromwellhaus.com with the custom domain; `/cromwellhaus-site/` on plain github.io). Locally both default to `/` and https://cromwellhaus.com.
 - GitHub Pages ignores `_redirects`, so every old URL also gets an HTML stub (`src/redirect-stubs.njk`, from the `redirects` collection) that meta-refreshes to the new permalink. `_redirects` is still emitted for Netlify / Cloudflare Pages.
 - Feed readers don't follow meta refresh: subscribers on `/feed/` or `rss.aspx` need a real 301, which Pages can't do.
 
-### Switching cromwellhaus.com to Pages
+### DNS (DNSimple)
 
-1. Repo Settings → Pages → Custom domain: `cromwellhaus.com` (enable Enforce HTTPS once the certificate is issued).
-2. In DNSimple, replace the Heroku records: apex `A` records 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153 (and `AAAA` 2606:50c0:8000::153 … 8003::153), `www` `CNAME` cromwellryan.github.io.
-3. Re-run the workflow (Actions → Build and deploy → Run workflow) so the build picks up the empty base path.
+Switched from Heroku on 2026-11-14. Apex `A` 185.199.108–111.153 and `AAAA` 2606:50c0:8000–8003::153; `www` `CNAME` cromwellryan.github.io. Mail (Google MX/SPF, `mail`, `calendar`) and `vpn` records are unrelated and unchanged. Custom domain and Enforce HTTPS are set in repo Settings → Pages; if the domain is ever re-set, re-run the workflow so the build picks up the new base path/URL.
 
 ## Known gaps from the recovery
 
