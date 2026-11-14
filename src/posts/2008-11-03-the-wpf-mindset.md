@@ -7,6 +7,7 @@ tags: ["WPF"]
 original_urls: ["http://blog.cromwellhaus.com/2008/11/the-wpf-mindset/", "http://blog.cromwellhaus.com/index.php/2008/11/the-wpf-mindset/", "http://blog.cromwellhaus.com:80/index.php/2008/11/the-wpf-mindset", "http://blog.cromwellhaus.com:80/index.php/2008/11/the-wpf-mindset/", "http://blog.cromwellhaus.com:80/index.php/2008/11/the-wpf-mindset/comment-page-1/", "http://cromwellhaus.com/2008/11/the-wpf-mindset/", "http://cromwellhaus.com/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx", "http://cromwellhaus.com:80/blogs/ryanc/archive/2008/11/03/the-wpf-mindset.aspx"]
 wayback_source: "https://web.archive.org/web/20100221213909/http://blog.cromwellhaus.com:80/index.php/2008/11/the-wpf-mindset"
 excerpt_only: false
+redirect_from: ["/the-wpf-mindset"]
 permalink: "/2008/11/the-wpf-mindset/"
 ---
 

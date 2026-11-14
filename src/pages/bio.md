@@ -7,7 +7,7 @@ tags: []
 original_urls: ["http://blog.cromwellhaus.com:80/about/", "http://blog.cromwellhaus.com:80/index.php/about/", "http://cromwellhaus.com:80/about/", "https://cromwellhaus.com/about/"]
 wayback_source: "https://web.archive.org/web/20100117185623/http://blog.cromwellhaus.com:80/index.php/about/"
 excerpt_only: false
-permalink: "/about/"
+permalink: "/about/2010/"
 ---
 
 For those seeking a bio for an upcoming engagement, feel free to select from those below.  Please do not edit these for any reason.  If neither meets your needs, please contact me for a custom bio.

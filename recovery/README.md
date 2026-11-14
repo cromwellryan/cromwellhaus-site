@@ -34,3 +34,11 @@ uv run --no-project --with beautifulsoup4 --with lxml --with markdownify python 
 uv run --no-project python -I scripts/images.py content
 python3 -I scripts/relink.py content
 ```
+
+## 2021 site (Contentful)
+
+The 2021 Next.js site (`cromwellryan/cromwellhaus-com`) read 4 Contentful entries: 2 posts and 2 links to work published elsewhere. Next.js embeds each page's entries as `__NEXT_DATA__`, so the snapshots in `contentful/` (saved 2026-11-14 from https://cromwellhaus.com) hold them in full; no API token was needed. `/the-wpf-mindset` was a re-paste of the 2008 post and is skipped in favour of the original, which carries a `redirect_from` for it. The About page was hard-coded in that repo (`pages/about.js`) and was copied into `../src/pages/about.md` by hand.
+
+```
+python3 -I scripts/contentful.py contentful content --skip the-wpf-mindset
+```

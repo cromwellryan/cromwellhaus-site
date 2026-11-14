@@ -25,7 +25,7 @@ layout: layouts/base.njk
   {%- set prev = collections.posts | getNextCollectionItem(page) %}
   {%- set next = collections.posts | getPreviousCollectionItem(page) %}
   <nav class="pager">
-    {%- if prev %}<a rel="prev" href="{{ prev.url }}">← {{ prev.data.title }}</a>{% else %}<span></span>{% endif %}
-    {%- if next %}<a rel="next" href="{{ next.url }}">{{ next.data.title }} →</a>{% endif %}
+    {%- if prev %}<a rel="prev" href="{{ prev.data.external_url or prev.url }}">← {{ prev.data.title }}</a>{% else %}<span></span>{% endif %}
+    {%- if next %}<a rel="next" href="{{ next.data.external_url or next.url }}">{{ next.data.title }} →</a>{% endif %}
   </nav>
 </article>

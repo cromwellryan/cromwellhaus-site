@@ -14,7 +14,7 @@
     <a class="site-title" href="/">{{ site.title }}</a>
     <nav>
       {%- for item in site.nav %}
-      <a href="{{ item.url }}"{% if page.url.startsWith(item.url) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      <a href="{{ item.url }}"{% if page.url and page.url.startsWith(item.url) %} aria-current="page"{% endif %}>{{ item.label }}</a>
       {%- endfor %}
     </nav>
   </header>

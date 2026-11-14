@@ -1,6 +1,6 @@
 # cromwellhaus.com
 
-Markdown blog built with [Eleventy](https://www.11ty.dev/) 3. Content before 2021 was recovered from the Wayback Machine; the captures and scripts that produced `src/posts` live in `recovery/` (see `recovery/README.md`).
+Markdown blog built with [Eleventy](https://www.11ty.dev/) 3. Content before 2021 was recovered from the Wayback Machine and the 2021 posts from the Contentful-backed site; the captures and scripts that produced `src/posts` live in `recovery/` (see `recovery/README.md`).
 
 ## Run
 
@@ -45,6 +45,8 @@ permalink: /2026/11/my-post/
 Write here.
 ```
 
+Optional front matter: `redirect_from: ["/old-path"]` adds 301s to `_redirects`; `external_url` (with `permalink: false`) makes a listing-only entry that links to something published elsewhere.
+
 `permalink` is optional; without it Eleventy uses `/posts/2026-11-20-my-post/`. Markdown is not run through a template engine, so `{{ }}` in code samples is safe.
 
 Recovered posts carry extra front matter (`original_urls`, `wayback_source`, `excerpt_only`). The post layout uses the last two to show a provenance link and an "excerpt only" notice; delete them from a post once you've restored or rewritten it.
@@ -54,8 +56,6 @@ Recovered posts carry extra front matter (`original_urls`, `wayback_source`, `ex
 Not deployed yet; cromwellhaus.com still serves the 2021 Next.js/Contentful site (`cromwellryan/cromwellhaus-com`) from Heroku, DNS at DNSimple.
 
 Any static host works: build command `npm run build`, publish directory `_site`, Node 20+. `_site/_redirects` is in Netlify / Cloudflare Pages format; on GitHub Pages or S3 it is ignored, so translate it or the legacy URLs will 404.
-
-Before switching DNS, export the 2021+ posts from Contentful into `src/posts/`; they are not in this repo.
 
 ## Known gaps from the recovery
 
