@@ -34,5 +34,3 @@ As I mentioned yesterday, I received my [Windows Live Mail beta invitation](http
 - Consider using the [telerik r.a.d editor](http://www.telerik.com/)... it's amazing!
 - The folder and mail windows do not scale at all when going above 1024x768. ***UPDATE: This must have been a temporary thing, because it scales just fine now. Let you know if it happens again.***
   I've sent these via the ginormous Send Feedback image/link on every page. I'm sure I'll come up with more.
-
-

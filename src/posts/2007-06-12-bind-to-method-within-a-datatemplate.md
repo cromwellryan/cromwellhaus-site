@@ -16,37 +16,37 @@ Here's what happened and how to actually accomplish such a task:
 
 I started out with an ItemsControl, rather than a ListView as most examples show, using a UniformGrid as the ItemsPanel.
 
-> ```
-> <ItemsControl ItemTemplate="{StaticResource photoItem}" ItemsSource="{Binding Source={StaticResource dpPhotos}, XPath=/rss/channel/item}">
->   <ItemsControl.ItemsPanel>
->     <ItemsPanelTemplate>
->       <UniformGrid HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" />
->     </ItemsPanelTemplate>
->   </ItemsControl.ItemsPanel>
-> </ItemsControl>
-> ```
+```xml
+<ItemsControl ItemTemplate="{StaticResource photoItem}" ItemsSource="{Binding Source={StaticResource dpPhotos}, XPath=/rss/channel/item}">
+  <ItemsControl.ItemsPanel>
+    <ItemsPanelTemplate>
+      <UniformGrid HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" />
+    </ItemsPanelTemplate>
+  </ItemsControl.ItemsPanel>
+</ItemsControl>
+```
 
 I bound the ItemsSource to an XmlDataProvider pointing to the photos [RSS feed for Ryan Jr. pictures](http://cromwellhaus.com/photos/baby/pictures_rss.aspx?Tags=Ryan+Jr&AndTags=1).
 
-> ```
-> <XmlDataProvider x:Key="dpPhotos" Source="http://cromwellhaus.com/photos/baby/pictures_rss.aspx?Tags=Ryan+Jr&amp;AndTags=1" XmlNamespaceManager="{StaticResource rssMapping}"/>
-> ```
+```xml
+<XmlDataProvider x:Key="dpPhotos" Source="http://cromwellhaus.com/photos/baby/pictures_rss.aspx?Tags=Ryan+Jr&amp;AndTags=1" XmlNamespaceManager="{StaticResource rssMapping}"/>
+```
 
 I run our site using [Community Server 2007 Express Edition](http://get.communityserver.org/express.aspx) which provides RSS meta extensions for more detailed feeds.  This required that I apply an [XmlNamespaceManager](http://msdn2.microsoft.com/en-us/library/system.xml.xmlnamespacemanager.aspx) to define these extension namespaces.  That's what this is for:
 
-> ```
-> <XmlNamespaceMappingCollection x:Key="rssMapping">
->   <XmlNamespaceMapping Uri="http://search.yahoo.com/mrss" Prefix="media" />
-> </XmlNamespaceMappingCollection>
-> ```
+```xml
+<XmlNamespaceMappingCollection x:Key="rssMapping">
+  <XmlNamespaceMapping Uri="http://search.yahoo.com/mrss" Prefix="media" />
+</XmlNamespaceMappingCollection>
+```
 
 Here is the DataTemplate used by the ItemsControl to display/render each image.  You'll see this referred to in above as {StaticResource photoItem}:
 
-> ```
-> <DataTemplate x:Key="photoItem">
->   <Image Margin="12,12,12,12" Source="{Binding Mode=Default, XPath=media:thumbnail/@url}" ToolTip="{Binding XPath=title}" Width="{Binding Mode=Default, XPath=media:thumbnail/@width}" Height="{Binding Mode=Default, XPath=media:thumbnail/@height}" />
-> </DataTemplate>
-> ```
+```xml
+<DataTemplate x:Key="photoItem">
+  <Image Margin="12,12,12,12" Source="{Binding Mode=Default, XPath=media:thumbnail/@url}" ToolTip="{Binding XPath=title}" Width="{Binding Mode=Default, XPath=media:thumbnail/@width}" Height="{Binding Mode=Default, XPath=media:thumbnail/@height}" />
+</DataTemplate>
+```
 
 You can see the use of the XmlNamespaceMapping in the XPath=*media:*thumbnail/@url.  That had me stumped for a few seconds, but opening the project up in [Expression Blend](http://www.microsoft.com/Expression/products/overview.aspx?key=blend) and re-adding the XmlDataProvider created the Mappings for me.  (Sidebar: VS 2008 does do this for you - thank goodness)
 
@@ -56,69 +56,66 @@ At this point, we are displaying thumbnails and we are certainly aware that I ma
 
 **Applying the RotateTransform** is easy...
 
-> ```
-> <Image Margin="12,12,12,12" Source="{Binding Mode=Default, XPath=media:thumbnail/@url}" ToolTip="{Binding XPath=title}" Width="{Binding Mode=Default, XPath=media:thumbnail/@width}" Height="{Binding Mode=Default, XPath=media:thumbnail/@height}">
->   <Image.RenderTransform>
->     <RotateTransform Angle="10" />
->   </Image.RenderTransform>
-> </Image>
-> ```
+```xml
+<Image Margin="12,12,12,12" Source="{Binding Mode=Default, XPath=media:thumbnail/@url}" ToolTip="{Binding XPath=title}" Width="{Binding Mode=Default, XPath=media:thumbnail/@width}" Height="{Binding Mode=Default, XPath=media:thumbnail/@height}">
+  <Image.RenderTransform>
+    <RotateTransform Angle="10" />
+  </Image.RenderTransform>
+</Image>
+```
 
 ...and it's almost as easy to use the [System.Random](http://www.google.com/url?sa=t&ct=res&cd=1&url=http%3A%2F%2Fmsdn2.microsoft.com%2Fen-us%2Flibrary%2Fsystem.random.aspx&ei=I-BuRpy4K5TSgwSd7LzRBA&usg=AFQjCNH7kwYGhG5DHJPSH49s3FQbKjrKZA&sig2=fMHOOh5R2_XhBt2qEkxLPw) class to generate the angle.  Just add the following ObjectDataProvider as a Window or Application Resource and bind the Angle property to it:
 
-> ```
-> <ObjectDataProvider x:Key="randomAngle" ObjectType="{x:Type system:Random}" MethodName="Next">
->   <ObjectDataProvider.MethodParameters>
->     <system:Int32>-12</system:Int32>
->     <system:Int32>12</system:Int32>
->   </ObjectDataProvider.MethodParameters>
-> </ObjectDataProvider>
-> ```
+```xml
+<ObjectDataProvider x:Key="randomAngle" ObjectType="{x:Type system:Random}" MethodName="Next">
+  <ObjectDataProvider.MethodParameters>
+    <system:Int32>-12</system:Int32>
+    <system:Int32>12</system:Int32>
+  </ObjectDataProvider.MethodParameters>
+</ObjectDataProvider>
+```
 
-> ```
-> ...
-> ```
->
-> ```
-> <RotateTransform Angle="{Binding Source={StaticResource randomAngle}" />
-> ```
+```
+...
+<RotateTransform Angle="{Binding Source={StaticResource randomAngle}" />
+```
 
 Well when you do this, you'll find that you get the same Angle for every image.  This is because you are actually binding to a single instance of the ObjectDataProvider.  To resolve this we actually have to embed the ODP in the transform itself as so:
 
-> ```
-> <RotateTransform>
->   <RotateTransform.Angle>
->     <Binding>
->       <Binding.Source>
->         <ObjectDataProvider ObjectType="{x:Type system:Random}" MethodName="Next">
->           <ObjectDataProvider.MethodParameters>
->             <system:Int32>-12</system:Int32>
->             <system:Int32>12</system:Int32>
->           </ObjectDataProvider.MethodParameters>
->         </ObjectDataProvider>
->       </Binding.Source>
->     </Binding>
->   </RotateTransform.Angle>
-> </RotateTransform>
-> ```
+```xml
+<RotateTransform>
+  <RotateTransform.Angle>
+    <Binding>
+      <Binding.Source>
+        <ObjectDataProvider ObjectType="{x:Type system:Random}" MethodName="Next">
+          <ObjectDataProvider.MethodParameters>
+            <system:Int32>-12</system:Int32>
+            <system:Int32>12</system:Int32>
+          </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+      </Binding.Source>
+    </Binding>
+  </RotateTransform.Angle>
+</RotateTransform>
+```
 
 *Tada!*[![image](http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/BindtoMethodwithinaDataTemplate_CB86/image_thumb_3.png)](http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/BindtoMethodwithinaDataTemplate_CB86/image_4.png)
 
 Now you will find that your angle's aren't terribly "Random".  This is because you are actually asking for a new instance of the Random class each time.  You can tell the ODP within the DataTemplate to use the same instance each time by adding this to the Window Resources:
 
-> ```
-> <ObjectDataProvider x:Key="randomAngle" ObjectType="{x:Type system:Random}"/>
-> ```
+```xml
+<ObjectDataProvider x:Key="randomAngle" ObjectType="{x:Type system:Random}"/>
+```
 
 and modifying the Angle binding to the following, telling the transform ODP to use a specific resource instance rather than just giving it a type to instantiate each time.
 
-> ```
-> <ObjectDataProvider ObjectInstance="{StaticResource randomAngle}" MethodName="Next">
->   <ObjectDataProvider.MethodParameters>
->     <system:Int32>-12</system:Int32>
->     <system:Int32>12</system:Int32>
->   </ObjectDataProvider.MethodParameters>
-> </ObjectDataProvider>
-> ```
+```xml
+<ObjectDataProvider ObjectInstance="{StaticResource randomAngle}" MethodName="Next">
+  <ObjectDataProvider.MethodParameters>
+    <system:Int32>-12</system:Int32>
+    <system:Int32>12</system:Int32>
+  </ObjectDataProvider.MethodParameters>
+</ObjectDataProvider>
+```
 
 You can download a mini-version used to write this post [here](http://cromwellhaus.com/files/folders/wpf/entry192.aspx "WPFBindToMethodExample").

@@ -14,69 +14,69 @@ I don’t often have the need to implement the [Visitor Pattern](http://www.dofa
 
 I played around for a few minutes and here is what I came up with:
 
-> ```
-> public abstract class CarBase
-> {
->     public void Visit(Action<CarBase> action)
->     {
->         if (action != null)
->             action(this);
->     }
-> }
->
-> public class BigCar : CarBase
-> {
->     public void RunOverLittleCar()
->     {
->         Console.WriteLine("Me smash little car!");
->     }
-> }
->
-> public class LittleCar : CarBase
-> {
->     public virtual void RunAwayFromBigCar()
->     {
->         Console.WriteLine("Go Faster!");
->     }
-> }
->
-> public class EcoCar : LittleCar
-> {
->     public override void RunAwayFromBigCar()
->     {
->         Console.WriteLine("Ouch.");
->     }
-> }
-> ```
->
-> ```
-> class Program
-> {
->     static void Main(string[] args)
->     {
->         IList<CarBase> cars = new List<CarBase>(new CarBase[] {
->                                                                 new BigCar(),
->                                                                 new LittleCar(),
->                                                                 new EcoCar()
->                                                               });
->         foreach (CarBase car in cars)
->         {
->             car.Visit(delegate(CarBase c)
->             {
->                 if (c is BigCar)
->                     ((BigCar)c).RunOverLittleCar();
->                 else if (c is LittleCar)
->                     ((LittleCar)c).RunAwayFromBigCar();
->                 else if (c is EcoCar)
->                     ((EcoCar)c).RunAwayFromBigCar();
->             });
->         }
->
->         if (Debugger.IsAttached)
->             Console.ReadLine();
->     }
-> }
-> ```
+```csharp
+public abstract class CarBase
+{
+    public void Visit(Action<CarBase> action)
+    {
+        if (action != null)
+            action(this);
+    }
+}
+
+public class BigCar : CarBase
+{
+    public void RunOverLittleCar()
+    {
+        Console.WriteLine("Me smash little car!");
+    }
+}
+
+public class LittleCar : CarBase
+{
+    public virtual void RunAwayFromBigCar()
+    {
+        Console.WriteLine("Go Faster!");
+    }
+}
+
+public class EcoCar : LittleCar
+{
+    public override void RunAwayFromBigCar()
+    {
+        Console.WriteLine("Ouch.");
+    }
+}
+```
+
+```csharp
+class Program
+{
+    static void Main(string[] args)
+    {
+        IList<CarBase> cars = new List<CarBase>(new CarBase[] {
+                                                                new BigCar(),
+                                                                new LittleCar(),
+                                                                new EcoCar()
+                                                              });
+        foreach (CarBase car in cars)
+        {
+            car.Visit(delegate(CarBase c)
+            {
+                if (c is BigCar)
+                    ((BigCar)c).RunOverLittleCar();
+                else if (c is LittleCar)
+                    ((LittleCar)c).RunAwayFromBigCar();
+                else if (c is EcoCar)
+                    ((EcoCar)c).RunAwayFromBigCar();
+            });
+        }
+
+        if (Debugger.IsAttached)
+            Console.ReadLine();
+    }
+}
+```
 
 In many implementations of the visitor pattern there is an adapter or actual Visitor interface and implementation class which is passed into the Visit() method.  This is just smooth.
 

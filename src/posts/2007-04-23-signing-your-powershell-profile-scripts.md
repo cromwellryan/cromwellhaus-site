@@ -12,17 +12,16 @@ permalink: "/2007/04/signing-your-powershell-profile-scripts/"
 
 Running with [Set-ExecutionPolicy](http://www.microsoft.com/technet/scriptcenter/topics/msh/cmdlets/set-executionpolicy.mspx) as AllSigned or Restricted with a roaming profile?  Here's a cmdlet pair that will sign all the scripts in your profile directory.  Makes life easier on me as I include a number of scripts into my main profile for readability:
 
-> *function sign-profile()  
-> {  
->     dir $Profiledir\\*.ps1 | foreach-object { sign-script $\_.FullName }  
-> }*
->
-> *function sign-script( $scriptsource )   
-> {  
->     get-item $scriptsource   
->     Set-AuthenticodeSignature $scriptsource @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0]  
-> }*
+```powershell
+ function sign-profile()
+{
+    dir $Profiledir\*.ps1 | foreach-object { sign-script $_.FullName }
+}
+ function sign-script( $scriptsource )
+{
+    get-item $scriptsource
+    Set-AuthenticodeSignature $scriptsource @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0]
+}
+```
 
 And if you aren't already using Powershell, stop wasting your time with the Command Prompt and [go get it](http://www.microsoft.com/powershell/download).  Don't forget the [Powershell Community Extensions](http://www.codeplex.com/PowerShellCX/)
-
-

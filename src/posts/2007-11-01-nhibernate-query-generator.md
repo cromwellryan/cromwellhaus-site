@@ -10,4 +10,4 @@ excerpt_only: false
 permalink: "/2007/11/nhibernate-query-generator/"
 ---
 
-Had to replace 1.2.0.2002 with 1.2.0.4000 of NHibernate.dll.  Binding redirect. <dependentAssembly> <assemblyIdentity name=”NHibernate” culture=”" publicKeyToken=”"/> <bindingRedirect oldVersion=”1.2.0.2002″ newVersion=”1.2.0.4000″/> </dependentAssembly>
+Had to replace 1.2.0.2002 with 1.2.0.4000 of NHibernate.dll.  Binding redirect. &lt;dependentAssembly> &lt;assemblyIdentity name=”NHibernate” culture=”" publicKeyToken=”"/> &lt;bindingRedirect oldVersion=”1.2.0.2002″ newVersion=”1.2.0.4000″/> &lt;/dependentAssembly>

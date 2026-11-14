@@ -20,7 +20,7 @@ Well no longer…
 
 PsGist provides a PowerShell function called (wait for it) gist.  Try not to forget that one, ok?  The usage is simple:
 
-> gist [[-File] <FileInfo>] [[-Description] <String>] [[-Username] <String>]
+> gist [[-File] &lt;FileInfo>] [[-Description] &lt;String>] [[-Username] &lt;String>]
 
 Username is optional.  If you don’t provide it your gist will be public and anonymous.  If you do, you’ll be prompted for your password.  This is different than [Gister](visualstudiogallery.msdn.microsoft.com/b31916b0-c026-4c27-9d6b-ba831093f6b2) where I only prompt once and cache the creds.  Here you’ll have to specify the password each time.  Deal with it or [fix it](https://github.com/cromwellryan/psgist/pulls).
 
@@ -28,7 +28,7 @@ Here’s an example:
 
 [![SNAGHTMLae19e88](http://blog.cromwellhaus.com/wp-content/uploads/2012/03/SNAGHTMLae19e88_thumb.png "SNAGHTMLae19e88")](http://blog.cromwellhaus.com/wp-content/uploads/2012/03/SNAGHTMLae19e88.png)
 
-Notice how after the gist is created the Url is written to the console/host?  Well PsGist also puts the Url into your clipboard.  So you can quickly go to IRC, IM, Twitter, etc and past the Url.  Or you can use ALT+<Space>, E, P to paste it quickly into your console and open the gist.
+Notice how after the gist is created the Url is written to the console/host?  Well PsGist also puts the Url into your clipboard.  So you can quickly go to IRC, IM, Twitter, etc and past the Url.  Or you can use ALT+&lt;Space>, E, P to paste it quickly into your console and open the gist.
 
 **Needed: Pipe the output**
 

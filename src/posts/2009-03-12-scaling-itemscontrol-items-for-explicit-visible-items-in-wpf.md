@@ -16,128 +16,44 @@ The end result of the concept can be visualize in [this Xbap example](http://cod
 
 Here is the meat of the code for the RelativeSizeConverter I came up with:
 
-```
-```
+```csharp
 public class RelativeSizeConverter : IMultiValueConverter
-```
-
-```
 {
-```
-
-```
     public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
-```
-
-```
     {
-```
-
-```
         if( values.Length != 3 )
-```
-
-```
             throw new InvalidOperationException("Don't do that!");
-```
-
-```
         double containerSize = System.Convert.ToDouble(values[0]);
-```
-
-```
         int totalItems = System.Convert.ToInt32(values[1]);
-```
-
-```
         int visibleItems = System.Convert.ToInt32(values[2]);
-```
-
-```
         var visibleSubgroupSize = containerSize / visibleItems;
-```
-
-```
         return totalItems * visibleSubgroupSize;
-```
-
-```
     }
-```
-
-```
 }
-```
 ```
 
 Basically we figure out how wide things would be if we only had the visible items and then we apply that to all the items return.  In order for this to work, there cannot be any sizing between the ItemsControl and the ScrollViewer, but its a small price to pay.  That would look odd any way in my opinion, but maybe I am simply justifying the solution!
 
 Anyways, putting this RelativeSizeConverter to use, we get:
 
-```
-```
+```xml
 <ScrollViewer x:Name="container" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-```
-
-```
     <ItemsControl x:Name="itemsToScale">
-```
-
-```
         <ItemsControl.Width>
-```
-
-```
             <MultiBinding Converter="{StaticResource sizeConverter}">
-```
-
-```
                 <Binding ElementName="container" Path="ActualWidth" />
-```
-
-```
                 <Binding ElementName="itemsToScale" Path="Items.Count" />
-```
-
-```
                 <Binding ElementName="scaleSize" Path="Value" />
-```
-
-```
             </MultiBinding>
-```
-
-```
         </ItemsControl.Width>
-```
-
-```
     </ItemsControl>
-```
-
-```
 </ScrollViewer>
-```
-
-```
 <Slider x:Name="scaleSize" Width="100" HorizontalAlignment="Center"
-```
-
-```
         Minimum="2" Maximum="{Binding ElementName=itemsToScale, Path=Items.Count}"
-```
-
-```
         Value="{Binding ElementName=itemsToScale, Path=Items.Count, Mode=OneWay}"
-```
-
-```
         IsSnapToTickEnabled="True" TickFrequency="1" />
-```
 ```
 
 Notice we use the ScrollViewer’s ActualWidth as our “containerSize”.  The ItemsControl itself has the “totalItems” count, and finally we are using a Slider with the name “scaleSize” to adjust the “visibleItems” count.
 
 Code for the [Xbap sample](http://code.cromwellhaus.com/ShowingOnlyXVisibleItemsInItemsControl/ShowingOnlyXVisibleItemsInItemsControl.xbap) at the top can be downloaded [here](http://code.cromwellhaus.com/ShowingOnlyXVisibleItemsInItemsControl/ShowingOnlyXVisibleItemsInItemsControl.zip).
-
-

@@ -18,7 +18,7 @@ My head went to `git format-patch <sha>`, but I didn’t recall an option to ta
 
 Format that as `--pretty=email` and you can direct the output to a patch for
 
-```
+```bash
 git show --pretty=email <sha> -- path/that/moved> pr-for-other-repo.patch
 ```
 
@@ -26,7 +26,7 @@ Now we can pull that into our other repo with  `git am -3 pr-for-other-repo.patc
 
 Turns out that `-- path/that/moved` semantic does work with `git format-patch`. So in the end, we could have just used
 
-```
+```bash
 git format-patch -1 -- path/that/moved
 git am -3 partial-pr.patch
 ```

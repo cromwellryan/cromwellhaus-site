@@ -13,5 +13,3 @@ permalink: "/2007/05/awesome-tool-of-the-day-baretail/"
 Every now and again I find a tool that changes my life.  [Baretail](http://www.baremetalsoft.com/baretail/) is just such a tool.  I don't know what I did before, but it couldn't have been good.  Baretail is a log file reader/watcher that trails the end of your log files.  This may not be too exciting for you, but here in the [Speedy Rewards](http://www.speedway.com/speedyrewards/) team, we have some terribly verbose 3rd party log files that are our only real insight into activity.  This has made my week!
 
 [![](http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayBaretail_8BB6/baretail-screencap_thumb%5B1%5D.png)](http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayBaretail_8BB6/baretail-screencap%5B1%5D.png)
-
-

@@ -16,9 +16,9 @@ Here’s one of those real-world situations that no one bothers to demo.  If yo
 2. Iterate the controls collection and find the lowest TabIndex (terrible [code smell](http://en.wikipedia.org/wiki/Code_smell)).
 3. Do the following in the Load event:
 
-> ```
-> this.MoveFocus(new TraversalRequest(FocusNavigationDirection.Next));
-> ```
+```csharp
+this.MoveFocus(new TraversalRequest(FocusNavigationDirection.Next));
+```
 
 - [Previous Entry: Lap Around WPF @ CONDG](/2007/09/lap-around-wpf-codng/)
 - [Next Entry: PerformanceHelper.cs Update: Perfmon, Console, and Debug Output options](/2007/10/performancehelper-cs-update-perfmon-console-and-debug-output-options/)

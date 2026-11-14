@@ -14,31 +14,31 @@ Tonight I presented for the [Dayton .Net Developers Group](http://daytondevgroup
 
 MiniMVC is, primarily, a set of [DependencyProperties](http://msdn2.microsoft.com/en-us/library/system.windows.dependencyproperty.aspx) and custom [ICommand](http://msdn2.microsoft.com/en-us/library/system.windows.input.icommand.aspx)'s which allow you to specify a Controller for any [FrameworkElement](http://msdn2.microsoft.com/en-us/library/system.windows.frameworkelement.aspx) and/or Action in the [logical tree](http://msdn2.microsoft.com/en-us/library/ms753391.aspx#logical_tree).  Unlike [Dan Crevier's D-V-VM](http://blogs.msdn.com/dancre/archive/2006/10/11/datamodel-view-viewmodel-pattern-series.aspx) pattern or [Josh Smith's MVC pattern](http://www.codeproject.com/KB/WPF/MVCtoUnitTestinWPF.aspx) implementations which rely on explicitly defining [RoutedCommand](http://msdn2.microsoft.com/en-us/library/system.windows.input.routedcommand.aspx)s for each action, [binding them up manually](http://msdn2.microsoft.com/en-us/library/ms752308.aspx), and other unpleasantries (in my humble opinion - these guys still know more than I) with this framework you can use any old class, with any old method, and start executing actions immediately.  Here's an example:
 
-<Window x:Class="PostDemo.Window1"  
+&lt;Window x:Class="PostDemo.Window1"  
        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
        xmlns:mvc="http://cromwellhaus.com/wpf/minimvc"  
        xmlns:demo="clr-namespace:PostDemo">  
   
-    <mvc:MiniMVC.Controller>  
-        <demo:Window1Controller/>  
-    </mvc:MiniMVC.Controller>  
+    &lt;mvc:MiniMVC.Controller>  
+        &lt;demo:Window1Controller/>  
+    &lt;/mvc:MiniMVC.Controller>  
       
-    <StackPanel>  
-        <TextBox x:Name="txtMessage"Text="" />  
-        <Button>  
-            <mvc:MiniMVC.Action>  
-                <mvc:ControllerAction Trigger="Click"Action="Echo"   
+    &lt;StackPanel>  
+        &lt;TextBox x:Name="txtMessage"Text="" />  
+        &lt;Button>  
+            &lt;mvc:MiniMVC.Action>  
+                &lt;mvc:ControllerAction Trigger="Click"Action="Echo"   
                        Return="{BindingElementName=txtResult,Path=Text}">  
-                    <mvc:ParameterParameterName="message"   
+                    &lt;mvc:ParameterParameterName="message"   
                            Value="{BindingElementName=txtMessage,Path=Text}" />  
-                </mvc:ControllerAction>  
-            </mvc:MiniMVC.Action>  
+                &lt;/mvc:ControllerAction>  
+            &lt;/mvc:MiniMVC.Action>  
            Write Something  
-       </Button>  
-        <TextBlock x:Name="txtResult" />  
-    </StackPanel>  
-</Window>  
+       &lt;/Button>  
+        &lt;TextBlock x:Name="txtResult" />  
+    &lt;/StackPanel>  
+&lt;/Window>  
 
 Here's what's going on:
 
@@ -51,5 +51,3 @@ Cool?  So what's *really* going on?  Well, MiniMVC is handling the most import
 I must give a lot of credit to [Rob Eisenberg](http://devlicio.us/blogs/rob_eisenberg/default.aspx)'s super-awesome [Caliburn](http://caliburn.tigris.org/) project on which much of the Action dependency property is based.  His framework is full featured to the tilt, but is a little over done to my liking with the extensive use of Dependency Injection.  If you find MiniMVC useful, though, I highly recommend you watch for progress on Caliburn.
 
 You can download the full solution, including demo's, from the presentation, as well as the above example project [here](http://cromwellhaus.com/files/folders/wpf/entry581.aspx).
-
-

@@ -12,21 +12,23 @@ permalink: "/2010/07/advanced-wpf-listbox-scenario-representing-and-selecting-an
 
 I’ve never found a use for the XmlDataProvider natively in Xaml for a shipping app, but today a [@malevy](http://www.twitter.com/malevy) had a situation that sounded interesting.  He has an Xml document structured as follows:
 
-> <Owners>
->
->     <Owner name=”’”>
->
->         <Pet name=”” />
->
->         <Pet name=”” />
->
->     <Owner name=””>
->
->     …
->
-> </Owners>
+```xml
+<Owners>
 
-He wanted to be able to represent this hierarchy in a ListBox, but actually select from the Pets.  Bonus points for the egregious expander as the owner container.  In the end it was a combination of XmlDataProvider pointing to the Pet nodes, a CollectionViewSource using a GroupDescription which walked up the XPath to Owner\@name, and the ListBox using an Expander as it’s GroupStyle container.
+    <Owner name=”’”>
+
+        <Pet name=”” />
+
+        <Pet name=”” />
+
+    <Owner name=””>
+
+    …
+
+</Owners>
+```
+
+He wanted to be able to represent this hierarchy in a ListBox, but actually select from the Pets.  Bonus points for the egregious expander as the owner container.  In the end it was a combination of XmlDataProvider pointing to the Pet nodes, a CollectionViewSource using a GroupDescription which walked up the XPath to Owner\\@name, and the ListBox using an Expander as it’s GroupStyle container.
 
 Here is what it looks like in the end:
 

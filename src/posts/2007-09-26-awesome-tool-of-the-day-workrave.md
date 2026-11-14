@@ -17,5 +17,3 @@ permalink: "/2007/09/awesome-tool-of-the-day-workrave/"
 [![One of many exercises presented during a rest break.](http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayWorkRave_7CDF/sshot-1_thumb.png)](http://cromwellhaus.com/blogs/ryanc/WindowsLiveWriter/AwesomeTooloftheDayWorkRave_7CDF/sshot-1.png)
 
 You might feel like your doing less at first, but I guarantee you'll feel much better throughout the day and, in the end, be more productive.  Over time, I learned to do some of these things on my own, but this is just a gentle tap on the shoulder.
-
-

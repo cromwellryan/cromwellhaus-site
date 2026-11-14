@@ -4,7 +4,16 @@
   --muted: #656d76;
   --accent: #b4441b;
   --rule: #e6e2dc;
-  --code-bg: #f3f1ed;
+  --code-bg: #f6f4f0;
+  --code-border: #e6e2dc;
+  --tok-comment: #6e7781;
+  --tok-keyword: #a626a4;
+  --tok-string: #2e7d32;
+  --tok-number: #b35900;
+  --tok-type: #0b6bcb;
+  --tok-tag: #c2185b;
+  --tok-attr: #8a5a00;
+  --tok-punct: #57606a;
   --measure: 42rem;
   color-scheme: light dark;
 }
@@ -16,7 +25,16 @@
     --muted: #9aa0a6;
     --accent: #f0875a;
     --rule: #2c3035;
-    --code-bg: #202328;
+    --code-bg: #1d2024;
+    --code-border: #2c3035;
+    --tok-comment: #7d8590;
+    --tok-keyword: #d2a8ff;
+    --tok-string: #a5d6a7;
+    --tok-number: #f0b072;
+    --tok-type: #79c0ff;
+    --tok-tag: #ff7b9c;
+    --tok-attr: #e3c07a;
+    --tok-punct: #9aa0a6;
   }
 }
 
@@ -74,9 +92,33 @@ h1 { font-size: 2rem; margin: 0 0 0.25rem; }
 .content table { border-collapse: collapse; display: block; overflow-x: auto; }
 .content td, .content th { border: 1px solid var(--rule); padding: 0.3rem 0.6rem; }
 
-code, pre { font: 0.85rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+code, pre { font: 0.8rem/1.55 ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace; tab-size: 4; }
 :not(pre) > code { background: var(--code-bg); padding: 0.1em 0.3em; border-radius: 3px; }
-pre { background: var(--code-bg); padding: 1rem; overflow-x: auto; border-radius: 6px; }
+pre {
+  margin: 1.5rem 0;
+  padding: 1rem 1.15rem;
+  background: var(--code-bg);
+  border: 1px solid var(--code-border);
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre;
+}
+pre code { background: none; padding: 0; font-size: inherit; }
+/* Let wide code use more than the text measure on large screens. */
+@media (min-width: 60rem) {
+  .content pre { margin-left: -2rem; margin-right: -2rem; }
+}
+
+/* Prism tokens (build-time highlighting). */
+.token.comment, .token.prolog, .token.doctype, .token.cdata { color: var(--tok-comment); font-style: italic; }
+.token.keyword, .token.boolean, .token.important, .token.atrule { color: var(--tok-keyword); }
+.token.string, .token.char, .token.attr-value, .token.regex, .token.inserted { color: var(--tok-string); }
+.token.number, .token.constant, .token.symbol, .token.variable { color: var(--tok-number); }
+.token.class-name, .token.function, .token.namespace, .token.builtin { color: var(--tok-type); }
+.token.tag, .token.selector, .token.deleted { color: var(--tok-tag); }
+.token.attr-name, .token.property { color: var(--tok-attr); }
+.token.punctuation, .token.operator { color: var(--tok-punct); }
+.token.attr-value .token.punctuation { color: inherit; }
 
 .notice {
   margin: 1.5rem 0;

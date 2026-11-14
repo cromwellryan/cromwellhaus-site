@@ -14,8 +14,8 @@ Someone was looking to do quick-and-dirty validation of an Xml document inside a
 
 > declare @xml1 xml    
 > declare @xml2 xml    
-> set @xml1 = '<Node1><Node2 attrib="This is it." /></Node1>'  
-> set @xml2 = '<Node1><Node2 /></Node1>'  
+> set @xml1 = '&lt;Node1>&lt;Node2 attrib="This is it." />&lt;/Node1>'  
+> set @xml2 = '&lt;Node1>&lt;Node2 />&lt;/Node1>'  
 > select Col.value('count(./@attrib)', 'int') as count  
 > from @xml1.nodes('Node1/Node2') as Tbl(Col)
 >
@@ -28,8 +28,8 @@ After being told, "that blows up", I jogged the memory a bit and came up with th
 > DECLARE @hdoc int  
 > DECLARE @doc1 varchar(MAX)  
 > DECLARE @doc2 varchar(MAX)  
-> set @doc1 = '<Node1><Node2 attrib="This is it." /></Node1>'  
-> set @doc2 = '<Node1><Node2 /></Node1>'  
+> set @doc1 = '&lt;Node1>&lt;Node2 attrib="This is it." />&lt;/Node1>'  
+> set @doc2 = '&lt;Node1>&lt;Node2 />&lt;/Node1>'  
 > /\* DOC 1 \*/  
 > EXEC sp\_xml\_preparedocument @hdoc OUTPUT, @doc1
 >

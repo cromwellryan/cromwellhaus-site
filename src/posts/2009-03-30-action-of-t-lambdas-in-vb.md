@@ -13,15 +13,8 @@ permalink: "/2009/03/action-of-t-lambdas-in-vb/"
 Until VB catches up with C# in the lambda support realm, here is how you can accomplish those [Moq](http://code.google.com/p/moq/) or [Rhino.Mocks](http://ayende.com/projects/rhino-mocks.aspx) style verifications in VB:
 
 ```
-```
 dim someSub as Action(Of double) = AddressOf mockObject.SomeSub
-```
-
-```
 Rhino.Mocks.Expect.Call( someSub)
-```
 ```
 
 It’s very frustrating going from the full support in C# to VB, but I’m finding sufficient workaround for most items.  I shouldn’t be so hard on VB.  C# doesn’t support inline of Xml which is pretty friggin’ sweet.
-
-

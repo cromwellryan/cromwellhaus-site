@@ -34,7 +34,7 @@ Right click the project MVC project and click *Build Deployment Package*.
 
 [![image](/images/wp-content/uploads/2012/05/image_thumb3.png "image")](http://cromwellhaus.com/wp-content/uploads/2012/05/image3.png)
 
-This will create your package as a folder with a series of files under <Project>\obj\package.
+This will create your package as a folder with a series of files under &lt;Project>\\obj\\package.
 
 [![image](/images/wp-content/uploads/2012/05/image_thumb4.png "image")](http://cromwellhaus.com/wp-content/uploads/2012/05/image4.png)
 

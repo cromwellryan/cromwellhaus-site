@@ -16,35 +16,32 @@ In my world, a checkbox always seemed to imply true/false or yes/no.  In realit
 
 Making it work as a boolean indicator in your MVC application, is possible though.  In keeping with the Membership/Authorization theme from [yesterday](/2007/12/asp-net-mvc-and-forms-authentication/), I have the following controller action:
 
-> ```
-> public void Authenticate(string userName, string password, bool? rememberMe)
-> ```
+```
+public void Authenticate(string userName, string password, bool? rememberMe)
+```
 
 ```
 [Hint: Notice the '?' after bool for the third parameter.  That'll be important in a moment.]
-```
-
-```
 Here is the corresponding Login.aspx View which contains a form posting to this action:
 ```
 
-> ```
-> <%using (Html.Form("Authenticate", "Account"))
->   { %>
->     <div style="margin: auto auto 4px auto">Username
->         <%=Html.TextBox( "username") %> </div>
->     <div style="margin: auto auto 4px auto">Password &nbsp;
->         <%=Html.Password( "password") %></div>
->
->     <div style="margin: auto auto 4px auto">
->         <%=Html.CheckBox("rememberme", "Remember Me", "true", false)%>
->     </div>
-> ```
->
-> ```
->     <div><%=Html.SubmitButton( "Log In") %></div>
-> <%} %>
-> ```
+```xml
+<%using (Html.Form("Authenticate", "Account"))
+  { %>
+    <div style="margin: auto auto 4px auto">Username
+        <%=Html.TextBox( "username") %> </div>
+    <div style="margin: auto auto 4px auto">Password &nbsp;
+        <%=Html.Password( "password") %></div>
+
+    <div style="margin: auto auto 4px auto">
+        <%=Html.CheckBox("rememberme", "Remember Me", "true", false)%>
+    </div>
+```
+
+```xml
+    <div><%=Html.SubmitButton( "Log In") %></div>
+<%} %>
+```
 
 Looking at our intellisense for Html.Checkbox, we see[![image](http://cromwellhaus.com/blogphotos/ASP.NetMVCCheckboxbooleanValueMapping_138C8/image_thumb.png)](http://cromwellhaus.com/blogphotos/ASP.NetMVCCheckboxbooleanValueMapping_138C8/image.png)
 

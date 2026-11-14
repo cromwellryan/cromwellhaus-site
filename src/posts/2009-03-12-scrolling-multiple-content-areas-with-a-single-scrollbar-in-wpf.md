@@ -18,58 +18,20 @@ Unfortunately, the offset values exposed by the ScrollViewer are both readonly a
 
 Here we can see the Xaml used to layout and hookup this scenario:
 
-```
-```
+```xml
 <StackPanel>
-```
-
-```
     <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden">
-```
-
-```
         <Grid>
-```
-
-```
             <Grid.RenderTransform>
-```
-
-```
                 <TranslateTransform X="{Binding ElementName=mainScroller, Path=HorizontalOffset, Converter={StaticResource multiplyConv}, ConverterParameter=-1}" />
-```
-
-```
             </Grid.RenderTransform>
-```
-
-```
             <!-- Content Scrolled by another goes here -->
-```
-
-```
         </Grid>
-```
-
-```
     </ScrollViewer>
-```
-
-```
     <ScrollViewer x:Name="mainScroller" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-```
-
-```
         <!-- Content Scrolled on its own accord goes here-->
-```
-
-```
     </ScrollViewer>
-```
-
-```
 </StackPanel>
-```
 ```
 
 You can see that we have two ScrollViewers and the one which will be controlled (versus the controller) has a container element with a [TranslateTransform](http://msdn.microsoft.com/en-us/library/system.windows.media.translatetransform.aspx) applied to its RenderTransform property.  This is what we will be using to move the controlled content in the opposite direction of the ScrollBar.

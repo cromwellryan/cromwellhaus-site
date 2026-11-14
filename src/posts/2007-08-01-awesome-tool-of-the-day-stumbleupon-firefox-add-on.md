@@ -17,5 +17,3 @@ Though there's an inordinate number of buttons on the default toolbar layout, [S
 I warn you, it is very addictive, but if you choose topics you are actually interested in, you'll find quite a few cool and relevant sites.  [Check out](http://cromwellryan.stumbleupon.com) my recommended sites so far..
 
 [Get the StumbleUpon Add-On](https://addons.mozilla.org/en-US/firefox/addon/138)
-
-

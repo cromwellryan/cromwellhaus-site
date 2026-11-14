@@ -20,5 +20,3 @@ Here are some pretty nice sites with some Illustrator Vector resources you can u
 - [http://tutorialblog.org/free-vector-downloads/](http://tutorialblog.org/free-vector-downloads/ "http://tutorialblog.org/free-vector-downloads/")
 
 I think we really need a site where people can upload and share WPF resources.  This would be great for styles, templates, etc. which can be time consuming and difficult for non-design people like I.
-
-

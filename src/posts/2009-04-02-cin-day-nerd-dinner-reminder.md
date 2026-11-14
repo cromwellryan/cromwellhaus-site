@@ -11,5 +11,3 @@ permalink: "/2009/04/cin-day-nerd-dinner-reminder/"
 ---
 
 This is just a quick reminder that tomorrow (April 2nd) we will be having our first [Cin-Day Nerd Dinner](http://tinyurl.com/cinday).  If you are planning on coming, but haven’t RSVP’ed please do so [here](http://tinyurl.com/cinday) so that I can warn [Dewey’s Pizza in West Chester](http://deweyspizza.com/cincinnati/westchester) of the raucous crowd to be expected.  Can’t wait to see everyone.
-
-
