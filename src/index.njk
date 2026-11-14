@@ -8,6 +8,16 @@ permalink: "{% if pagination.pageNumber == 0 %}/{% else %}/page/{{ pagination.pa
 eleventyComputed:
   title: "{% if pagination.pageNumber > 0 %}Page {{ pagination.pageNumber + 1 }}{% endif %}"
 ---
+{%- if pagination.pageNumber == 0 %}
+<section class="hero">
+  <div class="hero-inner">
+    <h1 class="hero-title"><em>Hello,</em> I'm <span class="hero-name">Ryan</span>.</h1>
+    <p class="hero-intro">{{ site.intro }}</p>
+    <p class="hero-links"><a href="/about/">More about me</a><a href="/archive/">Everything I've written</a></p>
+  </div>
+</section>
+<h2 class="section-title">Recent writing</h2>
+{%- endif %}
 <ol class="post-list">
   {%- for post in posts %}
   <li>
