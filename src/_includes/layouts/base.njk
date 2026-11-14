@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="{{ site.theme }}">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,16 +8,6 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/themes.css">
-  {#- Theme preview: ?theme=paper|ink|harbor|dusk (remembered while browsing). Remove once a theme is chosen. #}
-  <script>
-    (() => {
-      const q = new URLSearchParams(location.search).get("theme");
-      if (q) localStorage.setItem("theme", q);
-      const t = localStorage.getItem("theme");
-      if (t) document.documentElement.dataset.theme = t;
-    })();
-  </script>
 </head>
 <body>
   <header class="site-header">

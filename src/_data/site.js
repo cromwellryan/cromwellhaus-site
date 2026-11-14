@@ -5,8 +5,6 @@ export default {
   description: "Software, teams, and the craft of building things — writing since 2005.",
   author: "Ryan Cromwell",
   intro: "I've been building software professionally for more than 20 years and leading the teams that build it for much of that. I write about engineering leadership, delivery, and the craft of making things.",
-  // paper | ink | harbor | dusk (see css/themes.css); "" keeps the base look.
-  theme: "paper",
   nav: [
     { label: "Archive", url: "/archive/" },
     { label: "Categories", url: "/category/" },
