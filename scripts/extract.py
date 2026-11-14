@@ -6,6 +6,7 @@ Reads RAW_DIR/index.tsv (file, timestamp, original url).
 import json
 import re
 import sys
+import textwrap
 from datetime import datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -21,6 +22,147 @@ CONTENT_SEL = [
     ".entry", ".post-body", ".content", ".PostContent", ".postbody",
 ]
 MORE_RE = re.compile(r"(continue reading[^.]{0,40}$|read more\W*$|read the rest[^.]{0,40}$|\[(\.\.\.|…|&hellip;)\]\W*$|…\s*$)", re.I)
+
+
+CODE_LINE = re.compile(
+    r"(^\s*[{}()\]]+;?\s*$|;\s*$|^\s*</?[\w:.-]+[\s>/]|^\s*(public|private|protected|internal|static|using|namespace|"
+    r"class|var|return|if|else|foreach|for|function|def|defmodule|end|Dim|End Sub|SELECT|FROM|WHERE|INSERT|"
+    r"UPDATE|CREATE|\$\w+)\b|=>|\$\w+\s*=|\w+\(.*\)\s*\{?\s*$)"
+)
+
+
+def guess_language(text):
+    t = text.strip()
+    if not t:
+        return ""
+    if t.startswith("<"):
+        return "xml"
+    if re.search(r"\bdefmodule\b|\|>|\bdo\s*$|\bIO\.puts\b", t, re.M):
+        return "elixir"
+    if re.search(r"\b(Dim|End Sub|End Function|Sub \w+\()", t):
+        return "vbnet"
+    if re.search(r"\$\w+|\b\w+-object\b|-\w+ \$", t, re.I) and re.search(r"function |new-object|\$\w+\s*=|\| ?(%|foreach|where)", t, re.I):
+        return "powershell"
+    if re.search(r"\b(SELECT|INSERT INTO|UPDATE|CREATE (TABLE|PROC)|DECLARE @)\b", t) and not re.search(r"\b(public|class)\b", t):
+        return "sql"
+    if re.search(r"^\s*(\$ |brew |sudo |git |cd |npm |mix )", t, re.M):
+        return "bash"
+    if re.search(r"\bfunction\s*\w*\s*\(|\$\(|\bdocument\.|\bconsole\.log\b|\brequire\(|\bmodule\.exports\b", t):
+        return "javascript"
+    if re.search(r"\b(public|private|protected|namespace|using System|void|string|new \w+)\b|\bvar \w+ = |=>", t) and ";" in t:
+        return "csharp"
+    return ""
+
+
+def line_text(el):
+    """Text of an element with <br> and block boundaries as newlines, nbsp as spaces."""
+    for br in el.find_all("br"):
+        br.replace_with("\n")
+    for blk in el.find_all(["p", "div", "li"]):
+        blk.insert_after("\n")
+    return el.get_text().replace("\xa0", " ")
+
+
+def new_pre(soup, text):
+    text = textwrap.dedent("\n".join(l.rstrip() for l in text.strip("\n").split("\n")))
+    pre = soup.new_tag("pre")
+    code = soup.new_tag("code")
+    code.string = text
+    pre.append(code)
+    lang = guess_language(text)
+    if lang:
+        pre["data-lang"] = lang
+    return pre
+
+
+def normalize_code(soup):
+    """Repair code samples mangled by Live Writer / CopySourceAsHtml style markup."""
+    # 0. <br> line breaks inside <pre>; empty <pre>.
+    for pre in soup.find_all("pre"):
+        for br in pre.find_all("br"):
+            br.replace_with("\n")
+    for pre in soup.find_all("pre"):
+        if pre.parent is not None and not pre.get_text().strip():
+            pre.decompose()
+    # 1. <pre> wrapping one <pre> per line.
+    #    Only the leading run of line-<pre>s is code: an unclosed outer <pre> can swallow
+    #    the rest of the post, which gets moved back out after the merged block.
+    for outer in soup.find_all("pre"):
+        if outer.parent is None or not outer.find("pre", recursive=False):
+            continue
+        kids, lines, rest = list(outer.contents), [], []
+        for i, k in enumerate(kids):
+            if getattr(k, "name", None) == "pre":
+                lines.append(k.get_text().replace("\xa0", " ").rstrip("\n"))
+            elif not (isinstance(k, str) and not k.strip()):
+                rest = kids[i:]
+                break
+        if not lines:
+            continue
+        anchor = new_pre(soup, "\n".join(lines))
+        outer.replace_with(anchor)
+        for k in rest:
+            k.extract()
+            anchor.insert_after(k)
+            anchor = k
+    # 2. Runs of sibling <pre> elements (one per line) -> one block.
+    for pre in soup.find_all("pre"):
+        if pre.parent is None:
+            continue
+        run = [pre]
+        sib = pre.next_sibling
+        while sib is not None and (sib.name == "pre" or (isinstance(sib, str) and not sib.strip())):
+            if sib.name == "pre":
+                run.append(sib)
+            sib = sib.next_sibling
+        if len(run) > 1 and all(len(p.get_text().strip("\n").split("\n")) <= 2 for p in run):
+            merged = new_pre(soup, "\n".join(p.get_text().replace("\xa0", " ").rstrip("\n") for p in run))
+            run[0].replace_with(merged)
+            for p in run[1:]:
+                p.decompose()
+    # 3. Code formatted as quotes / monospace divs.
+    for el in soup.find_all(["blockquote", "div"]):
+        if el.parent is None or el.find("pre"):
+            continue
+        style = (el.get("style") or "").lower()
+        cls = " ".join(el.get("class") or []).lower()
+        mono = any(f in style for f in ("consolas", "courier", "monospace")) or any(
+            c in cls for c in ("csharpcode", "code", "wlwritereditablesmartcontent"))
+        if el.name == "div" and not mono:
+            continue
+        if el.find(["blockquote", "img", "table", "ul", "ol"]):
+            continue
+        text = line_text(BeautifulSoup(str(el), "lxml"))
+        lines = [l for l in text.split("\n") if l.strip()]
+        if len(lines) < 2:
+            continue
+        codey = sum(1 for l in lines if CODE_LINE.search(l))
+        if codey / len(lines) >= (0.4 if mono else 0.6):
+            el.replace_with(new_pre(soup, text))
+    # 4. A blockquote that only wraps a code block is presentation, not a quote.
+    squash = lambda s: re.sub(r"\s+", "", s)
+    for bq in soup.find_all("blockquote"):
+        pres = bq.find_all("pre")
+        if pres and squash(bq.get_text()) == "".join(squash(p.get_text()) for p in pres):
+            bq.unwrap()
+    # 5. Tag remaining <pre> with a guessed language.
+    for pre in soup.find_all("pre"):
+        if not pre.get("data-lang"):
+            lang = guess_language(pre.get_text())
+            if lang:
+                pre["data-lang"] = lang
+    # 6. Literal "<tag>" and "\" in prose must survive Markdown. Placeholders are swapped
+    #    back after conversion by unplaceholder() (markdownify would mangle real entities).
+    for s in soup.find_all(string=lambda t: "<" in t or "\\" in t):
+        if not s.find_parent(["pre", "code"]) and s.parent is not None and s.__class__.__name__ == "NavigableString":
+            s.replace_with(s.replace("\\", PH_BS).replace("<", PH_LT))
+
+
+PH_LT, PH_BS = "\ue000", "\ue001"  # private-use placeholders
+
+
+def unplaceholder(md):
+    return md.replace(PH_BS, "\\\\").replace(PH_LT, "&lt;")
 
 
 def norm_title(t):
@@ -188,9 +330,22 @@ OUT.mkdir(parents=True, exist_ok=True)
 (OUT / "posts").mkdir(exist_ok=True)
 (OUT / "pages").mkdir(exist_ok=True)
 
+def code_breaks(html):
+    """Line breaks inside <pre>: some re-imported copies flattened code onto one line."""
+    soup = BeautifulSoup(html, "lxml")
+    return sum(p.get_text().count("\n") + len(p.find_all("br")) for p in soup.find_all("pre"))
+
+
+def pick_best(cands):
+    full = [c for c in cands if not c["excerpt"]] or cands
+    top = max(c["len"] for c in full)
+    near = [c for c in full if c["len"] >= 0.85 * top]
+    return max(near, key=lambda c: (code_breaks(c["html"]) > 0, c["len"]))
+
+
 # Fold excerpt-only groups into the full post they were cut from (retitled across eras).
 def opening(cands):
-    best = max(cands, key=lambda c: (not c["excerpt"], c["len"]))
+    best = pick_best(cands)
     return best, norm_title(BeautifulSoup(best["html"], "lxml").get_text(" ", strip=True)[:150])[:80]
 
 
@@ -205,7 +360,7 @@ for key, (best, op) in list(openings.items()):
 
 report = []
 for key, cands in merged.items():
-    best = max(cands, key=lambda c: (not c["excerpt"], c["len"]))
+    best = pick_best(cands)
     slug = next((c["slug"] for c in cands if c["slug"] and not c["slug"].isdigit()), None) \
         or re.sub(r"[^a-z0-9]+", "-", best["title"].lower()).strip("-")[:80]
     date = next((c["date"] for c in cands if c["date"]), None)
@@ -219,7 +374,10 @@ for key, cands in merged.items():
     body = BeautifulSoup(best["html"], "lxml")
     for el in body.select('img[src*="feedburner.com"], a[href*="feedburner.com"], img[src*="feeds.wordpress.com"], img[src*="aggbug"]'):
         el.decompose()
-    md = markdownify(str(body.body or body), heading_style="ATX", bullets="-", code_language="").strip()
+    normalize_code(body)
+    md = markdownify(str(body.body or body), heading_style="ATX", bullets="-",
+                     code_language_callback=lambda el: el.get("data-lang") or "").strip()
+    md = unplaceholder(md)
     md = re.sub(r"\n{3,}", "\n\n", md)
     fm = {
         "title": best["title"],

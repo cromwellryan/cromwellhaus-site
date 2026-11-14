@@ -34,7 +34,7 @@ Since WebpiCmd is just writing dumb lines of text, I can’t interrogate the Pro
 
 WPI works against feeds, so we’re going to create our own feed just for this product.  You might maintain a growing list of products in this feed, but that’s beyond this post.  To create your offline feed we’ll use the (drum roll) /Offline option:
 
-> WebpiCmd.exe /offline /Products:ServiceBusBeta /Path:C:\wpi-offline
+> WebpiCmd.exe /offline /Products:ServiceBusBeta /Path:C:\\wpi-offline
 
 NOTE: The Service Bus 1.0 entry in WPI seems like it has a problem with the App Fabric dependency.  I’m told that’s fixed now.
 
@@ -44,7 +44,7 @@ Once everything is resolved and downloaded, you can use it with WPI GUI or Webpi
 
 You can not automate-all-the-things with:
 
-> webpicmd /install /Products:ServiceBus /xml:c:\wpi-offline\feeds\latest\webproductlist.xml
+> webpicmd /install /Products:ServiceBus /xml:c:\\wpi-offline\\feeds\\latest\\webproductlist.xml
 
 Or do the GUI thing by checking out WPI options:
 

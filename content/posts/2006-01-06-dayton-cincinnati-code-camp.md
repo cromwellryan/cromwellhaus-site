@@ -13,5 +13,3 @@ permalink: "/2005/12/dayton-cincinnati-code-camp/"
 The [final schedule](http://daytondevgroup.net/CampSchedule.aspx) for the [Dayton-Cincinnati Code Camp](http://daytondevgroup.net/CodeCamp.aspx) to be held January 21st has been released.  I'm really looking forward to Jim Weirich's session on [Ruby on Rails](http://daytondevgroup.net/campSessions.aspx#rails) and the especially interesting [Developing for Windows Media Center (with Xbox 360!)](http://daytondevgroup.net/campSessions.aspx#wmc) session by Jason Follas and Greg Huber.
 
 I'll be following [Mike Wood](http://blog.the-woods.org/) with a session on WSE 3.0.  I plan to recreate the Generic WSE Host service tool we use at Speedway to deploy new services which don't have an otherwise reliable or acceptable host process.
-
-

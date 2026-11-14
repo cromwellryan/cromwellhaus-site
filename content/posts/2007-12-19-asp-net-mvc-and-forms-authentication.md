@@ -22,7 +22,7 @@ Long story short, I figured out how to get things working, but there are some ma
 
 [![image](http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb_3.png)](http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_3.png) **[Step 3]** We don’t need to add any new Actions, the Index action created for us is sufficient, but we will need to do something.  So add a call to RenderView(“Index”) within the Index method.  You’ll also need to create the *index* view, so add a folder called *Secure* under the Views folder already in your project.  To this we will need to add a new MVC View Page item.  To make it clear, I’ve typed “This is for admin eyes only!!!” as the body of my view.
 
-At this point we should make sure things are working.  Hitting F5 should take you to the root of the site, but you could well end up at /Views/Secure/Index.aspx or something like that.  Try browsing to <http://localhost:<port>/secure/index>.  You should see the “This is for admin eyes only!!!” text.  If not, go watch Scott’s screencast and come back.
+At this point we should make sure things are working.  Hitting F5 should take you to the root of the site, but you could well end up at /Views/Secure/Index.aspx or something like that.  Try browsing to [http://localhost:&lt;port>/secure/index](http://localhost:<port>/secure/index).  You should see the “This is for admin eyes only!!!” text.  If not, go watch Scott’s screencast and come back.
 
 [![image](http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_thumb_4.png)](http://cromwellhaus.com/blogphotos/ASP.NetMVCandFormsAuthentication_146AB/image_4.png) **[Step 4]** We’re ready to start securing things.  Use the ASP.Net Configuration button to set security to Internet, create a couple of users and at least 1 role called *Administrators*.  This is for our example, you can call your roles whatever you want in your application.
 
@@ -30,72 +30,74 @@ At this point, you would normally use the *Create Access Rules* link to specify 
 
 **[Step 5]** Open your projects root web.config and add the following:
 
-> <location path=”secure”>  
->   <system.web>  
->     <authorization>  
->       <allow roles=”Adminstrators” />  
->       <deny users=”\*” />  
->     </authorization>  
->   </system.web>  
-> </location>
+```xml
+<location path=”secure”>
+  <system.web>
+    <authorization>
+      <allow roles=”Adminstrators” />
+      <deny users=”*” />
+    </authorization>
+  </system.web>
+</location>
+```
 
-Assuming you are familiar with MVC URLs this is telling us that the <http://<site>/secure> path should allow access to users in the Adminstrators role and deny everyone else.  /secure is, of course, the controller.  Had this been a standard site, the stuff inside the <location /> element would have been found inside our secure\web.config.
+Assuming you are familiar with MVC URLs this is telling us that the [http://&lt;site>/secure](http://<site>/secure) path should allow access to users in the Adminstrators role and deny everyone else.  /secure is, of course, the controller.  Had this been a standard site, the stuff inside the &lt;location /> element would have been found inside our secure\\web.config.
 
 **[Step 5]** We are now ready to authenticate our users, but we don’t have a normal login.aspx.  Instead, we’re going to create a controller called *UserController* and add a Login and Authenticate action.  Here’s what I’ve added to my sample:
 
-> ```
-> namespace SecureMvcApplication.Controllers
-> {
->     public class UserController : System.Web.Mvc.Controller
->     {
->         [System.Web.Mvc.ControllerAction]
->         public void Login()
->         {
->             RenderView("Login");
->         }
->
->         [System.Web.Mvc.ControllerAction]
->         public void Authenticate(string username, string password)
->         {
->             if (System.Web.Security.Membership.ValidateUser(username, password))
->             {
->                 System.Web.Security.FormsAuthentication.RedirectFromLoginPage(username, false);
->             }
->         }
->     }
-> }
-> ```
+```csharp
+namespace SecureMvcApplication.Controllers
+{
+    public class UserController : System.Web.Mvc.Controller
+    {
+        [System.Web.Mvc.ControllerAction]
+        public void Login()
+        {
+            RenderView("Login");
+        }
+
+        [System.Web.Mvc.ControllerAction]
+        public void Authenticate(string username, string password)
+        {
+            if (System.Web.Security.Membership.ValidateUser(username, password))
+            {
+                System.Web.Security.FormsAuthentication.RedirectFromLoginPage(username, false);
+            }
+        }
+    }
+}
+```
 
 Notice that my Login action is simply displaying a view.  This view has two textboxes (one marked password) and a submit button.  If you watch(ed) Scott’s [Screencast](http://www.hanselman.com/blog/ASPNET35ExtensionsPlusMVCHowToScreencast.aspx), I’ve used the [http://asp.net/downloads/3.5-extensions/MVCToolkit.zip](http://asp.net/downloads/3.5-extensions/MVCToolkit.zip "http://asp.net/downloads/3.5-extensions/MVCToolkit.zip") to do this.  The form itself looks like this:
 
-> ```
-> <%using (Html.Form("Authenticate?ReturnUrl=" + this.Request["ReturnUrl"], "User"))
->   {%>
->     <div>Username: <%=Html.TextBox("username") %></div>
->     <div>Password: <%=Html.Password("password") %></div>
->     <div><%=Html.SubmitButton("Login") %></div>
-> <%} %>
-> ```
+```xml
+<%using (Html.Form("Authenticate?ReturnUrl=" + this.Request["ReturnUrl"], "User"))
+  {%>
+    <div>Username: <%=Html.TextBox("username") %></div>
+    <div>Password: <%=Html.Password("password") %></div>
+    <div><%=Html.SubmitButton("Login") %></div>
+<%} %>
+```
 
 Upon Submit/Login, we’re POSTing to the *Authenticate( string, string )* Action in our UserController which implements the basic Forms Authentication (above).  The next step is optional, but it helped me watch the authorization status.
 
 **[Step 6]** (Optional)  Add this to your global.asax.cs to see the authorization status of your requests..
 
-> ```
-> protected void Application_AuthenticateRequest(object sender, EventArgs e)
-> {
->     HttpCookie authCookie = Context.Request.Cookies[FormsAuthentication.FormsCookieName];
->
->     if (null == authCookie)
->     {//There is no authentication cookie.
->         Debug.WriteLine("Don't know you, dude.");
->     }
->     else
->         Debug.WriteLine("Enjoy the party!");
-> }
-> ```
+```csharp
+protected void Application_AuthenticateRequest(object sender, EventArgs e)
+{
+    HttpCookie authCookie = Context.Request.Cookies[FormsAuthentication.FormsCookieName];
 
-Now F5 and browse to <http://localhost:<port>/secure/index> and you should be taken to the <http://localhost:<port>/user/login> page.  Upon hitting login, you’re directed back to the root of the site.  In our form, we had to manually set the ReturnUrl, because Forms Authentication assumes you will be posting back to yourself (classic ASP.Net Web Form).  We’re posting across to the Authenticate action Url.
+    if (null == authCookie)
+    {//There is no authentication cookie.
+        Debug.WriteLine("Don't know you, dude.");
+    }
+    else
+        Debug.WriteLine("Enjoy the party!");
+}
+```
+
+Now F5 and browse to [http://localhost:&lt;port>/secure/index](http://localhost:<port>/secure/index) and you should be taken to the [http://localhost:&lt;port>/user/login](http://localhost:<port>/user/login) page.  Upon hitting login, you’re directed back to the root of the site.  In our form, we had to manually set the ReturnUrl, because Forms Authentication assumes you will be posting back to yourself (classic ASP.Net Web Form).  We’re posting across to the Authenticate action Url.
 
 You can download the completed VS 2008 project I used [here](http://cromwellhaus.com/files/folders/netcode/entry468.aspx).
 

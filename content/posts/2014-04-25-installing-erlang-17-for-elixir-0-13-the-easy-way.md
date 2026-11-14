@@ -18,7 +18,7 @@ ERROR: OTP release R16B03-1 does not match required regex (17).*
 
 The current Erlang brew formula is still at R16B03-1.  BUT! the development version IS 17.  So here you go:
 
-```
+```bash
 brew install --devel erlang
 ```
 

@@ -19,9 +19,7 @@ The current version of Illustrator is C3, but the current/latest version of Xaml
 3. Open Visual Studio 2005 (you can probably use 2008/Orcas, but I didn't).
 4. Create a new project (I used C# Console), but I'm sure VB WinForms, etc will work just as well.
 5. Add a COM Reference to Adobe Illustrator C3 Type Library.
-6. Browse to the <project>\bin\Debug|Release directory and copy the Interop.Illustrator.dll to the XamlXporter binary directory.
+6. Browse to the &lt;project>\\bin\\Debug|Release directory and copy the Interop.Illustrator.dll to the XamlXporter binary directory.
 7. Start up the XamlXporter according to the instructions and Voila!
 
 If you're lazy, you can download the Interop assembly I created [here](http://cromwellhaus.com/files/folders/wpf/entry220.aspx)
-
-

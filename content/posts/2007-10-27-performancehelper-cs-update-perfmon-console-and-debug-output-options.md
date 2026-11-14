@@ -12,24 +12,24 @@ permalink: "/2007/10/performancehelper-cs-update-perfmon-console-and-debug-outpu
 
 I’ve updated my [PerformanceHelper](http://cromwellhaus.com/files/folders/netcode/entry172.aspx) class that I’ll throw around certain code blocks to help trend or monitor performance.  Before it was merely a [PerformanceCounter](http://msdn2.microsoft.com/en-us/library/system.diagnostics.performancecounter.aspx) wrapper with a few metrics, but now you can specify Console, Debug and/or Perfmon.  You do this by using an XOR ( ’|’ ) in a new Constructor.  Here’s an example which outputs to Debug.WriteLine and PerfMon:
 
-> ```
-> for (int index = 0; index < 10; index++)
-> {
->     using (new PerformanceHelper("ConsoleSample",
->         "Perfmon Sample", OutputOptions.Debug | OutputOptions.Perfmon))
->     {
->         Thread.Sleep(500);
->     }
-> }
-> ```
+```csharp
+for (int index = 0; index < 10; index++)
+{
+    using (new PerformanceHelper("ConsoleSample",
+        "Perfmon Sample", OutputOptions.Debug | OutputOptions.Perfmon))
+    {
+        Thread.Sleep(500);
+    }
+}
+```
 
 The method that does the Output to Console and Debug is marked as [Conditional("DEBUG")], because you really should have a better strategy for performance monitoring in production and you don’t want that hit for each block that you wrapped.
 
 Note to Vista Developers:  You will have problems creating custom performance counters at runtime based on registry access.  To support this in a client based app, you will need to specify an application manifest and mark it with the following:
 
-> ```
-> <requestedExecutionLevel  level="requireAdministrator" />
-> ```
+```xml
+<requestedExecutionLevel  level="requireAdministrator" />
+```
 
 For more information on application manifests, [read this](http://blogs.msdn.com/knom/archive/2007/06/11/vista-user-account-control-with-net.aspx).
 

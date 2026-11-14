@@ -13,5 +13,3 @@ permalink: "/2009/03/outlook-2007-huge-performance-improvement/"
 If you use Outlook 2007 go get [this hotfix](http://msexchangeteam.com/archive/2009/03/24/450881.aspx) ([download here](http://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=961752&kbln=en-us)) now.  It’s crazy faster after this update.
 
 Hurry!
-
-

@@ -20,24 +20,26 @@ So I took the first step and created my empty profile:
 
 and added a nice little cmdlet to send email.  This will replace that exe tool I’ve always used to send emails in batch files or just whenever I need to at the command prompt.
 
-> *$defaultSendMailHost = “emcrs71″  
-> $defaultSendMailFrom = [email@email.com](mailto:email@email.com)*
->
-> *function send-mail( [string] $to, [string] $subject, [string] $body )  
-> {  
->      $smtp = new-object System.Net.Mail.SmtpClient  
->      $smtp.Host = $defaultSendMailHost  
->      $email = new-object System.Net.Mail.MailMessage  
->      $email.From = $defaultSendMailFrom  
->      $email.To.Add( $to )  
->      $email.Subject = $subject  
->      $email.Body = $body  
->      $smtp.Send( $email )  
-> }*
+```powershell
+$defaultSendMailHost = “emcrs71″
+$defaultSendMailFrom = email@email.com
+
+function send-mail( [string] $to, [string] $subject, [string] $body )
+{
+     $smtp = new-object System.Net.Mail.SmtpClient
+     $smtp.Host = $defaultSendMailHost
+     $email = new-object System.Net.Mail.MailMessage
+     $email.From = $defaultSendMailFrom
+     $email.To.Add( $to )
+     $email.Subject = $subject
+     $email.Body = $body
+     $smtp.Send( $email )
+}
+```
 
 Start it up again and WHAM…
 
-> File \\<server>\<username>\My Documents\WindowsPowerShell\Microsoft.PowerShell\_profile.ps1 cannot be loaded. The file \\<server>\<username>\My Documents\WindowsPowerShell\Microsoft.PowerShell\_profile.ps1 is not digitally signed. The script will not execute on the system. Please see “get-help about\_signing” for more details.
+> File \\\\&lt;server>\\&lt;username>\\My Documents\\WindowsPowerShell\\Microsoft.PowerShell\_profile.ps1 cannot be loaded. The file \\\\&lt;server>\\&lt;username>\\My Documents\\WindowsPowerShell\\Microsoft.PowerShell\_profile.ps1 is not digitally signed. The script will not execute on the system. Please see “get-help about\_signing” for more details.
 
 Sign *my* scripts?!  How dare you!  I was too annoyed to deal with it and took the ever so appalling step of changing the PowerShell Short cut to point to a local folder on my C drive.  Please don’t stop reading as I’ve learned from my mistakes and have rectified my ways.
 
@@ -52,13 +54,13 @@ In the end, I did what any good PowerShell-er with a growing Profile should do.�
 >
 > function sign-profile()  
 > {  
->     dir $Profiledir\\*.ps1 | foreach-object { sign-script $\_.FullName }  
+>     dir $Profiledir\\\*.ps1 | foreach-object { sign-script $\_.FullName }  
 > }
 >
 > function sign-script( $scriptsource )   
 > {  
 >     get-item $scriptsource   
->     Set-AuthenticodeSignature $scriptsource @(Get-ChildItem cert:\CurrentUser\My -codesigning)[0]  
+>     Set-AuthenticodeSignature $scriptsource @(Get-ChildItem cert:\\CurrentUser\\My -codesigning)[0]  
 > }
 >
 > set-alias sm Send-SmtpMail  

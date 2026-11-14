@@ -21,5 +21,3 @@ Silverlight takes the untold story of Java and actually runs with it by providin
 Imagine starting your family collage with [Shutterfly Studio](http://www.shutterfly.com/studio/overviews.jsp) at home on your laptop, getting to work in the morning and flipping through real layouts with your pictures at work (lunch of course) and then sending your parents a link to the catalog of pictures where they can browse any layout and order their own version of the collage?  No Shutterfly Studio desktop icon or Start Menu shortcut.  Just a one time 20 second download of the Silverlight CLR - yeah the Silverlight CLR is only 4mb.  That's what removing 90% of the [named color members in System.Drawing.Color](http://msdn2.microsoft.com/en-us/library/system.drawing.color_members.aspx) and asking people to look up the HEX value.
 
 Have fun.
-
-

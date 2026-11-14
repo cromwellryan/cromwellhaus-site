@@ -26,14 +26,16 @@ Here’s the gist of his schema (nothing fancy):
 
 How we solved it:
 
-> SELECT Id, Name, STUFF(   
->             (SELECT cat.Name + ‘; ‘ AS [text()]   
->             FROM Category AS cat   
->             INNER JOIN ItemCategories AS ic ON cat.Id = ic.CategoryId   
->             WHERE (ic.ItemId = Item.Id) FOR XML PATH(”)   
->             ), 1, 0, ”   
->               )   
-> FROM Item
+```sql
+SELECT Id, Name, STUFF(
+            (SELECT cat.Name + ‘; ‘ AS [text()]
+            FROM Category AS cat
+            INNER JOIN ItemCategories AS ic ON cat.Id = ic.CategoryId
+            WHERE (ic.ItemId = Item.Id) FOR XML PATH(”)
+            ), 1, 0, ”
+              )
+FROM Item
+```
 
 Obviously we would like to move the UI junk out of the DB, but he can deal with that when he understands the 3rd party control a little better.  Right now, he’s giving his customers some more features.
 

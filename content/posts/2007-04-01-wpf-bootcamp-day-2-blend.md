@@ -33,5 +33,3 @@ The way I feel Templating is best described in relationship to Styling is to say
 To get started with templating, I right click on the standard button and drilled down to Edit Control Parts (Template) -> Create Empty.  If you've done cool stuff with your element already, you can Edit Copy and apply that to other elements rather than start over.  I'll go over a demo to create a pretty cool button that uses lots of composite elements to have rollover effects (glow), transition effects, etc.
 
  [![](http://cromwellhaus.com/blogphotos/WPFBootcampDay2Blend_DDDB/WPFBootcampBlendButton1CreateEmptyTe1.png)](http://cromwellhaus.com/blogphotos/WPFBootcampDay2Blend_DDDB/WPFBootcampBlendButton1CreateEmptyTe.png)
-
-

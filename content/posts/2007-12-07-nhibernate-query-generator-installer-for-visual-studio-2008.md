@@ -17,7 +17,7 @@ If you are interested in building the installer and running the trunk of NHQG, b
 You can download the Product.wxs pending Ayende approving the new Product.wxs file [here](http://cromwellhaus.com/files/folders/nh/entry438.aspx).
 
 > echo Off  
-> set path=%path%;c:\tools\svn-win32-1.4.4\bin
+> set path=%path%;c:\\tools\\svn-win32-1.4.4\\bin
 >
 > echo get Trunk (Non-Recursive)…  
 > svn co <https://rhino-tools.svn.sourceforge.net/svnroot/rhino-tools/trunk> trunk -q -N  
@@ -37,13 +37,13 @@ You can download the Product.wxs pending Ayende approving the new Product.wxs fi
 >
 > echo build NHQG…  
 > pushd .  
-> cd trunk\NHibernate.Query.Generator  
-> %windir%\Microsoft.NET\Framework64\v2.0.50727\msbuild.exe default.build   
+> cd trunk\\NHibernate.Query.Generator  
+> %windir%\\Microsoft.NET\\Framework64\\v2.0.50727\\msbuild.exe default.build   
 > echo done
 >
 > echo build Installer  
 > cd NHibernate.Query.Generator.Setup  
-> %windir%\Microsoft.NET\Framework\v2.0.50727\msbuild.exe Setup.wixproj   
+> %windir%\\Microsoft.NET\\Framework\\v2.0.50727\\msbuild.exe Setup.wixproj   
 > echo done  
 > popd  
 > PAUSE

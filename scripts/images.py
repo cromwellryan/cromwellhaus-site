@@ -1,6 +1,6 @@
 """Fetch self-hosted images referenced by recovered posts and rewrite links.
 
-Usage: images.py OUT_DIR
+Usage: images.py OUT_DIR [--offline]
 Downloads to OUT_DIR/images/<original path>, rewrites posts to /images/<path>.
 """
 import re
@@ -11,10 +11,11 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 OUT = Path(sys.argv[1])
+OFFLINE = "--offline" in sys.argv  # only map images already downloaded
 IMG_RE = re.compile(r"!\[[^\]]*\]\((\S+?)(?:\s+\"[^\"]*\")?\)|\]\((\S+?\.(?:png|jpe?g|gif|bmp))\)", re.I)
 OWN = re.compile(r"^https?://([a-z0-9-]+\.)?cromwellhaus\.com(:80)?/", re.I)
 
-posts = sorted((OUT / "posts").glob("*.md"))
+posts = sorted((OUT / "posts").glob("*.md")) + sorted((OUT / "pages").glob("*.md"))
 urls = set()
 for p in posts:
     for m in IMG_RE.finditer(p.read_text()):
@@ -30,9 +31,12 @@ for u in sorted(urls):
     if not OWN.match(u):
         path = f"external/{pu.netloc}/{path}"
     dest = OUT / "images" / path
-    local = "/images/" + path
+    local = "/images/" + path.replace(" ", "%20")
     if dest.exists():
         mapping[u] = local
+        continue
+    if OFFLINE:
+        failed.append(u)
         continue
     wb = f"https://web.archive.org/web/2019im_/{u}"
     for attempt in range(4):

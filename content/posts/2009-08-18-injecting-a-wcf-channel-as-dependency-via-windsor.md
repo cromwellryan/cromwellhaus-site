@@ -16,78 +16,40 @@ When working within a closed system which uses WCF and an IoC container you will
 
 What happens is the SomeAppService is often, but not always, a very thin wrapper over the WCF Service.  If you own both ends of this scenario its often nice to remove the WCF layer between.  Maybe you want a different deployment model in some situations such that the WCF service itself can be an in-proc reference.  Other times the front end is in a DMZ and the WCF services needs to be inside the corporate firewall.  Maybe its just easier to run on a dev machine.  Whatever the reason, you don’t always want to be tunneling through WCF.  Plus, its just cool to see it work.
 
-To do this, you can use Windsor’s [FactorySupportFacility](http://using.castleproject.org/display/IoC/Fluent+Registration+API) to return a [ClientBase<T>.Channel](http://msdn.microsoft.com/en-us/library/aa344730.aspx) as the dependency instance.
+To do this, you can use Windsor’s [FactorySupportFacility](http://using.castleproject.org/display/IoC/Fluent+Registration+API) to return a [ClientBase&lt;T>.Channel](http://msdn.microsoft.com/en-us/library/aa344730.aspx) as the dependency instance.
 
-First, you’ll need a little class to expose the ClientBase<T>.Channel since it’s protected:
+First, you’ll need a little class to expose the ClientBase&lt;T>.Channel since it’s protected:
 
-```
-```
+```csharp
 public class ServiceClient<T> : ClientBase<T> where T : class
-```
-
-```
 {
-```
-
-```
     public new T Channel
-```
-
-```
     {
-```
-
-```
         get { return base.Channel;}
-```
-
-```
     }
-```
-
-```
 }
-```
 ```
 
 Second, add the FactorySupportFacility to your WindsorContainer:
 
 ```
-```
 container.AddFacility<FactorySupportFacility>();
-```
 ```
 
 Lastly, register your implementation as either the WCF channel:
 
 ```
-```
 container
-```
-
-```
     .Register(Component.For<ISomeAppService>()
-```
-
-```
                        .UsingFactoryMethod(() => new ServiceClient<IWCFService>().Channel))
-```
 ```
 
 …or the actual implementation:
 
 ```
-```
 container
-```
-
-```
     .Register(Component.For<ISomeAppService>()
-```
-
-```
                   .ImplementedBy<WCFServiceImpl>())
-```
 ```
 
 - [Previous Entry: 1 reason to stick with Windows Virtual PC](/2009/07/1-reason-to-stick-with-windows-virtual-pc/)

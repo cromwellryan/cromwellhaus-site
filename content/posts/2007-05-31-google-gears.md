@@ -21,5 +21,3 @@ I think I can handle all link activity and user actions requesting pages from th
 But, heck, it's not like any of the [RIA](http://www.google.com/search?hl=en&q=RIA+rich+application&btnG=Search "Rich Internet/Interactive Applications") platforms out there today are doing any better at providing infrastructure to move the Internet App as is to the offline client.  This seems like a decent start.  I personally like the idea of having two different targets: client or web, while providing a different targeted experience for either.  We have too much horsepower and money invested in our personal computers to waste it on a serving local web pages.
 
 We'll see.  It's still only beta.
-
-

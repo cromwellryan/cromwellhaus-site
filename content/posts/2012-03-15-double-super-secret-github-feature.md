@@ -20,7 +20,7 @@ We’re seeing the two commits that differentiate the upstream branch defunkt/ma
 
 You won’t find any link or button to get this view… it’s Double Super Secret.  Instead just construct the url as follows:
 
-> http://github.com/<handle>/<repo/compare/<branch>
+> http://github.com/&lt;handle>/&lt;repo/compare/&lt;branch>
 
 If the handle/repo is a fork and the branch is owned by upstream, you’ll get what we see above.
 

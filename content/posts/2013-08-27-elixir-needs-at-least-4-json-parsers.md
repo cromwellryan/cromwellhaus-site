@@ -18,7 +18,7 @@ Then I looked at the [decoder](https://github.com/cblage/elixir-json/blob/master
 
 I don’t like the use of HashDict for objects, but spaces rule out most options like Keyword lists.  I’m also not a huge fan of the nested case for dealing with the *what’s next?* of key/value pairs.
 
-```
+```elixir
 def parse_object( acc, << rest :: binary >> ) do
   { key, rest } = parse_content rest
   { value, rest } = lstrip(rest) |> parse_object_value 
@@ -34,7 +34,7 @@ end
 
 Overall it feels very cohesive.  You can see clearly how the pieces compose after being dispatched from the parse\_content.
 
-```
+```elixir
 def parse_content( << m, rest :: binary >> ) when m in ?0..?9, do: parse_number << m, rest :: binary >>
 def parse_content( << ?", rest :: binary >> ), do: rest |> parse_string
 def parse_content( << ?{, rest :: binary >> ), do: lstrip(rest) |> parse_object
